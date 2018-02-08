@@ -1,0 +1,460 @@
+// ¤p§LÂà¤Æ³]©wÀÉ
+#include TYPE.H
+#include PLAYERS.H
+#include ITEM.H
+
+[CNPC_ChangeItem]
+code = 1
+sol_code = role_­×Ã¹¯«¤M§L
+sol_level = 112
+item_code = item_¥¨¯«¤M§L
+new_job_item = item_¥¨¯«¤M§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 2
+sol_code = role_­×Ã¹¾ÔÂñ§L
+sol_level = 112
+item_code = item_¥¨¾ÔÂñ§L
+new_job_item = item_¥¨¾ÔÂñ§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 3
+sol_code = role_­×Ã¹¯«ºj§L
+sol_level = 112
+item_code = item_¥¨¯«ºj§L
+new_job_item = item_¥¨¯«ºj§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 4
+sol_code = role_­×Ã¹ÅK´u§L
+sol_level = 112
+item_code = item_¥¨ÅK´u§L
+new_job_item = item_¥¨ÅK´u§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 5
+sol_code = role_­×Ã¹±j¤}§L
+sol_level = 112
+item_code = item_¥¨±j¤}§L
+new_job_item = item_¥¨±j¤}§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 6
+sol_code = role_­×Ã¹±j©¸§L
+sol_level = 112
+item_code = item_¥¨±j©¸§L
+new_job_item = item_¥¨±j©¸§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 7
+sol_code = role_­×Ã¹¿Ë½Ã§L
+sol_level = 112
+item_code = item_¥¨¿Ë½Ã§L
+new_job_item = item_¥¨¿Ë½Ã§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 8
+sol_code = role_­×Ã¹·t±þªÌ
+sol_level = 112
+item_code = item_¥¨·t±þªÌ
+new_job_item = item_¥¨·t±þªÌÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 9
+sol_code = role_­×Ã¹­«¼C§L
+sol_level = 112
+item_code = item_¥¨­«¼C§L
+new_job_item = item_¥¨­«¼C§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 10
+sol_code = role_­×Ã¹¼C»¨
+sol_level = 112
+item_code = item_¥¨¼C»¨
+new_job_item = item_¥¨¼C»¨ÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 11
+sol_code = role_­×Ã¹¾Ô®V
+sol_level = 112
+item_code = item_¶³ªZ®V
+new_job_item = item_¶³ªZ®VÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 12
+sol_code = role_­×Ã¹¤k§D
+sol_level = 112
+item_code = item_¤Ûºq§D
+new_job_item = item_¤Ûºq§DÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 13
+sol_code = role_­×Ã¹©òÃM§L
+sol_level = 112
+item_code = item_¥¨©òÃM§L
+new_job_item = item_¥¨©òÃM§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 14
+sol_code = role_­×Ã¹ªê°\ÃM
+sol_level = 112
+item_code = item_¥¨ªê°\ÃM
+new_job_item = item_¥¨ªê°\ÃMÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 15
+sol_code = role_­×Ã¹¯TÃM§L
+sol_level = 112
+item_code = item_¥¨¯TÃM§L
+new_job_item = item_¥¨¯TÃM§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 16
+sol_code = role_­×Ã¹¯«¤}ÃM
+sol_level = 112
+item_code = item_¥¨¯«¤}ÃM
+new_job_item = item_¥¨¯«¤}ÃMÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 17
+sol_code = role_­×Ã¹ÆZ¥Ò§L
+sol_level = 112
+item_code = item_¥¨ÆZ¥Ò§L
+new_job_item = item_¥¨ÆZ¥Ò§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 18
+sol_code = role_­×Ã¹¶H§L
+sol_level = 112
+item_code = item_¥¨¶H§L
+new_job_item = item_¥¨¶H§LÂàÂ¾¥O
+
+[CNPC_ChangeItem]
+code = 19
+sol_code = role_¸q«i§L
+sol_level = 6
+item_code = item_¸q«i§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 20
+sol_code = role_¤k¸q«i§L
+sol_level = 6
+item_code = item_¤k¸q«i§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 21
+sol_code = role_¦µ¤M§L
+sol_level = 18
+item_code = item_¦µ¤M§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 22
+sol_code = role_ºj§L
+sol_level = 18
+item_code = item_ºj§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 23
+sol_code = role_ÃM§L
+sol_level = 18
+item_code = item_ÃM§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 24
+sol_code = role_¤}§L
+sol_level = 18
+item_code = item_¤}§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 25
+sol_code = role_­¸¤M§L
+sol_level = 18
+item_code = item_­¸¤M§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 26
+sol_code = role_»´ÃM§L
+sol_level = 18
+item_code = item_»´ÃM§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 27
+sol_code = role_¼C§L
+sol_level = 18
+item_code = item_¼C§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 28
+sol_code = role_»RÄ]
+sol_level = 18
+item_code = item_»RÄ]
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 29
+sol_code = role_ÆZ§L
+sol_level = 18
+item_code = item_ÆZ§L
+new_job_item = item_¤h§LÁëµ¬¥O
+
+[CNPC_ChangeItem]
+code = 30
+sol_code = role_¤j¤M§L
+sol_level = 46
+item_code = item_¤j¤M§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 31
+sol_code = role_ÁåÂñ§L
+sol_level = 46
+item_code = item_ÁåÂñ§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 32
+sol_code = role_ªøºj§L
+sol_level = 46
+item_code = item_ªøºj§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 33
+sol_code = role_´u§L
+sol_level = 46
+item_code = item_´u§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 34
+sol_code = role_ªø¤}§L
+sol_level = 46
+item_code = item_ªø¤}§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 35
+sol_code = role_©¸§L
+sol_level = 46
+item_code = item_©¸§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 36
+sol_code = role_ªñ½Ã§L
+sol_level = 46
+item_code = item_ªñ½Ã§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 37
+sol_code = role_¨ë«È
+sol_level = 46
+item_code = item_¨ë«È
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 38
+sol_code = role_ÅKÃM§L
+sol_level = 46
+item_code = item_ÅKÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 39
+sol_code = role_¦I¥£§L
+sol_level = 46
+item_code = item_¦I¥£§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 40
+sol_code = role_´åÃM§L
+sol_level = 46
+item_code = item_´åÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 41
+sol_code = role_¤}ÃM§L
+sol_level = 46
+item_code = item_¤}ÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 42
+sol_code = role_ªø¼C§L
+sol_level = 46
+item_code = item_ªø¼C§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 43
+sol_code = role_¼C¤h
+sol_level = 46
+item_code = item_¼C¤h
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 44
+sol_code = role_»R®V
+sol_level = 46
+item_code = item_»R®V
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 45
+sol_code = role_ºq®V
+sol_level = 46
+item_code = item_ºq®V
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 46
+sol_code = role_Äð¥Ò§L
+sol_level = 46
+item_code = item_Äð¥Ò§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 47
+sol_code = role_²rÃ~§L
+sol_level = 46
+item_code = item_²rÃ~§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 48
+sol_code = role_ºë¾U¤j¤M§L
+sol_level = 64
+item_code = item_ºë¾U¤j¤M§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 49
+sol_code = role_ºë¾Uªøºj§L
+sol_level = 64
+item_code = item_ºë¾Uªøºj§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 50
+sol_code = role_ºë¾Uªø¤}§L
+sol_level = 64
+item_code = item_ºë¾Uªø¤}§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 51
+sol_code = role_ºë¾Uªñ½Ã§L
+sol_level = 64
+item_code = item_ºë¾Uªñ½Ã§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 52
+sol_code = role_ºë¾UÁåÂñ§L
+sol_level = 64
+item_code = item_ºë¾UÁåÂñ§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 53
+sol_code = role_ºë¾U´u§L
+sol_level = 64
+item_code = item_ºë¾U´u§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 54
+sol_code = role_ºë¾U©¸§L
+sol_level = 64
+item_code = item_ºë¾U©¸§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 55
+sol_code = role_ºë¾U¨ë«È
+sol_level = 64
+item_code = item_ºë¾U¨ë«È
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 56
+sol_code = role_ºë¾UÄð¥Ò§L
+sol_level = 64
+item_code = item_ºë¾UÄð¥Ò§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 57
+sol_code = role_ºë¾Uªø¼C§L
+sol_level = 64
+item_code = item_ºë¾Uªø¼C§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 58
+sol_code = role_ºë¾U¼C¤h
+sol_level = 64
+item_code = item_ºë¾U¼C¤h
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 59
+sol_code = role_ºë¾U»R®V
+sol_level = 64
+item_code = item_ºë¾U»R®V
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 60
+sol_code = role_ºë¾Uºq®V
+sol_level = 64
+item_code = item_ºë¾Uºq®V
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 61
+sol_code = role_ºë¾UÅKÃM§L
+sol_level = 64
+item_code = item_ºë¾UÅKÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 62
+sol_code = role_ºë¾U¦I¥£§L
+sol_level = 64
+item_code = item_ºë¾U¦I¥£§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 63
+sol_code = role_ºë¾U´åÃM§L
+sol_level = 64
+item_code = item_ºë¾U´åÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 64
+sol_code = role_ºë¾U¤}ÃM§L
+sol_level = 64
+item_code = item_ºë¾U¤}ÃM§L
+new_job_item = item_¤h§LÁå°©¥O
+
+[CNPC_ChangeItem]
+code = 65
+sol_code = role_ºë¾U²rÃ~§L
+sol_level = 64
+item_code = item_ºë¾U²rÃ~§L
+new_job_item = item_¤h§LÁå°©¥O
+

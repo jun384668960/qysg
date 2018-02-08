@@ -1,0 +1,8 @@
+// 物件設定檔
+#include PROCESS.H
+#include TYPE.H
+#include DEFINETXT.H
+#include PLAYERS.H
+#include NPC_TALK.H
+
+

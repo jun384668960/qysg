@@ -1,0 +1,381 @@
+
+#include MAPCMD.H
+#include TYPE.H
+#include PLAYERS.H
+#include STAGE.H
+
+[ini]
+max = 500
+
+
+[map_space_tbl]
+code = 1
+cmd = mCmdTbl_ObjectEnterMap,role_曹操_華容,0
+cmd = mCmdTbl_SetObjectIsHot,role_曹操_華容,1
+cmd = mCmdTbl_SendMessage,21556,0
+
+[map_space_tbl]
+code = 2
+cmd = mCmdTbl_SendMessage,21557,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 3
+cmd = mCmdTbl_SetObjectIsHot,role_曹操_華容,0
+cmd = mCmdTbl_ObjectLeaveMap,role_曹操_華容,0
+cmd = mCmdTbl_SendMessage,21562,0
+
+[map_space_tbl]
+code = 4
+cmd = mCmdTbl_ObjectEnterMap,role_諸葛亮_草船01,0
+cmd = mCmdTbl_SetObjectIsHot,role_諸葛亮_草船01,1
+cmd = mCmdTbl_SendMessage,38001,0
+
+[map_space_tbl]
+code = 5
+cmd = mCmdTbl_SendMessage,38002,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 6
+cmd = mCmdTbl_SetObjectIsHot,role_諸葛亮_草船01,0
+cmd = mCmdTbl_ObjectLeaveMap,role_諸葛亮_草船01,0
+cmd = mCmdTbl_SendMessage,38003,0
+
+[map_space_tbl]
+code = 7
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用01,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用01,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用02,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用02,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用03,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用03,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用04,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用04,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用05,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用05,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用06,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用06,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用07,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用07,1
+cmd = mCmdTbl_ObjectEnterMap,role_稻草人_副本用08,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用08,1
+cmd = mCmdTbl_SendMessage,38004,0
+
+[map_space_tbl]
+code = 8
+cmd = mCmdTbl_SendMessage,38005,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 9
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用01,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用01,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用02,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用02,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用03,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用03,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用04,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用04,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用05,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用05,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用06,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用06,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用07,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用07,0
+cmd = mCmdTbl_SetObjectIsHot,role_稻草人_副本用08,0
+cmd = mCmdTbl_ObjectLeaveMap,role_稻草人_副本用08,0
+cmd = mCmdTbl_SendMessage,38006,0
+
+[map_space_tbl]
+code = 10
+cmd = mCmdTbl_SendMessage,38051,0
+
+[map_space_tbl]
+code = 11
+cmd = mCmdTbl_ObjectEnterMap,role_劉備_桃園A,0
+cmd = mCmdTbl_ObjectEnterMap,role_關羽_桃園A,0
+cmd = mCmdTbl_ObjectEnterMap,role_張飛_桃園A,0
+
+[map_space_tbl]
+code = 12
+cmd = mCmdTbl_ObjectEnterMap,role_張飛_桃園B,0
+cmd = mCmdTbl_SetObjectIsHot,role_張飛_桃園B,1
+cmd = mCmdTbl_SendMessage,38052,0
+
+[map_space_tbl]
+code = 13
+cmd = mCmdTbl_ObjectEnterMap,role_關羽_桃園B,0
+cmd = mCmdTbl_SetObjectIsHot,role_關羽_桃園B,1
+
+[map_space_tbl]
+code = 14
+cmd = mCmdTbl_SendMessage,38053,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 15
+cmd = mCmdTbl_ObjectEnterMap,role_曹操_梟雄A,0
+cmd = mCmdTbl_SetObjectIsHot,role_曹操_梟雄A,1
+cmd = mCmdTbl_ObjectEnterMap,role_夏侯惇_梟雄B,0
+cmd = mCmdTbl_SetObjectIsHot,role_夏侯惇_梟雄B,1
+cmd = mCmdTbl_ObjectEnterMap,role_夏侯淵_梟雄B,0
+cmd = mCmdTbl_SetObjectIsHot,role_夏侯淵_梟雄B,1
+cmd = mCmdTbl_SendMessage,38054,0
+
+[map_space_tbl]
+code = 16
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 17
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 18
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 19
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 20
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 21
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 22
+cmd = mCmdTbl_SetObjectIsHot,role_曹操_梟雄A,0
+cmd = mCmdTbl_ObjectLeaveMap,role_曹操_梟雄A,0
+
+[map_space_tbl]
+code = 23
+cmd = mCmdTbl_SendMessage,38053,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 24
+cmd = mCmdTbl_ObjectEnterMap,role_鮑忠_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_鮑忠_三英,1
+cmd = mCmdTbl_SendMessage,38055,0
+cmd = mCmdTbl_SendMessage,38056,0
+cmd = mCmdTbl_ObjectEnterMap,role_程普_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_程普_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_祖茂_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_祖茂_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_俞涉_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_俞涉_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_潘鳳_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_潘鳳_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_關羽_三英A,0
+cmd = mCmdTbl_SetObjectIsHot,role_關羽_三英A,1
+cmd = mCmdTbl_ObjectEnterMap,role_方悅_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_方悅_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_穆順_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_穆順_三英,1
+
+[map_space_tbl]
+code = 25
+cmd = mCmdTbl_SetObjectIsHot,role_鮑忠_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_鮑忠_三英,0
+cmd = mCmdTbl_SendMessage,38057,0
+cmd = mCmdTbl_ObjectLeaveMap,role_華雄_三英A,0
+cmd = mCmdTbl_SendMessage,38058,0
+
+[map_space_tbl]
+code = 26
+cmd = mCmdTbl_SetObjectIsHot,role_程普_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_程普_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_孫堅_三英A,0
+cmd = mCmdTbl_SetObjectIsHot,role_祖茂_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_祖茂_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_華雄_三英B,0
+
+[map_space_tbl]
+code = 27
+cmd = mCmdTbl_SendMessage,38059,0
+
+[map_space_tbl]
+code = 28
+cmd = mCmdTbl_SetObjectIsHot,role_俞涉_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_俞涉_三英,0
+cmd = mCmdTbl_SendMessage,38060,0
+cmd = mCmdTbl_SetObjectIsHot,role_潘鳳_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_潘鳳_三英,0
+cmd = mCmdTbl_SendMessage,38061,0
+
+[map_space_tbl]
+code = 29
+cmd = mCmdTbl_ObjectLeaveMap,role_華雄_三英C,0
+cmd = mCmdTbl_SendMessage,38069,0
+
+[map_space_tbl]
+code = 30
+cmd = mCmdTbl_SetObjectIsHot,role_關羽_三英A,0
+cmd = mCmdTbl_ObjectLeaveMap,role_關羽_三英A,0
+
+[map_space_tbl]
+code = 31
+cmd = mCmdTbl_ObjectEnterMap,role_呂布_三英A,0
+
+[map_space_tbl]
+code = 32
+cmd = mCmdTbl_SetObjectIsHot,role_方悅_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_方悅_三英,0
+cmd = mCmdTbl_SendMessage,38062,0
+
+[map_space_tbl]
+code = 33
+cmd = mCmdTbl_SetObjectIsHot,role_穆順_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_穆順_三英,0
+cmd = mCmdTbl_SendMessage,38063,0
+
+[map_space_tbl]
+code = 34
+cmd = mCmdTbl_ObjectEnterMap,role_武安國_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_武安國_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_王匡_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_王匡_三英,1
+cmd = mCmdTbl_ObjectEnterMap,role_公孫瓚_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_公孫瓚_三英,1
+cmd = mCmdTbl_SendMessage,38064,0
+
+[map_space_tbl]
+code = 35
+cmd = mCmdTbl_SendMessage,38065,0
+cmd = mCmdTbl_SetObjectIsHot,role_武安國_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_武安國_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_王匡_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_王匡_三英,0
+
+[map_space_tbl]
+code = 36
+cmd = mCmdTbl_SetObjectIsHot,role_公孫瓚_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_公孫瓚_三英,0
+cmd = mCmdTbl_SendMessage,38066,0
+cmd = mCmdTbl_ObjectEnterMap,role_張飛_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_張飛_三英,1
+
+[map_space_tbl]
+code = 37
+cmd = mCmdTbl_CallObject,role_關羽_三英B,1,0
+cmd = mCmdTbl_SetObjectIsHot,role_關羽_三英B,1
+cmd = mCmdTbl_CallObject,role_劉備_三英,3,0
+cmd = mCmdTbl_SetObjectIsHot,role_劉備_三英,1
+
+[map_space_tbl]
+code = 38
+cmd = mCmdTbl_ObjectLeaveMap,role_呂布_三英B,0
+cmd = mCmdTbl_SendMessage,38067,0
+
+[map_space_tbl]
+code = 39
+cmd = mCmdTbl_SendMessage,38068,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 40
+cmd = mCmdTbl_SetObjectIsHot,role_張飛_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_張飛_三英,0
+cmd = mCmdTbl_SetObjectIsHot,role_關羽_三英B,0
+cmd = mCmdTbl_ObjectLeaveMap,role_關羽_三英B,0
+cmd = mCmdTbl_SetObjectIsHot,role_劉備_三英,0
+cmd = mCmdTbl_ObjectLeaveMap,role_劉備_三英,0
+
+[map_space_tbl]
+code = 41
+cmd = mCmdTbl_SendMessage,38070,0
+
+[map_space_tbl]
+code = 42
+cmd = mCmdTbl_SendMessage,38071,0
+
+[map_space_tbl]
+code = 43
+cmd = mCmdTbl_ObjectEnterMap,role_涼州副將_三英D,0
+
+[map_space_tbl]
+code = 44
+cmd = mCmdTbl_SendMessage,38072,0
+
+[map_space_tbl]
+code = 45
+cmd = mCmdTbl_ObjectEnterMap,role_胡軫_三公,0
+
+[map_space_tbl]
+code = 46
+cmd = mCmdTbl_SendMessage,38073,0
+
+[map_space_tbl]
+code = 48
+cmd = mCmdTbl_SendMessage,38074,0
+
+[map_space_tbl]
+code = 49
+cmd = mCmdTbl_SendMessage,38075,0
+
+[map_space_tbl]
+code = 50
+cmd = mCmdTbl_SendMessage,38076,0
+
+[map_space_tbl]
+code = 51
+cmd = mCmdTbl_SendMessage,38076,0
+cmd = mCmdTbl_Teleport,1,1,0,0
+
+[map_space_tbl]
+code = 52
+cmd = mCmdTbl_ObjectLeaveMap,role_黑幫殺手,0
+cmd = mCmdTbl_ObjectEnterMap,role_黃巾陣旗_桃園A,0
+
+[map_space_tbl]
+code = 53
+cmd = mCmdTbl_ObjectLeaveMap,role_冀州長槍隊長,0
+cmd = mCmdTbl_ObjectEnterMap,role_黃巾陣旗_桃園B,0
+
+[map_space_tbl]
+code = 54
+cmd = mCmdTbl_ObjectEnterMap,role_黃巾陣旗_桃園B,0
+
+[map_space_tbl]
+code = 55
+cmd = mCmdTbl_ObjectEnterMap,role_黃巾陣旗_桃園C,0
+
+[map_space_tbl]
+code = 56
+cmd = mCmdTbl_SendMessage,38077,0
+
+[map_space_tbl]
+code = 57
+cmd = mCmdTbl_ObjectEnterMap,role_蹇碩_十常,0
+
+[map_space_tbl]
+code = 58
+cmd = mCmdTbl_SendMessage,38078,0
+
+[map_space_tbl]
+code = 59
+cmd = mCmdTbl_ObjectEnterMap,role_曹節_十常,0
+
+[map_space_tbl]
+code = 60
+cmd = mCmdTbl_SendMessage,38079,0
+
+[map_space_tbl]
+code = 61
+cmd = mCmdTbl_ObjectEnterMap,role_封諝_十常,0
+cmd = mCmdTbl_ObjectEnterMap,role_張讓_十常,0
+cmd = mCmdTbl_SendMessage,38080,0
+
+[map_space_tbl]
+code = 62
+cmd = mCmdTbl_SendMessage,38081,0
+
+[map_space_tbl]
+code = 63
+cmd = mCmdTbl_SendMessage,38082,0
+

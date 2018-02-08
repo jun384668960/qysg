@@ -1,0 +1,76 @@
+code = item_木葉密卷		//和item.h定义的一致
+name = 114640			//和item_name定义的一样，用作显示物品名字
+help_string = 114641		//和item_help_string定义的一样，用作接受物品  （name和help_stringID不能有重复的，两个文件相当于在一个文件里面定义了宏）
+wawa_only = 1			//指定为装扮
+limit_sex = sexMALE		//性别限制
+add_attr_int = 15		//智力
+add_attr_leader = 15		//統禦
+add_attr_con = 15		//體
+add_attr_dex = 15		//反
+add_attr_str = 15		//武
+add_attr_mind = 15		//精神
+add_defense = 28		//防御+28
+add_hp = 120			//+血量
+add_mp = 120			//+蓝
+use_magic_time = 259200		//时效
+sp_effect = engADDCOLOR		//发光效果
+icon = 3669			//在包裹里的时候的物品图标
+wid = 3669			//装备起来后的效果
+limit_level = 60		//等级限制
+comp_times = 1			//强化次数
+soul_times = 2			//装备次数
+weight = 1			//物品重量
+cost = 1200			//买入价格
+sell = 300			//出售价格
+add_weapon_misshit = 2		//回避+2
+type = itemTypeP,itemTypeNoUse  			//itemTypeP：披风
+type2 = itemType2NoSell,itemType2MayPutStorage  	//itemType2NoSell：不可贩卖itemType2MayPutStorage：可放入仓库
+
+eq_magic_attack_type = 				//斩伤+3%	
+
+eq_magic_resist = skillAttr_SLASH,3	//斩防+3%	
+eq_magic_resist = skillAttr_STING,3	//刺防+3%	
+eq_magic_resist = skillAttr_BREAK,3	//碎防+3%	
+eq_magic_resist = skillAttr_FIRE,3	//火防+3%	
+eq_magic_resist = skillAttr_GOD,3	//仙防+3%	
+eq_magic_resist = skillAttr_ARROW,3	//射防+3%
+eq_magic_resist = skillAttr_EVIL,2	//妖防+3%
+eq_magic_resist = skillAttr_WATER,2	//水防+3%
+
+function = effFun_ANTISTATUS,effFun_STUN	//特殊效果：防眩晕
+anti_status_ratio = effFun_STUN,10		//眩晕：10%
+function = effFun_ANTISTATUS,effFun_SLOW	//特殊效果：防缓慢
+anti_status_ratio = effFun_SLOW,10
+function = effFun_ANTISTATUS,effFun_WEAKEN,effFun_NO_MAGIC
+anti_status_ratio = effFun_WEAKEN,10		//防虚弱
+anti_status_ratio = effFun_NO_MAGIC,10		//防封武将技
+function = effFun_ANTISTATUS,effFun_NO_SPEC
+
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD  //职业限制
+anti_status_ratio = effFun_NO_SPEC,10		//防封印必杀技
+
+function = effFun_WEAKEN,9,5000,10
+function = effFun_STUN,9,5000,10
+function = effFun_SLOW,9,5000,10
+function = effFun_NO_MAGIC,9,5000,10
+function = effFun_NO_SPEC,9,5000,10
+
+duedate_only = 1
+use_duedate = 604800
+
+
+limit_dex = 140				//要求反应140
+
+
+//传送卷轴
+use_magic_id = magic_千里傳送
+use_magic_level = 1
+tp_map_code = city_于闐
+tp_pos = 25000,1634
+
+drop_num = 3,6			//福袋开启可以开出3个或者6个
+
+//福袋
+[item]
+code = item_虎年龍威點點樂
+use_magic_id = 6067		//对应掉落的id

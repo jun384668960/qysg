@@ -1,0 +1,289 @@
+scMIS_SavePos	//存储当前坐标
+script_1 = scMIS_SavePos
+
+#define scMIS_GiveItem	//给物品
+script_1 = scMIS_GiveItem,def_002109,Item_碎肉,1,,,,
+给碎肉 1份，包裹满则跳转def_002109 -- 最多给三种物品
+
+#define scMIS_CheckQuest
+script_1 = scMIS_CheckQuest,007,def_002302
+
+#define scMIS_RunQuestStep
+#define scMIS_SetQuestNextStep
+#define scMIS_SetQuestComplete
+#define scMIS_CheckQuestComplete
+#define scMIS_SetQuest
+
+#define scMIS_TakeItem	//拿物品
+script_1 = scMIS_TakeItem,Item_藥材包袱,1,,,,
+拿藥材包袱 1份，包裹满则跳转def_002109 -- 最多拿三种物品
+
+#define scMIS_CheckItem	//检测包裹物品
+script_1 = scMIS_CheckItem,def_004013,Item_藥材包袱,1,,,,
+检测藥材包袱 1份，包裹没有则跳转def_004013 -- 最多检测三种物品
+
+#define scMIS_MovePos
+script_1 = scMIS_MovePos,640,640,357
+移动到MAP-ID = 357地图的640,640坐标
+
+#define scMIS_CheckMoney
+script_1 = scMIS_CheckMoney,def_004761,15000
+检测有没有15000sgb没有则跳def_004761
+
+#define scMIS_TakeMoney
+script_1 = scMIS_TakeMoney,15000
+给钱15000sgb
+
+#define scMIS_GiveSkill
+script_1 = scMIS_GiveSkill,259
+给技能id为259的技能
+
+#define scMIS_CheckLevel
+script_1 = scMIS_CheckLevel,def_011104,19
+检测等级是否满19，不满则跳def_011104
+
+scMIS_CheckAttribute  //检测人物属性
+script_1 = scMIS_CheckAttribute,def_005813,25,0,0,0,0,0
+检测武力值达到25，失败则跳转def_005813,武力,智力，反应，精神，体魄，统御
+
+#define scMIS_CheckTeam
+script_1 = scMIS_CheckTeam,def_010983,2
+检测队伍是否满2人，无则跳def_010983
+
+#define scMIS_CheckSkill
+script_1 = scMIS_CheckSkill,def_016690,110,11
+检测技能id=110的技能是否已经学习到11级，没有则跳def_016690
+
+
+#define scMIS_CheckClass
+script_1 = scMIS_CheckClass,def_016761,jobID_LEADER,090
+检测人物职业jobID_WARLORD jobID_LEADER jobID_ADVISOR jobID_WIZARD，等级十分到90级，否则跳def_016761
+
+#define scMIS_CheckForce
+script_1 = scMIS_CheckForce,def_000111,ID_COUNTRY_NONE
+检测十分是D_COUNTRY_NONE,ID_COUNTRY_WU ID_COUNTRY_SHU ID_COUNTRY_WEI,否则跳def_000111
+
+#define scMIS_CheckSex
+script_1 = scMIS_CheckSex,def_022020
+女的则跳def_022020
+
+#define scMIS_GiveDropItem
+script_1 = scMIS_GiveDropItem,def_025165,7105,1,1
+使用掉落id=7105掉落物品，包裹满则跳def_025165
+
+#define scMIS_GiveMeritPoint  
+script_1 = scMIS_GiveMeritPoint,100
+给技能经验100点
+
+#define scMIS_CheckEquip
+script_1 = scMIS_CheckEquip,def_000943,Item_紅櫻槍,,,,
+检测是否装备Item_紅櫻槍 -- 最多一次并列5样，否则def_000943
+
+
+#define scMIS_ChangSavePoint
+script_1 = scMIS_ChangSavePoint,6368,2016,452
+修改记录点到452地图
+
+#define scMIS_Chang_Force
+script_1 = scMIS_Chang_Force,ID_COUNTRY_WEI
+修改势力
+
+#define scMIS_CheckOffice
+script_1 = scMIS_CheckOffice,def_025115,98
+检测官职id是否达到98及其以上，否则def_025115
+
+#define scMIS_MoveSavePos
+script_1 = scMIS_MoveSavePos
+跳转到存储的pos
+
+#define scMIS_CheckMeritPoint
+script_1 = scMIS_CheckMeritPoint,def_000086,10000
+检测技能经验10000,没有则def_000086
+
+scMIS_TakeMeritPoint
+script_1 = scMIS_CheckMeritPoint,10000
+消耗技能经验10000
+
+#define scMIS_ChackDayAction
+script_1 = scMIS_ChackDayAction,def_025312,0,1,0,0
+每天，今天已经操作过 则跳转def_025312
+
+#define scMIS_AskVTData
+script_1 = scMIS_AskVTData,def_004147,def_004148,30
+领取虚包，有则跳def_004148，没有则def_004147    30？？？30天内？
+
+#define scMIS_ChackSoldier
+script_1 = scMIS_ChackSoldier,def_002844,2
+检测是否有带兵，没有则def_002844       2不知道
+
+#define scMIS_ResetAttr
+script_1 = scMIS_ResetAttr,def_000051,1
+分配的武力-5,   1-6代表属性
+
+#define scMIS_ChackGMTYPE
+script_1 = scMIS_ChackGMTYPE,def_001739,0
+检测是不是GM账户，不是则def_001739
+
+#define scMIS_CheckHourse
+script_1 = scMIS_CheckHourse,def_005374,2
+检测是否有坐骑，没有则def_002844       2不知道
+
+#define scMIS_GetRepay
+script_1 = scMIS_GetRepay,def_004191,def_001300
+领取补偿，没有则def_004191,有则def_001300
+
+#define scMIS_CheckChallenger
+script_1 = scMIS_CheckChallenger,def_000116
+是不是擂台賽的參賽者。不是则def_000116
+
+#define scMIS_MoevChallenger
+script_1 = scMIS_MoevChallenger
+进入擂台
+
+#define scMIS_CheckTeamLeader
+script_1 = scMIS_CheckTeamLeader,def_016013
+检测是不是队长，不是则def_016013
+
+#define scMIS_MoveTeam
+script_1 = scMIS_MoveTeam,def_016492,2976,1888,805
+队伍移动到id为805的地图，传送失败则def_016492
+
+
+#define scMIS_AskVTData_Card
+script_1 = scMIS_AskVTData_Card,def_000456,def_000459,60
+求取三國月票，没有记录则def_000456，有则def_000459
+
+#define scMIS_UseVTData_Card
+script_1 = scMIS_UseVTData_Card,def_000457,def_000459,60
+使用三國月票，没有月票则def_000456，有则def_000459
+
+#define scMIS_ShipEnter
+
+#define scMIS_CheckGuild
+script_1 = scMIS_CheckGuild,def_001249,1,2,2
+是否是军团长  承接限制@C軍團等級 2 、人數 2 以上@A。 不满足则def_001249
+
+#define scMIS_HistoryRegister
+script_1 = scMIS_HistoryRegister,def_001036,def_001035,def_001034,def_001033,282,1
+战场报名map id=282的战场
+
+#define scMIS_HistoryEnterBattle
+script_1 = scMIS_HistoryEnterBattle,def_002530,def_001037,282
+进入map id=282的战场
+
+#define scMIS_HistoryGetInfo
+script_1 = scMIS_HistoryGetInfo,def_001039,282
+获取map id=282的战场信息
+
+#define scMIS_UesItem
+script_1 = scMIS_UesItem,def_012690,def_012689,Item_十倍經驗加倍符,1
+使用物品十倍經驗加倍符1个，没有指定物品def_012690，使用物品失败def_012689
+
+#define scMIS_UseVTData_CardGift
+script_1 = scMIS_UseVTData_CardGift,def_000457,def_000458,60,8
+
+
+#define scMIS_AttributePoint_Reset
+script_1 = scMIS_AttributePoint_Reset
+全效化工
+
+
+#define scMIS_UseVTData_CardPoint
+script_1 = scMIS_UseVTData_CardPoint,def_011634,def_011635,60
+三国月票兑换代币
+
+#define scMIS_EnterMapSpace
+script_1 = scMIS_EnterMapSpace,def_012645,def_012646
+进入副本地图，不满足条件则def_012645，满足则def_012646
+
+#define scMIS_SetMapSpaceTeleport  //副本里面操作栅栏什么的
+script_1 = scMIS_SetMapSpaceTeleport,def_010706,def_010705,-1,32800,1632,1,1
+
+#define scMIS_CheckEnterStageTime
+
+#define scMIS_SetEnterStageTime
+
+#define scMIS_CheckEnterStageTime4
+script_1 = scMIS_CheckEnterStageTime4,def_023327,def_023329,def_023349,1235,1236,1237,1238
+检测908,909,910,911进入时间,使用过def_023327，没有使用def_023329，进入def_023349
+
+#define scMIS_SetEnterStageTime4
+script_1 = scMIS_SetEnterStageTime4,def_018540,def_018538,908,7626,909,910,911
+设置进入mapid = 908,909,910,911进入时间,没有办法使用def_018540，可以自由进入def_018538
+
+#define scMIS_SetSkillLevel
+script_1 = scMIS_SetSkillLevel,def_019009,407,0
+设置407技能等级0，  执行失败def_019009
+
+#define scMIS_CheckCityArmy
+script_1 = scMIS_CheckCityArmy,def_022834,0
+非占領城池軍團成員则def_022834
+
+#define scMIS_RunByForce
+
+
+#define scMIS_CastSkill
+script_1 = scMIS_CastSkill,def_016574,601,10,0
+
+#define scMIS_CheckTime
+script_1 = scMIS_CheckTime,def_019149,def_019074,21,00,60
+检测时间是否是21：00之后的60分钟之内，入場時間未到def_019149  到了则def_019074
+
+
+script_1 = scMIS_CheckFreeItemSpace,def_020663,3
+剩余包裹空间3 没有则def_020663
+
+script_1 = scMIS_ResetAllAttr,def_019623,5183,1
+重置属性点
+
+
+#define scMIS_CheckStarName
+script_1 = scMIS_CheckStarName,def_019609
+否则def_019609你名字當中沒有*號，必須要有*號的人才可以來跟我領取。
+
+script_1 = scMIS_EnterMapSpaceMinPlayer,def_021262,def_021259,2,3
+地图满进不去def_021262,
+
+
+script_1 = scMIS_RandomRun,def_022641,def_022646,def_022651,def_022656,,
+随机执行def_022641,def_022646,def_022651,def_022656,,
+
+script_1 = scMIS_CheckLevelRange,def_021904,50,100
+等级范围在50-100 否则def_021904
+
+script_1 = scMIS_CheckWAWAEquip,def_021922,Item_花翎烏紗帽(男),Item_狀元袍(男),Item_狀元鞋(男),,
+检测装扮
+
+script_1 = scMIS_CheckIsMarry,def_021935
+检测是否结婚，否则def_021935
+
+script_1 = scMIS_CheckMarryParty,def_021931,def_021933,def_021932,0
+检测结婚队伍
+def_021931兩人隊伍@A，再進行求婚吧！
+def_021933你們兩有人是@B已婚之人@A啊！
+def_021932老太婆這邊是不反對同性相戀這檔事…不過我沒辦法幫您完成@B同性的結婚儀式@A喔！
+
+script_1 = scMIS_Divorce,def_022768,0,0
+离婚
+
+scMIS_ClearMission
+
+script_1 = scMIS_CheckSameForce,def_025162,1,3,7,35,,
+3,7,35,,id的地图同势力，否则def_025162
+
+scMIS_ForceTeleport
+scMIS_CheckDayActionEx
+scMIS_OpenGate
+scMIS_ForceChangePos
+scMIS_CancelDoubleStatus
+scMIS_OnClassJump
+scMIS_KS_Register
+scMIS_KS_CheckRegister
+scMIS_KS_EnterStage
+scMIS_DragonGold_Check
+scMIS_DragonGold_Give
+scMIS_KS_CWar_Register
+scMIS_KS_CWar_Register_Confirm
+scMIS_KS_CWar_CheckRegister
+scMIS_KS_Cwar_EnterStage
+

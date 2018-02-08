@@ -1,0 +1,3658 @@
+#include TYPE.H
+#include DEFINETXT.H
+#include ITEM.H
+
+
+[ini]
+shop_max = 2000
+
+
+[shop]
+code = 1
+ShopName = 17000
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17001
+boss_msg = 17002
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 2
+ShopName = 17003
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17004
+boss_msg = 17005
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 3
+ShopName = 17006
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17007
+boss_msg = 17008
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 4
+ShopName = 17009
+ShopCost = 100
+adv_id1 = 501
+adv_id2 = 502
+adv_id3 = 561
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17010
+boss_msg = 17011
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 5
+ShopName = 17012
+ShopCost = 100
+adv_id1 = 503
+adv_id2 = 504
+adv_id3 = 562
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17013
+boss_msg = 17014
+ShopType = shopType_WeaponArmor
+Item = item_直劍,item_大刀,item_銅殳,item_單手棍,item_長杖,item_短弓,item_火炎箭,item_寒水箭,item_挨盾,item_籐盔,item_青玉冠,item_精工革鎧,item_官袍,item_籐靴,item_護脛戰靴,item_手套
+
+[shop]
+code = 6
+ShopName = 17015
+ShopCost = 100
+adv_id1 = 505
+adv_id2 = 506
+adv_id3 = 563
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17016
+boss_msg = 17017
+ShopType = shopType_WeaponArmor
+Item = item_直劍,item_大刀,item_銅殳,item_單手棍,item_長杖,item_短弓,item_火炎箭,item_寒水箭,item_挨盾,item_籐盔,item_青玉冠,item_精工革鎧,item_官袍,item_籐靴,item_護脛戰靴,item_手套
+
+[shop]
+code = 7
+ShopName = 17018
+ShopCost = 100
+adv_id1 = 507
+adv_id2 = 508
+adv_id3 = 564
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17019
+boss_msg = 17020
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 8
+ShopName = 17021
+ShopCost = 100
+adv_id1 = 509
+adv_id2 = 510
+adv_id3 = 565
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17022
+boss_msg = 17023
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 9
+ShopName = 17024
+ShopCost = 100
+adv_id1 = 511
+adv_id2 = 512
+adv_id3 = 566
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17025
+boss_msg = 17026
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 10
+ShopName = 17027
+ShopCost = 100
+adv_id1 = 513
+adv_id2 = 514
+adv_id3 = 567
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17028
+boss_msg = 17029
+ShopType = shopType_WeaponArmor
+Item = item_直劍,item_大刀,item_銅殳,item_單手棍,item_長杖,item_短弓,item_火炎箭,item_寒水箭,item_挨盾,item_籐盔,item_青玉冠,item_精工革鎧,item_官袍,item_籐靴,item_護脛戰靴,item_手套
+
+[shop]
+code = 11
+ShopName = 17030
+ShopCost = 100
+adv_id1 = 515
+adv_id2 = 516
+adv_id3 = 568
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17031
+boss_msg = 17032
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 12
+ShopName = 17033
+ShopCost = 100
+adv_id1 = 517
+adv_id2 = 518
+adv_id3 = 569
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17034
+boss_msg = 17035
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 13
+ShopName = 17036
+ShopCost = 100
+adv_id1 = 519
+adv_id2 = 520
+adv_id3 = 570
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17037
+boss_msg = 17038
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 14
+ShopName = 17039
+ShopCost = 100
+adv_id1 = 521
+adv_id2 = 522
+adv_id3 = 571
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17040
+boss_msg = 17041
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 15
+ShopName = 17042
+ShopCost = 100
+adv_id1 = 523
+adv_id2 = 524
+adv_id3 = 572
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17043
+boss_msg = 17044
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 16
+ShopName = 17045
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17046
+boss_msg = 17047
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 17
+ShopName = 17048
+ShopCost = 100
+adv_id1 = 525
+adv_id2 = 526
+adv_id3 = 573
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17049
+boss_msg = 17050
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 18
+ShopName = 17051
+ShopCost = 100
+adv_id1 = 527
+adv_id2 = 528
+adv_id3 = 574
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17052
+boss_msg = 17053
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 19
+ShopName = 17054
+ShopCost = 100
+adv_id1 = 529
+adv_id2 = 530
+adv_id3 = 575
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17055
+boss_msg = 17056
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 20
+ShopName = 17057
+ShopCost = 100
+adv_id1 = 531
+adv_id2 = 532
+adv_id3 = 576
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17058
+boss_msg = 17059
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 21
+ShopName = 17060
+ShopCost = 100
+adv_id1 = 533
+adv_id2 = 534
+adv_id3 = 577
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17061
+boss_msg = 17062
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 22
+ShopName = 17063
+ShopCost = 100
+adv_id1 = 535
+adv_id2 = 536
+adv_id3 = 578
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17064
+boss_msg = 17065
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 23
+ShopName = 17066
+ShopCost = 100
+adv_id1 = 537
+adv_id2 = 538
+adv_id3 = 579
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17067
+boss_msg = 17068
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 24
+ShopName = 17069
+ShopCost = 100
+adv_id1 = 539
+adv_id2 = 540
+adv_id3 = 580
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17070
+boss_msg = 17071
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 25
+ShopName = 17072
+ShopCost = 100
+adv_id1 = 541
+adv_id2 = 542
+adv_id3 = 581
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17073
+boss_msg = 17074
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 26
+ShopName = 17075
+ShopCost = 100
+adv_id1 = 543
+adv_id2 = 544
+adv_id3 = 582
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17076
+boss_msg = 17077
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 27
+ShopName = 17078
+ShopCost = 100
+adv_id1 = 545
+adv_id2 = 546
+adv_id3 = 583
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17079
+boss_msg = 17080
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 28
+ShopName = 17081
+ShopCost = 100
+adv_id1 = 547
+adv_id2 = 548
+adv_id3 = 584
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17082
+boss_msg = 17083
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 29
+ShopName = 17084
+ShopCost = 100
+adv_id1 = 549
+adv_id2 = 550
+adv_id3 = 585
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17085
+boss_msg = 17086
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 30
+ShopName = 17087
+ShopCost = 100
+adv_id1 = 551
+adv_id2 = 552
+adv_id3 = 586
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17088
+boss_msg = 17089
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 31
+ShopName = 17090
+ShopCost = 100
+adv_id1 = 553
+adv_id2 = 554
+adv_id3 = 587
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17091
+boss_msg = 17092
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 32
+ShopName = 17093
+ShopCost = 100
+adv_id1 = 555
+adv_id2 = 556
+adv_id3 = 588
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17094
+boss_msg = 17095
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 33
+ShopName = 17096
+ShopCost = 100
+adv_id1 = 557
+adv_id2 = 558
+adv_id3 = 589
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17097
+boss_msg = 17098
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 34
+ShopName = 17099
+ShopCost = 100
+adv_id1 = 559
+adv_id2 = 560
+adv_id3 = 590
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17100
+boss_msg = 17101
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 35
+ShopName = 17102
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17103
+boss_msg = 17104
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 36
+ShopName = 17105
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17106
+boss_msg = 17107
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 37
+ShopName = 17108
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17109
+boss_msg = 17110
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 51
+ShopName = 17111
+ShopCost = 1
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17112
+boss_msg = 17113
+ShopType = shopType_WeaponArmor
+Item = item_鉅闕,item_大草鐮,item_長刃尖大刀,item_戰國大刀,item_司馬令牌,item_靈山煉氣杖,item_方天戟,item_昇龍鉞戟,item_雙刃月牙戟,item_倚天劍,item_紫電,item_天晶劍,item_神龍槍,item_拐刃鉤鐮槍,item_拐刃蒺藜槍,item_丈八烏鈍槊,item_混沌雙斧,item_雙鐵戟,item_紫金鎚,item_伏魔鞭
+
+[shop]
+code = 52
+ShopName = 17114
+ShopCost = 1
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17115
+boss_msg = 17116
+ShopType = shopType_WeaponArmor
+Item = item_七聖刀,item_龍麟,item_朱雀弓,item_落月弓,item_鰲頭兩刃斧,item_金剛關頭斧,item_鳳凰扇,item_玄冥法扇,item_龍虎八卦棍,item_鋸齒箭,item_火炎箭,item_寒水箭,item_圓盾,item_輕型盾,item_甲盾,item_魚背盾,item_翼形盾,item_長立盾,item_鋼盾,item_白楊盾
+
+[shop]
+code = 53
+ShopName = 17117
+ShopCost = 1
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17118
+boss_msg = 17119
+ShopType = shopType_WeaponArmor
+Item = item_鎖鍊獅王鎧,item_鳳凰烈焰鎧,item_麒麟袍,item_瑤池褘衣,item_龍牙吞邪鎧,item_南天七星鎧,item_霸道之鎧,item_英雄之鎧,item_丞相朝服,item_于吉仙袍
+
+[shop]
+code = 54
+ShopName = 17120
+ShopCost = 1
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17121
+boss_msg = 17122
+ShopType = shopType_WeaponArmor
+Item = item_麒麟靴,item_龍皮戰靴,item_騎兵戰靴,item_辟邪戰靴,item_鬼面盔,item_霸道之盔,item_英雄之盔,item_丞相冠帽,item_于吉髮帶,item_人面髮飾,item_高級絲帽,item_龍牙盔,item_鳳翎冠,item_錦帆頭巾,item_鎖鍊護腕,item_金剛護腕,item_龍鱗護腕,item_鬼手
+
+[shop]
+code = 55
+ShopName = 17123
+ShopCost = 1
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17124
+boss_msg = 17125
+ShopType = shopType_WeaponArmor
+Item = item_鎖子甲,item_籐衣,item_鐵布衫,item_石棉衣,item_金縷衣,item_玉片衣,item_馬甲,item_錦木衣,item_虎紋披風,item_羽毛披風,item_貂皮披風,item_角旗,item_衝鋒旗
+
+[shop]
+code = 56
+ShopName = 17126
+ShopCost = 1
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17127
+boss_msg = 17128
+ShopType = shopType_BookStore
+Item = item_防斬心得,item_防刺心得,item_防碎心得,item_防射心得,item_尚書,item_武聖真書,item_青囊書,item_太平要術,item_水鏡奇書,item_鳳雛手札,item_臥龍手札,item_于吉手札
+
+[shop]
+code = 57
+ShopName = 17129
+ShopCost = 1
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17130
+boss_msg = 17131
+ShopType = shopType_Market
+Item = item_麒麟之牙,item_毒煙玉,item_幻惑玉,item_灼傷玉,item_冰封玉,item_黃金耳墜,item_火術護符,item_水術護符,item_仙術護符,item_妖術護符,item_飛龍,item_絕影,item_紫騂,item_白鵠
+
+[shop]
+code = 58
+ShopName = 17132
+ShopCost = 10
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17133
+boss_msg = 17134
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 59
+ShopName = 17135
+ShopCost = 1
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17136
+boss_msg = 17137
+ShopType = shopType_Army
+Item = item_神刀兵,item_戰鎚兵,item_神槍兵,item_鐵戟兵,item_強弓兵,item_強弩兵,item_親衛兵,item_暗殺者,item_狼騎兵,item_神弓騎,item_重劍兵,item_劍豪,item_戰姬,item_女伶,item_蠻甲兵
+
+[shop]
+code = 60
+ShopName = 17138
+ShopCost = 1
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17139
+boss_msg = 17140
+ShopType = shopType_Lab
+Item = 
+
+[shop]
+code = 61
+ShopName = 17816
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17817
+boss_msg = 17818
+ShopType = shopType_Market
+Item = item_玄武地翻術訣,item_白虎傲嘯術訣,item_豪烈秘笈,item_亂舞秘笈,item_一擊秘笈,item_散彈秘笈,item_碎月秘笈
+
+[shop]
+code = 62
+ShopName = 17819
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17787
+boss_msg = 17788
+ShopType = shopType_Market
+Item = item_命療加成之書,item_八陣圖術訣,item_狂雷天牢術訣,item_復活術術訣,item_真勁發動術訣,item_煉精化氣術訣,item_軍魂術訣,item_神劍閃華術訣,item_大地狂嘯術訣,item_命療結界術訣,item_結界法術訣
+
+[shop]
+code = 63
+ShopName = 17789
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17790
+boss_msg = 17791
+ShopType = shopType_Market
+Item = item_妖刀天舞術訣,item_凍血冰鋒術訣,item_幻惑咒術訣,item_行軍強化術訣,item_炎爆秘笈,item_斬月秘笈,item_分身秘笈,item_連環秘笈,item_集氣法術訣,item_神速法術訣,item_浮雷光陣術訣
+
+[shop]
+code = 64
+ShopName = 17792
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17793
+boss_msg = 17794
+ShopType = shopType_Market
+Item = item_鎧甲防火強化法,item_鎧甲防水強化法,item_鎧甲防仙強化法,item_鎧甲防妖強化法,item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法,item_頭盔智力強化法,item_頭盔精神強化法
+
+[shop]
+code = 65
+ShopName = 17795
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17796
+boss_msg = 17797
+ShopType = shopType_Market
+Item = item_鎧甲防斬強化法,item_鎧甲防刺強化法,item_鎧甲防碎強化法,item_鎧甲防射強化法,item_鎧甲體魄強化法,item_鞋防火強化法,item_鞋防水強化法,item_鞋防仙強化法,item_鞋防妖強化法,item_鞋迴避強化法,item_鞋反應強化法,item_護腕命中強化法,item_護腕武力強化法
+
+[shop]
+code = 66
+ShopName = 17798
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17799
+boss_msg = 17800
+ShopType = shopType_Market
+Item = item_盾防斬強化法,item_盾防刺強化法,item_盾防碎強化法,item_盾防射強化法,item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 67
+ShopName = 17801
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17802
+boss_msg = 17803
+ShopType = shopType_Market
+Item = item_朴刀兵轉職令,item_槍兵轉職令,item_騎兵轉職令,item_弓兵轉職令,item_飛刀兵轉職令,item_輕騎兵轉職令,item_劍兵轉職令,item_舞孃轉職令,item_蠻兵轉職令
+
+[shop]
+code = 68
+ShopName = 17804
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17805
+boss_msg = 17806
+ShopType = shopType_Market
+Item = item_大刀兵轉職令,item_鍊鎚兵轉職令,item_長槍兵轉職令,item_戟兵轉職令,item_長弓兵轉職令,item_弩兵轉職令,item_近衛兵轉職令,item_刺客轉職令,item_籐甲兵轉職令,item_長劍兵轉職令,item_劍士轉職令,item_舞姬轉職令,item_歌姬轉職令
+
+[shop]
+code = 69
+ShopName = 17807
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17808
+boss_msg = 17809
+ShopType = shopType_Market
+Item = item_鐵騎兵轉職令,item_游騎兵轉職令,item_弓騎兵轉職令,item_猛獸兵轉職令,item_匈奴兵轉職令,item_精銳兵令福袋,item_四階兵令福袋
+
+[shop]
+code = 70
+ShopName = 17810
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17811
+boss_msg = 17812
+ShopType = shopType_Market
+Item = item_破軍蒺藜槍,item_破軍盔,item_破軍之鎧,item_破軍靴,item_破軍盾,item_護國破凰劍,item_護國盔,item_護國之鎧,item_護國靴,item_護國盾,item_重甲戰虎,item_衝鋒旗,item_金剛護腕
+
+[shop]
+code = 71
+ShopName = 17813
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17814
+boss_msg = 17815
+ShopType = shopType_Market
+Item = item_一品五色棍,item_一品禮冠,item_一品朝服,item_一品步履,item_天官無殛杖,item_天官翎,item_天官袍,item_天官步履,item_重甲黑豹,item_鎮軍旗,item_石棉衣,item_甲盾
+
+[shop]
+code = 101
+ShopName = 17141
+ShopCost = 100
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17142
+boss_msg = 17143
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 102
+ShopName = 17144
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17145
+boss_msg = 17146
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 103
+ShopName = 17147
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17148
+boss_msg = 17149
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 104
+ShopName = 17150
+ShopCost = 100
+adv_id1 = 601
+adv_id2 = 602
+adv_id3 = 661
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17151
+boss_msg = 17152
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 105
+ShopName = 17153
+ShopCost = 100
+adv_id1 = 603
+adv_id2 = 604
+adv_id3 = 662
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17154
+boss_msg = 17155
+ShopType = shopType_Market
+Item = item_地點標記旗,item_標記傳送捲軸,item_藥丸,item_麥茶,item_行商月令牌,item_功勳值加倍符,item_化功丸,item_全效化功丸,item_勝利宣言日捲,item_金子,item_金元寶,item_士兵復活捲軸,item_召喚寶石,item_復活捲軸,item_昭告天下
+
+[shop]
+code = 106
+ShopName = 17156
+ShopCost = 100
+adv_id1 = 605
+adv_id2 = 606
+adv_id3 = 663
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17157
+boss_msg = 17158
+ShopType = shopType_Market
+Item = item_地點標記旗,item_標記傳送捲軸,item_藥丸,item_麥茶,item_行商月令牌,item_功勳值加倍符,item_化功丸,item_全效化功丸,item_勝利宣言日捲,item_金子,item_金元寶,item_士兵復活捲軸,item_召喚寶石,item_復活捲軸,item_昭告天下
+
+[shop]
+code = 107
+ShopName = 17159
+ShopCost = 100
+adv_id1 = 607
+adv_id2 = 608
+adv_id3 = 664
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17160
+boss_msg = 17161
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 108
+ShopName = 17162
+ShopCost = 100
+adv_id1 = 609
+adv_id2 = 610
+adv_id3 = 665
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17163
+boss_msg = 17164
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 109
+ShopName = 17165
+ShopCost = 100
+adv_id1 = 611
+adv_id2 = 612
+adv_id3 = 666
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17166
+boss_msg = 17167
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 110
+ShopName = 17168
+ShopCost = 100
+adv_id1 = 613
+adv_id2 = 614
+adv_id3 = 667
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17169
+boss_msg = 17170
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 111
+ShopName = 17171
+ShopCost = 100
+adv_id1 = 615
+adv_id2 = 616
+adv_id3 = 668
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17172
+boss_msg = 17173
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 112
+ShopName = 17174
+ShopCost = 100
+adv_id1 = 617
+adv_id2 = 618
+adv_id3 = 669
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17175
+boss_msg = 17176
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 113
+ShopName = 17177
+ShopCost = 100
+adv_id1 = 619
+adv_id2 = 620
+adv_id3 = 670
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17178
+boss_msg = 17179
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 114
+ShopName = 17180
+ShopCost = 100
+adv_id1 = 621
+adv_id2 = 622
+adv_id3 = 671
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17181
+boss_msg = 17182
+ShopType = shopType_Market
+Item = item_藥丸NEW,item_濁酒NEW,item_解毒草,item_瞬移捲軸,item_回城捲軸,item_還魂丹,item_褐鬃馬,item_黑鬃馬
+
+[shop]
+code = 115
+ShopName = 17183
+ShopCost = 100
+adv_id1 = 623
+adv_id2 = 624
+adv_id3 = 672
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17184
+boss_msg = 17185
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 116
+ShopName = 17186
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17187
+boss_msg = 17188
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 117
+ShopName = 17189
+ShopCost = 100
+adv_id1 = 625
+adv_id2 = 626
+adv_id3 = 673
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17190
+boss_msg = 17191
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 118
+ShopName = 17192
+ShopCost = 100
+adv_id1 = 627
+adv_id2 = 628
+adv_id3 = 674
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17193
+boss_msg = 17194
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 119
+ShopName = 17195
+ShopCost = 100
+adv_id1 = 629
+adv_id2 = 630
+adv_id3 = 675
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17196
+boss_msg = 17197
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 120
+ShopName = 17198
+ShopCost = 100
+adv_id1 = 631
+adv_id2 = 632
+adv_id3 = 676
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17199
+boss_msg = 17200
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 121
+ShopName = 17201
+ShopCost = 100
+adv_id1 = 633
+adv_id2 = 634
+adv_id3 = 677
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17202
+boss_msg = 17203
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 122
+ShopName = 17204
+ShopCost = 100
+adv_id1 = 635
+adv_id2 = 636
+adv_id3 = 678
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17205
+boss_msg = 17206
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 123
+ShopName = 17207
+ShopCost = 100
+adv_id1 = 637
+adv_id2 = 638
+adv_id3 = 679
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17208
+boss_msg = 17209
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 124
+ShopName = 17210
+ShopCost = 100
+adv_id1 = 639
+adv_id2 = 640
+adv_id3 = 680
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17211
+boss_msg = 17212
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 125
+ShopName = 17213
+ShopCost = 100
+adv_id1 = 641
+adv_id2 = 642
+adv_id3 = 681
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17214
+boss_msg = 17215
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 126
+ShopName = 17216
+ShopCost = 100
+adv_id1 = 643
+adv_id2 = 644
+adv_id3 = 682
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17217
+boss_msg = 17218
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 127
+ShopName = 17219
+ShopCost = 100
+adv_id1 = 645
+adv_id2 = 646
+adv_id3 = 683
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17220
+boss_msg = 17221
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 128
+ShopName = 17222
+ShopCost = 100
+adv_id1 = 647
+adv_id2 = 648
+adv_id3 = 684
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17223
+boss_msg = 17224
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 129
+ShopName = 17225
+ShopCost = 100
+adv_id1 = 649
+adv_id2 = 650
+adv_id3 = 685
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17226
+boss_msg = 17227
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 130
+ShopName = 17228
+ShopCost = 100
+adv_id1 = 651
+adv_id2 = 652
+adv_id3 = 686
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17229
+boss_msg = 17230
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 131
+ShopName = 17231
+ShopCost = 100
+adv_id1 = 653
+adv_id2 = 654
+adv_id3 = 687
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17232
+boss_msg = 17233
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 132
+ShopName = 17234
+ShopCost = 100
+adv_id1 = 655
+adv_id2 = 656
+adv_id3 = 688
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17235
+boss_msg = 17236
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 133
+ShopName = 17237
+ShopCost = 100
+adv_id1 = 657
+adv_id2 = 658
+adv_id3 = 689
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17238
+boss_msg = 17239
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 134
+ShopName = 17240
+ShopCost = 100
+adv_id1 = 659
+adv_id2 = 660
+adv_id3 = 690
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17241
+boss_msg = 17242
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 135
+ShopName = 17243
+ShopCost = 200
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17244
+boss_msg = 17245
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 136
+ShopName = 17246
+ShopCost = 200
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17247
+boss_msg = 17248
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 137
+ShopName = 17249
+ShopCost = 200
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17250
+boss_msg = 17251
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 138
+ShopName = 17252
+ShopCost = 200
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17253
+boss_msg = 17254
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 139
+ShopName = 17255
+ShopCost = 100
+shop_bg = BG_JPmarket01.JPG
+boss_shp = 101
+boss_head = 117
+boss_name = 17256
+boss_msg = 17257
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 140
+ShopName = 17258
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17259
+boss_msg = 17260
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 141
+ShopName = 17261
+ShopCost = 100
+shop_bg = BG_RM03Market.JPG
+boss_shp = 101
+boss_head = 120
+boss_name = 17262
+boss_msg = 17263
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 142
+ShopName = 17264
+ShopCost = 100
+adv_id1 = 691
+adv_id2 = 692
+adv_id3 = 693
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17265
+boss_msg = 17266
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 143
+ShopName = 17267
+ShopCost = 100
+adv_id1 = 694
+adv_id2 = 695
+adv_id3 = 696
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17268
+boss_msg = 17269
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 144
+ShopName = 17270
+ShopCost = 100
+adv_id1 = 697
+adv_id2 = 698
+adv_id3 = 699
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17271
+boss_msg = 17272
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 145
+ShopName = 17273
+ShopCost = 120
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17274
+boss_msg = 17275
+ShopType = shopType_Market
+Item = item_地點標記旗,item_標記傳送捲軸,item_行商月令牌,item_功勳值加倍符,item_化功丸,item_全效化功丸,item_勝利宣言日捲,item_金子,item_金元寶,item_士兵復活捲軸,item_召喚寶石,item_特效復活捲軸,item_昭告天下
+
+[shop]
+code = 151
+ShopName = 17276
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17277
+boss_msg = 17278
+ShopType = shopType_Lab
+Item = item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法
+
+[shop]
+code = 152
+ShopName = 17279
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17280
+boss_msg = 17281
+ShopType = shopType_Lab
+Item = item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法
+
+[shop]
+code = 153
+ShopName = 17282
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17283
+boss_msg = 17284
+ShopType = shopType_Lab
+Item = item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法
+
+[shop]
+code = 154
+ShopName = 17285
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17286
+boss_msg = 17287
+ShopType = shopType_Lab
+Item = item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法
+
+[shop]
+code = 155
+ShopName = 17288
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17289
+boss_msg = 17290
+ShopType = shopType_Lab
+Item = item_武器命中強化法,item_武器爆擊強化法,item_武器武力強化法,item_短兵智力強化法,item_短兵精神強化法,item_弓反應強化法,item_頭盔智力強化法,item_頭盔精神強化法,item_鎧甲體魄強化法,item_鞋迴避強化法,item_鞋反應強化法,item_小盾迴避強化法,item_護腕命中強化法,item_護腕武力強化法,item_馬體魄強化法,item_長兵智力強化法,item_重兵智力強化法
+
+[shop]
+code = 156
+ShopName = 17291
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17292
+boss_msg = 17293
+ShopType = shopType_Lab
+Item = 
+
+[shop]
+code = 157
+ShopName = 17294
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17295
+boss_msg = 17296
+ShopType = shopType_Lab
+Item = item_鎧甲防斬強化法,item_鎧甲防刺強化法,item_鎧甲防碎強化法,item_鎧甲防射強化法,item_鎧甲防火強化法,item_鎧甲防水強化法,item_鎧甲防仙強化法,item_鎧甲防妖強化法
+
+[shop]
+code = 158
+ShopName = 17297
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17298
+boss_msg = 17299
+ShopType = shopType_Lab
+Item = item_鎧甲防斬強化法,item_鎧甲防刺強化法,item_鎧甲防碎強化法,item_鎧甲防射強化法,item_鎧甲防火強化法,item_鎧甲防水強化法,item_鎧甲防仙強化法,item_鎧甲防妖強化法
+
+[shop]
+code = 159
+ShopName = 17300
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17301
+boss_msg = 17302
+ShopType = shopType_Lab
+Item = item_鎧甲防斬強化法,item_鎧甲防刺強化法,item_鎧甲防碎強化法,item_鎧甲防射強化法,item_鎧甲防火強化法,item_鎧甲防水強化法,item_鎧甲防仙強化法,item_鎧甲防妖強化法
+
+[shop]
+code = 160
+ShopName = 17303
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17304
+boss_msg = 17305
+ShopType = shopType_Lab
+Item = item_盾防斬強化法,item_盾防刺強化法,item_盾防碎強化法,item_盾防射強化法,item_鞋防火強化法,item_鞋防水強化法,item_鞋防仙強化法,item_鞋防妖強化法
+
+[shop]
+code = 161
+ShopName = 17306
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17307
+boss_msg = 17308
+ShopType = shopType_Lab
+Item = item_盾防斬強化法,item_盾防刺強化法,item_盾防碎強化法,item_盾防射強化法,item_鞋防火強化法,item_鞋防水強化法,item_鞋防仙強化法,item_鞋防妖強化法
+
+[shop]
+code = 162
+ShopName = 17309
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17310
+boss_msg = 17311
+ShopType = shopType_Lab
+Item = item_頭盔防斬強化法,item_頭盔防刺強化法,item_頭盔防碎強化法,item_頭盔防射強化法,item_頭盔防火強化法,item_頭盔防水強化法,item_頭盔防仙強化法,item_頭盔防妖強化法
+
+[shop]
+code = 163
+ShopName = 17312
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17313
+boss_msg = 17314
+ShopType = shopType_Lab
+Item = item_盾防斬強化法,item_盾防刺強化法,item_盾防碎強化法,item_盾防射強化法,item_鞋防火強化法,item_鞋防水強化法,item_鞋防仙強化法,item_鞋防妖強化法
+
+[shop]
+code = 164
+ShopName = 17315
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17316
+boss_msg = 17317
+ShopType = shopType_Lab
+Item = item_盾防斬強化法,item_盾防刺強化法,item_盾防碎強化法,item_盾防射強化法,item_鞋防火強化法,item_鞋防水強化法,item_鞋防仙強化法,item_鞋防妖強化法
+
+[shop]
+code = 165
+ShopName = 17318
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17319
+boss_msg = 17320
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 166
+ShopName = 17321
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17322
+boss_msg = 17323
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 167
+ShopName = 17324
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17325
+boss_msg = 17326
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 168
+ShopName = 17327
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17328
+boss_msg = 17329
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 169
+ShopName = 17330
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17331
+boss_msg = 17332
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 170
+ShopName = 17333
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17334
+boss_msg = 17335
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 171
+ShopName = 17336
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17337
+boss_msg = 17338
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 172
+ShopName = 17339
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17340
+boss_msg = 17341
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 173
+ShopName = 17342
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17343
+boss_msg = 17344
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 174
+ShopName = 17345
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17346
+boss_msg = 17347
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 175
+ShopName = 17348
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17349
+boss_msg = 17350
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 176
+ShopName = 17351
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17352
+boss_msg = 17353
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 177
+ShopName = 17354
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17355
+boss_msg = 17356
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 178
+ShopName = 17357
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17358
+boss_msg = 17359
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 179
+ShopName = 17360
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17361
+boss_msg = 17362
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 180
+ShopName = 17363
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17364
+boss_msg = 17365
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 181
+ShopName = 17366
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17367
+boss_msg = 17368
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 182
+ShopName = 17369
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17370
+boss_msg = 17371
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 183
+ShopName = 17372
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17373
+boss_msg = 17374
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 184
+ShopName = 17375
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17376
+boss_msg = 17377
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 185
+ShopName = 17378
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17379
+boss_msg = 17380
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 186
+ShopName = 17381
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17382
+boss_msg = 17383
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 187
+ShopName = 17384
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17385
+boss_msg = 17386
+ShopType = shopType_Lab
+Item = item_內衣防斬強化法,item_內衣防刺強化法,item_內衣防碎強化法,item_內衣防射強化法,item_披風防火強化法,item_披風防水強化法,item_披風防仙強化法,item_披風防妖強化法
+
+[shop]
+code = 188
+ShopName = 17387
+ShopCost = 100
+shop_bg = BG_lab.jpg
+boss_shp = 101
+boss_head = 105
+boss_name = 17388
+boss_msg = 17389
+ShopType = shopType_Lab
+Item = item_斬合金,item_刺合金,item_碎合金,item_射合金,item_武力秘石,item_智力秘石,item_體魄秘石,item_精神秘石,item_反應秘石,item_青玉石,item_朱紅石,item_黃晶石,item_紫光石,item_鐵,item_鋼,item_乾坤飾品福袋,item_文官小武魂福袋,item_武官小武魂福袋,item_神鐵,item_精鋼
+
+[shop]
+code = 201
+ShopName = 17390
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17391
+boss_msg = 17392
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 202
+ShopName = 17393
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17394
+boss_msg = 17395
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 203
+ShopName = 17396
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17397
+boss_msg = 17398
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 204
+ShopName = 17399
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17400
+boss_msg = 17401
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 205
+ShopName = 17402
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17403
+boss_msg = 17404
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 206
+ShopName = 17405
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17406
+boss_msg = 17407
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 207
+ShopName = 17408
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17409
+boss_msg = 17410
+ShopType = shopType_BookStore
+Item = item_命療術術訣,item_破咒術術訣,item_瞬間移動術訣,item_旋風刃術訣,item_御飛刀術訣,item_冰封咒術訣,item_短兵熟練之書,item_弓箭熟練之書
+
+[shop]
+code = 208
+ShopName = 17411
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17412
+boss_msg = 17413
+ShopType = shopType_BookStore
+Item = item_命療術術訣,item_破咒術術訣,item_瞬間移動術訣,item_旋風刃術訣,item_御飛刀術訣,item_冰封咒術訣,item_重兵熟練之書,item_弓箭熟練之書
+
+[shop]
+code = 209
+ShopName = 17414
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17415
+boss_msg = 17416
+ShopType = shopType_BookStore
+Item = item_命療術術訣,item_破咒術術訣,item_瞬間移動術訣,item_旋風刃術訣,item_御飛刀術訣,item_冰封咒術訣,item_長兵熟練之書,item_弓箭熟練之書
+
+[shop]
+code = 210
+ShopName = 17417
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17418
+boss_msg = 17419
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 211
+ShopName = 17420
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17421
+boss_msg = 17422
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 212
+ShopName = 17423
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17424
+boss_msg = 17425
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 213
+ShopName = 17426
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17427
+boss_msg = 17428
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 214
+ShopName = 17429
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17430
+boss_msg = 17431
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 215
+ShopName = 17432
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17433
+boss_msg = 17434
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 216
+ShopName = 17435
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17436
+boss_msg = 17437
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 217
+ShopName = 17438
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17439
+boss_msg = 17440
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 218
+ShopName = 17441
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17442
+boss_msg = 17443
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 219
+ShopName = 17444
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17445
+boss_msg = 17446
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 220
+ShopName = 17447
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17448
+boss_msg = 17449
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 221
+ShopName = 17450
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17451
+boss_msg = 17452
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 222
+ShopName = 17453
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17454
+boss_msg = 17455
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 223
+ShopName = 17456
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17457
+boss_msg = 17458
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 224
+ShopName = 17459
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17460
+boss_msg = 17461
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 225
+ShopName = 17462
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17463
+boss_msg = 17464
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 226
+ShopName = 17465
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17466
+boss_msg = 17467
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 227
+ShopName = 17468
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17469
+boss_msg = 17470
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 228
+ShopName = 17471
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17472
+boss_msg = 17473
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 229
+ShopName = 17474
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17475
+boss_msg = 17476
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 230
+ShopName = 17477
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17478
+boss_msg = 17479
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 231
+ShopName = 17480
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17481
+boss_msg = 17482
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 232
+ShopName = 17483
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17484
+boss_msg = 17485
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 233
+ShopName = 17486
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17487
+boss_msg = 17488
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 234
+ShopName = 17489
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17490
+boss_msg = 17491
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 235
+ShopName = 17492
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17493
+boss_msg = 17494
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 236
+ShopName = 17495
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17496
+boss_msg = 17497
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 237
+ShopName = 17498
+ShopCost = 100
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17499
+boss_msg = 17500
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 238
+ShopName = 17501
+ShopCost = 500
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17502
+boss_msg = 17503
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 239
+ShopName = 17504
+ShopCost = 500
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17505
+boss_msg = 17506
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 240
+ShopName = 17507
+ShopCost = 500
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17508
+boss_msg = 17509
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 241
+ShopName = 17510
+ShopCost = 500
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17511
+boss_msg = 17512
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 242
+ShopName = 17513
+ShopCost = 500
+shop_bg = BG_JPSoldierCamp01.jpg
+boss_shp = 101
+boss_head = 118
+boss_name = 17514
+boss_msg = 17515
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 243
+ShopName = 17516
+ShopCost = 500
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17517
+boss_msg = 17518
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 244
+ShopName = 17519
+ShopCost = 500
+shop_bg = BG_RM02Solder.JPG
+boss_shp = 101
+boss_head = 121
+boss_name = 17520
+boss_msg = 17521
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 245
+ShopName = 17522
+ShopCost = 100
+shop_bg = BG_K03solder.jpg
+boss_shp = 101
+boss_head = 124
+boss_name = 17523
+boss_msg = 17524
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 246
+ShopName = 17525
+ShopCost = 100
+shop_bg = BG_K03solder.jpg
+boss_shp = 101
+boss_head = 124
+boss_name = 17526
+boss_msg = 17527
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 247
+ShopName = 17528
+ShopCost = 100
+shop_bg = BG_K03solder.jpg
+boss_shp = 101
+boss_head = 124
+boss_name = 17529
+boss_msg = 17530
+ShopType = shopType_Army
+Item = item_義勇兵,item_女義勇兵
+
+[shop]
+code = 248
+ShopName = 17531
+ShopCost = 200
+shop_bg = BG_SoldierCamp.jpg
+boss_shp = 101
+boss_head = 106
+boss_name = 17532
+boss_msg = 17533
+ShopType = shopType_Army
+Item = item_神刀兵,item_神槍兵,item_強弓兵,item_親衛兵,item_修羅神刀兵,item_修羅神槍兵,item_修羅強弓兵,item_修羅親衛兵
+
+[shop]
+code = 301
+ShopName = 17534
+ShopCost = 100
+shop_bg = BG_GambleDice.JPG
+boss_shp = 101
+boss_head = 110
+boss_name = 17535
+boss_msg = 17536
+ShopType = shopType_Gamble
+Item = item_藥草
+
+[shop]
+code = 302
+ShopName = 17537
+ShopCost = 100
+shop_bg = BG_GambleDice.JPG
+boss_shp = 101
+boss_head = 110
+boss_name = 17538
+boss_msg = 17539
+ShopType = shopType_Gamble
+Item = item_藥草
+
+[shop]
+code = 303
+ShopName = 17540
+ShopCost = 100
+shop_bg = BG_GambleDice.JPG
+boss_shp = 101
+boss_head = 110
+boss_name = 17541
+boss_msg = 17542
+ShopType = shopType_Gamble
+Item = item_藥草
+
+[shop]
+code = 304
+ShopName = 17543
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17544
+boss_msg = 17545
+ShopType = shopType_BookStore
+Item = item_御飛刀術訣,item_神行法術訣,item_心眼法術訣,item_千里傳送術訣,item_火藥桶術訣,item_守護之心術訣,item_鬼戟術訣,item_地泉術訣,item_火箭術訣,item_太極門術訣,item_長兵熟練之書,item_重兵熟練之書,item_穿弓秘笈
+
+[shop]
+code = 305
+ShopName = 17546
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17547
+boss_msg = 17548
+ShopType = shopType_BookStore
+Item = item_御飛刀術訣,item_神行法術訣,item_心眼法術訣,item_千里傳送術訣,item_火藥桶術訣,item_守護之心術訣,item_鬼戟術訣,item_地泉術訣,item_火箭術訣,item_太極門術訣,item_短兵熟練之書,item_重兵熟練之書,item_穿弓秘笈
+
+[shop]
+code = 306
+ShopName = 17549
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17550
+boss_msg = 17551
+ShopType = shopType_BookStore
+Item = item_御飛刀術訣,item_神行法術訣,item_心眼法術訣,item_千里傳送術訣,item_火藥桶術訣,item_守護之心術訣,item_鬼戟術訣,item_地泉術訣,item_火箭術訣,item_太極門術訣,item_短兵熟練之書,item_長兵熟練之書,item_穿弓秘笈
+
+[shop]
+code = 307
+ShopName = 17552
+ShopCost = 100
+teleport_id = 1
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17553
+boss_msg = 17554
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 308
+ShopName = 17555
+ShopCost = 100
+teleport_id = 2
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17556
+boss_msg = 17557
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 309
+ShopName = 17558
+ShopCost = 100
+teleport_id = 3
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17559
+boss_msg = 17560
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 310
+ShopName = 17561
+ShopCost = 100
+adv_id1 = 701
+adv_id2 = 702
+adv_id3 = 761
+teleport_id = 4
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17562
+boss_msg = 17563
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 311
+ShopName = 17564
+ShopCost = 100
+adv_id1 = 703
+adv_id2 = 704
+adv_id3 = 762
+teleport_id = 5
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17565
+boss_msg = 17566
+ShopType = shopType_Hotel
+Item = item_肉粽,item_麥茶,item_轉運符,item_軍魂之符,item_行軍強化之符,item_龍鳳餅,item_蔘茸酒,item_蟠桃果,item_玉露酒,item_武魂技能全集,item_神行千里之符,item_煉神還虛之符
+
+[shop]
+code = 312
+ShopName = 17567
+ShopCost = 100
+adv_id1 = 705
+adv_id2 = 706
+adv_id3 = 763
+teleport_id = 6
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17568
+boss_msg = 17569
+ShopType = shopType_Hotel
+Item = item_包子,item_濁酒,item_肉粽,item_麥茶,item_轉運符,item_軍魂之符,item_行軍強化之符
+
+[shop]
+code = 313
+ShopName = 17570
+ShopCost = 100
+adv_id1 = 707
+adv_id2 = 708
+adv_id3 = 764
+teleport_id = 7
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17571
+boss_msg = 17572
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 314
+ShopName = 17573
+ShopCost = 100
+adv_id1 = 709
+adv_id2 = 710
+adv_id3 = 765
+teleport_id = 8
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17574
+boss_msg = 17575
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 315
+ShopName = 17576
+ShopCost = 100
+adv_id1 = 711
+adv_id2 = 712
+adv_id3 = 766
+teleport_id = 9
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17577
+boss_msg = 17578
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 316
+ShopName = 17579
+ShopCost = 100
+adv_id1 = 713
+adv_id2 = 714
+adv_id3 = 767
+teleport_id = 10
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17580
+boss_msg = 17581
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 317
+ShopName = 17582
+ShopCost = 100
+adv_id1 = 715
+adv_id2 = 716
+adv_id3 = 768
+teleport_id = 11
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17583
+boss_msg = 17584
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 318
+ShopName = 17585
+ShopCost = 100
+adv_id1 = 717
+adv_id2 = 718
+adv_id3 = 769
+teleport_id = 12
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17586
+boss_msg = 17587
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 319
+ShopName = 17588
+ShopCost = 100
+adv_id1 = 719
+adv_id2 = 720
+adv_id3 = 770
+teleport_id = 13
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17589
+boss_msg = 17590
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 320
+ShopName = 17591
+ShopCost = 100
+adv_id1 = 721
+adv_id2 = 722
+adv_id3 = 771
+teleport_id = 14
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17592
+boss_msg = 17593
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 321
+ShopName = 17594
+ShopCost = 100
+adv_id1 = 723
+adv_id2 = 724
+adv_id3 = 772
+teleport_id = 15
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17595
+boss_msg = 17596
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 322
+ShopName = 17597
+ShopCost = 100
+teleport_id = 19
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17598
+boss_msg = 17599
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 323
+ShopName = 17600
+ShopCost = 100
+adv_id1 = 725
+adv_id2 = 726
+adv_id3 = 773
+teleport_id = 20
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17601
+boss_msg = 17602
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 324
+ShopName = 17603
+ShopCost = 100
+adv_id1 = 727
+adv_id2 = 728
+adv_id3 = 774
+teleport_id = 21
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17604
+boss_msg = 17605
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 325
+ShopName = 17606
+ShopCost = 100
+adv_id1 = 729
+adv_id2 = 730
+adv_id3 = 775
+teleport_id = 25
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17607
+boss_msg = 17608
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 326
+ShopName = 17609
+ShopCost = 100
+adv_id1 = 731
+adv_id2 = 732
+adv_id3 = 776
+teleport_id = 26
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17610
+boss_msg = 17611
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 327
+ShopName = 17612
+ShopCost = 100
+adv_id1 = 733
+adv_id2 = 734
+adv_id3 = 777
+teleport_id = 27
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17613
+boss_msg = 17614
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 328
+ShopName = 17615
+ShopCost = 100
+adv_id1 = 735
+adv_id2 = 736
+adv_id3 = 778
+teleport_id = 28
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17616
+boss_msg = 17617
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 329
+ShopName = 17618
+ShopCost = 100
+adv_id1 = 737
+adv_id2 = 738
+adv_id3 = 779
+teleport_id = 29
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17619
+boss_msg = 17620
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 330
+ShopName = 17621
+ShopCost = 100
+adv_id1 = 739
+adv_id2 = 740
+adv_id3 = 780
+teleport_id = 30
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17622
+boss_msg = 17623
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 331
+ShopName = 17624
+ShopCost = 100
+adv_id1 = 741
+adv_id2 = 742
+adv_id3 = 781
+teleport_id = 31
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17625
+boss_msg = 17626
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 332
+ShopName = 17627
+ShopCost = 100
+adv_id1 = 743
+adv_id2 = 744
+adv_id3 = 782
+teleport_id = 32
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17628
+boss_msg = 17629
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 333
+ShopName = 17630
+ShopCost = 100
+adv_id1 = 745
+adv_id2 = 746
+adv_id3 = 783
+teleport_id = 33
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17631
+boss_msg = 17632
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 334
+ShopName = 17633
+ShopCost = 100
+adv_id1 = 747
+adv_id2 = 748
+adv_id3 = 784
+teleport_id = 34
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17634
+boss_msg = 17635
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 335
+ShopName = 17636
+ShopCost = 100
+adv_id1 = 749
+adv_id2 = 750
+adv_id3 = 785
+teleport_id = 35
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17637
+boss_msg = 17638
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 336
+ShopName = 17639
+ShopCost = 100
+adv_id1 = 751
+adv_id2 = 752
+adv_id3 = 786
+teleport_id = 36
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17640
+boss_msg = 17641
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 337
+ShopName = 17642
+ShopCost = 100
+adv_id1 = 753
+adv_id2 = 754
+adv_id3 = 787
+teleport_id = 37
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17643
+boss_msg = 17644
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 338
+ShopName = 17645
+ShopCost = 100
+adv_id1 = 755
+adv_id2 = 756
+adv_id3 = 788
+teleport_id = 38
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17646
+boss_msg = 17647
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 339
+ShopName = 17648
+ShopCost = 100
+adv_id1 = 757
+adv_id2 = 758
+adv_id3 = 789
+teleport_id = 39
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17649
+boss_msg = 17650
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 340
+ShopName = 17651
+ShopCost = 100
+adv_id1 = 759
+adv_id2 = 760
+adv_id3 = 790
+teleport_id = 40
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17652
+boss_msg = 17653
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 341
+ShopName = 17654
+ShopCost = 100
+adv_id1 = 791
+adv_id2 = 792
+adv_id3 = 793
+teleport_id = 47
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17655
+boss_msg = 17656
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 342
+ShopName = 17657
+ShopCost = 100
+adv_id1 = 794
+adv_id2 = 795
+adv_id3 = 796
+teleport_id = 48
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17658
+boss_msg = 17659
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 343
+ShopName = 17660
+ShopCost = 100
+adv_id1 = 797
+adv_id2 = 798
+adv_id3 = 799
+teleport_id = 49
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17661
+boss_msg = 17662
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 351
+ShopName = 17663
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17664
+boss_msg = 17665
+ShopType = shopType_BookStore
+Item = item_鐵腕法術訣,item_剛體法術訣,item_兵強化術訣,item_破咒結界術訣,item_斬妖劍術訣,item_毒煙咒術訣,item_灼傷咒術訣,item_雷擊術訣,item_冰雹術訣,item_蓮華術訣,item_雷擊閃術訣,item_龍捲風術訣,item_投擲熟練之書,item_雙手兵器熟練之書,item_連弓秘笈
+
+[shop]
+code = 352
+ShopName = 17666
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17667
+boss_msg = 17668
+ShopType = shopType_BookStore
+Item = item_破咒術術訣,item_破咒結界術訣,item_鐵腕法術訣,item_剛體法術訣,item_心眼法術訣,item_兵強化術訣,item_斬妖劍術訣,item_灼傷咒術訣,item_冰封咒術訣,item_雷擊閃術訣,item_守護之心術訣,item_火藥桶術訣,item_蓮華術訣,item_冰雹術訣,item_雷擊術訣,item_龍捲風術訣
+
+[shop]
+code = 353
+ShopName = 17669
+ShopCost = 100
+shop_bg = BG_BookStore.JPG
+boss_shp = 101
+boss_head = 115
+boss_name = 17670
+boss_msg = 17671
+ShopType = shopType_BookStore
+Item = item_鐵腕法術訣,item_剛體法術訣,item_兵強化術訣,item_破咒結界術訣,item_斬妖劍術訣,item_毒煙咒術訣,item_灼傷咒術訣,item_雷擊術訣,item_冰雹術訣,item_蓮華術訣,item_雷擊閃術訣,item_龍捲風術訣,item_投擲熟練之書,item_雙手兵器熟練之書,item_連弓秘笈
+
+[shop]
+code = 401
+ShopName = 17672
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17673
+boss_msg = 17674
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 402
+ShopName = 17675
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17676
+boss_msg = 17677
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 403
+ShopName = 17678
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17679
+boss_msg = 17680
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 404
+ShopName = 17681
+ShopCost = 100
+adv_id1 = 801
+adv_id2 = 802
+adv_id3 = 825
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17682
+boss_msg = 17683
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 405
+ShopName = 17684
+ShopCost = 100
+adv_id1 = 803
+adv_id2 = 804
+adv_id3 = 826
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17685
+boss_msg = 17686
+ShopType = shopType_Factory
+Item = item_朴刀兵轉職令,item_槍兵轉職令,item_弓兵轉職令,item_劍兵轉職令,item_飛刀兵轉職令,item_舞孃轉職令,item_蠻兵轉職令,item_騎兵轉職令,item_輕騎兵轉職令
+
+[shop]
+code = 406
+ShopName = 17687
+ShopCost = 100
+adv_id1 = 805
+adv_id2 = 806
+adv_id3 = 827
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17688
+boss_msg = 17689
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 407
+ShopName = 17690
+ShopCost = 100
+adv_id1 = 807
+adv_id2 = 808
+adv_id3 = 828
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17691
+boss_msg = 17692
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 408
+ShopName = 17693
+ShopCost = 100
+adv_id1 = 809
+adv_id2 = 810
+adv_id3 = 829
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17694
+boss_msg = 17695
+ShopType = shopType_Factory
+Item = item_大刀兵轉職令,item_籐甲兵轉職令,item_長劍兵轉職令,item_長弓兵轉職令,item_長槍兵轉職令,item_戟兵轉職令,item_鍊鎚兵轉職令,item_歌姬轉職令,item_舞姬轉職令,item_刺客轉職令,item_近衛兵轉職令,item_劍士轉職令,item_弩兵轉職令
+
+[shop]
+code = 409
+ShopName = 17696
+ShopCost = 100
+adv_id1 = 811
+adv_id2 = 812
+adv_id3 = 830
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17697
+boss_msg = 17698
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 410
+ShopName = 17699
+ShopCost = 100
+adv_id1 = 813
+adv_id2 = 814
+adv_id3 = 831
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17700
+boss_msg = 17701
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 411
+ShopName = 17702
+ShopCost = 100
+adv_id1 = 815
+adv_id2 = 816
+adv_id3 = 832
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17703
+boss_msg = 17704
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 412
+ShopName = 17705
+ShopCost = 100
+adv_id1 = 817
+adv_id2 = 818
+adv_id3 = 833
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17706
+boss_msg = 17707
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 413
+ShopName = 17708
+ShopCost = 100
+adv_id1 = 819
+adv_id2 = 820
+adv_id3 = 834
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17709
+boss_msg = 17710
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 414
+ShopName = 17711
+ShopCost = 100
+adv_id1 = 821
+adv_id2 = 822
+adv_id3 = 835
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17712
+boss_msg = 17713
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 415
+ShopName = 17714
+ShopCost = 100
+adv_id1 = 823
+adv_id2 = 824
+adv_id3 = 836
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17715
+boss_msg = 17716
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 416
+ShopName = 17717
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17718
+boss_msg = 17719
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 417
+ShopName = 17720
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17721
+boss_msg = 17722
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 418
+ShopName = 17723
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17724
+boss_msg = 17725
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 451
+ShopName = 17726
+ShopCost = 100
+teleport_id = 16
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17727
+boss_msg = 17728
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 452
+ShopName = 17729
+ShopCost = 100
+teleport_id = 17
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17730
+boss_msg = 17731
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 453
+ShopName = 17732
+ShopCost = 100
+teleport_id = 18
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17733
+boss_msg = 17734
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 454
+ShopName = 17735
+ShopCost = 100
+teleport_id = 22
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17736
+boss_msg = 17737
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 455
+ShopName = 17738
+ShopCost = 100
+teleport_id = 23
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17739
+boss_msg = 17740
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 456
+ShopName = 17741
+ShopCost = 100
+teleport_id = 24
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17742
+boss_msg = 17743
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 457
+ShopName = 17744
+ShopCost = 100
+teleport_id = 41
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17745
+boss_msg = 17746
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 458
+ShopName = 17747
+ShopCost = 100
+teleport_id = 42
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17748
+boss_msg = 17749
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 459
+ShopName = 17750
+ShopCost = 100
+teleport_id = 43
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17751
+boss_msg = 17752
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 460
+ShopName = 17753
+ShopCost = 100
+teleport_id = 44
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17754
+boss_msg = 17755
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 461
+ShopName = 17756
+ShopCost = 100
+teleport_id = 45
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17757
+boss_msg = 17758
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 462
+ShopName = 17759
+ShopCost = 100
+teleport_id = 46
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17760
+boss_msg = 17761
+ShopType = shopType_Arena
+Item = 
+
+[shop]
+code = 493
+ShopName = 17762
+ShopCost = 100
+shop_bg = BG_K01city.jpg
+boss_shp = 101
+boss_head = 122
+boss_name = 17763
+boss_msg = 17764
+ShopType = shopType_CityHall
+Item = 
+
+[shop]
+code = 494
+ShopName = 17765
+ShopCost = 100
+shop_bg = BG_K04bank.jpg
+boss_shp = 101
+boss_head = 125
+boss_name = 17766
+boss_msg = 17767
+ShopType = shopType_Storage
+Item = 
+
+[shop]
+code = 495
+ShopName = 17768
+ShopCost = 100
+shop_bg = BG_RM01Arena.JPG
+boss_shp = 101
+boss_head = 119
+boss_name = 17769
+boss_msg = 17770
+ShopType = shopType_Storage
+Item = 
+
+[shop]
+code = 496
+ShopName = 17771
+ShopCost = 100
+shop_bg = BG_RM01Arena.JPG
+boss_shp = 101
+boss_head = 119
+boss_name = 17772
+boss_msg = 17773
+ShopType = shopType_OrganizePVP
+Item = 
+
+[shop]
+code = 497
+ShopName = 17774
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17775
+boss_msg = 17776
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 498
+ShopName = 17777
+ShopCost = 100
+shop_bg = BG_cityhall.jpg
+boss_shp = 101
+boss_head = 109
+boss_name = 17778
+boss_msg = 17779
+ShopType = shopType_CityHall
+Item = 
+
+[shop]
+code = 499
+ShopName = 17780
+ShopCost = 100
+shop_bg = BG_bank.JPG
+boss_shp = 101
+boss_head = 111
+boss_name = 17781
+boss_msg = 17782
+ShopType = shopType_Storage
+Item = 
+
+[shop]
+code = 463
+ShopName = 17784
+ShopCost = 100
+teleport_id = 50
+shop_bg = BG_arena.JPG
+boss_shp = 101
+boss_head = 102
+boss_name = 17785
+boss_msg = 17786
+ShopType = shopType_Arena
+Item = 

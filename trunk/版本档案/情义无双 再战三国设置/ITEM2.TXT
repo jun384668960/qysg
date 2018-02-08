@@ -1,0 +1,2446 @@
+// ª««~³]©wÀÉ2
+#include TYPE.H
+#include PROCESS.H
+#include DEFINETXT.H
+#include ITEM.H
+#include ITEM2.H
+#include RANGETABLE.H
+#include MAGIC.H
+#include MAGIC_EXP.H
+#include PLAYERS.H
+#include STAGE.H
+#include COMPOSITE_TABLE.H
+
+
+// ---------------- ¸Ë³Æ«~ -------------------
+[item]
+code = item_¦^¬K¥É
+name = 4500000
+type2 = itemType2NoSell,itemType2GEM
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18001
+help_string = 4565536
+
+[item]
+code = item_¬~º°¾¯
+name = 4500001
+type2 = itemType2NoSell,itemType2GEM
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18002
+help_string = 4565537
+
+[item]
+code = item_Æ^¤ÕÆp
+name = 4500002
+type2 = itemType2NoSell,itemType2GEM
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18003
+help_string = 4565538
+
+[item]
+code = item_¦å¥É1¯Å
+name = 4500003
+type2 = itemType2NoSell,itemType2GEM
+add_hp = 40
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18004
+help_string = 4565539
+
+[item]
+code = item_¦å¥É2¯Å
+name = 4500004
+type2 = itemType2NoSell,itemType2GEM
+add_hp = 80
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18005
+help_string = 4565540
+
+[item]
+code = item_¦å¥É3¯Å
+name = 4500005
+type2 = itemType2NoSell,itemType2GEM
+add_hp = 120
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18006
+help_string = 4565541
+
+[item]
+code = item_Å]¥É1¯Å
+name = 4500006
+type2 = itemType2NoSell,itemType2GEM
+add_mp = 40
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18007
+help_string = 4565542
+
+[item]
+code = item_Å]¥É2¯Å
+name = 4500007
+type2 = itemType2NoSell,itemType2GEM
+add_mp = 80
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18008
+help_string = 4565543
+
+[item]
+code = item_Å]¥É3¯Å
+name = 4500008
+type2 = itemType2NoSell,itemType2GEM
+add_mp = 120
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18009
+help_string = 4565544
+
+[item]
+code = item_ªZ¥É1¯Å
+name = 4500009
+type2 = itemType2NoSell,itemType2GEM
+add_attr_str = 3
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18010
+help_string = 4565545
+
+[item]
+code = item_ªZ¥É2¯Å
+name = 4500010
+type2 = itemType2NoSell,itemType2GEM
+add_attr_str = 6
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18011
+help_string = 4565546
+
+[item]
+code = item_ªZ¥É3¯Å
+name = 4500011
+type2 = itemType2NoSell,itemType2GEM
+add_attr_str = 9
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18012
+help_string = 4565547
+
+[item]
+code = item_´¼¥É1¯Å
+name = 4500012
+type2 = itemType2NoSell,itemType2GEM
+add_attr_int = 3
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18013
+help_string = 4565548
+
+[item]
+code = item_´¼¥É2¯Å
+name = 4500013
+type2 = itemType2NoSell,itemType2GEM
+add_attr_int = 6
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18014
+help_string = 4565549
+
+[item]
+code = item_´¼¥É3¯Å
+name = 4500014
+type2 = itemType2NoSell,itemType2GEM
+add_attr_int = 9
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18015
+help_string = 4565550
+
+[item]
+code = item_ºë¥É1¯Å
+name = 4500015
+type2 = itemType2NoSell,itemType2GEM
+add_attr_mind = 3
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18016
+help_string = 4565551
+
+[item]
+code = item_ºë¥É2¯Å
+name = 4500016
+type2 = itemType2NoSell,itemType2GEM
+add_attr_mind = 6
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18017
+help_string = 4565552
+
+[item]
+code = item_ºë¥É3¯Å
+name = 4500017
+type2 = itemType2NoSell,itemType2GEM
+add_attr_mind = 9
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18018
+help_string = 4565553
+
+[item]
+code = item_¤Ï¥É1¯Å
+name = 4500018
+type2 = itemType2NoSell,itemType2GEM
+add_attr_dex = 3
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18019
+help_string = 4565554
+
+[item]
+code = item_¤Ï¥É2¯Å
+name = 4500019
+type2 = itemType2NoSell,itemType2GEM
+add_attr_dex = 6
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18020
+help_string = 4565555
+
+[item]
+code = item_¤Ï¥É3¯Å
+name = 4500020
+type2 = itemType2NoSell,itemType2GEM
+add_attr_dex = 9
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18021
+help_string = 4565556
+
+[item]
+code = item_²Î¥É1¯Å
+name = 4500021
+type2 = itemType2NoSell,itemType2GEM
+add_attr_leader = 3
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18022
+help_string = 4565557
+
+[item]
+code = item_²Î¥É2¯Å
+name = 4500022
+type2 = itemType2NoSell,itemType2GEM
+add_attr_leader = 6
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18023
+help_string = 4565558
+
+[item]
+code = item_²Î¥É3¯Å
+name = 4500023
+type2 = itemType2NoSell,itemType2GEM
+add_attr_leader = 9
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18024
+help_string = 4565559
+
+[item]
+code = item_¸Ñ¬r¥É1¯Å
+name = 4500024
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18025
+help_string = 4565560
+function = effFun_ANTISTATUS,effFun_POISON
+anti_status_ratio = effFun_POISON,2
+
+[item]
+code = item_¸Ñ¬r¥É2¯Å
+name = 4500025
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18026
+help_string = 4565561
+function = effFun_ANTISTATUS,effFun_POISON
+anti_status_ratio = effFun_POISON,4
+
+[item]
+code = item_¸Ñ¬r¥É3¯Å
+name = 4500026
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18027
+help_string = 4565562
+function = effFun_ANTISTATUS,effFun_POISON
+anti_status_ratio = effFun_POISON,6
+
+[item]
+code = item_§Ü·w¥É1¯Å
+name = 4500027
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18028
+help_string = 4565563
+function = effFun_ANTISTATUS,effFun_STUN
+anti_status_ratio = effFun_STUN,2
+
+[item]
+code = item_§Ü·w¥É2¯Å
+name = 4500028
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18029
+help_string = 4565564
+function = effFun_ANTISTATUS,effFun_STUN
+anti_status_ratio = effFun_STUN,4
+
+[item]
+code = item_§Ü·w¥É3¯Å
+name = 4500029
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18030
+help_string = 4565565
+function = effFun_ANTISTATUS,effFun_STUN
+anti_status_ratio = effFun_STUN,6
+
+[item]
+code = item_­°°I¥É1¯Å
+name = 4500030
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18031
+help_string = 4565566
+function = effFun_ANTISTATUS,effFun_WEAKEN
+anti_status_ratio = effFun_WEAKEN,2
+
+[item]
+code = item_­°°I¥É2¯Å
+name = 4500031
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18032
+help_string = 4565567
+function = effFun_ANTISTATUS,effFun_WEAKEN
+anti_status_ratio = effFun_WEAKEN,4
+
+[item]
+code = item_­°°I¥É3¯Å
+name = 4500032
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18033
+help_string = 4565568
+function = effFun_ANTISTATUS,effFun_WEAKEN
+anti_status_ratio = effFun_WEAKEN,6
+
+[item]
+code = item_¿m´H¥É1¯Å
+name = 4500033
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18034
+help_string = 4565569
+function = effFun_ANTISTATUS,effFun_SLOW
+anti_status_ratio = effFun_SLOW,2
+
+[item]
+code = item_¿m´H¥É2¯Å
+name = 4500034
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18035
+help_string = 4565570
+function = effFun_ANTISTATUS,effFun_SLOW
+anti_status_ratio = effFun_SLOW,4
+
+[item]
+code = item_¿m´H¥É3¯Å
+name = 4500035
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18036
+help_string = 4565571
+function = effFun_ANTISTATUS,effFun_SLOW
+anti_status_ratio = effFun_SLOW,6
+
+[item]
+code = item_¨¾³N¥É1¯Å
+name = 4500036
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18037
+help_string = 4565572
+function = effFun_ANTISTATUS,effFun_NO_MAGIC
+anti_status_ratio = effFun_NO_MAGIC,2
+
+[item]
+code = item_¨¾³N¥É2¯Å
+name = 4500037
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18038
+help_string = 4565573
+function = effFun_ANTISTATUS,effFun_NO_MAGIC
+anti_status_ratio = effFun_NO_MAGIC,4
+
+[item]
+code = item_¨¾³N¥É3¯Å
+name = 4500038
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18039
+help_string = 4565574
+function = effFun_ANTISTATUS,effFun_NO_MAGIC
+anti_status_ratio = effFun_NO_MAGIC,6
+
+[item]
+code = item_©è§Þ¥É1¯Å
+name = 4500039
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18040
+help_string = 4565575
+function = effFun_ANTISTATUS,effFun_NO_SPEC
+anti_status_ratio = effFun_NO_SPEC,2
+
+[item]
+code = item_©è§Þ¥É2¯Å
+name = 4500040
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18041
+help_string = 4565576
+function = effFun_ANTISTATUS,effFun_NO_SPEC
+anti_status_ratio = effFun_NO_SPEC,4
+
+[item]
+code = item_©è§Þ¥É3¯Å
+name = 4500041
+type2 = itemType2NoSell,itemType2GEM
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 18042
+help_string = 4565577
+function = effFun_ANTISTATUS,effFun_NO_SPEC
+anti_status_ratio = effFun_NO_SPEC,6
+
+[item]
+code = item_¤ýªÌÂk¨Ó¹u¤l
+name = 4501000
+type = itemTypeFoot,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+add_attr_str = 18
+add_attr_int = 17
+add_attr_mind = 20
+add_attr_con = 16
+add_attr_dex = 14
+add_defense = 35
+add_hp = 630
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 135
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 700
+cost = 180000
+sell = 42500
+cost_level = 97
+icon = 2867
+wid = 2867
+help_string = 4566536
+comp_times = 3
+soul_times = 1
+
+[item]
+code = item_©ú¥ú­¸Às¹u
+name = 4501001
+type = itemTypeFoot,itemTypeNoUse
+add_attr_str = 86
+add_attr_con = 95
+add_attr_dex = 33
+add_defense = 102
+add_hp = 3360
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobWARLORD
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2933
+wid = 2933
+help_string = 4566537
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_îÜª÷³½Åì¹u
+name = 4501002
+type = itemTypeFoot,itemTypeNoUse
+add_attr_str = 55
+add_attr_int = 26
+add_attr_mind = 36
+add_attr_con = 34
+add_attr_dex = 37
+add_attr_leader = 31
+add_defense = 102
+add_hp = 2432
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobLEADER
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2934
+wid = 2934
+help_string = 4566538
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_»ñ¯Íµµª÷¾c
+name = 4501003
+type = itemTypeFoot,itemTypeNoUse
+add_attr_int = 86
+add_attr_mind = 55
+add_attr_con = 31
+add_attr_leader = 36
+add_defense = 102
+add_hp = 2700
+add_mp = 228
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobADVISOR
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2935
+wid = 2935
+help_string = 4566539
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_¯Qª÷ÄQÅï¹u
+name = 4501004
+type = itemTypeFoot,itemTypeNoUse
+add_attr_int = 77
+add_attr_mind = 73
+add_attr_con = 31
+add_attr_leader = 36
+add_defense = 102
+add_hp = 2002
+add_mp = 214
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobWIZARD
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2936
+wid = 2936
+help_string = 4566540
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_¾¥¤l¯«¾÷¹u
+name = 4501005
+type = itemTypeFoot,itemTypeNoUse
+add_attr_str = 77
+add_attr_int = 26
+add_attr_mind = 36
+add_attr_con = 53
+add_attr_dex = 37
+add_attr_leader = 31
+add_defense = 102
+add_hp = 2560
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobENGINEER
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2937
+wid = 2937
+help_string = 4566541
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_«G»È­¸³½¹u
+name = 4501006
+type = itemTypeFoot,itemTypeNoUse
+add_attr_str = 88
+add_attr_con = 95
+add_attr_dex = 95
+add_defense = 99
+add_hp = 3060
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_WATER,5
+limit_level = 155
+limit_job = jobASSASSIN
+weight = 700
+cost = 160000
+sell = 40000
+cost_level = 100
+icon = 2967
+wid = 2967
+help_string = 4566542
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_µµÂB°t¹¢
+name = 4527000
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 20
+add_attr_dex = 20
+eq_magic_attack_type = skillAttr_SLASH,9
+eq_magic_attack_type = skillAttr_STING,9
+eq_magic_attack_type = skillAttr_EVIL,9
+limit_level = 125
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4377
+wid = 4377
+help_string = 4592536
+comp_times = 1
+soul_times = 5
+
+[item]
+code = item_¤­¤ö°t¹¢
+name = 4527001
+type = itemTypeOther,itemTypeNoUse
+add_attr_int = 20
+add_attr_leader = 20
+eq_magic_attack_type = skillAttr_BREAK,9
+eq_magic_attack_type = skillAttr_FIRE,9
+eq_magic_attack_type = skillAttr_EVIL,9
+limit_level = 125
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4377
+wid = 4377
+help_string = 4592537
+comp_times = 1
+soul_times = 5
+
+[item]
+code = item_µµª÷°t¹¢
+name = 4527002
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 20
+add_attr_con = 20
+eq_magic_attack_type = skillAttr_SLASH,9
+eq_magic_attack_type = skillAttr_BREAK,9
+eq_magic_attack_type = skillAttr_EVIL,9
+limit_level = 125
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4377
+wid = 4377
+help_string = 4592538
+comp_times = 1
+soul_times = 5
+
+[item]
+code = item_°­Æ`°t¹¢
+name = 4527003
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 20
+add_attr_dex = 20
+eq_magic_attack_type = skillAttr_BREAK,9
+eq_magic_attack_type = skillAttr_WATER,9
+eq_magic_attack_type = skillAttr_EVIL,9
+limit_level = 125
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4377
+wid = 4377
+help_string = 4592539
+comp_times = 1
+soul_times = 5
+
+[item]
+code = item_¦åÆp°t¹¢
+name = 4527004
+type = itemTypeOther,itemTypeNoUse
+add_attr_int = 20
+add_attr_mind = 25
+eq_magic_attack_type = skillAttr_SLASH,15
+eq_magic_attack_type = skillAttr_GOD,15
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4388
+wid = 4388
+help_string = 4592540
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_´d»î°t¹¢
+name = 4527005
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 15
+add_attr_con = 15
+add_attr_dex = 25
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_attack_type = skillAttr_WATER,5
+eq_magic_attack_type = skillAttr_GOD,5
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4387
+wid = 4387
+help_string = 4592541
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_·´¤Ñ°t¹¢
+name = 4527006
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 25
+add_attr_con = 25
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_FIRE,10
+eq_magic_attack_type = skillAttr_GOD,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4389
+wid = 4389
+help_string = 4592542
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_µµ«Ò°t¹¢
+name = 4527007
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 25
+add_attr_con = 15
+add_attr_dex = 15
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_attack_type = skillAttr_GOD,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4335
+wid = 4335
+help_string = 4592543
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_°E¤×°t¹¢
+name = 4527008
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 25
+add_attr_con = 25
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_attack_type = skillAttr_EVIL,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4333
+wid = 4333
+help_string = 4592544
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_´H¦B°t¹¢
+name = 4527009
+type = itemTypeOther,itemTypeNoUse
+add_attr_int = 25
+add_attr_leader = 20
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_attack_type = skillAttr_FIRE,10
+eq_magic_attack_type = skillAttr_EVIL,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4334
+wid = 4334
+help_string = 4592545
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_¹p»ï°t¹¢
+name = 4527010
+type = itemTypeOther,itemTypeNoUse
+add_attr_int = 25
+add_attr_mind = 25
+eq_magic_attack_type = skillAttr_WATER,10
+eq_magic_attack_type = skillAttr_GOD,10
+eq_magic_attack_type = skillAttr_EVIL,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4332
+wid = 4332
+help_string = 4592546
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_¥ñÆF°t¹¢
+name = 4527011
+type = itemTypeOther,itemTypeNoUse
+add_attr_con = 25
+add_attr_dex = 25
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_FIRE,5
+eq_magic_attack_type = skillAttr_GOD,5
+eq_magic_attack_type = skillAttr_EVIL,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4418
+wid = 4418
+help_string = 4592547
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_¤Ñ»þ°t¹¢
+name = 4527012
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 15
+add_attr_dex = 20
+add_attr_leader = 15
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_WATER,10
+eq_magic_attack_type = skillAttr_EVIL,10
+limit_level = 135
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4310
+wid = 4310
+help_string = 4592548
+comp_times = 2
+soul_times = 2
+
+[item]
+code = item_§N¨æ¬ô¬Ó(7¤é)
+name = 4528000
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_str = 45
+add_attr_con = 75
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9593
+wid = 9593
+help_string = 4593536
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_STUN,25
+anti_status_ratio = effFun_WEAKEN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -18
+use_duedate = 604800
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¯PµK¹p´b(7¤é)
+name = 4528001
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_int = 10
+add_attr_con = 75
+add_attr_leader = 30
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9596
+wid = 9596
+help_string = 4593537
+function = effFun_ANTISTATUS,effFun_POISON,effFun_STUN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_POISON,25
+anti_status_ratio = effFun_STUN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -15
+use_duedate = 604800
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¦BÁ÷ÍeºÑ(7¤é)
+name = 4528002
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_int = 25
+add_attr_mind = 15
+add_attr_con = 75
+add_attr_leader = 10
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9597
+wid = 9597
+help_string = 4593538
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN
+anti_status_ratio = effFun_STUN,50
+anti_status_ratio = effFun_WEAKEN,50
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -9
+use_duedate = 604800
+sp_effect = engADDCOLOR
+
+[item]
+code = item_´Ë±O¸v´P(7¤é)
+name = 4528003
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_str = 5
+add_attr_con = 75
+add_attr_dex = 40
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2550
+cost = 660000
+sell = 165000
+cost_level = 96
+icon = 9600
+wid = 9600
+help_string = 4593539
+function = effFun_ANTISTATUS,effFun_POISON,effFun_WEAKEN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_POISON,25
+anti_status_ratio = effFun_WEAKEN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -15
+use_duedate = 604800
+sp_effect = engADDCOLOR
+
+[item]
+code = item_§N¨æ¬ô¬Ó(15¤é)
+name = 4528004
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_str = 45
+add_attr_con = 75
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9593
+wid = 9593
+help_string = 4593540
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_STUN,25
+anti_status_ratio = effFun_WEAKEN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -18
+use_duedate = 1296000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¯PµK¹p´b(15¤é)
+name = 4528005
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_int = 10
+add_attr_con = 75
+add_attr_leader = 30
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9596
+wid = 9596
+help_string = 4593541
+function = effFun_ANTISTATUS,effFun_POISON,effFun_STUN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_POISON,25
+anti_status_ratio = effFun_STUN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -15
+use_duedate = 1296000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¦BÁ÷ÍeºÑ(15¤é)
+name = 4528006
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_int = 25
+add_attr_mind = 15
+add_attr_con = 75
+add_attr_leader = 10
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2500
+cost = 640000
+sell = 160000
+cost_level = 96
+icon = 9597
+wid = 9597
+help_string = 4593542
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN
+anti_status_ratio = effFun_STUN,50
+anti_status_ratio = effFun_WEAKEN,50
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -9
+use_duedate = 1296000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_´Ë±O¸v´P(15¤é)
+name = 4528007
+duedate_only = 1
+type = itemTypeHorse,itemTypeNoUse
+add_attr_str = 5
+add_attr_con = 75
+add_attr_dex = 40
+add_defense = 20
+add_hp = 100
+move = 62
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 55
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 2550
+cost = 660000
+sell = 165000
+cost_level = 96
+icon = 9600
+wid = 9600
+help_string = 4593543
+function = effFun_ANTISTATUS,effFun_POISON,effFun_WEAKEN,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_POISON,25
+anti_status_ratio = effFun_WEAKEN,25
+anti_status_ratio = effFun_NO_MAGIC,25
+anti_status_ratio = effFun_NO_SPEC,25
+sfx_hit = wav\comm\em035_1.wav
+sfx_run = wav\comm\HorseRun.wav
+sfx_walk = wav\comm\HorseWalk.wav
+comp_times = 0
+soul_times = 2
+horse_height = -15
+use_duedate = 1296000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¥Õªê¶µ°é(®É)
+name = 4528008
+duedate_only = 1
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 5
+add_attr_int = 5
+add_attr_mind = 5
+add_attr_dex = 5
+add_defense = 5
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,3
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,3
+eq_magic_resist = skillAttr_EVIL,3
+limit_level = 55
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4310
+wid = 4310
+help_string = 4593544
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN
+anti_status_ratio = effFun_STUN,15
+anti_status_ratio = effFun_WEAKEN,15
+comp_times = 0
+soul_times = 2
+use_duedate = 1296000
+
+[item]
+code = item_²»¨ß¶µ°é(®É)
+name = 4528009
+duedate_only = 1
+type = itemTypeOther,itemTypeNoUse
+add_attr_str = 5
+add_attr_con = 5
+add_attr_dex = 5
+add_attr_leader = 5
+add_defense = 5
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,3
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,3
+eq_magic_resist = skillAttr_EVIL,3
+limit_level = 55
+weight = 200
+cost = 200
+sell = 50
+cost_level = 20
+icon = 4310
+wid = 4310
+help_string = 4593545
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN
+anti_status_ratio = effFun_STUN,15
+anti_status_ratio = effFun_WEAKEN,15
+comp_times = 0
+soul_times = 2
+use_duedate = 1296000
+
+[item]
+code = item_µµÂB´u(10¤é)
+name = 4528010
+duedate_only = 1
+type = itemTypeWeapon,itemTypeTwoHand,itemTypeLance,itemTypeNoUse
+wait_type = act_STAND_LANCE
+add_attr_str = 70
+add_attr_con = 30
+add_attr_dex = 35
+attack_range = 2
+effect_range = 0
+add_attack_power = 120,128
+add_magic_power = 20
+add_attackx2_ratio = 14
+attack_speed = 6
+add_weapon_hit = 90
+eq_magic_attack_type = skillAttr_SLASH,20
+eq_magic_attack_type = skillAttr_STING,40
+eq_magic_attack_type = skillAttr_EVIL,40
+limit_level = 125
+limit_job = jobWARLORD
+weight = 1800
+cost = 120000
+sell = 30000
+cost_level = 100
+icon = 651
+wid = 651
+help_string = 4593546
+super_type = itemTypeLance
+sfx_hit = wav\comm\hit02_1.wav
+sfx_attack = wav\comm\throw1.wav
+comp_times = 2
+soul_times = 2
+use_duedate = 864000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¤­¤öµµª÷´Ò(10¤é)
+name = 4528011
+duedate_only = 1
+type = itemTypeWeapon,itemTypeLance,itemTypeNoUse
+wait_type = act_STAND_SWORD
+add_attr_int = 85
+add_attr_con = 15
+add_attr_leader = 40
+attack_range = 2
+effect_range = 0
+add_attack_power = 102,105
+add_magic_power = 26
+add_hp = 650
+attack_speed = 4
+add_weapon_hit = 90
+eq_magic_attack_type = skillAttr_BREAK,60
+eq_magic_attack_type = skillAttr_GOD,20
+eq_magic_attack_type = skillAttr_EVIL,20
+limit_level = 125
+limit_job = jobADVISOR
+weight = 1000
+cost = 120000
+sell = 30000
+cost_level = 100
+icon = 1333
+wid = 1333
+help_string = 4593547
+super_type = itemTypeLance
+sfx_hit = wav\comm\hit06.wav
+sfx_attack = wav\comm\throw1.wav
+comp_times = 2
+soul_times = 2
+use_duedate = 864000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_µµª÷¥¨©ò(10¤é)
+name = 4528012
+duedate_only = 1
+type = itemTypeWeapon,itemTypeTwoHand,itemTypeFalchion,itemTypeNoUse
+wait_type = act_STAND_MACHETE
+add_attr_str = 100
+add_attr_con = 30
+add_attr_dex = 15
+attack_range = 2
+effect_range = 0
+add_attack_power = 155,165
+add_attackx2_ratio = 21
+attack_speed = 5
+add_weapon_hit = 90
+eq_magic_attack_type = skillAttr_SLASH,30
+eq_magic_attack_type = skillAttr_BREAK,40
+eq_magic_attack_type = skillAttr_EVIL,30
+limit_level = 125
+limit_job = jobWARLORD
+weight = 2000
+cost = 144000
+sell = 36000
+cost_level = 87
+icon = 1025
+wid = 1025
+help_string = 4593548
+super_type = itemTypeFalchion
+sfx_hit = wav\comm\hit01.wav
+sfx_attack = wav\comm\sword.wav
+comp_times = 2
+soul_times = 2
+use_duedate = 864000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_°­Æ`¨ª¤õÂñ(10¤é)
+name = 4528013
+duedate_only = 1
+type = itemTypeWeapon,itemTypeTwoHand,itemTypeFalchion,itemTypeNoUse
+wait_type = act_STAND_MACHETE
+add_attr_str = 30
+add_attr_con = 30
+add_attr_dex = 80
+attack_range = 2
+effect_range = 2
+add_attack_power = 139,153
+add_attackx2_ratio = 21
+attack_speed = 4
+add_weapon_hit = 80
+eq_magic_attack_type = skillAttr_BREAK,55
+eq_magic_attack_type = skillAttr_WATER,20
+eq_magic_attack_type = skillAttr_GOD,25
+limit_level = 125
+limit_job = jobWARLORD
+weight = 2600
+cost = 144000
+sell = 36000
+cost_level = 100
+icon = 1431
+wid = 1431
+help_string = 4593549
+super_type = itemTypeFalchion
+sfx_hit = wav\comm\hit07.wav
+sfx_attack = wav\comm\throw1.wav
+comp_times = 2
+soul_times = 2
+use_duedate = 864000
+sp_effect = engADDCOLOR
+
+[item]
+code = item_¬x¯îÅ]´¹(15¤é)
+name = 4528014
+duedate_only = 1
+type = itemTypeWeapon,itemTypeSword,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+wait_type = act_STAND_SWORD
+light = 2
+attack_range = 2
+effect_range = 0
+add_attack_power = 1
+attack_speed = 1
+limit_level = 1
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 10417
+wid = 1
+help_string = 4593550
+super_type = itemTypeSword
+sfx_hit = wav\comm\hit02.wav
+sfx_attack = wav\comm\throw1.wav
+soul_times = 1
+use_duedate = 1296000
+
+[item]
+code = item_Å]´L¾Ô¦ç(7¤é)
+name = 4528015
+duedate_only = 1
+type = itemTypeUnderwear,itemTypeNoUse
+add_attr_str = 25
+add_attr_int = 25
+add_attr_mind = 25
+add_attr_dex = 25
+add_defense = 15
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+eq_magic_resist = skillAttr_WATER,8
+eq_magic_resist = skillAttr_GOD,8
+eq_magic_resist = skillAttr_EVIL,8
+limit_level = 120
+weight = 100
+cost = 20000
+sell = 5000
+cost_level = 60
+icon = 3808
+help_string = 4593551
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN
+anti_status_ratio = effFun_STUN,20
+anti_status_ratio = effFun_WEAKEN,20
+comp_times = 5
+soul_times = 2
+use_duedate = 604800
+
+[item]
+code = item_¶Àª÷¥Ò(¨k3¤é)
+name = 4528016
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+no_attack = 1
+add_hp = 150
+add_mp = 100
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+limit_sex = sexMALE
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 17031
+wid = 17048
+other_wid = 9055
+help_string = 4593552
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¶Àª÷¥Ò(¤k3¤é)
+name = 4528017
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+no_attack = 1
+add_hp = 150
+add_mp = 100
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+limit_sex = sexFEMALE
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 17032
+wid = 17049
+other_wid = 9056
+help_string = 4593553
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¶Àª÷¥Ò(¨k½Ã3¤é)
+name = 4528018
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+no_attack = 1
+add_hp = 150
+add_mp = 100
+limit_job = jobASSASSIN
+limit_sex = sexMALE
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 17050
+wid = 17050
+other_wid = 9062
+help_string = 4593554
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¶Àª÷¥Ò(¤k½Ã3¤é)
+name = 4528019
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+no_attack = 1
+add_hp = 150
+add_mp = 100
+limit_job = jobASSASSIN
+limit_sex = sexFEMALE
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 17051
+wid = 17051
+other_wid = 9063
+help_string = 4593555
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¶ÂÃM¤h(¨k½Ã3¤é)
+name = 4528020
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse
+type2 = itemType2NoSell
+add_attr_str = 50
+add_attr_int = 50
+add_attr_mind = 50
+add_attr_con = 50
+add_attr_dex = 50
+add_attr_leader = 50
+add_magic_power = 20
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_resist = skillAttr_SLASH,20
+eq_magic_resist = skillAttr_STING,20
+eq_magic_resist = skillAttr_BREAK,20
+eq_magic_resist = skillAttr_ARROW,20
+limit_job = jobASSASSIN
+limit_sex = sexMALE
+weight = 500
+cost = 20
+sell = 5
+cost_level = 20
+icon = 17064
+wid = 17064
+other_wid = 9076
+help_string = 4593556
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¶ÂÃM¤h(¤k½Ã3¤é)
+name = 4528021
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse
+type2 = itemType2NoSell
+add_attr_str = 50
+add_attr_int = 50
+add_attr_mind = 50
+add_attr_con = 50
+add_attr_dex = 50
+add_attr_leader = 50
+add_magic_power = 20
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_resist = skillAttr_SLASH,20
+eq_magic_resist = skillAttr_STING,20
+eq_magic_resist = skillAttr_BREAK,20
+eq_magic_resist = skillAttr_ARROW,20
+limit_job = jobASSASSIN
+limit_sex = sexFEMALE
+weight = 500
+cost = 20
+sell = 5
+cost_level = 20
+icon = 17065
+wid = 17065
+other_wid = 9077
+help_string = 4593557
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_­ßÃM¤h(¨k½Ã3¤é)
+name = 4528022
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse
+type2 = itemType2NoSell
+add_attr_str = 210
+add_attr_int = 50
+add_attr_mind = 50
+add_attr_con = 50
+add_attr_dex = 50
+add_attr_leader = 50
+add_magic_power = 10
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_resist = skillAttr_FIRE,20
+eq_magic_resist = skillAttr_WATER,20
+eq_magic_resist = skillAttr_GOD,20
+eq_magic_resist = skillAttr_EVIL,20
+limit_job = jobASSASSIN
+limit_sex = sexMALE
+weight = 500
+cost = 20
+sell = 5
+cost_level = 20
+icon = 17064
+wid = 17064
+other_wid = 9076
+help_string = 4593558
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_­ßÃM¤h(¤k½Ã3¤é)
+name = 4528023
+wawa_only = 1
+type = itemTypeOther,itemTypeNoUse
+type2 = itemType2NoSell
+add_attr_str = 210
+add_attr_int = 50
+add_attr_mind = 50
+add_attr_con = 50
+add_attr_dex = 50
+add_attr_leader = 50
+add_magic_power = 10
+eq_magic_attack_type = skillAttr_SLASH,10
+eq_magic_attack_type = skillAttr_STING,10
+eq_magic_attack_type = skillAttr_BREAK,10
+eq_magic_resist = skillAttr_FIRE,20
+eq_magic_resist = skillAttr_WATER,20
+eq_magic_resist = skillAttr_GOD,20
+eq_magic_resist = skillAttr_EVIL,20
+limit_job = jobASSASSIN
+limit_sex = sexFEMALE
+weight = 500
+cost = 20
+sell = 5
+cost_level = 20
+icon = 17065
+wid = 17065
+other_wid = 9077
+help_string = 4593559
+soul_times = 1
+use_duedate = 259200
+
+[item]
+code = item_¯«¯µÄ_½c
+name = 4529000
+type = itemTypeItem,itemTypeNoUse
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 5743
+help_string = 4594536
+
+[item]
+code = item_´¶³qªº³Ò°Ê¾±³¹
+name = 4529001
+type = itemTypeItem,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 6062
+help_string = 4594537
+
+[item]
+code = item_ºë½oªº³Ò°Ê¾±³¹
+name = 4529002
+type = itemTypeItem,itemTypeNoUse,itemTypeNoTrade
+type2 = itemType2NoSell
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 6064
+help_string = 4594538
+
+[item]
+code = item_¤¤¬î¤ë»æ²°
+name = 4529003
+type = itemTypeItem,itemTypeNoUse
+type2 = itemType2NoSell
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 47004
+help_string = 4594539
+
+[item]
+code = item_Às¶P·s¬K¬õ¥]
+name = 4529004
+type = itemTypeItem,itemTypeNoUse,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 5590
+help_string = 4594540
+
+[item]
+code = item_±j®Ä¯«¹A¯ù
+name = 4530000
+type = itemTypeItem
+type2 = itemType2NoSell,itemType2MayPutStorage
+add_hp = 1250
+limit_level = 1
+weight = 50
+cost = 160
+sell = 40
+cost_level = 1
+icon = 5045
+help_string = 4595536
+drop_num = 250
+
+[item]
+code = item_±j®Ä¤ý¥ÀÂÏ®ç
+name = 4530001
+type = itemTypeItem
+type2 = itemType2NoSell,itemType2MayPutStorage
+add_hp = 900
+limit_level = 1
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 7501
+help_string = 4595537
+drop_num = 250
+
+[item]
+code = item_±j®Ä¥ÉÅS°s
+name = 4530002
+type = itemTypeItem
+type2 = itemType2NoSell,itemType2MayPutStorage
+add_mp = 250
+limit_level = 1
+weight = 10
+cost = 0
+sell = 0
+cost_level = 20
+icon = 7502
+help_string = 4595538
+drop_num = 250
+
+[item]
+code = item_¼úÀy°®©[³U
+name = 4530003
+type = itemTypeItem,itemTypeNoTrade
+type2 = itemType2NoSell
+limit_level = 1
+weight = 100
+cost = 100000
+sell = 25000
+cost_level = 100
+icon = 5082
+help_string = 4595539
+use_magic_id = magic_ADD_MAX_ITEM_CARRY
+use_magic_level = 1
+
+[item]
+code = item_¼úÀy¬ÂÄn½c
+name = 4530004
+type = itemTypeItem,itemTypeNoTrade
+type2 = itemType2NoSell
+limit_level = 1
+weight = 100
+cost = 100000
+sell = 25000
+cost_level = 100
+icon = 5083
+help_string = 4595540
+use_magic_id = magic_ADD_MAX_ITEM_STORAGE
+use_magic_level = 1
+
+[item]
+code = item_¯«§f¥¬ªZ»î
+name = 4530005
+type = itemTypeItem,itemTypeSoul
+light = 399
+limit_level = 50
+limit_job = jobWARLORD,jobLEADER,jobADVISOR,jobWIZARD,jobENGINEER
+weight = 100
+cost = 0
+sell = 0
+cost_level = 60
+icon = 3987
+wid = role_§f¥¬_cosplay
+help_string = 4595541
+
+[item]
+code = item_ªê¼SÀsÄË«lÃz½c
+name = 4531000
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5806
+use_magic_id = 6247
+
+[item]
+code = item_117¯Å°t¹¢Â§
+name = 4531001
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5803
+use_magic_id = 6248
+
+[item]
+code = item_120¯Å°t¹¢Â§
+name = 4531002
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5803
+use_magic_id = 6249
+
+[item]
+code = item_125¯Å°t¹¢Â§
+name = 4531003
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7587
+use_magic_id = 6250
+
+[item]
+code = item_¤dÁè¦ÊÁå¥]
+name = 4531004
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596540
+use_magic_id = 6252
+
+[item]
+code = item_±´Ån¨úª«ºÖ³U
+name = 4531005
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7587
+use_magic_id = 6257
+
+[item]
+code = item_¯¦ªk¤Ñ®Ñ§X
+name = 4531006
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+use_magic_id = 6258
+
+[item]
+code = item_©_§L¹P¥ÒºÖ³U
+name = 4531007
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596543
+use_magic_id = 6259
+
+[item]
+code = item_©_¬Ã²§Ä_ºÖ³U
+name = 4531008
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596544
+use_magic_id = 6260
+
+[item]
+code = item_¯«§L¤Ñ­°ºÖ³U
+name = 4531009
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596545
+use_magic_id = 6261
+
+[item]
+code = item_¤@ÃMµ´¹ÐºÖ³U
+name = 4531010
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596546
+use_magic_id = 6262
+
+[item]
+code = item_¥P¬É¬Ã«~½c
+name = 4531011
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5806
+help_string = 4596547
+use_magic_id = 6265
+
+[item]
+code = item_ªê¶N¸Éµ¹³U
+name = 4531012
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596548
+use_magic_id = 6266
+
+[item]
+code = item_¤T°ê®É®Ä¸Ë§êÂ§
+name = 4531013
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5803
+help_string = 4596549
+use_magic_id = 6267
+
+[item]
+code = item_¤Ó¥È§L¾¹§X
+name = 4531014
+type = itemTypeItem,itemTypeLetto
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596550
+use_magic_id = 6269
+
+[item]
+code = item_¤d¤Û¦Ê§ÞºÖ³U
+name = 4531015
+type = itemTypeItem,itemTypeLetto
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7587
+help_string = 4596551
+use_magic_id = 6279
+
+[item]
+code = item_®É®ÄÂ§«~³U
+name = 4531016
+type = itemTypeItem,itemTypeLetto,itemTypeNoTrade
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596552
+use_magic_id = 6289
+
+[item]
+code = item_³ß¼y¸`¤é¥]
+name = 4531017
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596553
+use_magic_id = 6291
+
+[item]
+code = item_ÅQ®ð°®©[ºÖ³U
+name = 4531018
+type = itemTypeItem,itemTypeLetto
+type2 = itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7587
+help_string = 4596554
+use_magic_id = 6300
+
+[item]
+code = item_¸t½ÏÄ_½c_2011
+name = 4531019
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 20
+icon = 5878
+help_string = 4596555
+use_magic_id = 6307
+
+[item]
+code = item_¸t½ÏÂ§ª«_2011
+name = 4531020
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 20
+icon = 5678
+help_string = 4596556
+use_magic_id = 6308
+
+[item]
+code = item_·s¦~¶PÂ§
+name = 4531021
+type = itemTypeItem,itemTypeLetto
+type2 = itemType2NoSell
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5803
+help_string = 4596557
+use_magic_id = 6314
+
+[item]
+code = item_ÀsÄËªêÅD¦n¹BÂ§
+name = 4531022
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5803
+help_string = 4596558
+use_magic_id = 6320
+
+[item]
+code = item_ª÷Á\¥É²¯Â§¥]
+name = 4531023
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596559
+use_magic_id = 6470
+
+[item]
+code = item_ª÷Á\¥É¥ÒÂ§¥]
+name = 4531024
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596560
+use_magic_id = 6471
+
+[item]
+code = item_ª÷Á\¥É¹uÂ§¥]
+name = 4531025
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596561
+use_magic_id = 6472
+
+[item]
+code = item_ª÷Á\¥ÉµÃÂ§¥]
+name = 4531026
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596562
+use_magic_id = 6473
+
+[item]
+code = item_ª÷Á\¥É¾ûÂ§¥]
+name = 4531027
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596563
+use_magic_id = 6474
+
+[item]
+code = item_¤Ñ¹pºuºuÄ_¾¹½c
+name = 4531028
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 7384
+help_string = 4596564
+use_magic_id = 6482
+
+[item]
+code = item_¤Ñ¹p¦a¤õ¹¢«~³U
+name = 4531029
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596565
+use_magic_id = 6485
+
+[item]
+code = item_»ñ¯Íµµª÷²¯Â§¥]
+name = 4531030
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596566
+use_magic_id = 6508
+
+[item]
+code = item_«Gª÷­¸Às¥ÒÂ§¥]
+name = 4531031
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596567
+use_magic_id = 6509
+
+[item]
+code = item_îÜª÷»ñ¯ÍÁ§Â§¥]
+name = 4531032
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596568
+use_magic_id = 6510
+
+[item]
+code = item_¤CÄ_îÜª÷µÃÂ§¥]
+name = 4531033
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596569
+use_magic_id = 6511
+
+[item]
+code = item_ª÷³½ÅìÂê¾ûÂ§¥]
+name = 4531034
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596570
+use_magic_id = 6512
+
+[item]
+code = item_ÀsÅvÄ_ª«½c
+name = 4531035
+type = itemTypeItem,itemTypeLetto,itemTypeNoDrop
+type2 = itemType2NoSell,itemType2MayPutStorage
+limit_level = 1
+weight = 20
+cost = 400
+sell = 100
+cost_level = 25
+icon = 5714
+help_string = 4596571
+use_magic_id = 6515
+

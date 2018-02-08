@@ -1,0 +1,1012 @@
+
+#include GAMERESOURCE.H
+#include TYPE.H
+#include ITEM.H
+#include SCRIPTFUNC.H
+#include NPC_TALK.H
+#include PLAYERS.H
+#include ShipSchedule.H
+// Script Table 設定檔
+
+[ini]
+max = 500
+
+
+[script_tbl]
+code = 1
+script = scMIS_CheckMoney,def_000037,100
+script = scMIS_TakeMoney,100
+
+[script_tbl]
+code = 2
+script = scMIS_CheckMoney,def_000043,50
+script = scMIS_TakeMoney,100
+
+[script_tbl]
+code = 3
+script = scMIS_ChangSavePoint,19296,1312,1
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 4
+script = scMIS_ChangSavePoint,19296,1312,11
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 5
+script = scMIS_ChangSavePoint,19296,1312,21
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 6
+script = scMIS_CheckItem,def_001009,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_TakeItem,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_GiveItem,def_001008,item_乾坤袋,1,item_玲瓏箱,1,item_防斬心得,1
+script = scMIS_GiveItem,def_001008,item_防斬心得,1,item_防刺心得,1,item_防刺心得,1
+script = scMIS_GiveItem,def_001008,item_防碎心得,1,item_防碎心得,1,item_防射心得,1
+script = scMIS_GiveItem,def_001008,item_防射心得,1,item_六韜,1,item_六韜,1
+script = scMIS_GiveItem,def_001008,item_獎勵地點標記旗,30,item_獎勵標記傳送捲軸,30,item_皇朝新手槍,1
+script = scMIS_GiveItem,def_001008,item_皇朝新手駒,1,item_皇朝新手杖,1,item_皇朝新手棍,1
+script = scMIS_GiveItem,def_001008,item_皇朝新手服,1,item_皇朝新手帽,1,item_皇朝新手刀,1
+script = scMIS_GiveItem,def_001008,item_皇朝新手圈,1,item_皇朝新手弓,1,item_皇朝新手靴,1
+script = scMIS_GiveItem,def_001008,item_特級充值證明,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,,,,
+script = scMIS_GiveItem,def_001219,Item_money,50000,,,,
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,291
+script = scMIS_GiveSkill,292
+script = scMIS_GiveSkill,501
+
+[script_tbl]
+code = 7
+script = scMIS_CheckLevel,def_001211,5
+script = scMIS_TakeItem,Item_淨水石,1,,,,
+
+[script_tbl]
+code = 8
+script = scMIS_CheckItem,def_001218,Item_淨水石,1,,,,
+script = scMIS_GiveItem,def_001219,Item_money,800,Item_SkillExp,160,,
+
+[script_tbl]
+code = 9
+script = scMIS_GiveItem,def_001231,Item_淨水石,1,,,,
+script = scMIS_TakeItem,Item_石珠,50,,,,
+
+[script_tbl]
+code = 10
+script = scMIS_GiveItem,def_002015,Item_匕首,12,,,,
+script = scMIS_SetQuestComplete,002,1
+
+[script_tbl]
+code = 11
+script = scMIS_CheckLevel,def_002007,2
+script = scMIS_SetQuest,002,def_001111
+
+[script_tbl]
+code = 12
+script = scMIS_CheckItem,def_002013,Item_疏鬆獸骨,2,,,,
+script = scMIS_GiveItem,def_002015,Item_匕首,12,,,,
+
+[script_tbl]
+code = 13
+script = scMIS_CheckItem,def_002109,Item_雜布,1,,,,
+script = scMIS_TakeItem,Item_雜布,1,,,,
+
+[script_tbl]
+code = 14
+script = scMIS_CheckItem,def_002109,Item_破獸皮,10,,,,
+script = scMIS_TakeItem,Item_破獸皮,10,,,,
+
+[script_tbl]
+code = 15
+script = scMIS_CheckItem,def_002109,Item_粗麻,10,,,,
+script = scMIS_TakeItem,Item_粗麻,10,,,,
+
+[script_tbl]
+code = 16
+script = scMIS_CheckQuestComplete,007,def_002217,def_002215
+script = scMIS_CheckQuest,007,def_002202
+
+[script_tbl]
+code = 17
+script = scMIS_CheckQuestComplete,007,def_002234,def_002233
+script = scMIS_CheckQuest,007,def_002221
+
+[script_tbl]
+code = 18
+script = scMIS_CheckQuestComplete,007,def_002258,def_002255
+script = scMIS_CheckQuest,007,def_002241
+
+[script_tbl]
+code = 19
+script = scMIS_CheckQuestComplete,007,def_002277,def_002274
+script = scMIS_CheckQuest,007,def_002262
+
+[script_tbl]
+code = 20
+script = scMIS_SetQuest,007,def_001111
+script = scMIS_SetQuestNextStep,007
+
+[script_tbl]
+code = 21
+script = scMIS_GiveItem,def_002282,item_SkillExp,32,Item_皮甲,1,,
+script = scMIS_SetQuestComplete,007,1
+
+[script_tbl]
+code = 22
+script = scMIS_CheckQuestComplete,015,def_002359,def_002332
+script = scMIS_CheckQuest,015,def_002331
+
+[script_tbl]
+code = 23
+script = scMIS_SetQuestComplete,015,1
+script = scMIS_GiveItem,def_002358,Item_包子,2,item_SkillExp,25,,
+
+[script_tbl]
+code = 24
+script = scMIS_GiveItem,def_003110,item_Money,50,item_Exp,50,item_SkillExp,50
+script = scMIS_SetQuestComplete,004,1
+
+[script_tbl]
+code = 25
+script = scMIS_GiveItem,def_004014,Item_money,500,Item_SkillExp,300,Item_養生節錄,1
+script = scMIS_TakeItem,Item_藥材包袱,1,,,,
+
+[script_tbl]
+code = 26
+script = scMIS_SetQuestComplete,008,2
+script = scMIS_SetQuest,008,def_001111
+
+[script_tbl]
+code = 27
+script = scMIS_GiveItem,def_004116,Item_money,1500,Item_SkillExp,100,,
+script = scMIS_TakeItem,Item_毒液,5,Item_鹿茸,3,Item_羊角,1
+
+[script_tbl]
+code = 28
+script = scMIS_GiveItem,def_001300,Item_money,500,,,,
+script = scMIS_TakeItem,Item_安寧丹,1,,,,
+
+[script_tbl]
+code = 29
+
+[script_tbl]
+code = 30
+
+[script_tbl]
+code = 31
+script = scMIS_CheckItem,def_005010,item_賈蒙,1,,,,
+script = scMIS_GiveItem,def_001300,item_Money,1500,item_Exp,500,item_SkillExp,250
+script = scMIS_TakeItem,ITEM_賈蒙,1,,,,
+script = scMIS_SetQuestComplete,009,1
+
+[script_tbl]
+code = 32
+
+[script_tbl]
+code = 33
+
+[script_tbl]
+code = 34
+script = scMIS_CheckItem,def_005064,item_嫌犯,1,item_鱗片,1,,
+script = scMIS_GiveItem,def_005067,item_賈蒙,1,,,,
+script = scMIS_CheckItem,def_005061,item_嫌犯,1,,,,
+script = scMIS_TakeItem,item_嫌犯,1,,,,
+
+[script_tbl]
+code = 35
+script = scMIS_CheckItem,def_005112,item_兩刃叉,1,,,,
+script = scMIS_TakeItem,item_兩刃叉,1,,,,
+script = scMIS_SetQuestNextStep,010
+
+[script_tbl]
+code = 36
+script = scMIS_CheckItem,def_005115,item_大刀,3,,,,
+script = scMIS_TakeItem,item_大刀,3,,,,
+script = scMIS_SetQuestNextStep,010
+
+[script_tbl]
+code = 37
+script = scMIS_CheckItem,def_005118,item_匕首,100,,,,
+script = scMIS_TakeItem,item_匕首,100,,,,
+script = scMIS_GiveItem,def_005119,item_Money,3000,item_Exp,1000,item_SkillExp,1000
+script = scMIS_GiveMeritPoint,1
+script = scMIS_SetQuestComplete,010,1
+
+[script_tbl]
+code = 38
+script = scMIS_CheckItem,def_005210,item_骰子,30,,,,
+script = scMIS_TakeItem,item_骰子,30,,,,
+script = scMIS_SetQuestNextStep,013
+
+[script_tbl]
+code = 39
+script = scMIS_GiveItem,def_005218,item_虎紋裝,1,,,,
+script = scMIS_TakeItem,item_粗麻,3,,,,
+
+[script_tbl]
+code = 40
+script = scMIS_GiveItem,def_005218,item_豹紋服,1,,,,
+script = scMIS_TakeItem,item_粗麻,3,,,,
+
+[script_tbl]
+code = 41
+script = scMIS_CheckItem,def_008016,Item_馬鞍,1,,,,
+script = scMIS_TakeItem,item_馬鞍,1,,,,
+
+[script_tbl]
+code = 42
+script = scMIS_CheckQuestComplete,020,def_008020,def_008019
+script = scMIS_CheckQuest,020,def_008008
+
+[script_tbl]
+code = 43
+script = scMIS_CheckItem,def_008016,Item_馬鞍,1,,,,
+script = scMIS_CheckMoney,def_008016,1500
+script = scMIS_GiveSkill,253
+script = scMIS_TakeItem,item_馬鞍,1,,,,
+script = scMIS_TakeMoney,1500
+script = scMIS_SetQuestComplete,020,1
+
+[script_tbl]
+code = 44
+script = scMIS_CheckItem,def_008614,Item_雜布,35,,,,
+script = scMIS_GiveSkill,266
+script = scMIS_TakeItem,Item_雜布,35,,,,
+script = scMIS_SetQuestComplete,026,1
+
+[script_tbl]
+code = 45
+script = scMIS_CheckItem,def_008714,Item_短獸牙,5,Item_牛皮,1,Item_疏鬆獸骨,10
+script = scMIS_GiveSkill,266
+script = scMIS_TakeItem,Item_短獸牙,5,Item_牛皮,1,Item_疏鬆獸骨,10
+script = scMIS_SetQuestComplete,027,1
+
+[script_tbl]
+code = 46
+script = scMIS_CheckItem,def_008814,Item_毒液,2,,,,
+script = scMIS_GiveSkill,266
+
+[script_tbl]
+code = 47
+script = scMIS_SetQuestComplete,030,2
+script = scMIS_SetQuest,030,def_001111
+
+[script_tbl]
+code = 48
+script = scMIS_GiveSkill,265
+script = scMIS_SetQuestComplete,030,1
+
+[script_tbl]
+code = 49
+script = scMIS_CheckItem,def_009319,Item_白狐裘,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,500,,,,
+script = scMIS_TakeItem,Item_白狐裘,1,,,,
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 50
+script = scMIS_CheckItem,def_009320,Item_五彩琉璃杯,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,500,,,,
+script = scMIS_TakeItem,Item_五彩琉璃杯,1,,,,
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 51
+script = scMIS_CheckItem,def_009321,Item_龍紋玉壁,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,1000,,,,
+script = scMIS_TakeItem,Item_龍紋玉壁,1,,,,
+script = scMIS_GiveSkill,264
+script = scMIS_SetQuestComplete,033,1
+
+[script_tbl]
+code = 52
+script = scMIS_CheckItem,def_009357,Item_獸皮,5,,,,
+script = scMIS_CheckMoney,def_009358,3000
+script = scMIS_GiveItem,def_009359,Item_白狐裘,1,,,,
+script = scMIS_TakeItem,Item_獸皮,5,,,,
+script = scMIS_TakeMoney,3000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 53
+script = scMIS_CheckItem,def_009374,Item_銅馬,1,,,,
+script = scMIS_CheckMoney,def_009375,3000
+script = scMIS_GiveItem,def_009376,Item_五彩琉璃杯,1,,,,
+script = scMIS_TakeItem,Item_銅馬,1,,,,
+script = scMIS_TakeMoney,3000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 54
+script = scMIS_CheckMoney,def_009390,4000
+script = scMIS_GiveItem,def_009391,Item_龍紋玉壁,1,,,,
+script = scMIS_TakeMoney,4000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 55
+script = scMIS_CheckItem,def_005512,item_新鮮肉塊,3,item_鹽巴,4,,
+script = scMIS_GiveItem,def_005520,item_小籠包,1,,,,
+script = scMIS_TakeItem,item_新鮮肉塊,3,item_鹽巴,4,,
+script = scMIS_SetQuestNextStep,041
+
+[script_tbl]
+code = 56
+script = scMIS_CheckItem,def_005521,item_新鮮肉塊,1,item_鹽巴,2,,
+script = scMIS_GiveItem,def_005520,item_小籠包,1,,,,
+script = scMIS_TakeItem,item_新鮮肉塊,1,item_鹽巴,2,,
+
+[script_tbl]
+code = 57
+script = scMIS_CheckItem,def_005546,item_小籠包,1,,,,
+script = scMIS_TakeItem,item_小籠包,1,,,,
+script = scMIS_SetQuestNextStep,041
+
+[script_tbl]
+code = 58
+script = scMIS_GiveItem,def_004804,Item_SkillExp,1500,item_Exp,2000,item_六韜,1
+script = scMIS_TakeItem,Item_手札缺頁三,1,,,,
+
+[script_tbl]
+code = 59
+script = scMIS_CheckForce,def_000615,ID_COUNTRY_WEI
+script = scMIS_MovePos,1856,996,1
+
+[script_tbl]
+code = 60
+script = scMIS_CheckForce,def_000616,ID_COUNTRY_SHU
+script = scMIS_MovePos,1856,886,11
+
+[script_tbl]
+code = 61
+script = scMIS_CheckForce,def_000621,ID_COUNTRY_WU
+script = scMIS_MovePos,36224,1056,21
+
+[script_tbl]
+code = 62
+script = scMIS_GiveItem,def_011117,Item_蛇矛,1,item_Exp,3000,,
+script = scMIS_TakeItem,Item_阿福的骨灰,1,,,,
+
+[script_tbl]
+code = 63
+
+[script_tbl]
+code = 64
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,1280,1280,1
+
+[script_tbl]
+code = 65
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,1280,1280,11
+
+[script_tbl]
+code = 66
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,37120,1952,21
+
+[script_tbl]
+code = 67
+script = scMIS_CheckItem,def_001125,Item_幽州軍書,1,,,,
+script = scMIS_TakeItem,Item_幽州軍書,1,,,,
+
+[script_tbl]
+code = 68
+script = scMIS_CheckItem,def_001173,Item_朱巂的秘令,1,,,,
+script = scMIS_TakeItem,Item_朱巂的秘令,1,,,,
+
+[script_tbl]
+code = 69
+script = scMIS_CheckLevel,def_001183,15
+script = scMIS_CheckQuestComplete,042,def_001185,def_001184
+script = scMIS_CheckQuest,042,def_001186
+script = scMIS_RunQuestStep,042,def_001189,def_001193,def_001197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+
+[script_tbl]
+code = 70
+script = scMIS_CheckItem,def_001192,Item_山賊銅錢,50,,,,
+script = scMIS_GiveItem,def_001119,Item_包子,30,,,,
+script = scMIS_TakeItem,Item_山賊銅錢,50,,,,
+script = scMIS_SetQuestNextStep,042
+
+[script_tbl]
+code = 71
+script = scMIS_CheckItem,def_001196,Item_皇甫嵩的軍書,1,,,,
+script = scMIS_TakeItem,Item_皇甫嵩的軍書,1,,,,
+
+[script_tbl]
+code = 72
+script = scMIS_CheckItem,def_001479,Item_狼牙,10,,,,
+script = scMIS_TakeItem,Item_狼牙,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 73
+script = scMIS_CheckItem,def_001482,Item_山豬牙,10,,,,
+script = scMIS_TakeItem,Item_山豬牙,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 74
+script = scMIS_CheckItem,def_001485,Item_豪豬皮,10,,,,
+script = scMIS_TakeItem,Item_豪豬皮,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 75
+script = scMIS_CheckItem,def_001488,Item_鱷魚皮,10,,,,
+script = scMIS_TakeItem,Item_鱷魚皮,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 76
+script = scMIS_CheckItem,def_001491,Item_珍珠,50,,,,
+script = scMIS_TakeItem,Item_珍珠,50,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 77
+script = scMIS_CheckItem,def_001494,Item_珊瑚,250,,,,
+script = scMIS_TakeItem,Item_珊瑚,250,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 78
+script = scMIS_CheckItem,def_001497,Item_玉珠,250,,,,
+script = scMIS_TakeItem,Item_玉珠,250,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 79
+script = scMIS_GiveMeritPoint,15
+script = scMIS_GiveItem,def_003001,item_Exp,1500,item_SkillExp,1500,,
+script = scMIS_SetQuestComplete,043,1
+
+[script_tbl]
+code = 80
+script = scMIS_CheckItem,def_002405,Item_盜賊銅錢,50,Item_狼牙,3,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_盜賊銅錢,50,Item_狼牙,3,,
+script = scMIS_TakeItem,Item_盜賊銅錢,50,Item_狼牙,3,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 81
+script = scMIS_CheckItem,def_002405,Item_山賊銅錢,50,Item_砂糖,20,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_山賊銅錢,50,Item_砂糖,20,,
+script = scMIS_TakeItem,Item_山賊銅錢,50,Item_砂糖,20,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 82
+script = scMIS_CheckItem,def_002405,Item_海賊銅錢,50,Item_珊瑚,20,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_海賊銅錢,50,Item_珊瑚,20,,
+script = scMIS_TakeItem,Item_海賊銅錢,50,Item_珊瑚,20,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 83
+script = scMIS_CheckItem,def_008105,item_粗麻,5,,,,
+script = scMIS_GiveItem,def_001300,item_包子,5,,,,
+script = scMIS_TakeItem,item_粗麻,5,,,,
+
+[script_tbl]
+code = 84
+script = scMIS_CheckItem,def_008105,item_粗麻,50,,,,
+script = scMIS_GiveItem,def_001300,item_包子,50,,,,
+script = scMIS_TakeItem,item_粗麻,50,,,,
+
+[script_tbl]
+code = 85
+script = scMIS_CheckItem,def_008105,item_石珠,50,,,,
+script = scMIS_GiveItem,def_001300,item_冷泉,5,,,,
+script = scMIS_TakeItem,item_石珠,50,,,,
+
+[script_tbl]
+code = 86
+script = scMIS_CheckItem,def_008105,item_石珠,250,,,,
+script = scMIS_GiveItem,def_001300,item_冷泉,25,,,,
+script = scMIS_TakeItem,item_石珠,250,,,,
+
+[script_tbl]
+code = 87
+script = scMIS_CheckItem,def_008105,item_璞玉,50,item_鐵屑,50,item_破獸皮,20
+script = scMIS_GiveItem,def_001300,item_馬鞍,1,,,,
+script = scMIS_TakeItem,item_璞玉,50,item_鐵屑,50,item_破獸皮,20
+
+[script_tbl]
+code = 88
+script = scMIS_CheckItem,def_008105,item_樹皮,1000,,,,
+script = scMIS_GiveItem,def_001300,item_Money,100,,,,
+script = scMIS_TakeItem,item_樹皮,1000,,,,
+
+[script_tbl]
+code = 89
+script = scMIS_CheckItem,def_008120,item_狼骨,25,,,,
+script = scMIS_GiveItem,def_001300,item_虎骨膏,5,,,,
+script = scMIS_TakeItem,item_狼骨,25,,,,
+
+[script_tbl]
+code = 90
+script = scMIS_CheckItem,def_008120,item_狼骨,250,,,,
+script = scMIS_GiveItem,def_001300,item_虎骨膏,50,,,,
+script = scMIS_TakeItem,item_狼骨,250,,,,
+
+[script_tbl]
+code = 91
+script = scMIS_CheckItem,def_008120,item_紙,25,,,,
+script = scMIS_GiveItem,def_001300,item_驅寒湯,1,,,,
+script = scMIS_TakeItem,item_紙,25,,,,
+
+[script_tbl]
+code = 92
+script = scMIS_CheckItem,def_008120,item_紙,250,,,,
+script = scMIS_GiveItem,def_001300,item_驅寒湯,10,,,,
+script = scMIS_TakeItem,item_紙,250,,,,
+
+[script_tbl]
+code = 93
+script = scMIS_CheckItem,def_008120,item_毒液,25,,,,
+script = scMIS_GiveItem,def_001300,item_蠱毒,1,,,,
+script = scMIS_TakeItem,item_毒液,25,,,,
+
+[script_tbl]
+code = 94
+script = scMIS_CheckItem,def_008120,item_毒液,250,,,,
+script = scMIS_GiveItem,def_001300,item_蠱毒,10,,,,
+script = scMIS_TakeItem,item_毒液,250,,,,
+
+[script_tbl]
+code = 95
+script = scMIS_CheckItem,def_008120,item_包子,50,,,,
+script = scMIS_GiveItem,def_001300,item_飯糰,5,,,,
+script = scMIS_TakeItem,item_包子,50,,,,
+
+[script_tbl]
+code = 96
+script = scMIS_CheckItem,def_008120,item_包子,250,,,,
+script = scMIS_GiveItem,def_001300,item_飯糰,25,,,,
+script = scMIS_TakeItem,item_包子,250,,,,
+
+[script_tbl]
+code = 97
+script = scMIS_SetQuestNextStep,058
+script = scMIS_TakeItem,item_七彩鶴羽,1,,,,
+
+[script_tbl]
+code = 98
+script = scMIS_CheckItem,def_002514,item_SkillExp,20000,,,,
+script = scMIS_GiveSkill,287
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+script = scMIS_SetQuestComplete,058,1
+
+[script_tbl]
+code = 99
+script = scMIS_SetQuestComplete,059,2
+script = scMIS_SetQuest,059,def_001111
+script = scMIS_SetQuestNextStep,059
+
+[script_tbl]
+code = 100
+script = scMIS_SetQuestComplete,067,2
+script = scMIS_SetQuestComplete,068,2
+script = scMIS_SetQuestComplete,069,2
+script = scMIS_SetQuestComplete,070,2
+script = scMIS_SetQuestNextStep,059
+
+[script_tbl]
+code = 101
+script = scMIS_GiveItem,def_001300,Item_武仕符印,2,,,,
+script = scMIS_SetQuestNextStep,056
+
+[script_tbl]
+code = 102
+script = scMIS_GiveItem,def_001300,Item_術法符印,2,,,,
+script = scMIS_SetQuestNextStep,056
+
+[script_tbl]
+code = 103
+script = scMIS_CheckItem,def_000098,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_文官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 104
+script = scMIS_CheckItem,def_000098,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_武官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 105
+script = scMIS_CheckItem,def_000098,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_御用文官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 106
+script = scMIS_CheckItem,def_000098,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_御用武官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 107
+script = scMIS_CheckItem,def_000093,item_御用文官貢品,2,,,,
+script = scMIS_GiveItem,def_001300,item_欽賜文官貢品,1,,,,
+script = scMIS_TakeItem,item_御用文官貢品,2,,,,
+
+[script_tbl]
+code = 108
+script = scMIS_CheckItem,def_000093,item_御用武官貢品,2,,,,
+script = scMIS_GiveItem,def_001300,item_欽賜武官貢品,1,,,,
+script = scMIS_TakeItem,item_御用武官貢品,2,,,,
+
+[script_tbl]
+code = 109
+script = scMIS_CheckItem,def_004192,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_文官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 110
+script = scMIS_CheckItem,def_004192,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_武官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 111
+script = scMIS_CheckItem,def_004192,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_御用文官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 112
+script = scMIS_CheckItem,def_004192,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_御用武官貢品,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+//猛將
+[script_tbl]
+code = 113
+script = scMIS_CheckItem,def_001009,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_TakeItem,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_GiveItem,def_001008,item_武器加持法,1,item_高級武器加持法,1,,
+script = scMIS_GiveItem,def_001008,item_防具加持法,1,item_高級防具加持法,1,,
+script = scMIS_GiveItem,def_001008,item_乾坤袋,1,item_玲瓏箱,1,item_防斬心得,1
+script = scMIS_GiveItem,def_001008,item_防斬心得,1,item_防刺心得,1,item_防刺心得,1
+script = scMIS_GiveItem,def_001008,item_防碎心得,1,item_防碎心得,1,item_防射心得,1
+script = scMIS_GiveItem,def_001008,item_防射心得,1,item_六韜,1,item_六韜,1
+script = scMIS_GiveItem,def_001008,item_獎勵地點標記旗,30,item_獎勵標記傳送捲軸,30,,
+script = scMIS_GiveItem,def_001008,item_丈八點鋼矛,1,item_天霸之盔,1,,
+script = scMIS_GiveItem,def_001008,item_天霸之鎧,1,item_天霸戰甲靴,1,item_破軍盾,1
+script = scMIS_GiveItem,def_001008,item_氣力增加之書,4,item_重甲戰虎,1,,
+script = scMIS_GiveItem,def_001008,item_石棉衣,1,item_金剛護腕,1,item_衝鋒旗,1
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_禁地通行證,4,item_特級武器加持法,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_神鐵,1,item_昭告天下,1
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,30
+script = scMIS_GiveSkill,123
+script = scMIS_GiveSkill,128
+script = scMIS_GiveSkill,133
+script = scMIS_GiveSkill,138
+script = scMIS_GiveSkill,282
+script = scMIS_GiveSkill,213
+script = scMIS_GiveSkill,129
+script = scMIS_GiveSkill,134
+script = scMIS_GiveSkill,212
+script = scMIS_GiveSkill,13
+script = scMIS_GiveSkill,10
+script = scMIS_GiveSkill,7
+script = scMIS_GiveSkill,130
+script = scMIS_GiveSkill,135
+script = scMIS_GiveSkill,140
+script = scMIS_GiveSkill,214
+script = scMIS_GiveSkill,125
+
+//豪杰
+[script_tbl]
+code = 114
+script = scMIS_CheckItem,def_001009,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_TakeItem,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_GiveItem,def_001008,item_武器加持法,1,item_高級武器加持法,1,,
+script = scMIS_GiveItem,def_001008,item_防具加持法,1,item_高級防具加持法,1,,
+script = scMIS_GiveItem,def_001008,item_乾坤袋,1,item_玲瓏箱,1,item_防斬心得,1
+script = scMIS_GiveItem,def_001008,item_防斬心得,1,item_防刺心得,1,item_防刺心得,1
+script = scMIS_GiveItem,def_001008,item_防碎心得,1,item_防碎心得,1,item_防射心得,1
+script = scMIS_GiveItem,def_001008,item_防射心得,1,item_六韜,1,item_六韜,1
+script = scMIS_GiveItem,def_001008,item_獎勵地點標記旗,30,item_獎勵標記傳送捲軸,30,,
+script = scMIS_GiveItem,def_001008,item_含光,1,item_黃龍之盔,1,,
+script = scMIS_GiveItem,def_001008,item_黃龍之鎧,1,item_黃龍煉氣靴,1,item_護國盾,1
+script = scMIS_GiveItem,def_001008,item_氣力增加之書,4,item_重甲黑豹,1,,
+script = scMIS_GiveItem,def_001008,item_石棉衣,1,item_金剛護腕,1,item_鎮軍旗,1
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_禁地通行證,4,item_特級武器加持法,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_神鐵,1,item_昭告天下,1
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,2
+script = scMIS_GiveSkill,123
+script = scMIS_GiveSkill,128
+script = scMIS_GiveSkill,133
+script = scMIS_GiveSkill,138
+script = scMIS_GiveSkill,282
+script = scMIS_GiveSkill,85
+script = scMIS_GiveSkill,63
+script = scMIS_GiveSkill,29
+script = scMIS_GiveSkill,22
+script = scMIS_GiveSkill,7
+script = scMIS_GiveSkill,111
+script = scMIS_GiveSkill,213
+script = scMIS_GiveSkill,129
+script = scMIS_GiveSkill,134
+script = scMIS_GiveSkill,212
+
+//軍師
+[script_tbl]
+code = 115
+script = scMIS_CheckItem,def_001009,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_TakeItem,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_GiveItem,def_001008,item_武器加持法,1,item_高級武器加持法,1,,
+script = scMIS_GiveItem,def_001008,item_防具加持法,1,item_高級防具加持法,1,,
+script = scMIS_GiveItem,def_001008,item_乾坤袋,1,item_玲瓏箱,1,item_防斬心得,1
+script = scMIS_GiveItem,def_001008,item_防斬心得,1,item_防刺心得,1,item_防刺心得,1
+script = scMIS_GiveItem,def_001008,item_防碎心得,1,item_防碎心得,1,item_防射心得,1
+script = scMIS_GiveItem,def_001008,item_防射心得,1,item_六韜,1,item_六韜,1
+script = scMIS_GiveItem,def_001008,item_獎勵地點標記旗,30,item_獎勵標記傳送捲軸,30,,
+script = scMIS_GiveItem,def_001008,item_伏羲八卦棍,1,item_水鏡之冠,1,,
+script = scMIS_GiveItem,def_001008,item_水鏡之袍,1,item_水鏡護法靴,1,item_甲盾,1
+script = scMIS_GiveItem,def_001008,item_氣力增加之書,4,item_重甲黑豹,1,,
+script = scMIS_GiveItem,def_001008,item_石棉衣,1,item_金剛護腕,1,item_鎮軍旗,1
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_禁地通行證,4,item_特級武器加持法,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_神鐵,1,item_昭告天下,1
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,2
+script = scMIS_GiveSkill,123
+script = scMIS_GiveSkill,282
+script = scMIS_GiveSkill,85
+script = scMIS_GiveSkill,16
+script = scMIS_GiveSkill,7
+script = scMIS_GiveSkill,4
+script = scMIS_GiveSkill,52
+script = scMIS_GiveSkill,55
+
+//方士
+[script_tbl]
+code = 116
+script = scMIS_CheckItem,def_001009,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_TakeItem,Item_樹皮,5,item_麻布錦囊,1,,
+script = scMIS_GiveItem,def_001008,item_武器加持法,1,item_高級武器加持法,1,,
+script = scMIS_GiveItem,def_001008,item_防具加持法,1,item_高級防具加持法,1,,
+script = scMIS_GiveItem,def_001008,item_乾坤袋,1,item_玲瓏箱,1,item_防斬心得,1
+script = scMIS_GiveItem,def_001008,item_防斬心得,1,item_防刺心得,1,item_防刺心得,1
+script = scMIS_GiveItem,def_001008,item_防碎心得,1,item_防碎心得,1,item_防射心得,1
+script = scMIS_GiveItem,def_001008,item_防射心得,1,item_六韜,1,item_六韜,1
+script = scMIS_GiveItem,def_001008,item_獎勵地點標記旗,30,item_獎勵標記傳送捲軸,30,,
+script = scMIS_GiveItem,def_001008,item_封神法冠,1,item_封神法衣,1,,
+script = scMIS_GiveItem,def_001008,item_封神道法靴,1,item_玄天破邪杖,1,,
+script = scMIS_GiveItem,def_001008,item_氣力增加之書,4,item_重甲黑豹,1,,
+script = scMIS_GiveItem,def_001008,item_石棉衣,1,item_金剛護腕,1,item_鎮軍旗,1
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_禁地通行證,4,item_特級武器加持法,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_神鐵,1,item_昭告天下,1
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,46
+script = scMIS_GiveSkill,282
+script = scMIS_GiveSkill,57
+script = scMIS_GiveSkill,60
+script = scMIS_GiveSkill,85

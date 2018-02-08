@@ -1,0 +1,1795 @@
+// 套裝表設定檔
+#include TYPE.H
+#include ITEM.H
+#include ITEM2.H
+
+[ini]
+max = 500
+
+[set_item]
+code = 1
+name = 39500
+item_weapon = item_喧死狼之拳
+item_armor = item_GM服
+item_other1 = item_GM無敵手冊
+item_other2 = item_HPMP最強手冊
+item_horse = item_飛電赤兔馬
+eff_3 = 1
+eff_4 = 2
+eff_5 = 3
+
+[set_item]
+code = 2
+name = 39501
+item_armor = item_籐甲
+item_shield = item_籐盾
+item_glove = item_籐腕
+item_underwear = item_籐衣
+item_head = item_籐笠
+item_foot = item_籐靴
+eff_2 = 11
+eff_3 = 12
+eff_4 = 13
+eff_5 = 14
+eff_6 = 15
+
+[set_item]
+code = 3
+name = 39502
+item_glove = item_月牙護腕
+item_p = item_月牙披風
+item_head = item_月牙面具
+eff_2 = 17
+eff_3 = 18
+
+[set_item]
+code = 4
+name = 39503
+item_armor = item_南蠻鎧
+item_shield = item_南蠻盾
+item_head = item_南蠻盔
+item_foot = item_南蠻靴
+eff_2 = 19
+eff_3 = 20
+eff_4 = 21
+
+[set_item]
+code = 5
+name = 39504
+item_armor = item_烏戈袍
+item_shield = item_烏戈盾
+item_head = item_烏戈翎
+item_foot = item_烏戈靴
+eff_2 = 22
+eff_3 = 23
+eff_4 = 24
+
+[set_item]
+code = 6
+name = 39505
+item_weapon = item_破軍蒺藜槍
+item_armor = item_破軍之鎧
+item_shield = item_破軍盾
+item_head = item_破軍盔
+item_foot = item_破軍靴
+eff_2 = 25
+eff_3 = 26
+eff_4 = 27
+eff_5 = 28
+
+[set_item]
+code = 7
+name = 39506
+item_weapon = item_護國破凰劍
+item_armor = item_護國之鎧
+item_shield = item_護國盾
+item_head = item_護國盔
+item_foot = item_護國靴
+eff_2 = 29
+eff_3 = 30
+eff_4 = 31
+eff_5 = 32
+
+[set_item]
+code = 8
+name = 39507
+item_weapon = item_一品五色棍
+item_armor = item_一品朝服
+item_head = item_一品禮冠
+item_foot = item_一品步履
+eff_2 = 33
+eff_3 = 34
+eff_4 = 35
+
+[set_item]
+code = 9
+name = 39508
+item_weapon = item_天官無殛杖
+item_armor = item_天官袍
+item_head = item_天官翎
+item_foot = item_天官步履
+eff_2 = 36
+eff_3 = 37
+eff_4 = 38
+
+[set_item]
+code = 10
+name = 39509
+item_weapon = item_霸道辟魂鋸
+item_armor = item_霸道之鎧
+item_head = item_霸道之盔
+item_foot = item_霸道戰靴
+eff_2 = 39
+eff_3 = 40
+eff_4 = 41
+
+[set_item]
+code = 11
+name = 39510
+item_weapon = item_英雄破魔刀
+item_armor = item_英雄之鎧
+item_head = item_英雄之盔
+item_foot = item_英雄戰靴
+eff_2 = 42
+eff_3 = 43
+eff_4 = 44
+
+[set_item]
+code = 12
+name = 39511
+item_weapon = item_丞相炎龍棍
+item_armor = item_丞相朝服
+item_head = item_丞相冠帽
+item_foot = item_丞相步履
+eff_2 = 45
+eff_3 = 46
+eff_4 = 47
+
+[set_item]
+code = 13
+name = 39512
+item_weapon = item_于吉伏虎杖
+item_armor = item_于吉仙袍
+item_head = item_于吉髮帶
+item_foot = item_于吉道靴
+eff_2 = 48
+eff_3 = 49
+eff_4 = 50
+
+[set_item]
+code = 14
+name = 39513
+item_weapon = item_無雙逐風追魂刀
+item_armor = item_無雙逐風鎧甲
+item_glove = item_無雙逐風臂甲
+item_p = item_無雙逐風戰幡
+item_underwear = item_無雙逐風鎖子甲
+item_head = item_無雙逐風頭盔
+item_foot = item_無雙逐風戰靴
+eff_2 = 51
+eff_3 = 52
+eff_4 = 53
+eff_5 = 54
+eff_6 = 55
+eff_7 = 56
+
+[set_item]
+code = 15
+name = 39514
+item_weapon = item_雲蹤汗血力拔弓
+item_armor = item_雲蹤汗血寶甲
+item_glove = item_雲蹤汗血護腕
+item_p = item_雲蹤汗血之袍
+item_underwear = item_雲蹤汗血護心兜
+item_head = item_雲蹤汗血之盔
+item_foot = item_雲蹤汗血飛履
+eff_2 = 61
+eff_3 = 62
+eff_4 = 63
+eff_5 = 64
+eff_6 = 65
+eff_7 = 66
+
+[set_item]
+code = 16
+name = 39515
+item_weapon = item_帝浩紫氣軒轅劍
+item_armor = item_帝浩紫氣皇甲
+item_shield = item_帝浩紫氣皇龍盾
+item_glove = item_帝浩紫氣臂甲
+item_p = item_帝浩紫氣披風
+item_underwear = item_帝浩紫氣兜
+item_head = item_帝浩紫氣之盔
+item_foot = item_帝浩紫氣戰靴
+eff_2 = 71
+eff_3 = 72
+eff_4 = 73
+eff_5 = 74
+eff_6 = 75
+eff_7 = 76
+eff_8 = 77
+
+[set_item]
+code = 17
+name = 39516
+item_weapon = item_朝旭炙陽火尖槍
+item_armor = item_朝旭炙陽鎧甲
+item_shield = item_朝旭炙陽護心盾
+item_glove = item_朝旭炙陽護腕
+item_p = item_朝旭炙陽披風
+item_underwear = item_朝旭炙陽衫
+item_head = item_朝旭炙陽之盔
+item_foot = item_朝旭炙陽鐵靴
+eff_2 = 81
+eff_3 = 82
+eff_4 = 83
+eff_5 = 84
+eff_6 = 85
+eff_7 = 86
+eff_8 = 87
+
+[set_item]
+code = 18
+name = 39517
+item_weapon = item_鴻燕截鐙護國杖
+item_armor = item_鴻燕截鐙華服
+item_glove = item_鴻燕截鐙護鐲
+item_p = item_鴻燕截鐙披巾
+item_underwear = item_鴻燕截鐙錦衫
+item_head = item_鴻燕截鐙錦冠
+item_foot = item_鴻燕截鐙彩履
+eff_2 = 91
+eff_3 = 92
+eff_4 = 93
+eff_5 = 94
+eff_6 = 95
+eff_7 = 96
+
+[set_item]
+code = 19
+name = 39518
+item_armor = item_泰嶽之鎧
+item_head = item_泰嶽之盔
+item_foot = item_泰嶽之靴
+eff_2 = 100
+eff_3 = 101
+
+[set_item]
+code = 20
+name = 39519
+item_armor = item_藥王救世服
+item_head = item_藥王巾
+item_foot = item_藥王鞋
+eff_2 = 102
+eff_3 = 103
+
+[set_item]
+code = 21
+name = 39520
+item_armor = item_祝融吞日甲
+item_head = item_祝融面具
+item_foot = item_祝融吞日靴
+eff_2 = 104
+eff_3 = 105
+
+[set_item]
+code = 22
+name = 39521
+item_armor = item_共工蝕魂袍
+item_head = item_共工冠
+item_foot = item_共工蝕魂履
+eff_2 = 106
+eff_3 = 107
+
+[set_item]
+code = 23
+name = 39522
+item_p = item_黑兔披風
+item_head = item_黑色玉兔耳
+item_horse = item_黑仔兔
+eff_2 = 108
+eff_3 = 109
+
+[set_item]
+code = 24
+name = 39523
+item_weapon = item_鶴頡聖世刀
+item_p = item_鶴頡紫煌羽翼
+eff_2 = 110
+
+[set_item]
+code = 25
+name = 39524
+item_weapon = item_沙場君王之刃
+item_p = item_沙場君王羽翼
+eff_2 = 111
+
+[set_item]
+code = 26
+name = 39525
+item_armor = item_紫電仙袍
+item_head = item_紫電金冠
+item_foot = item_紫電仙靴
+eff_2 = 112
+eff_3 = 113
+
+[set_item]
+code = 27
+name = 39526
+item_armor = item_離震法袍
+item_head = item_離震法冠
+item_foot = item_離震法靴
+eff_2 = 114
+eff_3 = 115
+
+[set_item]
+code = 28
+name = 39527
+item_armor = item_椒圖玄甲
+item_head = item_椒圖玄盔
+item_foot = item_椒圖玄靴
+eff_2 = 116
+eff_3 = 117
+
+[set_item]
+code = 29
+name = 39528
+item_armor = item_天璇戰鎧
+item_head = item_天璇戰盔
+item_foot = item_天璇戰靴
+eff_2 = 118
+eff_3 = 119
+
+[set_item]
+code = 30
+name = 39529
+item_armor = item_泰嶽之鎧_回饋
+item_head = item_泰嶽之盔_回饋
+item_foot = item_泰嶽之靴_回饋
+eff_2 = 140
+eff_3 = 141
+
+[set_item]
+code = 31
+name = 39530
+item_armor = item_藥王救世服_回饋
+item_head = item_藥王巾_回饋
+item_foot = item_藥王鞋_回饋
+eff_2 = 142
+eff_3 = 143
+
+[set_item]
+code = 32
+name = 39531
+item_armor = item_祝融吞日甲_回饋
+item_head = item_祝融面具_回饋
+item_foot = item_祝融吞日靴_回饋
+eff_2 = 144
+eff_3 = 145
+
+[set_item]
+code = 33
+name = 39532
+item_armor = item_共工蝕魂袍_回饋
+item_head = item_共工冠_回饋
+item_foot = item_共工蝕魂履_回饋
+eff_2 = 146
+eff_3 = 147
+
+[set_item]
+code = 34
+name = 39533
+item_armor = item_焰焱熾陽法衣
+item_head = item_焰焱焯燦寶冠
+item_foot = item_焰焱燎原步履
+eff_2 = 152
+eff_3 = 153
+
+[set_item]
+code = 35
+name = 39534
+item_armor = item_龍將君臨戰甲
+item_head = item_龍將霸王戰盔
+item_foot = item_龍將豪烈戰靴
+eff_2 = 154
+eff_3 = 155
+
+[set_item]
+code = 36
+name = 39535
+item_armor = item_紫伶辟邪輕鎧
+item_head = item_紫伶仙羽帽飾
+item_foot = item_紫伶退魔法鞋
+eff_2 = 156
+eff_3 = 157
+
+[set_item]
+code = 37
+name = 39536
+item_armor = item_天罡鎮魂鎧
+item_head = item_天罡弒靈兜
+item_foot = item_天罡破地脛甲
+eff_2 = 158
+eff_3 = 159
+
+[set_item]
+code = 38
+name = 39537
+item_armor = item_梟魔靛羽護身衣
+item_head = item_梟魔翎羽冠飾
+item_foot = item_梟魔神行靴
+eff_2 = 160
+eff_3 = 161
+
+[set_item]
+code = 39
+name = 39538
+item_armor = item_魍魎噬神重甲
+item_head = item_魍魎吞天兜鍪
+item_foot = item_魍魎百鍊靴
+eff_2 = 162
+eff_3 = 163
+
+[set_item]
+code = 40
+name = 39539
+item_armor = item_魑魅蝕妖鎧
+item_head = item_魑魅逆麟盔
+item_foot = item_魑魅潛行靴
+eff_2 = 164
+eff_3 = 165
+
+[set_item]
+code = 41
+name = 39540
+item_armor = item_萬象玄天戰袍
+item_head = item_萬象幻羽冠
+item_foot = item_萬象通靈靴
+eff_2 = 166
+eff_3 = 167
+
+[set_item]
+code = 42
+name = 39541
+item_other1 = item_的盧馬鞭
+item_horse = item_極品九光的盧
+eff_2 = 148
+
+[set_item]
+code = 43
+name = 39542
+item_other1 = item_爪黃飛電馬鞭
+item_horse = item_極品九光爪黃飛電
+eff_2 = 150
+
+[set_item]
+code = 44
+name = 39543
+item_other1 = item_赤血的盧馬鞍
+item_other2 = item_極品赤血的盧(時)
+item_horse = item_極品赤血的盧
+eff_2 = 168
+eff_3 = 256
+
+[set_item]
+code = 45
+name = 39544
+item_other1 = item_紫陽的盧馬鞍
+item_other2 = item_極品紫陽的盧(時)
+item_horse = item_極品紫陽的盧
+eff_2 = 169
+eff_3 = 257
+
+[set_item]
+code = 46
+name = 39545
+item_other1 = item_黑鱗的盧馬鞍
+item_other2 = item_極品黑鱗的盧(時)
+item_horse = item_極品黑鱗的盧
+eff_2 = 170
+eff_3 = 258
+
+[set_item]
+code = 47
+name = 39546
+item_other1 = item_熾光的盧馬鞍
+item_other2 = item_極品熾光的盧(時)
+item_horse = item_極品熾光的盧
+eff_2 = 171
+eff_3 = 259
+
+[set_item]
+code = 48
+name = 39547
+item_other1 = item_赤血爪黃馬鞍
+item_other2 = item_極品赤血爪黃飛電(時)
+item_horse = item_極品赤血爪黃飛電
+eff_2 = 172
+eff_3 = 260
+
+[set_item]
+code = 49
+name = 39548
+item_other1 = item_紫陽爪黃馬鞍
+item_other2 = item_極品紫陽爪黃飛電(時)
+item_horse = item_極品紫陽爪黃飛電
+eff_2 = 173
+eff_3 = 261
+
+[set_item]
+code = 50
+name = 39549
+item_other1 = item_黑鱗爪黃馬鞍
+item_other2 = item_極品黑鱗爪黃飛電(時)
+item_horse = item_極品黑鱗爪黃飛電
+eff_2 = 174
+eff_3 = 262
+
+[set_item]
+code = 51
+name = 39550
+item_other1 = item_熾光爪黃馬鞍
+item_other2 = item_極品熾光爪黃飛電(時)
+item_horse = item_極品熾光爪黃飛電
+eff_2 = 175
+eff_3 = 263
+
+[set_item]
+code = 52
+name = 39551
+item_armor = item_魔化泰嶽之鎧
+item_glove = item_魔化的泰嶽護腕
+item_p = item_魔化的泰嶽大旗
+item_underwear = item_魔化的泰嶽護心兜
+item_head = item_魔化泰嶽之盔
+item_foot = item_魔化泰嶽之靴
+eff_2 = 176
+eff_3 = 177
+eff_4 = 222
+eff_5 = 223
+eff_6 = 319
+
+[set_item]
+code = 53
+name = 39552
+item_armor = item_魔化藥王救世服
+item_glove = item_魔化的藥王手套
+item_p = item_魔化的藥王之袍
+item_underwear = item_魔化的藥王衣
+item_head = item_魔化藥王巾
+item_foot = item_魔化藥王鞋
+eff_2 = 178
+eff_3 = 179
+eff_4 = 224
+eff_5 = 225
+eff_6 = 320
+
+[set_item]
+code = 54
+name = 39553
+item_armor = item_魔化祝融吞日甲
+item_glove = item_魔化的祝融臂甲
+item_p = item_魔化的祝融披風
+item_underwear = item_魔化的祝融鎖子甲
+item_head = item_魔化祝融面具
+item_foot = item_魔化祝融吞日靴
+eff_2 = 180
+eff_3 = 181
+eff_4 = 226
+eff_5 = 227
+eff_6 = 321
+
+[set_item]
+code = 55
+name = 39554
+item_armor = item_魔化共工蝕魂袍
+item_glove = item_魔化的共工護鐲
+item_p = item_魔化的共工披巾
+item_underwear = item_魔化的共工衫
+item_head = item_魔化共工冠
+item_foot = item_魔化共工蝕魂履
+eff_2 = 182
+eff_3 = 183
+eff_4 = 228
+eff_5 = 229
+eff_6 = 322
+
+[set_item]
+code = 56
+name = 39555
+item_weapon = item_玄甲鋼牙劍
+item_armor = item_玄甲鋼牙劍(時)
+item_other1 = item_玄甲配飾
+eff_2 = 184
+eff_3 = 232
+
+[set_item]
+code = 57
+name = 39556
+item_weapon = item_葬青之牙
+item_armor = item_葬青之牙(時)
+item_other1 = item_葬青配飾
+eff_2 = 185
+eff_3 = 233
+
+[set_item]
+code = 58
+name = 39557
+item_weapon = item_猛虎尖牙槍
+item_armor = item_猛虎尖牙槍(時)
+item_other1 = item_猛虎配飾
+eff_2 = 186
+eff_3 = 234
+
+[set_item]
+code = 59
+name = 39558
+item_weapon = item_冰凰破地戟
+item_armor = item_冰凰破地戟(時)
+item_other1 = item_冰凰配飾
+eff_2 = 187
+eff_3 = 235
+
+[set_item]
+code = 60
+name = 39559
+item_weapon = item_冽霜嵐骨刃
+item_armor = item_冽霜嵐骨刃(時)
+item_other1 = item_冽霜配飾
+eff_2 = 188
+eff_3 = 236
+
+[set_item]
+code = 61
+name = 39560
+item_weapon = item_地煞巨斧
+item_armor = item_地煞巨斧(時)
+item_other1 = item_地煞配飾
+eff_2 = 189
+eff_3 = 237
+
+[set_item]
+code = 62
+name = 39561
+item_weapon = item_虹胤扇
+item_armor = item_虹胤扇(時)
+item_other1 = item_虹胤配飾
+eff_2 = 190
+eff_3 = 238
+
+[set_item]
+code = 63
+name = 39562
+item_weapon = item_剛爪蒼龍棍
+item_armor = item_剛爪蒼龍棍(時)
+item_other1 = item_剛爪配飾
+eff_2 = 191
+eff_3 = 239
+
+[set_item]
+code = 64
+name = 39563
+item_weapon = item_石虎鎮風棒
+item_armor = item_石虎鎮風棒(時)
+item_other1 = item_石虎配飾
+eff_2 = 192
+eff_3 = 240
+
+[set_item]
+code = 65
+name = 39564
+item_weapon = item_巨蟒食毒杖
+item_armor = item_巨蟒食毒杖(時)
+item_other1 = item_巨蟒配飾
+eff_2 = 193
+eff_3 = 241
+
+[set_item]
+code = 66
+name = 39565
+item_weapon = item_冰輪長弓
+item_armor = item_冰輪長弓(時)
+item_other1 = item_冰輪配飾
+eff_2 = 194
+eff_3 = 242
+
+[set_item]
+code = 67
+name = 39566
+item_weapon = item_淒風亂雙劍
+item_armor = item_淒風亂雙劍(時)
+item_other1 = item_淒風配飾
+eff_2 = 195
+eff_3 = 243
+
+[set_item]
+code = 68
+name = 39567
+item_other1 = item_白虎項圈
+item_other2 = item_白瑞祥虎(時)
+item_horse = item_白瑞祥虎
+eff_2 = 196
+eff_3 = 264
+
+[set_item]
+code = 69
+name = 39568
+item_weapon = item_傲世無雙劍
+item_other1 = item_傲世戒飾
+eff_2 = 197
+
+[set_item]
+code = 70
+name = 39569
+item_weapon = item_盤古開天戟
+item_other1 = item_盤古戒飾
+eff_2 = 198
+
+[set_item]
+code = 71
+name = 39570
+item_weapon = item_蚩尤問天斧
+item_other1 = item_蚩尤戒飾
+eff_2 = 199
+
+[set_item]
+code = 72
+name = 39571
+item_weapon = item_蒼火伏魔扇
+item_other1 = item_蒼火戒飾
+eff_2 = 200
+
+[set_item]
+code = 73
+name = 39572
+item_weapon = item_地殘招魂杖
+item_other1 = item_地殘戒飾
+eff_2 = 201
+
+[set_item]
+code = 74
+name = 39573
+item_weapon = item_滅世炎魔弓
+item_other1 = item_滅世戒飾
+eff_2 = 202
+
+[set_item]
+code = 75
+name = 39574
+item_weapon = item_碧水凝霜
+item_other1 = item_碧水戒飾
+eff_2 = 203
+
+[set_item]
+code = 76
+name = 39575
+item_weapon = item_玄武辟邪劍
+item_armor = item_玄武辟邪劍(時)
+item_other1 = item_玄武靈飾
+eff_2 = 204
+eff_3 = 244
+
+[set_item]
+code = 77
+name = 39576
+item_weapon = item_昊炎之牙
+item_armor = item_昊炎之牙(時)
+item_other1 = item_昊炎靈飾
+eff_2 = 205
+eff_3 = 245
+
+[set_item]
+code = 78
+name = 39577
+item_weapon = item_白虎赤牙槍
+item_armor = item_白虎赤牙槍(時)
+item_other1 = item_白虎靈飾
+eff_2 = 206
+eff_3 = 246
+
+[set_item]
+code = 79
+name = 39578
+item_weapon = item_炎鳳封天戟
+item_armor = item_炎鳳封天戟(時)
+item_other1 = item_炎鳳靈飾
+eff_2 = 207
+eff_3 = 247
+
+[set_item]
+code = 80
+name = 39579
+item_weapon = item_梵天青骨刃
+item_armor = item_梵天青骨刃(時)
+item_other1 = item_梵天靈飾
+eff_2 = 208
+eff_3 = 248
+
+[set_item]
+code = 81
+name = 39580
+item_weapon = item_血魄巨斧
+item_armor = item_血魄巨斧(時)
+item_other1 = item_血魄靈飾
+eff_2 = 209
+eff_3 = 249
+
+[set_item]
+code = 82
+name = 39581
+item_weapon = item_紫樺扇
+item_armor = item_紫樺扇(時)
+item_other1 = item_紫樺靈飾
+eff_2 = 210
+eff_3 = 250
+
+[set_item]
+code = 83
+name = 39582
+item_weapon = item_五爪金龍棍
+item_armor = item_五爪金龍棍(時)
+item_other1 = item_五爪靈飾
+eff_2 = 211
+eff_3 = 251
+
+[set_item]
+code = 84
+name = 39583
+item_weapon = item_石獅驅邪鎚
+item_armor = item_石獅驅邪鎚(時)
+item_other1 = item_石獅靈飾
+eff_2 = 212
+eff_3 = 252
+
+[set_item]
+code = 85
+name = 39584
+item_weapon = item_妖蟒吞日杖
+item_armor = item_妖蟒吞日杖(時)
+item_other1 = item_妖蟒靈飾
+eff_2 = 213
+eff_3 = 253
+
+[set_item]
+code = 86
+name = 39585
+item_weapon = item_烙天長弓
+item_armor = item_烙天長弓(時)
+item_other1 = item_烙天靈飾
+eff_2 = 214
+eff_3 = 254
+
+[set_item]
+code = 87
+name = 39586
+item_weapon = item_千櫻舞雙刃
+item_armor = item_千櫻舞雙刃(時)
+item_other1 = item_千櫻靈飾
+eff_2 = 215
+eff_3 = 255
+
+[set_item]
+code = 88
+name = 39587
+item_armor = item_魔化麒麟破浪鎧
+item_glove = item_魔化麒麟護腕
+item_head = item_魔化麒麟之盔
+item_foot = item_魔化麒麟戰靴
+eff_2 = 216
+eff_3 = 217
+eff_4 = 218
+
+[set_item]
+code = 89
+name = 39588
+item_armor = item_魔化鳳翔畫空袍
+item_glove = item_魔化鳳翔護腕
+item_head = item_魔化凰羽之冠
+item_foot = item_魔化鳳凰法靴
+eff_2 = 219
+eff_3 = 220
+eff_4 = 221
+
+[set_item]
+code = 90
+name = 39589
+item_p = item_中秋玉兔披風
+item_head = item_中秋兔耳髮圈
+item_horse = item_中秋玉兔
+eff_2 = 230
+eff_3 = 231
+
+[set_item]
+code = 91
+name = 39590
+item_weapon = item_滇紅劍
+item_armor = item_滇紅劍(時)
+item_other1 = item_滇紅配飾
+eff_2 = 265
+eff_3 = 273
+
+[set_item]
+code = 92
+name = 39591
+item_weapon = item_翡翠劍
+item_armor = item_翡翠劍(時)
+item_other1 = item_翡翠配飾
+eff_2 = 271
+eff_3 = 279
+
+[set_item]
+code = 93
+name = 39592
+item_weapon = item_楊公滅魂刀
+item_armor = item_楊公滅魂刀(時)
+item_other1 = item_楊公配飾
+eff_2 = 266
+eff_3 = 274
+
+[set_item]
+code = 94
+name = 39593
+item_weapon = item_劈浪玄冰槍
+item_armor = item_劈浪玄冰槍(時)
+item_other1 = item_劈浪配飾
+eff_2 = 272
+eff_3 = 280
+
+[set_item]
+code = 95
+name = 39594
+item_weapon = item_盤古問天刃
+item_armor = item_盤古問天刃(時)
+item_other1 = item_盤古配飾
+eff_2 = 269
+eff_3 = 277
+
+[set_item]
+code = 96
+name = 39595
+item_weapon = item_地殘嗜魂杖
+item_armor = item_地殘嗜魂杖(時)
+item_other1 = item_地殘配飾
+eff_2 = 270
+eff_3 = 278
+
+[set_item]
+code = 97
+name = 39596
+item_weapon = item_滇紅弓
+item_armor = item_滇紅弓(時)
+item_other1 = item_滇弓配飾
+eff_2 = 268
+eff_3 = 276
+
+[set_item]
+code = 98
+name = 39597
+item_weapon = item_陰陽雙煞劍
+item_armor = item_陰陽雙煞劍(時)
+item_other1 = item_陰陽配飾
+eff_2 = 267
+eff_3 = 275
+
+[set_item]
+code = 99
+name = 39598
+item_other1 = item_祥兔項圈
+item_other2 = item_如意祥兔(時)
+item_horse = item_如意祥兔
+eff_2 = 281
+eff_3 = 282
+
+[set_item]
+code = 100
+name = 39599
+item_weapon = item_妖化無雙追魂刀
+item_armor = item_妖化無雙鎧甲
+item_glove = item_妖化無雙臂甲
+item_p = item_妖化無雙戰幡
+item_underwear = item_妖化無雙鎖子甲
+item_head = item_妖化無雙頭盔
+item_foot = item_妖化無雙戰靴
+eff_2 = 283
+eff_3 = 284
+eff_4 = 285
+eff_5 = 286
+eff_6 = 287
+eff_7 = 288
+
+[set_item]
+code = 101
+name = 39600
+item_weapon = item_妖化雲蹤力拔弓
+item_armor = item_妖化雲蹤寶甲
+item_glove = item_妖化雲蹤護腕
+item_p = item_妖化雲蹤之袍
+item_underwear = item_妖化雲蹤護心兜
+item_head = item_妖化雲蹤之盔
+item_foot = item_妖化雲蹤飛履
+eff_2 = 289
+eff_3 = 290
+eff_4 = 291
+eff_5 = 292
+eff_6 = 293
+eff_7 = 294
+
+[set_item]
+code = 102
+name = 39601
+item_weapon = item_妖化帝浩軒轅劍
+item_armor = item_妖化帝浩皇甲
+item_shield = item_妖化帝浩皇龍盾
+item_glove = item_妖化帝浩臂甲
+item_p = item_妖化帝浩披風
+item_underwear = item_妖化帝浩兜
+item_head = item_妖化帝浩之盔
+item_foot = item_妖化帝浩戰靴
+eff_2 = 295
+eff_3 = 296
+eff_4 = 297
+eff_5 = 298
+eff_6 = 299
+eff_7 = 300
+eff_8 = 301
+
+[set_item]
+code = 103
+name = 39602
+item_weapon = item_妖化朝旭火尖槍
+item_armor = item_妖化朝旭鎧甲
+item_shield = item_妖化朝旭護心盾
+item_glove = item_妖化朝旭護腕
+item_p = item_妖化朝旭披風
+item_underwear = item_妖化朝旭衫
+item_head = item_妖化朝旭之盔
+item_foot = item_妖化朝旭鐵靴
+eff_2 = 302
+eff_3 = 303
+eff_4 = 304
+eff_5 = 305
+eff_6 = 306
+eff_7 = 307
+eff_8 = 308
+
+[set_item]
+code = 104
+name = 39603
+item_weapon = item_妖化鴻燕護國杖
+item_armor = item_妖化鴻燕華服
+item_glove = item_妖化鴻燕護鐲
+item_p = item_妖化鴻燕披巾
+item_underwear = item_妖化鴻燕錦衫
+item_head = item_妖化鴻燕錦冠
+item_foot = item_妖化鴻燕彩履
+eff_2 = 309
+eff_3 = 310
+eff_4 = 311
+eff_5 = 312
+eff_6 = 313
+eff_7 = 314
+
+[set_item]
+code = 105
+name = 39604
+item_weapon = item_紫鮫戟
+item_other1 = item_紫鮫配飾
+eff_2 = 315
+
+[set_item]
+code = 106
+name = 39605
+item_weapon = item_五爪紫金棍
+item_other1 = item_五爪配飾
+eff_2 = 316
+
+[set_item]
+code = 107
+name = 39606
+item_weapon = item_紫金巨斧
+item_other1 = item_紫金配飾
+eff_2 = 317
+
+[set_item]
+code = 108
+name = 39607
+item_weapon = item_鬼顱赤火鎚
+item_other1 = item_鬼顱配飾
+eff_2 = 318
+
+[set_item]
+code = 109
+name = 39608
+item_armor = item_噬魂戰鎧
+item_glove = item_噬魂手甲
+item_head = item_噬魂頭盔
+item_foot = item_噬魂魔鞋
+eff_2 = 323
+eff_3 = 324
+eff_4 = 325
+
+[set_item]
+code = 110
+name = 39609
+item_armor = item_蒼天咒鎧
+item_glove = item_蒼天手甲
+item_head = item_蒼天戰盔
+item_foot = item_蒼天鐵足
+eff_2 = 326
+eff_3 = 327
+eff_4 = 328
+
+[set_item]
+code = 111
+name = 39610
+item_armor = item_戰神霸鎧
+item_glove = item_戰神拳甲
+item_head = item_戰神頭盔
+item_foot = item_戰神之靴
+eff_2 = 329
+eff_3 = 330
+eff_4 = 331
+
+[set_item]
+code = 112
+name = 39611
+item_armor = item_銀月咒鎧
+item_glove = item_銀月手甲
+item_head = item_銀月戰盔
+item_foot = item_銀月鐵足
+eff_2 = 332
+eff_3 = 333
+eff_4 = 334
+
+[set_item]
+code = 113
+name = 39612
+item_armor = item_地煞輕甲
+item_head = item_地煞面飾
+item_foot = item_地煞輕靴
+eff_2 = 335
+eff_3 = 336
+
+[set_item]
+code = 114
+name = 39613
+item_armor = item_我王輕甲
+item_head = item_我王戰盔
+item_foot = item_我王戰靴
+eff_2 = 337
+eff_3 = 338
+
+[set_item]
+code = 115
+name = 39614
+item_armor = item_破魂輕甲
+item_head = item_破魂頭飾
+item_foot = item_破魂輕靴
+eff_2 = 339
+eff_3 = 340
+
+[set_item]
+code = 116
+name = 39615
+item_armor = item_璦曜絲袍
+item_head = item_璦曜法冠
+item_foot = item_璦曜輕靴
+eff_2 = 341
+eff_3 = 342
+
+[set_item]
+code = 117
+name = 39616
+item_armor = item_玉衡之鎧
+item_head = item_玉衡之盔
+item_foot = item_玉衡之靴
+eff_2 = 343
+eff_3 = 344
+
+[set_item]
+code = 118
+name = 39617
+item_armor = item_波嵐之鎧
+item_head = item_波嵐之盔
+item_foot = item_波嵐之靴
+eff_2 = 345
+eff_3 = 346
+
+[set_item]
+code = 119
+name = 39618
+item_armor = item_羅綢戰袍
+item_head = item_羅綢錦冠
+item_foot = item_羅綢絲履
+eff_2 = 347
+eff_3 = 348
+
+[set_item]
+code = 120
+name = 39619
+item_armor = item_天威霸王甲
+item_head = item_天威重戰盔
+item_foot = item_天威脛甲
+eff_2 = 353
+eff_3 = 354
+
+[set_item]
+code = 121
+name = 39620
+item_armor = item_閃靈傲世鎧
+item_head = item_閃靈錦冠
+item_foot = item_閃靈重靴
+eff_2 = 355
+eff_3 = 356
+
+[set_item]
+code = 122
+name = 39621
+item_armor = item_朔雷戰衣
+item_head = item_朔雷箍
+item_foot = item_朔雷輕革靴
+eff_2 = 357
+eff_3 = 358
+
+[set_item]
+code = 123
+name = 39622
+item_armor = item_太元渡世袍
+item_head = item_太元冠帽
+item_foot = item_太元銀絲履
+eff_2 = 359
+eff_3 = 360
+
+[set_item]
+code = 124
+name = 39623
+item_armor = item_破敵金鱗鎧
+item_head = item_破敵髮髻
+item_foot = item_破敵戰鱗靴
+eff_2 = 361
+eff_3 = 362
+
+[set_item]
+code = 125
+name = 39624
+item_armor = item_虎甲戰鎧
+item_head = item_虎甲皮盔
+item_foot = item_虎甲輕革靴
+eff_2 = 363
+eff_3 = 364
+
+[set_item]
+code = 126
+name = 39625
+item_armor = item_龍骨鱗甲鎧
+item_head = item_龍骨鱗甲盔
+item_foot = item_龍骨戰鱗靴
+eff_2 = 365
+eff_3 = 366
+
+[set_item]
+code = 127
+name = 39626
+item_armor = item_星巖輕鎧
+item_head = item_星巖輕盔
+item_foot = item_星巖戰靴
+eff_2 = 367
+eff_3 = 368
+
+[set_item]
+code = 128
+name = 39627
+item_armor = item_星輪戰鎧
+item_head = item_星輪戰盔
+item_foot = item_星輪戰靴
+eff_2 = 369
+eff_3 = 370
+
+[set_item]
+code = 129
+name = 39628
+item_weapon = item_血鑽劍
+item_other1 = item_血鑽配飾
+eff_2 = 371
+
+[set_item]
+code = 130
+name = 39629
+item_weapon = item_悲魂之牙
+item_other1 = item_悲魂配飾
+eff_2 = 372
+
+[set_item]
+code = 131
+name = 39630
+item_weapon = item_毀天魔槍
+item_other1 = item_毀天配飾
+eff_2 = 373
+
+[set_item]
+code = 132
+name = 39631
+//item_weapon = item_紫金帝劍
+//item_other1 = item_紫帝配飾
+//eff_2 = 374
+
+[set_item]
+code = 133
+name = 39632
+//item_weapon = item_蚩尤戰斧
+//item_other1 = item_蚩尤配飾
+//eff_2 = 375
+
+[set_item]
+code = 134
+name = 39633
+item_weapon = item_寒冰棍
+item_other1 = item_寒冰配飾
+eff_2 = 376
+
+[set_item]
+code = 135
+name = 39634
+item_weapon = item_巨蟒雷鳴杖
+item_other1 = item_雷鳴配飾
+eff_2 = 377
+
+[set_item]
+code = 136
+name = 39635
+item_weapon = item_伏靈長弓
+item_other1 = item_伏靈配飾
+eff_2 = 378
+
+[set_item]
+code = 137
+name = 39636
+//item_weapon = item_天凜爪
+//item_other1 = item_天凜配飾
+//eff_2 = 379
+
+[set_item]
+code = 138
+name = 39637
+item_armor = item_神化天威霸王甲
+item_head = item_神化天威重戰盔
+item_foot = item_神化天威脛甲
+eff_2 = 380
+eff_3 = 381
+
+[set_item]
+code = 139
+name = 39638
+item_armor = item_神化閃靈傲世鎧
+item_head = item_神化閃靈錦冠
+item_foot = item_神化閃靈重靴
+eff_2 = 382
+eff_3 = 383
+
+[set_item]
+code = 140
+name = 39639
+item_armor = item_神化朔雷戰衣
+item_head = item_神化朔雷箍
+item_foot = item_神化朔雷輕革靴
+eff_2 = 384
+eff_3 = 385
+
+[set_item]
+code = 141
+name = 39640
+item_armor = item_神化太元渡世袍
+item_head = item_神化太元冠帽
+item_foot = item_神化太元銀絲履
+eff_2 = 386
+eff_3 = 387
+
+[set_item]
+code = 142
+name = 39641
+item_armor = item_神化破敵金鱗鎧
+item_head = item_神化破敵髮髻
+item_foot = item_神化破敵戰鱗靴
+eff_2 = 388
+eff_3 = 389
+
+[set_item]
+code = 143
+name = 39642
+item_armor = item_神化星輪戰鎧
+item_head = item_神化星輪戰盔
+item_foot = item_神化星輪戰靴
+eff_2 = 390
+eff_3 = 391
+
+[set_item]
+code = 144
+name = 39643
+item_armor = item_天塌地陷霸王甲
+item_glove = item_天塌地陷護腕
+item_p = item_天塌地陷披風
+item_head = item_天塌地陷重戰盔
+item_foot = item_天塌地陷脛甲
+eff_3 = 392
+eff_4 = 393
+eff_5 = 394
+
+[set_item]
+code = 145
+name = 39644
+item_armor = item_天震地駭傲世鎧
+item_glove = item_天震地駭護腕
+item_p = item_天震地駭披風
+item_head = item_天震地駭錦冠
+item_foot = item_天震地駭重靴
+eff_3 = 395
+eff_4 = 396
+eff_5 = 397
+
+[set_item]
+code = 146
+name = 39645
+item_armor = item_天冠地履戰衣
+item_glove = item_天冠地履護腕
+item_p = item_天冠地履披風
+item_head = item_天冠地履箍
+item_foot = item_天冠地履輕革靴
+eff_3 = 398
+eff_4 = 399
+eff_5 = 400
+
+[set_item]
+code = 147
+name = 39646
+item_armor = item_天凝地閉渡世袍
+item_glove = item_天凝地閉護腕
+item_p = item_天凝地閉披風
+item_head = item_天凝地閉冠帽
+item_foot = item_天凝地閉銀絲履
+eff_3 = 401
+eff_4 = 402
+eff_5 = 403
+
+[set_item]
+code = 148
+name = 39647
+item_armor = item_天災地妖金鱗鎧
+item_glove = item_天災地妖護腕
+item_p = item_天災地妖披風
+item_head = item_天災地妖髮髻
+item_foot = item_天災地妖戰鱗靴
+eff_3 = 404
+eff_4 = 405
+eff_5 = 406
+
+[set_item]
+code = 149
+name = 39648
+item_armor = item_天地剖判戰鎧
+item_glove = item_天地剖判護腕
+item_p = item_天地剖判披風
+item_head = item_天地剖判戰盔
+item_foot = item_天地剖判戰靴
+eff_3 = 407
+eff_4 = 408
+eff_5 = 409
+
+[set_item]
+code = 150
+name = 39649
+item_weapon = item_九曲霜絕
+item_other1 = item_九曲霜絕配飾
+eff_2 = 410
+
+[set_item]
+code = 151
+name = 39650
+item_weapon = item_氣吞山河
+item_other1 = item_氣吞山河配飾
+eff_2 = 411
+
+[set_item]
+code = 152
+name = 39651
+item_weapon = item_怒江蛟骨槍
+item_other1 = item_怒江蛟骨槍配飾
+eff_2 = 412
+
+[set_item]
+code = 153
+name = 39652
+//item_weapon = item_煬火月牙戟
+//item_other1 = item_煬火月牙戟配飾
+//eff_2 = 413
+
+[set_item]
+code = 154
+name = 39653
+//item_weapon = item_九霄蒼龍劍
+//item_other1 = item_九霄蒼龍劍配飾
+//eff_2 = 414
+
+[set_item]
+code = 155
+name = 39654
+//item_weapon = item_礪光裂岩斧
+//item_other1 = item_礪光裂岩斧配飾
+//eff_2 = 415
+
+[set_item]
+code = 156
+name = 39655
+item_weapon = item_凝霜
+item_other1 = item_凝霜配飾
+eff_2 = 416
+
+[set_item]
+code = 157
+name = 39656
+item_weapon = item_妖世浮屠柱
+item_other1 = item_妖世浮屠柱配飾
+eff_2 = 417
+
+[set_item]
+code = 158
+name = 39657
+item_weapon = item_天絕地滅錘
+item_other1 = item_天絕地滅錘配飾
+eff_2 = 418
+
+[set_item]
+code = 159
+name = 39658
+item_weapon = item_焚世邪焰杖
+item_other1 = item_焚世邪焰杖配飾
+eff_2 = 419
+
+[set_item]
+code = 160
+name = 39659
+item_weapon = item_飛羽流星
+item_other1 = item_飛羽流星配飾
+eff_2 = 420
+
+[set_item]
+code = 161
+name = 39660
+item_weapon = item_斷海鞭
+item_other1 = item_斷海鞭配飾
+eff_2 = 421
+
+[set_item]
+code = 162
+name = 39661
+item_weapon = item_彩鳳雙飛
+item_other1 = item_彩鳳雙飛配飾
+eff_2 = 422
+
+[set_item]
+code = 163
+name = 39662
+item_weapon = item_寒鐵冰魄
+item_other1 = item_寒鐵冰魄配飾
+eff_2 = 423
+
+[set_item]
+code = 164
+name = 39663
+item_armor = item_王者歸來胸甲
+item_glove = item_王者歸來護腕
+item_p = item_王者歸來披風
+item_head = item_王者歸來頭飾
+item_foot = item_王者歸來靴子
+eff_2 = 424
+eff_3 = 425
+eff_4 = 426
+eff_5 = 427
+
+
+[set_item]
+code = 200
+name = 39700
+item_head = item_魔王吞日盔
+item_armor = item_魔王黑龍鎧
+item_foot = item_魔王血戰靴
+eff_2 = 500
+eff_3 = 501
+
+[set_item]
+code = 201
+name = 39701
+item_head = item_龍王角兜鍪
+item_armor = item_龍王逆鱗鎧
+item_foot = item_龍王金鱗靴
+eff_2 = 502
+eff_3 = 503
+
+[set_item]
+code = 202
+name = 39702
+item_head = item_軒轅御皇盔
+item_armor = item_軒轅黃帝鎧
+item_foot = item_軒轅煉氣靴
+eff_2 = 504
+eff_3 = 505
+
+[set_item]
+code = 203
+name = 39703
+item_head = item_神將護天盔
+item_armor = item_神將天威鎧
+item_foot = item_神將伏魔靴
+eff_2 = 506
+eff_3 = 507
+
+[set_item]
+code = 204
+name = 39704
+item_head = item_公謹束髮冠
+item_armor = item_公謹劍俠裝
+item_foot = item_公謹步雲靴
+eff_2 = 508
+eff_3 = 509
+
+[set_item]
+code = 205
+name = 39705
+item_head = item_封天金仙冠
+item_armor = item_封天至尊袍
+item_foot = item_封天道法靴
+eff_2 = 510
+eff_3 = 511
+
+[set_item]
+code = 206
+name = 39706
+item_head = item_孔明天機冠
+item_armor = item_孔明臥龍袍
+item_foot = item_孔明遁甲靴
+eff_2 = 512
+eff_3 = 513
+
+[set_item]
+code = 207
+name = 39707
+item_head = item_四靈通神冠
+item_armor = item_四靈召喚袍
+item_foot = item_四靈秘法靴
+eff_2 = 514
+eff_3 = 515
+
+[set_item]
+code = 208
+name = 39708
+item_p = item_泰嶽大旗
+item_glove = item_泰嶽護腕
+item_underwear = item_泰嶽護心兜
+eff_2 = 516
+eff_3 = 517
+
+[set_item]
+code = 209
+name = 39709
+item_p = item_藥王之袍
+item_glove = item_藥王手套
+item_underwear = item_藥王衣
+eff_2 = 518
+eff_3 = 519
+
+[set_item]
+code = 210
+name = 39710
+item_p = item_祝融吞日披風
+item_glove = item_祝融吞日臂甲
+item_underwear = item_祝融吞日鎖子甲
+eff_2 = 520
+eff_3 = 521
+
+[set_item]
+code = 211
+name = 39711
+item_p = item_共工蝕魂披巾
+item_glove = item_共工蝕魂護鐲
+item_underwear = item_共工蝕魂衫
+eff_2 = 522
+eff_3 = 523
+
+[set_item]
+code = 212
+name = 39712
+item_other1 = item_泰嶽徽章
+item_horse = item_泰嶽重甲馬
+eff_2 = 524
+
+[set_item]
+code = 213
+name = 39713
+item_other1 = item_藥王玉佩
+item_horse = item_藥王雲遊馬
+eff_2 = 525
+
+[set_item]
+code = 214
+name = 39714
+item_other1 = item_祝融項鍊
+item_horse = item_祝融斑牙豹
+eff_2 = 526
+
+[set_item]
+code = 215
+name = 39715
+item_other1 = item_共工項鍊
+item_horse = item_共工孤月狼
+eff_2 = 527
+
+[set_item]
+code = 216
+name = 39716
+item_armor = item_天霸之鎧
+item_head = item_天霸之盔
+item_foot = item_天霸戰甲靴
+eff_2 = 528
+eff_3 = 529
+
+[set_item]
+code = 217
+name = 39717
+item_armor = item_神威之鎧
+item_head = item_神威之盔
+item_foot = item_神威武鬥靴
+eff_2 = 530
+eff_3 = 531
+
+[set_item]
+code = 218
+name = 39718
+item_armor = item_水鏡之袍
+item_head = item_水鏡之冠
+item_foot = item_水鏡護法靴
+eff_2 = 532
+eff_3 = 533
+
+[set_item]
+code = 219
+name = 39719
+item_armor = item_封神法衣
+item_head = item_封神法冠
+item_foot = item_封神道法靴
+eff_2 = 534
+eff_3 = 535
+
+[set_item]
+code = 220
+name = 39720
+item_armor = item_玄龍之鎧
+item_head = item_玄龍之盔
+item_foot = item_玄龍鱗甲靴
+eff_2 = 536
+eff_3 = 537
+
+[set_item]
+code = 221
+name = 39721
+item_armor = item_黃龍之鎧
+item_head = item_黃龍之盔
+item_foot = item_黃龍煉氣靴
+eff_2 = 538
+eff_3 = 539
+
+[set_item]
+code = 222
+name = 39722
+item_armor = item_蒼穹戰袍
+item_head = item_蒼穹之冠
+item_foot = item_蒼穹飛雲靴
+eff_2 = 540
+eff_3 = 541
+
+[set_item]
+code = 223
+name = 39723
+item_armor = item_四神仙袍
+item_head = item_四神仙冠
+item_foot = item_四神秘法靴
+eff_2 = 542
+eff_3 = 543

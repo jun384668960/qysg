@@ -1,0 +1,67 @@
+// ∞}ßŒ≥]©w¿…
+#include TYPE.H
+
+
+[ini]
+max = 20
+
+[matrix]
+code = 0
+pos = -1,0,-2,0,-1,-1,-1,1,-2,-1,-2,1,-1,-2,-1,2,-2,-2,-2,2
+hp = 10
+move = 40
+
+[matrix]
+code = 1
+pos = -1,-1,-1,1,-2,-2,-2,2,0,-1,0,1,-1,-2,-1,2,-2,-3,-2,3
+int = 10
+move = 40
+
+[matrix]
+code = 2
+pos = 2,0,1,0,1,-1,1,1,2,-1,2,1,1,-2,1,2,3,-1,3,1
+attack = 5
+move = 50
+
+[matrix]
+code = 3
+pos = 1,-1,1,1,-1,-1,-1,1,2,-2,2,2,-2,-2,-2,2,2,0,-2,0
+move = 40
+attr_resist = skillAttr_FIRE,10
+
+[matrix]
+code = 4
+pos = 1,0,-1,0,0,-1,0,1,1,-1,1,1,-1,-1,-1,1,2,0,-2,0
+defense = 5
+move = 40
+
+[matrix]
+code = 5
+pos = 2,0,1,0,2,-1,2,1,3,-2,3,2,2,-2,2,2,1,-1,1,1
+move = 50
+attr_attack = skillAttr_SLASH,5,skillAttr_EVIL,5
+
+[matrix]
+code = 6
+pos = 0,-2,0,2,1,-3,1,3,-1,-3,-1,3,1,-1,1,1,-1,-1,-1,1
+move = 50
+attr_attack = skillAttr_STING,5,skillAttr_GOD,5
+
+[matrix]
+code = 7
+pos = 1,0,-1,0,0,-1,0,1,2,0,-2,0,3,-1,-3,1,3,1,-3,-1
+move = 50
+attr_attack = skillAttr_BREAK,5,skillAttr_WATER,5
+
+[matrix]
+code = 8
+pos = 0,-3,0,3,1,-2,-1,2,2,-1,-2,1,-1,-2,1,2,-2,-1,2,1
+move = 50
+attr_attack = skillAttr_ARROW,5,skillAttr_FIRE,5
+
+[matrix]
+code = 9
+pos = 1,-1,1,1,1,-2,1,2,3,0,2,0,3,-2,3,2,3,-3,3,3
+move = 40
+attr_resist = skillAttr_BREAK,10
+

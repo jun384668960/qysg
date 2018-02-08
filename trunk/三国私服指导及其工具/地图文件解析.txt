@@ -1,0 +1,29 @@
+1. 地图长宽：在对应的.WRD文件中，第一行，最后两个字节，如5E 01 00 00, 低字节015E,表示地图长度350(高度好像是固定的)
+2. 地图中节点： bin文件中第一行,45 56 45 46,地图标识，不理会，接下来的两个字节表示当前地图节点总数：05 02 00 00，0205表示当前地图节点总数517个，后面四个字节未知
+
+    接下来，每个13*16个字节表示一个节点属性
+	{
+		int32_t unknow0;
+		int32_t point_id; //对应shp中的造型id
+		int32_t pos_x;
+		int32_t pos_y;
+		char 	unknow1[16*4];
+		int32_t unknow;
+		int32_t to_map;//传送的地图id
+		int32_t to_map_x; //传送x坐标
+		int32_t to_map_y; //传送x坐标
+		int32_t to_shop;  //商店id 对应shop.h //如果是商店传送点 客栈，炼造，工坊，市场，仓库，宫殿，兵营，比武场
+		int32_t unknow;
+		int32_t unknow;
+		int32_t unknow;
+		char	unknow2[16*2];
+		int32_t npc_talk;//对应npc_talk.h中的id
+		int32_t res_name;//对应GAMERESOURCE.TXT中的item id
+		int32_t unknow;
+		int32_t unknow;
+		char	unknow2[16*3];
+	}
+
+3. 地图结尾数据，不明白，所有地图都是一样的
+
+	

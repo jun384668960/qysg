@@ -1,0 +1,106 @@
+// 猌活砞﹚郎
+#include TYPE.H
+#include PLAYERS.H
+#include STAGE.H
+#include ITEM.H
+
+[SoulSet]
+code = city_玭
+map_code = city_玭
+role = role_甃獼爆_cosplay,item_甃獼爆猌活,50,1,100000,role_ㄥ_cosplay,item_ㄥ猌活,30,1,80000,role_皑舤_cosplay,item_皑舤猌活,30,1,80000,role_尝古_cosplay,item_尝古猌活,30,1,60000
+battle_map_1 = city_玭猌﹛据
+battle_map_2 = city_玭ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_穝偿
+map_code = city_穝偿
+role = role_闽π_cosplay,item_闽π猌活,50,1,100000,role_眎_cosplay,item_眎猌活,50,1,100000,role_窖腐獹_cosplay,item_窖腐獹猌活,50,1,100000,role_蝴_cosplay,item_蝴猌活,30,1,80000
+battle_map_1 = city_穝偿猌﹛据
+battle_map_2 = city_穝偿ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_甃
+map_code = city_甃
+role = role_㏄缝_cosplay,item_㏄缝猌活,30,1,70000,role_甝く_cosplay,item_甝く猌活,30,1,70000,role_嘲还_cosplay,item_嘲还猌活,30,1,60000,role_踌_cosplay,item_踌猌活,30,1,60000
+battle_map_1 = city_甃猌﹛据
+battle_map_2 = city_甃ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_
+map_code = city_
+role = role_甃獼瞁_cosplay,item_甃獼瞁猌活,30,1,80000,role_畗_cosplay,item_畗猌活,30,1,80000,role_鸽郒_cosplay,item_鸽郒猌活,30,1,60000,role_褅_cosplay,item_褅猌活,30,1,60000
+battle_map_1 = city_猌﹛据
+battle_map_2 = city_ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_簙い
+map_code = city_簙い
+role = role_化冻_cosplay,item_化冻猌活,50,1,100000,role_皑禬_cosplay,item_皑禬猌活,40,1,80000,role_胑参_cosplay,item_胑参猌活,30,1,80000,role_独る璣_cosplay,item_独る璣猌活,30,1,80000
+battle_map_1 = city_簙い猌﹛据
+battle_map_2 = city_簙いゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_粮锭
+map_code = city_粮锭
+role = role_ヌ圭_cosplay,item_ヌ圭猌活,30,1,70000,role_び稯_cosplay,item_び稯猌活,30,1,70000,role_踌_cosplay,item_踌猌活,30,1,60000,role_甝舦_cosplay,item_甝舦猌活,30,1,60000
+battle_map_1 = city_粮锭猌﹛据
+battle_map_2 = city_粮锭ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_キ
+map_code = city_キ
+role = role_砛籾_cosplay,item_砛籾猌活,40,1,80000,role_眎_cosplay,item_眎猌活,40,1,80000,role_祘琑_cosplay,item_祘琑猌活,30,1,60000,role_变从_cosplay,item_变从猌活,30,1,60000
+battle_map_1 = city_キ猌﹛据
+battle_map_2 = city_キゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_
+map_code = city_
+role = role_独┚_cosplay,item_独┚猌活,40,1,100000,role_肣┑_cosplay,item_肣┑猌活,40,1,80000,role_畗眆_cosplay,item_畗眆猌活,30,1,60000,role_闽获_cosplay,item_闽获猌活,30,1,60000
+battle_map_1 = city_猌﹛据
+battle_map_2 = city_ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_锭
+map_code = city_锭
+role = role_独籠_cosplay,item_独籠猌活,30,1,70000,role_㏄_cosplay,item_㏄猌活,30,1,70000,role_緗德_cosplay,item_緗德猌活,30,1,60000,role_籜_cosplay,item_籜猌活,30,1,60000
+battle_map_1 = city_锭猌﹛据
+battle_map_2 = city_锭ゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+
+[SoulSet]
+code = city_ぱ
+map_code = city_ぱ
+role = role_眎璫_cosplay,item_眎璫猌活,60,1,100000,role_闽砍_cosplay,item_闽砍猌活,60,1,100000,role_变_cosplay,item_变猌活,60,1,100000,role_郝蘔_cosplay,item_郝蘔猌活,60,1,100000
+battle_map_1 = city_ぱ猌﹛据
+battle_map_2 = city_ぱゅ﹛据
+battle_map_pos = 14,68
+battle_pos_1 = 66,32
+battle_pos_2 = 186,32
+

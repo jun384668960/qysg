@@ -1,0 +1,24 @@
+// ¹CÀ¸°ê¦W¤£¶®»P«O¯d¤å¦rªí
+
+[country_name]
+
+item = ÃQ
+item = ¸¾
+item = §d
+item = gm
+item = µL
+item = ·F
+item = «Á
+item = ²]
+item = Îx
+item = Í«
+item = ÌY
+item = g8
+item = 78
+item = 87
+item = ¾Þ
+item = ²ô
+item = ¨z
+item = »Q
+item = ¨Å
+
