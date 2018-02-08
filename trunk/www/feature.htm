@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<meta name="robots" content="all" />
+<meta name="Copyright" content="Tencent" />
+<meta name="Keywords" content="皇朝霸业" />
+<meta name="description" content="官方网站" />
+<title>-皇朝三国-皇朝霸业</title>
+<!-- 页面设计:peterzhong|页面制作:yihuiliu|创建日期:2012/09/30 -->
+<style type="text/css">
+body,div,em,i,p,ul,ol,li,dl,dt,dd,h1,h2,h3{padding:0;margin:0;}
+body{font:12px/1.5 tahoma,'\5b8b\4f53',sans-serif;color:#988173;background:#0e0e0e url(http://ossweb-img.qq.com/images/zl/act/a20120930special/bd.jpg) no-repeat 396px 42px;background-attachment:fixed;min-width:1000px;}
+a{outline:0 none;cursor:pointer;text-decoration:none;}
+ul{list-style:none;}
+ol{list-style-position:inside;}
+img{border:0 none;}
+em,i{font-style:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+.clr{zoom:1;}
+.clr:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.t-hd{overflow:hidden;text-indent:-9999em;font-size:0;height:0;}
+.header{background:url(http://ossweb-img.qq.com/images/zl/act/a20120930special/hd.jpg) no-repeat center top;height:1209px;width:221px;left:0;top:42px;position:absolute;;z-index:998;}
+.bd{height:1165px;overflow:hidden;}
+.f-lt{float:left;}
+.f-rg{float:right;}
+.p-rel{position:relative;}
+.p-abs{position:absolute;}
+.logo{width:130px;height:75px;left:50px;top:32px;}
+.nav li a:hover,.nav li .curr,.btn-back{background:url(http://ossweb-img.qq.com/images/zl/act/a20120930special/css_sprite.png) no-repeat 0 0;display:block;}
+.btn-start{width:136px;height:103px;display:block;margin:20px 0 0 20px;}
+.btn-back{width:82px;padding-left:18px;height:25px;background-position:0 -686px;line-height:24px;color:#a19492;margin-bottom:20px;}
+.nav{background:url(http://ossweb-img.qq.com/images/zl/act/a20120930special/nav.jpg) no-repeat center top;width:175px;height:1209px;top:42px;left:221px;position:absolute;z-index:998;}
+.nav ul{padding-top:22px;}
+.nav li{margin:0 0 1px;}
+.nav li a{display:block;width:175px;height:113px;text-indent:-9999em;}
+.nav .e1 a:hover{background-position:0 -1px;}
+.nav .e2 a:hover{background-position:0 -115px;}
+.nav .e3 a:hover{background-position:0 -229px;}
+.nav .e4 a:hover{background-position:0 -343px;}
+.nav .e5 a:hover{background-position:0 -457px;}
+.nav .e6 a:hover{background-position:0 -571px;}
+.wrapper{left:396px;width:800px;height:1209px;position:relative;overflow:hidden;}
+.container{height:100%;position:relative;}
+.swf-bg{width:800px;height:720px;left:0;top:0;z-index:9;}
+.bg-part{height:360px;width:800px;}
+.content{width:476px;z-index:10;top:410px;left:88px;}
+.content p{font-size:14px;text-align:justify;}
+.t{background:url(http://ossweb-img.qq.com/images/zl/act/a20120930special/t.jpg) no-repeat 0 0;width:460px;height:23px;line-height:23px;padding-left:16px;color:#e29d42;font-size:12px;margin:15px 0;}
+.v{border:4px solid #5d4f4c;width:468px;height:268px;margin-top:40px;background:#000;}
+#footer_ied{text-align:center;padding:30px 0;line-height:20px;color:#544035;position:absolute;top:1090px;z-index:1000;width:100%;}
+#footer_ied a{color:#544035;text-decoration:none;}
+#footer_ied p.e{font-size:10px;line-height:19px;-webkit-text-size-adjust:none;}
+</style>
+<script src="http://ossweb-img.qq.com/images/js/jquery/jquery-1.7.1.min.js"></script>
+<script>
+function DivShow(videoID){
+if (!videoID) return;
+var htmls= "<object id=\"flashplayer\" classid=\"clsid:D27CDB6E-AE6D-11cf-96B8-444553540000\" width=\"468\" height=\"268\">" +
+			"<param name=\"movie\" value=\"http://static.video.qq.com/TencentPlayer.swf?vid=" + videoID + "&autoplay=0&loadingswf=http://imgcache.qq.com/minivideo_v1/vd/res/skins/web_small_loading.swf&skin=http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf\" />" +
+			"<param name=\"allowFullScreen\" value=\"true\" />" +
+			"<param name=\"quality\" value=\"high\" />" +
+			"<param name=\"wmode\" value=\"transparent\" />" +
+			"<param name=\"flashvars\" value=\"vid=" + videoID + "&cgi=http%3A//video.qq.com/bin/vrank%3Ftype%3D8%26start%3D49%26end%3D56\">" +
+			"<embed type=\"application/x-shockwave-flash\" src=\"http://static.video.qq.com/TencentPlayer.swf?vid=" + videoID + "&autoplay=0&loadingswf=http://imgcache.qq.com/minivideo_v1/vd/res/skins/web_small_loading.swf&skin=http://imgcache.qq.com/minivideo_v1/vd/res/skins/TencentPlayerMiniSkin.swf\" width=\"468\" height=\"268\" wmode=\"transparent\" id=\"flashplayer\" name=\"flashplayer\" quality=\"high\" allowScriptAccess=\"sameDomain\" allowFullScreen=\"true\" flashvars=\"vid=" + videoID + "&cgi=http%3A//video.qq.com/bin/vrank%3Ftype%3D8%26start%3D49%26end%3D56\"></embed>" +
+			"</object>";  
+document.write(htmls);
+};
+var arr = new Array();
+$(function(){
+	$.easing.elasout = function(x, t, b, c, d) {
+		var s=1.70158;var p=0;var a=c;
+		if (t==0) return b;  if ((t/=d)==1) return b+c;  if (!p) p=d*.3;
+		if (a < Math.abs(c)) { a=c; var s=p/4; }
+		else var s = p/(2*Math.PI) * Math.asin (c/a);
+		return a*Math.pow(2,-10*t) * Math.sin( (t*d-s)*(2*Math.PI)/p ) + c + b;
+	};
+	$("#container").find(".wrapper").each(function(i){
+		arr[i+1] = $("#eventBox"+(i+1)).offset().top;
+	});
+});
+function scrollToEvent(index){
+	$("#container").animate({top:-(arr[index])},{easing:"elasout"});
+    return false;  
+}
+</script>
+</head>
+<body>
+<div class="header">
+    <a href="./main.htm" target="" title="皇朝三国" class="logo p-abs t-hd">皇朝三国</a>
+    <h1 class="t-hd">皇朝三国</h1>
+    <h2 class="t-hd">跨服国战 争霸天下</h2>
+</div>
+
+<div class="nav">
+	<a href="./main.htm/server/webLogin.shtml" target="" class="btn-start t-hd" title="开始游戏">开始游戏</a>
+	<ul>
+    	<li class="e1"><a href="javascript:;" onClick="scrollToEvent(1);"></a></li>
+        <li class="e2"><a href="javascript:;" onClick="scrollToEvent(2);"></a></li>
+        <li class="e3"><a href="javascript:;" onClick="scrollToEvent(3);"></a></li>
+        <li class="e4"><a href="javascript:;" onClick="scrollToEvent(4);"></a></li>
+        <li class="e5"><a href="javascript:;" onClick="scrollToEvent(5);"></a></li>
+        <li class="e6"><a href="javascript:;" onClick="scrollToEvent(6);"></a></li>
+    </ul>
+</div>
+
+<div class="bd p-rel">
+	<div class="container" id="container">
+    	<!--event1-->
+        <div class="wrapper" id="eventBox1">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e1_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e1_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e1_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e1_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆  生长在风起云涌的三国时代，刀光剑影不是他们的本意，驰骋沙场却是他们的抉择。三国的传奇色彩，勇士的传奇故事，就这样一步步，一幕幕展现。王者天下、远征西域、横扫千军、万夫莫敌、凭妖创世、决战天下、傲视群雄。不朽的传奇再次重演，真相到底是什么？纠缠心结从三国出发，展现出皇朝三</p>
+                <h3 class="t">征战沙场，名动九州</h3>
+                <p>◆ 游戏以三国为背景，让玩家体验战争场面。玩家可参与历史战场和国战活动，在沙场一展雄伟风姿。</p>            
+                <div class="v"><script>DivShow('n01068f4i1j');</script></div>
+            </div>
+        </div>
+        <!--event2-->
+        <div class="wrapper" id="eventBox2">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e2_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e2_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e2_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e2_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆ 的卢休妨主，赤兔势如虎。三国之中成名的英雄无不与座下宝驹成为了千古流传的佳话，而游戏中造型威猛、尊贵的坐骑也是每一位玩家的追求。</p>
+                <h3 class="t">骑战才是这个时代的顶级战法</h3>
+                <p>◆ 告别低端的步兵时代，骑战才是这个时代的顶级战法！游戏中坐骑是你的忠实伙伴，随着你的成长而进化，为你提供更强大的战斗力。骑战时代，你就是吕布配赤兔的黄金组合。</p>
+                <div class="v"><script>DivShow('m0106yoosqe');</script></div>
+            </div>
+        </div>
+        <!--event3-->
+        <div class="wrapper" id="eventBox3">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e3_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e3_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e3_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e3_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆ 一寸河山一寸血，雄霸天下尽旌旗！参加军旗争夺战，您的军团可以争夺每个地图的旗帜点。夺取旗帜点，军团成员在该地图练级即可获得经验加成。把你的军旗插遍天下每一块土地吧！</p>
+                <h3 class="t">领土争夺 雄踞天下</h3>
+                <p>◆ 游戏中的每一张地图都是一个可以争夺的据点，只有最强的军团才能获得它的主权。成功占领之后，军团内成员可以在其中获得更多的收益。</p>
+                <!--div class="v"><img src="http://ossweb-img.qq.com/images/zl/act/a20120930special/v.jpg"/></div-->
+<div class="v"><script>DivShow('u0115ole6zc');</script></div>
+            </div>
+        </div>
+        <!--event4-->
+        <div class="wrapper" id="eventBox4">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e4_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e4_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e4_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e4_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆ 攻下许昌，你将成为本服的国王；占领荆州，你才是跨服战的最终赢家！荆州争霸，以天下皇权为赌注，汇集各服顶级军团顶级强者的争霸赛，热血男儿，谁肯错过！</p>
+                <h3 class="t">虎踞许昌 龙蟠荆州</h3>
+                <p>◆ 曹操挟天子以令诸侯，甚至在许昌代王封臣。若能夺取许昌，必定能掌握天下神器，成为九五之尊。荆州处于九州之中，其交通便利，四通八达，且民富兵强，夺取荆州一统天下将是每一个热血男儿的最大梦想。</p>
+                <!--div class="v"><img src="http://ossweb-img.qq.com/images/zl/act/a20120930special/v.jpg"/></div-->
+<div class="v"><script>DivShow('u0115ole6zc');</script></div>
+            </div>    	
+        </div>
+        <!--event5-->
+        <div class="wrapper" id="eventBox5">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e5_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e5_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e5_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e5_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆ 神将吕布谁与争锋？争夺BOSS力挫群雄。神将BOSS的每一次出现，都会带来耀眼的极品紫装、极品丹药和各种灵石，也会引来各路英雄的争夺厮杀！神将BOSS本身具有超强战斗力，是玩家的绝对劲敌！再加上虎视眈眈的各路英豪，你和你的兄弟们准备好了吗？</p>
+                <h3 class="t">弑神将 夺神器</h3>
+                <p>◆ 神器重宝有能者得之，在一些地图中每隔一段时间刷新一只神将BOSS，要想挑战它们，你必须同时面对神将的攻击和虎视眈眈的各路玩家。这种时候，孤胆英雄已经不适合，只有兄弟同心方能在争夺之中获得神将的收藏。</p>
+                <div class="v"><script>DivShow('r01060fpjdl');</script></div>
+            </div>    	
+        </div>
+        <!--event6-->
+        <div class="wrapper" id="eventBox6">
+            <div class="swf-bg p-abs">
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e6_1.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e6_1.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+                <div class="bg-part"><object width="800" height="360"><param value="http://ossweb-img.qq.com/images/zl/act/a20120930special/e6_2.swf" name="movie"><param value="high" name="quality"><param value="transparent" name="wmode"><param name="salign" value="T"><param value="always" name="allowScriptAccess"><param name="scale" value="noscale"><embed width="800" height="360" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" src="http://ossweb-img.qq.com/images/zl/act/a20120930special//e6_2.swf" allowscriptaccess="always" scale="noscale" salign="T" quality="high" wmode="transparent"></embed></object></div>
+            </div>
+            <div class="content p-abs">
+                <div class="clr">
+                <a href="./main.htm" class="btn-back f-rg" title="返回官网" target="">返回官网</a>
+                </div>
+                <p>◆ 与吕布单挑虎牢关前，与袁绍决战乌巢官渡，与曹操对峙大江赤壁，各路群雄，三国经典，一切尽在经典战役副本！热血战役、超级BOSS、极品装备，无需顾虑被PK被打扰，副本中的一 切只属于你和你的兄弟们！</p>
+                <h3 class="t">经典重现 热血战役</h3>
+                <p>◆ 游戏以三国之中的著名战役为主线任务，但是这远远不能展现出热血的战场氛围。为此我们将这些经典战役用副本的形式表现出来，让玩家能够更加清晰地感受到三国战火纷飞的场景，营造一部经典的战斗史诗。</p>
+                <div class="v"><script>DivShow('s0106h21f5h');</script></div>
+            </div>    	
+        </div>
+	</div>
+</div>
+<script src="http://ossweb-img.qq.com/images/js/foot.js"></script>
+<script src="http://ossweb-img.qq.com/images/js/milo/milo.js"></script>
+<script>
+//延迟加载
+milo.addEvent(window,'load',function(){
+	loadScript("http://ossweb-img.qq.com/images/js/title.js",function(){ostb_int();});
+	loadScript("http://pingjs.qq.com/ping_tcss_ied.js",function(){if(typeof(pgvMain) == 'function')pgvMain();});
+});
+</script>
+</body>
+</html>
+
+<!--[if !IE]>|xGv00|88fe47ce74de8cb1e6aabf6562c8a719<![endif]-->

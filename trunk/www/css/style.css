@@ -1,0 +1,1412 @@
+
+body, div, em, i, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/bg_body.jpg") repeat scroll 0 0 transparent;
+    color: #732B15;
+    font: 12px/1.5 tahoma,'ËÎÌå',sans-serif;
+    min-width: 1000px;
+}
+a {
+    color: #732B15;
+    cursor: pointer;
+    outline: 0 none;
+    text-decoration: none;
+}
+ul {
+    list-style: none outside none;
+}
+ol {
+    list-style-position: inside;
+}
+img {
+    border: 0 none;
+}
+em, i {
+    font-style: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+input[type="checkbox"] {
+    margin-right: 4px;
+    vertical-align: -3px;
+}
+.clr {
+}
+.clr:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.dn {
+    display: none;
+}
+.por {
+    position: relative;
+}
+.t-hd {
+    font-size: 0;
+    height: 0;
+    overflow: hidden;
+    text-indent: -9999em;
+}
+.header {
+    background: url("../imges/hd.jpg") no-repeat scroll center top transparent;
+    height: 360px;
+    position: relative;
+}
+.cover {
+    height: 160px;
+    left: 480px;
+    position: absolute;
+    top: -15px;
+    width: 580px;
+    z-index: 9999;
+}
+.link_a {
+    display: block;
+    height: 35px;
+    left: 415px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999em;
+    top: 305px;
+    width: 245px;
+}
+.link_b {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/bg_header_title.jpg") no-repeat scroll 0 0 transparent;
+    height: 99px;
+    left: 279px;
+    position: absolute;
+    top: 275px;
+    width: 553px;
+}
+.link_b a {
+    display: block;
+    height: 35px;
+    margin: 30px 0 0 115px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 320px;
+}
+.bd {
+    background: url("../imges/bd.jpg") no-repeat scroll center top transparent;
+    min-height: 700px;
+}
+.wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+}
+.logo {
+    height: 105px;
+    left: 390px;
+    top: 0;
+    width: 200px;
+}
+.f-lt {
+    float: left;
+}
+.f-rg {
+    float: right;
+}
+.p-rel {
+    position: relative;
+}
+.p-abs {
+    position: absolute;
+}
+i, .spr, .btns-box a, .ser-ls a, .page-nav a, .t-news, .t-ser-slt, .t-ser-login, .btn-e-view, .tab a.curr, .side-panel p, .ls-two li, .xpage a {
+    background: url("../imges/css_sprite.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    vertical-align: middle;
+}
+.t-news, .t-ser-slt, .t-ser-login {
+    height: 33px;
+}
+.t-news {
+    background-position: 0 -93px;
+    width: 339px;
+}
+.t-ser-login {
+    background-position: 0 -126px;
+}
+.t-ser-slt {
+    background-position: 0 -159px;
+}
+.t-ser-all, .t-ser-rec {
+    background: none repeat scroll 0 0 #725155;
+    color: #F1EADB;
+    font-family: "ºÚÌå";
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+.t-event, .t-main-news {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/t_event.jpg") no-repeat scroll 0 0 transparent;
+    height: 103px;
+    margin: 0 0 8px;
+    width: 740px;
+}
+.t-main-news {
+    background-image: url("../imges/profile/data.jpg");
+}
+.side-panel h4 {
+    height: 48px;
+    text-indent: -9999em;
+    width: 207px;
+}
+.row-ls .i-hot {
+    background-position: -3px -48px;
+    height: 11px;
+    left: auto;
+    position: absolute;
+    right: 12px;
+    top: 6px;
+    width: 11px;
+}
+.btn-desktop {
+    height: 32px;
+    margin-bottom: 5px;
+    width: 136px;
+}
+.btn-wb {
+    height: 23px;
+    margin-right: 3px;
+    width: 78px;
+}
+.btn-qz {
+    height: 23px;
+    width: 53px;
+}
+.tab-bar {
+    border-bottom: 1px solid #555075;
+    position: relative;
+}
+.tabs {
+    position: relative;
+}
+.tabs li {
+    float: left;
+}
+.tabs a {
+    background: none repeat scroll 0 0 #EEEEEE;
+    border: 1px solid #000000;
+    color: #000000;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-left: -1px;
+    text-align: center;
+    width: 80px;
+}
+.tabs a.curr {
+    background: none repeat scroll 0 0 #CCCCCC;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.ls li {
+    overflow: hidden;
+    padding: 5px 0;
+    position: relative;
+    width: 100%;
+}
+.ls-two li {
+    background-position: -616px -60px;
+    padding: 5px 0 5px 13px;
+}
+.ls em {
+    color: #7D7D7D;
+    position: absolute;
+    right: 2px;
+    top: 6px;
+}
+.ls a {
+    padding: 0 1px;
+}
+.ls-two .t {
+    color: #7F786E;
+}
+.ls-two em {
+    color: #6C6C6C !important;
+    margin-right: 20px;
+}
+.txt-over a {
+    float: left;
+}
+.txt-over .t {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.grid-2 {
+    margin: 0 auto;
+    width: 985px;
+}
+.aside, .main {
+    float: left;
+    min-height: 300px;
+}
+.aside {
+    margin: 0 20px 0 10px;
+    width: 208px;
+}
+.main {
+    width: 740px;
+}
+
+.main .wrp {
+    margin: 152px 0 0;
+    width: 739px;
+}
+.nav {
+    left: -6px;
+    top: 24px;
+}
+.nav li {
+    float: left;
+    margin: 0 26px;
+}
+.nav li a {
+    display: block;
+    height: 40px;
+    text-indent: -9999em;
+    width: 80px;
+}
+.nav .split {
+    margin-left: 213px;
+}
+.nav .cdk a {
+    width: 115px;
+}
+.nav .mg-r-0, .main .mg-r-0 {
+    margin-right: 0;
+}
+.news-box {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/newsbg.jpg") no-repeat scroll 0 0 transparent;
+    height: 257px;
+    width: 368px;
+}
+.index .main .wrp {
+    background: none repeat scroll 0 0 transparent;
+}
+.tab {
+    padding: 29px 0 0 21px;
+    position: relative;
+}
+.tab li {
+    float: left;
+    margin-right: 10px;
+}
+.tab a {
+    display: block;
+    height: 56px;
+    text-indent: -9999em;
+    width: 50px;
+}
+.tab .t1 .curr {
+    background-position: -1px -192px;
+    margin-top: 2px;
+}
+.tab .t2 .curr {
+    background-position: -61px -192px;
+    margin-top: 2px;
+}
+.tab .t3 .curr {
+    background-position: -121px -192px;
+    margin-top: 2px;
+}
+.tab .t4 .curr {
+    background-position: -181px -192px;
+    margin-top: 2px;
+}
+.link-more {
+    color: #0F0F0F;
+    left: 320px;
+    top: 45px;
+    z-index: 999;
+}
+.news-box .ls {
+    color: #7D7D7D;
+    display: none;
+    height: 148px;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 335px;
+}
+.news-box .ls a {
+    color: #CACACA;
+}
+.news-box .ls .c {
+    background: none repeat scroll 0 0 #BF0E00;
+    margin-right: 2px;
+    padding: 1px;
+}
+.news-box .ls .t {
+    width: 230px;
+}
+.news-box .one-news .c, .news-box .one-news em {
+    display: none;
+}
+.news-box .one-news .t {
+    color: #EF3506;
+    display: block;
+    float: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    width: auto;
+}
+.game-gg {
+    background: none repeat scroll 0 0 #350021;
+    height: 257px;
+    margin-left: 4px;
+    overflow: hidden;
+    width: 365px;
+}
+.game-gg li {
+    position: absolute;
+}
+.game-gg .btntab {
+    position: absolute;
+    right: 8px;
+    top: 232px;
+    z-index: 10;
+}
+.game-gg .btntab span {
+    background: none repeat scroll 0 0 #E2E2E2;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 13px;
+    margin: 0 2px;
+    text-indent: -9999em;
+    width: 24px;
+}
+.game-gg .btntab .curr {
+    background: none repeat scroll 0 0 #FF1B41;
+}
+.ad-bar {
+    margin: 15px 0;
+}
+.ad-bar a {
+    border: 1px solid #131313;
+    float: left;
+    height: 137px;
+    margin-right: 14px;
+    overflow: hidden;
+    width: 234px;
+}
+.ad-bar img {
+    height: 137px;
+    width: 234px;
+}
+.c-ctn {
+    margin-right: 18px;
+    width: 510px;
+}
+.c-side {
+    width: 210px;
+}
+.character {
+    height: 430px;
+}
+.character .tab-bar {
+    background: none repeat scroll 0 0 #45352F;
+    border: medium none;
+    height: 45px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+.character .tab {
+    padding: 0;
+}
+.character .tab li {
+    margin: 0;
+}
+.character .tab a {
+    background: none repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    text-align: center;
+    text-indent: 0;
+    width: 118px;
+}
+.character .tab a.curr {
+    background: none repeat scroll 0 0 #CA6716;
+    color: #000000;
+}
+.character-info {
+    display: none;
+    font-size: 12px;
+    height: 360px;
+    margin-top: 9px;
+    padding-left: 240px;
+    width: 268px;
+}
+.character-info .img {
+    float: left;
+    margin-left: -240px;
+}
+.character-info .txt {
+    text-align: justify;
+    width: 260px;
+}
+.character-info .txt h4 {
+    color: #F44300;
+    font-size: 16px;
+}
+.character-info .txt span {
+    color: #F44300;
+}
+.img-bar {
+    height: 250px;
+    width: 508px;
+}
+.img-photo {
+    left: 0;
+    top: 0;
+}
+.img-sreenshot {
+    left: 230px;
+    top: 0;
+}
+.img-wallpaper {
+    left: 230px;
+    top: 123px;
+}
+.summary .tab {
+    padding: 0;
+}
+.summary .tab a {
+    background: none repeat scroll 0 0 #222121;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    text-indent: 0;
+    width: 140px;
+}
+.summary .tab .curr {
+    background: none repeat scroll 0 0 #444444;
+}
+.summary .txt {
+    padding-top: 10px;
+    width: auto;
+}
+.summary .c {
+    display: none;
+}
+.summary .t {
+    width: 230px;
+}
+.summary .ls {
+    background: none repeat scroll 0 0 #212121;
+    height: 185px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 324px;
+}
+.summary .ls em {
+    color: #000000;
+}
+.side-box {
+    background: none repeat scroll 0 0 #1A1A1A;
+    padding: 15px 0 0;
+}
+.img-rate {
+    display: block;
+    margin: 0 auto;
+}
+.side-box h4 {
+    background: none repeat scroll 0 0 #1A1A1A;
+    color: #D69075;
+    font-size: 14px;
+    height: 30px;
+    line-height: 30px;
+    margin: 15px 0 5px;
+    padding-left: 15px;
+}
+.side-box li {
+    background: none repeat scroll 0 0 #1A1A1A;
+    color: #857E73;
+    padding: 15px 15px 15px 45px;
+    position: relative;
+    text-align: justify;
+}
+.side-box .row {
+    background: none repeat scroll 0 0 #1A1A1A;
+}
+.side-box li em {
+    background: none repeat scroll 0 0 #AA0D23;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 19px;
+    left: 15px;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 19px;
+}
+.btn-rate {
+    background-position: -232px -192px;
+    color: #FFFFFF;
+    font-family: "Microsoft Yahei";
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    margin: 15px auto;
+    text-align: center;
+    width: 178px;
+}
+.no-bg {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/bg_body.jpg") repeat scroll 0 0 transparent !important;
+    color: #9F2B09 !important;
+    font-family: 'Microsoft Yahei';
+}
+.no-bg-two {
+    background: none repeat scroll 0 0 #101010 !important;
+}
+.server-page {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/bg_body.jpg") repeat scroll 0 0 transparent;
+}
+.server-page .header {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/top.jpg") no-repeat scroll center top transparent;
+    height: 120px;
+}
+.server-page .bd {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/bg.jpg") no-repeat scroll center top transparent;
+    min-height: 580px;
+    padding-bottom: 50px;
+}
+.server-page .nav {
+    height: 70px;
+    left: 368px;
+    top: 0;
+    width: 452px;
+}
+.server-page .nav li {
+    margin: 0;
+}
+.server-page .nav li a {
+    height: 70px;
+    width: 113px;
+}
+.server-page .share-bar {
+    height: 65px;
+    right: 16px;
+    top: 25px;
+    width: 138px;
+}
+.server-page .share-bar a {
+    display: block;
+}
+.server-page .grid-2 {
+    margin: 0 auto;
+    width: 970px;
+}
+.server-page .aside, .server-page .main {
+    background: none repeat scroll 0 0 #DBDBDB;
+    border: 1px solid #FFFFFF;
+    min-height: 502px;
+}
+.server-page .aside {
+    margin: 0 6px 0 0;
+    width: 339px;
+}
+.server-page .main {
+    background: none repeat scroll 0 0 #D3D3D3;
+    width: 618px;
+}
+.server-page .logo {
+    height: 70px;
+    left: 13px;
+    top: 10px;
+    width: 144px;
+}
+.aside .ls {
+    height: 148px;
+    overflow: hidden;
+    padding: 6px;
+}
+.aside .ls li {
+    border-bottom: 1px dashed #362D23;
+    padding: 3px 0;
+}
+.aside .ls li em {
+    top: 3px;
+}
+.aside .txt-over .t {
+    width: 228px;
+}
+.btns {
+    height: 390px;
+    padding: 38px 0 0 10px;
+}
+.btns a {
+    display: block;
+    height: 58px;
+    margin-bottom: 19px;
+    width: 185px;
+}
+.btns .btn-start {
+    height: 125px;
+}
+.side-panel {
+    width: 207px;
+}
+.wrp {
+    width: 207px;
+}
+.curr-page {
+    color: #E5B497;
+    right: 20px;
+    top: 220px;
+}
+.curr-page a {
+    color: #E5B497;
+}
+.row-ls li {
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 24px;
+    position: relative;
+    width: 77px;
+}
+.row-ls a {
+    color: #A5A5A5;
+}
+.row-ls i {
+    background-position: 0 -48px;
+    height: 5px;
+    left: 12px;
+    position: absolute;
+    top: 16px;
+    width: 3px;
+}
+.row-ls .b-r-0 {
+    border-right: 0 none;
+}
+.t-cs {
+    background-position: -207px 0;
+}
+.t-wb {
+    background-position: -414px 0;
+}
+.wb-box {
+    padding: 20px 0 20px 20px;
+}
+.wb-box .name {
+    color: #857E73;
+    margin-left: 10px;
+    width: 80px;
+}
+.wb-box h4 {
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+    height: auto;
+    text-indent: 0;
+    width: auto;
+}
+.btn-wb {
+    background-position: -14px -48px;
+    height: 22px;
+    margin: 4px 3px 0 0;
+    width: 79px;
+}
+.code {
+    border-top: 1px solid #212121;
+}
+.side-panel p {
+    background-position: -605px -48px;
+    color: #4B4B4B;
+    height: 30px;
+    margin: 10px 0 10px 20px;
+    padding-left: 20px;
+}
+.partner {
+    background-position: -88px -48px;
+    color: #393939;
+    cursor: pointer;
+    font-size: 14px;
+    height: 39px;
+    line-height: 39px;
+    margin: 20px 0 0 3px;
+    padding-left: 15px;
+    width: 188px;
+}
+.partner ul {
+    background: none repeat scroll 0 0 #0F0F0F;
+    border: 3px solid #050505;
+    display: none;
+    height: 24px;
+    left: 0;
+    margin-top: -3px;
+    top: 39px;
+    width: 197px;
+}
+.partner a {
+    color: #393939;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+}
+.partner a:hover {
+    background: none repeat scroll 0 0 #393939;
+    color: #050505;
+}
+.ads-img, .mg-7 {
+    margin: 7px auto;
+}
+.ads-img a {
+    display: block;
+    height: 118px;
+    width: 240px;
+}
+.side-panel .t-note {
+    color: #B9826C;
+    font-size: 12px;
+    font-weight: normal;
+    height: 20px;
+    margin-top: 5px;
+}
+.side-panel .note {
+    padding: 10px 0 10px 15px;
+}
+.side-panel .note span {
+    color: #B9826C;
+    float: left;
+    width: 100px;
+}
+.content {
+    margin: 0 auto;
+    width: 695px;
+}
+.content .tab-bar {
+    background: none repeat scroll 0 0 #322D2B;
+    border: 0 none;
+    height: 41px;
+    margin: 20px 0 15px;
+}
+.content .tabs {
+    background: none repeat scroll 0 0 #231D1B;
+}
+.content .tabs li {
+    margin-right: 3px;
+}
+.content .tabs a {
+    background: none repeat scroll 0 0 #604B42;
+    border: 1px solid #36241C;
+    color: #FFFFFF;
+    font-family: "Microsoft Yahei";
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    width: 89px;
+}
+.content .tabs .mg-r-0 {
+    margin-right: 0;
+}
+.content .tabs .curr {
+    background: none repeat scroll 0 0 #663E2D;
+    border: 1px solid #4B0002;
+    font-weight: normal;
+}
+.event-list {
+    background: none repeat scroll 0 0 #262221;
+}
+.content .ls {
+    padding: 10px 0;
+}
+.content .ls li {
+    color: #3F3F3F;
+    padding: 5px 0;
+}
+.content .ls a, .content .ls em {
+    color: #A5A5A5;
+}
+.content .ls .c {
+    background: none repeat scroll 0 0 #57362A;
+    color: #FFFFFF;
+    padding: 1px;
+}
+.page-nav {
+    margin-top: 20px;
+    padding: 8px 0;
+}
+.page-nav a {
+    background-position: -291px -48px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    width: 138px;
+}
+.txt {
+    color: #857E73;
+    padding-top: 5px;
+    width: 640px;
+	background-color:#FFF;
+}
+.txtIndex {
+    color: #857E73;
+    padding-top: 5px;
+    width: 640px;
+}
+.txt a {
+    color: #1F1F1F;
+}
+.banner {
+    margin: 15px auto;
+    width: 543px;
+}
+.banner img {
+    width: 543px;
+}
+h3.txt-title {
+    font: bold 22px "Microsoft Yahei";
+    text-align: center;
+}
+.write-date {
+    border-bottom: 1px dashed #67442F;
+    margin: 10px 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.context {
+    color: #6A615F;
+    line-height: 20px;
+    margin: 10px auto;
+    text-align: justify;
+    width: 540px;
+}
+.share-tool {
+    line-height: 24px;
+    margin: 10px auto;
+    padding: 5px;
+    width: 550px;
+}
+.sns {
+    list-style: none outside none;
+    padding: 5px;
+}
+.sns_lst {
+    float: left;
+    padding: 0 5px 0 0;
+}
+.sns_lnk {
+    background: url("http://ossweb-img.qq.com/images/js/sns/icons.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    display: block;
+    height: 16px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 16px;
+}
+.sns_weibo {
+    background-position: 0 0;
+}
+.sns_qzone {
+    background-position: 0 -16px;
+}
+.sns_xiaoyou {
+    background-position: 0 -32px;
+}
+.sns_kaixin {
+    background-position: 0 -48px;
+}
+.sns_renren {
+    background-position: 0 -64px;
+}
+.sns_baidu {
+    background-position: 0 -80px;
+}
+.sns_douban {
+    background-position: 0 -96px;
+}
+.sns_shuqian {
+    background-position: 0 -112px;
+}
+.sns_sina {
+    background-position: 0 -128px;
+}
+.news-ralet {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+}
+.relate-news {
+    padding-bottom: 10px;
+}
+.relate-news li {
+    padding-left: 5px;
+}
+.mwb {
+    margin: 15px auto;
+    overflow: hidden;
+    padding: 20px;
+    width: 504px;
+}
+.wbshow {
+    height: 160px;
+    overflow: hidden;
+    padding-left: 8px;
+}
+.wb_lst {
+    float: left;
+    list-style: none outside none;
+    padding: 20px 24px 0 0;
+    text-align: center;
+    width: 74px;
+}
+.wb_box {
+    height: 74px;
+    margin: 0 0 10px;
+    position: relative;
+}
+.wb_img {
+    border: 2px solid #FFFFFF;
+    height: 70px;
+    width: 70px;
+}
+.wb_ipt {
+    bottom: 2px;
+    left: 2px;
+    position: absolute;
+}
+.ms .wb_nm {
+    color: #FFFFFF;
+}
+.mq .wb_nm {
+    color: #717171;
+}
+.wb_lsn {
+    cursor: pointer;
+    height: 43px;
+    margin: 10px auto 0;
+    width: 163px;
+}
+.hidden {
+    display: block;
+    height: 0;
+    overflow: hidden;
+}
+.ms .wb_lsn {
+    background: url("http://ossweb-img.qq.com/images/js/media/listen_s.png") no-repeat scroll 0 0 transparent;
+}
+.mq .wb_lsn {
+    background: url("http://ossweb-img.qq.com/images/js/media/listen_q.png") no-repeat scroll 0 0 transparent;
+}
+.login_info {
+    background: none repeat scroll 0 0 #262221;
+    padding: 10px 0 0 20px;
+}
+.content .event-tab {
+    margin: 6px 0 0;
+    padding: 24px 28px 24px 22px;
+    width: 690px;
+}
+.content .event-tab a {
+    width: 120px;
+}
+.cdkey-box {
+    background: none repeat scroll 0 0 #262221;
+    height: 340px;
+    padding: 38px 0;
+}
+.tb {
+    font-size: 14px;
+    margin: 0 auto;
+    width: 400px;
+}
+.tb th, .tb td {
+    vertical-align: middle;
+}
+.tb th {
+    font-weight: normal;
+    height: 42px;
+    padding-right: 10px;
+}
+.tb a {
+    color: #FB7600;
+}
+.ipt {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C0C0C0;
+    height: 40px;
+    line-height: 40px;
+    width: 270px;
+}
+.tb .btn-dh, .btn-e-view {
+    background-position: 0 -248px;
+    color: #FFFFFF;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 5px;
+    text-align: center;
+    width: 138px;
+}
+.rules {
+    background: none repeat scroll 0 0 #262221;
+    border-top: 1px dashed #C0C0C0;
+    padding: 20px 0 0 25px;
+}
+.rules dl {
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+.rules dt {
+    font-weight: bold;
+}
+.rules dd {
+    padding: 2px 0;
+}
+.btns-box {
+    padding: 10px 0 10px 8px;
+}
+.btns-box a {
+    background-position: -429px -48px;
+    color: #FFFFFF;
+    float: left;
+    height: 21px;
+    line-height: 20px;
+    margin: 3px;
+    text-align: center;
+    width: 74px;
+}
+.ads-box {
+    padding-left: 8px;
+}
+.ads-box a {
+    border: 3px solid #5D3F05;
+    display: block;
+    float: left;
+    height: 172px;
+    margin: 0 6px;
+    width: 142px;
+}
+.note {
+    padding: 10px 0 0 3px;
+    text-align: center;
+}
+.note span {
+    color: #444444;
+    padding: 3px;
+}
+.c-side .note span {
+    color: #68635B;
+    padding: 3px 9px;
+}
+.login-box {
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 370px;
+}
+.login-box h4 {
+    color: #444444;
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.login-box .wrap {
+    height: 203px;
+    padding: 8px 0 0;
+}
+.login-box p {
+    height: 25px;
+    text-align: right;
+}
+.login-box p a {
+    color: #444444;
+}
+.btn-login {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/login_btns.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 187px;
+    margin: 0 auto;
+    text-align: center;
+    width: 351px;
+}
+.agr {
+    background: none repeat scroll 0 0 #C6C6C6;
+    color: #444444;
+    margin-top: 35px;
+    padding: 30px 0 30px 145px;
+    width: 472px;
+}
+.agr a {
+    color: #444444;
+    text-decoration: underline;
+}
+.btn-login span {
+    color: #F9F8F5;
+    display: block;
+    font: bold 30px "ºÚÌå";
+    padding-top: 75px;
+}
+.logined .btn-login {
+    background-position: 0 -187px;
+}
+.server-box {
+    margin: 20px auto 0;
+    width: 580px;
+}
+.ser-ls {
+    padding: 12px 0;
+}
+.ser-ls a {
+    background-position: -429px -69px;
+    color: #FFFFFF;
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    margin: 2px 1px;
+    overflow: hidden;
+    padding-left: 3px;
+    position: relative;
+    width: 139px;
+}
+.ser-ls span, .ser-ls i {
+    background: url("http://ossweb-img.qq.com/images/zl/web201209/ico.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    vertical-align: middle;
+}
+.ser-ls span {
+    float: left;
+    height: 13px;
+    margin-top: 6px;
+    text-indent: -9999em;
+    width: 9px;
+}
+.ser-ls .ct {
+    background-position: 0 -17px;
+}
+.ser-ls .yj {
+    background-position: -9px -17px;
+}
+.ser-ls .fm {
+    background-position: -18px -17px;
+}
+.ser-ls .wh {
+    background-position: -27px -17px;
+}
+.ser-ls em {
+    float: left;
+    padding-left: 3px;
+}
+.ser-ls .i-rec, .ser-ls .i-new {
+    float: right;
+    height: 17px;
+    margin: 4px 2px 0 0;
+    width: 17px;
+}
+.ser-ls .i-rec {
+    background-position: -17px 0;
+}
+.server-box .tab-bar {
+    border-color: #E2E2E2;
+}
+.server-box .tabs li {
+    margin-right: 5px;
+}
+.server-box .tabs a {
+    background: none repeat scroll 0 0 #C9C9C9;
+    border-color: #BCBCBC;
+    border-style: solid;
+    border-width: 1px 1px 0;
+    color: #FFFFFF;
+    height: 30px;
+    line-height: 30px;
+    width: 107px;
+}
+.server-box .tabs .curr {
+    background: none repeat scroll 0 0 #990005;
+}
+.server-box .i-status {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/status.jpg") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 14px;
+    right: 8px;
+    top: 6px;
+    width: 182px;
+}
+.usr-bar {
+    color: #FFE1A1;
+    right: 14px;
+    top: 10px;
+}
+.usr-bar a {
+    color: #FFE1A1;
+}
+.h-a {
+    height: auto;
+}
+.event-list img {
+    border: 1px solid #D4D4D4;
+    height: 176px;
+    width: 276px;
+}
+.event-list .context {
+    margin: 0 auto;
+    padding-left: 292px;
+    width: 390px;
+}
+.event-list li {
+    background: url("http://ossweb-img.qq.com/images/zl/web201301/dashed.png") repeat-x scroll left bottom transparent;
+    font-family: "Microsoft Yahei";
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 32px 0;
+    position: relative;
+    width: 695px;
+}
+.event-list li h4 {
+    color: #B19975;
+    font-family: "Microsoft Yahei";
+    font-size: 24px;
+    font-weight: normal;
+    left: 295px;
+    position: absolute;
+}
+.event-list .e-img {
+    float: left;
+    margin-left: -298px;
+}
+.event-list p {
+    padding: 35px 0 3px;
+}
+.event-list .date {
+    color: #9A9A9A;
+    font-size: 14px;
+}
+.btn-e-view {
+    display: block;
+    right: 10px;
+    top: 165px;
+}
+.ft {
+    background: none repeat scroll 0 0 #000000;
+    color: #6C6C6C;
+    line-height: 2.2;
+    margin-top: 50px;
+    overflow: hidden;
+    padding: 40px 0 0;
+    text-align: center;
+}
+.ft a {
+    color: #6C6C6C;
+}
+.ft-box {
+    height: 135px;
+    margin: 0 auto;
+    width: 895px;
+}
+.logos {
+    background: url("http://ossweb-img.qq.com/images/zl/web201209/logos.png") no-repeat scroll 0 0 transparent;
+    border-right: 1px solid #36302C;
+    float: left;
+    height: 40px;
+    margin: 8px 25px 0 0;
+    width: 260px;
+}
+.logos a {
+    display: block;
+    float: left;
+    height: 35px;
+}
+.tg {
+    margin-right: 10px;
+    width: 108px;
+}
+.par {
+    width: 115px;
+}
+.ft span {
+    background: none repeat scroll 0 0 #322C29;
+    display: inline-block;
+    height: 6px;
+    margin: 0 11px;
+    overflow: hidden;
+    width: 1px;
+}
+.ft .e {
+    float: left;
+    text-align: left;
+}
+.ft .e a {
+    background: url("http://ossweb-img.qq.com/images/zl/web201209/ft_bg.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 25px;
+    line-height: 24px;
+    margin-top: 5px;
+    text-align: center;
+    width: 178px;
+}
+.ft .f-rg a {
+    color: #503840;
+}
+.xpage {
+    display: block;
+    height: 45px;
+    overflow: hidden;
+    padding: 45px 24px 70px;
+}
+.xpage:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.xpage a, .xpage a:hover {
+    background-position: -138px -248px;
+    color: #FFFFFF;
+    display: block;
+    float: left;
+    font-family: "Microsoft Yahei";
+    font-size: 20px;
+    font-weight: normal;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 8px;
+    text-align: center;
+    width: 138px;
+}
+.m_t_10 {
+    margin-top: 10px;
+}
+.m_t_20 {
+    margin-top: 20px;
+}
+.yellow {
+    color: #CA6716 !important;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+}
+.gray {
+    color: #3D3C38 !important;
+    font-size: 12px !important;
+}
