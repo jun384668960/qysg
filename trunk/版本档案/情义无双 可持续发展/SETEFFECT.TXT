@@ -1,0 +1,4249 @@
+// 套裝效果設定檔
+#include TYPE.H
+
+[ini]
+max = 1000
+
+[set_effect]
+code = 1
+add_hp = 300
+add_mp = 300
+add_str = 10
+add_int = 10
+add_mind = 10
+add_con = 10
+add_dex = 10
+add_leader = 10
+
+[set_effect]
+code = 2
+add_hp = 5000
+add_mp = 5000
+add_str = 100
+add_int = 100
+add_mind = 100
+add_con = 100
+add_dex = 100
+add_leader = 100
+add_attack_power = 100
+add_defense = 100
+
+[set_effect]
+code = 3
+add_hp = 50000
+add_mp = 50000
+add_str = 500
+add_int = 500
+add_mind = 500
+add_con = 500
+add_dex = 500
+add_leader = 500
+anti_function = effFun_NO_SPEC,100
+add_attack_power = 1000
+add_defense = 1000
+
+[set_effect]
+code = 4
+
+[set_effect]
+code = 5
+
+[set_effect]
+code = 6
+
+[set_effect]
+code = 7
+
+[set_effect]
+code = 8
+
+[set_effect]
+code = 9
+
+[set_effect]
+code = 10
+
+[set_effect]
+code = 11
+add_mind = 2
+add_con = 2
+
+[set_effect]
+code = 12
+add_str = 2
+add_int = 2
+add_mind = 2
+add_con = 2
+add_dex = 2
+
+[set_effect]
+code = 13
+add_str = 2
+add_int = 2
+add_mind = 5
+add_con = 5
+add_dex = 2
+add_defense = 5
+
+[set_effect]
+code = 14
+add_str = 5
+add_int = 5
+add_mind = 10
+add_con = 10
+add_dex = 5
+add_defense = 10
+
+[set_effect]
+code = 15
+add_str = 10
+add_int = 10
+add_mind = 10
+add_con = 10
+add_dex = 10
+add_defense = 20
+
+[set_effect]
+code = 16
+
+[set_effect]
+code = 17
+add_hp = 20
+add_mp = 20
+add_miss = 2
+add_defense = 2
+
+[set_effect]
+code = 18
+add_hp = 100
+add_mp = 100
+add_miss = 5
+add_defense = 5
+
+[set_effect]
+code = 19
+add_hp = 40
+add_defense = 2
+
+[set_effect]
+code = 20
+add_hp = 100
+add_con = 5
+add_dex = 5
+anti_function = effFun_NO_SPEC,10
+add_defense = 5
+
+[set_effect]
+code = 21
+add_hp = 200
+add_con = 5
+add_dex = 10
+anti_function = effFun_NO_SPEC,25
+skill_attack_type = skillAttr_STING,5
+add_defense = 15
+
+[set_effect]
+code = 22
+add_hp = 30
+add_mp = 10
+add_defense = 2
+
+[set_effect]
+code = 23
+add_hp = 75
+add_mp = 25
+add_int = 5
+add_mind = 5
+anti_function = effFun_NO_MAGIC,10
+add_defense = 5
+
+[set_effect]
+code = 24
+add_hp = 150
+add_mp = 50
+add_int = 10
+add_mind = 5
+anti_function = effFun_NO_MAGIC,25
+skill_attack_type = skillAttr_FIRE,5
+add_defense = 15
+
+[set_effect]
+code = 25
+add_hp = 20
+
+[set_effect]
+code = 26
+add_hp = 40
+add_str = 5
+add_defense = 5
+
+[set_effect]
+code = 27
+add_hp = 100
+add_str = 10
+add_attack_power = 5
+add_defense = 10
+
+[set_effect]
+code = 28
+add_hp = 200
+add_str = 30
+add_attack_power = 10
+add_defense = 15
+
+[set_effect]
+code = 29
+add_hp = 15
+add_mp = 5
+
+[set_effect]
+code = 30
+add_hp = 30
+add_mp = 10
+add_str = 5
+add_int = 5
+add_defense = 5
+
+[set_effect]
+code = 31
+add_hp = 75
+add_mp = 25
+add_str = 10
+add_int = 10
+add_attack_power = 5
+add_defense = 10
+
+[set_effect]
+code = 32
+add_hp = 150
+add_mp = 50
+add_str = 30
+add_int = 30
+add_attack_power = 10
+add_defense = 15
+
+[set_effect]
+code = 33
+add_hp = 15
+add_mp = 5
+
+[set_effect]
+code = 34
+add_hp = 45
+add_mp = 15
+add_int = 10
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 35
+add_hp = 150
+add_mp = 50
+add_int = 30
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 36
+add_hp = 15
+add_mp = 5
+
+[set_effect]
+code = 37
+add_hp = 45
+add_mp = 15
+add_int = 10
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 38
+add_hp = 150
+add_mp = 50
+add_int = 30
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 39
+add_str = 5
+
+[set_effect]
+code = 40
+add_str = 12
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 41
+add_str = 40
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 42
+add_str = 5
+
+[set_effect]
+code = 43
+add_str = 12
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 44
+add_str = 40
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 45
+add_hp = 50
+add_int = 5
+
+[set_effect]
+code = 46
+add_hp = 100
+add_int = 12
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 47
+add_hp = 200
+add_int = 40
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 48
+add_hp = 50
+add_int = 5
+
+[set_effect]
+code = 49
+add_hp = 100
+add_int = 12
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 50
+add_hp = 200
+add_int = 40
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 51
+add_str = 4
+add_con = 2
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 52
+add_str = 7
+add_con = 3
+magic_attack_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 53
+add_str = 14
+add_con = 6
+magic_attack_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 54
+add_str = 21
+add_con = 9
+magic_attack_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_GOD,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 55
+add_str = 28
+add_con = 12
+magic_attack_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_GOD,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 56
+add_str = 70
+add_con = 30
+magic_attack_type = skillAttr_BREAK,20
+magic_defense_type = skillAttr_GOD,20
+add_attack_power = 30
+add_defense = 50
+
+[set_effect]
+code = 57
+
+[set_effect]
+code = 58
+
+[set_effect]
+code = 59
+
+[set_effect]
+code = 60
+
+[set_effect]
+code = 61
+add_hp = 24
+add_dex = 4
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 62
+add_hp = 36
+add_dex = 7
+magic_attack_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 63
+add_hp = 72
+add_dex = 14
+magic_attack_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 64
+add_hp = 108
+add_dex = 21
+magic_attack_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_WATER,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 65
+add_hp = 144
+add_dex = 28
+magic_attack_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_WATER,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 66
+add_hp = 360
+add_dex = 70
+magic_attack_type = skillAttr_ARROW,20
+magic_defense_type = skillAttr_WATER,20
+add_attack_power = 20
+add_defense = 40
+
+[set_effect]
+code = 67
+
+[set_effect]
+code = 68
+
+[set_effect]
+code = 69
+
+[set_effect]
+code = 70
+
+[set_effect]
+code = 71
+add_int = 4
+add_con = 1
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 72
+add_int = 7
+add_con = 2
+magic_attack_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 73
+add_int = 14
+add_con = 4
+magic_attack_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 74
+add_int = 21
+add_con = 6
+magic_attack_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 75
+add_int = 28
+add_con = 8
+add_leader = 5
+magic_attack_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 76
+add_int = 60
+add_con = 10
+add_leader = 10
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 20
+add_defense = 30
+add_magic_power = 4
+//add_int = 35
+//add_con = 10
+//add_leader = 5
+//magic_attack_type = skillAttr_GOD,20
+//magic_defense_type = skillAttr_ARROW,10
+//magic_defense_type = skillAttr_EVIL,10
+//add_attack_power = 15
+//add_defense = 25
+//add_magic_power = 2
+
+[set_effect]
+code = 77
+add_int = 70
+add_con = 20
+add_leader = 10
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 20
+add_defense = 40
+add_magic_power = 5
+
+[set_effect]
+code = 78
+
+[set_effect]
+code = 79
+
+[set_effect]
+code = 80
+
+[set_effect]
+code = 81
+add_str = 1
+add_int = 1
+add_mind = 1
+add_con = 1
+add_dex = 1
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 82
+add_str = 2
+add_int = 2
+add_mind = 2
+add_con = 2
+add_dex = 2
+magic_attack_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 83
+add_str = 5
+add_int = 5
+add_mind = 5
+add_con = 5
+add_dex = 5
+magic_attack_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_FIRE,10
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 84
+add_str = 7
+add_int = 7
+add_mind = 7
+add_con = 7
+add_dex = 7
+magic_attack_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_FIRE,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 85
+add_str = 10
+add_int = 10
+add_mind = 10
+add_con = 10
+add_dex = 10
+magic_attack_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_FIRE,20
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 86
+add_str = 15
+add_int = 15
+add_mind = 15
+add_con = 15
+add_dex = 15
+magic_attack_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_FIRE,20
+add_attack_power = 15
+add_defense = 25
+add_magic_power = 1
+
+[set_effect]
+code = 87
+add_str = 25
+add_int = 25
+add_mind = 25
+add_con = 25
+add_dex = 25
+magic_attack_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_FIRE,20
+add_attack_power = 25
+add_defense = 45
+add_magic_power = 2
+
+[set_effect]
+code = 88
+
+[set_effect]
+code = 89
+
+[set_effect]
+code = 90
+
+[set_effect]
+code = 91
+add_hp = 12
+add_mp = 12
+add_int = 4
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 92
+add_hp = 24
+add_mp = 12
+add_int = 7
+magic_attack_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_BREAK,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 93
+add_hp = 48
+add_mp = 24
+add_int = 14
+magic_attack_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_BREAK,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 94
+add_hp = 72
+add_mp = 36
+add_int = 21
+magic_attack_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_BREAK,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 95
+add_hp = 188
+add_mp = 72
+add_int = 60
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_BREAK,20
+add_attack_power = 20
+add_defense = 25
+add_magic_power = 4
+//add_hp = 96
+//add_mp = 48
+//add_int = 28
+//magic_attack_type = skillAttr_WATER,10
+//magic_defense_type = skillAttr_BREAK,10
+//add_attack_power = 10
+//add_defense = 20
+//add_magic_power = 2
+
+[set_effect]
+code = 96
+add_hp = 288
+add_mp = 72
+add_int = 70
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_BREAK,20
+add_attack_power = 25
+add_defense = 35
+add_magic_power = 5
+
+[set_effect]
+code = 97
+
+[set_effect]
+code = 98
+
+[set_effect]
+code = 99
+
+[set_effect]
+code = 100
+add_hp = 150
+add_str = 10
+add_con = 10
+add_dex = 10
+add_attack_power = 10
+
+[set_effect]
+code = 101
+add_hp = 300
+add_str = 20
+add_con = 25
+add_dex = 20
+add_attack_power = 20
+
+[set_effect]
+code = 102
+add_hp = 50
+add_int = 15
+add_mind = 5
+add_con = 10
+add_defense = 5
+add_magic_power = 2
+
+[set_effect]
+code = 103
+add_hp = 100
+add_int = 40
+add_mind = 5
+add_con = 10
+add_leader = 10
+add_defense = 10
+add_magic_power = 5
+
+[set_effect]
+code = 104
+add_hp = 100
+add_str = 15
+add_dex = 15
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 105
+add_hp = 200
+add_str = 30
+add_con = 5
+add_dex = 30
+add_attack_power = 10
+add_defense = 10
+
+[set_effect]
+code = 106
+add_int = 30
+add_attack_power = 5
+add_magic_power = 5
+
+[set_effect]
+code = 107
+add_int = 50
+add_mind = 5
+add_con = 10
+add_attack_power = 10
+add_magic_power = 10
+
+[set_effect]
+code = 108
+add_hp = 50
+add_defense = 2
+
+[set_effect]
+code = 109
+add_hp = 100
+add_attack_power = 2
+add_defense = 4
+add_magic_power = 1
+
+[set_effect]
+code = 110
+add_hp = 100
+add_str = 15
+add_int = 15
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 111
+add_hp = 300
+add_mp = 100
+add_str = 15
+add_int = 15
+add_attack_power = 6
+add_defense = 6
+
+[set_effect]
+code = 112
+add_hp = 50
+add_int = 15
+add_con = 5
+add_dex = 5
+add_leader = 15
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 113
+add_hp = 130
+add_int = 45
+add_mind = 5
+add_con = 5
+add_dex = 15
+add_leader = 35
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 20
+add_defense = 20
+
+[set_effect]
+code = 114
+add_hp = 75
+add_int = 20
+add_mind = 5
+add_con = 10
+add_leader = 5
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 115
+add_hp = 150
+add_int = 60
+add_mind = 20
+add_con = 10
+add_leader = 10
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+add_attack_power = 20
+add_defense = 20
+
+[set_effect]
+code = 116
+add_hp = 125
+add_str = 15
+add_int = 5
+add_con = 5
+add_dex = 10
+add_leader = 5
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 117
+add_hp = 200
+add_str = 50
+add_int = 10
+add_con = 5
+add_dex = 25
+add_leader = 5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 25
+add_defense = 10
+
+[set_effect]
+code = 118
+add_hp = 150
+add_str = 15
+add_con = 15
+add_dex = 10
+add_attack_power = 15
+
+[set_effect]
+code = 119
+add_hp = 250
+add_str = 45
+add_con = 10
+add_dex = 40
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 35
+
+[set_effect]
+code = 120
+add_con = 5
+magic_attack_type = skillAttr_ARROW,10
+magic_attack_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_WATER,5
+add_defense = 5
+
+[set_effect]
+code = 121
+add_con = 8
+magic_attack_type = skillAttr_ARROW,15
+magic_attack_type = skillAttr_FIRE,15
+magic_defense_type = skillAttr_SLASH,10
+magic_defense_type = skillAttr_WATER,10
+add_defense = 8
+
+[set_effect]
+code = 122
+add_str = 2
+add_int = 2
+add_con = 12
+add_dex = 2
+magic_attack_type = skillAttr_ARROW,20
+magic_attack_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_SLASH,15
+magic_defense_type = skillAttr_WATER,15
+add_attack_power = 5
+add_magic_power = 5
+
+[set_effect]
+code = 123
+add_str = 6
+add_int = 6
+add_con = 20
+add_dex = 6
+magic_attack_type = skillAttr_ARROW,20
+magic_attack_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_SLASH,15
+magic_defense_type = skillAttr_WATER,15
+add_attack_power = 8
+add_magic_power = 8
+
+[set_effect]
+code = 124
+add_con = 5
+magic_attack_type = skillAttr_SLASH,10
+magic_attack_type = skillAttr_EVIL,10
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_GOD,5
+add_defense = 5
+
+[set_effect]
+code = 125
+add_con = 8
+magic_attack_type = skillAttr_SLASH,15
+magic_attack_type = skillAttr_EVIL,15
+magic_defense_type = skillAttr_STING,10
+magic_defense_type = skillAttr_GOD,10
+add_defense = 8
+
+[set_effect]
+code = 126
+add_str = 2
+add_int = 2
+add_con = 12
+add_dex = 2
+magic_attack_type = skillAttr_SLASH,20
+magic_attack_type = skillAttr_EVIL,20
+magic_defense_type = skillAttr_STING,15
+magic_defense_type = skillAttr_GOD,15
+add_attack_power = 5
+add_magic_power = 5
+
+[set_effect]
+code = 127
+add_str = 6
+add_int = 6
+add_con = 20
+add_dex = 6
+magic_attack_type = skillAttr_SLASH,20
+magic_attack_type = skillAttr_EVIL,20
+magic_defense_type = skillAttr_STING,15
+magic_defense_type = skillAttr_GOD,15
+add_attack_power = 8
+add_magic_power = 8
+
+[set_effect]
+code = 128
+add_con = 5
+magic_attack_type = skillAttr_STING,10
+magic_attack_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 5
+
+[set_effect]
+code = 129
+add_con = 8
+magic_attack_type = skillAttr_STING,15
+magic_attack_type = skillAttr_GOD,15
+magic_defense_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_EVIL,10
+add_defense = 8
+
+[set_effect]
+code = 130
+add_str = 2
+add_int = 2
+add_con = 12
+add_dex = 2
+magic_attack_type = skillAttr_STING,20
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_BREAK,15
+magic_defense_type = skillAttr_EVIL,15
+add_attack_power = 5
+add_magic_power = 5
+
+[set_effect]
+code = 131
+add_str = 6
+add_int = 6
+add_con = 20
+add_dex = 6
+magic_attack_type = skillAttr_STING,20
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_BREAK,15
+magic_defense_type = skillAttr_EVIL,15
+add_attack_power = 8
+add_magic_power = 8
+
+[set_effect]
+code = 132
+add_con = 5
+magic_attack_type = skillAttr_BREAK,10
+magic_attack_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+add_defense = 5
+
+[set_effect]
+code = 133
+add_con = 8
+magic_attack_type = skillAttr_BREAK,15
+magic_attack_type = skillAttr_WATER,15
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_FIRE,10
+add_defense = 8
+
+[set_effect]
+code = 134
+add_str = 2
+add_int = 2
+add_con = 12
+add_dex = 2
+magic_attack_type = skillAttr_BREAK,20
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_ARROW,15
+magic_defense_type = skillAttr_FIRE,15
+add_attack_power = 5
+add_magic_power = 5
+
+[set_effect]
+code = 135
+add_str = 6
+add_int = 6
+add_con = 20
+add_dex = 6
+magic_attack_type = skillAttr_BREAK,20
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_ARROW,15
+magic_defense_type = skillAttr_FIRE,15
+add_attack_power = 8
+add_magic_power = 8
+
+[set_effect]
+code = 136
+add_con = 8
+magic_attack_type = skillAttr_STING,10
+magic_attack_type = skillAttr_BREAK,10
+magic_attack_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_ARROW,5
+add_defense = 8
+
+[set_effect]
+code = 137
+add_con = 12
+magic_attack_type = skillAttr_STING,20
+magic_attack_type = skillAttr_BREAK,20
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_SLASH,15
+magic_defense_type = skillAttr_ARROW,15
+add_attack_power = 5
+add_magic_power = 5
+leech_hp = 20
+leech_mp = 25
+
+[set_effect]
+code = 138
+add_con = 8
+magic_attack_type = skillAttr_SLASH,10
+magic_attack_type = skillAttr_FIRE,10
+magic_attack_type = skillAttr_EVIL,10
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+add_defense = 8
+
+[set_effect]
+code = 139
+add_con = 12
+magic_attack_type = skillAttr_SLASH,20
+magic_attack_type = skillAttr_FIRE,20
+magic_attack_type = skillAttr_EVIL,20
+magic_defense_type = skillAttr_WATER,15
+magic_defense_type = skillAttr_GOD,15
+add_attack_power = 5
+add_magic_power = 5
+leech_hp = 20
+leech_st = 10
+
+[set_effect]
+code = 140
+add_hp = 150
+add_str = 10
+add_con = 10
+add_dex = 10
+add_attack_power = 10
+
+[set_effect]
+code = 141
+add_hp = 300
+add_str = 20
+add_con = 25
+add_dex = 20
+add_attack_power = 20
+
+[set_effect]
+code = 142
+add_hp = 50
+add_int = 15
+add_mind = 5
+add_con = 10
+add_defense = 5
+
+[set_effect]
+code = 143
+add_hp = 100
+add_int = 40
+add_mind = 5
+add_con = 10
+add_leader = 10
+add_defense = 10
+
+[set_effect]
+code = 144
+add_hp = 100
+add_str = 15
+add_dex = 15
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 145
+add_hp = 200
+add_str = 30
+add_con = 5
+add_dex = 30
+add_attack_power = 10
+add_defense = 10
+
+[set_effect]
+code = 146
+add_int = 30
+add_attack_power = 5
+
+[set_effect]
+code = 147
+add_int = 50
+add_mind = 5
+add_con = 10
+add_attack_power = 10
+
+[set_effect]
+code = 148
+add_hp = 400
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_magic_power = 5
+
+[set_effect]
+code = 149
+add_hp = 450
+
+[set_effect]
+code = 150
+add_hp = 400
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+
+[set_effect]
+code = 151
+add_hp = 450
+
+[set_effect]
+code = 152
+add_hp = 100
+add_int = 15
+add_mind = 10
+add_leader = 5
+magic_defense_type = skillAttr_FIRE,5
+add_defense = 10
+
+[set_effect]
+code = 153
+add_hp = 240
+add_int = 50
+add_mind = 10
+add_con = 25
+add_dex = 5
+add_leader = 5
+magic_defense_type = skillAttr_FIRE,15
+add_defense = 20
+add_magic_power = 5
+
+[set_effect]
+code = 154
+add_hp = 125
+add_str = 10
+add_con = 10
+add_dex = 5
+add_leader = 5
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 10
+
+[set_effect]
+code = 155
+add_hp = 320
+add_str = 35
+add_con = 30
+add_dex = 10
+add_leader = 10
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_FIRE,10
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 156
+add_hp = 110
+add_int = 20
+add_con = 5
+magic_defense_type = skillAttr_GOD,5
+add_defense = 15
+
+[set_effect]
+code = 157
+add_hp = 200
+add_int = 45
+add_con = 25
+add_leader = 5
+magic_defense_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 50
+
+[set_effect]
+code = 158
+add_hp = 130
+add_str = 10
+add_con = 15
+add_dex = 5
+magic_defense_type = skillAttr_BREAK,5
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 159
+add_hp = 360
+add_str = 30
+add_con = 45
+add_dex = 5
+magic_defense_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_ARROW,5
+add_attack_power = 10
+add_defense = 15
+
+[set_effect]
+code = 160
+add_hp = 120
+add_str = 10
+add_con = 15
+add_leader = 10
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 161
+add_hp = 240
+add_str = 45
+add_int = 15
+add_con = 30
+add_leader = 15
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_GOD,10
+add_attack_power = 20
+add_defense = 20
+
+[set_effect]
+code = 162
+add_hp = 150
+add_str = 10
+add_con = 10
+add_dex = 15
+magic_defense_type = skillAttr_STING,5
+add_attack_power = 10
+
+[set_effect]
+code = 163
+add_hp = 360
+add_str = 10
+add_con = 45
+add_dex = 35
+magic_defense_type = skillAttr_STING,10
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 30
+add_defense = 10
+
+[set_effect]
+code = 164
+add_hp = 145
+add_str = 5
+add_con = 15
+add_dex = 10
+add_leader = 5
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 10
+
+[set_effect]
+code = 165
+add_hp = 320
+add_str = 10
+add_con = 25
+add_dex = 50
+add_leader = 10
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 15
+add_defense = 25
+
+[set_effect]
+code = 166
+add_hp = 130
+add_int = 20
+add_con = 15
+magic_defense_type = skillAttr_GOD,5
+add_defense = 10
+
+[set_effect]
+code = 167
+add_hp = 240
+add_int = 60
+add_mind = 5
+add_con = 35
+add_leader = 5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+add_defense = 35
+add_magic_power = 6
+
+[set_effect]
+code = 168
+add_hp = 200
+add_int = 30
+
+[set_effect]
+code = 169
+add_hp = 450
+add_int = 15
+
+[set_effect]
+code = 170
+add_hp = 300
+magic_defense_type = skillAttr_BREAK,15
+
+[set_effect]
+code = 171
+add_hp = 200
+magic_defense_type = skillAttr_STING,20
+
+[set_effect]
+code = 172
+add_hp = 400
+add_attack_power = 10
+
+[set_effect]
+code = 173
+add_hp = 200
+add_dex = 30
+
+[set_effect]
+code = 174
+add_hp = 350
+magic_defense_type = skillAttr_ARROW,15
+
+[set_effect]
+code = 175
+add_hp = 200
+magic_defense_type = skillAttr_FIRE,20
+
+[set_effect]
+code = 176
+add_str = 4
+add_con = 10
+add_dex = 4
+
+[set_effect]
+code = 177
+add_str = 10
+add_con = 30
+add_dex = 10
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 178
+add_int = 6
+add_mind = 2
+add_con = 10
+
+[set_effect]
+code = 179
+add_int = 15
+add_mind = 5
+add_con = 30
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 180
+add_int = 4
+add_mind = 2
+add_con = 10
+add_leader = 2
+
+[set_effect]
+code = 181
+add_int = 10
+add_mind = 5
+add_con = 30
+add_leader = 5
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 182
+add_int = 4
+add_mind = 4
+add_con = 10
+
+[set_effect]
+code = 183
+add_int = 10
+add_mind = 10
+add_con = 30
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 184
+add_hp = 200
+add_magic_power = 2
+
+[set_effect]
+code = 185
+add_hp = 200
+magic_attack_type = skillAttr_SLASH,15
+
+[set_effect]
+code = 186
+add_hp = 200
+add_attack_power = 10
+
+[set_effect]
+code = 187
+add_hp = 250
+add_attack_power = 35
+
+[set_effect]
+code = 188
+add_hp = 150
+add_attack_power = 25
+
+[set_effect]
+code = 189
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 190
+add_hp = 300
+add_magic_power = 2
+
+[set_effect]
+code = 191
+add_hp = 200
+add_int = 30
+
+[set_effect]
+code = 192
+add_hp = 350
+add_attack_power = 35
+
+[set_effect]
+code = 193
+add_hp = 200
+add_magic_power = 1
+
+[set_effect]
+code = 194
+add_hp = 200
+add_attack_power = 20
+
+[set_effect]
+code = 195
+add_hp = 200
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 196
+add_hp = 200
+magic_defense_type = skillAttr_SLASH,2
+magic_defense_type = skillAttr_STING,2
+magic_defense_type = skillAttr_BREAK,2
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_FIRE,2
+magic_defense_type = skillAttr_WATER,2
+magic_defense_type = skillAttr_GOD,2
+magic_defense_type = skillAttr_EVIL,2
+add_attack_power = 15
+add_magic_power = 1
+
+[set_effect]
+code = 197
+add_hp = 150
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 198
+add_hp = 150
+add_attack_power = 15
+
+[set_effect]
+code = 199
+add_attack_power = 30
+
+[set_effect]
+code = 200
+add_leader = 15
+add_magic_power = 1
+
+[set_effect]
+code = 201
+add_int = 15
+add_magic_power = 1
+
+[set_effect]
+code = 202
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 203
+add_hp = 100
+add_attack_power = 15
+
+[set_effect]
+code = 204
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 205
+add_hp = 150
+add_magic_power = 2
+
+[set_effect]
+code = 206
+add_hp = 100
+add_attack_power = 15
+
+[set_effect]
+code = 207
+add_hp = 200
+add_attack_power = 10
+
+[set_effect]
+code = 208
+add_hp = 150
+add_attack_power = 15
+
+[set_effect]
+code = 209
+add_con = 15
+add_attack_power = 25
+
+[set_effect]
+code = 210
+add_leader = 15
+add_magic_power = 2
+
+[set_effect]
+code = 211
+add_int = 10
+add_magic_power = 3
+
+[set_effect]
+code = 212
+add_attack_power = 40
+
+[set_effect]
+code = 213
+add_int = 5
+add_con = 5
+add_magic_power = 1
+
+[set_effect]
+code = 214
+add_con = 5
+add_dex = 20
+
+[set_effect]
+code = 215
+add_con = 20
+add_leader = 5
+
+[set_effect]
+code = 216
+add_str = 5
+add_con = 5
+add_dex = 5
+add_leader = 5
+
+[set_effect]
+code = 217
+add_str = 10
+add_con = 10
+add_dex = 10
+add_leader = 10
+add_attack_power = 15
+add_magic_power = 1
+
+[set_effect]
+code = 218
+add_str = 35
+add_con = 40
+add_dex = 35
+add_leader = 30
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_FIRE,8
+add_attack_power = 45
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 219
+add_int = 5
+add_mind = 5
+add_con = 5
+add_leader = 5
+
+[set_effect]
+code = 220
+add_int = 15
+add_mind = 10
+add_con = 15
+add_leader = 10
+add_attack_power = 10
+add_magic_power = 1
+
+[set_effect]
+code = 221
+add_int = 50
+add_mind = 30
+add_con = 45
+add_leader = 25
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_FIRE,8
+add_attack_power = 35
+add_defense = 30
+add_magic_power = 3
+
+[set_effect]
+code = 222
+add_str = 35
+add_con = 60
+add_dex = 35
+magic_defense_type = skillAttr_SLASH,6
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 25
+add_defense = 10
+
+[set_effect]
+code = 223
+add_str = 45
+add_con = 60
+add_dex = 45
+magic_defense_type = skillAttr_SLASH,6
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,11
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 20
+
+[set_effect]
+code = 224
+add_int = 50
+add_mind = 25
+add_con = 60
+add_leader = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,6
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+add_defense = 20
+add_magic_power = 1
+
+[set_effect]
+code = 225
+add_int = 50
+add_mind = 30
+add_con = 60
+add_leader = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,11
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 30
+add_defense = 35
+add_magic_power = 3
+
+[set_effect]
+code = 226
+add_int = 55
+add_mind = 25
+add_con = 50
+add_leader = 30
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,6
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 25
+add_defense = 10
+add_magic_power = 1
+
+[set_effect]
+code = 227
+add_int = 65
+add_mind = 35
+add_con = 55
+add_leader = 35
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,11
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 228
+add_int = 55
+add_mind = 30
+add_con = 50
+add_leader = 15
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,6
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 20
+add_magic_power = 1
+
+[set_effect]
+code = 229
+add_int = 60
+add_mind = 35
+add_con = 55
+add_leader = 25
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,11
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 35
+add_magic_power = 3
+
+[set_effect]
+code = 230
+add_con = 30
+add_attack_power = 15
+add_magic_power = 5
+
+[set_effect]
+code = 231
+add_con = 50
+add_attack_power = 35
+add_magic_power = 15
+
+[set_effect]
+code = 232
+add_hp = 200
+add_magic_power = 2
+
+[set_effect]
+code = 233
+add_hp = 200
+magic_attack_type = skillAttr_SLASH,15
+
+[set_effect]
+code = 234
+add_hp = 200
+add_attack_power = 10
+
+[set_effect]
+code = 235
+add_hp = 250
+add_attack_power = 35
+
+[set_effect]
+code = 236
+add_hp = 150
+add_attack_power = 25
+
+[set_effect]
+code = 237
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 238
+add_hp = 300
+add_magic_power = 2
+
+[set_effect]
+code = 239
+add_hp = 200
+add_int = 30
+
+[set_effect]
+code = 240
+add_hp = 350
+add_attack_power = 35
+
+[set_effect]
+code = 241
+add_hp = 200
+add_magic_power = 1
+
+[set_effect]
+code = 242
+add_hp = 200
+add_attack_power = 20
+
+[set_effect]
+code = 243
+add_hp = 200
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 244
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 245
+add_hp = 150
+add_magic_power = 2
+
+[set_effect]
+code = 246
+add_hp = 100
+add_attack_power = 15
+
+[set_effect]
+code = 247
+add_hp = 200
+add_attack_power = 10
+
+[set_effect]
+code = 248
+add_hp = 150
+add_attack_power = 15
+
+[set_effect]
+code = 249
+add_con = 15
+add_attack_power = 25
+
+[set_effect]
+code = 250
+add_leader = 15
+add_magic_power = 2
+
+[set_effect]
+code = 251
+add_int = 10
+add_magic_power = 3
+
+[set_effect]
+code = 252
+add_attack_power = 40
+
+[set_effect]
+code = 253
+add_int = 5
+add_con = 5
+add_magic_power = 1
+
+[set_effect]
+code = 254
+add_con = 5
+add_dex = 20
+
+[set_effect]
+code = 255
+add_con = 20
+add_leader = 5
+
+[set_effect]
+code = 256
+add_hp = 200
+add_int = 30
+
+[set_effect]
+code = 257
+add_hp = 450
+add_int = 15
+
+[set_effect]
+code = 258
+add_hp = 300
+magic_defense_type = skillAttr_BREAK,15
+
+[set_effect]
+code = 259
+add_hp = 200
+magic_defense_type = skillAttr_STING,20
+
+[set_effect]
+code = 260
+add_hp = 400
+add_attack_power = 10
+
+[set_effect]
+code = 261
+add_hp = 200
+add_dex = 30
+
+[set_effect]
+code = 262
+add_hp = 350
+magic_defense_type = skillAttr_ARROW,15
+
+[set_effect]
+code = 263
+add_hp = 200
+magic_defense_type = skillAttr_FIRE,20
+
+[set_effect]
+code = 264
+add_hp = 200
+magic_defense_type = skillAttr_SLASH,2
+magic_defense_type = skillAttr_STING,2
+magic_defense_type = skillAttr_BREAK,2
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_FIRE,2
+magic_defense_type = skillAttr_WATER,2
+magic_defense_type = skillAttr_GOD,2
+magic_defense_type = skillAttr_EVIL,2
+add_attack_power = 15
+add_magic_power = 1
+
+[set_effect]
+code = 265
+add_hp = 250
+add_magic_power = 3
+
+[set_effect]
+code = 266
+add_hp = 250
+magic_attack_type = skillAttr_SLASH,15
+
+[set_effect]
+code = 267
+add_hp = 250
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 268
+add_con = 8
+add_dex = 25
+
+[set_effect]
+code = 269
+add_hp = 200
+add_attack_power = 20
+
+[set_effect]
+code = 270
+add_hp = 250
+add_magic_power = 3
+
+[set_effect]
+code = 271
+add_hp = 200
+add_attack_power = 25
+
+[set_effect]
+code = 272
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 273
+add_hp = 250
+add_magic_power = 3
+
+[set_effect]
+code = 274
+add_hp = 250
+magic_attack_type = skillAttr_SLASH,15
+
+[set_effect]
+code = 275
+add_hp = 250
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 276
+add_con = 8
+add_dex = 25
+
+[set_effect]
+code = 277
+add_hp = 200
+add_attack_power = 20
+
+[set_effect]
+code = 278
+add_hp = 250
+add_magic_power = 3
+
+[set_effect]
+code = 279
+add_hp = 200
+add_attack_power = 25
+
+[set_effect]
+code = 280
+add_hp = 150
+add_attack_power = 20
+
+[set_effect]
+code = 281
+add_hp = 180
+magic_defense_type = skillAttr_SLASH,2
+magic_defense_type = skillAttr_STING,2
+magic_defense_type = skillAttr_BREAK,2
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_FIRE,2
+magic_defense_type = skillAttr_WATER,2
+magic_defense_type = skillAttr_GOD,2
+magic_defense_type = skillAttr_EVIL,2
+add_attack_power = 20
+add_magic_power = 1
+
+[set_effect]
+code = 282
+add_hp = 180
+magic_defense_type = skillAttr_SLASH,2
+magic_defense_type = skillAttr_STING,2
+magic_defense_type = skillAttr_BREAK,2
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_FIRE,2
+magic_defense_type = skillAttr_WATER,2
+magic_defense_type = skillAttr_GOD,2
+magic_defense_type = skillAttr_EVIL,2
+add_attack_power = 20
+add_magic_power = 1
+
+[set_effect]
+code = 283
+add_str = 4
+add_con = 2
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 284
+add_str = 7
+add_con = 3
+magic_attack_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 285
+add_str = 14
+add_con = 6
+magic_attack_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 286
+add_str = 21
+add_con = 9
+magic_attack_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_GOD,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 287
+add_str = 28
+add_con = 12
+magic_attack_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_GOD,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 288
+add_str = 75
+add_con = 35
+magic_attack_type = skillAttr_SLASH,10
+magic_attack_type = skillAttr_BREAK,20
+magic_defense_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 40
+add_defense = 60
+
+[set_effect]
+code = 289
+add_hp = 24
+add_dex = 4
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 290
+add_hp = 36
+add_dex = 7
+magic_attack_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 291
+add_hp = 72
+add_dex = 14
+magic_attack_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 292
+add_hp = 108
+add_dex = 21
+magic_attack_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_WATER,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 293
+add_hp = 144
+add_dex = 28
+magic_attack_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_WATER,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 294
+add_hp = 360
+add_dex = 80
+magic_attack_type = skillAttr_STING,10
+magic_attack_type = skillAttr_ARROW,20
+magic_defense_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 30
+add_defense = 50
+
+[set_effect]
+code = 295
+add_int = 4
+add_con = 1
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 296
+add_int = 7
+add_con = 2
+magic_attack_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 297
+add_int = 14
+add_con = 4
+magic_attack_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 298
+add_int = 21
+add_con = 6
+magic_attack_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 299
+add_int = 28
+add_con = 8
+add_leader = 5
+magic_attack_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 300
+add_int = 35
+add_con = 10
+add_leader = 5
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 15
+add_defense = 25
+add_magic_power = 2
+
+[set_effect]
+code = 301
+add_int = 75
+add_con = 25
+add_leader = 10
+magic_attack_type = skillAttr_WATER,10
+magic_attack_type = skillAttr_GOD,20
+magic_defense_type = skillAttr_ARROW,20
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 30
+add_defense = 50
+add_magic_power = 8
+
+[set_effect]
+code = 302
+add_str = 1
+add_int = 1
+add_mind = 1
+add_con = 1
+add_dex = 1
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 303
+add_str = 2
+add_int = 2
+add_mind = 2
+add_con = 2
+add_dex = 2
+magic_attack_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 304
+add_str = 5
+add_int = 5
+add_mind = 5
+add_con = 5
+add_dex = 5
+magic_attack_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_FIRE,10
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 305
+add_str = 7
+add_int = 7
+add_mind = 7
+add_con = 7
+add_dex = 7
+magic_attack_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_FIRE,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 306
+add_str = 10
+add_int = 10
+add_mind = 10
+add_con = 10
+add_dex = 10
+magic_attack_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_FIRE,20
+add_attack_power = 10
+add_defense = 20
+
+[set_effect]
+code = 307
+add_str = 15
+add_int = 15
+add_mind = 15
+add_con = 15
+add_dex = 15
+magic_attack_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_FIRE,20
+add_attack_power = 15
+add_defense = 25
+add_magic_power = 1
+
+[set_effect]
+code = 308
+add_str = 27
+add_int = 27
+add_mind = 27
+add_con = 27
+add_dex = 27
+magic_attack_type = skillAttr_FIRE,20
+magic_attack_type = skillAttr_EVIL,10
+magic_defense_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 35
+add_defense = 55
+add_magic_power = 5
+
+[set_effect]
+code = 309
+add_hp = 12
+add_mp = 12
+add_int = 4
+add_attack_power = 1
+add_defense = 2
+
+[set_effect]
+code = 310
+add_hp = 24
+add_mp = 12
+add_int = 7
+magic_attack_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_BREAK,5
+add_attack_power = 2
+add_defense = 4
+
+[set_effect]
+code = 311
+add_hp = 48
+add_mp = 24
+add_int = 14
+magic_attack_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_BREAK,5
+add_attack_power = 4
+add_defense = 8
+
+[set_effect]
+code = 312
+add_hp = 72
+add_mp = 36
+add_int = 21
+magic_attack_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_BREAK,10
+add_attack_power = 6
+add_defense = 12
+
+[set_effect]
+code = 313
+add_hp = 96
+add_mp = 48
+add_int = 28
+magic_attack_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_BREAK,10
+add_attack_power = 10
+add_defense = 20
+add_magic_power = 2
+
+[set_effect]
+code = 314
+add_hp = 288
+add_mp = 72
+add_int = 80
+magic_attack_type = skillAttr_BREAK,10
+magic_attack_type = skillAttr_WATER,20
+magic_defense_type = skillAttr_BREAK,20
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 35
+add_defense = 45
+add_magic_power = 8
+
+[set_effect]
+code = 315
+add_hp = 100
+add_attack_power = 30
+
+[set_effect]
+code = 316
+add_hp = 100
+add_magic_power = 4
+
+[set_effect]
+code = 317
+add_hp = 150
+add_attack_power = 35
+
+[set_effect]
+code = 318
+add_hp = 100
+add_attack_power = 35
+
+[set_effect]
+code = 319
+add_str = 55
+add_con = 90
+add_dex = 55
+magic_defense_type = skillAttr_SLASH,6
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,11
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 20
+
+[set_effect]
+code = 320
+add_int = 65
+add_mind = 35
+add_con = 90
+add_leader = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,11
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 30
+add_defense = 35
+add_magic_power = 3
+
+[set_effect]
+code = 321
+add_int = 70
+add_mind = 40
+add_con = 85
+add_leader = 35
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,11
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 322
+add_int = 70
+add_mind = 45
+add_con = 85
+add_leader = 25
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,11
+magic_defense_type = skillAttr_FIRE,6
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 35
+add_magic_power = 3
+
+[set_effect]
+code = 323
+add_hp = 45
+add_str = 5
+add_con = 5
+add_dex = 5
+add_leader = 5
+
+[set_effect]
+code = 324
+add_hp = 90
+add_str = 10
+add_con = 5
+add_dex = 10
+add_leader = 10
+add_defense = 10
+
+[set_effect]
+code = 325
+add_hp = 360
+add_str = 40
+add_con = 10
+add_dex = 30
+add_leader = 30
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_EVIL,10
+add_attack_power = 40
+add_defense = 10
+
+[set_effect]
+code = 326
+add_hp = 40
+add_str = 5
+add_int = 10
+add_leader = 5
+
+[set_effect]
+code = 327
+add_hp = 80
+add_str = 10
+add_int = 10
+add_con = 5
+add_leader = 10
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 328
+add_hp = 320
+add_str = 30
+add_int = 40
+add_con = 25
+add_dex = 5
+add_leader = 20
+magic_defense_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 25
+add_defense = 20
+add_magic_power = 5
+
+[set_effect]
+code = 329
+add_hp = 50
+add_str = 10
+add_dex = 10
+
+[set_effect]
+code = 330
+add_hp = 100
+add_str = 20
+add_dex = 15
+add_attack_power = 10
+
+[set_effect]
+code = 331
+add_hp = 400
+add_str = 65
+add_con = 5
+add_dex = 35
+magic_defense_type = skillAttr_STING,10
+magic_defense_type = skillAttr_ARROW,5
+add_attack_power = 50
+
+[set_effect]
+code = 332
+add_hp = 40
+add_int = 10
+add_mind = 5
+add_leader = 5
+
+[set_effect]
+code = 333
+add_hp = 80
+add_int = 15
+add_mind = 10
+add_leader = 10
+add_defense = 10
+add_magic_power = 1
+
+[set_effect]
+code = 334
+add_hp = 320
+add_int = 50
+add_mind = 30
+add_leader = 25
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 42
+add_magic_power = 8
+
+[set_effect]
+code = 335
+add_hp = 75
+add_str = 10
+add_con = 5
+add_dex = 15
+add_attack_power = 5
+
+[set_effect]
+code = 336
+add_hp = 150
+add_str = 25
+add_con = 15
+add_dex = 25
+add_attack_power = 15
+add_defense = 5
+
+[set_effect]
+code = 337
+add_hp = 100
+add_str = 5
+add_int = 2
+add_con = 5
+add_dex = 10
+add_leader = 5
+magic_defense_type = skillAttr_WATER,5
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 338
+add_hp = 225
+add_str = 65
+add_con = 80
+add_dex = 70
+add_leader = 60
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,10
+magic_defense_type = skillAttr_BREAK,6
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+add_defense = 20
+
+[set_effect]
+code = 339
+add_hp = 105
+add_str = 15
+add_con = 12
+add_dex = 8
+magic_defense_type = skillAttr_ARROW,5
+add_attack_power = 10
+
+[set_effect]
+code = 340
+add_hp = 210
+add_str = 25
+add_con = 15
+add_dex = 40
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 40
+
+[set_effect]
+code = 341
+add_int = 60
+add_con = 10
+add_leader = 15
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 342
+add_int = 120
+add_con = 75
+add_leader = 70
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,6
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,15
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 30
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 343
+add_hp = 50
+add_str = 15
+add_int = 5
+add_con = 5
+add_dex = 5
+add_leader = 5
+add_attack_power = 10
+add_defense = 5
+
+[set_effect]
+code = 344
+add_hp = 180
+add_str = 29
+add_int = 10
+add_con = 12
+add_dex = 15
+add_leader = 15
+add_attack_power = 15
+add_defense = 15
+
+[set_effect]
+code = 345
+add_hp = 40
+add_str = 10
+add_con = 5
+add_dex = 8
+add_leader = 5
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 346
+add_hp = 90
+add_str = 21
+add_con = 15
+add_dex = 14
+add_leader = 15
+add_attack_power = 10
+add_defense = 10
+
+[set_effect]
+code = 347
+add_str = 10
+add_con = 20
+add_dex = 10
+add_leader = 15
+magic_attack_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 348
+add_str = 80
+add_con = 90
+add_dex = 60
+add_leader = 70
+magic_defense_type = skillAttr_SLASH,2
+magic_defense_type = skillAttr_STING,2
+magic_defense_type = skillAttr_BREAK,12
+magic_defense_type = skillAttr_ARROW,2
+magic_defense_type = skillAttr_FIRE,2
+magic_defense_type = skillAttr_WATER,12
+magic_defense_type = skillAttr_GOD,2
+magic_defense_type = skillAttr_EVIL,2
+add_attack_power = 40
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 349
+add_hp = 100
+add_str = 10
+add_con = 5
+add_dex = 15
+magic_defense_type = skillAttr_FIRE,5
+add_attack_power = 10
+
+[set_effect]
+code = 350
+add_hp = 300
+add_str = 33
+add_con = 20
+add_dex = 27
+magic_defense_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 25
+
+[set_effect]
+code = 351
+add_hp = 130
+add_str = 15
+add_con = 12
+add_dex = 8
+magic_defense_type = skillAttr_ARROW,5
+add_attack_power = 10
+
+[set_effect]
+code = 352
+add_hp = 320
+add_str = 42
+add_con = 28
+add_dex = 20
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+add_attack_power = 40
+
+[set_effect]
+code = 353
+add_con = 50
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 15
+add_defense = 10
+
+[set_effect]
+code = 354
+add_int = 50
+add_con = 90
+add_dex = 30
+add_leader = 35
+magic_defense_type = skillAttr_SLASH,3
+magic_defense_type = skillAttr_STING,15
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,3
+magic_defense_type = skillAttr_FIRE,20
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,3
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 50
+add_defense = 25
+add_magic_power = 5
+
+[set_effect]
+code = 355
+add_str = 30
+add_con = 50
+add_dex = 30
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+add_defense = 10
+
+[set_effect]
+code = 356
+add_str = 65
+add_con = 95
+add_dex = 65
+magic_defense_type = skillAttr_SLASH,10
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,3
+magic_defense_type = skillAttr_FIRE,15
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,3
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 50
+add_defense = 25
+
+[set_effect]
+code = 357
+add_int = 40
+add_mind = 20
+add_con = 75
+add_leader = 10
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 10
+add_defense = 10
+
+[set_effect]
+code = 358
+add_int = 80
+add_mind = 50
+add_con = 125
+add_leader = 30
+magic_defense_type = skillAttr_SLASH,3
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,20
+magic_defense_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,15
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 35
+add_defense = 45
+add_magic_power = 5
+
+[set_effect]
+code = 359
+add_int = 20
+add_mind = 5
+add_con = 20
+add_leader = 5
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 360
+add_int = 75
+add_mind = 37
+add_con = 60
+add_leader = 25
+magic_defense_type = skillAttr_SLASH,3
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,15
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,3
+magic_defense_type = skillAttr_EVIL,15
+add_defense = 50
+add_magic_power = 5
+
+[set_effect]
+code = 361
+add_str = 10
+add_con = 35
+add_dex = 15
+add_leader = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 362
+add_str = 55
+add_con = 100
+add_dex = 60
+add_leader = 80
+magic_defense_type = skillAttr_SLASH,3
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,3
+magic_defense_type = skillAttr_FIRE,12
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 50
+add_defense = 25
+add_magic_power = 5
+
+[set_effect]
+code = 363
+add_str = 5
+add_con = 20
+add_dex = 5
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 364
+add_str = 35
+add_con = 70
+add_dex = 35
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+add_defense = 15
+
+[set_effect]
+code = 365
+add_str = 10
+add_con = 30
+add_dex = 10
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 366
+add_str = 45
+add_con = 80
+add_dex = 45
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 30
+add_defense = 15
+
+[set_effect]
+code = 367
+add_str = 15
+add_con = 40
+add_dex = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 368
+add_str = 55
+add_con = 90
+add_dex = 55
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,6
+magic_defense_type = skillAttr_FIRE,11
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 20
+
+[set_effect]
+code = 369
+add_str = 20
+add_con = 40
+add_dex = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 370
+add_str = 65
+add_con = 105
+add_dex = 65
+magic_defense_type = skillAttr_SLASH,10
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,3
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 50
+add_defense = 25
+
+[set_effect]
+code = 371
+add_hp = 250
+add_attack_power = 30
+
+[set_effect]
+code = 372
+add_mp = 400
+magic_attack_type = skillAttr_SLASH,17
+
+[set_effect]
+code = 373
+add_hp = 200
+add_attack_power = 25
+
+[set_effect]
+code = 374
+add_hp = 200
+add_attack_power = 25
+
+[set_effect]
+code = 375
+add_mp = 200
+add_attack_power = 40
+
+[set_effect]
+code = 376
+add_hp = 150
+add_magic_power = 7
+
+[set_effect]
+code = 377
+add_hp = 300
+add_magic_power = 3
+
+[set_effect]
+code = 378
+add_con = 10
+add_dex = 25
+
+[set_effect]
+code = 379
+add_hp = 350
+magic_attack_type = skillAttr_STING,15
+
+[set_effect]
+code = 380
+add_hp = 200
+add_str = 25
+add_int = 10
+add_mind = 30
+add_con = 50
+add_dex = 25
+add_leader = 25
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 20
+add_defense = 15
+
+[set_effect]
+code = 381
+add_hp = 350
+add_str = 70
+add_int = 50
+add_mind = 50
+add_con = 120
+add_dex = 65
+magic_defense_type = skillAttr_SLASH,10
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 60
+add_magic_power = 5
+
+[set_effect]
+code = 382
+add_hp = 350
+add_str = 50
+add_con = 60
+add_dex = 45
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 35
+add_defense = 25
+
+[set_effect]
+code = 383
+add_hp = 500
+add_str = 95
+add_con = 180
+add_dex = 70
+magic_defense_type = skillAttr_SLASH,15
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,10
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_miss = 30
+add_attack_power = 80
+add_defense = 40
+
+[set_effect]
+code = 384
+add_hp = 100
+add_mp = 50
+add_int = 52
+add_mind = 35
+add_con = 80
+add_leader = 15
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 5
+
+[set_effect]
+code = 385
+add_hp = 250
+add_mp = 150
+add_int = 96
+add_mind = 60
+add_con = 130
+add_leader = 35
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,15
+magic_defense_type = skillAttr_WATER,10
+magic_defense_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 20
+add_magic_power = 7
+
+[set_effect]
+code = 386
+add_hp = 100
+add_mp = 50
+add_int = 60
+add_mind = 15
+add_con = 25
+add_leader = 10
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_miss = 10
+
+[set_effect]
+code = 387
+add_hp = 200
+add_mp = 200
+add_int = 89
+add_mind = 45
+add_con = 80
+add_leader = 25
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,10
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,15
+add_miss = 10
+add_defense = 50
+add_magic_power = 6
+
+[set_effect]
+code = 388
+add_hp = 150
+add_mp = 200
+add_str = 15
+add_int = 20
+add_mind = 30
+add_con = 45
+add_dex = 20
+add_leader = 20
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 389
+add_hp = 300
+add_str = 65
+add_int = 50
+add_mind = 50
+add_con = 110
+add_leader = 60
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,15
+magic_defense_type = skillAttr_GOD,10
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 60
+add_magic_power = 8
+
+[set_effect]
+code = 390
+add_hp = 250
+add_str = 30
+add_con = 50
+add_dex = 45
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+
+[set_effect]
+code = 391
+add_hp = 300
+add_str = 85
+add_con = 135
+add_dex = 100
+magic_defense_type = skillAttr_SLASH,10
+magic_defense_type = skillAttr_STING,15
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,10
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_miss = 35
+add_attack_power = 100
+add_defense = 60
+
+[set_effect]
+code = 392
+add_hp = 500
+add_str = 60
+add_con = 80
+add_dex = 50
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 28
+
+[set_effect]
+code = 393
+add_hp = 1200
+add_str = 105
+add_con = 150
+add_dex = 88
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 87
+add_defense = 52
+
+[set_effect]
+code = 394
+add_hp = 3500
+add_mp = 300
+add_str = 150
+add_int = 80
+add_mind = 79
+add_con = 220
+add_dex = 135
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_attack_power = 132
+add_defense = 88
+add_magic_power = 10
+
+[set_effect]
+code = 395
+add_hp = 500
+add_str = 60
+add_con = 80
+add_dex = 55
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 55
+add_defense = 35
+
+[set_effect]
+code = 396
+add_hp = 1450
+add_str = 105
+add_con = 208
+add_dex = 92
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 90
+add_defense = 60
+
+[set_effect]
+code = 397
+add_hp = 5050
+add_mp = 300
+add_str = 178
+add_con = 350
+add_dex = 168
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_attack_power = 180
+add_defense = 96
+
+[set_effect]
+code = 398
+add_hp = 500
+add_int = 56
+add_mind = 60
+add_con = 80
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 25
+
+[set_effect]
+code = 399
+add_hp = 1200
+add_int = 112
+add_mind = 120
+add_con = 189
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 55
+
+[set_effect]
+code = 400
+add_hp = 3200
+add_int = 188
+add_mind = 198
+add_con = 302
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_defense = 87
+add_magic_power = 25
+
+[set_effect]
+code = 401
+add_hp = 500
+add_int = 56
+add_mind = 56
+add_con = 80
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_defense = 21
+
+[set_effect]
+code = 402
+add_hp = 1200
+add_int = 150
+add_mind = 112
+add_con = 189
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_defense = 56
+
+[set_effect]
+code = 403
+add_hp = 2500
+add_int = 230
+add_mind = 174
+add_con = 250
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_defense = 90
+add_magic_power = 20
+
+[set_effect]
+code = 404
+add_hp = 500
+add_str = 60
+add_con = 80
+add_dex = 50
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 40
+add_defense = 28
+
+[set_effect]
+code = 405
+add_hp = 1200
+add_str = 105
+add_con = 150
+add_dex = 88
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 87
+add_defense = 52
+
+[set_effect]
+code = 406
+add_hp = 3500
+add_mp = 300
+add_str = 150
+add_int = 80
+add_mind = 79
+add_con = 220
+add_dex = 135
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_attack_power = 132
+add_defense = 88
+
+[set_effect]
+code = 407
+add_hp = 500
+add_str = 60
+add_con = 80
+add_dex = 65
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 75
+add_defense = 35
+
+[set_effect]
+code = 408
+add_hp = 1450
+add_str = 105
+add_con = 208
+add_dex = 113
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 150
+add_defense = 60
+
+[set_effect]
+code = 409
+add_hp = 5050
+add_mp = 300
+add_str = 178
+add_con = 350
+add_dex = 184
+magic_defense_type = skillAttr_SLASH,8
+magic_defense_type = skillAttr_STING,8
+magic_defense_type = skillAttr_BREAK,8
+magic_defense_type = skillAttr_ARROW,8
+magic_defense_type = skillAttr_FIRE,8
+magic_defense_type = skillAttr_WATER,8
+magic_defense_type = skillAttr_GOD,8
+magic_defense_type = skillAttr_EVIL,8
+add_attack_power = 298
+add_defense = 96
+add_magic_power = 5
+
+[set_effect]
+code = 410
+add_mind = 100
+add_magic_power = 20
+
+[set_effect]
+code = 411
+add_attack_power = 250
+
+[set_effect]
+code = 412
+add_attack_power = 300
+
+[set_effect]
+code = 413
+add_attack_power = 300
+
+[set_effect]
+code = 414
+add_attack_power = 400
+
+[set_effect]
+code = 415
+add_attack_power = 400
+
+[set_effect]
+code = 416
+add_mind = 100
+add_magic_power = 20
+
+[set_effect]
+code = 417
+add_mind = 200
+add_magic_power = 25
+
+[set_effect]
+code = 418
+add_attack_power = 400
+
+[set_effect]
+code = 419
+add_mind = 150
+add_magic_power = 20
+
+[set_effect]
+code = 420
+add_attack_power = 400
+
+[set_effect]
+code = 421
+add_attack_power = 400
+
+[set_effect]
+code = 422
+add_attack_power = 400
+
+[set_effect]
+code = 423
+add_attack_power = 400
+
+[set_effect]
+code = 424
+add_hp = 200
+add_str = 5
+add_int = 5
+add_mind = 5
+add_con = 5
+add_dex = 5
+add_attack_power = 5
+add_defense = 5
+
+[set_effect]
+code = 425
+add_hp = 500
+add_str = 15
+add_int = 15
+add_mind = 15
+add_con = 15
+add_dex = 15
+magic_defense_type = skillAttr_SLASH,1
+magic_defense_type = skillAttr_STING,1
+magic_defense_type = skillAttr_BREAK,1
+magic_defense_type = skillAttr_ARROW,1
+magic_defense_type = skillAttr_FIRE,1
+magic_defense_type = skillAttr_WATER,1
+magic_defense_type = skillAttr_GOD,1
+magic_defense_type = skillAttr_EVIL,1
+add_attack_power = 15
+add_defense = 10
+add_magic_power = 1
+
+[set_effect]
+code = 426
+add_hp = 1000
+add_str = 30
+add_int = 30
+add_mind = 30
+add_con = 30
+add_dex = 30
+magic_defense_type = skillAttr_SLASH,3
+magic_defense_type = skillAttr_STING,3
+magic_defense_type = skillAttr_BREAK,3
+magic_defense_type = skillAttr_ARROW,3
+magic_defense_type = skillAttr_FIRE,3
+magic_defense_type = skillAttr_WATER,3
+magic_defense_type = skillAttr_GOD,3
+magic_defense_type = skillAttr_EVIL,3
+add_attack_power = 30
+add_defense = 20
+add_magic_power = 3
+
+[set_effect]
+code = 427
+add_hp = 2150
+add_str = 70
+add_int = 70
+add_mind = 70
+add_con = 125
+add_dex = 70
+magic_defense_type = skillAttr_SLASH,5
+magic_defense_type = skillAttr_STING,5
+magic_defense_type = skillAttr_BREAK,5
+magic_defense_type = skillAttr_ARROW,5
+magic_defense_type = skillAttr_FIRE,5
+magic_defense_type = skillAttr_WATER,5
+magic_defense_type = skillAttr_GOD,5
+magic_defense_type = skillAttr_EVIL,5
+add_attack_power = 92
+add_defense = 62
+add_magic_power = 5
+
+[set_effect]
+code = 500
+add_str = 15
+add_con = 10
+add_hp = 100
+add_defense = 5
+add_attack_power = 5
+
+[set_effect]
+code = 501
+add_str = 35
+add_con = 20
+add_hp = 200
+add_defense = 10
+add_attack_power = 10
+
+[set_effect]
+code = 502
+add_str = 5
+add_dex = 15
+add_con = 5
+add_hp = 75
+add_defense = 4
+add_attack_power = 5
+
+[set_effect]
+code = 503
+add_str = 10
+add_dex = 35
+add_con = 10
+add_hp = 150
+add_defense = 12
+add_attack_power = 10
+
+[set_effect]
+code = 504
+add_int = 10
+add_con = 5
+add_leader = 10
+add_hp = 75
+add_defense = 4
+add_magic_power = 1
+
+[set_effect]
+code = 505
+add_int = 25
+add_con = 10
+add_leader = 20
+add_hp = 150
+add_defense = 8
+add_magic_power = 3
+
+[set_effect]
+code = 506
+add_str = 10
+add_dex = 10
+add_con = 5
+add_hp = 75
+add_defense = 4
+add_attack_power = 5
+
+[set_effect]
+code = 507
+add_str = 25
+add_dex = 20
+add_con = 10
+add_hp = 150
+add_defense = 8
+add_attack_power = 10
+
+[set_effect]
+code = 508
+add_str = 15
+add_dex = 10
+add_hp = 60
+add_defense = 3
+add_attack_power = 5
+
+[set_effect]
+code = 509
+add_str = 40
+add_dex = 10
+add_hp = 150
+add_defense = 10
+add_attack_power = 10
+
+[set_effect]
+code = 510
+add_int = 20
+add_mind = 5
+add_hp = 50
+add_defense = 3
+add_magic_power = 2
+
+[set_effect]
+code = 511
+add_int = 45
+add_mind = 10
+add_hp = 100
+add_defense = 6
+add_magic_power = 5
+
+[set_effect]
+code = 512
+add_int = 10
+add_mind = 5
+add_con = 5
+add_leader = 5
+add_hp = 50
+add_defense = 3
+add_magic_power = 2
+
+[set_effect]
+code = 513
+add_int = 25
+add_mind = 10
+add_con = 10
+add_leader = 10
+add_hp = 100
+add_defense = 6
+add_magic_power = 5
+
+[set_effect]
+code = 514
+add_int = 5
+add_mind = 5
+add_leader = 15
+add_hp = 50
+add_defense = 3
+add_magic_power = 1
+
+[set_effect]
+code = 515
+add_int = 20
+add_mind = 10
+add_leader = 40
+add_hp = 200
+add_defense = 10
+
+[set_effect]
+code = 516
+add_hp = 50
+add_defense = 2
+add_attack_power = 5
+
+[set_effect]
+code = 517
+add_hp = 150
+add_defense = 5
+add_attack_power = 10
+
+[set_effect]
+code = 518
+add_hp = 50
+add_str = 5
+add_magic_power = 2
+add_attack_power = 5
+
+[set_effect]
+code = 519
+add_hp = 100
+add_str = 15
+add_magic_power = 5
+add_attack_power = 10
+
+[set_effect]
+code = 520
+add_hp = 50
+add_int = 5
+add_magic_power = 1
+
+[set_effect]
+code = 521
+add_hp = 100
+add_int = 10
+add_magic_power = 3
+
+[set_effect]
+code = 522
+add_hp = 20
+add_int = 5
+add_magic_power = 2
+
+[set_effect]
+code = 523
+add_hp = 50
+add_int = 10
+add_magic_power = 5
+
+[set_effect]
+code = 524
+add_hp = 100
+add_str = 15
+add_dex = 10
+add_attack_power = 10
+
+[set_effect]
+code = 525
+add_hp = 100
+add_leader = 5
+add_int = 5
+add_magic_power = 3
+
+[set_effect]
+code = 526
+add_hp = 150
+add_int = 15
+add_leader = 10
+add_attack_power = 5
+
+[set_effect]
+code = 527
+add_hp = 60
+add_int = 10
+add_magic_power = 3
+
+
+[set_effect]
+code = 528
+add_str = 10
+add_con = 5
+add_hp = 50
+add_defense = 2
+add_attack_power = 2
+
+[set_effect]
+code = 529
+add_str = 25
+add_con = 10
+add_hp = 100
+add_defense = 5
+add_attack_power = 5
+
+[set_effect]
+code = 530
+add_str = 5
+add_dex = 5
+add_hp = 30
+add_defense = 2
+add_attack_power = 2
+
+[set_effect]
+code = 531
+add_str = 15
+add_dex = 15
+add_con = 5
+add_hp = 100
+add_defense = 4
+add_attack_power = 6
+
+[set_effect]
+code = 532
+add_int = 8
+add_mind = 2
+add_con = 2
+add_hp = 25
+add_magic_power = 1
+
+[set_effect]
+code = 533
+add_int = 20
+add_mind = 5
+add_con = 5
+add_leader = 5
+add_hp = 50
+add_defense = 3
+add_magic_power = 2
+
+[set_effect]
+code = 534
+add_int = 15
+add_hp = 25
+add_magic_power = 1
+
+[set_effect]
+code = 535
+add_int = 30
+add_mind = 5
+add_hp = 50
+add_defense = 3
+add_magic_power = 3
+
+[set_effect]
+code = 536
+add_dex = 10
+add_hp = 30
+add_defense = 2
+add_attack_power = 2
+
+[set_effect]
+code = 537
+add_dex = 25
+add_con = 10
+add_hp = 100
+add_defense = 8
+add_attack_power = 5
+
+[set_effect]
+code = 538
+add_int = 8
+add_leader = 5
+add_hp = 30
+add_defense = 2
+
+[set_effect]
+code = 539
+add_int = 20
+add_con = 5
+add_leader = 10
+add_hp = 100
+add_defense = 4
+add_magic_power = 2
+
+[set_effect]
+code = 540
+add_str = 10
+add_dex = 5
+add_hp = 30
+add_attack_power = 2
+
+[set_effect]
+code = 541
+add_str = 25
+add_dex = 10
+add_hp = 100
+add_defense = 10
+add_attack_power = 5
+
+[set_effect]
+code = 542
+add_int = 5
+add_leader = 10
+add_hp = 25
+add_magic_power = 1
+
+[set_effect]
+code = 543
+add_int = 5
+add_mind = 5
+add_leader = 30
+add_hp = 150
+add_defense = 3

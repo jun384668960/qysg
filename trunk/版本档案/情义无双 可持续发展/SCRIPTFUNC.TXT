@@ -1,0 +1,386 @@
+
+#include SCRIPTFUNC.H
+#include TYPE.H
+#include ShipSchedule.H
+// Script Func Prototype
+
+[ini]
+max = 500
+
+
+[script_func]
+code = 1
+param_num = 0
+
+[script_func]
+code = 2
+param_num = 7
+
+[script_func]
+code = 3
+param_num = 2
+
+[script_func]
+code = 4
+param_num = 33
+
+[script_func]
+code = 5
+param_num = 1
+
+[script_func]
+code = 6
+param_num = 2
+
+[script_func]
+code = 7
+param_num = 3
+
+[script_func]
+code = 8
+param_num = 2
+
+[script_func]
+code = 9
+param_num = 6
+
+[script_func]
+code = 10
+param_num = 7
+
+[script_func]
+code = 11
+param_num = 3
+
+[script_func]
+code = 12
+param_num = 2
+
+[script_func]
+code = 13
+param_num = 1
+
+[script_func]
+code = 14
+param_num = 1
+
+[script_func]
+code = 15
+param_num = 2
+
+[script_func]
+code = 16
+param_num = 7
+
+[script_func]
+code = 17
+param_num = 2
+
+[script_func]
+code = 18
+param_num = 3
+
+[script_func]
+code = 19
+param_num = 3
+
+[script_func]
+code = 20
+param_num = 2
+
+[script_func]
+code = 21
+param_num = 1
+
+[script_func]
+code = 22
+param_num = 4
+
+[script_func]
+code = 23
+param_num = 1
+
+[script_func]
+code = 24
+param_num = 6
+
+[script_func]
+code = 25
+param_num = 3
+
+[script_func]
+code = 26
+param_num = 1
+
+[script_func]
+code = 27
+param_num = 2
+
+[script_func]
+code = 28
+param_num = 0
+
+[script_func]
+code = 29
+param_num = 2
+
+[script_func]
+code = 30
+param_num = 1
+
+[script_func]
+code = 31
+param_num = 5
+
+[script_func]
+code = 32
+param_num = 3
+
+[script_func]
+code = 33
+param_num = 2
+
+[script_func]
+code = 34
+param_num = 2
+
+[script_func]
+code = 35
+param_num = 2
+
+[script_func]
+code = 36
+param_num = 2
+
+[script_func]
+code = 37
+param_num = 2
+
+[script_func]
+code = 38
+param_num = 1
+
+[script_func]
+code = 39
+param_num = 0
+
+[script_func]
+code = 40
+param_num = 1
+
+[script_func]
+code = 41
+param_num = 4
+
+[script_func]
+code = 42
+param_num = 3
+
+[script_func]
+code = 43
+param_num = 3
+
+[script_func]
+code = 44
+param_num = 4
+
+[script_func]
+code = 45
+param_num = 4
+
+[script_func]
+code = 46
+param_num = 6
+
+[script_func]
+code = 47
+param_num = 3
+
+[script_func]
+code = 48
+param_num = 2
+
+[script_func]
+code = 49
+param_num = 4
+
+[script_func]
+code = 50
+param_num = 4
+
+[script_func]
+code = 51
+param_num = 0
+
+[script_func]
+code = 52
+param_num = 3
+
+[script_func]
+code = 53
+param_num = 2
+
+[script_func]
+code = 54
+param_num = 7
+
+[script_func]
+code = 55
+param_num = 4
+
+[script_func]
+code = 56
+param_num = 4
+
+[script_func]
+code = 57
+param_num = 4
+
+[script_func]
+code = 58
+param_num = 7
+
+[script_func]
+code = 59
+param_num = 7
+
+[script_func]
+code = 60
+param_num = 4
+
+[script_func]
+code = 61
+param_num = 4
+
+[script_func]
+code = 62
+param_num = 3
+
+[script_func]
+code = 63
+param_num = 2
+
+[script_func]
+code = 64
+param_num = 4
+
+[script_func]
+code = 65
+param_num = 4
+
+[script_func]
+code = 66
+param_num = 5
+
+[script_func]
+code = 67
+param_num = 2
+
+[script_func]
+code = 68
+param_num = 3
+
+[script_func]
+code = 69
+param_num = 1
+
+[script_func]
+code = 70
+param_num = 4
+
+[script_func]
+code = 71
+param_num = 1
+
+[script_func]
+code = 72
+param_num = 6
+
+[script_func]
+code = 73
+param_num = 3
+
+[script_func]
+code = 74
+param_num = 6
+
+[script_func]
+code = 75
+param_num = 1
+
+[script_func]
+code = 76
+param_num = 4
+
+[script_func]
+code = 77
+param_num = 3
+
+[script_func]
+code = 78
+param_num = 2
+
+[script_func]
+code = 79
+param_num = 7
+
+[script_func]
+code = 80
+param_num = 1
+
+[script_func]
+code = 81
+param_num = 6
+
+[script_func]
+code = 82
+param_num = 2
+
+[script_func]
+code = 83
+param_num = 6
+
+[script_func]
+code = 84
+param_num = 2
+
+[script_func]
+code = 85
+param_num = 9
+
+[script_func]
+code = 86
+param_num = 7
+
+[script_func]
+code = 87
+param_num = 5
+
+[script_func]
+code = 88
+param_num = 5
+
+[script_func]
+code = 89
+param_num = 2
+
+[script_func]
+code = 90
+param_num = 1
+
+[script_func]
+code = 91
+param_num = 7
+
+[script_func]
+code = 92
+param_num = 7
+
+[script_func]
+code = 93
+param_num = 5
+
+[script_func]
+code = 94
+param_num = 5
+

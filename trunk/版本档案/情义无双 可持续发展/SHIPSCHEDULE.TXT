@@ -1,0 +1,135 @@
+// 渡船時間表
+#include STAGE.H
+#include ITEM.H
+
+[ini]
+Max = 200
+
+
+[ship_schedule]
+code = 1
+ticket = item_北平至北海船票
+ship_board_map = city_北平渡口
+ship_map = city_北平至北海,960,320,7040,960
+dest_map = city_北海渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 2
+ticket = item_北海至北平船票
+ship_board_map = city_北海渡口
+ship_map = city_北海至北平,960,320,7040,960
+dest_map = city_北平渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 3
+ticket = item_北海至建業船票
+ship_board_map = city_北海渡口
+ship_map = city_北海至建業,960,320,7040,960
+dest_map = city_建業渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 4
+ticket = item_建業至北海船票
+ship_board_map = city_建業渡口
+ship_map = city_建業至北海,960,320,7040,960
+dest_map = city_北海渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 5
+ticket = item_建業至會稽船票
+ship_board_map = city_建業渡口
+ship_map = city_建業至會稽,960,320,7040,960
+dest_map = city_會稽渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 6
+ticket = item_會稽至建業船票
+ship_board_map = city_會稽渡口
+ship_map = city_會稽至建業,960,320,7040,960
+dest_map = city_建業渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 7
+ticket = item_會稽至北平船票
+ship_board_map = city_會稽渡口
+ship_map = city_會稽至北平,960,320,7040,960
+dest_map = city_北平渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 8
+ticket = item_北平至會稽船票
+ship_board_map = city_北平渡口
+ship_map = city_北平至會稽,960,320,7040,960
+dest_map = city_會稽渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 9
+ticket = item_北海至邪馬台船票
+ship_board_map = city_北海渡口
+ship_map = city_北海至邪馬台,960,320,7040,960
+dest_map = city_邪馬台渡口,3200,672,5120,2560
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 10
+ticket = item_會稽至夷州船票
+ship_board_map = city_會稽渡口
+ship_map = city_會稽至夷州,960,320,7040,960
+dest_map = city_夷州渡口,3200,672,5120,2560
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 11
+ticket = item_邪馬台至北海船票
+ship_board_map = city_邪馬台渡口
+ship_map = city_邪馬台至北海,960,320,7040,960
+dest_map = city_北海渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 12
+ticket = item_夷州至會稽船票
+ship_board_map = city_夷州渡口
+ship_map = city_夷州至會稽,960,320,7040,960
+dest_map = city_會稽渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 13
+ticket = item_北平至樂浪船票
+ship_board_map = city_北平渡口
+ship_map = city_北平至樂浪,960,320,7040,960
+dest_map = city_樂浪渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+[ship_schedule]
+code = 14
+ticket = item_樂浪至北平船票
+ship_board_map = city_樂浪渡口
+ship_map = city_樂浪至北平,960,320,7040,960
+dest_map = city_北平渡口,9632,288,12256,2848
+next_time = 420
+travel_time = 120
+
+

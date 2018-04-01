@@ -1,0 +1,27 @@
+[BOOT]				// ±Ò°Ê³]©w
+resource = DATA\GAMERESOURCE.TXT
+//resource = DATA\STORYTEXT.TXT
+//resource = DATA\STORYTEXTNPC.TXT
+//
+resource = DATA\Magic_Name.txt
+resource = DATA\Magic_Name_exp.txt
+resource = DATA\Item_Name.txt
+//resource = DATA\Item_Name2.txt
+resource = DATA\Item_Help_String.txt
+resource = DATA\Players_Name.txt
+resource = DATA\Shop_Name.txt
+resource = DATA\Stage_def.txt
+resource = DATA\npc_name.txt
+resource = DATA\Mission_String.txt
+resource = DATA\Army_Name.txt
+resource = DATA\GenTalk_Name.txt
+resource = DATA\Officer_Name.txt
+resource = DATA\Composite_Name.txt
+resource = DATA\Teleport_Name.txt
+resource = DATA\SetItem_Name.txt
+//resource = DATA\npc_name_exp.txt
+//
+ScriptFile = SCRIPT\MAGICMANAGER.SO
+ScriptFile = SCRIPT\SYSTEM.SO
+ScriptFile = SCRIPT\STORY.SO
+ScriptFile = SCRIPT\GScript.SO

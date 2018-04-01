@@ -1,0 +1,7661 @@
+#include PLAYERS.H
+
+
+[army]
+code = 1
+name = 29000
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¨|©µ,role_°©¶i,role_ªv¤¸¦h,role_¥ï¦P,role_À±¥[,role_³Ö¾÷,role_¥O©~,role_¶V¦N,role_¨B«×®Ú,role_¶®¤¦,role_¯À§Q,role_¯Q©µ,role_ªvµLÀ¹,role_¥Õªê¤å,role_¯à¦Ú,role_¸¿¾B¶ë,role_¿N¤à,role_«X¦ó
+map = 166,22000,1600
+map = 167,22000,1600
+map = 168,22000,1600
+map = 170,22000,1600
+map = 171,42000,1600
+map = 169,72000,1600
+
+[army]
+code = 2
+name = 29001
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¨|©µ,role_°©¶i,role_ªv¤¸¦h,role_¥ï¦P,role_À±¥[,role_³Ö¾÷,role_¥O©~,role_¶V¦N,role_¨B«×®Ú,role_¶®¤¦,role_¯À§Q,role_¯Q©µ,role_ªvµLÀ¹,role_¥Õªê¤å,role_¯à¦Ú,role_¸¿¾B¶ë,role_¿N¤à,role_«X¦ó
+map = 166,22000,1600
+map = 167,22000,1600
+map = 168,22000,1600
+map = 170,22000,1600
+map = 171,42000,1600
+map = 169,72000,1600
+
+[army]
+code = 3
+name = 29032
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤lÀ¦,role_»XªZ,role_»X«ï,role_»X¼Ý,role_¤ýæù,role_¤ý¶N,role_§f¤£­³,role_§õ´µ,role_±LÂ·,role_Á[¬r,role_¥Õ°_
+map = 502,32000,2600
+map = 502,12000,2600
+map = 502,22000,2600
+map = 502,42000,2600
+map = 502,52000,2600
+map = 502,62000,2600
+
+[army]
+code = 4
+name = 29033
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤lÀ¦,role_»XªZ,role_»X«ï,role_»X¼Ý,role_¤ýæù,role_¤ý¶N,role_§f¤£­³,role_§õ´µ,role_±LÂ·,role_Á[¬r,role_¥Õ°_
+map = 503,62000,2600
+map = 503,52000,2600
+map = 503,42000,2600
+map = 503,32000,2600
+map = 503,22000,2600
+map = 503,12000,2600
+
+[army]
+code = 5
+name = 29034
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_§f¤£­³_©l¬Ó,role_¥Õ°__©l¬Ó,role_»X«ï_©l¬Ó,role_¤ýæù_©l¬Ó,role_»XªZ_©l¬Ó,role_»X¼Ý_©l¬Ó,role_¤ý¶N_©l¬Ó,role_§õ´µ_©l¬Ó,role_¤lÀ¦_©l¬Ó,role_±LÂ·_©l¬Ó,role_áoËH_©l¬Ó
+map = 504,12000,2600
+map = 504,22000,2600
+map = 504,32000,2600
+map = 504,42000,2600
+map = 504,52000,2600
+map = 504,62000,2600
+
+[army]
+code = 6
+name = 29005
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+
+[army]
+code = 7
+name = 29006
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦ó°Ò,role_ªi¤~,role_»p¤¸²Ð,role_Áú©¾,role_¶ÀÊo,role_»¯¥°,role_°¨¤¸¸q,role_¦ó»ö,role_°ªª@,role_±i°Ò¦¨,role_ºÞ¥è,role_©P­Ü,role_¹ù¤Æ,role_±i±ç
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 8
+name = 29007
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_±i¨¤
+map = 269,45000,1600
+map = 268,45000,16000
+map = 267,45000,16000
+map = 127,45000,16000
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 9
+name = 29008
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_±iÄ_
+map = 269,45000,1600
+map = 268,45000,16000
+map = 267,45000,16000
+map = 127,45000,16000
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 10
+name = 29009
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý¥ñ,role_¿à©ø,role_¦¨À³,role_¥Ó¶¯,role_¹p³C,role_±i°\,role_¬ÂÄõ,role_­»Äõ,role_«CÄõ
+map = 39,42000,1600
+map = 111,32000,1600
+map = 75,42000,1600
+map = 57,32000,1600
+map = 58,22000,1600
+map = 52,32000,1600
+map = 130,32000,1600
+map = 131,32000,1600
+map = 132,32000,1600
+map = 110,42000,1600
+
+[army]
+code = 11
+name = 29010
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_´P©j,role_ªüÀô,role_¤p³¦,role_Áú«¾,role_·¨©h,role_©s±C,role_§õ¦°,role_«¸¥­,role_¿½²Ð,role_ºÑ¤ë,role_¦pªá,role_­Y¿P
+map = 85,22000,1600
+map = 107,42000,1600
+map = 112,42000,1600
+map = 113,22000,1600
+map = 53,22000,1600
+map = 54,42000,1600
+map = 45,22000,1600
+
+[army]
+code = 12
+name = 29011
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_µ{»·§Ó,role_¾H­Z,role_¤R¤x,role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 127,86400,1200
+map = 127,86400,2000
+map = 127,80000,1600
+
+[army]
+code = 13
+name = 29012
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_©s¹F,role_¥Ó¯Ô,role_¥Ó»ö
+map = 128,86400,1200
+map = 128,86400,2000
+map = 128,80000,1600
+
+[army]
+code = 14
+name = 29013
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_³¯Äõ,role_±ö¦¨,role_§õ¤j¥Ø
+map = 129,86400,1200
+map = 129,86400,2000
+map = 129,80000,1600
+
+[army]
+code = 15
+name = 29014
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼ï»ñ,role_»¯¯B,role_°K¿ò,role_¤è®®,role_¤Õ©¦,role_Ãö¹t,role_­S¤è,role_½Ã¯÷,role_§õ¾ú,role_µ{µA,role_Ãö¯Â,role_µJ©M,role_ªZ¦w°ê,role_¯ÕªZ,role_ÁúÃL,role_Àj«H,role_¼B©§,role_¤ý¦J,role_¥Ð·¢,role_³æ¸g,role_±i¶W,role_³ì·è,role_±i·¨,role_¦¶º~,role_¿p¶¶,role_Àj©¾
+map = 98,22000,1600
+map = 63,42000,1600
+map = 87,32000,1600
+map = 90,32000,1600
+map = 65,22000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 114,42000,1600
+
+[army]
+code = 16
+name = 29015
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼Bªí,role_½²·è,role_¤å¸u,role_ãÇ¶V,role_ãÇ¨},role_¤ýßT,role_­J¨®¨à,role_¤ý«Â,role_¼Bªê,role_Áú¥È,role_Áú±ã,role_Áú·C,role_§f¤½,role_³Å´S,role_³¯®],role_ª÷±Û,role_±iªZ,role_¼BÚz,role_½²¾±,role_½²©M,role_½²¤¤
+map = 51,42000,1600
+map = 49,22000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 291,32000,1600
+map = 292,48000,1600
+map = 60,32000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 17
+name = 29016
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¨E,role_§õ±ú,role_§dµë,role_»Èªá
+map = 122,22000,1600
+map = 34,32000,1600
+map = 108,22000,1600
+map = 117,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 18
+name = 29017
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¬x¹F,role_¿½¤b,role_±ZÆN,role_¦pÁ÷,
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 19
+name = 29018
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤Rªê,role_¤ý¾W,role_¬q®ö,role_µµ¦ç
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 20
+name = 29019
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤½®]ÅÐ,role_¤½®]½d,role_¤½®]Äò,role_¤½®]¶V,role_¸ë½d,role_ÄYºõ,role_·¨¯®
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+
+[army]
+code = 21
+name = 29020
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 22
+name = 29021
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 23
+name = 29022
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤ìÄ_½c
+map = 1,19200,1500
+map = 75,42000,1600
+map = 57,32000,1600
+map = 7,11200,1500
+map = 112,42000,1600
+map = 113,22000,1600
+map = 42,32000,1600
+
+[army]
+code = 24
+name = 29023
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤ìÄ_½c
+map = 21,19200,1500
+map = 58,22000,1600
+map = 52,32000,1600
+map = 22,11200,1500
+map = 53,22000,1600
+map = 54,42000,1600
+
+[army]
+code = 25
+name = 29024
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤ìÄ_½c
+map = 11,19200,1500
+map = 39,42000,1600
+map = 111,32000,1600
+map = 85,22000,1600
+map = 14,14400,1500
+map = 107,42000,1600
+map = 32,32000,1600
+
+[army]
+code = 26
+name = 29025
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_»ÉÄ_½c,role_ÅKÄ_½c
+map = 4,17200,1500
+map = 117,42000,1600
+map = 122,22000,1600
+map = 34,32000,1600
+map = 15,17200,1500
+map = 108,22000,1600
+map = 109,42000,1600
+map = 106,22000,1600
+map = 46,22000,1600
+
+[army]
+code = 27
+name = 29026
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_»ÉÄ_½c,role_ÅKÄ_½c
+map = 25,14400,1500
+map = 91,22000,1600
+map = 92,42000,1600
+map = 38,32000,1600
+map = 5,14400,1500
+map = 120,42000,1600
+map = 119,22000,1600
+map = 105,42000,1600
+map = 102,32000,1600
+
+[army]
+code = 28
+name = 29027
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_»ÉÄ_½c,role_ÅKÄ_½c
+map = 27,17200,1500
+map = 95,22000,1600
+map = 97,22000,1600
+map = 26,17200,1500
+map = 88,22000,1600
+map = 89,42000,1600
+map = 2,19200,1600
+map = 47,42000,1600
+map = 17,14720,1600
+
+[army]
+code = 29
+name = 29028
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_»ÉÄ_½c,role_ÅKÄ_½c
+map = 30,11200,1500
+map = 65,22000,1600
+map = 90,32000,1600
+map = 29,11200,1500
+map = 63,42000,1600
+map = 98,22000,1600
+map = 48,32000,1600
+map = 40,32000,1600
+
+[army]
+code = 30
+name = 29029
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_»ÉÄ_½c,role_ÅKÄ_½c
+map = 24,11200,1500
+map = 49,22000,1600
+map = 51,42000,1600
+map = 36,32000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 87,32000,1600
+map = 76,22000,1600
+
+[army]
+code = 31
+name = 29030
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_ªk¥¿,role_ÄYÃC,role_Ãe¼w
+map = 292,9600,1600
+map = 294,9600,1600
+
+[army]
+code = 32
+name = 29031
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¬u­¸­º
+map = 270,16000,1600
+
+[army]
+code = 33
+name = 29032
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤õµKÃÆ¤ý
+map = 298,32000,1600
+
+[army]
+code = 34
+name = 29033
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_ª¢Å]»jµï
+map = 263,32000,1600
+
+[army]
+code = 35
+name = 29034
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¥v«e¦BÅú
+map = 265,32000,1600
+
+[army]
+code = 36
+name = 29035
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦BÅ]»jµï
+map = 266,32000,1600
+
+[army]
+code = 37
+name = 29036
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_©]¤e­©ªø
+map = 295,32000,1600
+
+[army]
+code = 38
+name = 29037
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ì©l¥¨Å]
+map = 296,32000,1600
+
+[army]
+code = 39
+name = 29038
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÅý,role_»¯©¾,role_«Êë¥,role_¬q¯^,role_±ä¸`,role_«JÄý,role_î¿ºÓ,role_µ{Ãm,role_®LÙ@,role_³¢³Ó,role_§º¨å,role_®}©^
+map = 106,42000,1600
+map = 106,32000,1600
+map = 106,22000,1600
+map = 106,22000,1600
+
+[army]
+code = 40
+name = 29183
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_¬ì©i¹F´µ,role_ÁÉºûº¸,role_¨f­×´µ
+map = 434,32000,1600
+map = 435,32000,1600
+
+[army]
+code = 41
+name = 29040
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 42
+name = 29041
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 43
+name = 29042
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_±i¾|,role_ÀF®E
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 44
+name = 29043
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 45
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 118,42000,1600
+map = 138,22000,1600
+map = 139,42000,1600
+map = 154,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 46
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 155,22000,1600
+map = 156,42000,1600
+map = 81,22000,1600
+map = 82,42000,1600
+map = 83,22000,1600
+map = 84,42000,1600
+
+[army]
+code = 47
+name = 29046
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 48
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 49
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 50
+name = 29049
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_ÄY¥Õªê,role_ÄYÁÖ,role_¤_ÁS,role_¼Ô¯à,role_³\°^
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 51
+name = 29050
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý®Ô,role_»¯¬R,role_©P©ý,role_¦¶µq
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 52
+name = 29051
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_®]®L,role_´^²æ,role_°¨¬Û,role_®}©M,role_¦¿®c
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 53
+name = 29052
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÁ|,role_»¯¬é,role_»¯·O,role_³¢¤j,role_±i²ç
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 54
+name = 29053
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±i¯Â,role_§dÅQ,role_§õ¬Û¦p,role_¨H¦¨
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 55
+name = 29054
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_®]¼ý,role_ÁúÑ§,role_´ë¿p,role_§f±j,role_¤ý¨j
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 56
+name = 29055
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_®ß·C,role_°ª±æ,role_±i®¥,role_²¦´P,role_©|¦ý
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 57
+name = 29056
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦¶»\,role_­JÄõ,role_¯B¶³,role_¹p¤½,role_¥­º~
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 58
+name = 29057
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_°Ï¬P,role_¥Õªi,role_¥Õ³¶,role_¤­³À,role_¤j­p
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 59
+name = 29058
+reborn_delay = 9
+reborn_range = 300
+disappear_time = 240
+list = role_¼B¼ý,role_ª~­c,role_¹p»É
+map = 330,24000,1000
+map = 330,24000,1200
+map = 330,24000,1400
+map = 330,24000,1600
+map = 330,24000,1800
+
+[army]
+code = 60
+name = 29059
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_±i¥ô,role_±iÁl
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 61
+name = 29060
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_°K³N,role_³¯¬ö,role_¹pÁ¡
+map = 326,72000,1000
+map = 326,72000,1200
+map = 326,72000,1400
+map = 326,72000,1600
+map = 326,72000,1800
+
+[army]
+code = 62
+name = 29061
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¬öÆF,role_¾ôëB
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 63
+name = 29062
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_°K²Ð,role_³{¬ö,role_¤¨·¢
+map = 324,72000,1000
+map = 324,72000,1200
+map = 324,72000,1400
+map = 324,72000,1600
+map = 324,72000,1800
+
+[army]
+code = 64
+name = 29063
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_ÃC¨},role_¨¯µû,role_ÁúÒ²
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 65
+name = 29064
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_¤åÁà,role_¨¯¬s,role_Áú²r
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 66
+name = 29065
+reborn_delay = 8
+reborn_range = 300
+disappear_time = 240
+list = role_¸³¨ô,role_§õ¾§,role_§õØR,role_³¢Éú
+map = 328,24000,1000
+map = 328,24000,1200
+map = 328,24000,1400
+map = 328,24000,1600
+map = 328,24000,1800
+
+[army]
+code = 67
+name = 29066
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_µØ¶¯,role_­JÜH,role_¸³¿X
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 68
+name = 29067
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_³¯®c,role_°ª¶¶,role_±ä©Ê
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 69
+name = 29068
+reborn_delay = 29
+reborn_range = 300
+disappear_time = 240
+list = role_±i¿ñ,role_»NÅQ,role_°qµÞ
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 70
+name = 29069
+reborn_delay = 100
+reborn_range = 300
+disappear_time = 240
+list = role_§f¥¬,role_¶IÂÍ,role_§õµÂ,role_³¯½Ã
+map = 332,72000,1000
+map = 332,72000,1200
+map = 332,72000,1400
+map = 332,72000,1600
+map = 332,72000,1800
+
+[army]
+code = 71
+name = 29070
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ºÞ©Ó_MK2
+map = 342,4800,1600
+map = 343,4800,1600
+map = 344,4800,1600
+map = 345,4800,1600
+map = 346,4800,1600
+map = 347,4800,1600
+map = 348,4800,1600
+map = 349,4800,1600
+
+[army]
+code = 72
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 175,48000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 73
+name = 29072
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¨|©µ,role_°©¶i,role_ªv¤¸¦h,role_¥ï¦P,role_À±¥[,role_³Ö¾÷,role_¥O©~,role_¶V¦N,role_¨B«×®Ú,role_¶®¤¦,role_¯À§Q,role_¯Q©µ,role_ªvµLÀ¹,role_¥Õªê¤å,role_¯à¦Ú,role_¸¿¾B¶ë,role_¿N¤à,role_«X¦ó
+map = 166,42000,1600
+map = 167,42000,1600
+map = 168,42000,1600
+map = 170,42000,1600
+map = 171,22000,1600
+
+[army]
+code = 74
+name = 29073
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª÷¯Í³¾
+map = 361,32000,1600
+
+[army]
+code = 75
+name = 29074
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ÅK¥ÒÀs
+map = 362,32000,1600
+
+[army]
+code = 76
+name = 29075
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_Às¬¶¾Ô¨®
+map = 363,32000,1600
+
+[army]
+code = 77
+name = 29076
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_Ã¹«b
+map = 354,32000,1600
+
+[army]
+code = 78
+name = 29077
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤Ä»î°¨¨®
+map = 355,32000,1600
+
+[army]
+code = 79
+name = 29078
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_·Òº»±N­x
+map = 356,30000,1600
+
+[army]
+code = 80
+name = 29079
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¤a¬ð°©,role_¯¬¿Ä
+map = 175,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 443,22000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+
+[army]
+code = 81
+name = 29080
+reborn_delay = 17
+reborn_range = 300
+disappear_time = 240
+list = role_©sÀò,role_©sÀu,role_¤ì³À¤j¤ý
+map = 175,24000,1000
+map = 175,24000,1200
+map = 175,24000,1400
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 82
+name = 29081
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦BÁ÷¥¨¤H,role_¦a©³¥¨¤H,role_¦a©³Å]Ã~,role_¥Û±N­x,role_¥ÛÀY¤½
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 83
+name = 29082
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¨gÅ]¥¨¤H,role_¦a©³¦BÃ~,role_¦a©³§¯Ã~,role_¥Û´±·í,role_¥ÛÀY¤H
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 84
+name = 29083
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¶Â,role_÷´Às_ÂÅ,role_©bÀs_¬õ,role_­p»X_µµ,role_­p»X_¬õ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 85
+name = 29084
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¬õ,role_©bÀs_ÂÅ,role_©bÀs_ºñ,role_­p»X_¶À,role_­p»X_ÂÅ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 86
+name = 29085
+reborn_delay = 1
+reborn_range = 400
+disappear_time = 60
+list = role_¨ª¾ÀÄ_½c
+map = 351,32000,2560
+
+[army]
+code = 87
+name = 29086
+reborn_delay = 2
+reborn_range = 400
+disappear_time = 60
+list = role_¦i³®Ä_½c
+map = 352,32000,2560
+
+[army]
+code = 88
+name = 29087
+reborn_delay = 2
+reborn_range = 400
+disappear_time = 60
+list = role_¸µµÞÃöÄ_½c
+map = 353,32000,2560
+
+[army]
+code = 89
+name = 29088
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_ÁéÂ÷¬N,role_¶µ²ø
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 90
+name = 29089
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¶µ§B,role_©P®ï,role_¿½¤½¨¤,role_±i¶h,role_±ä©S,role_¤B¤½,role_¾G©÷,role_³¯À¦
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 91
+name = 29090
+reborn_delay = 16
+reborn_range = 300
+disappear_time = 240
+list = role_¼ÔéD,role_¿½¦ó
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 92
+name = 29091
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ÄéÀ¦,role_³¯¥­,role_³¢»X,role_·¨³ß,role_±ä°Ñ,role_§f¿A,role_Á§¤½,role_³e°ª
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 93
+name = 29092
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°ª·F,role_³¢¹Ï,role_¥ÐÂ×
+map = 282,48000,1600
+map = 282,44800,1600
+map = 282,51200,1600
+
+[army]
+code = 94
+name = 29093
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_§fÃm,role_§fµ¾,role_¼fºa,role_½±©_
+map = 282,48000,1600
+map = 282,44800,1600
+map = 282,51200,1600
+map = 282,48000,1500
+
+[army]
+code = 95
+name = 29094
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°K©|,role_°Kº³,role_°KÃÓ
+map = 283,32000,2560
+map = 283,22800,2560
+map = 283,35200,2560
+
+[army]
+code = 96
+name = 29095
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°KàÔ,role_µJÄ²,role_¯Q®ÙÄ²,role_³¯µY
+map = 283,32000,2560
+map = 283,22800,2560
+map = 283,35200,2560
+map = 283,32000,2400
+
+[army]
+code = 97
+name = 29096
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°KÄ£,role_·¨©^,role_Áú¾æ
+map = 402,48000,1600
+map = 402,44800,1600
+map = 402,51200,1600
+
+[army]
+code = 98
+name = 29097
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨L¬L,role_§ÂÂz,role_´^¦w,role_³±ÄÜ
+map = 402,48000,1600
+map = 402,44800,1600
+map = 402,51200,1600
+map = 402,48000,1500
+
+[army]
+code = 99
+name = 29098
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°K­N,role_µÎ¥òÀ³,role_±i¾±
+map = 403,32000,2560
+map = 403,22800,2560
+map = 403,35200,2560
+
+[army]
+code = 100
+name = 29099
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°¨©µ,role_¤ý­×,role_§õ§·,role_¶¾Â§
+map = 403,32000,2560
+map = 403,22800,2560
+map = 403,35200,2560
+map = 403,32000,2400
+
+[army]
+code = 101
+name = 29100
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±¤}©I,role_¶·¦õ,role_³ü»P,role_±³¨¸ª¯,role_¥ìÁn¯Ï,role_³£¥«¤û§Q,role_Ãø¤É¦Ì,role_À¹´µ,role_¯Q¶V
+map = 379,32000,1600
+map = 380,32000,1600
+map = 381,32000,1600
+map = 382,32000,1600
+map = 383,32000,1600
+
+[army]
+code = 102
+name = 29101
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±©I,role_¨ª°­,role_«C°­,role_¤g»jµï
+map = 383,32000,1600
+map = 383,36000,1600
+map = 383,40000,1600
+map = 383,44000,1600
+
+[army]
+code = 103
+name = 29102
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°K©|,role_°Kº³,role_°KÃÓ
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 104
+name = 29103
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ªi´µ³¥µs­º»â_1,role_ªi´µ³¥µs­º»â_2,role_ªi´µ³¥µs­º»â_3,role_ªi´µ³¥µs­º»â_4,role_ªi´µ³¥µs­º»â_5
+map = 442,32000,1600
+map = 443,22800,2560
+map = 444,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+
+[army]
+code = 105
+name = 29104
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 440,32000,1600
+map = 441,32000,1600
+map = 442,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+map = 449,32000,1600
+
+[army]
+code = 106
+name = 29189
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_Elin¬ÂÄn,role_ª±®a_Elin¦Êªá,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_¤j½Ã,role_ª±®a_½Þ©f,role_ª±®a_¤û©f,role_ª±®a_¦n©_®`¦º¿ß,role_ª±®a_¬õ¤@¬Ó,role_ª±®a_¶Æ¥@¡°§g¥D,role_ª±®a_¡²Alex,role_ª±®a_¶Æ¥@¡°¶W­ô
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 107
+name = 29106
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_§õ§Æ¥§¨È§V´µ,role_§Æ¯Z¯Ç¥j´µ,role_©¬¥d½{¨È§V´µ,role_¤Úº¸¤ñ§V´µ,role_´¶¤ñ§V´µ,role_­}¨È§ù°Ò¥§¦w,role_°¨§J§Q§V´µ,role_¦ãº¸«ô­Û,role_¯Ç³Çº¸,role_¦¶§Q¦w§V´µ,role_©¬²Ä¯Ç¥j´µ
+map = 451,22000,1600
+map = 438,22000,1600
+map = 434,22000,1600
+map = 435,22000,1600
+map = 436,22000,1600
+map = 451,42000,1600
+map = 438,42000,1600
+map = 434,42000,1600
+map = 435,42000,1600
+map = 436,42000,1600
+
+[army]
+code = 108
+name = 29107
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_­ô­}¨È,role_®ü§Q¼Ú¥d¤Ú¾|´µ,role_³Í¹F,role_³Í©Ô¥d©Ô,role_°¨§J§Æ©i,role_°ª¿c´µ,role_¥d§Q®¦§V´µ,role_¥Ë°Ç¨}
+map = 451,32000,1600
+map = 438,32000,1600
+map = 434,32000,1600
+map = 435,32000,1600
+map = 436,32000,1600
+
+[army]
+code = 109
+name = 29108
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_Às¥B,role_¶µ±ç,role_³¹ÍÕ,role_¸³Ák,role_¶µÁn,role_©PÄõ,role_ªZ¯A,role_¥q°¨ªY
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 110
+name = 29109
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_õ´¥¬,role_­S¼W
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 111
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¬ì©i¹F´µ,role_ÁÉºûº¸,role_¨f­×´µ
+map = 436,32000,1600
+
+[army]
+code = 112
+name = 29111
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_´^¶V,role_±i±Î,role_®L«JÀ¦,role_³Å¼e,role_Å°­¹¨ä,role_¤ý³®,role_Å°°Ó,role_®O®þ
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 113
+name = 29112
+reborn_delay = 17
+reborn_range = 300
+disappear_time = 240
+list = role_Áú«H,role_±i¨}
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 114
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±Z©¾Äm,role_¤ý«Ø,role_ªF©ú¤ý,role_ªF§ß¾l¤ý
+map = 178,12000,1600
+map = 179,12000,1600
+map = 181,12000,1600
+map = 185,12000,1600
+map = 186,12000,1600
+map = 188,12000,1600
+map = 189,12000,1600
+map = 191,12000,1600
+map = 183,12000,1600
+map = 184,12000,1600
+
+[army]
+code = 115
+name = 29189
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_1234156,role_ª±®a_ak48,role_ª±®a_¶§¥ú¤Uªºªwªj,role_ª±®a_ÂIÂI,role_ª±®a_¥Õµæ¸­¤l,role_ª±®a_¯ã¤U¦³¥û¾¹,role_ª±®a_»¯¤@¤M,role_ª±®a_CatchMyBreath,role_ª±®a_µ·µ·¤J¦©,role_ª±®a_¦Y»å¤lª±·A¤l
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 116
+name = 29189
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_¥Ð¾_,role_ª±®a_©P·ì,role_ª±®a_§Ú´N¯ó¤F,role_ª±®a_Clover¤@¿Õ,role_ª±®a_Às¤­,role_ª±®a_¶³¤§ºÍ,role_ª±®a_¤kªB¤Íº|®ð¤F,role_ª±®a_¾UµÞµÞ,role_ª±®a_¸X®L,role_ª±®a_Àu¦ç®w
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 117
+name = 29183
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_¬ì©i¹F´µ,role_ÁÉºûº¸,role_¨f­×´µ
+map = 451,32000,1600
+map = 438,32000,1600
+
+[army]
+code = 118
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¯[¼þ¤ý,role_·Å¯®¤ý,role_»\ª÷,role_§õ¦¨®Û
+map = 178,32000,1600
+map = 179,32000,1600
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 191,32000,1600
+map = 182,32000,1600
+map = 183,32000,1600
+
+[army]
+code = 119
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±Z©¾Äm,role_¤ý«Ø,role_ªF©ú¤ý,role_ªF§ß¾l¤ý
+map = 178,32000,1600
+map = 179,32000,1600
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 191,32000,1600
+map = 183,32000,1600
+map = 184,32000,1600
+
+[army]
+code = 120
+name = 29183
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_ª÷µì¤ý,role_¦¶»X,role_ªm¬y¤ý
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 182,32000,1600
+map = 183,32000,1600
+map = 184,32000,1600
+
+[army]
+code = 121
+name = 29120
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_¤lÀ¦,role_±LÂ·,role_Á[¬r
+map = 502,32000,1600
+map = 503,32000,1600
+map = 504,32000,1600
+
+[army]
+code = 122
+name = 29183
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_ª÷µì¤ý,role_¦¶»X,role_ªm¬y¤ý
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 182,32000,1600
+map = 183,32000,1600
+map = 184,32000,1600
+
+[army]
+code = 123
+name = 29183
+reborn_delay = 7
+reborn_range = 300
+disappear_time = 240
+list = role_ª÷µì¤ý,role_¦¶»X,role_ªm¬y¤ý
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 182,32000,1600
+map = 183,32000,1600
+map = 184,32000,1600
+
+[army]
+code = 124
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_ª÷µì¤ý,role_¦¶»X,role_ªm¬y¤ý
+map = 181,32000,1600
+map = 185,32000,1600
+map = 186,32000,1600
+map = 188,32000,1600
+map = 189,32000,1600
+map = 182,32000,1600
+map = 183,32000,1600
+map = 184,32000,1600
+
+[army]
+code = 125
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±Z©¾Äm,role_¤ý«Ø,role_ªF©ú¤ý,role_ªF§ß¾l¤ý
+map = 178,52000,1600
+map = 179,52000,1600
+map = 181,52000,1600
+map = 185,52000,1600
+map = 186,52000,1600
+map = 188,52000,1600
+map = 189,52000,1600
+map = 191,52000,1600
+map = 183,52000,1600
+map = 184,52000,1600
+
+[army]
+code = 126
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±Z©¾Äm,role_¤ý«Ø,role_ªF©ú¤ý,role_ªF§ß¾l¤ý
+map = 178,45000,1600
+map = 179,45000,1600
+map = 181,45000,1600
+map = 185,45000,1600
+map = 186,45000,1600
+map = 188,45000,1600
+map = 189,45000,1600
+map = 191,45000,1600
+map = 183,45000,1600
+map = 184,45000,1600
+
+[army]
+code = 127
+name = 29126
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 25
+list = role_©P­Ü_¨ª¾À
+map = 508,38304,2720
+
+[army]
+code = 128
+name = 29127
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_³°»¹_¾Ô³õ
+map = 509,57952,2912
+
+[army]
+code = 129
+name = 29128
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_®}²±_¾Ô³õ
+map = 509,52576,2528
+
+[army]
+code = 130
+name = 29129
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_Áú·í_¾Ô³õ
+map = 509,48416,2464
+
+[army]
+code = 131
+name = 29130
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_¦¶µM_¾Ô³õ
+map = 509,43872,3040
+
+[army]
+code = 132
+name = 29131
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_¼B³Æ_¾Ô³õ
+map = 509,5792,2272
+
+[army]
+code = 133
+name = 29132
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_°¨¨}_¾Ô³õ
+map = 509,14240,2272
+
+[army]
+code = 134
+name = 29133
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_¶ÀÅv_¾Ô³õ
+map = 509,18912,2464
+
+[army]
+code = 135
+name = 29134
+reborn_delay = 2
+reborn_range = 2
+disappear_time = 240
+list = role_±i«n_¾Ô³õ
+map = 509,23712,2336
+
+[army]
+code = 136
+name = 29183
+reborn_delay = 2
+reborn_range = 
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 172,24000,1600
+map = 173,24000,1600
+map = 174,24000,1600
+map = 175,24000,1600
+map = 176,24000,1600
+map = 177,24000,1600
+
+[army]
+code = 137
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 172,32000,1000
+map = 173,32000,1200
+map = 174,32000,1400
+map = 175,32000,1600
+map = 175,32000,1800
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 138
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 172,44000,1000
+map = 173,44000,1200
+map = 174,44000,1400
+map = 175,44000,1600
+map = 175,44000,1800
+map = 176,44000,1600
+map = 177,44000,1600
+
+[army]
+code = 139
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 535,32000,1600
+map = 536,32000,1600
+map = 537,32000,1600
+map = 538,32000,1600
+map = 539,24000,1800
+
+[army]
+code = 140
+name = 29183
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_§¯»î,role_¤M»î
+map = 379,32000,1600
+map = 380,32000,1600
+map = 381,32000,1600
+map = 382,32000,1600
+map = 383,24000,1800
+
+[army]
+code = 141
+name = 29183
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¿`®ð¥¨Å],role_µê¹³¡EÅ]¤ß,role_¥¨¥ÛÅ]
+map = 544,32000,1800
+map = 545,32000,1800
+
+[army]
+code = 142
+name = 29183
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 172,24000,1000
+map = 173,24000,1200
+map = 174,24000,1400
+map = 175,24000,1600
+map = 175,24000,1800
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 143
+name = 29183
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 535,32000,1600
+map = 536,32000,1600
+map = 537,32000,1600
+map = 538,32000,1600
+map = 539,24000,1800
+
+[army]
+code = 144
+name = 29183
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 535,32000,1600
+map = 536,32000,1600
+map = 537,32000,1600
+map = 538,32000,1600
+map = 539,24000,1800
+
+[army]
+code = 145
+name = 29144
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 511,46000,2600
+map = 511,18000,2600
+
+[army]
+code = 146
+name = 29145
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 511,44000,2600
+map = 511,20000,2600
+
+[army]
+code = 147
+name = 29146
+reborn_delay = 1
+reborn_range = 150
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 511,42000,2600
+map = 511,22000,2600
+
+[army]
+code = 148
+name = 29147
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 511,32000,1600
+
+[army]
+code = 149
+name = 29148
+reborn_delay = 1
+reborn_range = 200
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[_ªø¦w,role_ªq±Â_ªø¦w,role_¼f°t_ªø¦w,role_³\§ñ_ªø¦w,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 511,32000,1600
+
+[army]
+code = 150
+name = 29149
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X_ªø¦w,role_®}ºa,role_¤û»²_ªø¦w,role_¼Ô¸Y_ªø¦w,role_±iÀÙ_ªø¦w,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 511,32000,1600
+
+[army]
+code = 151
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_§¯¤Æ±i¨¤
+map = 579,32000,1600
+map = 579,22000,1600
+
+[army]
+code = 152
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¤ôÃè¥ý¥Í
+map = 580,32000,1600
+map = 580,22000,1600
+
+[army]
+code = 153
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_°K²Ð_cosplay
+map = 581,32000,1600
+map = 581,32000,1600
+
+[army]
+code = 154
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¸³¨ô_cosplay
+map = 582,32000,1600
+map = 582,32000,1600
+
+[army]
+code = 155
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_§f¥¬_cosplay
+map = 583,32000,1600
+map = 583,32000,1600
+
+[army]
+code = 156
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¶IÂÍ_cosplay
+map = 584,32000,1600
+map = 584,32000,1600
+
+[army]
+code = 157
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_±ä©s¼w_cosplay
+map = 514,11232,1632
+
+[army]
+code = 158
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¼B¥È¼w_cosplay
+map = 515,11232,1632
+
+[army]
+code = 159
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_®]§B²Å_cosplay
+map = 516,11232,1632
+
+[army]
+code = 160
+name = 29183
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_¯³©l¬Ó_©l¬Ó
+map = 504,6400,1600
+map = 504,12800,1600
+map = 504,16000,1600
+map = 503,32000,1600
+map = 503,32000,1600
+map = 503,32000,1600
+map = 503,22000,1600
+
+[army]
+code = 161
+name = 29183
+reborn_delay = 100
+reborn_range = 300
+disappear_time = 240
+list = role_¶µ¦Ð,role_¸·®V
+map = 399,6400,1600
+map = 399,12800,1600
+map = 399,16000,1600
+map = 399,32000,1600
+
+[army]
+code = 162
+name = 29183
+reborn_delay = 100
+reborn_range = 300
+disappear_time = 240
+list = role_¼B¨¹,role_§f¹n
+map = 393,6400,1600
+map = 393,12800,1600
+map = 393,16000,1600
+map = 393,32000,1600
+
+[army]
+code = 163
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_­×Ã¹¤ý¡EÅ]ªû,role_ªü­×Ã¹_¥¨¤j
+map = 538,6400,1600
+map = 538,12800,1600
+map = 538,16000,1600
+map = 539,6400,1600
+map = 539,12800,1600
+map = 539,16000,1600
+
+[army]
+code = 164
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_°E¤×
+map = 533,72000,1000
+map = 533,72000,1200
+map = 533,72000,1400
+map = 533,72000,1600
+map = 533,72000,1800
+
+[army]
+code = 165
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¹p¯«,role_¨¸Às,role_¤õÀs,role_¥¨¥ÛÅ]
+map = 536,32000,1600
+map = 537,32000,1600
+map = 538,32000,1600
+map = 539,32000,1600
+
+[army]
+code = 166
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¦D¤Ñ
+
+[army]
+code = 167
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_»¯¤½©ú
+
+[army]
+code = 168
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¥Ó¤½°\
+
+[army]
+code = 169
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_»D¥ò
+
+[army]
+code = 170
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_ÌH¤v
+
+[army]
+code = 171
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¬ô¤ý
+
+[army]
+code = 172
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_Áé·|
+
+[army]
+code = 173
+name = 29183
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¾H¦ã
+
+[army]
+code = 173
+name = 29002
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±i¤û¨¤,role_»u­¸¿P,role_¥ªÀh¤V¤K,role_³¢¤j½å,role_±i¥ÕÃM,role_¥ÕÂ¶,role_¤_¥Â®Ú,role_·¨»ñ,role_Öª©T,role_¥ª®Õ,role_¼B¥Û,role_¤_¬r
+map = 122,22000,1600
+map = 34,32000,1600
+map = 108,22000,1600
+map = 117,42000,1600
+
+[army]
+code = 174
+name = 29003
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_ºÞ©Ó,role_­J¥É,role_®]Æ[,role_¤ýÑÔ,role_±ö°®,role_¹pºü,role_¹­ªÛ,role_´^ºö,role_¹Q¦ï,role_¾d³£,role_¿ú»É,role_Â£®¥
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+
+[army]
+code = 175
+name = 29004
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_Âö«Å,role_©÷äQ,role_±iÑÔ,role_±iÚ|,role_­J¤~,role_§õ¼Ö,role_°ª¦ã,role_©P¿ò,role_©Pª½,role_«J­µ,role_¤½®]¿c
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+
+[army]
+code = 176
+name = 29002
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±i¤û¨¤,role_»u­¸¿P,role_¥ªÀh¤V¤K,role_³¢¤j½å,role_±i¥ÕÃM,role_¥ÕÂ¶,role_¤_¥Â®Ú,role_·¨»ñ,role_Öª©T,role_¥ª®Õ,role_¼B¥Û,role_¤_¬r
+map = 122,22000,1600
+map = 34,32000,1600
+map = 108,22000,1600
+map = 117,42000,1600
+
+[army]
+code = 177
+name = 29003
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_ºÞ©Ó,role_­J¥É,role_®]Æ[,role_¤ýÑÔ,role_±ö°®,role_¹pºü,role_¹­ªÛ,role_´^ºö,role_¹Q¦ï,role_¾d³£,role_¿ú»É,role_Â£®¥
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+
+[army]
+code = 178
+name = 29004
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_Âö«Å,role_©÷äQ,role_±iÑÔ,role_±iÚ|,role_­J¤~,role_§õ¼Ö,role_°ª¦ã,role_©P¿ò,role_©Pª½,role_«J­µ,role_¤½®]¿c
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+
+[army]
+code = 179
+name = 29005
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+
+[army]
+code = 180
+name = 29006
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦ó°Ò,role_ªi¤~,role_»p¤¸²Ð,role_Áú©¾,role_¶ÀÊo,role_»¯¥°,role_°¨¤¸¸q,role_¦ó»ö,role_°ªª@,role_±i°Ò¦¨,role_ºÞ¥è,role_©P­Ü,role_¹ù¤Æ,role_±i±ç,role_±i¨¤,role_±iÄ_
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 181
+name = 29005
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+
+[army]
+code = 182
+name = 29006
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦ó°Ò,role_ªi¤~,role_»p¤¸²Ð,role_Áú©¾,role_¶ÀÊo,role_»¯¥°,role_°¨¤¸¸q,role_¦ó»ö,role_°ªª@,role_±i°Ò¦¨,role_ºÞ¥è,role_©P­Ü,role_¹ù¤Æ,role_±i±ç,role_±i¨¤,role_±iÄ_
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 183
+name = 29011
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¾H­Z,role_¤R¤x
+map = 127,86400,1200
+map = 127,86400,2000
+map = 127,80000,1600
+
+[army]
+code = 184
+name = 29012
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_©s¹F,role_¥Ó¯Ô,role_¥Ó»ö
+map = 128,86400,1200
+map = 128,86400,2000
+map = 128,80000,1600
+
+[army]
+code = 185
+name = 29013
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_³¯Äõ,role_±ö¦¨,role_§õ¤j¥Ø
+map = 129,86400,1200
+map = 129,86400,2000
+map = 129,80000,1600
+
+[army]
+code = 186
+name = 29014
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼ï»ñ,role_»¯¯B,role_°K¿ò,role_¤è®®,role_¤Õ©¦,role_Ãö¹t,role_­S¤è,role_½Ã¯÷,role_§õ¾ú,role_µ{µA,role_Ãö¯Â,role_µJ©M,role_ªZ¦w°ê,role_¯ÕªZ,role_ÁúÃL,role_Àj«H,role_¼B©§,role_¤ý¦J,role_¥Ð·¢,role_³æ¸g,role_±i¶W,role_³ì·è,role_±i·¨,role_¦¶º~,role_¿p¶¶,role_Àj©¾
+map = 98,22000,1600
+map = 63,42000,1600
+map = 87,32000,1600
+map = 90,32000,1600
+map = 65,22000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 114,42000,1600
+
+[army]
+code = 187
+name = 29014
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼ï»ñ,role_»¯¯B,role_°K¿ò,role_¤è®®,role_¤Õ©¦,role_Ãö¹t,role_­S¤è,role_½Ã¯÷,role_§õ¾ú,role_µ{µA,role_Ãö¯Â,role_µJ©M,role_ªZ¦w°ê,role_¯ÕªZ,role_ÁúÃL,role_Àj«H,role_¼B©§,role_¤ý¦J,role_¥Ð·¢,role_³æ¸g,role_±i¶W,role_³ì·è,role_±i·¨,role_¦¶º~,role_¿p¶¶,role_Àj©¾
+map = 98,22000,1600
+map = 63,42000,1600
+map = 87,32000,1600
+map = 90,32000,1600
+map = 65,22000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 114,42000,1600
+
+[army]
+code = 188
+name = 29015
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼Bªí,role_½²·è,role_¤å¸u,role_ãÇ¶V,role_ãÇ¨},role_¤ýßT,role_­J¨®¨à,role_¤ý«Â,role_¼Bªê,role_Áú¥È,role_Áú±ã,role_Áú·C,role_§f¤½,role_³Å´S,role_³¯®],role_ª÷±Û,role_±iªZ,role_¼BÚz,role_½²¾±,role_½²©M,role_½²¤¤
+map = 51,42000,1600
+map = 49,22000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 291,32000,1600
+map = 292,48000,1600
+map = 60,32000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 189
+name = 29015
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼Bªí,role_½²·è,role_¤å¸u,role_ãÇ¶V,role_ãÇ¨},role_¤ýßT,role_­J¨®¨à,role_¤ý«Â,role_¼Bªê,role_Áú¥È,role_Áú±ã,role_Áú·C,role_§f¤½,role_³Å´S,role_³¯®],role_ª÷±Û,role_±iªZ,role_¼BÚz,role_½²¾±,role_½²©M,role_½²¤¤
+map = 51,42000,1600
+map = 49,22000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 291,32000,1600
+map = 292,48000,1600
+map = 60,32000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 190
+name = 29016
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¨E,role_§õ±ú,role_§dµë,role_»Èªá
+map = 122,22000,1600
+map = 34,32000,1600
+map = 108,22000,1600
+map = 117,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 191
+name = 29017
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¬x¹F,role_¿½¤b,role_±ZÆN,role_¦pÁ÷
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 192
+name = 29018
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤Rªê,role_¤ý¾W,role_¬q®ö,role_µµ¦ç
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 193
+name = 29019
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¤½®]ÅÐ,role_¤½®]½d,role_¤½®]Äò,role_¤½®]¶V,role_¸ë½d,role_ÄYºõ,role_·¨¯®
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+
+[army]
+code = 194
+name = 29019
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¤½®]ÅÐ,role_¤½®]½d,role_¤½®]Äò,role_¤½®]¶V,role_¸ë½d,role_ÄYºõ,role_·¨¯®
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+
+[army]
+code = 195
+name = 29020
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 196
+name = 29020
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 197
+name = 29021
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 198
+name = 29021
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 199
+name = 29030
+reborn_delay = 16
+reborn_range = 300
+disappear_time = 240
+list = role_ªk¥¿,role_ÄYÃC,role_Ãe¼w
+map = 292,9600,1600
+map = 294,9600,1600
+
+[army]
+code = 200
+name = 29038
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÅý,role_»¯©¾,role_«Êë¥,role_¬q¯^,role_±ä¸`,role_«JÄý,role_î¿ºÓ,role_µ{Ãm,role_®LÙ@,role_³¢³Ó,role_§º¨å,role_®}©^
+map = 40,42000,1600
+map = 40,32000,1600
+map = 40,22000,1600
+map = 40,22000,1600
+
+[army]
+code = 201
+name = 29038
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÅý,role_»¯©¾,role_«Êë¥,role_¬q¯^,role_±ä¸`,role_«JÄý,role_î¿ºÓ,role_µ{Ãm,role_®LÙ@,role_³¢³Ó,role_§º¨å,role_®}©^
+map = 105,42000,1600
+map = 40,32000,1600
+map = 76,22000,1600
+map = 106,22000,1600
+
+[army]
+code = 202
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 203
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 204
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 205
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 206
+name = 29042
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_±i¾|,role_ÀF®E
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 207
+name = 29042
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_±i¾|,role_ÀF®E
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 208
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 209
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 210
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 118,42000,1600
+map = 138,22000,1600
+map = 139,42000,1600
+map = 154,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 211
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 118,42000,1600
+map = 138,22000,1600
+map = 139,42000,1600
+map = 154,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 212
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 155,22000,1600
+map = 156,42000,1600
+map = 81,22000,1600
+map = 82,42000,1600
+map = 83,22000,1600
+map = 84,42000,1600
+
+[army]
+code = 213
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 155,22000,1600
+map = 156,42000,1600
+map = 81,22000,1600
+map = 82,42000,1600
+map = 83,22000,1600
+map = 84,42000,1600
+
+[army]
+code = 214
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 215
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 216
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 217
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 218
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 219
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 220
+name = 29049
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_ÄY¥Õªê,role_ÄYÁÖ,role_¤_ÁS,role_¼Ô¯à,role_³\°^
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 221
+name = 29049
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_ÄY¥Õªê,role_ÄYÁÖ,role_¤_ÁS,role_¼Ô¯à,role_³\°^
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 222
+name = 29050
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý®Ô,role_»¯¬R,role_©P©ý,role_¦¶µq
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 223
+name = 29050
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý®Ô,role_»¯¬R,role_©P©ý,role_¦¶µq
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 224
+name = 29051
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]®L,role_´^²æ,role_°¨¬Û,role_®}©M,role_¦¿®c
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 225
+name = 29052
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±iÁ|,role_»¯¬é,role_»¯·O,role_³¢¤j,role_±i²ç
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 226
+name = 29053
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±i¯Â,role_§dÅQ,role_§õ¬Û¦p,role_¨H¦¨
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 227
+name = 29051
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]®L,role_´^²æ,role_°¨¬Û,role_®}©M,role_¦¿®c
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 228
+name = 29052
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±iÁ|,role_»¯¬é,role_»¯·O,role_³¢¤j,role_±i²ç
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 229
+name = 29053
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±i¯Â,role_§dÅQ,role_§õ¬Û¦p,role_¨H¦¨
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 230
+name = 29054
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]¼ý,role_ÁúÑ§,role_´ë¿p,role_§f±j,role_¤ý¨j
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 231
+name = 29055
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®ß·C,role_°ª±æ,role_±i®¥,role_²¦´P,role_©|¦ý
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 232
+name = 29056
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦¶»\,role_­JÄõ,role_¯B¶³,role_¹p¤½,role_¥­º~
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 233
+name = 29057
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°Ï¬P,role_¥Õªi,role_¥Õ³¶,role_¤­³À,role_¤j­p
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 234
+name = 29056
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦¶»\,role_­JÄõ,role_¯B¶³,role_¹p¤½,role_¥­º~
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 235
+name = 29057
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°Ï¬P,role_¥Õªi,role_¥Õ³¶,role_¤­³À,role_¤j­p
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 236
+name = 29058
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¼B¼ý,role_ª~­c,role_¹p»É
+map = 330,24000,1000
+map = 330,24000,1200
+map = 330,24000,1400
+map = 330,24000,1600
+map = 330,24000,1800
+
+[army]
+code = 237
+name = 29059
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_±i¥ô,role_±iÁl
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 238
+name = 29060
+reborn_delay = 7
+reborn_range = 300
+disappear_time = 240
+list = role_°K³N,role_³¯¬ö,role_¹pÁ¡
+map = 157,72000,1000
+map = 157,72000,1200
+map = 157,72000,1400
+map = 157,72000,1600
+map = 157,72000,1800
+
+[army]
+code = 239
+name = 29061
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¬öÆF,role_¾ôëB
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 240
+name = 29062
+reborn_delay = 7
+reborn_range = 300
+disappear_time = 240
+list = role_°K²Ð,role_³{¬ö,role_¤¨·¢
+map = 149,72000,1000
+map = 149,72000,1200
+map = 149,72000,1400
+map = 149,72000,1600
+map = 149,72000,1800
+
+[army]
+code = 241
+name = 29063
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_ÃC¨},role_¨¯µû,role_ÁúÒ²
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 242
+name = 29064
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¤åÁà,role_¨¯¬s,role_Áú²r
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 243
+name = 29065
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¸³¨ô,role_§õ¾§,role_§õØR,role_³¢Éú
+map = 152,24000,1000
+map = 152,24000,1200
+map = 152,24000,1400
+map = 152,24000,1600
+map = 152,24000,1800
+
+[army]
+code = 244
+name = 29066
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_µØ¶¯,role_­JÜH,role_¸³¿X
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 245
+name = 29067
+reborn_delay = 7
+reborn_range = 300
+disappear_time = 240
+list = role_³¯®c,role_°ª¶¶,role_±ä©Ê
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 246
+name = 29068
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_±i¿ñ,role_»NÅQ,role_°qµÞ
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 247
+name = 29069
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¶IÂÍ,role_§õµÂ,role_³¯½Ã
+map = 443,72000,1000
+map = 443,72000,1200
+map = 443,72000,1400
+map = 443,72000,1600
+map = 443,72000,1800
+
+[army]
+code = 248
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 175,48000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 249
+name = 29072
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¨|©µ,role_°©¶i,role_ªv¤¸¦h,role_¥ï¦P,role_À±¥[,role_³Ö¾÷,role_¥O©~,role_¶V¦N,role_¨B«×®Ú,role_¶®¤¦,role_¯À§Q,role_¯Q©µ,role_ªvµLÀ¹,role_¥Õªê¤å,role_¯à¦Ú,role_¸¿¾B¶ë,role_¿N¤à,role_«X¦ó
+map = 166,42000,1600
+map = 167,42000,1600
+map = 168,42000,1600
+map = 170,42000,1600
+map = 171,22000,1600
+map = 169,72000,1600
+
+[army]
+code = 250
+name = 29079
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¤a¬ð°©,role_¯¬¿Ä
+map = 175,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 443,22000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+
+[army]
+code = 251
+name = 29080
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_©sÀò,role_©sÀu,role_¤ì³À¤j¤ý
+map = 175,24000,1000
+map = 175,24000,1200
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 252
+name = 29081
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦BÁ÷¥¨¤H,role_¦a©³¥¨¤H,role_¦a©³Å]Ã~,role_¥Û±N­x,role_¥ÛÀY¤½
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 253
+name = 29082
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨gÅ]¥¨¤H,role_¦a©³¦BÃ~,role_¦a©³§¯Ã~,role_¥Û´±·í,role_¥ÛÀY¤H
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 254
+name = 29083
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¶Â,role_÷´Às_ÂÅ,role_©bÀs_¬õ,role_­p»X_µµ,role_­p»X_¬õ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 255
+name = 29084
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¬õ,role_©bÀs_ÂÅ,role_©bÀs_ºñ,role_­p»X_¶À,role_­p»X_ÂÅ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 256
+name = 29100
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±¤}©I,role_¶·¦õ,role_³ü»P,role_±³¨¸ª¯,role_¥ìÁn¯Ï,role_³£¥«¤û§Q,role_Ãø¤É¦Ì,role_À¹´µ,role_¯Q¶V
+map = 379,32000,1600
+map = 380,32000,1600
+map = 381,32000,1600
+map = 382,32000,1600
+map = 383,32000,1600
+
+[army]
+code = 257
+name = 29101
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±©I,role_¨ª°­,role_«C°­,role_¤g»jµï
+map = 381,32000,1600
+map = 381,36000,1600
+map = 381,40000,1600
+map = 381,44000,1600
+
+[army]
+code = 258
+name = 29102
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°K©|,role_°Kº³,role_°KÃÓ
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 259
+name = 29103
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ªi´µ³¥µs­º»â_1,role_ªi´µ³¥µs­º»â_2,role_ªi´µ³¥µs­º»â_3,role_ªi´µ³¥µs­º»â_4,role_ªi´µ³¥µs­º»â_5
+map = 442,32000,1600
+map = 443,22800,2560
+map = 444,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+
+[army]
+code = 260
+name = 29104
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 440,32000,1600
+map = 441,32000,1600
+map = 442,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+map = 449,32000,1600
+
+[army]
+code = 261
+name = 29189
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_Elin¬ÂÄn,role_ª±®a_Elin¦Êªá,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_ÁÙ¬O¤â±·¹p,role_ª±®a_¼ÔÄÜ,role_ª±®a_·Ï«B¬K¹Ú¼Ó,role_ª±®a_¤pµÞ¨ß¼T,role_ª±®a_ÅxÅx°sÅxÅx,role_ª±®a_3366,role_ª±®a_¤E­Ó¤Ó¶§,role_ª±®a_§Ú¬O§Aªº¤ÛÄ±,role_ª±®a_­·´º,role_ª±®a_ºaÄ£¡X¦ã´µ,role_ª±®a_¯«µL¤ë
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 262
+name = 29106
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_§õ§Æ¥§¨È§V´µ,role_§Æ¯Z¯Ç¥j´µ,role_©¬¥d½{¨È§V´µ,role_¤Úº¸¤ñ§V´µ,role_´¶¤ñ§V´µ,role_­}¨È§ù°Ò¥§¦w,role_°¨§J§Q§V´µ,role_¦ãº¸«ô­Û,role_¯Ç³Çº¸,role_¦¶§Q¦w§V´µ,role_©¬²Ä¯Ç¥j´µ
+map = 451,22000,1600
+map = 438,22000,1600
+map = 434,22000,1600
+map = 435,22000,1600
+map = 436,22000,1600
+map = 451,42000,1600
+map = 438,42000,1600
+map = 434,42000,1600
+map = 435,42000,1600
+map = 436,42000,1600
+
+[army]
+code = 263
+name = 29107
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_­ô­}¨È,role_®ü§Q¼Ú¥d¤Ú¾|´µ,role_³Í¹F,role_³Í©Ô¥d©Ô,role_°¨§J§Æ©i,role_°ª¿c´µ,role_¥d§Q®¦§V´µ,role_¥Ë°Ç¨}
+map = 451,32000,1600
+map = 438,32000,1600
+map = 434,32000,1600
+map = 435,32000,1600
+map = 436,32000,1600
+
+[army]
+code = 264
+name = 29189
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_¶³¤§ºÍ,role_ª±®a_¤kªB¤Íº|®ð¤F,role_ª±®a_Elin¬ÂÄn,role_ª±®a_¼ÔÄÜ,role_ª±®a_·Ï«B¬K¹Ú¼Ó,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_¾UµÞµÞ,role_ª±®a_¸X®L,role_ª±®a_Àu¦ç®w,role_ª±®a_¤j½Ã,role_ª±®a_½Þ©f,role_ª±®a_¤û©f,role_ª±®a_¦n©_®`¦º¿ß,role_ª±®a_¬õ¤@¬Ó,role_ª±®a_¶Æ¥@¡°§g¥D,role_ª±®a_¡²Alex,role_ª±®a_¶Æ¥@¡°¶W­ô,role_ª±®a_»¯¤@¤M,role_ª±®a_CatchMyBreath,role_ª±®a_ÂIÂI,role_ª±®a_¤pµÞ¨ß¼T,role_ª±®a_ÅxÅx°sÅxÅx,role_ª±®a_3366,role_ª±®a_¤E­Ó¤Ó¶§,role_ª±®a_§Ú¬O§Aªº¤ÛÄ±
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 265
+name = 29115
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = 
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,230400,1600
+
+[army]
+code = 266
+name = 29183
+reborn_delay = 480
+reborn_range = 300
+disappear_time = 300
+list = role_¬Ó®a§f¥¬,role_¬Ó®a¶IÂÍ,role_¬Ó®a¸³¨ô,role_¬Ó®a±i¿ñ
+map = 73,22000,1600
+map = 73,42000,1600
+map = 74,22000,1600
+map = 74,42000,1600
+
+[army]
+code = 267
+name = 29003
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_ºÞ©Ó,role_­J¥É,role_®]Æ[,role_¤ýÑÔ,role_±ö°®,role_¹pºü,role_¹­ªÛ,role_´^ºö,role_¹Q¦ï,role_¾d³£,role_¿ú»É,role_Â£®¥
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+
+[army]
+code = 268
+name = 29004
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_Âö«Å,role_©÷äQ,role_±iÑÔ,role_±iÚ|,role_­J¤~,role_§õ¼Ö,role_°ª¦ã,role_©P¿ò,role_©Pª½,role_«J­µ,role_¤½®]¿c
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+
+[army]
+code = 269
+name = 29005
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+
+[army]
+code = 270
+name = 29006
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦ó°Ò,role_ªi¤~,role_»p¤¸²Ð,role_Áú©¾,role_¶ÀÊo,role_»¯¥°,role_°¨¤¸¸q,role_¦ó»ö,role_°ªª@,role_±i°Ò¦¨,role_ºÞ¥è,role_©P­Ü,role_¹ù¤Æ,role_±i±ç,role_±i¨¤,role_±iÄ_
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 271
+name = 29005
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_­ð©P,role_±iñm,role_§ù»·,role_ÄY¬F,role_¤Ë³ß,role_ÅÇ³£,role_®]¥ò,role_¼B¹@
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+
+[army]
+code = 272
+name = 29006
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¦ó°Ò,role_ªi¤~,role_»p¤¸²Ð,role_Áú©¾,role_¶ÀÊo,role_»¯¥°,role_°¨¤¸¸q,role_¦ó»ö,role_°ªª@,role_±i°Ò¦¨,role_ºÞ¥è,role_©P­Ü,role_¹ù¤Æ,role_±i±ç,role_±i¨¤,role_±iÄ_
+map = 109,42000,1600
+map = 119,22000,1600
+map = 88,22000,1600
+map = 120,42000,1600
+map = 89,42000,1600
+map = 267,32000,1600
+map = 268,32000,1600
+map = 269,32000,1600
+map = 276,32000,1600
+map = 277,48000,1600
+
+[army]
+code = 273
+name = 29011
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¾H­Z,role_¤R¤x
+map = 127,86400,1200
+map = 127,86400,2000
+map = 127,80000,1600
+
+[army]
+code = 274
+name = 29012
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_©s¹F,role_¥Ó¯Ô,role_¥Ó»ö
+map = 128,86400,1200
+map = 128,86400,2000
+map = 128,80000,1600
+
+[army]
+code = 275
+name = 29013
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_³¯Äõ,role_±ö¦¨,role_§õ¤j¥Ø
+map = 129,86400,1200
+map = 129,86400,2000
+map = 129,80000,1600
+
+[army]
+code = 276
+name = 29014
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼ï»ñ,role_»¯¯B,role_°K¿ò,role_¤è®®,role_¤Õ©¦,role_Ãö¹t,role_­S¤è,role_½Ã¯÷,role_§õ¾ú,role_µ{µA,role_Ãö¯Â,role_µJ©M,role_ªZ¦w°ê,role_¯ÕªZ,role_ÁúÃL,role_Àj«H,role_¼B©§,role_¤ý¦J,role_¥Ð·¢,role_³æ¸g,role_±i¶W,role_³ì·è,role_±i·¨,role_¦¶º~,role_¿p¶¶,role_Àj©¾
+map = 98,22000,1600
+map = 63,42000,1600
+map = 87,32000,1600
+map = 90,32000,1600
+map = 65,22000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 114,42000,1600
+
+[army]
+code = 277
+name = 29014
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼ï»ñ,role_»¯¯B,role_°K¿ò,role_¤è®®,role_¤Õ©¦,role_Ãö¹t,role_­S¤è,role_½Ã¯÷,role_§õ¾ú,role_µ{µA,role_Ãö¯Â,role_µJ©M,role_ªZ¦w°ê,role_¯ÕªZ,role_ÁúÃL,role_Àj«H,role_¼B©§,role_¤ý¦J,role_¥Ð·¢,role_³æ¸g,role_±i¶W,role_³ì·è,role_±i·¨,role_¦¶º~,role_¿p¶¶,role_Àj©¾
+map = 98,22000,1600
+map = 63,42000,1600
+map = 87,32000,1600
+map = 90,32000,1600
+map = 65,22000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 114,42000,1600
+
+[army]
+code = 278
+name = 29015
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼Bªí,role_½²·è,role_¤å¸u,role_ãÇ¶V,role_ãÇ¨},role_¤ýßT,role_­J¨®¨à,role_¤ý«Â,role_¼Bªê,role_Áú¥È,role_Áú±ã,role_Áú·C,role_§f¤½,role_³Å´S,role_³¯®],role_ª÷±Û,role_±iªZ,role_¼BÚz,role_½²¾±,role_½²©M,role_½²¤¤
+map = 51,42000,1600
+map = 49,22000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 291,32000,1600
+map = 292,48000,1600
+map = 60,32000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 279
+name = 29015
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¼Bªí,role_½²·è,role_¤å¸u,role_ãÇ¶V,role_ãÇ¨},role_¤ýßT,role_­J¨®¨à,role_¤ý«Â,role_¼Bªê,role_Áú¥È,role_Áú±ã,role_Áú·C,role_§f¤½,role_³Å´S,role_³¯®],role_ª÷±Û,role_±iªZ,role_¼BÚz,role_½²¾±,role_½²©M,role_½²¤¤
+map = 51,42000,1600
+map = 49,22000,1600
+map = 103,32000,1600
+map = 104,32000,1600
+map = 291,32000,1600
+map = 292,48000,1600
+map = 60,32000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 280
+name = 29016
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¨E,role_§õ±ú,role_§dµë,role_»Èªá
+map = 122,22000,1600
+map = 34,32000,1600
+map = 108,22000,1600
+map = 117,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 281
+name = 29017
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¬x¹F,role_¿½¤b,role_±ZÆN,role_¦pÁ÷
+map = 36,32000,1600
+map = 38,32000,1600
+map = 91,22000,1600
+map = 92,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 282
+name = 29018
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_¤Rªê,role_¤ý¾W,role_¬q®ö,role_µµ¦ç
+map = 48,32000,1600
+map = 42,30000,1600
+map = 95,22000,1600
+map = 97,42000,1600
+map = 260,32000,1600
+map = 262,32000,1600
+map = 264,32000,1600
+
+[army]
+code = 283
+name = 29019
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤½®]ÅÐ,role_¤½®]½d,role_¤½®]Äò,role_¤½®]¶V,role_¸ë½d,role_ÄYºõ,role_·¨¯®
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+
+[army]
+code = 284
+name = 29019
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¤½®]ÅÐ,role_¤½®]½d,role_¤½®]Äò,role_¤½®]¶V,role_¸ë½d,role_ÄYºõ,role_·¨¯®
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+
+[army]
+code = 285
+name = 29020
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 286
+name = 29020
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¼BíÙ,role_±i­^,role_³¯¾î,role_²È¿Ä,role_Á§Â§
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 287
+name = 29021
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 288
+name = 29021
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¯ª,role_¶À®g,role_Ä¬­¸,role_±iµ[,role_³¯¥Í
+map = 291,32000,1600
+map = 292,48000,1600
+map = 293,32000,1600
+map = 294,48000,1600
+map = 46,22000,1600
+map = 47,42000,1600
+
+[army]
+code = 289
+name = 29030
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_ªk¥¿,role_ÄYÃC,role_Ãe¼w
+map = 292,9600,1600
+map = 294,9600,1600
+
+[army]
+code = 290
+name = 29038
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÅý,role_»¯©¾,role_«Êë¥,role_¬q¯^,role_±ä¸`,role_«JÄý,role_î¿ºÓ,role_µ{Ãm,role_®LÙ@,role_³¢³Ó,role_§º¨å,role_®}©^
+map = 105,42000,1600
+map = 105,32000,1600
+map = 105,22000,1600
+map = 105,22000,1600
+
+[army]
+code = 291
+name = 29038
+reborn_delay = 0
+reborn_range = 300
+disappear_time = 240
+list = role_±iÅý,role_»¯©¾,role_«Êë¥,role_¬q¯^,role_±ä¸`,role_«JÄý,role_î¿ºÓ,role_µ{Ãm,role_®LÙ@,role_³¢³Ó,role_§º¨å,role_®}©^
+map = 76,42000,1600
+map = 76,32000,1600
+map = 76,22000,1600
+map = 76,22000,1600
+
+[army]
+code = 292
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 293
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 294
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 295
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 296
+name = 29042
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_±i¾|,role_ÀF®E
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 297
+name = 29042
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_±i¾|,role_ÀF®E
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 298
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 299
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 300
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 118,42000,1600
+map = 138,22000,1600
+map = 139,42000,1600
+map = 154,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 301
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 118,42000,1600
+map = 138,22000,1600
+map = 139,42000,1600
+map = 154,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+
+[army]
+code = 302
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 155,22000,1600
+map = 156,42000,1600
+map = 81,22000,1600
+map = 82,42000,1600
+map = 83,22000,1600
+map = 84,42000,1600
+
+[army]
+code = 303
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 155,22000,1600
+map = 156,42000,1600
+map = 81,22000,1600
+map = 82,42000,1600
+map = 83,22000,1600
+map = 84,42000,1600
+
+[army]
+code = 304
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 305
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 306
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 307
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 308
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 309
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 310
+name = 29049
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_ÄY¥Õªê,role_ÄYÁÖ,role_¤_ÁS,role_¼Ô¯à,role_³\°^
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 311
+name = 29049
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_ÄY¥Õªê,role_ÄYÁÖ,role_¤_ÁS,role_¼Ô¯à,role_³\°^
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 312
+name = 29050
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý®Ô,role_»¯¬R,role_©P©ý,role_¦¶µq
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 313
+name = 29050
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_¤ý®Ô,role_»¯¬R,role_©P©ý,role_¦¶µq
+map = 315,32000,1000
+map = 315,32000,1100
+map = 315,32000,1200
+map = 315,32000,1300
+map = 315,32000,1400
+map = 315,32000,1500
+map = 315,32000,1600
+map = 315,32000,1700
+map = 315,32000,1800
+map = 315,32000,1900
+
+[army]
+code = 314
+name = 29051
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]®L,role_´^²æ,role_°¨¬Û,role_®}©M,role_¦¿®c
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 315
+name = 29052
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±iÁ|,role_»¯¬é,role_»¯·O,role_³¢¤j,role_±i²ç
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 316
+name = 29053
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±i¯Â,role_§dÅQ,role_§õ¬Û¦p,role_¨H¦¨
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 317
+name = 29051
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]®L,role_´^²æ,role_°¨¬Û,role_®}©M,role_¦¿®c
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 318
+name = 29052
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±iÁ|,role_»¯¬é,role_»¯·O,role_³¢¤j,role_±i²ç
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 319
+name = 29053
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_±i¯Â,role_§dÅQ,role_§õ¬Û¦p,role_¨H¦¨
+map = 314,32000,1000
+map = 314,32000,1100
+map = 314,32000,1200
+map = 314,32000,1300
+map = 314,32000,1400
+map = 314,32000,1500
+map = 314,32000,1600
+map = 314,32000,1700
+map = 314,32000,1800
+map = 314,32000,1900
+
+[army]
+code = 320
+name = 29054
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®]¼ý,role_ÁúÑ§,role_´ë¿p,role_§f±j,role_¤ý¨j
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 321
+name = 29055
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_®ß·C,role_°ª±æ,role_±i®¥,role_²¦´P,role_©|¦ý
+map = 316,32000,1000
+map = 316,32000,1100
+map = 316,32000,1200
+map = 316,32000,1300
+map = 316,32000,1400
+map = 316,32000,1500
+map = 316,32000,1600
+map = 316,32000,1700
+map = 316,32000,1800
+map = 316,32000,1900
+
+[army]
+code = 322
+name = 29056
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦¶»\,role_­JÄõ,role_¯B¶³,role_¹p¤½,role_¥­º~
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 323
+name = 29057
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°Ï¬P,role_¥Õªi,role_¥Õ³¶,role_¤­³À,role_¤j­p
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 324
+name = 29056
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦¶»\,role_­JÄõ,role_¯B¶³,role_¹p¤½,role_¥­º~
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 325
+name = 29057
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°Ï¬P,role_¥Õªi,role_¥Õ³¶,role_¤­³À,role_¤j­p
+map = 317,32000,1000
+map = 317,32000,1100
+map = 317,32000,1200
+map = 317,32000,1300
+map = 317,32000,1400
+map = 317,32000,1500
+map = 317,32000,1600
+map = 317,32000,1700
+map = 317,32000,1800
+map = 317,32000,1900
+
+[army]
+code = 326
+name = 29058
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ª~­c,role_¹p»É
+map = 330,24000,1000
+map = 330,24000,1200
+map = 330,24000,1400
+map = 330,24000,1600
+map = 330,24000,1800
+
+[army]
+code = 327
+name = 29059
+reborn_delay = 8
+reborn_range = 300
+disappear_time = 240
+list = role_±i¥ô,role_±iÁl
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 328
+name = 29060
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_³¯¬ö,role_¹pÁ¡
+map = 326,72000,1000
+map = 326,72000,1200
+map = 326,72000,1400
+map = 326,72000,1600
+map = 326,72000,1800
+
+[army]
+code = 329
+name = 29061
+reborn_delay = 9
+reborn_range = 300
+disappear_time = 240
+list = role_¬öÆF,role_¾ôëB
+map = 140,22000,1600
+map = 141,42000,1600
+map = 142,22000,1600
+map = 143,42000,1600
+map = 157,32000,1600
+map = 144,22000,1600
+map = 145,42000,1600
+map = 325,32000,1600
+map = 326,48000,1600
+
+[army]
+code = 330
+name = 29062
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_³{¬ö,role_¤¨·¢
+map = 324,72000,1000
+map = 324,72000,1200
+map = 324,72000,1400
+map = 324,72000,1600
+map = 324,72000,1800
+
+[army]
+code = 331
+name = 29063
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_ÃC¨},role_¨¯µû,role_ÁúÒ²
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 332
+name = 29064
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¤åÁà,role_¨¯¬s,role_Áú²r
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 333
+name = 29065
+reborn_delay = 7
+reborn_range = 300
+disappear_time = 240
+list = role_¸³¨ô,role_§õ¾§,role_§õØR,role_³¢Éú
+map = 146,24000,1000
+map = 146,24000,1200
+map = 146,24000,1400
+map = 146,24000,1600
+map = 146,24000,1800
+
+[army]
+code = 334
+name = 29066
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_µØ¶¯,role_­JÜH,role_¸³¿X
+map = 146,32000,1600
+map = 134,22000,1600
+map = 135,42000,1600
+map = 102,32000,1600
+map = 101,22000,1600
+map = 115,42000,1600
+map = 152,32000,1600
+map = 327,32000,1600
+map = 328,48000,1600
+
+[army]
+code = 335
+name = 29067
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_³¯®c,role_°ª¶¶,role_±ä©Ê
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 336
+name = 29068
+reborn_delay = 20
+reborn_range = 300
+disappear_time = 240
+list = role_±i¿ñ,role_»NÅQ,role_°qµÞ
+map = 151,32000,1600
+map = 121,22000,1600
+map = 133,42000,1600
+map = 150,32000,1600
+map = 99,22000,1600
+map = 100,42000,1600
+map = 331,32000,1600
+map = 332,48000,1600
+
+[army]
+code = 337
+name = 29069
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¶IÂÍ,role_§õµÂ,role_³¯½Ã
+map = 560,72000,1000
+map = 560,72000,1200
+map = 560,72000,1400
+map = 560,72000,1600
+map = 560,72000,1800
+
+[army]
+code = 338
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 175,48000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 339
+name = 29072
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¨|©µ,role_°©¶i,role_ªv¤¸¦h,role_¥ï¦P,role_À±¥[,role_³Ö¾÷,role_¥O©~,role_¶V¦N,role_¨B«×®Ú,role_¶®¤¦,role_¯À§Q,role_¯Q©µ,role_ªvµLÀ¹,role_¥Õªê¤å,role_¯à¦Ú,role_¸¿¾B¶ë,role_¿N¤à,role_«X¦ó
+map = 166,42000,1600
+map = 167,42000,1600
+map = 168,42000,1600
+map = 170,42000,1600
+map = 171,22000,1600
+map = 169,72000,1600
+
+[army]
+code = 340
+name = 29079
+reborn_delay = 6
+reborn_range = 300
+disappear_time = 240
+list = role_¤a¬ð°©,role_¯¬¿Ä
+map = 175,32000,1600
+map = 172,32000,1600
+map = 173,32000,1600
+map = 174,32000,1600
+map = 176,32000,1600
+map = 177,32000,1600
+map = 443,22000,1600
+map = 444,32000,1600
+map = 447,32000,1600
+
+[army]
+code = 341
+name = 29080
+reborn_delay = 20
+reborn_range = 300
+disappear_time = 240
+list = role_©sÀò,role_©sÀu,role_¤ì³À¤j¤ý
+map = 175,24000,1000
+map = 175,24000,1200
+map = 175,24000,1400
+map = 444,32000,1600
+map = 447,32000,1600
+map = 448,32000,1600
+map = 450,32000,1600
+
+[army]
+code = 342
+name = 29081
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¦BÁ÷¥¨¤H,role_¦a©³¥¨¤H,role_¦a©³Å]Ã~,role_¥Û±N­x,role_¥ÛÀY¤½
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 343
+name = 29082
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨gÅ]¥¨¤H,role_¦a©³¦BÃ~,role_¦a©³§¯Ã~,role_¥Û´±·í,role_¥ÛÀY¤H
+map = 358,32000,1000
+map = 358,32000,1100
+map = 358,32000,1200
+map = 358,32000,1300
+map = 358,32000,1400
+map = 358,32000,1500
+map = 358,32000,1600
+map = 358,32000,1700
+map = 358,32000,1800
+map = 358,32000,1900
+
+[army]
+code = 344
+name = 29083
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¶Â,role_÷´Às_ÂÅ,role_©bÀs_¬õ,role_­p»X_µµ,role_­p»X_¬õ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 345
+name = 29084
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_÷´Às_¬õ,role_©bÀs_ÂÅ,role_©bÀs_ºñ,role_­p»X_¶À,role_­p»X_ÂÅ
+map = 357,32000,1000
+map = 357,32000,1100
+map = 357,32000,1200
+map = 357,32000,1300
+map = 357,32000,1400
+map = 357,32000,1500
+map = 357,32000,1600
+map = 357,32000,1700
+map = 357,32000,1800
+map = 357,32000,1900
+
+[army]
+code = 346
+name = 29100
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±¤}©I,role_¶·¦õ,role_³ü»P,role_±³¨¸ª¯,role_¥ìÁn¯Ï,role_³£¥«¤û§Q,role_Ãø¤É¦Ì,role_À¹´µ,role_¯Q¶V
+map = 379,32000,1600
+map = 380,32000,1600
+map = 381,32000,1600
+map = 382,32000,1600
+map = 383,32000,1600
+
+[army]
+code = 347
+name = 29101
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¨õÀ±©I,role_¨ª°­,role_«C°­,role_¤g»jµï
+map = 379,32000,1600
+map = 379,36000,1600
+map = 379,40000,1600
+map = 379,44000,1600
+
+[army]
+code = 348
+name = 29102
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_°K©|,role_°Kº³,role_°KÃÓ
+map = 86,22000,1600
+map = 93,42000,1600
+map = 147,32000,1600
+map = 94,22000,1600
+map = 96,42000,1600
+map = 323,32000,1600
+map = 324,48000,1600
+
+[army]
+code = 349
+name = 29103
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ªi´µ³¥µs­º»â_1,role_ªi´µ³¥µs­º»â_2,role_ªi´µ³¥µs­º»â_3,role_ªi´µ³¥µs­º»â_4,role_ªi´µ³¥µs­º»â_5
+map = 442,32000,1600
+map = 443,22800,2560
+map = 444,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+
+[army]
+code = 350
+name = 29104
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 440,32000,1600
+map = 441,32000,1600
+map = 442,32000,1600
+map = 445,32000,1600
+map = 446,32000,1600
+map = 449,32000,1600
+
+[army]
+code = 351
+name = 29105
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = 
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 352
+name = 29106
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_§õ§Æ¥§¨È§V´µ,role_§Æ¯Z¯Ç¥j´µ,role_©¬¥d½{¨È§V´µ,role_¤Úº¸¤ñ§V´µ,role_´¶¤ñ§V´µ,role_­}¨È§ù°Ò¥§¦w,role_°¨§J§Q§V´µ,role_¦ãº¸«ô­Û,role_¯Ç³Çº¸,role_¦¶§Q¦w§V´µ,role_©¬²Ä¯Ç¥j´µ
+map = 451,22000,1600
+map = 438,22000,1600
+map = 434,22000,1600
+map = 435,22000,1600
+map = 436,22000,1600
+map = 451,42000,1600
+map = 438,42000,1600
+map = 434,42000,1600
+map = 435,42000,1600
+map = 436,42000,1600
+
+[army]
+code = 353
+name = 29107
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_­ô­}¨È,role_®ü§Q¼Ú¥d¤Ú¾|´µ,role_³Í¹F,role_³Í©Ô¥d©Ô,role_°¨§J§Æ©i,role_°ª¿c´µ,role_¥d§Q®¦§V´µ,role_¥Ë°Ç¨}
+map = 451,32000,1600
+map = 438,32000,1600
+map = 434,32000,1600
+map = 435,32000,1600
+map = 436,32000,1600
+
+[army]
+code = 354
+name = 29114
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = 
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,102400,1600
+map = 433,128000,1600
+map = 433,153600,1600
+map = 433,179200,1600
+map = 433,204800,1600
+map = 433,230400,1600
+
+[army]
+code = 355
+name = 29115
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = 
+map = 433,25600,1600
+map = 433,51200,1600
+map = 433,76800,1600
+map = 433,230400,1600
+
+[army]
+code = 356
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 149,52000,1600
+
+[army]
+code = 357
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 155,32000,1600
+map = 155,52000,1600
+
+[army]
+code = 358
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 155,32000,1600
+map = 155,52000,1600
+
+[army]
+code = 359
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 81,32000,1600
+map = 81,52000,1600
+
+[army]
+code = 360
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 82,32000,1600
+map = 82,52000,1600
+
+[army]
+code = 361
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 83,32000,1600
+map = 83,52000,1600
+
+[army]
+code = 362
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 84,32000,1600
+map = 84,52000,1600
+
+[army]
+code = 363
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 511,32000,1600
+map = 511,52000,1600
+
+[army]
+code = 364
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 116,42000,1600
+
+[army]
+code = 365
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 118,42000,1600
+map = 118,52000,1600
+
+[army]
+code = 366
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 138,22000,1600
+map = 138,42000,1600
+
+[army]
+code = 367
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 139,42000,1600
+map = 139,52000,1600
+
+[army]
+code = 368
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 154,32000,1600
+map = 154,52000,1600
+
+[army]
+code = 369
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 172,32000,1600
+map = 172,52000,1600
+
+[army]
+code = 370
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 173,32000,1600
+map = 173,52000,1600
+
+[army]
+code = 371
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 174,32000,1600
+map = 174,52000,1600
+
+[army]
+code = 372
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 176,32000,1600
+map = 176,52000,1600
+
+[army]
+code = 373
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 177,32000,1600
+map = 177,52000,1600
+
+[army]
+code = 374
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 86,42000,1600
+
+[army]
+code = 375
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 93,42000,1600
+map = 93,52000,1600
+
+[army]
+code = 376
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 147,32000,1600
+map = 147,52000,1600
+
+[army]
+code = 377
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 94,22000,1600
+map = 94,42000,1600
+
+[army]
+code = 378
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 96,42000,1600
+map = 96,52000,1600
+
+[army]
+code = 379
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 323,32000,1600
+map = 323,52000,1600
+
+[army]
+code = 380
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 324,48000,1600
+map = 324,58000,1600
+
+[army]
+code = 381
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 146,52000,1600
+
+[army]
+code = 382
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 134,22000,1600
+map = 134,42000,1600
+
+[army]
+code = 383
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 135,42000,1600
+map = 135,52000,1600
+
+[army]
+code = 384
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 102,32000,1600
+map = 102,52000,1600
+
+[army]
+code = 385
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 101,22000,1600
+map = 101,42000,1600
+
+[army]
+code = 386
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 115,42000,1600
+map = 115,52000,1600
+
+[army]
+code = 387
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 152,32000,1600
+map = 152,52000,1600
+
+[army]
+code = 388
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 327,32000,1600
+map = 327,52000,1600
+
+[army]
+code = 389
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 328,48000,1600
+map = 328,58000,1600
+
+[army]
+code = 390
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 151,52000,1600
+
+[army]
+code = 391
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 121,22000,1600
+map = 121,42000,1600
+
+[army]
+code = 392
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 133,42000,1600
+map = 133,52000,1600
+
+[army]
+code = 393
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 150,32000,1600
+map = 150,42000,1600
+
+[army]
+code = 394
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 99,22000,1600
+map = 99,42000,1600
+
+[army]
+code = 395
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 100,42000,1600
+map = 100,52000,1600
+
+[army]
+code = 396
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 331,32000,1600
+map = 331,52000,1600
+
+[army]
+code = 397
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 332,48000,1600
+map = 332,58000,1600
+
+[army]
+code = 398
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 175,48000,1600
+map = 175,58000,1600
+
+[army]
+code = 399
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 172,32000,1600
+map = 172,52000,1600
+
+[army]
+code = 400
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 173,32000,1600
+map = 173,52000,1600
+
+[army]
+code = 401
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 174,32000,1600
+map = 174,52000,1600
+
+[army]
+code = 402
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 176,32000,1600
+map = 176,52000,1600
+
+[army]
+code = 403
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 177,32000,1600
+map = 177,52000,1600
+
+[army]
+code = 404
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 444,32000,1600
+map = 444,52000,1600
+
+[army]
+code = 405
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 447,32000,1600
+map = 447,52000,1600
+
+[army]
+code = 406
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 448,32000,1600
+map = 448,52000,1600
+
+[army]
+code = 407
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 450,32000,1600
+map = 450,33000,1600
+
+[army]
+code = 408
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 149,32000,1600
+map = 149,33000,1600
+
+[army]
+code = 409
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 155,32000,1600
+map = 155,33000,1600
+
+[army]
+code = 410
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 155,32000,1600
+map = 155,33000,1600
+
+[army]
+code = 411
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 81,32000,1600
+map = 81,33000,1600
+
+[army]
+code = 412
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 82,32000,1600
+map = 82,33000,1600
+
+[army]
+code = 413
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 83,32000,1600
+map = 83,33000,1600
+
+[army]
+code = 414
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 84,32000,1600
+map = 84,33000,1600
+
+[army]
+code = 415
+name = 29045
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_©P©ù,role_°ª¿»,role_ÄT¸q,role_¯û¿Û,role_ªqÃ[,role_ªq±Â,role_¼f°t,role_³\§ñ,role_±ZÚ|,role_°ªÄý,role_¥ÐÃ¥,role_¤ýÚ|
+map = 511,33000,1600
+
+[army]
+code = 416
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 116,22000,1600
+map = 116,30000,1600
+
+[army]
+code = 417
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 118,42000,1600
+map = 118,45000,1600
+
+[army]
+code = 418
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 138,22000,1600
+map = 138,30000,1600
+
+[army]
+code = 419
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 139,42000,1600
+map = 139,45000,1600
+
+[army]
+code = 420
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 154,32000,1600
+map = 154,33000,1600
+
+[army]
+code = 421
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 172,32000,1600
+map = 172,33000,1600
+
+[army]
+code = 422
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 173,32000,1600
+map = 173,33000,1600
+
+[army]
+code = 423
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 174,32000,1600
+map = 174,33000,1600
+
+[army]
+code = 424
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 176,32000,1600
+map = 176,33000,1600
+
+[army]
+code = 425
+name = 29044
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¹lñm,role_¦¶½Ç,role_°ª©w,role_¶k·Ø,role_®Oªd,role_¤g¦w,role_¼B­H
+map = 177,32000,1600
+map = 177,33000,1600
+
+[army]
+code = 426
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 86,22000,1600
+map = 86,30000,1600
+
+[army]
+code = 427
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 93,42000,1600
+map = 93,45000,1600
+
+[army]
+code = 428
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 147,32000,1600
+map = 147,33000,1600
+
+[army]
+code = 429
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 94,22000,1600
+map = 94,33000,1600
+
+[army]
+code = 430
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 96,42000,1600
+map = 96,33000,1600
+
+[army]
+code = 431
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 323,32000,1600
+map = 323,33000,1600
+
+[army]
+code = 432
+name = 29046
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_½±¸q´ë,role_²E¤_Ã£
+map = 324,48000,1600
+map = 324,50000,1600
+
+[army]
+code = 433
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 146,32000,1600
+map = 146,33000,1600
+
+[army]
+code = 434
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 134,22000,1600
+map = 134,25000,1600
+
+[army]
+code = 435
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 135,42000,1600
+map = 135,35000,1600
+
+[army]
+code = 436
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 102,32000,1600
+map = 102,35000,1600
+
+[army]
+code = 437
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 101,22000,1600
+map = 101,32000,1600
+
+[army]
+code = 438
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 115,42000,1600
+map = 115,45000,1600
+
+[army]
+code = 439
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 152,32000,1600
+map = 152,35000,1600
+
+[army]
+code = 440
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 327,32000,1600
+map = 327,35000,1600
+
+[army]
+code = 441
+name = 29047
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_»¯§Â,role_±Z«i,role_§õ§O,role_¸³ÌÉ,role_¥Ð»ö,role_¤ý¤è,role_§õ»X,role_®}ºa,role_¤û»²,role_¼Ô¸Y,role_±iÀÙ,role_¤ý©÷,role_§õ¾æ,role_°ªºÓ,role_®L¨|,role_¥î²ß
+map = 328,48000,1600
+map = 328,50000,1600
+
+[army]
+code = 442
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 151,32000,1600
+map = 151,33000,1600
+
+[army]
+code = 443
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 121,22000,1600
+map = 121,32000,1600
+
+[army]
+code = 444
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 133,42000,1600
+map = 133,43000,1600
+
+[army]
+code = 445
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 150,32000,1600
+map = 150,33000,1600
+
+[army]
+code = 446
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 99,22000,1600
+map = 99,33000,1600
+
+[army]
+code = 447
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 100,42000,1600
+map = 100,33000,1600
+
+[army]
+code = 448
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 331,32000,1600
+map = 331,33000,1600
+
+[army]
+code = 449
+name = 29048
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¯³½Ë,role_³¯½Ã,role_±iÂä,role_¦¨·G,role_°qµÞ,role_ÃQÄò,role_«J¦¨,role_§º¾Ë,role_Á§Äõ,role_§õ«Ê,role_¤ý·¢,role_¤¨Â§,role_§d´°,role_³\Éú
+map = 332,48000,1600
+map = 332,49000,1600
+
+[army]
+code = 450
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 175,48000,1600
+map = 175,49000,1600
+
+[army]
+code = 451
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 172,32000,1600
+map = 172,33000,1600
+
+[army]
+code = 452
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 173,32000,1600
+map = 173,33000,1600
+
+[army]
+code = 453
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 174,32000,1600
+map = 174,33000,1600
+
+[army]
+code = 454
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 176,32000,1600
+map = 176,33000,1600
+
+[army]
+code = 455
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 177,32000,1600
+map = 177,33000,1600
+
+[army]
+code = 456
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 444,32000,1600
+map = 444,33000,1600
+
+[army]
+code = 457
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 447,32000,1600
+map = 447,33000,1600
+
+[army]
+code = 458
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 448,32000,1600
+map = 448,33000,1600
+
+[army]
+code = 459
+name = 29071
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¾W,role_¦£¤úªø,role_¸³²þ¨º,role_ª÷Àô¤Tµ²,role_¦·«ä¤j¤ý,role_ªü·|³ä,role_©s¸`,role_±a¨Ó¬}¥D
+map = 450,32000,1600
+map = 450,33000,1600
+
+[army]
+code = 460
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+
+[army]
+code = 461
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 44,42000,1600
+
+[army]
+code = 462
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 136,22000,1600
+
+[army]
+code = 463
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 137,42000,1600
+
+[army]
+code = 464
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 329,32000,1600
+
+[army]
+code = 465
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 330,48000,1600
+
+[army]
+code = 466
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 41,22000,1600
+
+[army]
+code = 467
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 44,42000,1600
+
+[army]
+code = 468
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 136,22000,1600
+
+[army]
+code = 469
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 137,42000,1600
+
+[army]
+code = 470
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 329,32000,1600
+
+[army]
+code = 471
+name = 29040
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_¾H½å,role_¤ý²Ö,role_¹Q¹t,role_¼B¤Ú,role_·¨¬x,role_°ª¨K,role_·¨Ãh,role_¯³ÌW,role_¼BºÀ,role_§õÄY,role_§õ«ì,role_§f¸q,role_ÀN®m,role_¨ôÁt,role_©P¸s,role_¾HªÛ,role_¼B´`,role_Ã×©P,role_Ãe¸q
+map = 330,48000,1600
+
+[army]
+code = 472
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+
+[army]
+code = 473
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 44,42000,1600
+
+[army]
+code = 474
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 136,22000,1600
+
+[army]
+code = 475
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 137,42000,1600
+
+[army]
+code = 476
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 329,32000,1600
+
+[army]
+code = 477
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 330,48000,1600
+
+[army]
+code = 478
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 41,22000,1600
+
+[army]
+code = 479
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 44,42000,1600
+
+[army]
+code = 480
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 136,22000,1600
+
+[army]
+code = 481
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 137,42000,1600
+
+[army]
+code = 482
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 329,32000,1600
+
+[army]
+code = 483
+name = 29041
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨ªQ,role_·¨¥ô,role_·¨©ù,role_·¨¬f
+map = 330,48000,1600
+
+[army]
+code = 484
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+
+[army]
+code = 485
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 141,42000,1600
+
+[army]
+code = 486
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 142,22000,1600
+
+[army]
+code = 487
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 143,42000,1600
+
+[army]
+code = 488
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 157,32000,1600
+
+[army]
+code = 489
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 144,22000,1600
+
+[army]
+code = 490
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 144,22000,1600
+
+[army]
+code = 491
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 145,42000,1600
+
+[army]
+code = 492
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 325,32000,1600
+
+[army]
+code = 493
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 326,48000,1600
+
+[army]
+code = 494
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 140,22000,1600
+
+[army]
+code = 495
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 141,42000,1600
+
+[army]
+code = 496
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 142,22000,1600
+
+[army]
+code = 497
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 143,42000,1600
+
+[army]
+code = 498
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 157,32000,1600
+
+[army]
+code = 499
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 144,22000,1600
+
+[army]
+code = 500
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 144,22000,1600
+
+[army]
+code = 501
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 145,42000,1600
+
+[army]
+code = 502
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 325,32000,1600
+
+[army]
+code = 503
+name = 29043
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_·¨¥°,role_¼Ö´N,role_±ç­è,role_¼B¾±,role_§õÂ×,role_ÀF¶H,role_¯û¥¿,role_«\¯A,role_Áú­N,role_¯ª­¦,role_¶ÀÖa,role_ª÷©|,role_´fÅü
+map = 326,48000,1600
+
+[army]
+code = 504
+name = 29058
+reborn_delay = 8
+reborn_range = 300
+disappear_time = 240
+list = role_ª~­c,role_¹p»É
+map = 330,24000,1000
+
+[army]
+code = 505
+name = 29041
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¼B¼ý,role_ª~­c,role_¹p»É
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 506
+name = 29041
+reborn_delay = 8
+reborn_range = 300
+disappear_time = 240
+list = role_ª~­c,role_¹p»É
+map = 41,22000,1600
+map = 44,42000,1600
+map = 136,22000,1600
+map = 137,42000,1600
+map = 329,32000,1600
+map = 330,48000,1600
+
+[army]
+code = 507
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 55,22000,1600
+map = 55,42000,1600
+
+[army]
+code = 508
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 56,22000,1600
+map = 56,42000,1600
+
+[army]
+code = 509
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 59,22000,1600
+map = 59,42000,1600
+
+[army]
+code = 510
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 61,22000,1600
+map = 61,42000,1600
+
+[army]
+code = 511
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 62,22000,1600
+map = 62,42000,1600
+
+[army]
+code = 512
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 64,22000,1600
+map = 64,42000,1600
+
+[army]
+code = 513
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 67,22000,1600
+map = 67,42000,1600
+
+[army]
+code = 514
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 72,22000,1600
+map = 72,42000,1600
+
+[army]
+code = 515
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 77,22000,1600
+map = 77,42000,1600
+
+[army]
+code = 516
+name = 29183
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 300
+list = role_Ã¹¦Â,role_¯}­x,role_GM007
+map = 78,22000,1600
+map = 78,42000,1600
+
+[army]
+code = 517
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 55,12000,1600
+map = 55,52000,1600
+map = 55,92000,1600
+
+[army]
+code = 518
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 56,12000,1600
+map = 56,52000,1600
+map = 56,92000,1600
+
+[army]
+code = 519
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 59,12000,1600
+map = 59,52000,1600
+map = 59,92000,1600
+
+[army]
+code = 520
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a±i±ç,role_¸T¦a±i¨¤,role_¸T¦a±iÄ_
+map = 61,12000,1600
+map = 61,32000,1600
+map = 61,72000,1600
+map = 61,92000,1600
+
+[army]
+code = 521
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a±i±ç,role_¸T¦a±i¨¤,role_¸T¦a±iÄ_
+map = 62,12000,1600
+map = 62,32000,1600
+map = 62,72000,1600
+map = 62,92000,1600
+
+[army]
+code = 522
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a±i¥ô,role_¸T¦a±i¾|,role_¸T¦a¼Bªí,role_¸T¦a¤½®]ÅÐ
+map = 64,12000,1600
+map = 64,32000,1600
+map = 64,72000,1600
+map = 64,92000,1600
+
+[army]
+code = 523
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a±i¥ô,role_¸T¦a±i¾|,role_¸T¦a¼Bªí,role_¸T¦a¤½®]ÅÐ
+map = 67,12000,1600
+map = 67,32000,1600
+map = 67,72000,1600
+map = 67,92000,1600
+
+[army]
+code = 524
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¼B¼ý,role_¸T¦aÃe¼w,role_¸T¦a¬öÆF,role_¸T¦aªk¥¿,role_¸T¦aÄYÃC
+map = 72,12000,1600
+map = 72,32000,1600
+map = 72,72000,1600
+map = 72,92000,1600
+
+[army]
+code = 525
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¼B¼ý,role_¸T¦aÃe¼w,role_¸T¦a¬öÆF,role_¸T¦aªk¥¿,role_¸T¦aÄYÃC
+map = 77,12000,1600
+map = 77,32000,1600
+map = 77,72000,1600
+map = 77,92000,1600
+
+[army]
+code = 526
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¼B¼ý,role_¸T¦aÃe¼w,role_¸T¦a¬öÆF,role_¸T¦aªk¥¿,role_¸T¦aÄYÃC
+map = 78,12000,1600
+map = 78,32000,1600
+map = 78,72000,1600
+map = 78,92000,1600
+
+[army]
+code = 527
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¯¬¿Ä,role_¸T¦a°K³N,role_¸T¦a³¯®c,role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 55,12000,1600
+map = 55,32000,1600
+map = 55,72000,1600
+map = 55,92000,1600
+
+[army]
+code = 528
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¯¬¿Ä,role_¸T¦a°K³N,role_¸T¦a³¯®c,role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 56,12000,1600
+map = 56,32000,1600
+map = 56,72000,1600
+map = 56,92000,1600
+
+[army]
+code = 529
+name = 29183
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¸T¦a¯¬¿Ä,role_¸T¦a°K³N,role_¸T¦a³¯®c,role_¸T¦aÃC¨},role_¸T¦a¤åÁà,role_¸T¦aµØ¶¯
+map = 59,12000,1600
+map = 59,32000,1600
+map = 59,72000,1600
+map = 59,92000,1600
+
+[army]
+code = 530
+name = 29030
+reborn_delay = 35
+reborn_range = 300
+disappear_time = 300
+list = role_¶À©¾,role_ÃQ©µ,role_»¯¶³,role_¤Ó¥v·O,role_¥Ì¹ç
+map = 291,12000,1600
+map = 292,32000,1600
+map = 293,72000,1600
+map = 294,92000,1600
+map = 060,72000,1600
+map = 103,32000,1600
+
+[army]
+code = 531
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 039,32000,1600
+
+[army]
+code = 532
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 075,32000,1600
+
+[army]
+code = 533
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 110,32000,1600
+
+[army]
+code = 534
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 095,32000,1600
+
+[army]
+code = 535
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 045,32000,1600
+
+[army]
+code = 536
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 076,32000,1600
+
+[army]
+code = 537
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 058,32000,1600
+
+[army]
+code = 538
+name = 29184
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 300
+list = role_¶ê¤ë¥P¤k
+map = 097,32000,1600
+
+[army]
+code = 539
+name = 29184
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 300
+list = role_¼v«CÀs_§¯ÆF¬},role_¼v¥Õªê_§¯ÆF¬},role_¼v¦¶³¶_§¯ÆF¬},role_¼v¥ÈªZ_§¯ÆF¬},role_¼vÄQÅï_§¯ÆF¬}
+map = 297,22000,1600
+map = 556,26000,1600
+map = 297,22000,1600
+map = 556,26000,1600
+
+[army]
+code = 540
+name = 29184
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 300
+list = role_¼v«CÀs_§¯ÆF¬},role_¼v¥Õªê_§¯ÆF¬},role_¼v¦¶³¶_§¯ÆF¬},role_¼v¥ÈªZ_§¯ÆF¬},role_¼vÄQÅï_§¯ÆF¬}
+map = 297,22000,1600
+map = 556,26000,1600
+map = 297,22000,1600
+map = 556,26000,1600
+
+[army]
+code = 541
+name = 29184
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 300
+list = role_¼v«CÀs_§¯ÆF¬},role_¼v¥Õªê_§¯ÆF¬},role_¼v¦¶³¶_§¯ÆF¬},role_¼v¥ÈªZ_§¯ÆF¬},role_¼vÄQÅï_§¯ÆF¬}
+map = 297,22000,1600
+map = 556,26000,1600
+map = 297,22000,1600
+map = 556,26000,1600
+
+[army]
+code = 542
+name = 29184
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 300
+list = role_¼v«CÀs_§¯ÆF¬},role_¼v¥Õªê_§¯ÆF¬},role_¼v¦¶³¶_§¯ÆF¬},role_¼v¥ÈªZ_§¯ÆF¬},role_¼vÄQÅï_§¯ÆF¬}
+map = 297,22000,1600
+map = 556,26000,1600
+map = 297,22000,1600
+map = 556,26000,1600
+
+[army]
+code = 543
+name = 29183
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 172,24000,1000
+map = 173,24000,1200
+map = 174,24000,1400
+map = 175,24000,1600
+map = 176,22000,1600
+map = 177,22000,1600
+
+[army]
+code = 544
+name = 29183
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 535,22000,1600
+map = 536,22000,1600
+map = 537,22000,1600
+map = 538,22000,1600
+map = 539,24000,1800
+
+[army]
+code = 545
+name = 29183
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 535,22000,1600
+map = 536,22000,1600
+map = 537,22000,1600
+map = 538,22000,1600
+map = 539,24000,1800
+
+[army]
+code = 546
+name = 29185
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_±i¿ñ_ÃQ¨}±N,role_¼Ö¶i_ÃQ¨}±N,role_¤_¸T_ÃQ¨}±N,role_±i­¨_ÃQ¨}±N,role_®}®Ì_ÃQ¨}±N
+map = 150,22000,1600
+map = 042,22000,1600
+map = 130,22000,1600
+map = 102,22000,1600
+
+[army]
+code = 547
+name = 29186
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_Ãö¦Ð_¸¾¤W±N,role_±i­¸_¸¾¤W±N,role_»¯¶³_¸¾¤W±N,role_°¨¶W_¸¾¤W±N,role_¶À©¾_¸¾¤W±N
+map = 131,22000,1600
+map = 111,22000,1600
+map = 151,22000,1600
+map = 152,22000,1600
+map = 032,22000,1600
+
+[army]
+code = 548
+name = 29187
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_¯ûÑ{_ÃQ¿Ñ¤h,role_¯û§ñ_ÃQ¿Ñ¤h,role_¸ëàH_ÃQ¿Ñ¤h,role_µ{¬R_ÃQ¿Ñ¤h,role_³¢¹Å_ÃQ¿Ñ¤h
+map = 040,22000,1600
+map = 057,22000,1600
+map = 146,22000,1600
+map = 147,22000,1600
+map = 149,22000,1600
+
+[army]
+code = 549
+name = 29188
+reborn_delay = 120
+reborn_range = 300
+disappear_time = 240
+list = role_©P·ì_§d¥|ªN,role_¾|µÂ_§d¥|ªN,role_§f»X_§d¥|ªN,role_³°»¹_§d¥|ªN
+map = 132,22000,1600
+map = 052,22000,1600
+map = 154,22000,1600
+map = 087,22000,1600
+
+[army]
+code = 550
+name = 29183
+reborn_delay = 12
+reborn_range = 
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 521,12000,1600
+map = 522,12000,1600
+map = 523,12000,1600
+map = 524,12000,1600
+map = 525,12000,1600
+map = 526,12000,1600
+map = 528,12000,1600
+map = 529,12000,1600
+
+[army]
+code = 551
+name = 29183
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 172,44000,1000
+map = 173,44000,1200
+map = 174,44000,1400
+map = 175,44000,1600
+map = 175,44000,1800
+map = 176,12000,1600
+map = 177,12000,1600
+
+[army]
+code = 552
+name = 29183
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 532,12000,1600
+map = 533,12000,1600
+map = 542,44000,1800
+map = 543,12000,1600
+map = 544,12000,1600
+map = 545,12000,1600
+
+[army]
+code = 553
+name = 29183
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¥ì´H¤k,role_ÃSÃR®V,role_Ã»¤õÄ],role_¤õªÁ®Q,role_­°§Å®V,role_¤sªÁÄ],role_ÆFªÁ¤k,role_¤ôªÁ®Q,role_¹ë¤ý¡E§¯¤­®Q,role_¤s¹ë¤ý¡EÄY³£
+map = 535,12000,1600
+map = 536,12000,1600
+map = 537,12000,1600
+map = 538,12000,1600
+map = 539,14000,1800
+
+[army]
+code = 554
+name = 29183
+reborn_delay = 22
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 172,44000,1000
+map = 173,44000,1200
+map = 174,44000,1400
+map = 175,44000,1600
+map = 176,44000,1600
+map = 177,44000,1600
+
+[army]
+code = 555
+name = 29183
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¼v¦¶³¶,role_¼v¥ÈªZ,role_¼v«CÀs,role_¼v¥Õªê,role_¼vÄQÅï
+map = 172,42000,1000
+map = 173,42000,1200
+map = 174,42000,1400
+map = 175,42000,1600
+map = 176,42000,1600
+map = 177,42000,1600
+
+[army]
+code = 556
+name = 29183
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = 
+
+[army]
+code = 557
+name = 29183
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = 
+
+[army]
+code = 558
+name = 29183
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = 
+
+[army]
+code = 559
+name = 29112
+reborn_delay = 19
+reborn_range = 300
+disappear_time = 240
+list = role_Áú«H,role_±i¨}
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 560
+name = 29112
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_Áú«H,role_±i¨}
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 561
+name = 29090
+reborn_delay = 18
+reborn_range = 300
+disappear_time = 240
+list = role_¼ÔéD,role_¿½¦ó
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 562
+name = 29090
+reborn_delay = 12
+reborn_range = 300
+disappear_time = 240
+list = role_¼ÔéD,role_¿½¦ó
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 563
+name = 29109
+reborn_delay = 16
+reborn_range = 300
+disappear_time = 240
+list = role_õ´¥¬,role_­S¼W
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 564
+name = 29109
+reborn_delay = 18
+reborn_range = 300
+disappear_time = 240
+list = role_õ´¥¬,role_­S¼W
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 565
+name = 29108
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_Às¥B,role_¶µ±ç,role_³¹ÍÕ,role_¸³Ák,role_¶µÁn,role_©PÄõ,role_ªZ¯A,role_¥q°¨ªY
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 566
+name = 29108
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_Às¥B,role_¶µ±ç,role_³¹ÍÕ,role_¸³Ák,role_¶µÁn,role_©PÄõ,role_ªZ¯A,role_¥q°¨ªY
+map = 395,32000,1600
+map = 396,32000,1600
+map = 397,32000,1600
+map = 398,32000,1600
+map = 399,32000,1600
+
+[army]
+code = 567
+name = 29111
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_´^¶V,role_±i±Î,role_®L«JÀ¦,role_³Å¼e,role_Å°­¹¨ä,role_¤ý³®,role_Å°°Ó,role_®O®þ
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 568
+name = 29111
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_´^¶V,role_±i±Î,role_®L«JÀ¦,role_³Å¼e,role_Å°­¹¨ä,role_¤ý³®,role_Å°°Ó,role_®O®þ
+map = 389,32000,1600
+map = 390,32000,1600
+map = 391,32000,1600
+map = 392,32000,1600
+map = 393,32000,1600
+
+[army]
+code = 569
+name = 29091
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ÄéÀ¦,role_³¯¥­,role_³¢»X,role_·¨³ß,role_±ä°Ñ,role_§f¿A,role_Á§¤½,role_³e°ª
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 570
+name = 29091
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_ÄéÀ¦,role_³¯¥­,role_³¢»X,role_·¨³ß,role_±ä°Ñ,role_§f¿A,role_Á§¤½,role_³e°ª
+map = 364,32000,1600
+map = 365,32000,1600
+map = 366,32000,1600
+
+[army]
+code = 571
+name = 29089
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¶µ§B,role_©P®ï,role_¿½¤½¨¤,role_±i¶h,role_±ä©S,role_¤B¤½,role_¾G©÷,role_³¯À¦
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 572
+name = 29089
+reborn_delay = 2
+reborn_range = 300
+disappear_time = 240
+list = role_¶µ§B,role_©P®ï,role_¿½¤½¨¤,role_±i¶h,role_±ä©S,role_¤B¤½,role_¾G©÷,role_³¯À¦
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 573
+name = 29088
+reborn_delay = 19
+reborn_range = 300
+disappear_time = 240
+list = role_ÁéÂ÷¬N,role_¶µ²ø
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 574
+name = 29088
+reborn_delay = 17
+reborn_range = 300
+disappear_time = 240
+list = role_ÁéÂ÷¬N,role_¶µ²ø
+map = 359,32000,1600
+map = 367,32000,1600
+map = 368,32000,1600
+
+[army]
+code = 575
+name = 29189
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_Elin¬ÂÄn,role_ª±®a_Elin¦Êªá,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_¤j½Ã,role_ª±®a_½Þ©f,role_ª±®a_¤û©f,role_ª±®a_¦n©_®`¦º¿ß,role_ª±®a_¬õ¤@¬Ó,role_ª±®a_¶Æ¥@¡°§g¥D,role_ª±®a_¡²Alex,role_ª±®a_¶Æ¥@¡°¶W­ô
+
+[army]
+code = 576
+name = 29189
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_1234156,role_ª±®a_ak48,role_ª±®a_¶§¥ú¤Uªºªwªj,role_ª±®a_ÂIÂI,role_ª±®a_¥Õµæ¸­¤l,role_ª±®a_¯ã¤U¦³¥û¾¹,role_ª±®a_»¯¤@¤M,role_ª±®a_CatchMyBreath,role_ª±®a_µ·µ·¤J¦©,role_ª±®a_¦Y»å¤lª±·A¤l
+
+[army]
+code = 577
+name = 29189
+reborn_delay = 1
+reborn_range = 100
+disappear_time = 240
+list = role_ª±®a_¥Ð¾_,role_ª±®a_©P·ì,role_ª±®a_§Ú´N¯ó¤F,role_ª±®a_Clover¤@¿Õ,role_ª±®a_Às¤­,role_ª±®a_¶³¤§ºÍ,role_ª±®a_¤kªB¤Íº|®ð¤F,role_ª±®a_¾UµÞµÞ,role_ª±®a_¸X®L,role_ª±®a_Àu¦ç®w
+
+[army]
+code = 578
+name = 29189
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 60
+list = role_ª±®a_¶³¤§ºÍ,role_ª±®a_¤kªB¤Íº|®ð¤F,role_ª±®a_Elin¬ÂÄn,role_ª±®a_¼ÔÄÜ,role_ª±®a_·Ï«B¬K¹Ú¼Ó,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_¾UµÞµÞ,role_ª±®a_¸X®L,role_ª±®a_Àu¦ç®w,role_ª±®a_¤j½Ã,role_ª±®a_½Þ©f,role_ª±®a_¤û©f,role_ª±®a_¦n©_®`¦º¿ß,role_ª±®a_¬õ¤@¬Ó,role_ª±®a_¶Æ¥@¡°§g¥D,role_ª±®a_¡²Alex,role_ª±®a_¶Æ¥@¡°¶W­ô,role_ª±®a_»¯¤@¤M,role_ª±®a_CatchMyBreath,role_ª±®a_ÂIÂI,role_ª±®a_¤pµÞ¨ß¼T,role_ª±®a_ÅxÅx°sÅxÅx,role_ª±®a_3366,role_ª±®a_¤E­Ó¤Ó¶§,role_ª±®a_§Ú¬O§Aªº¤ÛÄ±
+
+[army]
+code = 579
+name = 29189
+reborn_delay = 1
+reborn_range = 300
+disappear_time = 240
+list = role_ª±®a_Elin¬ÂÄn,role_ª±®a_Elin¦Êªá,role_ª±®a_¤p¨ß¨à¦ªºj,role_ª±®a_ÁÙ¬O¤â±·¹p,role_ª±®a_¼ÔÄÜ,role_ª±®a_·Ï«B¬K¹Ú¼Ó,role_ª±®a_¤pµÞ¨ß¼T,role_ª±®a_ÅxÅx°sÅxÅx,role_ª±®a_3366,role_ª±®a_¤E­Ó¤Ó¶§,role_ª±®a_§Ú¬O§Aªº¤ÛÄ±,role_ª±®a_­·´º,role_ª±®a_ºaÄ£¡X¦ã´µ,role_ª±®a_¯«µL¤ë
+
+[army]
+code = 580
+name = 29104
+reborn_delay = 5
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 166,12000,1600
+map = 167,12000,1600
+map = 168,12000,1600
+map = 170,12000,1600
+map = 171,12000,1600
+map = 169,12000,1600
+
+[army]
+code = 581
+name = 29104
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 166,32000,1600
+map = 167,32000,1600
+map = 168,32000,1600
+map = 170,32000,1600
+map = 171,32000,1600
+map = 169,32000,1600
+
+[army]
+code = 581
+name = 29104
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 166,51200,1600
+map = 167,51200,1600
+map = 168,51200,1600
+map = 170,51200,1600
+map = 171,51200,1600
+map = 169,51200,1600
+
+[army]
+code = 582
+name = 29104
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_³t¹²¤Y,role_¼Ó¯Z,role_¨º¼Ó,role_¹ý¨½¦N,role_¥ª½å¤ý,role_°g·í¤j¤ý,role_ÁÏ¹y,role_¶a¤ñ¯à
+map = 166,42000,1600
+map = 167,42000,1600
+map = 168,42000,1600
+map = 170,42000,1600
+map = 171,42000,1600
+map = 169,42000,1600
+
+[army]
+code = 583
+name = 29104
+reborn_delay = 3
+reborn_range = 300
+disappear_time = 240
+list = role_©I¼p¬u,role_¥ª½å¤ý,role_ÁÏ¹y
+map = 166,22000,1600
+map = 167,22000,1600
+map = 168,22000,1600
+map = 170,22000,1600
+map = 171,22000,1600
+map = 169,22000,1600
+
+[army]
+code = 584
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_Ã¹¦Â
+map = 557,6400,800
+
+[army]
+code = 585
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_Ã¹¦Â
+map = 557,12000,800
+
+[army]
+code = 586
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_Ã¹¦Â,role_GM007
+map = 557,19200,800
+
+[army]
+code = 587
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_¯}­x
+map = 557,32000,800
+
+[army]
+code = 588
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_¯}­x
+map = 557,42000,800
+
+[army]
+code = 589
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_¯}­x
+map = 557,52000,800
+
+[army]
+code = 590
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_GM007
+map = 558,22000,800
+
+[army]
+code = 591
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_GM007
+map = 558,42000,800
+
+[army]
+code = 592
+name = 29183
+reborn_delay = 1
+reborn_range = 1
+disappear_time = 300
+list = role_GM007
+map = 758,52000,800
+
+[army]
+code = 593
+name = 29190
+reborn_delay = 2
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 299,3200,800
+map = 299,6400,800
+map = 299,9600,800
+map = 299,12800,800
+map = 299,16000,800
+map = 299,19200,800
+map = 299,22400,800
+
+[army]
+code = 594
+name = 29190
+reborn_delay = 5
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 27,3200,800
+map = 27,6400,800
+map = 27,9600,800
+map = 27,12800,800
+map = 27,16000,800
+map = 27,19200,800
+map = 27,22400,800
+map = 27,25600,800
+map = 27,28800,800
+map = 27,32000,800
+
+[army]
+code = 595
+name = 29190
+reborn_delay = 2
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 27,3200,800
+map = 27,6400,800
+map = 27,9600,800
+map = 27,12800,800
+map = 27,16000,800
+map = 27,19200,800
+map = 27,22400,800
+map = 27,25600,800
+map = 27,28800,800
+map = 27,32000,800
+
+[army]
+code = 596
+name = 29190
+reborn_delay = 5
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 299,3200,800
+map = 299,6400,800
+map = 299,9600,800
+map = 299,12800,800
+map = 299,16000,800
+map = 299,19200,800
+map = 299,22400,800
+
+[army]
+code = 597
+name = 29190
+reborn_delay = 5
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 593,3200,800
+map = 593,6400,800
+map = 593,9600,800
+map = 593,12800,800
+map = 593,16000,800
+map = 593,19200,800
+map = 593,22400,800
+
+[army]
+code = 598
+name = 29190
+reborn_delay = 2
+reborn_range = 50
+disappear_time = 240
+list = 
+map = 593,3200,800
+map = 593,6400,800
+map = 593,9600,800
+map = 593,12800,800
+map = 593,16000,800
+map = 593,19200,800
+map = 593,22400,800
+
+[army]
+code = 599
+name = 29190
+reborn_delay = 300
+reborn_range = 300
+disappear_time = 240
+list = role_¶g¦~¼y¤pÂû,role_¶g¦~¼y¤p¦Ï,role_¤H³½¤½¥D,role_¹pÀs,role_¤jÀYÀs,role_¤k¹²,role_¦Ç¤Ó¯T,role_»A¥Éµì,role_³ß¦Ï¦Ï,role_ºµ¿ß¥J,role_¾÷¾¹¤H,role_¿ß«},role_Ã¹¼w®c§Ê­·,role_¯«ºj¤â,role_¿P§ÀªA¨k,role_²½¨å¯D¦ç
+map = 27,12800,800
+map = 299,12800,800
+map = 593,12800,800
+map = 324,22400,800
+map = 150,22400,800
+map = 332,22400,800
+map = 328,22400,800
+map = 447,22400,800
+map = 445,22400,800
+map = 435,22400,800
+map = 433,22400,800
+map = 433,22400,800
+map = 172,22400,800
+map = 174,22400,800
+map = 176,22400,800
+map = 166,22400,800
+map = 169,22400,800
+map = 171,22400,800
+map = 118,22400,800
+
+[army]
+code = 500
+name = 29030
+reborn_delay = 1440
+reborn_range = 300
+disappear_time = 1400
+list = role_®L«J²W§Þ¯àªZ»î_cosplay,role_®}®Ì§Þ¯àªZ»î_cosplay,role_¸ëàH§Þ¯àªZ»î_cosplay,role_°¨¶W§Þ¯àªZ»î_cosplay,role_Ãe²Î§Þ¯àªZ»î_cosplay
+map = 042,42000,1000
+map = 038,42000,1000
+map = 036,42000,1000
+map = 104,42000,1000
+map = 032,42000,1000

@@ -1,0 +1,7554 @@
+[ini]
+Max = 999
+
+
+[stage]
+code = 1
+x = 1904
+y = 894
+w = 48
+h = 35
+MapItemType = 3
+Force = 1
+RefForce = 0
+MapType = 28
+Neighbour = 75,76,130
+Info_ID = 1500000
+
+[stage]
+code = 2
+x = 1501
+y = 921
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 105,106,316,571
+Info_ID = 1500001
+
+[stage]
+code = 3
+x = 1956
+y = 617
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 81,82,149,350
+Info_ID = 1500002
+
+[stage]
+code = 4
+x = 1569
+y = 1146
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 12
+Neighbour = 117,122
+Info_ID = 1500003
+
+[stage]
+code = 5
+x = 1860
+y = 1106
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 11
+Neighbour = 119,120
+Info_ID = 1500004
+
+[stage]
+code = 6
+x = 1856
+y = 392
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 86,93
+Info_ID = 1500005
+
+[stage]
+code = 7
+x = 2196
+y = 922
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 13
+Neighbour = 112,113,127
+Info_ID = 1500006
+
+[stage]
+code = 8
+x = 2375
+y = 605
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 83,84
+Info_ID = 1500007
+
+[stage]
+code = 9
+x = 2407
+y = 432
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 94,96
+Info_ID = 1500008
+
+[stage]
+code = 10
+x = 773
+y = 608
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 99,100
+Info_ID = 1500009
+
+[stage]
+code = 11
+x = 894
+y = 1334
+w = 48
+h = 35
+MapItemType = 3
+Force = 2
+RefForce = 0
+MapType = 28
+Neighbour = 39,45,131
+Info_ID = 1500010
+
+[stage]
+code = 12
+x = 1366
+y = 708
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 134,135,358,574
+Info_ID = 1500011
+
+[stage]
+code = 13
+x = 1263
+y = 1531
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 41,44
+Info_ID = 1500012
+
+[stage]
+code = 14
+x = 1213
+y = 1239
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 11
+Neighbour = 85,107,128
+Info_ID = 1500013
+
+[stage]
+code = 15
+x = 1582
+y = 1368
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 12
+Neighbour = 108,109
+Info_ID = 1500014
+
+[stage]
+code = 16
+x = 927
+y = 843
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 121,133
+Info_ID = 1500015
+
+[stage]
+code = 17
+x = 2068
+y = 1545
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 46,47,315,570
+Info_ID = 1500016
+
+[stage]
+code = 18
+x = 1006
+y = 1015
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 101,115
+Info_ID = 1500017
+
+[stage]
+code = 19
+x = 717
+y = 1689
+w = 48
+h = 35
+MapItemType = 2
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 116,118,164,172
+Info_ID = 1500018
+
+[stage]
+code = 20
+x = 1536
+y = 1818
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 136,137
+Info_ID = 1500019
+
+[stage]
+code = 21
+x = 2767
+y = 1172
+w = 48
+h = 35
+MapItemType = 3
+Force = 3
+RefForce = 0
+MapType = 28
+Neighbour = 58,110,132
+Info_ID = 1500020
+
+[stage]
+code = 22
+x = 2454
+y = 1233
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 11
+Neighbour = 53,54,129
+Info_ID = 1500021
+
+[stage]
+code = 23
+x = 1820
+y = 1784
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 138,139,357,573
+Info_ID = 1500022
+
+[stage]
+code = 24
+x = 1728
+y = 1595
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 13
+Neighbour = 49,51
+Info_ID = 1500023
+
+[stage]
+code = 25
+x = 2188
+y = 1270
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 11
+Neighbour = 91,92
+Info_ID = 1500024
+
+[stage]
+code = 26
+x = 1868
+y = 1339
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 12
+Neighbour = 88,89,258
+Info_ID = 1500025
+
+[stage]
+code = 27
+x = 2160
+y = 1098
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 12
+Neighbour = 95,97
+Info_ID = 1500026
+
+[stage]
+code = 28
+x = 2203
+y = 1728
+w = 48
+h = 35
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 140,141
+Info_ID = 1500027
+
+[stage]
+code = 29
+x = 2611
+y = 954
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 11
+Neighbour = 63,98
+Info_ID = 1500028
+
+[stage]
+code = 30
+x = 2738
+y = 680
+w = 48
+h = 35
+MapItemType = 2
+Force = 1
+RefForce = 0
+MapType = 11
+Neighbour = 65,114
+Info_ID = 1500029
+
+[stage]
+code = 031
+x = 2367
+y = 1497
+w = 25
+h = 18
+MapItemType = 2
+Force = 3
+RefForce = 20
+MapType = 6
+Neighbour = 142,143
+Info_ID = 1500030
+
+[stage]
+code = 032
+x = 1398
+y = 1184
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 6
+Neighbour = 107,102,122,34
+Info_ID = 1500031
+
+[stage]
+code = 033
+x = 2734
+y = 1421
+w = 25
+h = 18
+MapItemType = 2
+Force = 3
+RefForce = 0
+MapType = 6
+Neighbour = 144,145,297
+Info_ID = 1500032
+
+[stage]
+code = 034
+x = 1444
+y = 1296
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 2
+Neighbour = 32,108,260
+Info_ID = 1500033
+
+[stage]
+code = 035
+x = 2398
+y = 819
+w = 25
+h = 18
+MapItemType = 2
+Force = 1
+RefForce = 16
+MapType = 5
+Neighbour = 155,156
+Info_ID = 1500034
+
+[stage]
+code = 036
+x = 1917
+y = 1571
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 7
+Neighbour = 38,46,51
+Info_ID = 1500035
+
+[stage]
+code = 037
+x = 2878
+y = 307
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 179,181
+Info_ID = 1500036
+
+[stage]
+code = 038
+x = 2066
+y = 1346
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 5
+Neighbour = 36,89,91,120
+Info_ID = 1500037
+
+[stage]
+code = 039
+x = 1008
+y = 1321
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 11
+MapType = 26
+Neighbour = 11,85,111
+Info_ID = 1500038
+
+[stage]
+code = 040
+x = 1732
+y = 917
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 76,105,119,146
+Info_ID = 1500039
+
+[stage]
+code = 041
+x = 1181
+y = 1565
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 13
+MapType = 24
+Neighbour = 13,60,295
+Info_ID = 1500040
+
+[stage]
+code = 042
+x = 2353
+y = 1016
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 5
+Neighbour = 48,92,97,112
+Info_ID = 1500041
+
+[stage]
+code = 043
+x = 3206
+y = 307
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 186,188
+Info_ID = 1500042
+
+[stage]
+code = 044
+x = 1398
+y = 1524
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 13
+MapType = 5
+Neighbour = 13,103
+Info_ID = 1500043
+
+[stage]
+code = 045
+x = 777
+y = 1354
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 4
+Neighbour = 11,152
+Info_ID = 1500044
+
+[stage]
+code = 046
+x = 1998
+y = 1572
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 17
+MapType = 4
+Neighbour = 17,36,154
+Info_ID = 1500045
+
+[stage]
+code = 047
+x = 2195
+y = 1506
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 17
+MapType = 4
+Neighbour = 17,53,142
+Info_ID = 1500046
+
+[stage]
+code = 048
+x = 2440
+y = 1026
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 2
+Neighbour = 42,98,276
+Info_ID = 1500047
+
+[stage]
+code = 049
+x = 1647
+y = 1587
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 24
+MapType = 4
+Neighbour = 24,104,291,138
+Info_ID = 1500048
+
+[stage]
+code = 050
+x = 3442
+y = 469
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 189,191
+Info_ID = 1500049
+
+[stage]
+code = 051
+x = 1853
+y = 1595
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 24
+MapType = 1
+Neighbour = 24,36
+Info_ID = 1500050
+
+[stage]
+code = 052
+x = 2657
+y = 1088
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 27
+Neighbour = 54,58,63
+Info_ID = 1500051
+
+[stage]
+code = 053
+x = 2386
+y = 1281
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 22
+MapType = 1
+Neighbour = 22,47,92
+Info_ID = 1500052
+
+[stage]
+code = 054
+x = 2564
+y = 1203
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 22
+MapType = 1
+Neighbour = 22,52,58,157
+Info_ID = 1500053
+
+[stage]
+code = 055
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 056
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 057
+x = 2060
+y = 998
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 1
+MapType = 30
+Neighbour = 75,113,298
+Info_ID = 1500054
+
+[stage]
+code = 058
+x = 2692
+y = 1187
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 21
+MapType = 26
+Neighbour = 21,52,54
+Info_ID = 1500055
+
+[stage]
+code = 059
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 060
+x = 1044
+y = 1551
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 30
+Neighbour = 41,85,118
+Info_ID = 1500056
+
+[stage]
+code = 061
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 062
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 063
+x = 2735
+y = 981
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 29
+MapType = 3
+Neighbour = 29,87,52,331
+Info_ID = 1500057
+
+[stage]
+code = 064
+x = -1
+y = -1
+w = 48
+h = 35
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 065
+x = 2633
+y = 672
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 30
+MapType = 7
+Neighbour = 30,90,83
+Info_ID = 1500058
+
+[stage]
+code = 066
+x = 610
+y = 99
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 7
+Neighbour = 67
+
+Info_ID = 1500282
+
+[stage]
+code = 067
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 9
+MapType = 9
+Neighbour = 0
+
+[stage]
+code = 068
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 0
+MapType = 11
+Neighbour = 0
+
+[stage]
+code = 069
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 10
+MapType = 9
+Neighbour = 0
+
+[stage]
+code = 070
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 9
+MapType = 9
+Neighbour = 0
+
+[stage]
+code = 071
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 68
+MapType = 5
+Neighbour = 0
+
+[stage]
+code = 072
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 3
+MapType = 9
+Neighbour = 0
+
+[stage]
+code = 073
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 3
+MapType = 2
+Neighbour = 0
+
+[stage]
+code = 074
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 77
+MapType = 5
+Neighbour = 0
+
+[stage]
+code = 075
+x = 2020
+y = 896
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 1
+MapType = 26
+Neighbour = 1,57,113
+Info_ID = 1500059
+
+[stage]
+code = 076
+x = 1837
+y = 912
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 1
+MapType = 26
+Neighbour = 1,40
+Info_ID = 1500060
+
+[stage]
+code = 077
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 68
+MapType = 7
+Neighbour = 0
+
+[stage]
+code = 078
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 68
+MapType = 7
+Neighbour = 0
+
+[stage]
+code = 079
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 6
+MapType = 6
+Neighbour = 0
+
+[stage]
+code = 080
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 2
+Force = 0
+RefForce = 19
+MapType = 6
+Neighbour = 0
+
+[stage]
+code = 081
+x = 1856
+y = 649
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 77
+MapType = 5
+Neighbour = 146,3
+Info_ID = 1500061
+
+[stage]
+code = 082
+x = 2090
+y = 613
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 15
+Neighbour = 3,149,84,323
+Info_ID = 1500062
+
+[stage]
+code = 083
+x = 2509
+y = 627
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 12
+MapType = 5
+Neighbour = 8,65
+Info_ID = 1500063
+
+[stage]
+code = 084
+x = 2259
+y = 587
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 82,147,8
+Info_ID = 1500064
+
+[stage]
+code = 085
+x = 1143
+y = 1287
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 14
+MapType = 4
+Neighbour = 14,39,60,111
+Info_ID = 1500065
+
+[stage]
+code = 086
+x = 1731
+y = 377
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 25
+Neighbour = 6,146,360
+Info_ID = 1500066
+
+[stage]
+code = 087
+x = 2732
+y = 834
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 90
+MapType = 30
+Neighbour = 63,90,156
+Info_ID = 1500067
+
+[stage]
+code = 088
+x = 1794
+y = 1336
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 26
+MapType = 1
+Neighbour = 26,109,117
+Info_ID = 1500068
+
+[stage]
+code = 089
+x = 1987
+y = 1349
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 26
+MapType = 1
+Neighbour = 26,38,264
+Info_ID = 1500069
+
+[stage]
+code = 090
+x = 2603
+y = 749
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 65,87,293
+Info_ID = 1500070
+
+[stage]
+code = 091
+x = 2128
+y = 1311
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 25
+MapType = 7
+Neighbour = 25,38
+Info_ID = 1500071
+
+[stage]
+code = 092
+x = 2292
+y = 1266
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 25
+MapType = 3
+Neighbour = 25,42,53
+Info_ID = 1500072
+
+[stage]
+code = 093
+x = 1994
+y = 446
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 6,93
+Info_ID = 1500073
+
+[stage]
+code = 094
+x = 2304
+y = 419
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 147,9
+Info_ID = 1500074
+
+[stage]
+code = 095
+x = 2086
+y = 1128
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 27
+MapType = 3
+Neighbour = 27,120,262
+Info_ID = 1500075
+
+[stage]
+code = 096
+x = 2530
+y = 452
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 30
+Neighbour = 9,148
+Info_ID = 1500076
+
+[stage]
+code = 097
+x = 2269
+y = 1075
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 27
+MapType = 1
+Neighbour = 27,42
+Info_ID = 1500077
+
+[stage]
+code = 098
+x = 2530
+y = 989
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 29
+MapType = 2
+Neighbour = 29,48
+Info_ID = 1500078
+
+[stage]
+code = 099
+x = 676
+y = 680
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 30
+Neighbour = 151,10
+Info_ID = 1500079
+
+[stage]
+code = 100
+x = 904
+y = 591
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 8
+MapType = 3
+Neighbour = 10,150
+Info_ID = 1500080
+
+[stage]
+code = 101
+x = 911
+y = 989
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 8
+MapType = 3
+Neighbour = 121,18,329
+Info_ID = 1500081
+
+[stage]
+code = 102
+x = 1284
+y = 1006
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 30
+Neighbour = 32,106,115,133
+Info_ID = 1500082
+
+[stage]
+code = 103
+x = 1465
+y = 1593
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 24
+MapType = 30
+Neighbour = 44,104,136
+Info_ID = 1500083
+
+[stage]
+code = 104
+x = 1551
+y = 1564
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 24
+MapType = 30
+Neighbour = 49,103,108
+Info_ID = 1500084
+
+[stage]
+code = 105
+x = 1629
+y = 890
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 2
+MapType = 2
+Neighbour = 2,40
+Info_ID = 1500085
+
+[stage]
+code = 106
+x = 1403
+y = 964
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 2
+MapType = 5
+Neighbour = 2,102,327
+Info_ID = 1500086
+
+[stage]
+code = 107
+x = 1313
+y = 1207
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 14
+MapType = 2
+Neighbour = 14,32
+Info_ID = 1500087
+
+[stage]
+code = 108
+x = 1505
+y = 1350
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 15
+MapType = 24
+Neighbour = 15,34,104
+Info_ID = 1500088
+
+[stage]
+code = 109
+x = 1687
+y = 1382
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 15
+MapType = 3
+Neighbour = 15,88,267
+Info_ID = 1500089
+
+[stage]
+code = 110
+x = 2902
+y = 1171
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 25
+Neighbour = 21,158
+Info_ID = 1500090
+
+[stage]
+code = 111
+x = 1062
+y = 1181
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 24
+Neighbour = 39,85,115
+Info_ID = 1500091
+
+[stage]
+code = 112
+x = 2290
+y = 966
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 7
+MapType = 2
+Neighbour = 7,42
+Info_ID = 1500092
+
+[stage]
+code = 113
+x = 2108
+y = 893
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 7
+MapType = 3
+Neighbour = 7,57,75,149
+Info_ID = 1500093
+
+[stage]
+code = 114
+x = 2852
+y = 632
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 3
+Neighbour = 30,159
+Info_ID = 1500094
+
+[stage]
+code = 115
+x = 1162
+y = 1045
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 3
+Neighbour = 18,111,102
+Info_ID = 1500095
+
+[stage]
+code = 116
+x = 571
+y = 1688
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 5
+Neighbour = 19,522,524,528,529
+Info_ID = 1500096
+
+[stage]
+code = 117
+x = 1682
+y = 1127
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 4
+MapType = 2
+Neighbour = 4,88,119,285
+Info_ID = 1500097
+
+[stage]
+code = 118
+x = 906
+y = 1639
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 25
+Neighbour = 19,60,172,526
+Info_ID = 1500098
+
+[stage]
+code = 119
+x = 1783
+y = 1116
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 6
+MapType = 3
+Neighbour = 5,40,117
+Info_ID = 1500099
+
+[stage]
+code = 120
+x = 2004
+y = 1126
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 6
+MapType = 3
+Neighbour = 5,38,95
+Info_ID = 1500100
+
+[stage]
+code = 121
+x = 802
+y = 902
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 4
+Neighbour = 151,101,16
+Info_ID = 1500101
+
+[stage]
+code = 122
+x = 1496
+y = 1168
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 4
+MapType = 2
+Neighbour = 4,32
+Info_ID = 1500102
+
+[stage]
+code = 123
+x = 242
+y = 81
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 29
+Neighbour = 124,125,126
+Info_ID = 1500103
+
+[stage]
+code = 124
+x = 242
+y = 126
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 29
+Neighbour = 123,125,126
+Info_ID = 1500104
+
+[stage]
+code = 125
+x = 338
+y = 126
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 29
+Neighbour = 123,124,126
+Info_ID = 1500105
+
+[stage]
+code = 126
+x = 338
+y = 81
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 29
+Neighbour = 123,125,124
+Info_ID = 1500106
+
+[stage]
+code = 127
+x = 2282
+y = 892
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 15
+Neighbour = 7
+Info_ID = 1500107
+
+[stage]
+code = 128
+x = 1266
+y = 1160
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 15
+Neighbour = 14
+Info_ID = 1500108
+
+[stage]
+code = 129
+x = 2410
+y = 1211
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 15
+Neighbour = 22
+Info_ID = 1500109
+
+[stage]
+code = 130
+x = 1891
+y = 994
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 15
+Neighbour = 1
+Info_ID = 1500110
+
+[stage]
+code = 131
+x = 855
+y = 1299
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 15
+Neighbour = 11
+Info_ID = 1500111
+
+[stage]
+code = 132
+x = 2834
+y = 1126
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 15
+Neighbour = 21
+Info_ID = 1500112
+
+[stage]
+code = 133
+x = 1097
+y = 802
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 16,134,102
+Info_ID = 1500113
+
+[stage]
+code = 134
+x = 1246
+y = 764
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 133,150,12
+Info_ID = 1500114
+
+[stage]
+code = 135
+x = 1511
+y = 694
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 12,146
+Info_ID = 1500115
+
+[stage]
+code = 136
+x = 1440
+y = 1814
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 103,20,354
+Info_ID = 1500116
+
+[stage]
+code = 137
+x = 1663
+y = 1838
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 20,138
+Info_ID = 1500117
+
+[stage]
+code = 138
+x = 1743
+y = 1819
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 137,49,23
+Info_ID = 1500118
+
+[stage]
+code = 139
+x = 1945
+y = 1770
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 23,154
+Info_ID = 1500119
+
+[stage]
+code = 140
+x = 2128
+y = 1763
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 154,28
+Info_ID = 1500120
+
+[stage]
+code = 141
+x = 2309
+y = 1700
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 28,142,325
+Info_ID = 1500121
+
+[stage]
+code = 142
+x = 2283
+y = 1511
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 47,141,31
+Info_ID = 1500122
+
+[stage]
+code = 143
+x = 2507
+y = 1483
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 31,157,144
+Info_ID = 1500123
+
+[stage]
+code = 144
+x = 2654
+y = 1467
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 143,33
+Info_ID = 1500124
+
+[stage]
+code = 145
+x = 2878
+y = 1412
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 33,153
+Info_ID = 1500125
+
+[stage]
+code = 146
+x = 1655
+y = 645
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 135,86,40,81
+Info_ID = 1500126
+
+[stage]
+code = 147
+x = 2170
+y = 438
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 93,84,94
+Info_ID = 1500127
+
+[stage]
+code = 148
+x = 2623
+y = 478
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 96
+Info_ID = 1500128
+
+[stage]
+code = 149
+x = 2172
+y = 785
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 82,113,155
+Info_ID = 1500129
+
+[stage]
+code = 150
+x = 1040
+y = 656
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 100,134
+Info_ID = 1500130
+
+[stage]
+code = 151
+x = 685
+y = 953
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 99,121,152
+Info_ID = 1500131
+
+[stage]
+code = 152
+x = 670
+y = 1369
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 151,45,116
+Info_ID = 1500132
+
+[stage]
+code = 153
+x = 3013
+y = 1404
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 145
+Info_ID = 1500133
+
+[stage]
+code = 154
+x = 2040
+y = 1746
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 46,139,140
+Info_ID = 1500134
+
+[stage]
+code = 155
+x = 2287
+y = 811
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 149,35
+Info_ID = 1500135
+
+[stage]
+code = 156
+x = 2557
+y = 824
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 35,87
+Info_ID = 1500136
+
+[stage]
+code = 157
+x = 2447
+y = 1377
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 54,143
+Info_ID = 1500137
+
+[stage]
+code = 158
+x = 3030
+y = 1189
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 110
+Info_ID = 1500138
+
+[stage]
+code = 159
+x = 2993
+y = 657
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 114
+Info_ID = 1500139
+
+[stage]
+code = 160
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 161
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 162
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 163
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 164
+x = 779
+y = 1650
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 19
+Info_ID = 1500140
+
+[stage]
+code = 165
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 166
+x = 1144
+y = 571
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 150,167
+Info_ID = 1500141
+
+[stage]
+code = 167
+x = 1228
+y = 493
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 166,168
+Info_ID = 1500142
+
+[stage]
+code = 168
+x = 1335
+y = 424
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 167,169,170
+Info_ID = 1500143
+
+[stage]
+code = 169
+x = 1215
+y = 366
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 168
+Info_ID = 1500144
+
+[stage]
+code = 170
+x = 1431
+y = 396
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 168,171
+Info_ID = 1500145
+
+[stage]
+code = 171
+x = 1563
+y = 355
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 86,170
+Info_ID = 1500146
+
+[stage]
+code = 172
+x = 859
+y = 1756
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 116,173
+Info_ID = 1500147
+
+[stage]
+code = 173
+x = 935
+y = 1810
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 172,174
+Info_ID = 1500148
+
+[stage]
+code = 174
+x = 1057
+y = 1817
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 173,175,176
+Info_ID = 1500149
+
+[stage]
+code = 175
+x = 1033
+y = 1935
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 174
+Info_ID = 1500150
+
+[stage]
+code = 176
+x = 1169
+y = 1828
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 174,177
+Info_ID = 1500151
+
+[stage]
+code = 177
+x = 1305
+y = 1806
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 136,176
+Info_ID = 1500152
+
+[stage]
+code = 178
+x = 2604
+y = 377
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 148,179
+Info_ID = 1500153
+
+[stage]
+code = 179
+x = 2761
+y = 355
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 178,37
+Info_ID = 1500154
+
+[stage]
+code = 180
+x = -1
+y = -1
+w = 
+h = 
+MapItemType = 
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 181
+x = 2966
+y = 240
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 37,182,185
+Info_ID = 1500155
+
+[stage]
+code = 182
+x = 3177
+y = 214
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 181,183
+Info_ID = 1500156
+
+[stage]
+code = 183
+x = 3333
+y = 194
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 182,184
+Info_ID = 1500157
+
+[stage]
+code = 184
+x = 3394
+y = 304
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 183,189
+Info_ID = 1500158
+
+[stage]
+code = 185
+x = 3045
+y = 282
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 181,186
+Info_ID = 1500159
+
+[stage]
+code = 186
+x = 3126
+y = 328
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 185,43
+Info_ID = 1500160
+
+[stage]
+code = 187
+x = -1
+y = -1
+w = 
+h = 
+MapItemType = 
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 188
+x = 3275
+y = 390
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 43189
+Info_ID = 1500161
+
+[stage]
+code = 189
+x = 3371
+y = 416
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 184,188,50
+Info_ID = 1500162
+
+[stage]
+code = 190
+x = -1
+y = -1
+w = 
+h = 
+MapItemType = 
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 191
+x = 3511
+y = 532
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 50,192
+Info_ID = 1500163
+
+[stage]
+code = 192
+x = 3431
+y = 605
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 191
+Info_ID = 1500164
+
+[stage]
+code = 193
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 194
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 195
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 196
+x = 146
+y = 81
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 29
+Neighbour = 123,124,125,126,197
+Info_ID = 1500262
+
+[stage]
+code = 197
+x = 146
+y = 126
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 29
+Neighbour = 123,124,125,126,196
+Info_ID = 1500263
+
+[stage]
+code = 198
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 199
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 200
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 201
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 202
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 203
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 204
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 205
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 206
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 207
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 208
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 209
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 210
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 211
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 212
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 213
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 214
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 215
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 216
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 217
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 218
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 219
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 220
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 221
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 222
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 223
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 224
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 225
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 226
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 227
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 228
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 229
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 230
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 231
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 232
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 233
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 234
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 235
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 236
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 237
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 238
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 239
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 240
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 241
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 242
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 243
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 244
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 245
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 246
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 247
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 248
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 249
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 250
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 251
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 252
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 253
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 254
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 255
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 256
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 29
+Neighbour = 0
+
+[stage]
+code = 257
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 0
+
+[stage]
+code = 258
+x = 1930
+y = 1425
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 26
+Info_ID = 1500165
+
+[stage]
+code = 259
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 260
+x = 1370
+y = 1318
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 24
+Neighbour = 295,34
+Info_ID = 1500166
+
+[stage]
+code = 261
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 1
+Neighbour = 0
+
+[stage]
+code = 262
+x = 2068
+y = 1067
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 2
+Neighbour = 95,298
+Info_ID = 1500167
+
+[stage]
+code = 263
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 298
+
+[stage]
+code = 264
+x = 1974
+y = 1298
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 24
+Neighbour = 89,265
+Info_ID = 1500168
+
+[stage]
+code = 265
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 264,266
+
+[stage]
+code = 266
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 265
+
+[stage]
+code = 267
+x = 1693
+y = 1331
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 109,268
+Info_ID = 1500169
+
+[stage]
+code = 268
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 24
+Neighbour = 267,269
+
+[stage]
+code = 269
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 15
+Neighbour = 268
+
+[stage]
+code = 270
+x = 418
+y = 81
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500170
+
+[stage]
+code = 271
+x = 418
+y = 126
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500171
+
+[stage]
+code = 272
+x = 1611
+y = 1032
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500172
+
+[stage]
+code = 273
+x = 1688
+y = 1033
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500173
+
+[stage]
+code = 274
+x = 1097
+y = 1506
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 60,275
+Info_ID = 1500174
+
+[stage]
+code = 275
+x = 1134
+y = 1458
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 274
+Info_ID = 1500175
+
+[stage]
+code = 276
+x = 2484
+y = 1061
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 48,277
+Info_ID = 1500176
+
+[stage]
+code = 277
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 276
+
+[stage]
+code = 278
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 279
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 1
+
+[stage]
+code = 280
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 11
+
+[stage]
+code = 281
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 21
+
+[stage]
+code = 282
+x = 2106
+y = 789
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 283
+
+[stage]
+code = 283
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 282
+
+[stage]
+code = 284
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 285
+x = 1652
+y = 1075
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 117
+Info_ID = 1500177
+
+[stage]
+code = 286
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 287
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 288
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 289
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 290
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 291
+x = 1667
+y = 1538
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 49,292
+Info_ID = 1500178
+
+[stage]
+code = 292
+x = 1621
+y = 1510
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 291
+Info_ID = 1500179
+
+[stage]
+code = 293
+x = 2556
+y = 749
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 90,294
+Info_ID = 1500180
+
+[stage]
+code = 294
+x = 2509
+y = 749
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 293
+Info_ID = 1500181
+
+[stage]
+code = 295
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 260,296,41
+
+[stage]
+code = 296
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 295
+
+[stage]
+code = 297
+x = 2694
+y = 1371
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 298
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 262,263,57
+
+[stage]
+code = 299
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 300
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 1
+
+[stage]
+code = 301
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 11
+
+[stage]
+code = 302
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 21
+
+[stage]
+code = 303
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 11
+
+[stage]
+code = 304
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 21
+
+[stage]
+code = 305
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 306
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 307
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 308
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 309
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 310
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 311
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 312
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 313
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 314
+x = 2561
+y = 928
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500182
+
+[stage]
+code = 315
+x = 2029
+y = 1519
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 17
+Info_ID = 1500183
+
+[stage]
+code = 316
+x = 1609
+y = 957
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 2
+Info_ID = 1500184
+
+[stage]
+code = 317
+x = 2140
+y = 1246
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500185
+
+[stage]
+code = 318
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 319
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 320
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 321
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 322
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 323
+x = 2102
+y = 560
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 82,324
+Info_ID = 1500186
+
+[stage]
+code = 324
+x = 2130
+y = 525
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 323
+Info_ID = 1500187
+
+[stage]
+code = 325
+x = 2356
+y = 1702
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 141,326
+Info_ID = 1500188
+
+[stage]
+code = 326
+x = 2403
+y = 1714
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 325
+Info_ID = 1500189
+
+[stage]
+code = 327
+x = 1379
+y = 920
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 106,328
+Info_ID = 1500190
+
+[stage]
+code = 328
+x = 1332
+y = 915
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 327
+Info_ID = 1500191
+
+[stage]
+code = 329
+x = 878
+y = 1040
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 101,330
+Info_ID = 1500192
+
+[stage]
+code = 330
+x = 840
+y = 1050
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 329
+Info_ID = 1500193
+
+[stage]
+code = 331
+x = 2784
+y = 1006
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 63,332
+Info_ID = 1500194
+
+[stage]
+code = 332
+x = 2838
+y = 1018
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 331
+Info_ID = 1500195
+
+[stage]
+code = 333
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 334
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 335
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 336
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 337
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 338
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 339
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 340
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 341
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 342
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 343
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 344
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 345
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 346
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 347
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 348
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 349
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 350
+x = 1931
+y = 694
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 3
+Info_ID = 1500196
+
+[stage]
+code = 351
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 352
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 353
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 354
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 419,355
+
+[stage]
+code = 355
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 354,356
+
+[stage]
+code = 356
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 355,394
+
+[stage]
+code = 357
+x = 1896
+y = 1874
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 23
+Info_ID = 1500197
+
+[stage]
+code = 358
+x = 1290
+y = 688
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 12
+Info_ID = 1500198
+
+[stage]
+code = 359
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 367,394
+
+[stage]
+code = 360
+x = 1774
+y = 227
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 86,361
+Info_ID = 1500199
+
+[stage]
+code = 361
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 360,362
+
+[stage]
+code = 362
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 361,363
+
+[stage]
+code = 363
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 362,388
+
+[stage]
+code = 364
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 365,388
+
+[stage]
+code = 365
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 364,366
+
+[stage]
+code = 366
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 365
+
+[stage]
+code = 367
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 359,368
+
+[stage]
+code = 368
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 367
+
+[stage]
+code = 369
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 370
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 371
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 372
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 373
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 374
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 375
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 376
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 377
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 378
+x = 3296
+y = 970
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 379
+Info_ID = 1500200
+
+[stage]
+code = 379
+x = 3376
+y = 956
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 378,380
+Info_ID = 1500201
+
+[stage]
+code = 380
+x = 3406
+y = 900
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 379,381
+Info_ID = 1500202
+
+[stage]
+code = 381
+x = 3440
+y = 853
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 380,382,401
+Info_ID = 1500203
+
+[stage]
+code = 382
+x = 3483
+y = 805
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 381,383
+Info_ID = 1500204
+
+[stage]
+code = 383
+x = 3531
+y = 763
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 382
+Info_ID = 1500205
+
+[stage]
+code = 384
+x = 2846
+y = 1910
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 385
+Info_ID = 1500206
+
+[stage]
+code = 385
+x = 2892
+y = 1888
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 384,386,387
+Info_ID = 1500207
+
+[stage]
+code = 386
+x = 2932
+y = 1858
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 385
+Info_ID = 1500208
+
+[stage]
+code = 387
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 385
+
+[stage]
+code = 388
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 363,364
+
+[stage]
+code = 389
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 366,390
+
+[stage]
+code = 390
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 391,389
+
+[stage]
+code = 391
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 392,390
+
+[stage]
+code = 392
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 393,391
+
+[stage]
+code = 393
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 392
+
+[stage]
+code = 394
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 356,359
+
+[stage]
+code = 395
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 368,396
+
+[stage]
+code = 396
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 395,397
+
+[stage]
+code = 397
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 396,398
+
+[stage]
+code = 398
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 397,399
+
+[stage]
+code = 399
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 398
+
+[stage]
+code = 400
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 401
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 381
+
+[stage]
+code = 402
+x = 2154
+y = 1357
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 403
+
+[stage]
+code = 403
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 402
+
+[stage]
+code = 404
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 405
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 406
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 407
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 408
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 409
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 410
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 411
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 412
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 413
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 414
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 415
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 416
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 417
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 418
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 419
+x = 1452
+y = 2021
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 136,354
+Info_ID = 1500209
+
+[stage]
+code = 420
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 421
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 422
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 423
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 424
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 425
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 426
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 427
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 428
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 429
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 430
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 431
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 432
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 433
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 451
+
+[stage]
+code = 434
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 438,435
+
+[stage]
+code = 435
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 434,436
+
+[stage]
+code = 436
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 435
+
+[stage]
+code = 437
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 438
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 434,451
+
+[stage]
+code = 439
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 440
+x = 995
+y = 439
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 441,166
+Info_ID = 1500210
+
+[stage]
+code = 441
+x = 757
+y = 403
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 445,442,440
+Info_ID = 1500211
+
+[stage]
+code = 442
+x = 587
+y = 460
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 446,443,441
+Info_ID = 1500212
+
+[stage]
+code = 443
+x = 456
+y = 630
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 447,442
+Info_ID = 1500213
+
+[stage]
+code = 444
+x = 464
+y = 864
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 448,447,151
+Info_ID = 1500214
+
+[stage]
+code = 445
+x = 469
+y = 296
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 449,441
+Info_ID = 1500215
+
+[stage]
+code = 446
+x = 435
+y = 472
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 449,442
+Info_ID = 1500216
+
+[stage]
+code = 447
+x = 291
+y = 677
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 450,443,444
+Info_ID = 1500217
+
+[stage]
+code = 448
+x = 179
+y = 801
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 450,444
+Info_ID = 1500218
+
+[stage]
+code = 449
+x = 203
+y = 344
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 450,446,445
+Info_ID = 1500219
+
+[stage]
+code = 450
+x = 85
+y = 548
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 448,449,447
+Info_ID = 1500220
+
+[stage]
+code = 451
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 433,438
+
+[stage]
+code = 452
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 453
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 454
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 455
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 456
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 457
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 458
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 459
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 460
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 461
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 462
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 463
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 464
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 465
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 466
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 467
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 468
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 469
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 470
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 471
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 472
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 473
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 474
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 475
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 476
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 477
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 478
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 479
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 480
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 481
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 482
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 483
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 484
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 485
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 486
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 487
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 488
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 489
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 490
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 491
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 492
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 493
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 494
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 495
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 496
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 497
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 498
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 499
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 500
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 501
+x = 1590
+y = 850
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 105
+Info_ID = 1500221
+
+[stage]
+code = 502
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 503
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 504
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 505
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 506
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 507
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 508
+x = 1818
+y = 1389
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 509
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 510
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 511
+x = 1451
+y = 880
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 512
+x = 1519
+y = 1106
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 513
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 514
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 515
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 516
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 517
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 518
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 519
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 520
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 521
+x = 450
+y = 1564
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 522,524,536
+Info_ID = 1500222
+
+[stage]
+code = 522
+x = 366
+y = 1726
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 521,525,528,116
+Info_ID = 1500223
+
+[stage]
+code = 523
+x = 317
+y = 1458
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 525,536
+Info_ID = 1500224
+
+[stage]
+code = 524
+x = 671
+y = 1513
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 521,116,526,535
+Info_ID = 1500225
+
+[stage]
+code = 525
+x = 264
+y = 1604
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 523,522
+Info_ID = 1500226
+
+[stage]
+code = 526
+x = 811
+y = 1565
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 45,524,118
+Info_ID = 1500227
+
+[stage]
+code = 527
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 528
+x = 486
+y = 1866
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 522,529
+Info_ID = 1500228
+
+[stage]
+code = 529
+x = 685
+y = 1820
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 116,172,528
+Info_ID = 1500229
+
+[stage]
+code = 530
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 531
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 532
+x = 1195
+y = 1931
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 176,533
+Info_ID = 1500230
+
+[stage]
+code = 533
+x = 1319
+y = 2024
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 532
+Info_ID = 1500231
+
+[stage]
+code = 534
+x = 587
+y = 1313
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500232
+
+[stage]
+code = 535
+x = 558
+y = 1396
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 152,524,536
+Info_ID = 1500233
+
+[stage]
+code = 536
+x = 426
+y = 1345
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 521,523,535,537
+Info_ID = 1500234
+
+[stage]
+code = 537
+x = 274
+y = 1256
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 536,538,539
+Info_ID = 1500235
+
+[stage]
+code = 538
+x = 162
+y = 1162
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 537
+Info_ID = 1500236
+
+[stage]
+code = 539
+x = 467
+y = 1187
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 537
+Info_ID = 1500237
+
+[stage]
+code = 540
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 541
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 542
+x = 1251
+y = 1936
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500238
+
+[stage]
+code = 543
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 544
+x = 861
+y = 1515
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500239
+
+[stage]
+code = 545
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 546
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 547
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 548
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 549
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 550
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 551
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 552
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 553
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 554
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 555
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 556
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 557
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 558
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 559
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 560
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 561
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 562
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 563
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 564
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 565
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 566
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 567
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 568
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 569
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 570
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 17
+
+[stage]
+code = 571
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 1
+RefForce = 0
+MapType = 0
+Neighbour = 2
+
+[stage]
+code = 572
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 573
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 3
+RefForce = 0
+MapType = 0
+Neighbour = 23
+
+[stage]
+code = 574
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 2
+RefForce = 0
+MapType = 0
+Neighbour = 12
+
+[stage]
+code = 575
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 576
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 577
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 578
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 579
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 580
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 581
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 582
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 583
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 584
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 585
+x = 1133
+y = 960
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500240
+
+[stage]
+code = 586
+x = 820
+y = 1181
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500241
+
+[stage]
+code = 587
+x = 950
+y = 1145
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500242
+
+[stage]
+code = 588
+x = 1010
+y = 920
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500243
+
+[stage]
+code = 589
+x = 550
+y = 1050
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500244
+
+[stage]
+code = 590
+x = 1138
+y = 1155
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500245
+
+[stage]
+code = 591
+x = 627
+y = 1078
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500246
+
+[stage]
+code = 592
+x = 773
+y = 840
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500247
+
+[stage]
+code = 593
+x = -1
+y = -1
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+
+[stage]
+code = 725
+x = 2269
+y = 1321
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500248
+
+[stage]
+code = 726
+x = 2121
+y = 1173
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500249
+
+[stage]
+code = 727
+x = 2449
+y = 966
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500250
+
+[stage]
+code = 728
+x = 2409
+y = 913
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500251
+
+[stage]
+code = 729
+x = 2348
+y = 935
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500252
+
+[stage]
+code = 730
+x = 2478
+y = 896
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500253
+
+[stage]
+code = 731
+x = 2697
+y = 1566
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500254
+
+[stage]
+code = 732
+x = 2622
+y = 1546
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500255
+
+[stage]
+code = 733
+x = 2547
+y = 1528
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500256
+
+[stage]
+code = 734
+x = 1806
+y = 1168
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500257
+
+[stage]
+code = 735
+x = 1837
+y = 845
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500258
+
+[stage]
+code = 736
+x = 1879
+y = 795
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500259
+
+[stage]
+code = 737
+x = 1938
+y = 757
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500260
+
+[stage]
+code = 760
+x = 91
+y = 872
+w = 25
+h = 18
+MapItemType = 0
+Force = 0
+RefForce = 0
+MapType = 0
+Neighbour = 0
+Info_ID = 1500261
+

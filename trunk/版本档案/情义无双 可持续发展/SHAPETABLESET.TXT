@@ -1,0 +1,16 @@
+// Shape Table Set ∏s≤’≥]©w¿…
+#include TYPE.H
+#include DEFINETXT.H
+#include SHAPETABLE.H
+
+
+[shape_set_group]
+bats_code = 100
+bats_set = act_STAND,stbl_m_00101
+bats_cover = act_STAND,stbl_m_00102
+
+[shape_set_group]
+bats_code = 200
+bats_set = act_STAND,stbl_10101
+bats_cover = act_STAND,stbl_10102
+

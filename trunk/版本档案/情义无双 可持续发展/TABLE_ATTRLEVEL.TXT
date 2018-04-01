@@ -1,0 +1,60 @@
+// 敵人點數分配率
+#include TYPE.H
+
+[ini]
+type_max = 20
+
+[type]
+attr_level = ATTR_LEVEL_1
+str = 21
+int = 18
+mind = 18
+con = 25
+dex = 18
+leader = 0
+
+[type]
+attr_level = ATTR_LEVEL_2
+str = 30
+int = 10
+mind = 10
+con = 30
+dex = 20
+leader = 0
+
+[type]
+attr_level = ATTR_LEVEL_3
+str = 10
+int = 30
+mind = 30
+con = 15
+dex = 15
+leader = 0
+
+[type]
+attr_level = ATTR_LEVEL_4
+str = 25
+int = 20
+mind = 15
+con = 15
+dex = 25
+leader = 0
+
+[type]
+attr_level = ATTR_LEVEL_5
+str = 20
+int = 20
+mind = 20
+con = 20
+dex = 20
+leader = 0
+
+[type]
+attr_level = ATTR_LEVEL_6
+str = 40
+int = 0
+mind = 0
+con = 40
+dex = 20
+leader = 0
+

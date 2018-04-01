@@ -1,0 +1,340 @@
+// 守城表
+#include STAGE.H
+#include TYPE.H
+#include PLAYERS.H
+
+[ini]
+Max = 200
+
+
+[city_guard]
+city = city_長安
+select_role = role_司馬炎,role_劉曄,role_夏侯涓,role_司馬孚,role_朱靈,role_夏侯楙
+guard_data = gameCITYGUARDTYPE_STATUE1,city_長安,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_長安,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_長安西陌,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_長安西陌,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_長安東阡,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_長安東阡,8960,640,12160,2560
+
+[city_guard]
+city = city_鄴
+select_role = role_荀攸,role_夏侯威,role_張繡,role_夏侯尚,role_王渾,role_夏侯恩
+guard_data = gameCITYGUARDTYPE_STATUE1,city_鄴,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_鄴,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_鄴西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_鄴西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_鄴東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_鄴東境,8960,640,12160,2560
+
+[city_guard]
+city = city_新野
+select_role = role_王平,role_張嶷,role_糜竺,role_黃權,role_費觀,role_蔣斌
+guard_data = gameCITYGUARDTYPE_STATUE1,city_新野,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_新野,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_新野西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_新野西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_新野城東,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_新野城東,8960,640,12160,2560
+
+[city_guard]
+city = city_宛
+select_role = role_文欽,role_樂進,role_賈逵,role_王植,role_呂虔,role_胡遵
+guard_data = gameCITYGUARDTYPE_STATUE1,city_宛,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_宛,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_宛城西郊,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_宛城西郊,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_宛城東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_宛城東境,8960,640,12160,2560
+
+[city_guard]
+city = city_晉陽
+select_role = role_郝昭,role_牛金,role_劉延,role_楊秋,role_董昭,role_張允
+guard_data = gameCITYGUARDTYPE_STATUE1,city_晉陽,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_晉陽,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_晉陽西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_晉陽西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_晉陽東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_晉陽東境,8960,640,12160,2560
+
+[city_guard]
+city = city_許昌
+select_role = role_司馬昭,role_曹休,role_秦琪,role_曹羨,role_蔣幹,role_曹昂
+guard_data = gameCITYGUARDTYPE_STATUE1,city_許昌,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_許昌,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_許昌西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_許昌西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_許昌東郊,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_許昌東郊,8960,640,12160,2560
+
+[city_guard]
+city = city_平原
+select_role = role_王雙,role_桓範,role_張燕,role_車胄,role_徐質,role_曹芳
+guard_data = gameCITYGUARDTYPE_STATUE1,city_平原,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_平原,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_平原西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_平原西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_平原東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_平原東境,8960,640,12160,2560
+
+[city_guard]
+city = city_北平
+select_role = role_王濬,role_蔣濟,role_毋丘儉,role_孟坦,role_張南,role_張顗
+guard_data = gameCITYGUARDTYPE_STATUE1,city_北平,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_北平,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_北平西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_北平西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_北平東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_北平東境,8960,640,12160,2560
+
+[city_guard]
+city = city_涼州
+select_role = role_馬岱,role_李福,role_霍戈,role_陳式,role_樊建,role_劉理
+guard_data = gameCITYGUARDTYPE_STATUE1,city_涼州,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_涼州,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_涼州西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_涼州西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_涼州東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_涼州東境,8960,640,12160,2560
+
+[city_guard]
+city = city_安定
+select_role = role_蔣琬,role_向朗,role_向寵,role_甘倩,role_蔣舒,role_張達
+guard_data = gameCITYGUARDTYPE_STATUE1,city_安定,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_安定,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_安定西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_安定西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_安定東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_安定東境,8960,640,12160,2560
+
+[city_guard]
+city = city_江州
+select_role = role_吳蘭,role_董允,role_郭攸之,role_許靖,role_張紹,role_范疆
+guard_data = gameCITYGUARDTYPE_STATUE1,city_江州,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_江州,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_江州西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_江州西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_江州東陌,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_江州東陌,8960,640,12160,2560
+
+[city_guard]
+city = city_上庸
+select_role = role_關興,role_關索,role_孫乾,role_吳班,role_劉賢,role_趙範
+guard_data = gameCITYGUARDTYPE_STATUE1,city_上庸,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_上庸,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_上庸西路,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_上庸西路,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_上庸東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_上庸東境,8960,640,12160,2560
+
+[city_guard]
+city = city_襄陽
+select_role = role_張青鸞,role_伊籍,role_廖立,role_糜芳,role_傅士仁,role_陳震
+guard_data = gameCITYGUARDTYPE_STATUE1,city_襄陽,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_襄陽,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_襄陽白虎道,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_襄陽白虎道,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_襄陽青龍道,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_襄陽青龍道,8960,640,12160,2560
+
+[city_guard]
+city = city_天水
+select_role = role_馬謖,role_陳到,role_馮習,role_董厥,role_鮑隆,role_董和
+guard_data = gameCITYGUARDTYPE_STATUE1,city_天水,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_天水,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_天水西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_天水西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_天水東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_天水東境,8960,640,12160,2560
+
+[city_guard]
+city = city_柴桑
+select_role = role_凌操,role_徐盛,role_孔羨,role_全端,role_程秉,role_孫朗
+guard_data = gameCITYGUARDTYPE_STATUE1,city_柴桑,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_柴桑,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_柴桑西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_柴桑西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_柴桑東阡,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_柴桑東阡,8960,640,12160,2560
+
+[city_guard]
+city = city_漢中
+select_role = role_趙廣,role_趙統,role_王伉,role_种拂,role_楊儀,role_閻宇
+guard_data = gameCITYGUARDTYPE_STATUE1,city_漢中,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_漢中,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_漢中西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_漢中西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_漢中東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_漢中東境,8960,640,12160,2560
+
+[city_guard]
+city = city_建寧
+select_role = role_費褘,role_廖琴,role_費詩,role_陳應,role_趙累,role_劉度
+guard_data = gameCITYGUARDTYPE_STATUE1,city_建寧,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_建寧,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_建寧西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_建寧西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_建寧東陌,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_建寧東陌,8960,640,12160,2560
+
+[city_guard]
+city = city_武陵
+select_role = role_諸葛恪,role_朱然,role_諸葛靚,role_陸凱,role_留贊,role_薛瑩
+guard_data = gameCITYGUARDTYPE_STATUE1,city_武陵,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_武陵,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_武陵西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_武陵西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_武陵東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_武陵東境,8960,640,12160,2560
+
+[city_guard]
+city = city_盧江
+select_role = role_丁奉,role_孫翊,role_太史享,role_顧雍,role_孫瑜,role_孫亮
+guard_data = gameCITYGUARDTYPE_STATUE1,city_盧江,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_盧江,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_盧江西陌,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_盧江西陌,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_盧江東陌,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_盧江東陌,8960,640,12160,2560
+
+[city_guard]
+city = city_零陵
+select_role = role_陸抗,role_闞澤,role_潘璋,role_嚴畯,role_諸葛直,role_薛綜
+guard_data = gameCITYGUARDTYPE_STATUE1,city_零陵,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_零陵,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_零陵西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_零陵西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_零陵東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_零陵東境,8960,640,12160,2560
+
+[city_guard]
+city = city_長沙
+select_role = role_凌統,role_韓當,role_陸績,role_全琮,role_潘濬,role_于詮
+guard_data = gameCITYGUARDTYPE_STATUE1,city_長沙,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_長沙,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_長沙西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_長沙西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_長沙東阡,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_長沙東阡,8960,640,12160,2560
+
+[city_guard]
+city = city_壽春
+select_role = role_朱桓,role_滕麗,role_蔣欽,role_朱據,role_孫異,role_孫靜
+guard_data = gameCITYGUARDTYPE_STATUE1,city_壽春,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_壽春,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_壽春西陌,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_壽春西陌,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_壽春東陌,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_壽春東陌,8960,640,12160,2560
+
+[city_guard]
+city = city_江夏
+select_role = role_馬良,role_吳子蘭,role_傅彤,role_劉琦,role_陳珪,role_陳登
+guard_data = gameCITYGUARDTYPE_STATUE1,city_江夏,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_江夏,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_江夏西陌,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_江夏西陌,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_江夏東墎,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_江夏東墎,8960,640,12160,2560
+
+[city_guard]
+city = city_汝南
+select_role = role_楊修,role_李典,role_蔡陽,role_王真,role_吳綱,role_毛玠
+guard_data = gameCITYGUARDTYPE_STATUE1,city_汝南,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_汝南,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_汝南西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_汝南西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_汝南東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_汝南東境,8960,640,12160,2560
+
+[city_guard]
+city = city_桂陽
+select_role = role_張紘,role_張休,role_祖茂,role_留略,role_陶濬,role_馬忠
+guard_data = gameCITYGUARDTYPE_STATUE1,city_桂陽,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_桂陽,18560,640,21760,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_桂陽西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_桂陽西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_桂陽東阡,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_桂陽東阡,8960,640,12160,2560
+
+[city_guard]
+city = city_徐州
+select_role = role_濮陽興,role_譚雄,role_滕胤,role_董襲,role_傅嬰,role_朱異
+guard_data = gameCITYGUARDTYPE_STATUE1,city_徐州,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_徐州,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_徐州西阡,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_徐州西阡,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_徐州東陌,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_徐州東陌,8960,640,12160,2560
+
+[city_guard]
+city = city_北海
+select_role = role_文鴦,role_華歆,role_宴明,role_孫禮,role_胡班,role_李堪
+guard_data = gameCITYGUARDTYPE_STATUE1,city_北海,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_北海,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_北海西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_北海西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_北海東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_北海東境,8960,640,12160,2560
+
+[city_guard]
+city = city_豫章
+select_role = role_孫韶,role_羊道,role_孫桓,role_謝景,role_費耀,role_周胤
+guard_data = gameCITYGUARDTYPE_STATUE1,city_豫章,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_豫章,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_豫章西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_豫章西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_豫章東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_豫章東境,8960,640,12160,2560
+
+[city_guard]
+city = city_會稽
+select_role = role_孫小虎,role_孫休,role_陳武,role_孫峻,role_駱統,role_秦旦
+guard_data = gameCITYGUARDTYPE_STATUE1,city_會稽,7040,640,10240,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_會稽,12160,640,15360,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_會稽西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_會稽西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_會稽東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_會稽東境,8960,640,12160,2560
+
+[city_guard]
+city = city_陳留
+select_role = role_司馬瑋,role_于禁,role_夏侯玄,role_夏侯德,role_孔秀,role_司馬望
+guard_data = gameCITYGUARDTYPE_STATUE1,city_陳留,9600,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_陳留,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_陳留西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_陳留西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_陳留東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_陳留東境,8960,640,12160,2560
+
+[city_guard]
+city = city_遼東
+select_role = role_解夫婁,role_帶素,role_解邑朱,role_夫得佛,role_思龍,role_協保
+guard_data = gameCITYGUARDTYPE_STATUE1,city_遼東,13440,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_遼東,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_遼東西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_遼東西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_遼東東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_遼東東境,8960,640,12160,2560
+
+[city_guard]
+city = city_高句麗
+select_role = role_解慕漱,role_烏引,role_延佗勃,role_烏違,role_閭達,role_矛八慕
+guard_data = gameCITYGUARDTYPE_STATUE1,city_高句麗,13440,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_高句麗,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_高句麗西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_高句麗西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_高句麗東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_高句麗東境,8960,640,12160,2560
+
+[city_guard]
+city = city_樂浪
+select_role = role_余慶,role_弗斯侯,role_余禮,role_張茂,role_己婁,role_如栗
+guard_data = gameCITYGUARDTYPE_STATUE1,city_樂浪,13440,640,12800,2560
+guard_data = gameCITYGUARDTYPE_STATUE2,city_樂浪,16000,640,19200,2560
+guard_data = gameCITYGUARDTYPE_WEST1,city_樂浪西境,47360,640,50560,2560
+guard_data = gameCITYGUARDTYPE_WEST2,city_樂浪西境,51840,640,55040,2560
+guard_data = gameCITYGUARDTYPE_EAST1,city_樂浪東境,13440,640,16640,2560
+guard_data = gameCITYGUARDTYPE_EAST2,city_樂浪東境,8960,640,12160,2560
+
+

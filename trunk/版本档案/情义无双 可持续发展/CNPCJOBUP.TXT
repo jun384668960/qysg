@@ -1,0 +1,411 @@
+// ¤p§LÂàÂ¾³]©wÀÉ
+#include TYPE.H
+#include PLAYERS.H
+#include ITEM.H
+
+[CNPCJobUp]
+code = 1
+sol_type = role_¸q«i§L
+level = 12
+new_job = item_¦µ¤M§L,item_¦µ¤M§LÂàÂ¾¥O
+new_job = item_ºj§L,item_ºj§LÂàÂ¾¥O
+new_job = item_ÃM§L,item_ÃM§LÂàÂ¾¥O
+new_job = item_¤}§L,item_¤}§LÂàÂ¾¥O
+new_job = item_¼C§L,item_¼C§LÂàÂ¾¥O
+new_job = item_ÆZ§L,item_ÆZ§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 2
+sol_type = role_¤k¸q«i§L
+level = 12
+new_job = item_­¸¤M§L,item_­¸¤M§LÂàÂ¾¥O
+new_job = item_»´ÃM§L,item_»´ÃM§LÂàÂ¾¥O
+new_job = item_»RÄ],item_»RÄ]ÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 3
+sol_type = role_¦µ¤M§L
+level = 36
+new_job = item_¤j¤M§L,item_¤j¤M§LÂàÂ¾¥O
+new_job = item_ÁåÂñ§L,item_ÁåÂñ§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 4
+sol_type = role_ºj§L
+level = 36
+new_job = item_ªøºj§L,item_ªøºj§LÂàÂ¾¥O
+new_job = item_´u§L,item_´u§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 5
+sol_type = role_ÃM§L
+level = 36
+new_job = item_ÅKÃM§L,item_ÅKÃM§LÂàÂ¾¥O
+new_job = item_¦I¥£§L,item_¦I¥£§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 6
+sol_type = role_¤}§L
+level = 36
+new_job = item_ªø¤}§L,item_ªø¤}§LÂàÂ¾¥O
+new_job = item_©¸§L,item_©¸§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 7
+sol_type = role_­¸¤M§L
+level = 36
+new_job = item_ªñ½Ã§L,item_ªñ½Ã§LÂàÂ¾¥O
+new_job = item_¨ë«È,item_¨ë«ÈÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 8
+sol_type = role_»´ÃM§L
+level = 36
+new_job = item_´åÃM§L,item_´åÃM§LÂàÂ¾¥O
+new_job = item_¤}ÃM§L,item_¤}ÃM§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 9
+sol_type = role_¼C§L
+level = 36
+new_job = item_ªø¼C§L,item_ªø¼C§LÂàÂ¾¥O
+new_job = item_¼C¤h,item_¼C¤hÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 10
+sol_type = role_»RÄ]
+level = 36
+new_job = item_»R®V,item_»R®VÂàÂ¾¥O
+new_job = item_ºq®V,item_ºq®VÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 11
+sol_type = role_ÆZ§L
+level = 36
+new_job = item_Äð¥Ò§L,item_Äð¥Ò§LÂàÂ¾¥O
+new_job = item_²rÃ~§L,item_²rÃ~§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 12
+sol_type = role_¤j¤M§L
+level = 56
+new_job = item_ºë¾U¤j¤M§L,item_ºë¾U¤j¤M®Ê¤É¥O
+
+[CNPCJobUp]
+code = 13
+sol_type = role_ÁåÂñ§L
+level = 56
+new_job = item_ºë¾UÁåÂñ§L,item_ºë¾UÁåÂñ®Ê¤É¥O
+
+[CNPCJobUp]
+code = 14
+sol_type = role_ªøºj§L
+level = 56
+new_job = item_ºë¾Uªøºj§L,item_ºë¾Uªøºj®Ê¤É¥O
+
+[CNPCJobUp]
+code = 15
+sol_type = role_´u§L
+level = 56
+new_job = item_ºë¾U´u§L,item_ºë¾U´u§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 16
+sol_type = role_ªø¤}§L
+level = 56
+new_job = item_ºë¾Uªø¤}§L,item_ºë¾Uªø¤}®Ê¤É¥O
+
+[CNPCJobUp]
+code = 17
+sol_type = role_©¸§L
+level = 56
+new_job = item_ºë¾U©¸§L,item_ºë¾U©¸§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 18
+sol_type = role_ªñ½Ã§L
+level = 56
+new_job = item_ºë¾Uªñ½Ã§L,item_ºë¾Uªñ½Ã®Ê¤É¥O
+
+[CNPCJobUp]
+code = 19
+sol_type = role_¨ë«È
+level = 56
+new_job = item_ºë¾U¨ë«È,item_ºë¾U¨ë«È®Ê¤É¥O
+
+[CNPCJobUp]
+code = 20
+sol_type = role_ÅKÃM§L
+level = 56
+new_job = item_ºë¾UÅKÃM§L,item_ºë¾UÅKÃM®Ê¤É¥O
+
+[CNPCJobUp]
+code = 21
+sol_type = role_¦I¥£§L
+level = 56
+new_job = item_ºë¾U¦I¥£§L,item_ºë¾U¦I¥£®Ê¤É¥O
+
+[CNPCJobUp]
+code = 22
+sol_type = role_´åÃM§L
+level = 56
+new_job = item_ºë¾U´åÃM§L,item_ºë¾U´åÃM®Ê¤É¥O
+
+[CNPCJobUp]
+code = 23
+sol_type = role_¤}ÃM§L
+level = 56
+new_job = item_ºë¾U¤}ÃM§L,item_ºë¾U¤}ÃM®Ê¤É¥O
+
+[CNPCJobUp]
+code = 24
+sol_type = role_ªø¼C§L
+level = 56
+new_job = item_ºë¾Uªø¼C§L,item_ºë¾Uªø¼C®Ê¤É¥O
+
+[CNPCJobUp]
+code = 25
+sol_type = role_¼C¤h
+level = 56
+new_job = item_ºë¾U¼C¤h,item_ºë¾U¼C¤h®Ê¤É¥O
+
+[CNPCJobUp]
+code = 26
+sol_type = role_»R®V
+level = 56
+new_job = item_ºë¾U»R®V,item_ºë¾U»R®V®Ê¤É¥O
+
+[CNPCJobUp]
+code = 27
+sol_type = role_ºq®V
+level = 56
+new_job = item_ºë¾Uºq®V,item_ºë¾Uºq®V®Ê¤É¥O
+
+[CNPCJobUp]
+code = 28
+sol_type = role_Äð¥Ò§L
+level = 56
+new_job = item_ºë¾UÄð¥Ò§L,item_ºë¾UÄð¥Ò§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 29
+sol_type = role_²rÃ~§L
+level = 56
+new_job = item_ºë¾U²rÃ~§L,item_ºë¾U²rÃ~§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 30
+sol_type = role_ºë¾U¤j¤M§L
+level = 72
+new_job = item_¯«¤M§L,item_¯«¤M§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 31
+sol_type = role_ºë¾Uªøºj§L
+level = 72
+new_job = item_¯«ºj§L,item_¯«ºj§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 32
+sol_type = role_ºë¾Uªø¤}§L
+level = 72
+new_job = item_±j¤}§L,item_±j¤}§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 33
+sol_type = role_ºë¾Uªñ½Ã§L
+level = 72
+new_job = item_¿Ë½Ã§L,item_¿Ë½Ã§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 34
+sol_type = role_ºë¾UÁåÂñ§L
+level = 72
+new_job = item_¾ÔÂñ§L,item_¾ÔÂñ§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 35
+sol_type = role_ºë¾U´u§L
+level = 72
+new_job = item_ÅK´u§L,item_ÅK´u§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 36
+sol_type = role_ºë¾U©¸§L
+level = 72
+new_job = item_±j©¸§L,item_±j©¸§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 37
+sol_type = role_ºë¾U¨ë«È
+level = 72
+new_job = item_·t±þªÌ,item_·t±þªÌÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 38
+sol_type = role_ºë¾UÄð¥Ò§L
+level = 72
+new_job = item_ÆZ¥Ò§L,item_ÆZ¥Ò§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 39
+sol_type = role_ºë¾Uªø¼C§L
+level = 72
+new_job = item_­«¼C§L,item_­«¼C§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 40
+sol_type = role_ºë¾U¼C¤h
+level = 72
+new_job = item_¼C»¨,item_¼C»¨ÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 41
+sol_type = role_ºë¾U»R®V
+level = 72
+new_job = item_¾Ô®V,item_¾Ô®VÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 42
+sol_type = role_ºë¾Uºq®V
+level = 72
+new_job = item_¤k§D,item_¤k§DÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 43
+sol_type = role_ºë¾UÅKÃM§L
+level = 72
+new_job = item_©òÃM§L,item_©òÃM§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 44
+sol_type = role_ºë¾U¦I¥£§L
+level = 72
+new_job = item_ªê°\ÃM,item_ªê°\ÃMÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 45
+sol_type = role_ºë¾U´åÃM§L
+level = 72
+new_job = item_¯TÃM§L,item_¯TÃM§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 46
+sol_type = role_ºë¾U¤}ÃM§L
+level = 72
+new_job = item_¯«¤}ÃM,item_¯«¤}ÃMÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 47
+sol_type = role_ºë¾U²rÃ~§L
+level = 72
+new_job = item_¶H§L,item_¶H§LÂàÂ¾¥O
+
+[CNPCJobUp]
+code = 48
+sol_type = role_¯«¤M§L
+level = 92
+new_job = item_­×Ã¹¯«¤M§L,item_­×Ã¹¯«¤M§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 49
+sol_type = role_¾ÔÂñ§L
+level = 92
+new_job = item_­×Ã¹¾ÔÂñ§L,item_­×Ã¹¾ÔÂñ§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 50
+sol_type = role_¯«ºj§L
+level = 92
+new_job = item_­×Ã¹¯«ºj§L,item_­×Ã¹¯«ºj§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 51
+sol_type = role_ÅK´u§L
+level = 92
+new_job = item_­×Ã¹ÅK´u§L,item_­×Ã¹ÅK´u§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 52
+sol_type = role_±j¤}§L
+level = 92
+new_job = item_­×Ã¹±j¤}§L,item_­×Ã¹±j¤}§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 53
+sol_type = role_±j©¸§L
+level = 92
+new_job = item_­×Ã¹±j©¸§L,item_­×Ã¹±j©¸§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 54
+sol_type = role_¿Ë½Ã§L
+level = 92
+new_job = item_­×Ã¹¿Ë½Ã§L,item_­×Ã¹¿Ë½Ã§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 55
+sol_type = role_·t±þªÌ
+level = 92
+new_job = item_­×Ã¹·t±þªÌ,item_­×Ã¹·t±þªÌ®Ê¤É¥O
+
+[CNPCJobUp]
+code = 56
+sol_type = role_­«¼C§L
+level = 92
+new_job = item_­×Ã¹­«¼C§L,item_­×Ã¹­«¼C§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 57
+sol_type = role_¼C»¨
+level = 92
+new_job = item_­×Ã¹¼C»¨,item_­×Ã¹¼C»¨®Ê¤É¥O
+
+[CNPCJobUp]
+code = 58
+sol_type = role_¾Ô®V
+level = 92
+new_job = item_­×Ã¹¾Ô®V,item_­×Ã¹¾Ô®V®Ê¤É¥O
+
+[CNPCJobUp]
+code = 59
+sol_type = role_¤k§D
+level = 92
+new_job = item_­×Ã¹¤k§D,item_­×Ã¹¤k§D®Ê¤É¥O
+
+[CNPCJobUp]
+code = 60
+sol_type = role_©òÃM§L
+level = 92
+new_job = item_­×Ã¹©òÃM§L,item_­×Ã¹©òÃM§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 61
+sol_type = role_ªê°\ÃM
+level = 92
+new_job = item_­×Ã¹ªê°\ÃM,item_­×Ã¹ªê°\ÃM®Ê¤É¥O
+
+[CNPCJobUp]
+code = 62
+sol_type = role_¯TÃM§L
+level = 92
+new_job = item_­×Ã¹¯TÃM§L,item_­×Ã¹¯TÃM§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 63
+sol_type = role_¯«¤}ÃM
+level = 92
+new_job = item_­×Ã¹¯«¤}ÃM,item_­×Ã¹¯«¤}ÃM®Ê¤É¥O
+
+[CNPCJobUp]
+code = 64
+sol_type = role_ÆZ¥Ò§L
+level = 92
+new_job = item_­×Ã¹ÆZ¥Ò§L,item_­×Ã¹ÆZ¥Ò§L®Ê¤É¥O
+
+[CNPCJobUp]
+code = 65
+sol_type = role_¶H§L
+level = 92
+new_job = item_­×Ã¹¶H§L,item_­×Ã¹¶H§L®Ê¤É¥O
+

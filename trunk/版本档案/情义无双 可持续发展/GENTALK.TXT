@@ -1,0 +1,2670 @@
+// ¼ÄªZ±N»¡¸Ü³]©wÀÉ
+#include PLAYERS.H
+
+
+[ini]
+item_max = 10000
+
+
+[gtalk]
+code = role_±i¨¤
+talk = 21600,21601,21602
+
+[gtalk]
+code = role_±iÄ_
+talk = 21603,21604,21605
+
+[gtalk]
+code = role_±i±ç
+talk = 21606,21607,21608
+
+[gtalk]
+code = role_ºÞ¥è
+talk = 21609,21610,21611
+
+[gtalk]
+code = role_±i°Ò¦¨
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¦ó»ö
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_°¨¤¸¸q
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_»¯¥°
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¶ÀÊo
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_Áú©¾
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_»p¤¸²Ð
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_ªi¤~
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¦ó°Ò
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¼B¹@
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_®]¥ò
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_ÅÇ³£
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¤Ë³ß
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_ÄY¬F
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_§ù»·
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_±iñm
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_­ð©P
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_°ªª@
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_©P­Ü
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¹ù¤Æ
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_±iÁ|
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_±i¯Â
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_®]®L
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_´^²æ
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_°¨¬Û
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_»¯¬é
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_§dÅQ
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_®}©M
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_³¢¤j
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¨H¦¨
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_»¯·O
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_§õ¬Û¦p
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¦¿®c
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_±i²ç
+wid = role_ºÞ¥è
+
+[gtalk]
+code = role_¤ý¥ñ
+talk = 21612
+
+[gtalk]
+code = role_¿à©ø
+wid = role_¤ý¥ñ
+
+[gtalk]
+code = role_¦¨À³
+wid = role_¤ý¥ñ
+
+[gtalk]
+code = role_¥Ó¶¯
+talk = 21613
+
+[gtalk]
+code = role_¹p³C
+wid = role_¥Ó¶¯
+
+[gtalk]
+code = role_±i°\
+wid = role_¥Ó¶¯
+
+[gtalk]
+code = role_¬ÂÄõ
+talk = 21614
+
+[gtalk]
+code = role_­»Äõ
+wid = role_¬ÂÄõ
+
+[gtalk]
+code = role_«CÄõ
+wid = role_¬ÂÄõ
+
+[gtalk]
+code = role_Áú«¾
+talk = 21615
+
+[gtalk]
+code = role_·¨©h
+wid = role_Áú«¾
+
+[gtalk]
+code = role_©s±C
+wid = role_Áú«¾
+
+[gtalk]
+code = role_§õ¦°
+talk = 21616
+
+[gtalk]
+code = role_«¸¥­
+wid = role_§õ¦°
+
+[gtalk]
+code = role_¿½²Ð
+wid = role_§õ¦°
+
+[gtalk]
+code = role_ºÑ¤ë
+talk = 21617
+
+[gtalk]
+code = role_¦pªá
+wid = role_ºÑ¤ë
+
+[gtalk]
+code = role_­Y¿P
+wid = role_ºÑ¤ë
+
+[gtalk]
+code = role_§dµë
+talk = 21618
+
+[gtalk]
+code = role_±ZÆN
+wid = role_§dµë
+
+[gtalk]
+code = role_¤ý¾W
+wid = role_§dµë
+
+[gtalk]
+code = role_»Èªá
+talk = 21619
+
+[gtalk]
+code = role_¦pÁ÷
+wid = role_»Èªá
+
+[gtalk]
+code = role_µµ¦ç
+wid = role_»Èªá
+
+[gtalk]
+code = role_¶À¨E
+talk = 21620
+
+[gtalk]
+code = role_¬x¹F
+wid = role_¶À¨E
+
+[gtalk]
+code = role_¤Rªê
+wid = role_¶À¨E
+
+[gtalk]
+code = role_¬q®ö
+talk = 21621
+
+[gtalk]
+code = role_§õ±ú
+wid = role_¬q®ö
+
+[gtalk]
+code = role_¿½¤b
+wid = role_¬q®ö
+
+[gtalk]
+code = role_´P©j
+talk = 21622
+
+[gtalk]
+code = role_ªüÀô
+wid = role_´P©j
+
+[gtalk]
+code = role_¤p³¦
+wid = role_´P©j
+
+[gtalk]
+code = role_±i¤û¨¤
+talk = 21623
+
+[gtalk]
+code = role_»u­¸¿P
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¥ªÀh¤V¤K
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_³¢¤j½å
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_±i¥ÕÃM
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¥ÕÂ¶
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¤_¥Â®Ú
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_·¨»ñ
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_Öª©T
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¥ª®Õ
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¼B¥Û
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¤_¬r
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¦¶»\
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_­JÄõ
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¥Õ³¶
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_¤­³À
+wid = role_±i¤û¨¤
+
+[gtalk]
+code = role_ºÞ©Ó
+talk = 21624
+
+[gtalk]
+code = role_­J¥É
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_®]Æ[
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¤ýÑÔ
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_±ö°®
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¹pºü
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¹­ªÛ
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_´^ºö
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¹Q¦ï
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¾d³£
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¿ú»É
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_Â£®¥
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_°Ï¬P
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¥Õªi
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¯B¶³
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_¹p¤½
+wid = role_ºÞ©Ó
+
+[gtalk]
+code = role_Âö«Å
+talk = 21625
+
+[gtalk]
+code = role_©÷äQ
+wid = role_Âö«Å
+
+[gtalk]
+code = role_±iÑÔ
+wid = role_Âö«Å
+
+[gtalk]
+code = role_±iÚ|
+wid = role_Âö«Å
+
+[gtalk]
+code = role_­J¤~
+wid = role_Âö«Å
+
+[gtalk]
+code = role_§õ¼Ö
+wid = role_Âö«Å
+
+[gtalk]
+code = role_°ª¦ã
+wid = role_Âö«Å
+
+[gtalk]
+code = role_©P¿ò
+wid = role_Âö«Å
+
+[gtalk]
+code = role_©Pª½
+wid = role_Âö«Å
+
+[gtalk]
+code = role_«J­µ
+wid = role_Âö«Å
+
+[gtalk]
+code = role_¤½®]¿c
+wid = role_Âö«Å
+
+[gtalk]
+code = role_¥­º~
+wid = role_Âö«Å
+
+[gtalk]
+code = role_¤j­p
+wid = role_Âö«Å
+
+[gtalk]
+code = role_µ{»·§Ó
+talk = 21626
+
+[gtalk]
+code = role_¾H­Z
+talk = 21627
+
+[gtalk]
+code = role_¤R¤x
+talk = 21628
+
+[gtalk]
+code = role_³¯Äõ
+talk = 21629
+
+[gtalk]
+code = role_±ö¦¨
+talk = 21630
+
+[gtalk]
+code = role_§õ¤j¥Ø
+talk = 21631
+
+[gtalk]
+code = role_©s¹F
+talk = 21632
+
+[gtalk]
+code = role_¥Ó¯Ô
+talk = 21633
+
+[gtalk]
+code = role_¥Ó»ö
+talk = 21634
+
+[gtalk]
+code = role_¤½®]ÅÐ
+talk = 21635,21636
+
+[gtalk]
+code = role_¤½®]½d
+talk = 21637,21638
+
+[gtalk]
+code = role_¤½®]Äò
+wid = role_¤½®]½d
+
+[gtalk]
+code = role_¤½®]¶V
+wid = role_¤½®]½d
+
+[gtalk]
+code = role_¸ë½d
+wid = role_¤½®]½d
+
+[gtalk]
+code = role_ÄYºõ
+wid = role_¤½®]½d
+
+[gtalk]
+code = role_·¨¯®
+wid = role_¤½®]½d
+
+[gtalk]
+code = role_»¯¶³
+talk = 21639,21640,21641
+
+[gtalk]
+code = role_¼ï»ñ
+talk = 21642,21643
+
+[gtalk]
+code = role_»¯¯B
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_°K¿ò
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¤è®®
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¤Õ©¦
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_Ãö¹t
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_­S¤è
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_½Ã¯÷
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_§õ¾ú
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_µ{µA
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_Ãö¯Â
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_µJ©M
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_ªZ¦w°ê
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¯ÕªZ
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_ÁúÃL
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_Àj«H
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¼B©§
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¤ý¦J
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¥Ð·¢
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_³æ¸g
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_±i¶W
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_³ì·è
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_±i·¨
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¦¶º~
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¿p¶¶
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_Àj©¾
+wid = role_¼ï»ñ
+
+[gtalk]
+code = role_¶À¯ª
+talk = 21644,21645
+
+[gtalk]
+code = role_¶À®g
+talk = 21646,21647
+
+[gtalk]
+code = role_Ä¬­¸
+wid = role_¶À®g
+
+[gtalk]
+code = role_±iµ[
+wid = role_¶À®g
+
+[gtalk]
+code = role_³¯¥Í
+wid = role_¶À®g
+
+[gtalk]
+code = role_¥Ì¹ç
+talk = 21648,21649,21650
+
+[gtalk]
+code = role_¼Bªí
+talk = 21651,21652
+
+[gtalk]
+code = role_½²·è
+talk = 21653,21654
+
+[gtalk]
+code = role_¤å¸u
+wid = role_½²·è
+
+[gtalk]
+code = role_ãÇ¶V
+wid = role_½²·è
+
+[gtalk]
+code = role_ãÇ¨}
+wid = role_½²·è
+
+[gtalk]
+code = role_¤ýßT
+wid = role_½²·è
+
+[gtalk]
+code = role_­J¨®¨à
+wid = role_½²·è
+
+[gtalk]
+code = role_¤ý«Â
+wid = role_½²·è
+
+[gtalk]
+code = role_¼Bªê
+wid = role_½²·è
+
+[gtalk]
+code = role_Áú¥È
+wid = role_½²·è
+
+[gtalk]
+code = role_Áú±ã
+wid = role_½²·è
+
+[gtalk]
+code = role_Áú·C
+wid = role_½²·è
+
+[gtalk]
+code = role_§f¤½
+wid = role_½²·è
+
+[gtalk]
+code = role_³Å´S
+wid = role_½²·è
+
+[gtalk]
+code = role_³¯®]
+wid = role_½²·è
+
+[gtalk]
+code = role_ª÷±Û
+wid = role_½²·è
+
+[gtalk]
+code = role_±iªZ
+wid = role_½²·è
+
+[gtalk]
+code = role_¼BÚz
+wid = role_½²·è
+
+[gtalk]
+code = role_½²¾±
+wid = role_½²·è
+
+[gtalk]
+code = role_½²©M
+wid = role_½²·è
+
+[gtalk]
+code = role_½²¤¤
+wid = role_½²·è
+
+[gtalk]
+code = role_¼BíÙ
+talk = 21655,21656
+
+[gtalk]
+code = role_±i­^
+talk = 21657,21658
+
+[gtalk]
+code = role_³¯¾î
+wid = role_±i­^
+
+[gtalk]
+code = role_ÄY¥Õªê
+wid = role_±i­^
+
+[gtalk]
+code = role_ÄYÁÖ
+wid = role_±i­^
+
+[gtalk]
+code = role_¤_ÁS
+wid = role_±i­^
+
+[gtalk]
+code = role_¼Ô¯à
+wid = role_±i­^
+
+[gtalk]
+code = role_»¯¬R
+wid = role_±i­^
+
+[gtalk]
+code = role_©P©ý
+wid = role_±i­^
+
+[gtalk]
+code = role_¤ý®Ô
+wid = role_±i­^
+
+[gtalk]
+code = role_²È¿Ä
+wid = role_±i­^
+
+[gtalk]
+code = role_Á§Â§
+wid = role_±i­^
+
+[gtalk]
+code = role_¦¶µq
+wid = role_±i­^
+
+[gtalk]
+code = role_³\°^
+wid = role_±i­^
+
+[gtalk]
+code = role_¤Ó¥v·O
+talk = 21659,21660
+
+[gtalk]
+code = role_¸t½Ï¹¥³À
+talk = 21661
+
+[gtalk]
+code = role_­C½Ï¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_Å]ªk¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_°g¸ô¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_¬y®ö¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_´²¨B¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_¹aÅL¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_³·¾õ¹¥³À
+wid = role_¸t½Ï¹¥³À
+
+[gtalk]
+code = role_¹L¦~»R·à
+talk = 21662,21663,21664
+
+[gtalk]
+code = role_¶P·³»R·à
+talk = 21665,21666,21667
+
+[gtalk]
+code = role_¦p·N»R·à
+talk = 21668
+
+[gtalk]
+code = role_¦N²»»R·à
+talk = 21669
+
+[gtalk]
+code = role_Ãz¦Ë»R·à
+talk = 21670,21671,21672
+
+[gtalk]
+code = role_¬K¹p»R·à
+talk = 21673,21674,21675
+
+[gtalk]
+code = role_¶À¬u­¸­º
+talk = 21676,21677
+
+[gtalk]
+code = role_¤õµKÃÆ¤ý
+talk = 21678
+
+[gtalk]
+code = role_ª¢Å]»jµï
+talk = 21679
+
+[gtalk]
+code = role_¥v«e¦BÅú
+talk = 21680
+
+[gtalk]
+code = role_¦BÅ]»jµï
+talk = 21681
+
+[gtalk]
+code = role_©]¤e­©ªø
+talk = 21682
+
+[gtalk]
+code = role_­ì©l¥¨Å]
+talk = 21683
+
+[gtalk]
+code = role_³\»u
+talk = 21684
+
+[gtalk]
+code = role_¶À©¾
+talk = 21685
+
+[gtalk]
+code = role_ÃQ©µ
+talk = 21686
+
+[gtalk]
+code = role_±iÅý
+talk = 21687,21688
+
+[gtalk]
+code = role_»¯©¾
+wid = role_±iÅý
+
+[gtalk]
+code = role_«Êë¥
+wid = role_±iÅý
+
+[gtalk]
+code = role_¬q¯^
+wid = role_±iÅý
+
+[gtalk]
+code = role_±ä¸`
+wid = role_±iÅý
+
+[gtalk]
+code = role_«JÄý
+wid = role_±iÅý
+
+[gtalk]
+code = role_î¿ºÓ
+wid = role_±iÅý
+
+[gtalk]
+code = role_µ{Ãm
+wid = role_±iÅý
+
+[gtalk]
+code = role_®LÙ@
+wid = role_±iÅý
+
+[gtalk]
+code = role_³¢³Ó
+wid = role_±iÅý
+
+[gtalk]
+code = role_§º¨å
+wid = role_±iÅý
+
+[gtalk]
+code = role_®}©^
+wid = role_±iÅý
+
+[gtalk]
+code = role_®]¼ý
+talk = 21689,21690
+
+[gtalk]
+code = role_ÁúÑ§
+wid = role_®]¼ý
+
+[gtalk]
+code = role_´ë¿p
+wid = role_®]¼ý
+
+[gtalk]
+code = role_²¦´P
+wid = role_®]¼ý
+
+[gtalk]
+code = role_©|¦ý
+wid = role_®]¼ý
+
+[gtalk]
+code = role_®ß·C
+wid = role_®]¼ý
+
+[gtalk]
+code = role_°ª±æ
+wid = role_®]¼ý
+
+[gtalk]
+code = role_±i®¥
+wid = role_®]¼ý
+
+[gtalk]
+code = role_§f±j
+wid = role_®]¼ý
+
+[gtalk]
+code = role_¤ý¨j
+wid = role_®]¼ý
+
+[gtalk]
+code = role_¤j¥Õ³D
+talk = 21691
+
+[gtalk]
+code = role_°K³N
+talk = 21692,21693
+
+[gtalk]
+code = role_¬öÆF
+talk = 21694,21695
+
+[gtalk]
+code = role_±i¾±
+wid = role_¬öÆF
+
+[gtalk]
+code = role_µÎ¥òÀ³
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¾ôëB
+wid = role_¬öÆF
+
+[gtalk]
+code = role_³¯¬ö
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¹pÁ¡
+wid = role_¬öÆF
+
+[gtalk]
+code = role_·¨¥°
+wid = role_¬öÆF
+
+[gtalk]
+code = role_Áú¾æ
+wid = role_¬öÆF
+
+[gtalk]
+code = role_·¨©^
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¼Ö´N
+wid = role_¬öÆF
+
+[gtalk]
+code = role_°K­N
+wid = role_¬öÆF
+
+[gtalk]
+code = role_±ç­è
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¼B¾±
+wid = role_¬öÆF
+
+[gtalk]
+code = role_§õÂ×
+wid = role_¬öÆF
+
+[gtalk]
+code = role_ÀF¶H
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¯û¥¿
+wid = role_¬öÆF
+
+[gtalk]
+code = role_«\¯A
+wid = role_¬öÆF
+
+[gtalk]
+code = role_°KÄ£
+wid = role_¬öÆF
+
+[gtalk]
+code = role_Áú­N
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¯ª­¦
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¶ÀÖa
+wid = role_¬öÆF
+
+[gtalk]
+code = role_ª÷©|
+wid = role_¬öÆF
+
+[gtalk]
+code = role_´fÅü
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¼B¼ý
+talk = 21696,21697
+
+[gtalk]
+code = role_±i¥ô
+talk = 21698,21699
+
+[gtalk]
+code = role_ª~­c
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¾H½å
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¤ý²Ö
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¹Q¹t
+wid = role_±i¥ô
+
+[gtalk]
+code = role_±iÁl
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¼B¤Ú
+wid = role_±i¥ô
+
+[gtalk]
+code = role_·¨¬x
+wid = role_±i¥ô
+
+[gtalk]
+code = role_°ª¨K
+wid = role_±i¥ô
+
+[gtalk]
+code = role_·¨Ãh
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¯³ÌW
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¼BºÀ
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¹p»É
+wid = role_±i¥ô
+
+[gtalk]
+code = role_§õÄY
+wid = role_±i¥ô
+
+[gtalk]
+code = role_§õ«ì
+wid = role_±i¥ô
+
+[gtalk]
+code = role_§f¸q
+wid = role_±i¥ô
+
+[gtalk]
+code = role_ÀN®m
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¨ôÁt
+wid = role_±i¥ô
+
+[gtalk]
+code = role_©P¸s
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¾HªÛ
+wid = role_±i¥ô
+
+[gtalk]
+code = role_¼B´`
+wid = role_±i¥ô
+
+[gtalk]
+code = role_Ã×©P
+wid = role_±i¥ô
+
+[gtalk]
+code = role_Ãe¸q
+wid = role_±i¥ô
+
+[gtalk]
+code = role_±i¾|
+talk = 21700,21701
+
+[gtalk]
+code = role_ÀF®E
+wid = role_±i¾|
+
+[gtalk]
+code = role_·¨ªQ
+wid = role_±i¾|
+
+[gtalk]
+code = role_·¨¥ô
+wid = role_±i¾|
+
+[gtalk]
+code = role_·¨©ù
+wid = role_±i¾|
+
+[gtalk]
+code = role_·¨¬f
+wid = role_±i¾|
+
+[gtalk]
+code = role_°K²Ð
+talk = 21702,21703
+
+[gtalk]
+code = role_ÃC¨}
+talk = 21704,21705
+
+[gtalk]
+code = role_¤åÁà
+talk = 21706,21707
+
+[gtalk]
+code = role_¥ÐÂ×
+talk = 21708,21709
+
+[gtalk]
+code = role_¨¯¬s
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¨¯µû
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_³{¬ö
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_³¢¹Ï
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¼f°t
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_ªq±Â
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_ªqÃ[
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¯û¿Û
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°K©|
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°Kº³
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°KÃÓ
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_²E¤_Ã£
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_½±¸q´ë
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°ª·F
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¤¨·¢
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_Áú²r
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_ÁúÒ²
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_ÄT¸q
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°ª¿»
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_³\§ñ
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_±ZÚ|
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°ªÄý
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¥ÐÃ¥
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¤ýÚ|
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_©P©ù
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¸³¨ô
+talk = 21710,21711
+
+[gtalk]
+code = role_µØ¶¯
+talk = 21712,21713
+
+[gtalk]
+code = role_§õ¾§
+talk = 21714,21715
+
+[gtalk]
+code = role_§õØR
+wid = role_§õ¾§
+
+[gtalk]
+code = role_±iÀÙ
+wid = role_§õ¾§
+
+[gtalk]
+code = role_³¢Éú
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¼Ô¸Y
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¤û»²
+wid = role_§õ¾§
+
+[gtalk]
+code = role_­JÜH
+wid = role_§õ¾§
+
+[gtalk]
+code = role_®}ºa
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¸³¿X
+wid = role_§õ¾§
+
+[gtalk]
+code = role_§õ»X
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¤ý¤è
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¥Ð»ö
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¸³ÌÉ
+wid = role_§õ¾§
+
+[gtalk]
+code = role_§õ§O
+wid = role_§õ¾§
+
+[gtalk]
+code = role_±Z«i
+wid = role_§õ¾§
+
+[gtalk]
+code = role_»¯§Â
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¤ý©÷
+wid = role_§õ¾§
+
+[gtalk]
+code = role_§õ¾æ
+wid = role_§õ¾§
+
+[gtalk]
+code = role_°ªºÓ
+wid = role_§õ¾§
+
+[gtalk]
+code = role_®L¨|
+wid = role_§õ¾§
+
+[gtalk]
+code = role_¥î²ß
+wid = role_§õ¾§
+
+[gtalk]
+code = role_§f¥¬
+talk = 21716,21717
+
+[gtalk]
+code = role_¶IÂÍ
+talk = 21718
+
+[gtalk]
+code = role_±i¿ñ
+talk = 21719,21720
+
+[gtalk]
+code = role_°ª¶¶
+talk = 21721
+
+[gtalk]
+code = role_³¯®c
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_§º¾Ë
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_«J¦¨
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_ÃQÄò
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_§õµÂ
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_±ä©Ê
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_¦¨·G
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_°qµÞ
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_±iÂä
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_³¯½Ã
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_¯³½Ë
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_»NÅQ
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_Á§Äõ
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_§õ«Ê
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_¤ý·¢
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_¤¨Â§
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_§d´°
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_³\Éú
+wid = role_°ª¶¶
+
+[gtalk]
+code = role_îî¤ë®V
+talk = 21722,21723,21724
+
+[gtalk]
+code = role_îî¤ë®V_1
+wid = role_îî¤ë®V
+
+[gtalk]
+code = role_îî¤ë®V_2
+wid = role_îî¤ë®V
+
+[gtalk]
+code = role_ª÷¯Í³¾
+talk = 21725
+
+[gtalk]
+code = role_ÅK¥ÒÀs
+talk = 21726
+
+[gtalk]
+code = role_Às¬¶¾Ô¨®
+talk = 21727
+
+[gtalk]
+code = role_Ã¹«b
+talk = 21728
+
+[gtalk]
+code = role_¤Ä»î°¨¨®
+talk = 21729
+
+[gtalk]
+code = role_·Òº»±N­x
+talk = 21730
+
+[gtalk]
+code = role_©sÀò
+talk = 21731,21732
+
+[gtalk]
+code = role_¯¬¿Ä
+talk = 21733,21734
+
+[gtalk]
+code = role_¤a¬ð°©
+talk = 21735,21736
+
+[gtalk]
+code = role_¤ì³À¤j¤ý
+talk = 21737,21738
+
+[gtalk]
+code = role_±a¨Ó¬}¥D
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_©s¸`
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_©sÀu
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_ªü·|³ä
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¦·«ä¤j¤ý
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_ª÷Àô¤Tµ²
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¸³²þ¨º
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¦£¤úªø
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_®Oªd
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¤g¦w
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¼B­H
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_·¨¾W
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¹lñm
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¦¶½Ç
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_°ª©w
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_¶k·Ø
+wid = role_¤ì³À¤j¤ý
+
+[gtalk]
+code = role_©I¼p¬u
+talk = 21739,21740
+
+[gtalk]
+code = role_¶a¤ñ¯à
+talk = 21741,21742
+
+[gtalk]
+code = role_ÁÏ¹y
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_°g·í¤j¤ý
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¥ª½å¤ý
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¹ý¨½¦N
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¨º¼Ó
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¼Ó¯Z
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_³t¹²¤Y
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_«X¦ó
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¿N¤à
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¸¿¾B¶ë
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¯à¦Ú
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¥Õªê¤å
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_ªvµLÀ¹
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¯Q©µ
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¯À§Q
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¶®¤¦
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¨B«×®Ú
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¶V¦N
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¥O©~
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_³Ö¾÷
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_À±¥[
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¥ï¦P
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_ªv¤¸¦h
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_°©¶i
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¨|©µ
+wid = role_¶a¤ñ¯à
+
+[gtalk]
+code = role_¤j³·¤H
+talk = 21743,21744
+
+[gtalk]
+code = role_÷´Às_¶Â
+talk = 21745
+
+[gtalk]
+code = role_÷´Às_¬õ
+wid = role_÷´Às_¶Â
+
+[gtalk]
+code = role_÷´Às_ÂÅ
+wid = role_÷´Às_¶Â
+
+[gtalk]
+code = role_©bÀs_¬õ
+talk = 21746
+
+[gtalk]
+code = role_©bÀs_ÂÅ
+wid = role_©bÀs_¬õ
+
+[gtalk]
+code = role_©bÀs_ºñ
+wid = role_©bÀs_¬õ
+
+[gtalk]
+code = role_­p»X_µµ
+talk = 21747
+
+[gtalk]
+code = role_­p»X_¶À
+wid = role_­p»X_µµ
+
+[gtalk]
+code = role_­p»X_¬õ
+wid = role_­p»X_µµ
+
+[gtalk]
+code = role_­p»X_ÂÅ
+wid = role_­p»X_µµ
+
+[gtalk]
+code = role_¦BÁ÷¥¨¤H
+talk = 21748
+
+[gtalk]
+code = role_¨gÅ]¥¨¤H
+wid = role_¦BÁ÷¥¨¤H
+
+[gtalk]
+code = role_¦a©³¥¨¤H
+wid = role_¦BÁ÷¥¨¤H
+
+[gtalk]
+code = role_¦a©³¦BÃ~
+talk = 21749
+
+[gtalk]
+code = role_¦a©³Å]Ã~
+wid = role_¦a©³¦BÃ~
+
+[gtalk]
+code = role_¦a©³§¯Ã~
+wid = role_¦a©³¦BÃ~
+
+[gtalk]
+code = role_¥Û±N­x
+talk = 21750
+
+[gtalk]
+code = role_¥Û´±·í
+wid = role_¥Û±N­x
+
+[gtalk]
+code = role_¥ÛÀY¤½
+wid = role_¥Û±N­x
+
+[gtalk]
+code = role_¥ÛÀY¤H
+wid = role_¥Û±N­x
+
+[gtalk]
+code = role_ªk¥¿
+talk = 21751
+
+[gtalk]
+code = role_ÄYÃC
+talk = 21752
+
+[gtalk]
+code = role_Ãe¼w
+talk = 21753
+
+[gtalk]
+code = role_¦~Ã~
+talk = 21754,21755,21756
+
+[gtalk]
+code = role_ÁéÂ÷¬N
+talk = 21757,21758
+
+[gtalk]
+code = role_¶µ§B
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_©P®ï
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¿½¤½¨¤
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_±i¶h
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¶µ²ø
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_±ä©S
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¤B¤½
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¾G©÷
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_³¯À¦
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_õ´¥¬
+talk = 21759
+
+[gtalk]
+code = role_Às¥B
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¶µ±ç
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_³¹ÍÕ
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¸³Ák
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_­S¼W
+talk = 21760
+
+[gtalk]
+code = role_¶µÁn
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_©PÄõ
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_ªZ¯A
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¥q°¨ªY
+wid = role_ÁéÂ÷¬N
+
+[gtalk]
+code = role_¼ÔéD
+talk = 21761
+
+[gtalk]
+code = role_ÄéÀ¦
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_³¯¥­
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_³¢»X
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_·¨³ß
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_¿½¦ó
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_±ä°Ñ
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_§f¿A
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_Á§¤½
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_³e°ª
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_Áú«H
+talk = 21762,21763
+
+[gtalk]
+code = role_´^¶V
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_±i±Î
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_®L«JÀ¦
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_³Å¼e
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_±i¨}
+talk = 21764
+
+[gtalk]
+code = role_Å°­¹¨ä
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_¤ý³®
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_Å°°Ó
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_®O®þ
+wid = role_¼ÔéD
+
+[gtalk]
+code = role_¼B¨¹
+talk = 21765,21766
+
+[gtalk]
+code = role_§f¹n
+talk = 21767,21768
+
+[gtalk]
+code = role_¶µ¦Ð
+talk = 21769,21770
+
+[gtalk]
+code = role_¸·®V
+talk = 21771,21772
+
+[gtalk]
+code = role_«Ò¤ý°K³N
+talk = 21773,21774
+
+[gtalk]
+code = role_«Ò¤ý°K²Ð
+talk = 21775,21776
+
+[gtalk]
+code = role_¨õÀ±©I
+talk = 21777,21778
+
+[gtalk]
+code = role_¨õÀ±¤}©I
+talk = 21779,21780
+
+[gtalk]
+code = role_¶·¦õ
+talk = 21781,21782
+
+[gtalk]
+code = role_³ü»P
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_±³¨¸ª¯
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_¥ìÁn¯Ï
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_³£¥«¤û§Q
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_Ãø¤É¦Ì
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_À¹´µ
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_¯Q¶V
+wid = role_¶·¦õ
+
+[gtalk]
+code = role_¤g»jµï
+talk = 21783
+
+[gtalk]
+code = role_«C°­
+talk = 21784,21785
+
+[gtalk]
+code = role_¨ª°­
+wid = role_«C°­
+
+[gtalk]
+code = role_°KàÔ
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_µJÄ²
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¯Q®ÙÄ²
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_³¯µY
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_§fÃm
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_§fµ¾
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_¼fºa
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_½±©_
+wid = role_¥ÐÂ×
+
+[gtalk]
+code = role_°¨©µ
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¤ý­×
+wid = role_¬öÆF
+
+[gtalk]
+code = role_§õ§·
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¶¾Â§
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¨L¬L
+wid = role_¬öÆF
+
+[gtalk]
+code = role_§ÂÂz
+wid = role_¬öÆF
+
+[gtalk]
+code = role_´^¦w
+wid = role_¬öÆF
+
+[gtalk]
+code = role_³±ÄÜ
+wid = role_¬öÆF
+
+[gtalk]
+code = role_¤­¬r¥Õ³D
+talk = 21786
+
+[gtalk]
+code = role_¤­¬r«C³D
+talk = 21787
+
+[gtalk]
+code = role_¤­¬rÆc»h
+talk = 21788
+
+[gtalk]
+code = role_¤­¬r¥¨ÃÈ
+talk = 21789
+
+[gtalk]
+code = role_¤­¬r¤ÑÃÊ
+talk = 21790
+
+[gtalk]
+code = role_ªi´µ³¥µs­º»â_1
+talk = 21791,21792,21793
+
+[gtalk]
+code = role_ªi´µ³¥µs­º»â_2
+wid = role_ªi´µ³¥µs­º»â_1
+
+[gtalk]
+code = role_ªi´µ³¥µs­º»â_3
+wid = role_ªi´µ³¥µs­º»â_1
+
+[gtalk]
+code = role_ªi´µ³¥µs­º»â_4
+wid = role_ªi´µ³¥µs­º»â_1
+
+[gtalk]
+code = role_ªi´µ³¥µs­º»â_5
+wid = role_ªi´µ³¥µs­º»â_1
+
+[gtalk]
+code = role_¬ì©i¹F´µ
+talk = 21794,21795,21796
+
+[gtalk]
+code = role_ÁÉºûº¸
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¨f­×´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¥Ë°Ç¨}
+talk = 21797,21798,21799
+
+[gtalk]
+code = role_¥d§Q®¦§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_°ª¿c´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_°¨§J§Æ©i
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_³Í©Ô¥d©Ô
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_³Í¹F
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_®ü§Q¼Ú¥d¤Ú¾|´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_­ô­}¨È
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_©¬²Ä¯Ç¥j´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¦¶§Q¦w§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¯Ç³Çº¸
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¦ãº¸«ô­Û
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_°¨§J§Q§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_­}¨È§ù°Ò¥§¦w
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_´¶¤ñ§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¤Úº¸¤ñ§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_©¬¥d½{¨È§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_§Æ¯Z¯Ç¥j´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_§õ§Æ¥§¨È§V´µ
+wid = role_¥Ë°Ç¨}
+
+[gtalk]
+code = role_¬âÀs_1
+talk = 21800
+
+[gtalk]
+code = role_¬âÀs_2
+wid = role_¬âÀs_1
+
+[gtalk]
+code = role_¬âÀs_3
+wid = role_¬âÀs_1
+
+[gtalk]
+code = role_¬âÀs_4
+wid = role_¬âÀs_1
+
+[gtalk]
+code = role_¬âÀs_5
+wid = role_¬âÀs_1
+
+[gtalk]
+code = role_Âù§À§¯ÃÈ_1
+talk = 21801
+
+[gtalk]
+code = role_Âù§À§¯ÃÈ_2
+wid = role_Âù§À§¯ÃÈ_1
+
+[gtalk]
+code = role_Âù§À§¯ÃÈ_3
+wid = role_Âù§À§¯ÃÈ_1
+
+[gtalk]
+code = role_Âù§À§¯ÃÈ_4
+wid = role_Âù§À§¯ÃÈ_1
+
+[gtalk]
+code = role_Âù§À§¯ÃÈ_5
+wid = role_Âù§À§¯ÃÈ_1
+
+[gtalk]
+code = role_¤pºëÆF
+talk = 21802,21803
+
+[gtalk]
+code = role_ª¯¥P
+talk = 21804,21805,21806
+
+[gtalk]
+code = role_¯³¥Õ°©ÃM§L¤ý
+
+[gtalk]
+code = role_¦¶»X
+talk = 21807,21808
+
+[gtalk]
+code = role_°ªÄRªZ±N
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_¤lÀ¦
+talk = 21809,21810,21811
+
+[gtalk]
+code = role_±LÂ·
+talk = 21812,21813,21814
+
+[gtalk]
+code = role_Á[¬r
+wid = role_±LÂ·
+
+[gtalk]
+code = role_ª÷µì¤ý
+talk = 21815,21816,21817
+
+[gtalk]
+code = role_±Z©¾Äm
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_¤ý«Ø
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_§õ¦¨®Û
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_»\ª÷
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_¯[¼þ¤ý
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_ªm¬y¤ý
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_·Å¯®¤ý
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_ªF©ú¤ý
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_ªF§ß¾l¤ý
+wid = role_ª÷µì¤ý
+
+[gtalk]
+code = role_±ä¾Þ_¨ª¾À
+talk = 21818,21819,21820
+
+[gtalk]
+code = role_Ãö¦Ð_¨ª¾À
+talk = 21821,21822,21823
+
+[gtalk]
+code = role_±i¿ñ_¨ª¾À
+talk = 21824,21825,21826
+
+[gtalk]
+code = role_Ãö¥­_¨ª¾À
+talk = 21827,21828,21829
+
+[gtalk]
+code = role_µ{¬R_¨ª¾À
+talk = 21830,21831,21832
+
+[gtalk]
+code = role_©P­Ü_¨ª¾À
+talk = 21833,21834,21835
+
+[gtalk]
+code = role_³°»¹_¾Ô³õ
+talk = 21836,21837,21838
+
+[gtalk]
+code = role_¼B³Æ_¾Ô³õ
+talk = 21839,21840,21841
+
+[gtalk]
+code = role_®}²±_¾Ô³õ
+talk = 21842,21843,21844
+
+[gtalk]
+code = role_°¨¨}_¾Ô³õ
+talk = 21845,21846,21847
+
+[gtalk]
+code = role_Áú·í_¾Ô³õ
+talk = 21848,21849,21850
+
+[gtalk]
+code = role_¶ÀÅv_¾Ô³õ
+talk = 21851,21852,21853
+
+[gtalk]
+code = role_¦¶µM_¾Ô³õ
+talk = 21854,21855,21856
+
+[gtalk]
+code = role_±i«n_¾Ô³õ
+talk = 21857,21858,21859
+
+[gtalk]
+code = role_¹ë¤ý¡E§¯¤­®Q
+talk = 21860,21861
+
+[gtalk]
+code = role_¤s¹ë¤ý¡EÄY³£
+talk = 21862,21863
+
+[gtalk]
+code = role_µê¹³¡EÅ]¤ß
+talk = 21864,21865
+
+[gtalk]
+code = role_§¯»î
+talk = 21866,21867
+
+[gtalk]
+code = role_¤M»î
+wid = role_§¯»î
+
+[gtalk]
+code = role_¥ì´H¤k
+talk = 21868,21869
+
+[gtalk]
+code = role_ÃSÃR®V
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_Ã»¤õÄ]
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_¤õªÁ®Q
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_­°§Å®V
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_¤sªÁÄ]
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_ÆFªÁ¤k
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_¤ôªÁ®Q
+wid = role_¥ì´H¤k
+
+[gtalk]
+code = role_¼v«CÀs
+talk = 21870
+
+[gtalk]
+code = role_¼v¥Õªê
+talk = 21871
+
+[gtalk]
+code = role_¼v¦¶³¶
+talk = 21872
+
+[gtalk]
+code = role_¼v¥ÈªZ
+talk = 21873
+
+[gtalk]
+code = role_¼vÄQÅï
+talk = 21874
+
+[gtalk]
+code = role_¶ê¤ë¥P¤k
+talk = 21874,21875
+
+[gtalk]
+code = role_§¯¤Æ±i¨¤
+talk = 21877
+
+[gtalk]
+code = role_¤ôÃè¥ý¥Í
+talk = 21878
+
+[gtalk]
+code = role_«n¥Ê©ÇÀY¥Ø
+talk = 21879
+
+[gtalk]
+code = role_¶IÂÍ_cosplay
+talk = 21880
+
+[gtalk]
+code = role_°K²Ð_cosplay
+talk = 21881
+
+[gtalk]
+code = role_¸³¨ô_cosplay
+talk = 21882
+
+[gtalk]
+code = role_§f¥¬_cosplay
+talk = 21883
+
+[gtalk]
+code = role_¼B¨¹_cosplay
+talk = 21884
+
+[gtalk]
+code = role_¶µ¦Ð_cosplay
+talk = 21885
+
+[gtalk]
+code = role_¯¬¿Ä_±¡¤H
+talk = 21886,21887
+
+[gtalk]
+code = role_©sÀò_±¡¤H
+talk = 21888,21889
+
+[gtalk]
+code = role_¸³¨ô_±¡¤H
+talk = 21890,21891
+
+[gtalk]
+code = role_§f¥¬_±¡¤H
+talk = 21892,21893
+
+[gtalk]
+code = role_¬öÆF_±¡¤H
+talk = 21894,21895
+
+[gtalk]
+code = role_Ãe¼w_±¡¤H
+talk = 21896
+
+[gtalk]
+code = role_¨õÀ±©I_±¡¤H
+talk = 21897,21898
+
+[gtalk]
+code = role_¶IÂÍ_±¡¤H
+talk = 21899
+
+[gtalk]
+code = role_¹ë¤ý¡E§¯¤­®Q_±¡¤H
+talk = 21900,21901
+
+[gtalk]
+code = role_¤ôªÁ®Q_±¡¤H
+talk = 21902,21903
+
+[gtalk]
+code = role_±ä©s¼w_cosplay
+talk = 21904
+
+[gtalk]
+code = role_¼B¥È¼w_cosplay
+talk = 21905
+
+[gtalk]
+code = role_®]§B²Å_cosplay
+talk = 21906
+
+[gtalk]
+code = role_±i¿ñ_ÃQ¨}±N
+talk = 21906
+
+[gtalk]
+code = role_¼Ö¶i_ÃQ¨}±N
+talk = 21907
+
+[gtalk]
+code = role_¤_¸T_ÃQ¨}±N
+talk = 21908
+
+[gtalk]
+code = role_±i­¨_ÃQ¨}±N
+talk = 21909
+
+[gtalk]
+code = role_®}®Ì_ÃQ¨}±N
+talk = 21910
+
+[gtalk]
+code = role_Ãö¦Ð_¸¾¤W±N
+talk = 21911
+
+[gtalk]
+code = role_±i­¸_¸¾¤W±N
+talk = 21912
+
+[gtalk]
+code = role_»¯¶³_¸¾¤W±N
+talk = 21913
+
+[gtalk]
+code = role_°¨¶W_¸¾¤W±N
+talk = 21914
+
+[gtalk]
+code = role_¶À©¾_¸¾¤W±N
+talk = 21915
+
+[gtalk]
+code = role_¯ûÑ{_ÃQ¿Ñ¤h
+talk = 21916
+
+[gtalk]
+code = role_¯û§ñ_ÃQ¿Ñ¤h
+talk = 21917
+
+[gtalk]
+code = role_¸ëàH_ÃQ¿Ñ¤h
+talk = 21918
+
+[gtalk]
+code = role_µ{¬R_ÃQ¿Ñ¤h
+talk = 21919
+
+[gtalk]
+code = role_³¢¹Å_ÃQ¿Ñ¤h
+talk = 21920
+
+[gtalk]
+code = role_©P·ì_§d¥|ªN
+talk = 21921
+
+[gtalk]
+code = role_¾|µÂ_§d¥|ªN
+talk = 21922
+
+[gtalk]
+code = role_§f»X_§d¥|ªN
+talk = 21923
+
+[gtalk]
+code = role_³°»¹_§d¥|ªN
+talk = 21924

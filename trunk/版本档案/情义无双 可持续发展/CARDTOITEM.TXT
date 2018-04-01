@@ -1,0 +1,10 @@
+// 月票換福袋表
+#include ITEM.H
+
+
+[card_to_item]
+code = 1
+item_code = item_新春福袋
+item_number = 10
+
+

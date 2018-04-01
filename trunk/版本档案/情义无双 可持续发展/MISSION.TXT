@@ -1,0 +1,1478 @@
+
+// ¥ô°Èªí
+#include TYPE.H
+#include PLAYERS.H
+//®æ¦¡¡G[step][title][info][enemy]
+
+
+[mission]
+code = 001
+repeat = 0
+step = 000,40000,40001,
+step = 001,40002,40003,role_½_¯ó¤H
+step = 002,40004,40005,
+step = 003,40006,40007,
+
+[mission]
+code = 002
+repeat = 0
+step = 000,40008,40009,
+step = 001,40010,40011,
+
+[mission]
+code = 003
+repeat = 0
+step = 000,40012,40013,
+step = 001,40014,40015,
+step = 002,40016,40017,role_¶À¤y¥¸­Ô§L
+step = 003,40018,40019,
+
+[mission]
+code = 004
+repeat = 43200
+step = 000,40020,40021,
+step = 001,40022,40023,
+
+[mission]
+code = 005
+repeat = 0
+step = 000,40024,40025,
+step = 001,40026,40027,
+step = 002,40028,40029,
+step = 003,40030,40031,
+
+[mission]
+code = 006
+repeat = 72000
+step = 000,40032,40033,
+step = 001,40034,40035,
+
+[mission]
+code = 007
+repeat = 0
+step = 000,40036,40037,
+step = 001,40038,40039,
+step = 002,40040,40041,
+step = 003,40042,40043,
+step = 004,40044,40045,
+step = 005,40046,40047,
+step = 006,40048,40049,
+
+[mission]
+code = 008
+repeat = 0
+step = 000,40050,40051,
+step = 001,40052,40053,
+step = 002,40054,40055,
+step = 003,40056,40057,
+
+[mission]
+code = 009
+repeat = 0
+step = 000,40058,40059,
+step = 001,40060,40061,
+step = 002,40062,40063,
+step = 003,40064,40065,role_¬yª]
+step = 004,40066,40067,
+
+[mission]
+code = 010
+repeat = 86400
+step = 000,40068,40069,
+step = 001,40070,40071,
+step = 002,40072,40073,
+step = 003,40074,40075,
+
+[mission]
+code = 011
+repeat = 0
+step = 000,40076,40077,
+step = 001,40078,40079,
+
+[mission]
+code = 012
+repeat = 0
+step = 000,40080,40081,
+step = 001,40082,40083,
+step = 002,40084,40085,
+
+[mission]
+code = 013
+repeat = 0
+step = 000,40086,40087,
+step = 001,40088,40089,
+step = 002,40090,40091,
+
+[mission]
+code = 014
+repeat = 0
+step = 000,40092,40093,
+step = 001,40094,40095,
+step = 002,40096,40097,
+step = 003,40098,40099,
+step = 004,40100,40101,
+step = 005,40102,40103,
+step = 006,40104,40105,
+step = 007,40106,40107,
+step = 008,40108,40109,
+step = 009,40110,40111,
+step = 010,40112,40113,
+
+[mission]
+code = 015
+repeat = 0
+step = 000,40114,40115,
+step = 001,40116,40117,
+step = 002,40118,40119,
+step = 003,40120,40121,
+step = 004,40122,40123,
+
+[mission]
+code = 016
+step = 000,40124,40125,
+step = 001,40126,40127,
+
+[mission]
+code = 017
+step = 000,40128,40129,
+step = 001,40130,40131,
+step = 002,40132,40133,
+step = 003,40134,40135,
+step = 004,40136,40137,
+
+[mission]
+code = 018
+step = 000,40138,40139,
+step = 001,40140,40141,role_¦aµlÀY¤l
+
+[mission]
+code = 019
+step = 000,40142,40143,
+step = 001,40144,40145,
+
+[mission]
+code = 020
+step = 000,40146,40147,
+step = 001,40148,40149,
+step = 002,40150,40151,
+
+[mission]
+code = 021
+repeat = 0
+step = 000,40152,40153,
+step = 001,40154,40155,
+step = 002,40156,40157,
+step = 003,40158,40159,
+step = 004,40160,40161,
+step = 005,40162,40163,
+step = 006,40164,40165,
+step = 007,40166,40167,
+
+[mission]
+code = 22
+repeat = 0
+step = 000,40168,40169,
+step = 001,40170,40171,
+step = 002,40172,40173,role_°k§L
+step = 003,40174,40175,
+
+[mission]
+code = 023
+repeat = 0
+step = 000,40176,40177,
+step = 001,40178,40179,
+
+[mission]
+code = 024
+repeat = 0
+step = 000,40180,40181,
+step = 001,40182,40183,
+
+[mission]
+code = 025
+repeat = 0
+step = 000,40184,40185,
+step = 001,40186,40187,
+
+[mission]
+code = 026
+repeat = 0
+step = 000,40188,40189,
+step = 001,40190,40191,
+
+[mission]
+code = 027
+repeat = 0
+step = 000,40192,40193,
+step = 001,40194,40195,
+
+[mission]
+code = 028
+repeat = 0
+step = 000,40196,40197,
+step = 001,40198,40199,
+
+[mission]
+code = 029
+repeat = 0
+step = 000,40200,40201,
+step = 001,40202,40203,
+step = 002,40204,40205,
+step = 003,40206,40207,
+
+[mission]
+code = 030
+repeat = 0
+step = 000,40208,40209,
+step = 001,40210,40211,
+step = 002,40212,40213,
+step = 003,40214,40215,
+step = 004,40216,40217,
+step = 005,40218,40219,
+step = 006,40220,40221,
+step = 007,40222,40223,
+step = 008,40224,40225,
+
+[mission]
+code = 031
+repeat = 0
+step = 000,40226,40227,
+step = 001,40228,40229,
+step = 002,40230,40231,
+step = 003,40232,40233,
+
+[mission]
+code = 32
+repeat = 0
+step = 000,40234,40235,
+step = 001,40236,40237,
+step = 002,40238,40239,
+step = 003,40240,40241,
+
+[mission]
+code = 033
+repeat = 0
+step = 000,40242,40243,
+step = 001,40244,40245,
+step = 002,40246,40247,
+step = 003,40248,40249,
+step = 004,40250,40251,
+step = 005,40252,40253,
+step = 006,40254,40255,
+step = 007,40256,40257,
+step = 008,40258,40259,
+step = 009,40260,40261,
+
+[mission]
+code = 034
+repeat = 0
+step = 000,40262,40263,
+step = 001,40264,40265,
+step = 002,40266,40267,role_¤­±m¥Û
+
+[mission]
+code = 035
+repeat = 0
+step = 000,40268,40269,
+step = 001,40270,40271,
+step = 002,40272,40273,
+step = 003,40274,40275,
+
+[mission]
+code = 036
+repeat = 0
+step = 000,40276,40277,
+step = 001,40278,40279,
+step = 002,40280,40281,
+
+[mission]
+code = 037
+repeat = 0
+step = 000,40282,40283,
+step = 001,40284,40285,
+step = 002,40286,40287,
+
+[mission]
+code = 038
+repeat = 0
+step = 000,40288,40289,
+step = 001,40290,40291,
+step = 002,40292,40293,
+
+[mission]
+code = 039
+repeat = 0
+step = 000,40294,40295,
+step = 001,40296,40297,
+step = 002,40298,40299,
+step = 003,40300,40301,
+
+[mission]
+code = 040
+repeat = 604800
+step = 000,40302,40303,
+step = 001,40304,40305,
+step = 002,40306,40307,
+step = 003,40308,40309,
+step = 004,40310,40311,
+step = 005,40312,40313,
+step = 006,40314,40315,role_¿½¤b
+step = 007,40316,40317,
+step = 008,40318,40319,
+
+[mission]
+code = 041
+repeat = 0
+step = 000,40320,40321,
+step = 001,40322,40323,
+step = 002,40324,40325,
+step = 003,40326,40327,
+
+[mission]
+code = 042
+repeat = 0
+step = 000,40328,40329,
+step = 001,40330,40331,
+step = 002,40332,40333,role_¤s¸é¤M§L¶¤ªø
+step = 003,40334,40335,
+
+[mission]
+code = 043
+repeat = 0
+step = 000,40336,40337,
+step = 001,40338,40339,
+step = 002,40340,40341,
+step = 003,40342,40343,
+step = 004,40344,40345,
+step = 005,40346,40347,
+step = 006,40348,40349,
+step = 007,40350,40351,
+step = 008,40352,40353,
+step = 009,40354,40355,
+step = 010,40356,40357,
+
+[mission]
+code = 044
+repeat = 0
+step = 000,40358,40359,
+step = 001,40360,40361,
+step = 002,40362,40363,
+step = 003,40364,40365,
+step = 004,40366,40367,
+
+[mission]
+code = 045
+repeat = 0
+step = 000,40368,40369,
+step = 001,40370,40371,
+
+[mission]
+code = 046
+repeat = 0
+step = 000,40372,40373,
+step = 001,40374,40375,
+step = 002,40376,40377,
+
+[mission]
+code = 047
+repeat = 0
+step = 000,40378,40379,
+step = 001,40380,40381,
+step = 002,40382,40383,role_¤M¾W¤k·Ù¬P
+step = 003,40384,40385,
+
+[mission]
+code = 048
+repeat = 0
+step = 000,40386,40387,
+step = 001,40388,40389,
+step = 002,40390,40391,
+step = 003,40392,40393,
+step = 004,40394,40395,
+step = 005,40396,40397,
+step = 006,40398,40399,
+
+[mission]
+code = 049
+repeat = 0
+step = 000,40400,40401,
+step = 001,40402,40403,
+
+[mission]
+code = 050
+repeat = 0
+step = 000,40404,40405,
+step = 001,40406,40407,
+step = 002,40408,40409,
+
+[mission]
+code = 051
+repeat = 0
+step = 000,40410,40411,
+step = 001,40412,40413,
+step = 002,40414,40415,
+
+[mission]
+code = 052
+repeat = 0
+step = 000,40416,40417,
+step = 001,40418,40419,
+step = 002,40420,40421,
+
+[mission]
+code = 053
+repeat = 0
+step = 000,40422,40423,
+step = 001,40424,40425,
+step = 002,40426,40427,
+step = 003,40428,40429,
+step = 004,40430,40431,
+step = 005,40432,40433,
+step = 006,40434,40435,
+step = 007,40436,40437,
+step = 008,40438,40439,
+step = 009,40440,40441,
+
+[mission]
+code = 54
+repeat = 0
+step = 00,40442,40443,
+step = 01,40444,40445,role_±iÅı
+
+[mission]
+code = 55
+repeat = 0
+step = 000,40446,40447,
+step = 001,40448,40449,
+step = 002,40450,40451,
+step = 003,40452,40453,
+step = 004,40454,40455,
+step = 005,40456,40457,
+
+[mission]
+code = 056
+repeat = 0
+step = 000,40458,40459,
+step = 001,40460,40461,
+step = 002,40462,40463,
+step = 003,40464,40465,
+step = 004,40466,40467,
+step = 005,40468,40469,role_¤p°­
+step = 006,40470,40471,
+step = 007,40472,40473,
+step = 008,40474,40475,
+
+[mission]
+code = 57
+repeat = 0
+step = 000,40476,40477,
+step = 001,40478,40479,role_¶À¤yÅK½c
+
+[mission]
+code = 058
+repeat = 0
+step = 000,40480,40481,
+step = 001,40482,40483,role_¥PÅb
+step = 002,40484,40485,
+
+[mission]
+code = 059
+repeat = 0
+step = 000,40486,40487,
+step = 001,40488,40489,
+step = 002,40490,40491,
+step = 003,40492,40493,
+step = 004,40494,40495,
+
+[mission]
+code = 060
+repeat = 0
+step = 000,40496,40497,
+step = 001,40498,40499,
+step = 002,40500,40501,
+step = 003,40502,40503,
+
+[mission]
+code = 061
+repeat = 0
+step = 000,40504,40505,
+step = 001,40506,40507,
+step = 002,40508,40509,
+step = 003,40510,40511,
+step = 004,40512,40513,
+step = 005,40514,40515,
+step = 006,40516,40517,
+step = 007,40518,40519,
+step = 008,40520,40521,
+
+[mission]
+code = 062
+repeat = 0
+step = 000,40522,40523,
+step = 001,40524,40525,
+step = 002,40526,40527,
+step = 003,40528,40529,
+
+[mission]
+code = 064
+repeat = 0
+step = 000,40530,40531,
+step = 001,40532,40533,
+step = 002,40534,40535,
+
+[mission]
+code = 065
+repeat = 0
+step = 000,40536,40537,
+step = 001,40538,40539,
+step = 002,40540,40541,
+step = 003,40542,40543,
+step = 004,40544,40545,
+step = 005,40546,40547,
+
+[mission]
+code = 066
+repeat = 0
+step = 000,40548,40549,
+step = 001,40550,40551,
+step = 002,40552,40553,
+step = 003,40554,40555,
+
+[mission]
+code = 067
+repeat = 0
+step = 000,40556,40557,
+step = 001,40558,40559,
+
+[mission]
+code = 068
+repeat = 0
+step = 000,40560,40561,
+step = 001,40562,40563,
+
+[mission]
+code = 069
+repeat = 0
+step = 000,40564,40565,
+step = 001,40566,40567,
+
+[mission]
+code = 070
+repeat = 0
+step = 000,40568,40569,
+step = 001,40570,40571,
+
+[mission]
+code = 071
+repeat = 0
+step = 000,40572,40573,
+step = 001,40574,40575,
+
+[mission]
+code = 072
+repeat = 0
+step = 000,40576,40577,
+step = 001,40578,40579,
+
+[mission]
+code = 073
+repeat = 0
+step = 000,40580,40581,
+step = 001,40582,40583,
+
+[mission]
+code = 074
+repeat = 0
+step = 000,40584,40585,
+step = 001,40586,40587,
+
+[mission]
+code = 075
+repeat = 0
+step = 000,40588,40589,
+step = 001,40590,40591,
+
+[mission]
+code = 076
+repeat = 0
+step = 000,40592,40593,
+step = 001,40594,40595,
+
+[mission]
+code = 077
+repeat = 0
+step = 000,40596,40597,
+step = 001,40598,40599,
+
+[mission]
+code = 078
+repeat = 0
+step = 000,40600,40601,
+step = 001,40602,40603,
+
+[mission]
+code = 079
+repeat = 0
+step = 000,40604,40605,
+step = 001,40606,40607,
+
+[mission]
+code = 080
+repeat = 0
+step = 000,40608,40609,
+step = 001,40610,40611,
+
+[mission]
+code = 081
+repeat = 0
+step = 000,40612,40613,
+step = 001,40614,40615,
+
+[mission]
+code = 082
+repeat = 0
+step = 000,40616,40617,
+step = 001,40618,40619,
+
+[mission]
+code = 083
+repeat = 0
+step = 000,40620,40621,
+step = 001,40622,40623,
+
+[mission]
+code = 084
+repeat = 0
+step = 000,40624,40625,
+step = 001,40626,40627,
+
+[mission]
+code = 085
+repeat = 0
+step = 000,40628,40629,
+step = 001,40630,40631,
+
+[mission]
+code = 086
+repeat = 0
+step = 000,40632,40633,
+step = 001,40634,40635,
+
+[mission]
+code = 087
+repeat = 0
+step = 000,40636,40637,
+step = 001,40638,40639,
+
+[mission]
+code = 088
+repeat = 0
+step = 000,40640,40641,
+step = 001,40642,40643,
+
+[mission]
+code = 089
+repeat = 0
+step = 000,40644,40645,
+step = 001,40646,40647,
+
+[mission]
+code = 090
+repeat = 0
+step = 000,40648,40649,
+step = 001,40650,40651,
+
+[mission]
+code = 091
+repeat = 0
+step = 000,40652,40653,
+step = 001,40654,40655,
+
+[mission]
+code = 092
+repeat = 0
+step = 000,40656,40657,
+step = 001,40658,40659,
+
+[mission]
+code = 093
+repeat = 0
+step = 000,40660,40661,
+step = 001,40662,40663,
+
+[mission]
+code = 094
+repeat = 0
+step = 000,40664,40665,
+step = 001,40666,40667,
+
+[mission]
+code = 095
+repeat = 0
+step = 000,40668,40669,
+step = 001,40670,40671,
+
+[mission]
+code = 096
+repeat = 0
+step = 000,40672,40673,
+step = 001,40674,40675,
+
+[mission]
+code = 097
+repeat = 0
+step = 000,40676,40677,
+step = 001,40678,40679,
+
+[mission]
+code = 098
+repeat = 0
+step = 000,40680,40681,
+step = 001,40682,40683,
+
+[mission]
+code = 099
+repeat = 0
+step = 000,40684,40685,
+step = 001,40686,40687,
+
+[mission]
+code = 100
+repeat = 0
+step = 000,40688,40689,
+step = 001,40690,40691,
+
+[mission]
+code = 101
+repeat = 0
+step = 000,40692,40693,
+step = 001,40694,40695,
+step = 002,40696,40697,
+
+[mission]
+code = 146
+repeat = 0
+step = 000,40698,40699,
+step = 001,40700,40701,
+step = 002,40702,40703,
+step = 003,40704,40705,
+
+[mission]
+code = 147
+repeat = 86400
+step = 000,40706,40707,
+step = 0001,40708,40709,
+
+[mission]
+code = 148
+repeat = 86400
+step = 000,40710,40711,
+step = 001,40712,40713,
+step = 002,40714,40715,
+step = 003,40716,40717,
+
+[mission]
+code = 149
+repeat = 86400
+step = 000,40718,40719,
+step = 001,40720,40721,
+step = 002,40722,40723,
+step = 003,40724,40725,
+
+[mission]
+code = 150
+step = 0,40726,40727,
+step = 1,40728,40729,
+
+[mission]
+code = 151
+repeat = 0
+step = 000,40730,40731,
+step = 001,40732,40733,
+step = 002,40734,40735,
+
+[mission]
+code = 152
+repeat = 0
+step = 000,40736,40737,
+step = 001,40738,40739,
+step = 002,40740,40741,
+
+[mission]
+code = 153
+repeat = 0
+step = 000,40742,40743,
+step = 001,40744,40745,
+
+[mission]
+code = 154
+repeat = 0
+step = 000,40746,40747,
+step = 001,40748,40749,
+
+[mission]
+code = 155
+repeat = 0
+step = 000,40750,40751,
+step = 001,40752,40753,
+
+[mission]
+code = 156
+repeat = 0
+step = 000,40754,40755,
+step = 001,40756,40757,
+
+[mission]
+code = 102
+repeat = 0
+step = 000,40758,40759,
+step = 001,40760,40761,
+step = 002,40762,40763,
+
+[mission]
+code = 103
+repeat = 0
+step = 000,40764,40765,
+step = 001,40766,40767,
+step = 002,40768,40769,
+
+[mission]
+code = 104
+repeat = 0
+step = 000,40770,40771,
+step = 001,40772,40773,
+step = 002,40774,40775,
+
+[mission]
+code = 105
+repeat = 0
+step = 000,40776,40777,
+step = 001,40778,40779,
+step = 002,40780,40781,
+
+[mission]
+code = 106
+repeat = 0
+step = 000,40782,40783,
+step = 001,40784,40785,
+step = 002,40786,40787,
+
+[mission]
+code = 107
+repeat = 0
+step = 000,40788,40789,
+step = 001,40790,40791,
+step = 002,40792,40793,
+
+[mission]
+code = 108
+repeat = 0
+step = 000,40794,40795,
+step = 001,40796,40797,
+step = 002,40798,40799,
+
+[mission]
+code = 109
+repeat = 0
+step = 000,40800,40801,
+step = 001,40802,40803,
+step = 002,40804,40805,
+
+[mission]
+code = 110
+repeat = 0
+step = 000,40806,40807,
+step = 001,40808,40809,
+step = 002,40810,40811,
+
+[mission]
+code = 111
+repeat = 0
+step = 000,40812,40813,
+step = 001,40814,40815,
+step = 002,40816,40817,
+
+[mission]
+code = 112
+repeat = 0
+step = 000,40818,40819,
+step = 001,40820,40821,
+step = 002,40822,40823,
+
+[mission]
+code = 113
+repeat = 0
+step = 000,40824,40825,
+step = 001,40826,40827,
+step = 002,40828,40829,
+
+[mission]
+code = 114
+repeat = 0
+step = 000,40830,40831,
+step = 001,40832,40833,
+step = 002,40834,40835,
+
+[mission]
+code = 115
+repeat = 0
+step = 000,40836,40837,
+step = 001,40838,40839,
+step = 002,40840,40841,
+
+[mission]
+code = 116
+repeat = 0
+step = 000,40842,40843,
+step = 001,40844,40845,
+step = 002,40846,40847,
+
+[mission]
+code = 117
+repeat = 0
+step = 000,40848,40849,
+step = 001,40850,40851,
+step = 002,40852,40853,
+
+[mission]
+code = 118
+repeat = 0
+step = 000,40854,40855,
+step = 001,40856,40857,
+step = 002,40858,40859,
+
+[mission]
+code = 119
+repeat = 0
+step = 000,40860,40861,
+step = 001,40862,40863,
+step = 002,40864,40865,
+
+[mission]
+code = 120
+repeat = 0
+step = 000,40866,40867,
+step = 001,40868,40869,
+step = 002,40870,40871,
+
+[mission]
+code = 121
+repeat = 0
+step = 000,40872,40873,
+step = 001,40874,40875,
+step = 002,40876,40877,
+
+[mission]
+code = 122
+repeat = 0
+step = 000,40878,40879,
+step = 001,40880,40881,
+step = 002,40882,40883,
+
+[mission]
+code = 123
+repeat = 0
+step = 000,40884,40885,
+step = 001,40886,40887,
+step = 002,40888,40889,
+
+[mission]
+code = 124
+repeat = 0
+step = 000,40890,40891,
+step = 001,40892,40893,
+step = 002,40894,40895,
+
+[mission]
+code = 125
+repeat = 0
+step = 000,40896,40897,
+step = 001,40898,40899,
+step = 002,40900,40901,
+
+[mission]
+code = 126
+repeat = 0
+step = 000,40902,40903,
+step = 001,40904,40905,
+step = 002,40906,40907,
+
+[mission]
+code = 127
+repeat = 0
+step = 000,40908,40909,
+step = 001,40910,40911,
+step = 002,40912,40913,
+
+[mission]
+code = 128
+repeat = 0
+step = 000,40914,40915,
+step = 001,40916,40917,
+step = 002,40918,40919,
+
+[mission]
+code = 129
+repeat = 0
+step = 000,40920,40921,
+step = 001,40922,40923,
+step = 002,40924,40925,
+
+[mission]
+code = 130
+repeat = 0
+step = 000,40926,40927,
+step = 001,40928,40929,
+step = 002,40930,40931,
+
+[mission]
+code = 131
+repeat = 0
+step = 000,40932,40933,
+step = 001,40934,40935,
+step = 002,40936,40937,
+
+[mission]
+code = 132
+repeat = 0
+step = 000,40938,40939,
+step = 001,40940,40941,
+step = 002,40942,40943,
+
+[mission]
+code = 157
+repeat = 0
+step = 000,40944,40945,
+step = 001,40946,40947,
+step = 002,40948,40949,
+step = 003,40950,40951,
+step = 004,40952,40953,
+step = 005,40954,40955,
+step = 006,40956,40957,
+step = 007,40958,40959,
+step = 008,40960,40961,
+
+[mission]
+code = 171
+repeat = 1
+step = 000,40962,40963,
+step = 001,40964,40965,role_¨õÀ±¤}©I
+
+[mission]
+code = 172
+repeat = 0
+step = 000,40966,40967,
+step = 001,40968,40969,
+
+[mission]
+code = 173
+repeat = 0
+step = 000,40970,40971,
+step = 001,40972,40973,
+
+[mission]
+code = 174
+repeat = 10800
+step = 000,40974,40975,
+step = 001,40976,40977,
+
+[mission]
+code = 175
+repeat = 1800
+step = 000,40978,40979,
+step = 001,40980,40981,
+step = 002,40982,40983,
+step = 003,40984,40985,
+
+[mission]
+code = 176
+repeat = 1800
+step = 000,40986,40987,
+step = 001,40988,40989,
+
+[mission]
+code = 177
+repeat = 0
+step = 000,40990,40991,
+step = 001,40992,40993,
+
+[mission]
+code = 178
+repeat = 0
+step = 000,40994,40995,
+step = 001,40996,40997,
+
+[mission]
+code = 179
+repeat = 0
+step = 000,40998,40999,
+step = 001,41000,41001,
+
+[mission]
+code = 180
+repeat = 3600
+step = 000,41002,41003,
+step = 001,41004,41005,
+
+[mission]
+code = 181
+repeat = 10
+step = 000,41006,41007,
+step = 001,41008,41009,
+
+[mission]
+code = 182
+repeat = 10
+step = 000,41010,41011,
+step = 001,41012,41013,
+step = 002,41014,41015,
+
+[mission]
+code = 183
+step = 000,41016,41017,
+step = 001,41018,41019,
+
+[mission]
+code = 184
+repeat = 0
+step = 000,41020,41021,
+step = 001,41022,41023,
+
+[mission]
+code = 189
+repeat = 0
+step = 000,41024,41025,
+step = 001,41026,41027,
+step = 002,41028,41029,role_¾¬¦{ºë¾U¤M§L
+step = 003,41030,41031,role_²D¦{ºë¾Uºj§L
+step = 004,41032,41033,
+step = 005,41034,41035,
+
+[mission]
+code = 190
+repeat = 0
+step = 000,41036,41037,
+step = 001,41038,41039,
+
+[mission]
+code = 191
+repeat = 0
+step = 000,41040,41041,
+step = 001,41042,41043,
+step = 002,41044,41045,
+step = 003,41046,41047,
+
+[mission]
+code = 192
+repeat = 86400
+step = 000,41048,41049,
+step = 001,41050,41051,
+step = 002,41052,41053,
+step = 003,41054,41055,
+step = 004,41056,41057,
+step = 005,41058,41059,
+step = 006,41060,41061,
+step = 007,41062,41063,
+step = 008,41064,41065,
+step = 009,41066,41067,
+step = 010,41068,41069,
+
+[mission]
+code = 193
+repeat = 0
+step = 000,41070,41071,
+step = 001,41072,41073,
+
+[mission]
+code = 194
+repeat = 0
+step = 000,41074,41075,
+step = 001,41076,41077,
+
+[mission]
+code = 195
+repeat = 0
+step = 000,41078,41079,
+step = 001,41080,41081,
+
+[mission]
+code = 196
+repeat = 0
+step = 000,41082,41083,
+step = 001,41084,41085,
+
+[mission]
+code = 197
+step = 000,41086,41087,
+step = 001,41088,41089,
+
+[mission]
+code = 224
+repeat = 21600
+step = 000,41294,41295,
+step = 001,41296,41297,
+
+[mission]
+code = 225
+repeat = 43200
+step = 000,42354,42355,
+step = 001,42356,42357,role_¤Ó¥v·O
+
+[mission]
+code = 226
+repeat = 86000
+step = 000,42358,42359,
+step = 001,42360,42361,
+
+[mission]
+code = 235
+repeat = 7200
+step = 000,41090,41091,
+step = 001,41092,41093,
+
+[mission]
+code = 498
+repeat = 1800
+step = 000,41094,41095,
+step = 001,41096,41097,
+
+[mission]
+code = 499
+repeat = 3600
+step = 000,41098,41099,
+step = 001,41100,41101,
+
+[mission]
+code = 262
+repeat = 0
+step = 000,41102,41103,
+step = 001,41104,41105,
+
+[mission]
+code = 263
+repeat = 0
+step = 000,41106,41107,
+step = 001,41108,41109,
+
+[mission]
+code = 264
+repeat = 0
+step = 000,41110,41111,
+step = 001,41112,41113,
+
+[mission]
+code = 265
+repeat = 0
+step = 000,41114,41115,
+step = 001,41116,41117,
+
+[mission]
+code = 266
+repeat = 0
+step = 000,41118,41119,
+step = 001,41120,41121,
+
+[mission]
+code = 267
+repeat = 0
+step = 000,41122,41123,
+step = 001,41124,41125,
+
+[mission]
+code = 268
+repeat = 0
+step = 000,41126,41127,
+step = 001,41128,41129,
+
+[mission]
+code = 269
+repeat = 0
+step = 000,41130,41131,
+step = 001,41132,41133,
+
+[mission]
+code = 270
+repeat = 0
+step = 000,41134,41135,
+step = 001,41136,41137,
+
+[mission]
+code = 271
+repeat = 0
+step = 000,41138,41139,
+step = 001,41140,41141,
+
+[mission]
+code = 272
+repeat = 0
+step = 000,41142,41143,
+step = 001,41144,41145,
+
+[mission]
+code = 273
+repeat = 0
+step = 000,41146,41147,
+step = 001,41148,41149,
+
+[mission]
+code = 274
+repeat = 0
+step = 000,41150,41151,
+step = 001,41152,41153,
+
+[mission]
+code = 275
+repeat = 0
+step = 000,41154,41155,
+step = 001,41156,41157,
+
+[mission]
+code = 276
+repeat = 0
+step = 000,41158,41159,
+step = 001,41160,41161,
+
+[mission]
+code = 277
+repeat = 0
+step = 000,41162,41163,
+step = 001,41164,41165,
+
+[mission]
+code = 278
+repeat = 0
+step = 000,41166,41167,
+step = 001,41168,41169,
+
+[mission]
+code = 285
+repeat = 0
+step = 000,41170,41171,
+step = 001,41172,41173,
+
+[mission]
+code = 286
+repeat = 0
+step = 000,41174,41175,
+step = 001,41176,41177,
+
+[mission]
+code = 287
+repeat = 0
+step = 000,41178,41179,
+step = 001,41180,41181,
+
+[mission]
+code = 288
+repeat = 0
+step = 000,41182,41183,
+step = 001,41184,41185,
+
+[mission]
+code = 289
+repeat = 0
+step = 000,41186,41187,
+step = 001,41188,41189,
+
+[mission]
+code = 290
+repeat = 0
+step = 000,41190,41191,
+step = 001,41192,41193,
+
+[mission]
+code = 291
+repeat = 0
+step = 000,41194,41195,
+step = 001,41196,41197,
+
+[mission]
+code = 292
+repeat = 0
+step = 000,41198,41199,
+step = 001,41200,41201,
+
+[mission]
+code = 295
+step = 000,41202,41203,
+step = 001,41204,41205,
+
+[mission]
+code = 296
+step = 000,41206,41207,
+step = 001,41208,41209,role_­ì©l¥¨Å]
+
+[mission]
+code = 297
+step = 000,41210,41211,
+step = 001,41212,41213,role_©]¤e­©ªø
+
+[mission]
+code = 298
+step = 000,41214,41215,
+step = 001,41216,41217,
+
+[mission]
+code = 299
+step = 000,41218,41219,
+step = 001,41220,41221,
+
+[mission]
+code = 300
+step = 000,41222,41223,
+step = 001,41224,41225,
+
+[mission]
+code = 306
+repeat = 604800
+step = 000,41226,41227,
+step = 001,41228,41229,
+
+[mission]
+code = 308
+repeat = 86400
+step = 000,41230,41231,
+step = 001,41232,41233,
+
+[mission]
+code = 328
+repeat = 82800
+step = 000,41234,41235,
+step = 001,41236,41237,
+
+[mission]
+code = 500
+repeat = 0
+step = 000,41238,41239,
+step = 001,41240,41241,
+step = 002,41242,41243,
+step = 003,41244,41245,
+step = 004,41246,41247,
+step = 005,41248,41249,
+step = 006,41250,41251,
+step = 007,41252,41253,
+step = 008,41254,41255,
+step = 009,41256,41257,
+step = 010,41258,41259,
+step = 011,41260,41261,
+step = 012,41262,41263,
+step = 013,41264,41265,
+step = 014,41266,41267,
+step = 015,41268,41269,
+step = 016,41270,41271,
+step = 017,41272,41273,
+step = 018,41274,41275,
+step = 019,41276,41277,
+step = 020,41278,41279,
+step = 021,41280,41281,
+step = 022,41282,41283,
+step = 023,41284,41285,
+step = 024,41286,41287,
+step = 025,41288,41289,
+step = 026,41290,41291,
+step = 027,41292,41293,
+step = 028,41294,41295,
+step = 029,41296,41297,
+step = 030,41298,41299,
+step = 031,41300,41301,
+step = 032,41302,41303,

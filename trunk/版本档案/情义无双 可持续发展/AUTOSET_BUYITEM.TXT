@@ -1,0 +1,22 @@
+// 購買物品設定檔
+#include TYPE.H
+#include ITEM.H
+
+[auto_buy]
+item = 1,item_羽箭,0,shopType_WeaponArmor
+item = 2,item_標記傳送捲軸,0,shopType_Market
+item = 3,item_地點標記旗,0,shopType_Market
+item = 4,item_回城捲軸,0,shopType_Market
+item = 5,item_藥草,0,shopType_Market
+item = 6,item_藥丸,0,shopType_Market
+item = 7,item_藥丹,0,shopType_Market
+item = 8,item_包子,0,shopType_Hotel
+item = 9,item_肉粽,0,shopType_Hotel
+item = 10,item_龍鳳餅,0,shopType_Hotel
+item = 11,item_濁酒,0,shopType_Market
+item = 12,item_麥茶,0,shopType_Hotel
+item = 13,item_瞬移捲軸,0,shopType_Market
+item = 14,item_神行符,0,shopType_Market
+item = 15,item_特效神行符,0,shopType_Market
+item = 16,item_復活捲軸,0,shopType_Market
+

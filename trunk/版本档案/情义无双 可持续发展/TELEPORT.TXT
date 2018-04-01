@@ -1,0 +1,322 @@
+// 設定檔
+#include TYPE.H
+#include STAGE.H
+
+
+[ini]
+max = 1000
+
+
+[teleport]
+code = 1
+data = 39000,1,city_許昌,85,15
+data = 39001,1,city_長安,165,15
+data = 39002,1,city_鄴,95,15
+data = 39003,1,city_陳留,95,15
+
+[teleport]
+code = 2
+data = 39004,1,city_上庸,95,15
+data = 39005,1,city_漢中,165,15
+data = 39006,1,city_建寧,95,15
+
+[teleport]
+code = 3
+data = 39007,1,city_盧江,85,15
+data = 39008,1,city_豫章,85,15
+
+[teleport]
+code = 4
+data = 39009,1,city_上庸,95,15
+data = 39010,1,city_宛,95,15
+data = 39011,1,city_襄陽,165,15
+data = 39012,1,city_長安,165,15
+
+[teleport]
+code = 5
+data = 39013,1,city_許昌,85,15
+data = 39014,1,city_宛,95,15
+data = 39015,1,city_壽春,95,15
+data = 39016,1,city_徐州,85,15
+
+[teleport]
+code = 6
+data = 39017,1,city_襄陽,165,15
+data = 39018,1,city_壽春,95,15
+data = 39019,1,city_長沙,85,15
+data = 39020,1,city_宛,95,15
+
+[teleport]
+code = 7
+data = 39021,1,city_成都,165,15
+data = 39022,1,city_新野,165,15
+data = 39023,1,city_江州,165,15
+data = 39024,1,city_長安,165,15
+data = 39025,1,city_漢中,165,15
+data = 39026,1,city_建寧,95,15
+
+[teleport]
+code = 8
+data = 39027,1,city_洛陽,165,15
+data = 39028,1,city_汝南,165,15
+data = 39029,1,city_鄴,95,15
+data = 39030,1,city_陳留,95,15
+
+[teleport]
+code = 9
+data = 39031,1,city_建業,445,15
+data = 39032,1,city_壽春,95,15
+data = 39033,1,city_柴桑,95,15
+data = 39034,1,city_豫章,85,15
+data = 39035,1,city_徐州,85,15
+data = 39036,1,city_會稽,85,15
+
+[teleport]
+code = 10
+data = 39037,1,city_新野,165,15
+data = 39038,1,city_汝南,165,15
+data = 39039,1,city_江夏,165,15
+data = 39040,1,city_長安,165,15
+
+[teleport]
+code = 11
+data = 39041,1,city_新野,165,15
+data = 39042,1,city_江夏,165,15
+data = 39043,1,city_長沙,85,15
+data = 39044,1,city_江州,165,15
+data = 39045,1,city_武陵,95,15
+
+[teleport]
+code = 12
+data = 39046,1,city_盧江,85,15
+data = 39047,1,city_汝南,165,15
+data = 39048,1,city_江夏,165,15
+data = 39049,1,city_長沙,85,15
+data = 39050,1,city_柴桑,95,15
+
+[teleport]
+code = 13
+data = 39051,1,city_江夏,165,15
+data = 39052,1,city_壽春,95,15
+data = 39053,1,city_襄陽,165,15
+data = 39054,1,city_江州,165,15
+data = 39055,1,city_柴桑,95,15
+data = 39056,1,city_零陵,85,15
+
+[teleport]
+code = 14
+data = 39057,1,city_汝南,165,15
+data = 39058,1,city_北海,85,15
+data = 39059,1,city_陳留,95,15
+data = 39060,1,city_盧江,85,15
+
+[teleport]
+code = 15
+data = 39061,1,city_徐州,85,15
+data = 39062,1,city_平原,85,15
+data = 39063,1,city_陳留,95,15
+
+[teleport]
+code = 16
+data = 39064,0,city_全國比武場,10,25
+
+[teleport]
+code = 17
+data = 39065,0,city_全國比武場,10,25
+
+[teleport]
+code = 18
+data = 39066,0,city_全國比武場,10,25
+
+[teleport]
+code = 19
+data = 39067,1,city_建寧,95,15
+data = 39068,1,city_武陵,95,15
+data = 39069,1,city_襄陽,165,15
+data = 39070,1,city_長沙,85,15
+
+[teleport]
+code = 20
+data = 39071,1,city_洛陽,165,15
+data = 39072,1,city_新野,165,15
+data = 39073,1,city_上庸,95,15
+data = 39074,1,city_漢中,165,15
+data = 39075,1,city_天水,95,15
+data = 39076,1,city_宛,95,15
+
+[teleport]
+code = 21
+data = 39077,1,city_盧江,85,15
+data = 39078,1,city_長沙,85,15
+data = 39079,1,city_壽春,95,15
+data = 39080,1,city_桂陽,165,15
+data = 39081,1,city_零陵,85,15
+data = 39082,1,city_豫章,85,15
+
+[teleport]
+code = 22
+data = 39083,0,city_全國比武場,10,25
+
+[teleport]
+code = 23
+data = 39084,0,city_全國比武場,10,25
+
+[teleport]
+code = 24
+data = 39085,0,city_全國比武場,10,25
+
+[teleport]
+code = 25
+data = 39086,1,city_晉陽,85,15
+data = 39087,1,city_平原,85,15
+data = 39088,1,city_鄴,95,15
+data = 39089,1,city_遼東,96,15
+
+[teleport]
+code = 26
+data = 39090,1,city_安定,85,15
+data = 39091,1,city_天水,95,15
+data = 39092,1,city_漢中,165,15
+
+[teleport]
+code = 27
+data = 39093,1,city_成都,165,15
+data = 39094,1,city_上庸,95,15
+data = 39095,1,city_江州,165,15
+
+[teleport]
+code = 28
+data = 39096,1,city_會稽,85,15
+data = 39097,1,city_桂陽,165,15
+data = 39098,1,city_柴桑,95,15
+data = 39099,1,city_盧江,85,15
+data = 39100,1,city_建業,445,15
+
+[teleport]
+code = 29
+data = 39101,1,city_北平,165,15
+data = 39102,1,city_鄴,95,15
+data = 39103,1,city_安定,85,15
+data = 39104,1,city_平原,85,15
+
+[teleport]
+code = 30
+data = 39105,1,city_零陵,85,15
+data = 39106,1,city_長沙,85,15
+data = 39107,1,city_江州,165,15
+data = 39108,1,city_襄陽,165,15
+
+[teleport]
+code = 31
+data = 39109,1,city_天水,95,15
+data = 39110,1,city_涼州,85,15
+data = 39111,1,city_鄴,95,15
+data = 39112,1,city_晉陽,85,15
+data = 39113,1,city_長安,165,15
+
+[teleport]
+code = 32
+data = 39114,1,city_安定,85,15
+data = 39115,1,city_涼州,85,15
+data = 39116,1,city_漢中,165,15
+data = 39117,1,city_長安,165,15
+
+[teleport]
+code = 33
+data = 39118,1,city_建寧,95,15
+data = 39119,1,city_武陵,95,15
+data = 39120,1,city_襄陽,165,15
+data = 39121,1,city_長沙,85,15
+data = 39122,1,city_上庸,95,15
+
+[teleport]
+code = 34
+data = 39123,1,city_武陵,95,15
+data = 39124,1,city_長沙,85,15
+data = 39125,1,city_柴桑,95,15
+data = 39126,1,city_桂陽,165,15
+
+[teleport]
+code = 35
+data = 39127,1,city_北海,85,15
+data = 39128,1,city_鄴,95,15
+data = 39129,1,city_北平,165,15
+data = 39130,1,city_晉陽,85,15
+data = 39131,1,city_陳留,95,15
+
+[teleport]
+code = 36
+data = 39132,1,city_豫章,85,15
+data = 39133,1,city_零陵,85,15
+data = 39134,1,city_柴桑,95,15
+
+[teleport]
+code = 37
+data = 39135,1,city_成都,165,15
+data = 39136,1,city_上庸,95,15
+data = 39137,1,city_長安,165,15
+data = 39138,1,city_天水,95,15
+
+[teleport]
+code = 38
+data = 39139,1,city_許昌,85,15
+data = 39140,1,city_徐州,85,15
+data = 39141,1,city_鄴,95,15
+data = 39142,1,city_北海,85,15
+data = 39143,1,city_平原,85,15
+
+[teleport]
+code = 39
+data = 39144,1,city_陳留,95,15
+data = 39145,1,city_安定,85,15
+data = 39146,1,city_晉陽,85,15
+data = 39147,1,city_許昌,85,15
+data = 39148,1,city_平原,85,15
+data = 39149,1,city_洛陽,165,15
+
+[teleport]
+code = 40
+data = 39150,1,city_豫章,85,15
+data = 39151,1,city_盧江,85,15
+
+[teleport]
+code = 41
+data = 39152,0,city_全國比武場,10,25
+
+[teleport]
+code = 42
+data = 39153,0,city_全國比武場,10,25
+
+[teleport]
+code = 43
+data = 39154,0,city_全國比武場,10,25
+
+[teleport]
+code = 44
+data = 39155,0,city_全國比武場,10,25
+
+[teleport]
+code = 45
+data = 39156,0,city_全國比武場,10,25
+
+[teleport]
+code = 46
+data = 39157,0,city_全國比武場,10,25
+
+[teleport]
+code = 47
+data = 39158,1,city_北平,165,15
+data = 39159,1,city_高句麗,96,15
+
+[teleport]
+code = 48
+data = 39160,1,city_遼東,96,15
+data = 39161,1,city_樂浪,96,15
+
+[teleport]
+code = 49
+data = 39162,1,city_高句麗,96,15
+
+[teleport]
+code = 50
+data = 39157,0,city_全國比武場,10,25
