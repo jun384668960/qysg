@@ -384,32 +384,32 @@ VOID Utils::DeleteDirectory(const CString& str1)
 	::RemoveDirectory(currrentDir.GetBuffer(MAX_PATH));
 }
 
-BOOL Utils::FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, LONGLONG UpdateLen)
+BOOL Utils::FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath)
 {
 	float percent = 0;
+	LONGLONG UpdateLen;
 	try   {
 		CInternetSession *pSession = NULL;
 		pSession = new CInternetSession("111", 1, PRE_CONFIG_INTERNET_ACCESS);
 		CFtpConnection *pFtpCon = NULL;
-		pFtpCon = pSession->GetFtpConnection("192.168.1.100", "FtpUser", "jun384668960", 21);
-		//pFtpCon = pSession->GetFtpConnection("120.77.147.184", "FtpUser", "jun384668960", 21217);
-		//pFtpCon = pSession->GetFtpConnection("120.77.147.184", "FtpUser", "Donyj_ljj@163.com", 21217);
+		pFtpCon = pSession->GetFtpConnection("192.168.1.102", "donyj", "5a588a", 21);
 		//DELETE zipFilePath
 
 		CFile file;
 		//CString pDirName;
-		if (!file.Open(zipFilePath, CFile::modeCreate | CFile::modeWrite))
+		if (!file.Open(strFileLocalFullPath, CFile::modeCreate | CFile::modeWrite))
 		{
 			return false;
 		}
 		//pFtpCon->GetFile(zipFilePath, zipFilePath);
-		//CFtpFileFind fileFind(pFtpCon);
-		//BOOL bSucc = fileFind.FindFile(zipFilePath);
-		//if (bSucc)
-		//{
-		//	//printf_s("文件大小=%d\n", fileFind.GetLength());
-		//	//UpdateLen = fileFind.GetLength();
-		//}
+		CFtpFileFind fileFind(pFtpCon);
+		BOOL bSucc = fileFind.FindFile(zipFilePath);
+		if (bSucc)
+		{
+			fileFind.FindNextFile();
+			//printf_s("文件大小=%d\n", fileFind.GetLength());
+			UpdateLen = fileFind.GetLength();
+		}
 
 		CInternetFile* pFile = pFtpCon->OpenFile(zipFilePath, GENERIC_READ);//GENERIC_WRITE
 		CHAR buff[2048] = { 0 };
@@ -427,7 +427,8 @@ BOOL Utils::FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, LONGLONG Updat
 			if (_pos != pos)
 			{
 				pos = _pos;
-				::SendMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, NULL, pos);
+				if (hWindow)
+					::SendMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, NULL, pos);
 				//::PostMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, NULL, pos);
 			}
 

@@ -15,7 +15,7 @@ public:
 	static INT KillProcessByName(CString exeName);
 	static VOID DeleteDirectory(const CString& str1);
 
-	static BOOL FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, LONGLONG UpdateLen);
+	static BOOL FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath);
 	static BOOL HttpDownload(HWINDOW hWindow, const CString& strFileURLInServer, const CString & strFileLocalFullPath);
 	static void OpenURL(CString openUrl);
 };

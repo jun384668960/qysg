@@ -2,9 +2,9 @@
 
 #include "resource.h"
 
-#define SERVER_IP	"114.55.138.137"//"127.0.0.1"//"115.231.220.37"//"117.27.159.42" //"120.77.147.184"//"192.168.1.100"//"120.77.147.184"//"183.60.106.159"
-#define SERVER_PORT	"17000"
-#define GAME_VER	"1.0.1.9"
+#define SERVER_IP	"111.67.195.101"//"127.0.0.1"//"115.231.220.37"//"117.27.159.42" //"120.77.147.184"//"192.168.1.100"//"120.77.147.184"//"183.60.106.159"
+#define SERVER_PORT	"22119"
+#define GAME_VER	"1.0.1.0"
 #define GAME_START_FILE "qysg.dat"
 #define CLNT_UPDATE_FILE "«È“ÂŒ¢∂À.exe"
 #define CLNT_PROTECT_FILE "Win32Protect.exe"

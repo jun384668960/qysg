@@ -62,18 +62,78 @@ int CALLBACK OnProgressBarChange(BOOL *pbHandled, int pos)
 	return 0;
 }
 
+int AfterUpdateDone()
+{
+	try{
+		//关闭当前客户端
+		Utils::KillProcessByName(StartFile);
+		Utils::KillProcessByName("Win32Protect");
+		Utils::KillProcessByName("情义登录器");
+		//删除上述文件
+		if (PathFileExists(StartFile) && !DeleteFile(StartFile))
+		{
+			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:qysg.dat 正在被使用，请关闭后重试！", "提示", MB_OK);
+			return -1;
+		}
+		/*if (PathFileExists("Win32Protect.exe") && !DeleteFile("Win32Protect.exe"))
+		{
+		MessageBox(XWnd_GetHWND(hWindow), "游戏文件:Win32Protect 正在被使用，请关闭后重试！", "提示", MB_OK);
+		return -1;
+		}*/
+		if (PathFileExists("情义登录器.exe") && !DeleteFile("情义登录器.exe"))
+		{
+			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:情义登录器 正在被使用，请关闭后重试！", "提示", MB_OK);
+			return -1;
+		}
+
+		//zip解压
+		TCHAR szPath[MAX_PATH];
+		GetCurrentDirectory(MAX_PATH, (LPTSTR)&szPath);
+		CString Path;
+		Path.Format("%s\\", szPath);
+		CStringArray name;
+		ZRESULT result = ZipUtils::ExtractZipToDir("Update.zip", name, Path);
+		if (result != ZR_OK)
+		{
+			MessageBox(XWnd_GetHWND(hWindow), "升级包Update.zip解压失败，您后选择手动解压！", "提示", MB_OK);
+			return -1;
+		}
+		Sleep(2000);
+		//更新成功开启登录器
+		STARTUPINFO si = { sizeof(si) };
+		PROCESS_INFORMATION pi;
+		if (!CreateProcess("情义登录器.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+		{
+			MessageBox(XWnd_GetHWND(hWindow), "启动登录器失败！", "提示", MB_OK);
+			::SendMessage(XWnd_GetHWND(hWindow), WM_CLOSE, NULL, NULL);
+			return -1;
+		}
+	}
+	catch (CException& w)
+	{
+	}
+	::SendMessage(XWnd_GetHWND(hWindow), WM_CLOSE, NULL, NULL);
+	return 0;
+}
+
 int CALLBACK Link_EventBtnClick(BOOL *pbHandled)
 {
 	*pbHandled = TRUE;
+	BOOL done = FALSE;
 	if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
 	{
-		Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip");
+		//Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip");
+		done = Utils::FtpDownloadFile(hWindow, "Update.zip", "Update.zip");
 	}
 	else
 	{
-		Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip");
+		//Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip");
+		done = Utils::FtpDownloadFile(hWindow, "FullClient.zip", "Update.zip");
 	}
 	
+	if (done)
+		AfterUpdateDone();
+
 	return 0;
 }
 
@@ -97,6 +157,7 @@ BOOL g_bLimitKeyPress = true;
 
 DWORD WINAPI ThreadProc(LPVOID lpParam)
 {
+	return -1;
 	try
 	{
 		//ftp下载
@@ -109,11 +170,13 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 		{
 			if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
 			{
-				ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip", "Update.zip");
+				//ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip", "Update.zip");
+				ret = Utils::FtpDownloadFile(hWindow, "Update.zip", "Update.zip");
 			}
 			else
 			{
-				ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip", "Update.zip");
+				//ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip", "Update.zip");
+				ret = Utils::FtpDownloadFile(hWindow, "FullClient.zip", "Update.zip");
 			}
 			if (!ret)
 			{
@@ -132,49 +195,7 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 			return -1;
 		}
 		
-		//关闭当前客户端
-		Utils::KillProcessByName(StartFile);
-		Utils::KillProcessByName("Win32Protect");
-		Utils::KillProcessByName("情义登录器");
-		//删除上述文件
-		if (PathFileExists(StartFile) && !DeleteFile(StartFile))
-		{
-			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:qysg.dat 正在被使用，请关闭后重试！", "提示", MB_OK);
-			return -1;
-		}
-		/*if (PathFileExists("Win32Protect.exe") && !DeleteFile("Win32Protect.exe"))
-		{
-			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:Win32Protect 正在被使用，请关闭后重试！", "提示", MB_OK);
-			return -1;
-		}*/
-		if (PathFileExists("情义登录器.exe") && !DeleteFile("情义登录器.exe"))
-		{
-			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:情义登录器 正在被使用，请关闭后重试！", "提示", MB_OK);
-			return -1;
-		}
-		
-		//zip解压
-		TCHAR szPath[MAX_PATH];
-		GetCurrentDirectory(MAX_PATH, (LPTSTR)&szPath);
-		CString Path;
-		Path.Format("%s\\", szPath);
-		CStringArray name;
-		ZRESULT result = ZipUtils::ExtractZipToDir("Update.zip", name, Path);
-		if (result != ZR_OK)
-		{
-			MessageBox(XWnd_GetHWND(hWindow), "升级包Update.zip解压失败，您后选择手动解压！", "提示", MB_OK);
-			return -1;
-		}
-
-		//更新成功开启登录器
-		STARTUPINFO si = { sizeof(si) };
-		PROCESS_INFORMATION pi;
-		if (!CreateProcess("情义登录器.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
-		{
-			MessageBox(XWnd_GetHWND(hWindow), "启动登录器失败！", "提示", MB_OK);
-			::SendMessage(XWnd_GetHWND(hWindow), WM_CLOSE, NULL, NULL);
-			return -1;
-		}
+		AfterUpdateDone();
 	}
 	catch (CException& w)
 	{

@@ -992,14 +992,21 @@ int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 	CString nerVer = "";
 	if (DoCheckVersion(GAME_VER, nerVer))
 	{//启用更新
-		CString StartUpdate = CLNT_UPDATE_FILE;
-		STARTUPINFO si = { sizeof(si) };
-		PROCESS_INFORMATION pi;
-		// TODO:  在此添加控件通知处理程序代码
-		if (!CreateProcess(StartUpdate, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+		if (MessageBox(NULL, L"检测到更新版本，是否立即升级?", L"升级", MB_YESNO) == IDYES)
 		{
-			MessageBox(NULL, L"启动更新失败！", L"提示", MB_OK);
-			return -1;
+			CString StartUpdate = CLNT_UPDATE_FILE;
+			STARTUPINFO si = { sizeof(si) };
+			PROCESS_INFORMATION pi;
+			// TODO:  在此添加控件通知处理程序代码
+			if (!CreateProcess(StartUpdate, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+			{
+				MessageBox(NULL, L"启动更新失败！", L"提示", MB_OK);
+				return -1;
+			}
+			else{
+				BOOL flag;
+				WinClose_EventBtnClick(&flag);
+			}
 		}
 	}
 
@@ -1337,6 +1344,24 @@ int InitializeComponent()
 		newVer = "->  V" + newVer;
 		UInerVer = XShapeText_Create(132, 7, 0, 0, newVer, hWindow);
 		XShapeText_SetTextColor(UInerVer, RGB(255, 0, 0), 128);
+		if (newVer != GAME_VER)
+		{
+			if (MessageBox(NULL, L"检测到更新版本，是否立即升级?", L"升级", MB_YESNO) == IDYES)
+			{
+				CString StartUpdate = CLNT_UPDATE_FILE;
+				STARTUPINFO si = { sizeof(si) };
+				PROCESS_INFORMATION pi;
+				// TODO:  在此添加控件通知处理程序代码
+				if (!CreateProcess(StartUpdate, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+				{
+					MessageBox(NULL, L"启动更新失败！", L"提示", MB_OK);
+					return -1;
+				}else{
+					BOOL flag;
+					WinClose_EventBtnClick(&flag);
+				}
+			}
+		}
 #endif
 	}
 	else
