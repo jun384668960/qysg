@@ -35,7 +35,6 @@ HELE hRichEdit;
 HINSTANCE hInst;								// 当前实例
 TCHAR szTitle[MAX_LOADSTRING];					// 标题栏文本
 TCHAR szWindowClass[MAX_LOADSTRING];			// 主窗口类名
-
 CString StartFile;
 CString ClntSize;
 
@@ -119,16 +118,23 @@ int AfterUpdateDone()
 int CALLBACK Link_EventBtnClick(BOOL *pbHandled)
 {
 	*pbHandled = TRUE;
+	char ftpserver[64] = {0};
+	if (Utils::DemainToIp(FTP_SERVER_IP, ftpserver) != 0)
+	{
+		MessageBox(XWnd_GetHWND(hWindow), "无法连接到远程服务器", "提示", MB_OK);
+		return 0;
+	}
+
 	BOOL done = FALSE;
 	if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
 	{
 		//Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip");
-		done = Utils::FtpDownloadFile(hWindow, "Update.zip", "Update.zip");
+		done = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "Update.zip", "Update.zip");
 	}
 	else
 	{
 		//Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip");
-		done = Utils::FtpDownloadFile(hWindow, "FullClient.zip", "Update.zip");
+		done = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "FullClient.zip", "Update.zip");
 	}
 	
 	if (done)
@@ -162,21 +168,25 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 	{
 		//ftp下载
 		bool ret = false;
-		//LONGLONG size = atoll(ClntSize.GetBuffer());
-		//Utils::FtpDownloadFile(hWindow, "Update.zip", /*1024 * 1024 * 103*/size);
-		//http下载
+		char ftpserver[64] = { 0 };
+		if (Utils::DemainToIp(FTP_SERVER_IP, ftpserver) != 0)
+		{
+			MessageBox(XWnd_GetHWND(hWindow), "无法连接到远程服务器", "提示", MB_OK);
+			return 0;
+		}
+
 		bool download = false;
 		for (int i = 0; i < 5; i++)
 		{
 			if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
 			{
 				//ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip", "Update.zip");
-				ret = Utils::FtpDownloadFile(hWindow, "Update.zip", "Update.zip");
+				ret = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "Update.zip", "Update.zip");
 			}
 			else
 			{
 				//ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/FullClient.zip", "Update.zip");
-				ret = Utils::FtpDownloadFile(hWindow, "FullClient.zip", "Update.zip");
+				ret = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "FullClient.zip", "Update.zip");
 			}
 			if (!ret)
 			{
