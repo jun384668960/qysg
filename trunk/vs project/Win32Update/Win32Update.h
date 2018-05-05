@@ -6,7 +6,7 @@
 #define FTP_SERVER_PORT	21
 #define FTP_USER_NAME	"donyj"
 #define FTP_USER_PWD	"5a588a"
-#define GAME_START_FILE "online.dat"
+#define GAME_START_FILE "qysg.dat"
 #define GAME_START_LINE " fuck you man! 1" //前面空格必须要
 
 //消息类型

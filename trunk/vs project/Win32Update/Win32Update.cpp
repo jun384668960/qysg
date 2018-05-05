@@ -163,7 +163,6 @@ BOOL g_bLimitKeyPress = true;
 
 DWORD WINAPI ThreadProc(LPVOID lpParam)
 {
-	return -1;
 	try
 	{
 		//ftpœ¬‘ÿ
@@ -292,7 +291,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 	}
 	if (StartFile == "" || ClntSize == "")
 	{
-		StartFile = "qysg.dat";
+		StartFile = GAME_START_FILE;
 		ClntSize = "9010899";
 	}
 
