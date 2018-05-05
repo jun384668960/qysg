@@ -17,6 +17,47 @@ Utils::~Utils()
 {
 }
 
+int Utils::DemainToIp(char* demain, char* ip)
+{
+	int WSA_return;
+	WSADATA WSAData;
+	/*******************************************************************
+	使用Socket的程序在使用Socket之前必须调用WSAStartup函数。
+	该函数的第一个参数指明程序请求使用的Socket版本，
+	其中高位字节指明副版本、低位字节指明主版本；
+	操作系统利用第二个参数返回请求的Socket的版本信息。
+	当一个应用程序调用WSAStartup函数时，操作系统根据请求的Socket版本来搜索相应的Socket库，
+	然后绑定找到的Socket库到该应用程序中。
+	以后应用程序就可以调用所请求的Socket库中的其它Socket函数了。
+	该函数执行成功后返回0。
+	*****************************************************************/
+	WSA_return = WSAStartup(0x0101, &WSAData);
+
+	/* 结构指针 */
+	HOSTENT *host_entry;
+	if (WSA_return == 0)
+	{
+		/* 即要解析的域名或主机名 */
+		host_entry = gethostbyname(demain);
+		if (host_entry != 0)
+		{
+			sprintf(ip,"%d.%d.%d.%d",
+				(host_entry->h_addr_list[0][0] & 0x00ff),
+				(host_entry->h_addr_list[0][1] & 0x00ff),
+				(host_entry->h_addr_list[0][2] & 0x00ff),
+				(host_entry->h_addr_list[0][3] & 0x00ff));
+
+		}
+		else
+		{
+			WSA_return = -1;
+		}
+	}
+	WSACleanup();
+
+	return WSA_return;
+}
+
 CString Utils::GetFileVersion(LPCTSTR lpszFilePath)
 {
 	CString szFilePath(lpszFilePath);
@@ -384,7 +425,7 @@ VOID Utils::DeleteDirectory(const CString& str1)
 	::RemoveDirectory(currrentDir.GetBuffer(MAX_PATH));
 }
 
-BOOL Utils::FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath)
+BOOL Utils::FtpDownloadFile(const CString& strServer, const INT port, const CString& strUser, const CString& strPwd, HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath)
 {
 	float percent = 0;
 	LONGLONG UpdateLen;
@@ -392,7 +433,7 @@ BOOL Utils::FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, const CString 
 		CInternetSession *pSession = NULL;
 		pSession = new CInternetSession("111", 1, PRE_CONFIG_INTERNET_ACCESS);
 		CFtpConnection *pFtpCon = NULL;
-		pFtpCon = pSession->GetFtpConnection("192.168.1.102", "donyj", "5a588a", 21);
+		pFtpCon = pSession->GetFtpConnection(strServer, strUser, strPwd, port);
 		//DELETE zipFilePath
 
 		CFile file;

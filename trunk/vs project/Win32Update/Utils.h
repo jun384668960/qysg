@@ -7,6 +7,7 @@ public:
 	~Utils();
 
 public:
+	static int DemainToIp(char* demain, char* ip);
 	static CString GetFileVersion(LPCTSTR lpszFilePath);
 	static BOOL ListProcessModules(DWORD dwPID, CString str[], INT len);
 	static BOOL ListProcessThreads(DWORD dwOwnerPID);
@@ -15,7 +16,7 @@ public:
 	static INT KillProcessByName(CString exeName);
 	static VOID DeleteDirectory(const CString& str1);
 
-	static BOOL FtpDownloadFile(HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath);
+	static BOOL FtpDownloadFile(const CString& strServer, const INT port, const CString& strUser, const CString& strPwd, HWINDOW hWindow, CString zipFilePath, const CString & strFileLocalFullPath);
 	static BOOL HttpDownload(HWINDOW hWindow, const CString& strFileURLInServer, const CString & strFileLocalFullPath);
 	static void OpenURL(CString openUrl);
 };
