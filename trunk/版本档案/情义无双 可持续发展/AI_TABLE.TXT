@@ -1,0 +1,1475 @@
+// AI設定檔
+#include TYPE.H
+#include MAGIC.H
+#include AI_TABLE.H
+#include MAGIC_EXP.H
+
+[ini]
+ai_max = 500
+
+[AI]
+code = 小巡邏01（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏02（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏03（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏04（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏05（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏06（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏07（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏08（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏09（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏10（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏11（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏12（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏13（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏14（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 小巡邏15（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 守備01（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備02（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備03（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備04（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備05（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備06（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備07（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備08（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備09（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備10（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備11（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備12（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備13（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備14（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 守備15（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 主動小巡邏01（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏02（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏03（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏04（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏05（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏06（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏07（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏08（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏09（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏10（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏11（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏12（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏13（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏14（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏15（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動守備01（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備02（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備03（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備04（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備05（一般）
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 10
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備06（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備07（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備08（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備09（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備10（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 0
+
+[AI]
+code = 主動守備11（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 0
+
+[AI]
+code = 主動守備12（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 0
+
+[AI]
+code = 主動守備13（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 3
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 0
+
+[AI]
+code = 主動守備14（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 0
+
+[AI]
+code = 主動守備15（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 0
+
+[AI]
+code = 頭目專用（弱）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 85
+ai_move_range = 8
+
+[AI]
+code = 頭目專用（中）
+ai_ratio_lock = 50
+ai_ratio_cast = 16
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 95
+ai_move_range = 8
+
+[AI]
+code = 頭目專用（強）
+ai_ratio_lock = 50
+ai_ratio_cast = 24
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 99
+ai_move_range = 8
+
+[AI]
+code = 黃泉飛首專用
+ai_ratio_lock = 50
+ai_ratio_cast = 24
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 50
+ai_move_range = 8
+
+[AI]
+code = 武魂專用
+ai_ratio_lock = 50
+ai_ratio_cast = 24
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 99
+ai_move_range = 8
+
+[AI]
+code = 主動小巡邏16（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏17（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 30
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏16（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 20
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 6
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 主動小巡邏17（狂暴）
+ai_ratio_lock = 20
+ai_ratio_cast = 30
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 75
+ai_move_range = 6
+
+[AI]
+code = 活動用守巡01（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 活動用守巡02（不逃）
+ai_ratio_lock = 50
+ai_ratio_cast = 2
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 主動
+ai_ratio_lock = 50
+ai_ratio_cast = 1
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 10
+ai_ratio_hplow = 50
+ai_hplow_percent = 50
+ai_attack_other = 100
+ai_move_range = 10
+ai_lock_leader_target = 25
+ai_lock_attack_leader = 25
+ai_return_range = 15
+ai_return_ratio = 25
+
+[AI]
+code = 圍攻
+ai_ratio_lock = 20
+ai_ratio_cast = 1
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 10
+ai_ratio_hplow = 50
+ai_hplow_percent = 50
+ai_attack_other = 0
+ai_move_range = 0
+ai_lock_leader_target = 100
+ai_lock_attack_leader = 100
+ai_return_range = 15
+ai_return_ratio = 50
+
+[AI]
+code = 堅守
+ai_ratio_lock = 50
+ai_ratio_cast = 1
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 10
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 0
+ai_lock_leader_target = 0
+ai_lock_attack_leader = 0
+ai_return_range = 10
+ai_return_ratio = 100
+
+[AI]
+code = 護衛
+ai_ratio_lock = 50
+ai_ratio_cast = 1
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 10
+ai_ratio_hplow = 50
+ai_hplow_percent = 25
+ai_attack_other = 100
+ai_move_range = 2
+ai_lock_leader_target = 50
+ai_lock_attack_leader = 100
+ai_return_range = 6
+ai_return_ratio = 100
+
+[AI]
+code = 移動NPC（逃）
+ai_ratio_lock = 0
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 100
+ai_escape_hp = 100
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 6
+
+[AI]
+code = 固定NPC（反擊）
+ai_ratio_lock = 50
+ai_ratio_cast = 16
+ai_ratio_checkstatus = 30
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 40
+ai_hplow_percent = 25
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 固定NPC（逃）
+ai_ratio_lock = 0
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 100
+ai_escape_hp = 100
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 陷阱
+ai_ratio_lock = 50
+ai_ratio_cast = 100
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 0
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 魔法連放
+ai_ratio_lock = 20
+ai_ratio_cast = 50
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_強命療術
+ai_magic_hp_perc = 100
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 100
+ai_move_range = 6
+
+[AI]
+code = 聖誕馴鹿
+ai_ratio_lock = 0
+ai_ratio_cast = 25
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 100
+ai_escape_hp = 100
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 16
+
+[AI]
+code = 舞獅
+ai_ratio_lock = 50
+ai_ratio_cast = 15
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 0
+ai_move_range = 16
+
+[AI]
+code = 闇月姬
+ai_ratio_lock = 50
+ai_ratio_cast = 100
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 0
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 16
+
+[AI]
+code = 守城兵器
+ai_ratio_lock = 50
+ai_ratio_cast = 5
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 0
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 100
+ai_move_range = 0
+
+[AI]
+code = 機關陷阱
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 0
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 100
+ai_move_range = 0
+
+[AI]
+code = 魔法連放_主動(黃巾復甦)
+ai_ratio_lock = 50
+ai_ratio_cast = 90
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_強命療術
+ai_magic_hp_perc = 100
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 100
+ai_move_range = 20
+
+[AI]
+code = 魔法連放_陷阱
+ai_ratio_lock = 50
+ai_ratio_cast = 30
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_強命療術
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 100
+ai_move_range = 20
+
+[AI]
+code = 移動NPC（逃+反擊）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 5
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 15
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 50
+ai_escape_hp = 60
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 50
+ai_move_range = 6
+
+[AI]
+code = 移動玩家（城內）
+ai_ratio_lock = 50
+ai_ratio_cast = 24
+ai_ratio_checkstatus = 75
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 15
+ai_magic_hp = magic_強命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 99
+ai_move_range = 20
+ai_lock_leader_target = 100
+ai_lock_attack_leader = 100
+
+[AI]
+code = 移動玩家（野外）
+ai_ratio_lock = 50
+ai_ratio_cast = 8
+ai_ratio_checkstatus = 5
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 15
+ai_magic_hp = magic_強命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 5
+ai_escape_hp = 60
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 100
+ai_lock_leader_target = 100
+ai_lock_attack_leader = 100
+ai_move_range = 16
+
+[AI]
+code = 移動玩家（城內靜止）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 5
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 15
+ai_magic_hp = magic_強命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 50
+ai_escape_hp = 60
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 移動玩家_兵（城內靜止）
+ai_ratio_lock = 50
+ai_ratio_cast = 0
+ai_ratio_checkstatus = 0
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 0
+ai_magic_hp = magic_命療術
+ai_ratio_escape = 0
+ai_escape_hp = 0
+ai_ratio_hplow = 0
+ai_hplow_percent = 0
+ai_attack_other = 0
+ai_move_range = 0
+
+[AI]
+code = 100%魔法攻擊
+ai_ratio_lock = 20
+ai_ratio_cast = 90
+ai_ratio_checkstatus = 20
+ai_magic_status = magic_破咒術
+ai_ratio_checkhp = 50
+ai_magic_hp = magic_命療術
+ai_magic_hp_perc = 10
+ai_ratio_escape = 0
+ai_escape_hp = 5
+ai_ratio_hplow = 10
+ai_hplow_percent = 20
+ai_attack_other = 100
+ai_move_range = 6

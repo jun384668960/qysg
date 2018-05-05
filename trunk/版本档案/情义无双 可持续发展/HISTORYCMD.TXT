@@ -1,0 +1,64 @@
+
+#include HISTORYCMD.H
+#include TYPE.H
+
+[ini]
+max = 500
+
+
+[map_cmd]
+code = 1
+param_num = 2
+
+[map_cmd]
+code = 2
+param_num = 2
+
+[map_cmd]
+code = 3
+param_num = 2
+
+[map_cmd]
+code = 4
+param_num = 1
+
+[map_cmd]
+code = 5
+param_num = 7
+
+[map_cmd]
+code = 6
+param_num = 2
+
+[map_cmd]
+code = 7
+param_num = 2
+
+[map_cmd]
+code = 10
+param_num = 4
+
+[map_cmd]
+code = 11
+param_num = 3
+
+[map_cmd]
+code = 12
+param_num = 3
+
+[map_cmd]
+code = 100
+param_num = 2
+
+[map_cmd]
+code = 101
+param_num = 2
+
+[map_cmd]
+code = 102
+param_num = 3
+
+[map_cmd]
+code = 103
+param_num = 2
+

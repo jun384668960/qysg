@@ -1,0 +1,116 @@
+// 城市勢力變化表
+#include STAGE.H
+
+[ini]
+Max = 999
+
+
+[force_change]
+city = city_成都
+aff_map = city_成都東境,city_成都西境,city_綿竹,city_落鳳坡
+[force_change]
+city = city_洛陽
+aff_map = city_洛陽東陌,city_洛陽西阡,city_滎陽,city_虎牢關
+[force_change]
+city = city_建業
+aff_map = city_建業東陌,city_建業西陌,city_曲阿,city_合肥,city_建業渡口
+[force_change]
+city = city_上庸
+aff_map = city_上庸東境,city_上庸西路,city_房陵,city_武關
+[force_change]
+city = city_新野
+aff_map = city_新野城東,city_新野西境
+[force_change]
+city = city_宛
+aff_map = city_宛城西郊,city_宛城東境
+[force_change]
+city = city_襄陽
+aff_map = city_襄陽白虎道,city_襄陽青龍道,city_臨淵道
+[force_change]
+city = city_許昌
+aff_map = city_許昌東郊,city_許昌西境,city_大興山
+[force_change]
+city = city_汝南
+aff_map = city_汝南東境,city_汝南西境
+[force_change]
+city = city_徐州
+aff_map = city_徐州東陌,city_徐州西阡,city_九里山
+[force_change]
+city = city_北海
+aff_map = city_北海東境,city_北海西境,city_北海渡口,city_泰山
+[force_change]
+city = city_盧江
+aff_map = city_盧江東陌,city_盧江西陌,city_天柱山
+[force_change]
+city = city_壽春
+aff_map = city_壽春東陌,city_壽春西陌,city_烏林
+[force_change]
+city = city_江夏
+aff_map = city_江夏東墎,city_江夏西陌,city_夏口
+[force_change]
+city = city_長沙
+aff_map = city_長沙東阡,city_長沙西阡,city_長阪坡
+[force_change]
+city = city_江州
+aff_map = city_江州西阡,city_江州東陌,city_峨嵋山
+[force_change]
+city = city_長安
+aff_map = city_長安東阡,city_長安西陌,city_潼關
+[force_change]
+city = city_柴桑
+aff_map = city_柴桑西阡,city_柴桑東阡,city_赤壁
+[force_change]
+city = city_北平
+aff_map = city_北平東境,city_北平西境,city_北平渡口
+[force_change]
+city = city_涼州
+aff_map = city_涼州東境,city_涼州西境,city_街亭
+[force_change]
+city = city_建寧
+aff_map = city_建寧西阡,city_建寧東陌
+[force_change]
+city = city_豫章
+aff_map = city_豫章東境,city_豫章西境,city_鄱陽湖
+[force_change]
+city = city_晉陽
+aff_map = city_晉陽東境,city_晉陽西境,city_雁門關
+[force_change]
+city = city_武陵
+aff_map = city_武陵東境,city_武陵西境,city_巫峽
+[force_change]
+city = city_安定
+aff_map = city_安定東境,city_安定西境,city_壼關
+[force_change]
+city = city_天水
+aff_map = city_天水東境,city_天水西境,city_祁山,city_青城山
+[force_change]
+city = city_零陵
+aff_map = city_零陵東境,city_零陵西境
+[force_change]
+city = city_平原
+aff_map = city_平原東境,city_平原西境
+[force_change]
+city = city_桂陽
+aff_map = city_桂陽東阡,city_桂陽西阡,city_桂林
+[force_change]
+city = city_漢中
+aff_map = city_漢中東境,city_漢中西境,city_五丈原
+[force_change]
+city = city_陳留
+aff_map = city_陳留東境,city_陳留西境,city_東海
+[force_change]
+city = city_鄴
+aff_map = city_鄴東境,city_鄴西境,city_官渡
+[force_change]
+city = city_會稽
+aff_map = city_會稽東境,city_會稽西境,city_會稽渡口
+[force_change]
+city = city_遼東
+aff_map = city_遼東東境,city_遼東西境,city_漁陽
+[force_change]
+city = city_高句麗
+aff_map = city_高句麗東境,city_高句麗西境,city_昌黎
+[force_change]
+city = city_樂浪
+aff_map = city_樂浪東境,city_樂浪西境,city_樂浪渡口
+

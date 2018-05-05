@@ -1,0 +1,142 @@
+
+#include HISTORYCMD.H
+#include TYPE.H
+#include PLAYERS.H
+#include STAGE.H
+
+[ini]
+max = 500
+
+
+[history_tbl]
+code = 1
+cmd = hCmd_ObjectEnterMap,role_許褚_新野,0
+cmd = hCmd_ObjectEnterMap,role_李典_新野,0
+cmd = hCmd_ObjectEnterMap,role_夏侯蘭_新野,0
+cmd = hCmd_ObjectEnterMap,role_韓浩_新野,0
+cmd = hCmd_ObjectEnterMap,role_張飛_新野,0
+cmd = hCmd_ObjectEnterMap,role_孫乾_新野,0
+cmd = hCmd_ObjectEnterMap,role_糜竺_新野,0
+cmd = hCmd_ObjectEnterMap,role_糜芳_新野,0
+cmd = hCmd_ObjectEnterMap,role_火陣旗_魏,0
+cmd = hCmd_ObjectEnterMap,role_水陣旗_魏,0
+cmd = hCmd_ObjectEnterMap,role_仙陣旗_魏,0
+cmd = hCmd_ObjectEnterMap,role_妖陣旗_魏,0
+cmd = hCmd_ObjectEnterMap,role_火陣旗_蜀,0
+cmd = hCmd_ObjectEnterMap,role_水陣旗_蜀,0
+cmd = hCmd_ObjectEnterMap,role_仙陣旗_蜀,0
+cmd = hCmd_ObjectEnterMap,role_妖陣旗_蜀,0
+cmd = hCmd_ObjectEnterMap,role_打劫大盜_A,0
+cmd = hCmd_ObjectEnterMap,role_打劫大盜_B,0
+cmd = hCmd_SetMaster,role_夏侯惇_新野,role_魏國弓騎兵_赤壁
+cmd = hCmd_SetMaster,role_許褚_新野,role_魏國鐵騎兵_A
+cmd = hCmd_SetMaster,role_曹仁_新野,role_魏國鐵騎兵_赤壁
+cmd = hCmd_SetMaster,role_李典_新野,role_魏國長槍衛兵_A
+cmd = hCmd_SetMaster,role_于禁_新野,role_魏國長槍衛兵
+cmd = hCmd_SetMaster,role_夏侯蘭_新野,role_魏國弓騎兵_A
+cmd = hCmd_SetMaster,role_曹洪_新野,role_魏國大刀衛兵
+cmd = hCmd_SetMaster,role_韓浩_新野,role_魏國大刀衛兵_A
+cmd = hCmd_SetMaster,role_張飛_新野,role_蜀國鐵騎兵_連營
+cmd = hCmd_SetMaster,role_關羽_新野,role_蜀國鐵騎兵_A
+cmd = hCmd_SetMaster,role_趙雲_新野,role_蜀國弓騎兵_連營
+cmd = hCmd_SetMaster,role_孫乾_新野,role_蜀國長槍衛兵_A
+cmd = hCmd_SetMaster,role_關平_新野,role_蜀國長槍衛兵
+cmd = hCmd_SetMaster,role_糜竺_新野,role_蜀國弓騎兵_A
+cmd = hCmd_SetMaster,role_糜芳_新野,role_蜀國大刀衛兵_A
+cmd = hCmd_SetMaster,role_劉封_新野,role_蜀國大刀衛兵
+cmd = hCmd_SetMaster,role_新野寶箱_A,role_新野寶箱_空A
+cmd = hCmd_SetMaster,role_新野寶箱_B,role_新野寶箱_空B
+cmd = hCmd_SetReborn,role_許褚_新野
+cmd = hCmd_SetReborn,role_李典_新野
+cmd = hCmd_SetReborn,role_夏侯蘭_新野
+cmd = hCmd_SetReborn,role_韓浩_新野
+cmd = hCmd_SetReborn,role_張飛_新野
+cmd = hCmd_SetReborn,role_孫乾_新野
+cmd = hCmd_SetReborn,role_糜竺_新野
+cmd = hCmd_SetReborn,role_糜芳_新野
+cmd = hCmd_SetReborn,role_打劫大盜_A
+cmd = hCmd_SetReborn,role_打劫大盜_B
+cmd = hCmd_ObjectHPLow_CallObject,role_韓浩_新野,99,role_魏國重弩兵,1,0,38015,0
+cmd = hCmd_ObjectHPLow_CallObject,role_李典_新野,99,role_魏國重弩兵,1,0,38016,0
+cmd = hCmd_ObjectHPLow_CallObject,role_夏侯蘭_新野,99,role_魏國重弩兵,1,0,38017,0
+cmd = hCmd_ObjectHPLow_CallObject,role_許褚_新野,99,role_魏國重弩兵,1,0,38018,0
+cmd = hCmd_ObjectHPLow_CallObject,role_張飛_新野,99,role_蜀國重弩兵,1,0,38019,0
+cmd = hCmd_ObjectHPLow_CallObject,role_孫乾_新野,99,role_蜀國重弩兵,1,0,38020,0
+cmd = hCmd_ObjectHPLow_CallObject,role_糜竺_新野,99,role_蜀國重弩兵,1,0,38021,0
+cmd = hCmd_ObjectHPLow_CallObject,role_糜芳_新野,99,role_蜀國重弩兵,1,0,38022,0
+cmd = hCmd_SetGetScore,role_曹洪_新野,1
+cmd = hCmd_SetGetScore,role_于禁_新野,2
+cmd = hCmd_SetGetScore,role_夏侯惇_新野,3
+cmd = hCmd_SetGetScore,role_曹仁_新野,10
+cmd = hCmd_SetGetScore,role_劉封_新野,1
+cmd = hCmd_SetGetScore,role_關平_新野,2
+cmd = hCmd_SetGetScore,role_趙雲_新野,3
+cmd = hCmd_SetGetScore,role_關羽_新野,10
+cmd = hCmd_SetGetHonor,role_夏侯惇_新野,10
+cmd = hCmd_SetGetHonor,role_許褚_新野,10
+cmd = hCmd_SetGetHonor,role_曹仁_新野,10
+cmd = hCmd_SetGetHonor,role_李典_新野,10
+cmd = hCmd_SetGetHonor,role_于禁_新野,10
+cmd = hCmd_SetGetHonor,role_夏侯蘭_新野,10
+cmd = hCmd_SetGetHonor,role_曹洪_新野,5
+cmd = hCmd_SetGetHonor,role_韓浩_新野,5
+cmd = hCmd_SetGetHonor,role_張飛_新野,10
+cmd = hCmd_SetGetHonor,role_關羽_新野,10
+cmd = hCmd_SetGetHonor,role_趙雲_新野,10
+cmd = hCmd_SetGetHonor,role_孫乾_新野,10
+cmd = hCmd_SetGetHonor,role_關平_新野,10
+cmd = hCmd_SetGetHonor,role_糜竺_新野,10
+cmd = hCmd_SetGetHonor,role_糜芳_新野,5
+cmd = hCmd_SetGetHonor,role_劉封_新野,5
+
+[history_tbl]
+code = 2
+cmd = hCmd_ObjectDead_CallObject,role_韓浩_新野,role_曹洪_新野,3,0
+cmd = hCmd_ObjectDead_CallObject,role_韓浩_新野,role_魏國寶箱,1,0
+cmd = hCmd_ObjectDead_RunTable,role_韓浩_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_韓浩_新野,7,0
+cmd = hCmd_ObjectDead_CallObject,role_李典_新野,role_于禁_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_李典_新野,4,0
+cmd = hCmd_ObjectDead_CallObject,role_夏侯蘭_新野,role_夏侯惇_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_夏侯蘭_新野,5,0
+cmd = hCmd_ObjectDead_CallObject,role_許褚_新野,role_曹仁_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_許褚_新野,6,0
+cmd = hCmd_ObjectDead_CallObject,role_糜芳_新野,role_劉封_新野,3,0
+cmd = hCmd_ObjectDead_CallObject,role_糜芳_新野,role_蜀國寶箱,1,0
+cmd = hCmd_ObjectDead_RunTable,role_糜芳_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_糜芳_新野,7,0
+cmd = hCmd_ObjectDead_CallObject,role_孫乾_新野,role_關平_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_孫乾_新野,4,0
+cmd = hCmd_ObjectDead_CallObject,role_糜竺_新野,role_趙雲_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_糜竺_新野,5,0
+cmd = hCmd_ObjectDead_CallObject,role_張飛_新野,role_關羽_新野,3,0
+cmd = hCmd_ObjectDead_RunTable,role_張飛_新野,6,0
+cmd = hCmd_ObjectDead_CallObject,role_打劫大盜_A,role_新野寶箱_A,1,0
+cmd = hCmd_ObjectDead_RunTable,role_打劫大盜_A,8,0
+cmd = hCmd_ObjectDead_CallObject,role_打劫大盜_B,role_新野寶箱_B,1,0
+cmd = hCmd_ObjectDead_RunTable,role_打劫大盜_B,8,0
+
+[history_tbl]
+code = 3
+cmd = hCmdTbl_SendMessage,38011,0
+
+[history_tbl]
+code = 4
+cmd = hCmdTbl_SendMessage,38012,0
+
+[history_tbl]
+code = 5
+cmd = hCmdTbl_SendMessage,38013,0
+
+[history_tbl]
+code = 6
+cmd = hCmdTbl_SendMessage,38014,0
+
+[history_tbl]
+code = 7
+cmd = hCmdTbl_SendMessage,38023,0
+
+[history_tbl]
+code = 8
+cmd = hCmdTbl_SendMessage,38024,0
+

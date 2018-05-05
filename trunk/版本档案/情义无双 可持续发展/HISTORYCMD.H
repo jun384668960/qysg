@@ -1,0 +1,14 @@
+#define hCmd_ObjectLeaveMap					1
+#define hCmd_ObjectEnterMap					2
+#define hCmd_SetMaster					3
+#define hCmd_SetReborn					4
+#define hCmd_ObjectHPLow_CallObject					5
+#define hCmd_SetGetHonor					6
+#define hCmd_SetGetScore					7
+#define hCmd_ObjectDead_CallObject					10
+#define hCmd_ObjectDead_ObjectLeaveMap					11
+#define hCmd_ObjectDead_RunTable					12
+#define hCmdTbl_ObjectLeaveMap					100
+#define hCmdTbl_ObjectEnterMap					101
+#define hCmdTbl_CallObject					102
+#define hCmdTbl_SendMessage					103

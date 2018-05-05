@@ -1,0 +1,91 @@
+
+#include STAGE.H
+#include PLAYERS.H
+#include HISTORYCMD.H
+#include TYPE.H
+#include ITEM.H
+
+[ini]
+max = 500
+
+
+[history]
+code = 1
+type = 1
+enter_map = city_柴桑
+battle_map = city_赤壁戰場
+cost = 5000
+
+[history]
+code = 2
+type = 3
+enter_map = city_江州
+battle_map = city_夷陵戰場
+cost = 10000
+
+[history]
+code = 3
+type = 2
+enter_map = city_天水
+battle_map = city_葭萌關戰場
+cost = 5000
+
+[history]
+code = 4
+type = 4
+enter_map = city_官渡
+battle_map = city_官渡戰場
+cost = 10000
+
+[history]
+code = 5
+type = 5
+enter_map = city_壽春西陌
+battle_map = city_壽春戰場
+cost = 10000
+
+[history]
+code = 6
+type = 10
+enter_map = city_競技場休息區
+battle_map = city_羅馬軍團大賽
+cost = 100
+
+[history]
+code = 7
+type = 1
+enter_map = city_江夏
+battle_map = city_華容道戰場
+cost = 10000
+
+[history]
+code = 8
+type = 1
+enter_map = city_長安
+battle_map = city_長安解危戰場
+cost = 10000
+
+[history]
+code = 9
+type = 11
+enter_map = city_新野
+battle_map = city_火燒新野戰場
+cost = 10000
+honor = 1
+level_min = 50
+level_max = 150
+limit_player = 200
+left_country = 20074
+left_color = 230,118,115
+left_reborn_area = 8,9,40,69
+right_country = 20075
+right_color = 150,183,51
+right_reborn_area = 959,9,991,69
+cmd_start = 1
+cmd_loop = 2
+reward_min_player = 20
+reward_min_score = 10
+reward_item = item_葭萌關戰利品,1
+reward_honor = 20
+
+

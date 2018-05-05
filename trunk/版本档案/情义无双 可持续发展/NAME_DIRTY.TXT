@@ -1,0 +1,16 @@
+// 遊戲不雅文字表
+
+[dirty_name]
+item = attack
+item = stop
+item = FollowHome
+item = 毛澤東
+item = 周恩來
+item = 鄧小平
+item = 江澤民
+item = 錢其琛
+item = 朱熔基
+item = 朱德
+item = 胡錦濤
+item = 溫家寶
+item = 習近平

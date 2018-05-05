@@ -1,0 +1,1337 @@
+#include TYPE.H
+#include DEFINETXT.H
+#include ITEM.H
+
+
+[ini]
+shop_max = 2000
+
+
+[shop]
+code = 501
+ShopName = 17009
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17010
+boss_msg = 17011
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 503
+ShopName = 17012
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17013
+boss_msg = 17014
+ShopType = shopType_WeaponArmor
+Item = item_ª½¼C,item_¤j¤M,item_»ÉÉ_,item_³æ¤â´Ò,item_ªø§ú,item_µu¤},item_¤õª¢½b,item_´H¤ô½b,item_®Á¬Þ,item_Äð²¯,item_«C¥É«a,item_ºë¤u­²ñZ,item_©x³T,item_Äð¹u,item_Å@×H¾Ô¹u,item_¤â®M
+
+[shop]
+code = 505
+ShopName = 17015
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17016
+boss_msg = 17017
+ShopType = shopType_WeaponArmor
+Item = item_ª½¼C,item_¤j¤M,item_»ÉÉ_,item_³æ¤â´Ò,item_ªø§ú,item_µu¤},item_¤õª¢½b,item_´H¤ô½b,item_®Á¬Þ,item_Äð²¯,item_«C¥É«a,item_ºë¤u­²ñZ,item_©x³T,item_Äð¹u,item_Å@×H¾Ô¹u,item_¤â®M
+
+[shop]
+code = 507
+ShopName = 17018
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17019
+boss_msg = 17020
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 509
+ShopName = 17021
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17022
+boss_msg = 17023
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 511
+ShopName = 17024
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17025
+boss_msg = 17026
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 513
+ShopName = 17027
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17028
+boss_msg = 17029
+ShopType = shopType_WeaponArmor
+Item = item_ª½¼C,item_¤j¤M,item_»ÉÉ_,item_³æ¤â´Ò,item_ªø§ú,item_µu¤},item_¤õª¢½b,item_´H¤ô½b,item_®Á¬Þ,item_Äð²¯,item_«C¥É«a,item_ºë¤u­²ñZ,item_©x³T,item_Äð¹u,item_Å@×H¾Ô¹u,item_¤â®M
+
+[shop]
+code = 515
+ShopName = 17030
+ShopCost = 100
+shop_bg = BG_Weapon02.JPG
+boss_shp = 101
+boss_head = 107
+boss_name = 17031
+boss_msg = 17032
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 517
+ShopName = 17033
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17034
+boss_msg = 17035
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 519
+ShopName = 17036
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17037
+boss_msg = 17038
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 521
+ShopName = 17039
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17040
+boss_msg = 17041
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 523
+ShopName = 17042
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17043
+boss_msg = 17044
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 525
+ShopName = 17048
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17049
+boss_msg = 17050
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 527
+ShopName = 17051
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17052
+boss_msg = 17053
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 529
+ShopName = 17054
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17055
+boss_msg = 17056
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 531
+ShopName = 17057
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17058
+boss_msg = 17059
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 533
+ShopName = 17060
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17061
+boss_msg = 17062
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 535
+ShopName = 17063
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17064
+boss_msg = 17065
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 537
+ShopName = 17066
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17067
+boss_msg = 17068
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 539
+ShopName = 17069
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17070
+boss_msg = 17071
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 541
+ShopName = 17072
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17073
+boss_msg = 17074
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 543
+ShopName = 17075
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17076
+boss_msg = 17077
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 545
+ShopName = 17078
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17079
+boss_msg = 17080
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 547
+ShopName = 17081
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17082
+boss_msg = 17083
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 549
+ShopName = 17084
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17085
+boss_msg = 17086
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 551
+ShopName = 17087
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17088
+boss_msg = 17089
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 553
+ShopName = 17090
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17091
+boss_msg = 17092
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 555
+ShopName = 17093
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17094
+boss_msg = 17095
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 557
+ShopName = 17096
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17097
+boss_msg = 17098
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 559
+ShopName = 17099
+ShopCost = 100
+shop_bg = BG_Weapon.jpg
+boss_shp = 101
+boss_head = 108
+boss_name = 17100
+boss_msg = 17101
+ShopType = shopType_WeaponArmor
+Item = 
+
+[shop]
+code = 601
+ShopName = 17150
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17151
+boss_msg = 17152
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 603
+ShopName = 17153
+ShopCost = 100
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17154
+boss_msg = 17155
+ShopType = shopType_Market
+Item = item_¦aÂI¼Ð°OºX,item_¼Ð°O¶Ç°e±²¶b,item_ÃÄ¤Y,item_³Á¯ù,item_¦æ°Ó¤ë¥OµP,item_¥\¾±­È¥[­¿²Å,item_¤Æ¥\¤Y,item_¥þ®Ä¤Æ¥\¤Y,item_³Ó§Q«Å¨¥¤é±²,item_ª÷¤l,item_ª÷¤¸Ä_,item_¤h§L´_¬¡±²¶b,item_¥l³êÄ_¥Û,item_´_¬¡±²¶b,item_¬L§i¤Ñ¤U
+
+[shop]
+code = 605
+ShopName = 17156
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17157
+boss_msg = 17158
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 607
+ShopName = 17159
+ShopCost = 100
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17160
+boss_msg = 17161
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 609
+ShopName = 17162
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17163
+boss_msg = 17164
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 611
+ShopName = 17165
+ShopCost = 100
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17166
+boss_msg = 17167
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 613
+ShopName = 17168
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17169
+boss_msg = 17170
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 615
+ShopName = 17171
+ShopCost = 100
+shop_bg = BG_market.jpg
+boss_shp = 101
+boss_head = 104
+boss_name = 17172
+boss_msg = 17173
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 617
+ShopName = 17174
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17175
+boss_msg = 17176
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 619
+ShopName = 17177
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17178
+boss_msg = 17179
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 621
+ShopName = 17180
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17181
+boss_msg = 17182
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 623
+ShopName = 17183
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17184
+boss_msg = 17185
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 625
+ShopName = 17189
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17190
+boss_msg = 17191
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 627
+ShopName = 17192
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17193
+boss_msg = 17194
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 629
+ShopName = 17195
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17196
+boss_msg = 17197
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 631
+ShopName = 17198
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17199
+boss_msg = 17200
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 633
+ShopName = 17201
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17202
+boss_msg = 17203
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 635
+ShopName = 17204
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17205
+boss_msg = 17206
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 637
+ShopName = 17207
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17208
+boss_msg = 17209
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 639
+ShopName = 17210
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17211
+boss_msg = 17212
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 641
+ShopName = 17213
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17214
+boss_msg = 17215
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 643
+ShopName = 17216
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17217
+boss_msg = 17218
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 645
+ShopName = 17219
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17220
+boss_msg = 17221
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 647
+ShopName = 17222
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17223
+boss_msg = 17224
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 649
+ShopName = 17225
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17226
+boss_msg = 17227
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 651
+ShopName = 17228
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17229
+boss_msg = 17230
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 653
+ShopName = 17231
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17232
+boss_msg = 17233
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 655
+ShopName = 17234
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17235
+boss_msg = 17236
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 657
+ShopName = 17237
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17238
+boss_msg = 17239
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 659
+ShopName = 17240
+ShopCost = 100
+shop_bg = BG_market02.JPG
+boss_shp = 101
+boss_head = 103
+boss_name = 17241
+boss_msg = 17242
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 691
+ShopName = 17264
+ShopCost = 100
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17265
+boss_msg = 17266
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 694
+ShopName = 17267
+ShopCost = 100
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17268
+boss_msg = 17269
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 697
+ShopName = 17270
+ShopCost = 100
+shop_bg = BG_K02store.jpg
+boss_shp = 101
+boss_head = 123
+boss_name = 17271
+boss_msg = 17272
+ShopType = shopType_Market
+Item = 
+
+[shop]
+code = 701
+ShopName = 17561
+ShopCost = 100
+teleport_id = 4
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17562
+boss_msg = 17563
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 703
+ShopName = 17564
+ShopCost = 100
+teleport_id = 5
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17565
+boss_msg = 17566
+ShopType = shopType_Hotel
+Item = item_¦×ºê,item_³Á¯ù,item_Âà¹B²Å,item_­x»î¤§²Å,item_¦æ­x±j¤Æ¤§²Å,item_Às»ñ»æ,item_çx¯ñ°s,item_ÂÏ®çªG,item_¥ÉÅS°s,item_ªZ»î§Þ¯à¥þ¶°,item_¯«¦æ¤d¨½¤§²Å,item_·Ò¯«ÁÙµê¤§²Å
+
+[shop]
+code = 705
+ShopName = 17567
+ShopCost = 100
+teleport_id = 6
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17568
+boss_msg = 17569
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 707
+ShopName = 17570
+ShopCost = 100
+teleport_id = 7
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17571
+boss_msg = 17572
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 709
+ShopName = 17573
+ShopCost = 100
+teleport_id = 8
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17574
+boss_msg = 17575
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 711
+ShopName = 17576
+ShopCost = 100
+teleport_id = 9
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17577
+boss_msg = 17578
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 713
+ShopName = 17579
+ShopCost = 100
+teleport_id = 10
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17580
+boss_msg = 17581
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 715
+ShopName = 17582
+ShopCost = 100
+teleport_id = 11
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17583
+boss_msg = 17584
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 717
+ShopName = 17585
+ShopCost = 100
+teleport_id = 12
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17586
+boss_msg = 17587
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 719
+ShopName = 17588
+ShopCost = 100
+teleport_id = 13
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17589
+boss_msg = 17590
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 721
+ShopName = 17591
+ShopCost = 100
+teleport_id = 14
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17592
+boss_msg = 17593
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 723
+ShopName = 17594
+ShopCost = 100
+teleport_id = 15
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17595
+boss_msg = 17596
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 725
+ShopName = 17600
+ShopCost = 100
+teleport_id = 20
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17601
+boss_msg = 17602
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 727
+ShopName = 17603
+ShopCost = 100
+teleport_id = 21
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17604
+boss_msg = 17605
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 729
+ShopName = 17606
+ShopCost = 100
+teleport_id = 25
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17607
+boss_msg = 17608
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 731
+ShopName = 17609
+ShopCost = 100
+teleport_id = 26
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17610
+boss_msg = 17611
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 733
+ShopName = 17612
+ShopCost = 100
+teleport_id = 27
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17613
+boss_msg = 17614
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 735
+ShopName = 17615
+ShopCost = 100
+teleport_id = 28
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17616
+boss_msg = 17617
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 737
+ShopName = 17618
+ShopCost = 100
+teleport_id = 29
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17619
+boss_msg = 17620
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 739
+ShopName = 17621
+ShopCost = 100
+teleport_id = 30
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17622
+boss_msg = 17623
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 741
+ShopName = 17624
+ShopCost = 100
+teleport_id = 31
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17625
+boss_msg = 17626
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 743
+ShopName = 17627
+ShopCost = 100
+teleport_id = 32
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17628
+boss_msg = 17629
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 745
+ShopName = 17630
+ShopCost = 100
+teleport_id = 33
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17631
+boss_msg = 17632
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 747
+ShopName = 17633
+ShopCost = 100
+teleport_id = 34
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17634
+boss_msg = 17635
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 749
+ShopName = 17636
+ShopCost = 100
+teleport_id = 35
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17637
+boss_msg = 17638
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 751
+ShopName = 17639
+ShopCost = 100
+teleport_id = 36
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17640
+boss_msg = 17641
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 753
+ShopName = 17642
+ShopCost = 100
+teleport_id = 37
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17643
+boss_msg = 17644
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 755
+ShopName = 17645
+ShopCost = 100
+teleport_id = 38
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17646
+boss_msg = 17647
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 757
+ShopName = 17648
+ShopCost = 100
+teleport_id = 39
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17649
+boss_msg = 17650
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 759
+ShopName = 17651
+ShopCost = 100
+teleport_id = 40
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17652
+boss_msg = 17653
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 791
+ShopName = 17654
+ShopCost = 100
+teleport_id = 47
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17655
+boss_msg = 17656
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 794
+ShopName = 17657
+ShopCost = 100
+teleport_id = 48
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17658
+boss_msg = 17659
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 797
+ShopName = 17660
+ShopCost = 100
+teleport_id = 49
+shop_bg = BG_Hotel02.JPG
+boss_shp = 101
+boss_head = 113
+boss_name = 17661
+boss_msg = 17662
+ShopType = shopType_Hotel
+Item = 
+
+[shop]
+code = 801
+ShopName = 17681
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17682
+boss_msg = 17683
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 803
+ShopName = 17684
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17685
+boss_msg = 17686
+ShopType = shopType_Factory
+Item = item_¦µ¤M§LÂàÂ¾¥O,item_ºj§LÂàÂ¾¥O,item_¤}§LÂàÂ¾¥O,item_¼C§LÂàÂ¾¥O,item_­¸¤M§LÂàÂ¾¥O,item_»RÄ]ÂàÂ¾¥O,item_ÆZ§LÂàÂ¾¥O,item_ÃM§LÂàÂ¾¥O,item_»´ÃM§LÂàÂ¾¥O
+
+[shop]
+code = 805
+ShopName = 17687
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17688
+boss_msg = 17689
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 807
+ShopName = 17690
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17691
+boss_msg = 17692
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 809
+ShopName = 17693
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17694
+boss_msg = 17695
+ShopType = shopType_Factory
+Item = item_¤j¤M§LÂàÂ¾¥O,item_Äð¥Ò§LÂàÂ¾¥O,item_ªø¼C§LÂàÂ¾¥O,item_ªø¤}§LÂàÂ¾¥O,item_ªøºj§LÂàÂ¾¥O,item_´u§LÂàÂ¾¥O,item_ÁåÂñ§LÂàÂ¾¥O,item_ºq®VÂàÂ¾¥O,item_»R®VÂàÂ¾¥O,item_¨ë«ÈÂàÂ¾¥O,item_ªñ½Ã§LÂàÂ¾¥O,item_¼C¤hÂàÂ¾¥O,item_©¸§LÂàÂ¾¥O
+
+[shop]
+code = 811
+ShopName = 17696
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17697
+boss_msg = 17698
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 813
+ShopName = 17699
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17700
+boss_msg = 17701
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 815
+ShopName = 17702
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17703
+boss_msg = 17704
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 817
+ShopName = 17705
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17706
+boss_msg = 17707
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 819
+ShopName = 17708
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17709
+boss_msg = 17710
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 821
+ShopName = 17711
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17712
+boss_msg = 17713
+ShopType = shopType_Factory
+Item = 
+
+[shop]
+code = 823
+ShopName = 17714
+ShopCost = 100
+shop_bg = BG_factory.jpg
+boss_shp = 101
+boss_head = 101
+boss_name = 17715
+boss_msg = 17716
+ShopType = shopType_Factory
+Item = 
