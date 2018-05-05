@@ -36,10 +36,6 @@ HELE hRichEdit;
 HELE hComboBoxKey;
 CString ClntPid;
 
-#define SERVICE_URL "http://wpa.qq.com/msgrd?v=3&uin=452078920&site=qq&menu=yes"
-#define RECHARGE_URL "http://m1.libaopay.com:8880/buy/?wid=74838"
-#define MAIN_WEB_URL "http://code.taobao.org/svn/QYSG/trunk/www/index.htm"
-
 // 全局变量: 
 HINSTANCE hInst;								// 当前实例
 TCHAR szTitle[MAX_LOADSTRING];					// 标题栏文本
@@ -55,7 +51,7 @@ INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
 #define WM_TRAY (WM_USER + 100)
 #define WM_TASKBAR_CREATED RegisterWindowMessage(TEXT("TaskbarCreated"))
 
-#define APP_NAME	TEXT("情义三国")
+#define APP_NAME	TEXT("三国群英传OL")
 #define APP_TIP		TEXT("Win32 API 实现系统托盘程序")
 
 NOTIFYICONDATA nid;		//托盘属性
@@ -1110,7 +1106,7 @@ int CALLBACK KeyHelp_EventBtnClick(BOOL *pbHandled)
 	
 	for (int i = 0; i<20; i++)
 	{
-		wsprintfW(buf, L"情义三国 - %d", i);
+		wsprintfW(buf, _T("%s三国 - %d"), CLNT_COPY_RIGHT, i);
 		XAdapterTable_AddItemText(hAdapter, buf);
 	}
 	XRichEdit_SetText(hComboBoxWin, L"请选择窗口");
@@ -1195,10 +1191,10 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 	Utils::DeleteDirectory(L"Script\\");
 
 	//start protect
-	CString StartFile = _T(CLNT_PROTECT_FILE);
+	CString StartFile = CLNT_PROTECT_FILE;
 	//获取当前进程pid
 	int t_pid = _getpid();
-	CString g_CmdLine = _T(GAME_START_FILE);
+	CString g_CmdLine = GAME_START_FILE;
 	g_CmdLine.Format(TEXT(" %s %d"), StartFile, t_pid);
 
 	STARTUPINFO si = { sizeof(si) };
@@ -1235,10 +1231,13 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 
 int InitializeComponent()
 {
-	hWindow = XWnd_Create(20, 20, 640, 333, L"情义登录器",NULL,xc_window_style_modal);//创建窗口
+	CString str = CLNT_TITLE;
+	LPCWSTR title = (LPCWSTR)str;
+
+	hWindow = XWnd_Create(20, 20, 640, 333, title, NULL, xc_window_style_modal);//创建窗口
 	if (hWindow)
 	{
-		CString curVer = "情义三国 V"GAME_VER;
+		CString curVer = ""CLNT_COPY_RIGHT"三国 V"GAME_VER;
 		XShapeText_Create(12, 6, 0, 0, curVer, hWindow);
 
 		HELE hBtnWinClose = XBtn_Create(610, 7, 15, 15, L"X", hWindow);
@@ -1443,7 +1442,9 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 	//}
 
 	// 创建互斥量
-	HANDLE hMutex = CreateMutex(NULL, FALSE, L"情义登录器");
+	CString str = CLNT_COPY_RIGHT"登录器";
+	LPCWSTR title = (LPCWSTR)str;
+	HANDLE hMutex = CreateMutex(NULL, FALSE, title);
 	// 检查错误代码
 	if (GetLastError() == ERROR_ALREADY_EXISTS)
 	{

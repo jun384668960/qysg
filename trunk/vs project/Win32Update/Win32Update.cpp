@@ -66,12 +66,13 @@ int AfterUpdateDone()
 	try{
 		//关闭当前客户端
 		Utils::KillProcessByName(StartFile);
-		Utils::KillProcessByName("Win32Protect");
-		Utils::KillProcessByName("情义登录器");
+		Utils::KillProcessByName(CLNT_PROTECT_TITLE);
+		Utils::KillProcessByName(CLNT_TITLE);
+		Sleep(500);
 		//删除上述文件
 		if (PathFileExists(StartFile) && !DeleteFile(StartFile))
 		{
-			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:qysg.dat 正在被使用，请关闭后重试！", "提示", MB_OK);
+			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:"GAME_START_FILE" 正在被使用，请关闭后重试！", "提示", MB_OK);
 			return -1;
 		}
 		/*if (PathFileExists("Win32Protect.exe") && !DeleteFile("Win32Protect.exe"))
@@ -79,9 +80,9 @@ int AfterUpdateDone()
 		MessageBox(XWnd_GetHWND(hWindow), "游戏文件:Win32Protect 正在被使用，请关闭后重试！", "提示", MB_OK);
 		return -1;
 		}*/
-		if (PathFileExists("情义登录器.exe") && !DeleteFile("情义登录器.exe"))
+		if (PathFileExists(CLNT_FILE) && !DeleteFile(CLNT_FILE))
 		{
-			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:情义登录器 正在被使用，请关闭后重试！", "提示", MB_OK);
+			MessageBox(XWnd_GetHWND(hWindow), "游戏文件:"CLNT_TITLE" 正在被使用，请关闭后重试！", "提示", MB_OK);
 			return -1;
 		}
 
@@ -97,11 +98,11 @@ int AfterUpdateDone()
 			MessageBox(XWnd_GetHWND(hWindow), "升级包Update.zip解压失败，您后选择手动解压！", "提示", MB_OK);
 			return -1;
 		}
-		Sleep(2000);
+		Sleep(1000);
 		//更新成功开启登录器
 		STARTUPINFO si = { sizeof(si) };
 		PROCESS_INFORMATION pi;
-		if (!CreateProcess("情义登录器.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+		if (!CreateProcess(CLNT_FILE, NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
 		{
 			MessageBox(XWnd_GetHWND(hWindow), "启动登录器失败！", "提示", MB_OK);
 			::SendMessage(XWnd_GetHWND(hWindow), WM_CLOSE, NULL, NULL);
@@ -126,10 +127,10 @@ int CALLBACK Link_EventBtnClick(BOOL *pbHandled)
 	}
 
 	BOOL done = FALSE;
-	if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
+	if (PathFileExists(StartFile) && PathFileExists(CLNT_FILE))
 	{
 		//Utils::OpenURL(" http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip");
-		done = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "Update.zip", "Update.zip");
+		done = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "FullClient.zip", "Update.zip");
 	}
 	else
 	{
@@ -138,7 +139,14 @@ int CALLBACK Link_EventBtnClick(BOOL *pbHandled)
 	}
 	
 	if (done)
+	{
 		AfterUpdateDone();
+	}
+	else
+	{
+		CString url = DOWNLOAD_WEB_URL;
+		Utils::OpenURL(url);
+	}
 
 	return 0;
 }
@@ -177,10 +185,10 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 		bool download = false;
 		for (int i = 0; i < 5; i++)
 		{
-			if (PathFileExists(StartFile) && PathFileExists("情义登录器.exe"))
+			if (PathFileExists(StartFile) && PathFileExists(CLNT_FILE))
 			{
 				//ret = Utils::HttpDownload(hWindow, "http://code.taobao.org/svn/Third-Part-Learning/trunk/Update.zip", "Update.zip");
-				ret = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "Update.zip", "Update.zip");
+				ret = Utils::FtpDownloadFile(ftpserver, FTP_SERVER_PORT, FTP_USER_NAME, FTP_USER_PWD, hWindow, "FullClient.zip", "Update.zip");
 			}
 			else
 			{
@@ -215,10 +223,15 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 
 int InitializeComponent()
 {
-	hWindow = XWnd_Create(20, 20, 320, 100, L"情义登录器", NULL, xc_window_style_modal);//创建窗口
+	CString str = CLNT_TITLE;
+	LPCWSTR title = str.AllocSysString();
+
+	hWindow = XWnd_Create(20, 20, 320, 100, title, NULL, xc_window_style_modal);//创建窗口
 	if (hWindow)
 	{
-		XShapeText_Create(12, 6, 0, 0, L"情义三国", hWindow);
+		str = CLNT_COPY_RIGHT"三国";
+		title = str.AllocSysString();
+		XShapeText_Create(12, 6, 0, 0, title, hWindow);
 
 		HELE hBtnWinClose = XBtn_Create(300, 7, 15, 15, L"X", hWindow);
 		XEle_RegEventC(hBtnWinClose, XE_BNCLICK, WinClose_EventBtnClick);

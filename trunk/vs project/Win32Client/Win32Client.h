@@ -2,14 +2,23 @@
 
 #include "resource.h"
 
-#define SERVER_IP	"111.67.195.101"//"127.0.0.1"//"115.231.220.37"//"117.27.159.42" //"120.77.147.184"//"192.168.1.100"//"120.77.147.184"//"183.60.106.159"
-#define SERVER_PORT	"22119"
-#define GAME_VER	"1.0.1.0"
-#define GAME_START_FILE "qysg.dat"
-#define CLNT_UPDATE_FILE "情义微端.exe"
-#define CLNT_PROTECT_FILE "Win32Protect.exe"
-#define KEY_HELP_FILE "KeyHelp.exe"
-#define GAME_START_LINE " fuck you man! 1" //前面空格必须要
+#define SERVER_IP				"111.67.195.101"//"127.0.0.1"//"115.231.220.37"//"117.27.159.42" //"120.77.147.184"//"192.168.1.100"//"120.77.147.184"//"183.60.106.159"
+#define SERVER_PORT				"22119"
+#define GAME_VER				"1.0.1.0"
+#define GAME_START_FILE			"qysg.dat"
+#define CLNT_UPDATE_TITLE		"Win32Update"
+#define CLNT_PROTECT_TITLE		"Win32Protect"
+#define CLNT_UPDATE_FILE		CLNT_UPDATE_TITLE".exe"
+#define CLNT_PROTECT_FILE		CLNT_PROTECT_TITLE".exe"
+#define CLNT_COPY_RIGHT			"情义"
+#define CLNT_TITLE				CLNT_COPY_RIGHT"登录器"
+#define CLNT_FILE				CLNT_TITLE".exe"
+#define KEY_HELP_FILE			"KeyHelp.exe"
+#define GAME_START_LINE			" fuck you man! 1" //前面空格必须要
+#define SERVICE_URL				"http://wpa.qq.com/msgrd?v=3&uin=384668960&site=qq&menu=yes"
+#define RECHARGE_URL			"http://m1.libaopay.com:8880/buy/?wid=74838"
+#define MAIN_WEB_URL			"jun384668960.github.io/index.htm"
+#define DOWNLOAD_WEB_URL		"jun384668960.github.io/download.htm"
 
 //消息类型
 #define START_FLAG	"0X21"

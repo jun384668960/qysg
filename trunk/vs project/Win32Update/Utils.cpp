@@ -464,13 +464,11 @@ BOOL Utils::FtpDownloadFile(const CString& strServer, const INT port, const CStr
 			total += readCount;
 			int _pos = (total * 100) / UpdateLen;
 			//发送信号 更新进度条
-			//::SendMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, pos, NULL);
 			if (_pos != pos)
 			{
 				pos = _pos;
 				if (hWindow)
 					::SendMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, NULL, pos);
-				//::PostMessage(XWnd_GetHWND(hWindow), WM_RGSMSG, NULL, pos);
 			}
 
 			readCount = pFile->Read(buff, 2048);
