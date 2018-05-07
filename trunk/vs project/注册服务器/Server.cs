@@ -296,6 +296,9 @@ namespace register_server
                 }
             }catch(Exception ex)
             {
+                Socket handler = (Socket)ar.AsyncState;
+                handler.Shutdown(SocketShutdown.Both);
+                handler.Close();
                 LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, "ReadCallback" + ex.Message, new StackTrace(new StackFrame(true)));
             }
         }
@@ -315,8 +318,8 @@ namespace register_server
                 // Complete sending the data to the remote device.     
                 int bytesSent = handler.EndSend(ar);
                 //MessageBox.Show(string.Format("Sent {0} bytes to client.", bytesSent));
-                handler.Shutdown(SocketShutdown.Both);
-                handler.Close();
+                //handler.Shutdown(SocketShutdown.Both);
+                //handler.Close();
             }
             catch (Exception ex)
             {

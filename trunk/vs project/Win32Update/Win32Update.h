@@ -15,7 +15,7 @@
 #define CLNT_TITLE				CLNT_COPY_RIGHT"登录器"
 #define CLNT_FILE				CLNT_TITLE".exe"
 #define GAME_START_LINE			" fuck you man! 1" //前面空格必须要
-#define DOWNLOAD_WEB_URL		"jun384668960.github.io/download.htm"
+#define DOWNLOAD_WEB_URL		"https://jun384668960.github.io/download.htm"
 
 //消息类型
 #define START_FLAG	"0X21"

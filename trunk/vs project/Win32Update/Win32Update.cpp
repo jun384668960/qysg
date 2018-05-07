@@ -145,7 +145,8 @@ int CALLBACK Link_EventBtnClick(BOOL *pbHandled)
 	else
 	{
 		CString url = DOWNLOAD_WEB_URL;
-		Utils::OpenURL(url);
+		ShellExecute(0, NULL, _T(DOWNLOAD_WEB_URL), NULL, NULL, SW_NORMAL);
+		//Utils::OpenURL(url);
 	}
 
 	return 0;

@@ -385,16 +385,16 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 }
 BOOL DoCheckVersion(CString curVer, CString &newVer)
 {
-	WORD wVersionRequested;
-	WSADATA wsaData;
-	int err;
-
 	char serverip[64] = { 0 };
 	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
 	{
 		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
 		return FALSE;
 	}
+
+	WORD wVersionRequested;
+	WSADATA wsaData;
+	int err;
 
 	wVersionRequested = MAKEWORD(2, 2);
 	err = WSAStartup(wVersionRequested, &wsaData);//加载套接字库
@@ -495,7 +495,7 @@ BOOL DoCheckVersion(CString curVer, CString &newVer)
 	int ret;
 	
 	setsockopt(sClient, SOL_SOCKET, SO_RCVTIMEO, (char *)&nNetTimeout, sizeof(nNetTimeout));
-	ret = recv(sClient, szBuff, sizeof(szBuff), 0);
+	ret = recv(sClient, szBuff, 400, 0);
 	if (ret > 0)
 	{
 		CString retError = "";
@@ -1168,14 +1168,16 @@ int CALLBACK KeyHelp_EventBtnClick(BOOL *pbHandled)
 int CALLBACK KeyMainWeb_EventBtnClick(BOOL *pbHandled)
 {
 	CString url = MAIN_WEB_URL;
-	Utils::OpenURL(url);
+	ShellExecute(0, NULL, _T(MAIN_WEB_URL), NULL, NULL, SW_NORMAL);
+	//Utils::OpenURL(url);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK KeyService_EventBtnClick(BOOL *pbHandled)
 {
 	CString url = SERVICE_URL;
-	Utils::OpenURL(url);
+	ShellExecute(0, NULL, _T(SERVICE_URL), NULL, NULL, SW_NORMAL);
+	//Utils::OpenURL(url);
 	*pbHandled = TRUE;
 	return 0;
 }
@@ -1183,6 +1185,7 @@ int CALLBACK KeyNeedRecharge_EventBtnClick(BOOL *pbHandled)
 {
 	//CString url = RECHARGE_URL;
 	//Utils::OpenURL(url);
+	//ShellExecute(0, NULL, _T(RECHARGE_URL), NULL, NULL, SW_NORMAL);
 	MessageBox(NULL, L"自动充值正在完善中，若需充值请联系客服！", L"提示", MB_OK);
 	*pbHandled = TRUE;
 	return 0;

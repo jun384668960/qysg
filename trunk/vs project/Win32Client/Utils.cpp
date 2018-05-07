@@ -31,7 +31,9 @@ int Utils::DemainToIp(char* demain, char* ip)
 	以后应用程序就可以调用所请求的Socket库中的其它Socket函数了。
 	该函数执行成功后返回0。
 	*****************************************************************/
-	WSA_return = WSAStartup(0x0101, &WSAData);
+	WORD wVersionRequested;
+	wVersionRequested = MAKEWORD(2, 2);
+	WSA_return = WSAStartup(wVersionRequested, &WSAData);
 
 	/* 结构指针 */
 	HOSTENT *host_entry;

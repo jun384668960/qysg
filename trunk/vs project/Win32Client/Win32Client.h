@@ -2,9 +2,9 @@
 
 #include "resource.h"
 
-#define SERVER_IP				"qysg.52hcby.top"//"111.67.195.101"
+#define SERVER_IP				"qysg.52hcby.top"//"192.168.1.100"//"111.67.195.101"//
 #define SERVER_PORT				"22119"
-#define GAME_VER				"1.0.1.2"
+#define GAME_VER				"1.0.1.3"
 #define GAME_START_FILE			"qysg.dat"
 #define CLNT_UPDATE_TITLE		"Win32Update"
 #define CLNT_PROTECT_TITLE		"Win32Protect"
@@ -17,8 +17,8 @@
 #define GAME_START_LINE			" fuck you man! 1" //前面空格必须要
 #define SERVICE_URL				"http://wpa.qq.com/msgrd?v=3&uin=384668960&site=qq&menu=yes"
 #define RECHARGE_URL			"http://m1.libaopay.com:8880/buy/?wid=74838"
-#define MAIN_WEB_URL			"jun384668960.github.io/index.htm"
-#define DOWNLOAD_WEB_URL		"jun384668960.github.io/download.htm"
+#define MAIN_WEB_URL			"https://jun384668960.github.io/index.htm"
+#define DOWNLOAD_WEB_URL		"https://jun384668960.github.io/download.htm"
 
 //消息类型
 #define START_FLAG	"0X21"
