@@ -210,53 +210,61 @@ item_attr =
 [item_shop]
 code = 201
 type = ishopType_Special
-item_id = item_軍魂術訣
+item_id = item_特級武器加持法
 item_number = 1
-cost = 20000
+cost = 25000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 202
 type = ishopType_Special
-item_id = item_復活術術訣
+item_id = item_軍魂術訣
 item_number = 1
-cost = 20000
+cost = 15000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 203
 type = ishopType_Special
-item_id = item_結界法術訣
+item_id = item_復活術術訣
 item_number = 1
-cost = 25000
+cost = 10000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 204
 type = ishopType_Special
-item_id = item_命療加成之書
+item_id = item_結界法術訣
 item_number = 1
-cost = 25000
+cost = 15000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 205
 type = ishopType_Special
-item_id = item_士兵鍊骨令
+item_id = item_命療加成之書
 item_number = 1
-cost = 1200
+cost = 10000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 206
 type = ishopType_Special
 item_id = item_士兵鍊骨令
+item_number = 1
+cost = 1200
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 207
+type = ishopType_Special
+item_id = item_士兵鍊骨令
 item_number = 10
 cost = 12000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
-code = 207
+code = 208
 type = ishopType_Special
 item_id = item_士兵鍛筋令
 item_number = 1
@@ -264,7 +272,7 @@ cost = 1200
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
-code = 208
+code = 209
 type = ishopType_Special
 item_id = item_士兵鍛筋令
 item_number = 10
@@ -272,39 +280,39 @@ cost = 12000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
-code = 209
+code = 210
 type = ishopType_Special
 item_id = item_禁地通行證
 item_number = 1
 cost = 2000
-item_attr = ITEMMALL_ATTR_NEW
-
-[item_shop]
-code = 210
-type = ishopType_Special
-item_id = item_禁地通行證
-item_number = 5
-cost = 10000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 211
 type = ishopType_Special
-item_id = item_妖靈洞通行證
-item_number = 1
-cost = 2000
+item_id = item_禁地通行證
+item_number = 5
+cost = 10000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
 code = 212
 type = ishopType_Special
 item_id = item_妖靈洞通行證
+item_number = 1
+cost = 2000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 213
+type = ishopType_Special
+item_id = item_妖靈洞通行證
 item_number = 5
 cost = 10000
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
-code = 213
+code = 214
 type = ishopType_Special
 item_id = item_命療提昇之書
 item_number = 1
@@ -312,7 +320,7 @@ cost = 100
 item_attr = ITEMMALL_ATTR_NEW
 
 [item_shop]
-code = 214
+code = 215
 type = ishopType_Special
 item_id = item_基本武器重鑄法
 item_number = 1
@@ -320,7 +328,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 215
+code = 216
 type = ishopType_Special
 item_id = item_基本防具重鑄法
 item_number = 1
@@ -328,7 +336,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 216
+code = 217
 type = ishopType_Special
 item_id = item_基本座騎調教法
 item_number = 1
@@ -336,7 +344,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 217
+code = 218
 type = ishopType_Special
 item_id = item_隕鐵
 item_number = 1
@@ -344,7 +352,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 218
+code = 219
 type = ishopType_Special
 item_id = item_烏鋼
 item_number = 1
@@ -352,7 +360,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 219
+code = 220
 type = ishopType_Special
 item_id = item_伸筋草
 item_number = 1
@@ -360,7 +368,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 220
+code = 221
 type = ishopType_Special
 item_id = item_初級武器重鑄法
 item_number = 1
@@ -368,7 +376,7 @@ cost = 200
 item_attr = 
 
 [item_shop]
-code = 221
+code = 222
 type = ishopType_Special
 item_id = item_初級防具重鑄法
 item_number = 1
@@ -376,7 +384,7 @@ cost = 200
 item_attr = 
 
 [item_shop]
-code = 222
+code = 223
 type = ishopType_Special
 item_id = item_初級座騎調教法
 item_number = 1
@@ -384,7 +392,7 @@ cost = 200
 item_attr = 
 
 [item_shop]
-code = 223
+code = 224
 type = ishopType_Special
 item_id = item_優質隕鐵
 item_number = 1
@@ -392,7 +400,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 224
+code = 225
 type = ishopType_Special
 item_id = item_優質烏鋼
 item_number = 1
@@ -400,7 +408,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 225
+code = 226
 type = ishopType_Special
 item_id = item_伸筋藥丸
 item_number = 1
@@ -408,7 +416,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 226
+code = 227
 type = ishopType_Special
 item_id = item_高級武器重鑄法
 item_number = 1
@@ -416,7 +424,7 @@ cost = 300
 item_attr = 
 
 [item_shop]
-code = 227
+code = 228
 type = ishopType_Special
 item_id = item_高級防具重鑄法
 item_number = 1
@@ -424,7 +432,7 @@ cost = 300
 item_attr = 
 
 [item_shop]
-code = 228
+code = 229
 type = ishopType_Special
 item_id = item_高級座騎調教法
 item_number = 1
@@ -432,7 +440,7 @@ cost = 300
 item_attr = 
 
 [item_shop]
-code = 229
+code = 230
 type = ishopType_Special
 item_id = item_精煉隕鐵
 item_number = 1
@@ -440,7 +448,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 230
+code = 231
 type = ishopType_Special
 item_id = item_精煉烏鋼
 item_number = 1
@@ -448,7 +456,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 231
+code = 232
 type = ishopType_Special
 item_id = item_伸筋活骨散
 item_number = 1
@@ -456,7 +464,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 232
+code = 233
 type = ishopType_Special
 item_id = item_裝備修復法
 item_number = 1
@@ -464,7 +472,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 233
+code = 234
 type = ishopType_Special
 item_id = item_座騎修復法
 item_number = 1
@@ -472,7 +480,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 234
+code = 235
 type = ishopType_Special
 item_id = item_高祖龍袍
 item_number = 1
@@ -480,7 +488,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 235
+code = 236
 type = ishopType_Special
 item_id = item_漢室玉璽
 item_number = 1
@@ -488,7 +496,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 236
+code = 237
 type = ishopType_Special
 item_id = item_昭告天下
 item_number = 20
@@ -496,7 +504,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 237
+code = 238
 type = ishopType_Special
 item_id = item_易名印鑑
 item_number = 1
@@ -504,7 +512,7 @@ cost = 10000
 item_attr = 
 
 [item_shop]
-code = 238
+code = 239
 type = ishopType_Special
 item_id = item_裝備次數再生法
 item_number = 1
@@ -512,7 +520,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 239
+code = 240
 type = ishopType_Special
 item_id = item_座騎再生法
 item_number = 1
@@ -520,7 +528,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 240
+code = 241
 type = ishopType_Special
 item_id = item_轉生石
 item_number = 1
@@ -528,7 +536,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 241
+code = 242
 type = ishopType_Special
 item_id = item_護腕重鑄法
 item_number = 1
@@ -536,7 +544,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 242
+code = 243
 type = ishopType_Special
 item_id = item_內衣重鑄法
 item_number = 1
@@ -544,7 +552,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 243
+code = 244
 type = ishopType_Special
 item_id = item_披風重鑄法
 item_number = 1
@@ -552,7 +560,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 244
+code = 245
 type = ishopType_Special
 item_id = item_小盾重鑄法
 item_number = 1
@@ -560,7 +568,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 245
+code = 246
 type = ishopType_Special
 item_id = item_大盾重鑄法
 item_number = 1
@@ -568,7 +576,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 246
+code = 247
 type = ishopType_Special
 item_id = item_忘魂丹
 item_number = 1
@@ -576,7 +584,7 @@ cost = 1000
 item_attr = 
 
 [item_shop]
-code = 247
+code = 248
 type = ishopType_Special
 item_id = item_青瓷瓶
 item_number = 4
@@ -584,7 +592,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 248
+code = 249
 type = ishopType_Special
 item_id = item_陶製品
 item_number = 4
@@ -592,7 +600,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 249
+code = 250
 type = ishopType_Special
 item_id = item_絳株草
 item_number = 4
@@ -600,7 +608,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 250
+code = 251
 type = ishopType_Special
 item_id = item_內丹
 item_number = 4
@@ -608,7 +616,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 251
+code = 252
 type = ishopType_Special
 item_id = item_玉墜
 item_number = 4
@@ -616,7 +624,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 252
+code = 253
 type = ishopType_Special
 item_id = item_素錦
 item_number = 4
@@ -624,7 +632,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 253
+code = 254
 type = ishopType_Special
 item_id = item_刀鞘碎片
 item_number = 4
@@ -632,7 +640,7 @@ cost = 100
 item_attr = 
 
 [item_shop]
-code = 254
+code = 255
 type = ishopType_Special
 item_id = item_機關鉚釘
 item_number = 4

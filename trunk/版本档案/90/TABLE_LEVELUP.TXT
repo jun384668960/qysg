@@ -3,7 +3,7 @@
 
 
 [exp]
-item_max = 80
+item_max = 90
 
 level = 1,0
 level = 2,0
@@ -208,7 +208,7 @@ level = 200,1200000000
 
 
 [soldier_exp]
-item_max = 80
+item_max = 90
 
 level = 1,0
 level = 2,0
