@@ -158,6 +158,13 @@ void DoRegister(CString name, CString pwd)
 	WSADATA wsaData;
 	int err;
 
+	char serverip[64] = { 0 };
+	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	{
+		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
+		return;
+	}
+
 	wVersionRequested = MAKEWORD(2, 2);
 	err = WSAStartup(wVersionRequested, &wsaData);//加载套接字库
 	if (err != 0)
@@ -174,7 +181,7 @@ void DoRegister(CString name, CString pwd)
 	}
 
 	SOCKADDR_IN addrSrv;
-	addrSrv.sin_addr.S_un.S_addr = inet_addr(SERVER_IP);
+	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
 	addrSrv.sin_port = htons(atoi(SERVER_PORT));
 
@@ -275,6 +282,13 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 	WSADATA wsaData;
 	int err;
 
+	char serverip[64] = { 0 };
+	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	{
+		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
+		return;
+	}
+
 	wVersionRequested = MAKEWORD(2, 2);
 	err = WSAStartup(wVersionRequested, &wsaData);//加载套接字库
 	if (err != 0)
@@ -291,7 +305,7 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 	}
 
 	SOCKADDR_IN addrSrv;
-	addrSrv.sin_addr.S_un.S_addr = inet_addr(SERVER_IP);
+	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
 	addrSrv.sin_port = htons(atoi(SERVER_PORT));
 
@@ -375,6 +389,13 @@ BOOL DoCheckVersion(CString curVer, CString &newVer)
 	WSADATA wsaData;
 	int err;
 
+	char serverip[64] = { 0 };
+	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	{
+		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
+		return FALSE;
+	}
+
 	wVersionRequested = MAKEWORD(2, 2);
 	err = WSAStartup(wVersionRequested, &wsaData);//加载套接字库
 	if (err != 0)
@@ -391,7 +412,7 @@ BOOL DoCheckVersion(CString curVer, CString &newVer)
 	}
 
 	SOCKADDR_IN addrSrv;
-	addrSrv.sin_addr.S_un.S_addr = inet_addr(SERVER_IP);
+	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
 	addrSrv.sin_port = htons(atoi(SERVER_PORT));
 

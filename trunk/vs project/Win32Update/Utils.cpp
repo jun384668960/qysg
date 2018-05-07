@@ -606,6 +606,7 @@ void Utils::OpenURL(CString openUrl)
 {
 	if (openUrl == "")
 		return;
+	openUrl = " " + openUrl;
 	HKEY  hkRoot, hSubKey;   //注册表根关键字及子关键字  
 	CString ValueName;
 	unsigned char DataValue[MAX_PATH];
