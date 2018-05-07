@@ -2,7 +2,7 @@
 
 #include "resource.h"
 
-#define SERVER_IP				"52hcby.top"//"111.67.195.101"
+#define SERVER_IP				"qysg.52hcby.top"//"111.67.195.101"
 #define SERVER_PORT				"22119"
 #define GAME_VER				"1.0.1.2"
 #define GAME_START_FILE			"qysg.dat"

@@ -2,7 +2,7 @@
 
 #include "resource.h"
 
-#define FTP_SERVER_IP			"52hcby.top"//"111.67.195.101"//"52hcby.top"
+#define FTP_SERVER_IP			"qysg.52hcby.top"//"111.67.195.101"//"52hcby.top"
 #define FTP_SERVER_PORT			21
 #define FTP_USER_NAME			"donyj"
 #define FTP_USER_PWD			"5a588a"
