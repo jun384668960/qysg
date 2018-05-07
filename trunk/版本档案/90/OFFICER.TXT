@@ -1,0 +1,5013 @@
+// 官位設定檔
+#include TYPE.H
+#include OFFICER.H
+#include MAGIC.H
+#include MAGIC_EXP.H
+
+[ini]
+max = 500
+
+[officer]
+code = off_義民
+name = 22002
+explain = 22003
+level = 1
+pin = 0
+limit_level = 1
+honor = 0
+gold = 0
+
+[officer]
+code = off_侍屬
+name = 22004
+explain = 22005
+level = 2
+pin = 9
+add_mp = 18
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_FIRE,1
+
+[officer]
+code = off_博士
+name = 22006
+explain = 22007
+level = 2
+pin = 9
+add_attr_int = 2
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_WATER,1
+
+[officer]
+code = off_民保
+name = 22008
+explain = 22009
+level = 2
+pin = 9
+add_attr_dex = 2
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_里魁
+name = 22010
+explain = 22011
+level = 2
+pin = 9
+add_attr_mind = 1
+add_attr_con = 1
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_伍長
+name = 22012
+explain = 22013
+level = 2
+pin = 9
+add_attr_str = 1
+add_attr_con = 1
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_SLASH,1
+
+[officer]
+code = off_什長
+name = 22014
+explain = 22015
+level = 2
+pin = 9
+add_attr_str = 1
+add_attr_dex = 1
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_屯長
+name = 22016
+explain = 22017
+level = 2
+pin = 9
+add_hp = 24
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_都伯
+name = 22018
+explain = 22019
+level = 2
+pin = 9
+add_attr_str = 2
+limit_level = 5
+honor = 0
+gold = 500
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_文掾
+name = 22020
+explain = 22021
+level = 3
+pin = 9
+add_mp = 36
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_FIRE,1
+
+[officer]
+code = off_督郵
+name = 22022
+explain = 22023
+level = 3
+pin = 9
+add_attr_int = 2
+add_attr_mind = 2
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_WATER,1
+
+[officer]
+code = off_書佐
+name = 22024
+explain = 22025
+level = 3
+pin = 9
+add_attr_mind = 2
+add_attr_con = 2
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_令史
+name = 22026
+explain = 22027
+level = 3
+pin = 9
+add_attr_int = 4
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_衛士令
+name = 22028
+explain = 22029
+level = 3
+pin = 9
+add_defense = 1
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_SLASH,1
+
+[officer]
+code = off_騎都尉
+name = 22030
+explain = 22031
+level = 3
+pin = 9
+add_attr_str = 2
+add_attr_con = 2
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_百人將
+name = 22032
+explain = 22033
+level = 3
+pin = 9
+add_attr_str = 4
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_部曲督
+name = 22034
+explain = 22035
+level = 3
+pin = 9
+add_hp = 48
+limit_level = 10
+honor = 1
+gold = 1000
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_都官從事
+name = 22036
+explain = 22037
+level = 4
+pin = 9
+add_mp = 54
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_別駕從事
+name = 22038
+explain = 22039
+level = 4
+pin = 9
+add_attr_mind = 2
+add_attr_con = 4
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_簿曹從事
+name = 22040
+explain = 22041
+level = 4
+pin = 9
+add_attr_int = 6
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_治中從事
+name = 22042
+explain = 22043
+level = 4
+pin = 9
+add_attr_int = 4
+add_attr_dex = 2
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_司金都尉
+name = 22044
+explain = 22045
+level = 4
+pin = 9
+add_attr_con = 1
+add_attr_leader = 5
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_忠義都尉
+name = 22046
+explain = 22047
+level = 4
+pin = 9
+add_attr_str = 4
+add_attr_con = 2
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_STING,1
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_陷陣都尉
+name = 22048
+explain = 22049
+level = 4
+pin = 9
+add_hp = 36
+add_attackx2_ratio = 1
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_BREAK,1
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_典鎧都尉
+name = 22050
+explain = 22051
+level = 4
+pin = 9
+add_attr_str = 6
+limit_level = 15
+honor = 10
+gold = 2000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_侍講
+name = 22052
+explain = 22053
+level = 5
+pin = 8
+add_mp = 72
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_議郎
+name = 22054
+explain = 22055
+level = 5
+pin = 8
+add_attr_int = 6
+add_attr_con = 2
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_庶長
+name = 22056
+explain = 22057
+level = 5
+pin = 8
+add_attr_mind = 3
+add_attr_leader = 5
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_節度
+name = 22058
+explain = 22059
+level = 5
+pin = 8
+add_attr_int = 4
+add_attr_mind = 4
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_長水校尉
+name = 22060
+explain = 22061
+level = 5
+pin = 8
+add_attr_str = 4
+add_attr_con = 2
+add_attr_dex = 2
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_步兵校尉
+name = 22062
+explain = 22063
+level = 5
+pin = 8
+add_hp = 96
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_STING,1
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_屯騎校尉
+name = 22064
+explain = 22065
+level = 5
+pin = 8
+add_attr_str = 4
+add_attr_con = 4
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_BREAK,1
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_越騎校尉
+name = 22066
+explain = 22067
+level = 5
+pin = 8
+add_attr_str = 6
+add_attr_dex = 2
+limit_level = 20
+honor = 50
+gold = 10000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_治書執法
+name = 22068
+explain = 22069
+level = 6
+pin = 8
+add_hp = 60
+add_mp = 45
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_督軍執法
+name = 22070
+explain = 22071
+level = 6
+pin = 8
+add_attr_int = 6
+add_attr_con = 4
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_吏部郎中
+name = 22072
+explain = 22073
+level = 6
+pin = 8
+add_attr_int = 10
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_庫部郎中
+name = 22074
+explain = 22075
+level = 6
+pin = 8
+add_attr_int = 4
+add_attr_mind = 6
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_軍議校尉
+name = 22076
+explain = 22077
+level = 6
+pin = 8
+add_attr_leader = 10
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_儒林校尉
+name = 22078
+explain = 22079
+level = 6
+pin = 8
+add_attr_str = 6
+add_attr_con = 4
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_STING,2
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_司隸校尉
+name = 22080
+explain = 22081
+level = 6
+pin = 8
+add_hp = 24
+add_defense = 2
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_BREAK,2
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_贊軍校尉
+name = 22082
+explain = 22083
+level = 6
+pin = 8
+add_attr_str = 8
+add_attr_dex = 2
+limit_level = 25
+honor = 200
+gold = 40000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_中書通事
+name = 22084
+explain = 22085
+level = 7
+pin = 8
+add_attr_int = 2
+add_attr_leader = 10
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_GOD,1
+
+[officer]
+code = off_秘書通事
+name = 22086
+explain = 22087
+level = 7
+pin = 8
+add_mp = 90
+add_attr_con = 2
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_EVIL,1
+
+[officer]
+code = off_尚書右丞
+name = 22088
+explain = 22089
+level = 7
+pin = 8
+add_attr_int = 10
+add_attr_mind = 2
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_WATER,1
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_尚書左丞
+name = 22090
+explain = 22091
+level = 7
+pin = 8
+add_attr_int = 2
+add_attr_mind = 10
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_FIRE,1
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_左中郎將
+name = 22092
+explain = 22093
+level = 7
+pin = 8
+add_attr_str = 12
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_STING,1
+
+[officer]
+code = off_右中郎將
+name = 22094
+explain = 22095
+level = 7
+pin = 8
+add_attr_con = 2
+add_attr_dex = 10
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_STING,2
+eq_magic_resist = skillAttr_BREAK,1
+
+[officer]
+code = off_南中郎將
+name = 22096
+explain = 22097
+level = 7
+pin = 8
+add_attr_str = 4
+add_attr_con = 8
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_BREAK,2
+eq_magic_resist = skillAttr_ARROW,1
+
+[officer]
+code = off_北中郎將
+name = 22098
+explain = 22099
+level = 7
+pin = 8
+add_attr_dex = 12
+limit_level = 30
+honor = 400
+gold = 80000
+eq_magic_resist = skillAttr_SLASH,1
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_中散大夫
+name = 22100
+explain = 22101
+level = 8
+pin = 7
+add_attr_int = 6
+add_attr_con = 6
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_諫議大夫
+name = 22102
+explain = 22103
+level = 8
+pin = 7
+add_mp = 90
+add_attr_int = 4
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_功曹
+name = 22104
+explain = 22105
+level = 8
+pin = 7
+add_attr_int = 12
+add_attr_mind = 2
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_主簿
+name = 22106
+explain = 22107
+level = 8
+pin = 7
+add_attr_mind = 4
+add_attr_con = 10
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_裨將軍
+name = 22108
+explain = 22109
+level = 8
+pin = 7
+add_attr_str = 10
+add_attr_dex = 4
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_STING,2
+
+[officer]
+code = off_偏將軍
+name = 22110
+explain = 22111
+level = 8
+pin = 7
+add_attr_con = 2
+add_defense = 3
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_STING,2
+eq_magic_resist = skillAttr_BREAK,2
+
+[officer]
+code = off_牙門將軍
+name = 22112
+explain = 22113
+level = 8
+pin = 7
+add_attr_str = 12
+add_attr_con = 2
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_BREAK,2
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_折衝將軍
+name = 22114
+explain = 22115
+level = 8
+pin = 7
+add_attr_con = 4
+add_attr_leader = 10
+limit_level = 35
+honor = 600
+gold = 120000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_中書侍郎
+name = 22116
+explain = 22117
+level = 9
+pin = 7
+add_attr_int = 12
+add_attr_mind = 4
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_秘書侍郎
+name = 22118
+explain = 22119
+level = 9
+pin = 7
+add_hp = 96
+add_attr_int = 8
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_黃門侍郎
+name = 22120
+explain = 22121
+level = 9
+pin = 7
+add_attr_int = 2
+add_attr_mind = 14
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_長史
+name = 22122
+explain = 22123
+level = 9
+pin = 7
+add_hp = 12
+add_attr_leader = 15
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_鷹揚將軍
+name = 22124
+explain = 22125
+level = 9
+pin = 7
+add_attr_str = 8
+add_attr_dex = 8
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_STING,2
+
+[officer]
+code = off_虎翼將軍
+name = 22126
+explain = 22127
+level = 9
+pin = 7
+add_attr_con = 16
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_STING,2
+eq_magic_resist = skillAttr_BREAK,2
+
+[officer]
+code = off_虎烈將軍
+name = 22128
+explain = 22129
+level = 9
+pin = 7
+add_attr_str = 6
+add_attr_con = 4
+add_attackx2_ratio = 2
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_BREAK,2
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_虎威將軍
+name = 22130
+explain = 22131
+level = 9
+pin = 7
+add_attr_str = 14
+add_attr_con = 2
+limit_level = 40
+honor = 800
+gold = 160000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_符節令
+name = 22132
+explain = 22133
+level = 10
+pin = 7
+add_attr_mind = 18
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_車府令
+name = 22134
+explain = 22135
+level = 10
+pin = 7
+add_hp = 168
+add_attr_int = 4
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_典牧令
+name = 22136
+explain = 22137
+level = 10
+pin = 7
+add_attr_int = 8
+add_attr_mind = 8
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_黃門令
+name = 22138
+explain = 22139
+level = 10
+pin = 7
+add_attr_int = 16
+add_attr_mind = 2
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_昭德將軍
+name = 22140
+explain = 22141
+level = 10
+pin = 7
+add_attr_str = 2
+add_attr_con = 1
+add_attr_leader = 15
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,2
+
+[officer]
+code = off_昭義將軍
+name = 22142
+explain = 22143
+level = 10
+pin = 7
+add_attr_str = 2
+add_defense = 4
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,2
+
+[officer]
+code = off_昭文將軍
+name = 22144
+explain = 22145
+level = 10
+pin = 7
+add_attr_str = 4
+add_attr_con = 14
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_昭武將軍
+name = 22146
+explain = 22147
+level = 10
+pin = 7
+add_attr_str = 16
+add_attr_con = 2
+limit_level = 45
+honor = 1000
+gold = 200000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_廷尉平
+name = 22148
+explain = 22149
+level = 11
+pin = 6
+add_attr_mind = 20
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_GOD,2
+
+[officer]
+code = off_廷尉監
+name = 22150
+explain = 22151
+level = 11
+pin = 6
+add_hp = 24
+add_attr_int = 18
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_EVIL,2
+
+[officer]
+code = off_廷尉正
+name = 22152
+explain = 22153
+level = 11
+pin = 6
+add_attr_int = 10
+add_attr_mind = 10
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_WATER,2
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_羽林監
+name = 22154
+explain = 22155
+level = 11
+pin = 6
+add_attr_mind = 2
+add_attr_con = 3
+add_attr_leader = 15
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_FIRE,2
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_振武將軍
+name = 22156
+explain = 22157
+level = 11
+pin = 6
+add_attr_str = 18
+add_attr_dex = 2
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,2
+
+[officer]
+code = off_振威將軍
+name = 22158
+explain = 22159
+level = 11
+pin = 6
+add_attr_con = 20
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,2
+
+[officer]
+code = off_揚武將軍
+name = 22160
+explain = 22161
+level = 11
+pin = 6
+add_hp = 96
+add_attr_str = 12
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,2
+
+[officer]
+code = off_揚威將軍
+name = 22162
+explain = 22163
+level = 11
+pin = 6
+add_attr_str = 4
+add_attr_dex = 16
+limit_level = 50
+honor = 1200
+gold = 240000
+eq_magic_resist = skillAttr_SLASH,2
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_左都護
+name = 22164
+explain = 22165
+level = 12
+pin = 6
+add_hp = 36
+add_attr_int = 20
+limit_level = 55
+honor = 1400
+gold = 280000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_右都護
+name = 22166
+explain = 22167
+level = 12
+pin = 6
+add_hp = 12
+add_attr_mind = 22
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_中領軍
+name = 22168
+explain = 22169
+level = 12
+pin = 6
+add_attr_int = 12
+add_attr_mind = 10
+add_attr_con = 1
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_中護軍
+name = 22170
+explain = 22171
+level = 12
+pin = 6
+add_hp = 228
+add_attr_mind = 4
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_奮武將軍
+name = 22172
+explain = 22173
+level = 12
+pin = 6
+add_attr_str = 20
+add_attr_con = 2
+add_attr_dex = 1
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,3
+
+[officer]
+code = off_奮威將軍
+name = 22174
+explain = 22175
+level = 12
+pin = 6
+add_attr_con = 22
+add_attr_dex = 1
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,3
+
+[officer]
+code = off_建武將軍
+name = 22176
+explain = 22177
+level = 12
+pin = 6
+add_attr_con = 6
+add_attr_dex = 2
+add_attr_leader = 15
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_建威將軍
+name = 22178
+explain = 22179
+level = 12
+pin = 6
+add_hp = 132
+add_attr_str = 12
+limit_level = 55
+honor = 1400
+gold = 480000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_參軍
+name = 22180
+explain = 22181
+level = 13
+pin = 6
+add_attr_int = 2
+add_attr_con = 4
+add_attr_leader = 20
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_散騎常侍
+name = 22182
+explain = 22183
+level = 13
+pin = 6
+add_hp = 48
+add_attr_int = 22
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_中庶子
+name = 22184
+explain = 22185
+level = 13
+pin = 6
+add_attr_int = 12
+add_attr_mind = 14
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_中常侍
+name = 22186
+explain = 22187
+level = 13
+pin = 6
+add_attr_int = 2
+add_attr_mind = 24
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_前車將軍
+name = 22188
+explain = 22189
+level = 13
+pin = 6
+add_attr_dex = 20
+add_attackx2_ratio = 2
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_STING,3
+
+[officer]
+code = off_破羌將軍
+name = 22190
+explain = 22191
+level = 13
+pin = 6
+add_attr_con = 4
+add_attr_dex = 2
+add_defense = 5
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_STING,3
+eq_magic_resist = skillAttr_BREAK,3
+
+[officer]
+code = off_秉忠將軍
+name = 22192
+explain = 22193
+level = 13
+pin = 6
+add_attr_str = 22
+add_attr_con = 2
+add_attr_dex = 2
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_BREAK,3
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_破虜將軍
+name = 22194
+explain = 22195
+level = 13
+pin = 6
+add_hp = 168
+add_attr_str = 12
+limit_level = 60
+honor = 1800
+gold = 760000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_通事郎
+name = 22196
+explain = 22197
+level = 14
+pin = 5
+add_hp = 36
+add_attr_mind = 26
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_秘書郎
+name = 22198
+explain = 22199
+level = 14
+pin = 5
+add_attr_int = 28
+add_attr_mind = 1
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_都水使者
+name = 22200
+explain = 22201
+level = 14
+pin = 5
+add_hp = 120
+add_attr_int = 16
+add_attr_mind = 3
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_水衡都尉
+name = 22202
+explain = 22203
+level = 14
+pin = 5
+add_attr_int = 20
+add_attr_mind = 8
+add_attr_con = 1
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_殄夷將軍
+name = 22204
+explain = 22205
+level = 14
+pin = 5
+add_hp = 240
+add_attr_str = 2
+add_attr_dex = 7
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_STING,3
+
+[officer]
+code = off_討逆將軍
+name = 22206
+explain = 22207
+level = 14
+pin = 5
+add_attr_str = 24
+add_attr_con = 4
+add_attr_dex = 1
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_STING,4
+eq_magic_resist = skillAttr_BREAK,3
+
+[officer]
+code = off_蕩寇將軍
+name = 22208
+explain = 22209
+level = 14
+pin = 5
+add_attr_str = 6
+add_attr_con = 20
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_BREAK,4
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_征虜將軍
+name = 22210
+explain = 22211
+level = 14
+pin = 5
+add_attr_con = 6
+add_attr_dex = 3
+add_attr_leader = 20
+limit_level = 65
+honor = 2200
+gold = 1240000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_殿中監
+name = 22212
+explain = 22213
+level = 15
+pin = 5
+add_attr_mind = 6
+add_attr_con = 6
+add_attr_leader = 20
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_GOD,3
+
+[officer]
+code = off_給事中
+name = 22214
+explain = 22215
+level = 15
+pin = 5
+add_hp = 96
+add_attr_mind = 24
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_EVIL,3
+
+[officer]
+code = off_尚書僕射
+name = 22216
+explain = 22217
+level = 15
+pin = 5
+add_attr_int = 26
+add_attr_mind = 4
+add_attr_dex = 2
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_WATER,3
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_御史中丞
+name = 22218
+explain = 22219
+level = 15
+pin = 5
+add_attr_int = 4
+add_attr_mind = 28
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_FIRE,3
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_橫野將軍
+name = 22220
+explain = 22221
+level = 15
+pin = 5
+add_hp = 240
+add_attr_str = 6
+add_attr_dex = 6
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_STING,3
+
+[officer]
+code = off_橫江將軍
+name = 22222
+explain = 22223
+level = 15
+pin = 5
+add_attr_str = 4
+add_attr_con = 8
+add_attr_dex = 20
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_STING,4
+eq_magic_resist = skillAttr_BREAK,3
+
+[officer]
+code = off_宣威將軍
+name = 22224
+explain = 22225
+level = 15
+pin = 5
+add_attr_con = 32
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_BREAK,4
+eq_magic_resist = skillAttr_ARROW,3
+
+[officer]
+code = off_武衛將軍
+name = 22226
+explain = 22227
+level = 15
+pin = 5
+add_attr_str = 24
+add_attr_con = 4
+add_attr_dex = 4
+limit_level = 70
+honor = 2600
+gold = 1720000
+eq_magic_resist = skillAttr_SLASH,3
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_五兵尚書
+name = 22228
+explain = 22229
+level = 16
+pin = 4
+add_hp = 360
+add_attr_mind = 5
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_客曹尚書
+name = 22230
+explain = 22231
+level = 16
+pin = 4
+add_attr_int = 10
+add_attr_mind = 25
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_左民尚書
+name = 22232
+explain = 22233
+level = 16
+pin = 4
+add_attr_mind = 35
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_吏部尚書
+name = 22234
+explain = 22235
+level = 16
+pin = 4
+add_attr_int = 30
+add_attr_mind = 5
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_鎮遠將軍
+name = 22236
+explain = 22237
+level = 16
+pin = 4
+add_attr_mind = 5
+add_attr_con = 10
+add_attr_leader = 20
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_STING,4
+
+[officer]
+code = off_寧遠將軍
+name = 22238
+explain = 22239
+level = 16
+pin = 4
+add_attr_str = 32
+add_attr_con = 3
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_STING,4
+eq_magic_resist = skillAttr_BREAK,4
+
+[officer]
+code = off_安遠將軍
+name = 22240
+explain = 22241
+level = 16
+pin = 4
+add_attr_str = 4
+add_attr_con = 22
+add_attackx2_ratio = 3
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_BREAK,4
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_綏遠將軍
+name = 22242
+explain = 22243
+level = 16
+pin = 4
+add_attr_str = 8
+add_attr_con = 12
+add_attr_dex = 15
+limit_level = 75
+honor = 3000
+gold = 2200000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_刺史
+name = 22244
+explain = 22245
+level = 17
+pin = 4
+add_attr_mind = 3
+add_attr_con = 10
+add_attr_leader = 25
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_少府
+name = 22246
+explain = 22247
+level = 17
+pin = 4
+add_attr_int = 8
+add_attr_mind = 30
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_監冶謁者
+name = 22248
+explain = 22249
+level = 17
+pin = 4
+add_attr_mind = 38
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_謁者僕射
+name = 22250
+explain = 22251
+level = 17
+pin = 4
+add_attr_int = 34
+add_attr_mind = 4
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_伏波將軍
+name = 22252
+explain = 22253
+level = 17
+pin = 4
+add_attr_str = 36
+add_attr_con = 2
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_STING,4
+
+[officer]
+code = off_軍師將軍
+name = 22254
+explain = 22255
+level = 17
+pin = 4
+add_hp = 408
+add_attr_dex = 4
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_STING,4
+eq_magic_resist = skillAttr_BREAK,4
+
+[officer]
+code = off_安漢將軍
+name = 22256
+explain = 22257
+level = 17
+pin = 4
+add_attr_con = 14
+add_defense = 6
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_BREAK,4
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_翊軍將軍
+name = 22258
+explain = 22259
+level = 17
+pin = 4
+add_attr_str = 20
+add_attr_con = 10
+add_attr_dex = 8
+limit_level = 80
+honor = 4000
+gold = 3200000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_宗正
+name = 22260
+explain = 22261
+level = 18
+pin = 3
+add_attr_int = 38
+add_attr_mind = 4
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_侍中
+name = 22262
+explain = 22263
+level = 18
+pin = 3
+add_attr_int = 22
+add_attr_mind = 20
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_執金吾
+name = 22264
+explain = 22265
+level = 18
+pin = 3
+add_attr_mind = 42
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_衛尉
+name = 22266
+explain = 22267
+level = 18
+pin = 3
+add_hp = 360
+add_attr_mind = 8
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_撫軍將軍
+name = 22268
+explain = 22269
+level = 18
+pin = 3
+add_attr_str = 38
+add_attr_con = 2
+add_attr_dex = 2
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_STING,4
+
+[officer]
+code = off_龍驤將軍
+name = 22270
+explain = 22271
+level = 18
+pin = 3
+add_attr_con = 42
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_STING,5
+eq_magic_resist = skillAttr_BREAK,4
+
+[officer]
+code = off_鎮軍將軍
+name = 22272
+explain = 22273
+level = 18
+pin = 3
+add_st = 1
+add_attr_dex = 22
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_BREAK,5
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_輔國將軍
+name = 22274
+explain = 22275
+level = 18
+pin = 3
+add_attr_str = 15
+add_attr_con = 2
+add_attr_leader = 25
+limit_level = 85
+honor = 5000
+gold = 4100000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_秘書監
+name = 22276
+explain = 22277
+level = 19
+pin = 3
+add_attr_int = 42
+add_attr_mind = 4
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_GOD,4
+
+[officer]
+code = off_太史令
+name = 22278
+explain = 22279
+level = 19
+pin = 3
+add_attr_mind = 3
+add_attr_con = 18
+add_attr_leader = 25
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_EVIL,4
+
+[officer]
+code = off_中書監
+name = 22280
+explain = 22281
+level = 19
+pin = 3
+add_attr_int = 26
+add_attr_mind = 20
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_WATER,4
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_中書令
+name = 22282
+explain = 22283
+level = 19
+pin = 3
+add_attr_mind = 46
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_FIRE,4
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_前將軍
+name = 22284
+explain = 22285
+level = 19
+pin = 3
+add_attr_con = 42
+add_attr_dex = 4
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_STING,4
+
+[officer]
+code = off_後將軍
+name = 22286
+explain = 22287
+level = 19
+pin = 3
+add_attr_str = 42
+add_attr_con = 4
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_STING,5
+eq_magic_resist = skillAttr_BREAK,4
+
+[officer]
+code = off_左將軍
+name = 22288
+explain = 22289
+level = 19
+pin = 3
+add_st = 1
+add_attr_con = 20
+add_attr_dex = 6
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_BREAK,5
+eq_magic_resist = skillAttr_ARROW,4
+
+[officer]
+code = off_右將軍
+name = 22290
+explain = 22291
+level = 19
+pin = 3
+add_attr_con = 8
+add_attr_dex = 10
+add_defense = 7
+limit_level = 90
+honor = 6000
+gold = 5200000
+eq_magic_resist = skillAttr_SLASH,4
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_監軍
+name = 22292
+explain = 22293
+level = 20
+pin = 2
+add_hp = 264
+add_defense = 7
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_光祿勳
+name = 22294
+explain = 22295
+level = 20
+pin = 2
+add_attr_mind = 50
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_太常
+name = 22296
+explain = 22297
+level = 20
+pin = 2
+add_attr_int = 45
+add_attr_mind = 5
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_御史大夫
+name = 22298
+explain = 22299
+level = 20
+pin = 2
+add_hp = 408
+add_attr_mind = 16
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_安東將軍
+name = 22300
+explain = 22301
+level = 20
+pin = 2
+add_st = 2
+add_attr_dex = 10
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_STING,5
+
+[officer]
+code = off_安西將軍
+name = 22302
+explain = 22303
+level = 20
+pin = 2
+add_attr_con = 25
+add_attr_leader = 25
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_STING,5
+eq_magic_resist = skillAttr_BREAK,5
+
+[officer]
+code = off_平南將軍
+name = 22304
+explain = 22305
+level = 20
+pin = 2
+add_attr_str = 48
+add_attr_dex = 2
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_BREAK,5
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_平北將軍
+name = 22306
+explain = 22307
+level = 20
+pin = 2
+add_attr_str = 4
+add_attr_con = 46
+limit_level = 95
+honor = 7000
+gold = 6400000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_尚書令
+name = 22308
+explain = 22309
+level = 21
+pin = 2
+add_hp = 432
+add_attr_int = 18
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_司徒
+name = 22310
+explain = 22311
+level = 21
+pin = 2
+add_attr_int = 4
+add_attr_mind = 50
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_司空
+name = 22312
+explain = 22313
+level = 21
+pin = 2
+add_attr_mind = 4
+add_attr_con = 25
+add_attr_leader = 25
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_WATER,5
+eq_magic_resist = skillAttr_GOD,5
+
+[officer]
+code = off_太尉
+name = 22314
+explain = 22315
+level = 21
+pin = 2
+add_attr_int = 48
+add_attr_mind = 4
+add_attr_dex = 2
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_FIRE,5
+eq_magic_resist = skillAttr_EVIL,5
+
+[officer]
+code = off_征東將軍
+name = 22316
+explain = 22317
+level = 21
+pin = 2
+add_hp = 288
+add_attr_str = 4
+add_attr_dex = 26
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_STING,5
+
+[officer]
+code = off_征西將軍
+name = 22318
+explain = 22319
+level = 21
+pin = 2
+add_st = 2
+add_attr_con = 14
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_STING,5
+eq_magic_resist = skillAttr_BREAK,5
+
+[officer]
+code = off_鎮南將軍
+name = 22320
+explain = 22321
+level = 21
+pin = 2
+add_attr_str = 4
+add_attr_con = 50
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_BREAK,5
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_鎮北將軍
+name = 22322
+explain = 22323
+level = 21
+pin = 2
+add_attr_str = 50
+add_attr_con = 2
+add_attr_dex = 2
+limit_level = 100
+honor = 10000
+gold = 7500000
+eq_magic_resist = skillAttr_SLASH,5
+eq_magic_resist = skillAttr_ARROW,5
+
+[officer]
+code = off_太傅
+name = 22324
+explain = 22325
+level = 22
+pin = 1
+add_attr_int = 4
+add_attr_mind = 56
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_FIRE,6
+eq_magic_resist = skillAttr_GOD,6
+
+[officer]
+code = off_大司馬
+name = 22326
+explain = 22327
+level = 22
+pin = 1
+add_attr_con = 30
+add_attr_dex = 5
+add_attr_leader = 25
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_WATER,6
+eq_magic_resist = skillAttr_EVIL,6
+
+[officer]
+code = off_相國
+name = 22328
+explain = 22329
+level = 22
+pin = 1
+add_attr_int = 52
+add_attr_mind = 6
+add_attr_con = 2
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_WATER,6
+eq_magic_resist = skillAttr_GOD,6
+
+[officer]
+code = off_左丞相
+name = 22330
+explain = 22331
+level = 22
+pin = 1
+add_hp = 336
+add_defense = 8
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_FIRE,6
+eq_magic_resist = skillAttr_EVIL,6
+
+[officer]
+code = off_衛將軍
+name = 22332
+explain = 22333
+level = 22
+pin = 1
+add_attr_con = 30
+add_attr_dex = 30
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_SLASH,6
+eq_magic_resist = skillAttr_STING,6
+
+[officer]
+code = off_車騎將軍
+name = 22334
+explain = 22335
+level = 22
+pin = 1
+add_st = 2
+add_attr_con = 20
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_STING,6
+eq_magic_resist = skillAttr_BREAK,6
+
+[officer]
+code = off_驃騎將軍
+name = 22336
+explain = 22337
+level = 22
+pin = 1
+add_st = 3
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_BREAK,6
+eq_magic_resist = skillAttr_ARROW,6
+
+[officer]
+code = off_中將軍
+name = 22338
+explain = 22339
+level = 22
+pin = 1
+add_hp = 240
+add_attr_str = 40
+limit_level = 105
+honor = 20000
+gold = 9000000
+eq_magic_resist = skillAttr_SLASH,6
+eq_magic_resist = skillAttr_ARROW,6
+
+[officer]
+code = off_右丞相
+name = 22340
+explain = 22341
+level = 23
+pin = 1
+add_attr_int = 50
+add_attr_con = 20
+limit_level = 110
+honor = 20000
+gold = 18000000
+eq_magic_resist = skillAttr_SLASH,7
+eq_magic_resist = skillAttr_EVIL,6
+
+[officer]
+code = off_太宰
+name = 22342
+explain = 22343
+level = 23
+pin = 1
+add_attr_int = 15
+add_attr_con = 30
+add_attr_leader = 25
+limit_level = 110
+honor = 20000
+gold = 18000000
+eq_magic_resist = skillAttr_STING,7
+eq_magic_resist = skillAttr_GOD,6
+
+[officer]
+code = off_護軍大將軍
+name = 22344
+explain = 22345
+level = 23
+pin = 1
+add_attr_con = 30
+add_attr_dex = 40
+limit_level = 110
+honor = 20000
+gold = 18000000
+eq_magic_resist = skillAttr_BREAK,7
+eq_magic_resist = skillAttr_WATER,6
+
+[officer]
+code = off_凌江大將軍
+name = 22346
+explain = 22347
+level = 23
+pin = 1
+add_hp = 360
+add_attr_str = 40
+limit_level = 110
+honor = 20000
+gold = 18000000
+eq_magic_resist = skillAttr_ARROW,7
+eq_magic_resist = skillAttr_FIRE,6
+
+[officer]
+code = off_太僕
+name = 22348
+explain = 22349
+level = 24
+pin = 1
+add_hp = 180
+add_attr_int = 40
+add_attr_mind = 25
+limit_level = 120
+honor = 20000
+gold = 56000000
+eq_magic_resist = skillAttr_ARROW,7
+eq_magic_resist = skillAttr_FIRE,7
+
+[officer]
+code = off_太府
+name = 22350
+explain = 22351
+level = 24
+pin = 1
+add_attr_str = 15
+add_attr_con = 30
+add_attr_dex = 10
+add_attr_leader = 25
+limit_level = 120
+honor = 20000
+gold = 56000000
+eq_magic_resist = skillAttr_BREAK,7
+eq_magic_resist = skillAttr_WATER,7
+
+[officer]
+code = off_滅寇大將軍
+name = 22352
+explain = 22353
+level = 24
+pin = 1
+add_st = 2
+add_attr_str = 28
+add_attr_dex = 12
+limit_level = 120
+honor = 20000
+gold = 56000000
+eq_magic_resist = skillAttr_STING,7
+eq_magic_resist = skillAttr_GOD,7
+
+[officer]
+code = off_平寇大將軍
+name = 22354
+explain = 22355
+level = 24
+pin = 1
+add_hp = 480
+add_st = 2
+limit_level = 120
+honor = 20000
+gold = 56000000
+eq_magic_resist = skillAttr_SLASH,7
+eq_magic_resist = skillAttr_EVIL,7
+
+[officer]
+code = off_大理平
+name = 22356
+explain = 22357
+level = 25
+pin = 1
+add_hp = 252
+add_attr_int = 48
+add_attr_mind = 21
+limit_level = 130
+honor = 20000
+gold = 82000000
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_EVIL,7
+
+[officer]
+code = off_大理監
+name = 22358
+explain = 22359
+level = 25
+pin = 1
+add_attr_int = 30
+add_attr_mind = 10
+add_attr_con = 20
+add_attr_leader = 30
+limit_level = 130
+honor = 20000
+gold = 82000000
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_GOD,7
+
+[officer]
+code = off_寧朔大將軍
+name = 22360
+explain = 22361
+level = 25
+pin = 1
+add_st = 2
+add_attr_con = 20
+add_attr_dex = 30
+limit_level = 130
+honor = 20000
+gold = 82000000
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_WATER,7
+
+[officer]
+code = off_平戎大將軍
+name = 22362
+explain = 22363
+level = 25
+pin = 1
+add_hp = 168
+add_st = 2
+add_attr_str = 36
+limit_level = 130
+honor = 20000
+gold = 82000000
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,7
+
+[officer]
+code = off_武牙大將軍
+name = 22364
+explain = 22365
+level = 26
+pin = 1
+add_st = 1
+add_attr_int = 54
+add_attr_mind = 12
+add_attr_con = 24
+add_attr_leader = 10
+limit_level = 150
+honor = 40000
+gold = 99990000
+eq_magic_resist = skillAttr_ARROW,8
+eq_magic_resist = skillAttr_FIRE,8
+
+[officer]
+code = off_討虜大將軍
+name = 22366
+explain = 22367
+level = 26
+pin = 1
+add_st = 1
+add_attr_str = 20
+add_attr_dex = 10
+add_attr_leader = 30
+add_defense = 10
+limit_level = 150
+honor = 40000
+gold = 99990000
+eq_magic_resist = skillAttr_BREAK,8
+eq_magic_resist = skillAttr_WATER,8
+
+[officer]
+code = off_威虜大將軍
+name = 22368
+explain = 22369
+level = 26
+pin = 1
+add_hp = 240
+add_st = 3
+add_attr_dex = 40
+limit_level = 150
+honor = 40000
+gold = 99990000
+eq_magic_resist = skillAttr_STING,8
+eq_magic_resist = skillAttr_GOD,8
+
+[officer]
+code = off_驍騎大將軍
+name = 22370
+explain = 22371
+level = 26
+pin = 1
+add_hp = 192
+add_st = 3
+add_attr_str = 44
+limit_level = 150
+honor = 40000
+gold = 99990000
+eq_magic_resist = skillAttr_SLASH,8
+eq_magic_resist = skillAttr_EVIL,8
+
+[officer]
+code = off_真龍天子
+name = 22376
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_煉獄霸王
+name = 22378
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_天界皇后
+name = 22380
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_煉獄魔妃
+name = 22382
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_羅馬皇帝
+name = 22384
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_羅馬將軍
+name = 22386
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_狗奴國主
+name = 22388
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_邪馬台女王
+name = 22390
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_邪馬台武將
+name = 22392
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_天界神將
+name = 22394
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_煉獄魔將
+name = 22396
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_皇帝
+name = 22398
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_機關怪獸
+name = 22400
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_流氓
+name = 22402
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_變民
+name = 22404
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_女賊
+name = 22406
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_巫婆
+name = 22408
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_貪官
+name = 22410
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_飛賊
+name = 22412
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_逃犯
+name = 22414
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_女巫
+name = 22416
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_幫主
+name = 22418
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_亡命之徒
+name = 22420
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_山賊頭目
+name = 22422
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_海賊頭目
+name = 22424
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_盜賊頭目
+name = 22426
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_天公將軍
+name = 22428
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_地公將軍
+name = 22430
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_人公將軍
+name = 22432
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_黃巾將軍
+name = 22434
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_十常侍
+name = 22436
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_惡女
+name = 22438
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_叛將
+name = 22440
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_荊州將軍
+name = 22442
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_荊州太守
+name = 22444
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_關東將軍
+name = 22446
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_白馬將軍
+name = 22448
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_聖誕大使
+name = 22450
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_祥瑞大使
+name = 22452
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_揚州將軍
+name = 22454
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_揚州太守
+name = 22456
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_錦帆猛將
+name = 22458
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_常山豪傑
+name = 22460
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_江東義將
+name = 22462
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_妖魔
+name = 22464
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_益州名士
+name = 22466
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_巴蜀老將
+name = 22468
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_西涼猛將
+name = 22470
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_仙界植物
+name = 22472
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_下凡仙佛
+name = 22474
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_武魂
+name = 22476
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_益州將軍
+name = 22478
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_漢中將軍
+name = 22480
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_南陽將軍
+name = 22482
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_冀州將軍
+name = 22484
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_涼州將軍
+name = 22486
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_南蠻將軍
+name = 22488
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_益州太守
+name = 22490
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_漢中太守
+name = 22492
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_南陽太守
+name = 22494
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_冀州太守
+name = 22496
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_涼州太守
+name = 22498
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_飛將軍
+name = 22500
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_絕代佳人
+name = 22502
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_防禦設施
+name = 22504
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_闇月之主
+name = 22506
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_匈奴將軍
+name = 22508
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_ＧＭ
+name = 22510
+explain = 22511
+level = 0
+add_hp = 99999
+add_mp = 99999
+add_st = 7
+add_attr_str = 999
+add_attr_int = 999
+add_attr_mind = 999
+add_attr_con = 999
+add_attr_dex = 999
+add_attr_leader = 999
+add_defense = 999
+add_attackx2_ratio = 99
+move = 80
+add_weapon_hit = 999
+add_weapon_misshit = 999
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+eq_magic_resist = skillAttr_SLASH,100
+eq_magic_resist = skillAttr_STING,100
+eq_magic_resist = skillAttr_BREAK,100
+eq_magic_resist = skillAttr_ARROW,100
+eq_magic_resist = skillAttr_FIRE,100
+eq_magic_resist = skillAttr_WATER,100
+eq_magic_resist = skillAttr_GOD,100
+eq_magic_resist = skillAttr_EVIL,100
+function = effFun_ANTISTATUS,effFun_POISON,effFun_STUN,effFun_WEAKEN,effFun_SLOW,effFun_NO_MAGIC,effFun_NO_SPEC
+anti_status_ratio = effFun_POISON,100
+anti_status_ratio = effFun_STUN,100
+anti_status_ratio = effFun_WEAKEN,100
+anti_status_ratio = effFun_SLOW,100
+anti_status_ratio = effFun_NO_MAGIC,100
+anti_status_ratio = effFun_NO_SPEC,100
+
+[officer]
+code = off_夏侯惇
+name = 22512
+explain = 22513
+level = 0
+add_st = 1
+add_attr_str = 20
+add_attr_con = 30
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_紅蓮斬月,1
+
+[officer]
+code = off_典韋
+name = 22514
+explain = 22515
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 40
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_冰炎雙戟,1
+
+[officer]
+code = off_司馬懿
+name = 22516
+explain = 22517
+level = 0
+add_attr_int = 50
+add_attr_mind = 10
+add_attr_con = 25
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_天劫降臨,1
+
+[officer]
+code = off_郭嘉
+name = 22518
+explain = 22519
+level = 0
+add_attr_int = 45
+add_attr_mind = 25
+add_attr_con = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_風龍天旋,1
+
+[officer]
+code = off_關羽
+name = 22520
+explain = 22521
+level = 0
+add_st = 1
+add_attr_str = 25
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_青龍偃月,1
+
+[officer]
+code = off_張飛
+name = 22522
+explain = 22523
+level = 0
+add_st = 1
+add_attr_str = 30
+add_attr_con = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_萬夫莫敵,1
+
+[officer]
+code = off_諸葛亮
+name = 22524
+explain = 22525
+level = 0
+add_attr_int = 55
+add_attr_mind = 5
+add_attr_con = 25
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_黃龍天翔,1
+
+[officer]
+code = off_姜維
+name = 22526
+explain = 22527
+level = 0
+add_attr_int = 25
+add_attr_mind = 25
+add_attr_con = 35
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_煉神還虛,1
+
+[officer]
+code = off_周瑜
+name = 22528
+explain = 22529
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_int = 30
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雙星追月,1
+
+[officer]
+code = off_孫仁
+name = 22530
+explain = 22531
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 15
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_劍舞戲蝶,1
+
+[officer]
+code = off_陸遜
+name = 22532
+explain = 22533
+level = 0
+add_attr_int = 25
+add_attr_mind = 15
+add_attr_con = 15
+add_attr_dex = 30
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_地龍極震,1
+
+[officer]
+code = off_小喬
+name = 22534
+explain = 22535
+level = 0
+add_attr_int = 20
+add_attr_mind = 20
+add_attr_con = 30
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_地泉鯨浪,1
+
+[officer]
+code = off_許褚
+name = 22536
+explain = 22537
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_虎嘯戰吼,1
+
+[officer]
+code = off_趙雲
+name = 22538
+explain = 22539
+level = 0
+add_st = 1
+add_attr_str = 25
+add_attr_con = 25
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_閃光龍牙,1
+
+[officer]
+code = off_甘寧
+name = 22540
+explain = 22541
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 10
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_分身突擊,1
+
+[officer]
+code = off_夏侯淵
+name = 22542
+explain = 22543
+level = 0
+add_st = 1
+add_attr_dex = 35
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_墜星落日,1
+
+[officer]
+code = off_徐晃
+name = 22544
+explain = 22545
+level = 0
+add_st = 1
+add_attr_str = 20
+add_attr_con = 10
+add_attr_dex = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雷刀破山,1
+
+[officer]
+code = off_賈詡
+name = 22546
+explain = 22547
+level = 0
+add_attr_int = 50
+add_attr_mind = 15
+add_attr_con = 15
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_妖靈噬魂,1
+
+[officer]
+code = off_荀彧
+name = 22548
+explain = 22549
+level = 0
+add_attr_int = 45
+add_attr_mind = 5
+add_attr_con = 20
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_火牛烈崩,1
+
+[officer]
+code = off_馬超
+name = 22550
+explain = 22551
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 15
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_震天旋櫻,1
+
+[officer]
+code = off_龐統
+name = 22552
+explain = 22553
+level = 0
+add_attr_int = 50
+add_attr_mind = 15
+add_attr_con = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_龍王怒焱,1
+
+[officer]
+code = off_黃月英
+name = 22554
+explain = 22555
+level = 0
+add_attr_int = 30
+add_attr_mind = 10
+add_attr_con = 30
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_連擊弩炮,1
+
+[officer]
+code = off_太史慈
+name = 22556
+explain = 22557
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 15
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_昇龍烈火,1
+
+[officer]
+code = off_大喬
+name = 22558
+explain = 22559
+level = 0
+add_attr_int = 40
+add_attr_mind = 10
+add_attr_con = 25
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_回天秘法,1
+
+[officer]
+code = off_孫權
+name = 22560
+explain = 22561
+level = 0
+add_attr_int = 25
+add_attr_mind = 15
+add_attr_con = 25
+add_attr_dex = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_荒神魔刀,1
+
+[officer]
+code = off_金富豪
+name = 22562
+explain = 22563
+level = 0
+add_st = 2
+add_attr_str = 50
+add_attr_con = 70
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_驚天動地,1
+
+[officer]
+code = off_銀富豪
+name = 22564
+explain = 22565
+level = 0
+add_attr_int = 40
+add_attr_mind = 40
+add_attr_con = 60
+add_attr_dex = 30
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_驚天動地,1
+
+[officer]
+code = off_銅富豪
+name = 22566
+explain = 22567
+level = 0
+add_st = 2
+add_attr_str = 20
+add_attr_int = 60
+add_attr_mind = 50
+add_attr_con = 40
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_驚天動地,1
+
+[officer]
+code = off_張郃
+name = 22568
+explain = 22569
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 15
+add_attr_dex = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雷煌劍閃,1
+
+[officer]
+code = off_程昱
+name = 22570
+explain = 22571
+level = 0
+add_attr_int = 35
+add_attr_mind = 25
+add_attr_con = 15
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_神行千里,1
+
+[officer]
+code = off_曹植
+name = 22572
+explain = 22573
+level = 0
+add_attr_int = 40
+add_attr_mind = 30
+add_attr_con = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_七星雷刃,1
+
+[officer]
+code = off_黃忠
+name = 22574
+explain = 22575
+level = 0
+add_st = 1
+add_attr_con = 10
+add_attr_dex = 40
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_爆龍炎弓,1
+
+[officer]
+code = off_魏延
+name = 22576
+explain = 22577
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 10
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+//add_skill = magic_暗影之箭,1
+add_skill = magic_虎躍爆炎,1
+
+[officer]
+code = off_徐庶
+name = 22578
+explain = 22579
+level = 0
+add_attr_int = 45
+add_attr_mind = 15
+add_attr_con = 20
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_亂石崩雲,1
+
+[officer]
+code = off_關鳳
+name = 22580
+explain = 22581
+level = 0
+add_attr_int = 20
+add_attr_mind = 10
+add_attr_con = 30
+add_attr_dex = 25
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_百鳥朝凰,1
+
+[officer]
+code = off_黃蓋
+name = 22582
+explain = 22583
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 15
+add_attr_dex = 25
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_冰牙烈彈,1
+
+[officer]
+code = off_周泰
+name = 22584
+explain = 22585
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 5
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_月刃烈煌,1
+
+[officer]
+code = off_魯肅
+name = 22586
+explain = 22587
+level = 0
+add_attr_int = 35
+add_attr_mind = 20
+add_attr_con = 20
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_水箭狂濤,1
+
+[officer]
+code = off_呂蒙
+name = 22588
+explain = 22589
+level = 0
+add_attr_int = 40
+add_attr_mind = 15
+add_attr_con = 30
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_火銃班陣,1
+
+[officer]
+code = off_夏侯妙才
+name = 22590
+explain = 22591
+level = 0
+add_st = 1
+add_attr_str = 5
+add_attr_con = 10
+add_attr_dex = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_典惡來
+name = 22592
+explain = 22593
+level = 0
+add_st = 2
+add_attr_str = 5
+add_attr_con = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_許仲康
+name = 22594
+explain = 22595
+level = 0
+add_st = 2
+add_attr_str = 10
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_張俊義
+name = 22596
+explain = 22597
+level = 0
+add_st = 1
+add_attr_str = 15
+add_attr_con = 5
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_司馬仲達
+name = 22598
+explain = 22599
+level = 0
+add_attr_int = 25
+add_attr_mind = 5
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_郭奉孝
+name = 22600
+explain = 22601
+level = 0
+add_attr_int = 20
+add_attr_mind = 15
+add_attr_con = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_賈文和
+name = 22602
+explain = 22603
+level = 0
+add_attr_int = 20
+add_attr_mind = 10
+add_attr_con = 5
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_荀文若
+name = 22604
+explain = 22605
+level = 0
+add_attr_int = 20
+add_attr_mind = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_關雲長
+name = 22606
+explain = 22607
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 20
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_張翼德
+name = 22608
+explain = 22609
+level = 0
+add_st = 2
+add_attr_str = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_趙子龍
+name = 22610
+explain = 22611
+level = 0
+add_st = 1
+add_attr_str = 10
+add_attr_con = 15
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_馬孟起
+name = 22612
+explain = 22613
+level = 0
+add_st = 2
+add_attr_str = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_諸葛孔明
+name = 22614
+explain = 22615
+level = 0
+add_attr_int = 25
+add_attr_mind = 5
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_龐士元
+name = 22616
+explain = 22617
+level = 0
+add_attr_int = 20
+add_attr_mind = 10
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_臥龍夫人
+name = 22618
+explain = 22619
+level = 0
+add_attr_int = 15
+add_attr_mind = 5
+add_attr_con = 15
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_徐元直
+name = 22620
+explain = 22621
+level = 0
+add_attr_int = 20
+add_attr_mind = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_周公謹
+name = 22622
+explain = 22623
+level = 0
+add_st = 1
+add_attr_str = 5
+add_attr_int = 15
+add_attr_mind = 10
+add_attr_con = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_孫尚香
+name = 22624
+explain = 22625
+level = 0
+add_st = 2
+add_attr_str = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_黃公覆
+name = 22626
+explain = 22627
+level = 0
+add_st = 2
+add_attr_str = 10
+add_attr_con = 5
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_周幼平
+name = 22628
+explain = 22629
+level = 0
+add_st = 1
+add_attr_str = 5
+add_attr_con = 15
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_東吳娘娘
+name = 22630
+explain = 22631
+level = 0
+add_attr_int = 20
+add_attr_mind = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_都督夫人
+name = 22632
+explain = 22633
+level = 0
+add_attr_int = 10
+add_attr_mind = 10
+add_attr_con = 15
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_魯子敬
+name = 22634
+explain = 22635
+level = 0
+add_attr_int = 15
+add_attr_mind = 10
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_呂子明
+name = 22636
+explain = 22637
+level = 0
+add_attr_int = 20
+add_attr_mind = 5
+add_attr_con = 15
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+
+[officer]
+code = off_高句麗霸王
+name = 22638
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_高句麗將軍
+name = 22640
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_秦王
+name = 22642
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_秦皇將軍
+name = 22644
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_魏國將軍
+name = 22646
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_蜀國將軍
+name = 22648
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_吳國將軍
+name = 22650
+limit_level = 10000
+
+[officer]
+code = off_董卓
+name = 22652
+explain = 22653
+add_st = 1
+add_attr_con = 10
+add_attr_dex = 25
+limit_level = 10000
+add_skill = magic_火龍燒夷,1
+
+[officer]
+code = off_袁紹_
+name = 22654
+explain = 22655
+add_st = 1
+add_attr_con = 15
+add_attr_dex = 20
+limit_level = 10000
+add_skill = magic_虎躍爆炎,1
+
+[officer]
+code = off_呂布
+name = 22656
+explain = 22657
+add_st = 3
+add_attr_str = 100
+limit_level = 10000
+add_skill = magic_驚天動地,3
+add_skill = magic_鬼哭神號,10
+
+[officer]
+code = off_水鏡先生
+name = 22658
+explain = 22659
+add_attr_int = 45
+add_attr_mind = 10
+add_attr_con = 30
+limit_level = 10000
+add_skill = magic_道法無常,1
+
+[officer]
+code = off_妖化張角
+name = 22660
+explain = 22661
+add_attr_int = 40
+add_attr_mind = 35
+add_attr_con = 20
+limit_level = 10000
+add_skill = magic_惡蛟旋龍,1
+
+[officer]
+code = off_劉邦
+name = 22662
+explain = 22663
+add_attr_str = 30
+add_attr_int = 30
+add_attr_mind = 5
+add_attr_con = 20
+limit_level = 10000
+add_skill = magic_天劍歸元,1
+
+[officer]
+code = off_項羽
+name = 22664
+explain = 22665
+add_st = 1
+add_attr_str = 35
+limit_level = 10000
+add_skill = magic_邪刃破獄,3
+
+[officer]
+code = off_貂蟬
+name = 22666
+explain = 22667
+add_attr_str = 20
+add_attr_int = 20
+add_attr_mind = 5
+add_attr_con = 20
+add_attr_dex = 20
+limit_level = 10000
+add_skill = magic_劍輪水舞,1
+
+[officer]
+code = off_曹孟德
+name = 22742
+explain = 22743
+add_st = 1
+add_attr_str = 15
+add_attr_int = 30
+add_attr_con = 10
+limit_level = 10000
+add_skill = magic_火凰貫天,1
+
+[officer]
+code = off_劉玄德
+name = 22744
+explain = 22745
+add_st = 1
+add_attr_int = 15
+add_attr_con = 15
+add_attr_dex = 25
+limit_level = 10000
+add_skill = magic_仁德無量,1
+
+[officer]
+code = off_孫伯符
+name = 22746
+explain = 22747
+add_st = 1
+add_attr_str = 25
+add_attr_int = 10
+add_attr_con = 5
+add_attr_leader = 15
+limit_level = 10000
+add_skill = magic_霸氣無匹,1
+
+[officer]
+code = off_關羽技能武魂_
+name = 22748
+explain = 22749
+limit_level = 10000
+add_skill = magic_青龍偃月,1
+
+[officer]
+code = off_張飛技能武魂
+name = 22750
+explain = 22751
+limit_level = 10000
+add_skill = magic_萬夫莫敵,1
+
+[officer]
+code = off_趙雲技能武魂
+name = 22752
+explain = 22753
+limit_level = 10000
+add_skill = magic_閃光龍牙,1
+
+[officer]
+code = off_荀彧技能武魂
+name = 22754
+explain = 22755
+limit_level = 10000
+add_skill = magic_火牛烈崩,1
+
+[officer]
+code = off_程昱技能武魂_
+name = 22756
+explain = 22757
+limit_level = 10000
+add_skill = magic_神行千里,1
+
+[officer]
+code = off_魯肅技能武魂_
+name = 22758
+explain = 22759
+limit_level = 10000
+add_skill = magic_水箭狂濤,1
+
+[officer]
+code = off_雲長黃金武魂_
+name = 22760
+explain = 22761
+add_st = 1
+add_attr_str = 12
+add_attr_con = 24
+limit_level = 10000
+add_skill = magic_青龍偃月,1
+
+[officer]
+code = off_孔明黃金武魂
+name = 22762
+explain = 22763
+add_attr_int = 30
+add_attr_mind = 6
+add_attr_con = 12
+limit_level = 10000
+add_skill = magic_黃龍天翔,1
+
+[officer]
+code = off_孟起黃金武魂
+name = 22764
+explain = 22765
+add_st = 2
+add_attr_str = 6
+add_attr_con = 12
+add_attr_dex = 6
+limit_level = 10000
+add_skill = magic_震天旋櫻,1
+
+[officer]
+code = off_公覆黃金武魂
+name = 22766
+explain = 22767
+add_st = 2
+add_attr_str = 12
+add_attr_con = 6
+add_attr_dex = 6
+limit_level = 10000
+add_skill = magic_冰牙烈彈,1
+
+[officer]
+code = off_大橋黃金武魂
+name = 22768
+explain = 22769
+add_attr_int = 24
+add_attr_mind = 6
+add_attr_con = 12
+add_attr_dex = 6
+limit_level = 10000
+add_skill = magic_回天秘法,1
+
+[officer]
+code = off_伯約黃金武魂
+name = 22770
+explain = 22771
+add_st = 2
+add_attr_str = 6
+add_attr_con = 18
+limit_level = 10000
+add_skill = magic_煉神還虛,1
+
+[officer]
+code = off_仲德黃金武魂
+name = 22772
+explain = 22773
+add_attr_int = 26
+add_attr_con = 18
+limit_level = 10000
+add_skill = magic_神行千里,1
+
+[officer]
+code = off_祝融
+name = 22774
+explain = 22775
+limit_level = 10000
+
+[officer]
+code = off_卑彌呼
+name = 22776
+explain = 22777
+limit_level = 10000
+
+[officer]
+code = off_孫堅
+name = 22778
+explain = 22779
+limit_level = 10000
+
+[officer]
+code = off_張遼
+name = 22780
+explain = 22781
+limit_level = 10000
+
+[officer]
+code = off_曹丕
+name = 22782
+explain = 22783
+add_attr_int = 45
+add_attr_mind = 20
+add_attr_con = 20
+limit_level = 10000
+add_skill = magic_冰雹蓋天,1
+
+[officer]
+code = off_甄宓
+name = 22784
+explain = 22785
+add_attr_int = 40
+add_attr_mind = 15
+add_attr_con = 20
+add_attr_dex = 10
+limit_level = 10000
+add_skill = magic_普渡眾生,1
+
+[officer]
+code = off_張苞
+name = 22786
+explain = 22787
+add_st = 1
+add_attr_str = 25
+add_attr_con = 25
+limit_level = 10000
+add_skill = magic_龍捲風行,1
+
+[officer]
+code = off_法正
+name = 22788
+explain = 22789
+limit_level = 10000
+
+[officer]
+code = off_關興
+name = 22790
+explain = 22791
+add_st = 1
+add_attr_str = 30
+add_attr_con = 20
+limit_level = 10000
+add_skill = magic_破嶽,1
+
+[officer]
+code = off_魔界惡靈
+name = 22792
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_魔界霸主
+name = 22794
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_天界之主
+name = 22796
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_神呂布
+name = 22798
+explain = 22799
+add_st = 3
+add_attr_str = 500
+limit_level = 10000
+add_skill = magic_驚天動地,10
+add_skill = magic_鬼哭神號,15
+
+[officer]
+code = off_度遼大將軍
+name = 22802
+explain = 22803
+level = 27
+pin = 1
+add_attr_int = 60
+add_attr_mind = 40
+add_attr_leader = 20
+limit_level = 150
+honor = 20000
+gold = 128000000
+eq_magic_resist = skillAttr_SLASH,9
+eq_magic_resist = skillAttr_EVIL,8
+
+[officer]
+code = off_大都督
+name = 22804
+explain = 22805
+level = 27
+pin = 1
+add_st = 3
+add_attr_str = 10
+add_attr_con = 10
+add_attr_dex = 10
+add_attr_leader = 30
+limit_level = 150
+honor = 20000
+gold = 128000000
+eq_magic_resist = skillAttr_STING,9
+eq_magic_resist = skillAttr_GOD,8
+
+[officer]
+code = off_騎將軍
+name = 22806
+explain = 22807
+level = 27
+pin = 1
+add_hp = 384
+add_st = 2
+add_attr_dex = 48
+limit_level = 150
+honor = 20000
+gold = 128000000
+eq_magic_resist = skillAttr_BREAK,9
+eq_magic_resist = skillAttr_WATER,8
+
+[officer]
+code = off_上將軍
+name = 22808
+explain = 22809
+level = 27
+pin = 1
+add_hp = 408
+add_st = 2
+add_attr_str = 46
+limit_level = 150
+honor = 20000
+gold = 128000000
+eq_magic_resist = skillAttr_ARROW,9
+eq_magic_resist = skillAttr_FIRE,8
+
+[officer]
+code = off_倭王
+name = 22810
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_倭姬
+name = 22812
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_狗奴王
+name = 22814
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_妖魔羅汕
+name = 22816
+explain = 22763
+add_attr_int = 30
+add_attr_mind = 6
+add_attr_con = 12
+limit_level = 10000
+add_skill = magic_黃龍天翔,8
+
+[officer]
+code = off_皇朝管理
+name = 22818
+explain = 22763
+add_attr_int = 30
+add_attr_mind = 6
+add_attr_con = 12
+limit_level = 10000
+add_skill = magic_黃龍天翔,8
+
+[officer]
+code = off_五子良將
+name = 22820
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_五虎上將
+name = 22822
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_魏五良謀
+name = 22824
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_東吳英傑
+name = 22826
+level = 0
+limit_level = 10000
+honor = 2
+gold = 1000
+
+[officer]
+code = off_周泰黃金武魂
+name = 22828
+explain = 22829
+level = 0
+add_st = 1
+add_attr_str = 5
+add_attr_con = 15
+add_attr_dex = 10
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_月刃烈煌,1
+
+[officer]
+code = off_孫仁黃金武魂
+name = 22830
+explain = 22831
+level = 0
+add_st = 2
+add_attr_str = 5
+add_attr_con = 10
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_劍舞戲蝶,1
+
+[officer]
+code = off_張苞黃金武魂
+name = 22832
+explain = 22833
+add_st = 1
+add_attr_str = 15
+add_attr_con = 15
+limit_level = 10000
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_龍捲風行,1
+
+[officer]
+code = off_黃忠黃金武魂
+name = 22834
+explain = 22835
+level = 0
+add_st = 2
+add_attr_str = 10
+add_attr_con = 5
+add_attr_dex = 5
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_爆龍炎弓,1
+
+[officer]
+code = off_關興黃金武魂
+name = 22836
+explain = 22837
+add_st = 1
+add_attr_str = 20
+add_attr_con = 5
+limit_level = 10000
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_破嶽,1
+
+[officer]
+code = off_情義無雙
+name = 22838
+explain = 22839
+add_st = 2
+add_hp = 100
+add_mp = 100
+add_attr_int = 15
+add_attr_mind = 15
+add_attr_leader = 10
+eq_magic_resist = skillAttr_BREAK,10
+eq_magic_resist = skillAttr_ARROW,5
+eq_magic_resist = skillAttr_FIRE,10
+eq_magic_resist = skillAttr_EVIL,5
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN,effFun_NO_MAGIC
+anti_status_ratio = effFun_WEAKEN,10
+anti_status_ratio = effFun_STUN,10
+anti_status_ratio = effFun_NO_MAGIC,10
+limit_level = 10
+
+[officer]
+code = off_亂世梟雄
+name = 22840
+explain = 22841
+add_st = 2
+add_hp = 150
+add_attr_str = 20
+add_attr_dex = 20
+eq_magic_attack_type = 	skillAttr_SLASH,5
+eq_magic_attack_type = 	skillAttr_WATER,5
+eq_magic_resist = skillAttr_SLASH,10
+eq_magic_resist = skillAttr_STING,10
+eq_magic_resist = skillAttr_WATER,10
+function = effFun_ANTISTATUS,effFun_STUN,effFun_WEAKEN,effFun_NO_SPEC
+anti_status_ratio = effFun_WEAKEN,10
+anti_status_ratio = effFun_STUN,10
+anti_status_ratio = effFun_NO_SPEC,10
+limit_level = 10
+
+[officer]
+code = off_情義管理
+name = 22842
+explain = 22843
+add_st = 2
+add_attr_str = 20
+add_attr_int = 20
+add_attr_con = 20
+add_attr_dex = 20
+limit_level = 10
+[officer]
+code = off_夏侯惇技能武魂_
+name = 22844
+explain = 22845
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_紅蓮斬月,1
+
+[officer]
+code = off_典韋技能武魂_
+name = 22846
+explain = 22847
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_冰炎雙戟,1
+
+[officer]
+code = off_司馬懿技能武魂_
+name = 22848
+explain = 22849
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_天劫降臨,1
+
+[officer]
+code = off_郭嘉技能武魂_
+name = 22850
+explain = 22851
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_風龍天旋,1
+
+[officer]
+code = off_諸葛亮技能武魂_
+name = 22852
+explain = 22853
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_黃龍天翔,1
+
+[officer]
+code = off_姜維技能武魂_
+name = 22854
+explain = 22855
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_煉神還虛,1
+
+[officer]
+code = off_周瑜技能武魂_
+name = 22856
+explain = 22857
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雙星追月,1
+
+[officer]
+code = off_孫仁技能武魂_
+name = 22858
+explain = 22859
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_劍舞戲蝶,1
+
+[officer]
+code = off_陸遜技能武魂_
+name = 22860
+explain = 22861
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_地龍極震,1
+
+[officer]
+code = off_小喬技能武魂_
+name = 22862
+explain = 22863
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_地泉鯨浪,1
+
+[officer]
+code = off_許褚技能武魂_
+name = 22864
+explain = 22865
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_虎嘯戰吼,1
+
+[officer]
+code = off_甘寧技能武魂_
+name = 22866
+explain = 22867
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_分身突擊,1
+
+[officer]
+code = off_夏侯淵技能武魂_
+name = 22868
+explain = 22869
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_墜星落日,1
+
+[officer]
+code = off_徐晃技能武魂_
+name = 22870
+explain = 22871
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雷刀破山,1
+
+[officer]
+code = off_賈詡技能武魂_
+name = 22872
+explain = 22873
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_妖靈噬魂,1
+
+[officer]
+code = off_馬超技能武魂_
+name = 22874
+explain = 22875
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_震天旋櫻,1
+
+[officer]
+code = off_龐統技能武魂_
+name = 22876
+explain = 22877
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_龍王怒焱,1
+
+[officer]
+code = off_黃月英技能武魂_
+name = 22878
+explain = 22879
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_連擊弩炮,1
+
+[officer]
+code = off_太史慈技能武魂_
+name = 22880
+explain = 22881
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_昇龍烈火,1
+
+[officer]
+code = off_大喬技能武魂_
+name = 22882
+explain = 22883
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_回天秘法,1
+
+[officer]
+code = off_孫權技能武魂_
+name = 22884
+explain = 22885
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_荒神魔刀,1
+
+[officer]
+code = off_張郃技能武魂_
+name = 22886
+explain = 22887
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_雷煌劍閃,1
+
+[officer]
+code = off_曹植技能武魂_
+name = 22888
+explain = 22889
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_七星雷刃,1
+
+[officer]
+code = off_黃忠技能武魂_
+name = 22890
+explain = 22891
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_爆龍炎弓,1
+
+[officer]
+code = off_魏延技能武魂_
+name = 22892
+explain = 22893
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+//add_skill = magic_暗影之箭,1
+add_skill = magic_虎躍爆炎,1
+
+[officer]
+code = off_徐庶技能武魂_
+name = 22894
+explain = 22895
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_亂石崩雲,1
+
+[officer]
+code = off_關鳳技能武魂_
+name = 22896
+explain = 22897
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_百鳥朝凰,1
+
+[officer]
+code = off_黃蓋技能武魂_
+name = 22898
+explain = 22899
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_冰牙烈彈,1
+
+[officer]
+code = off_周泰技能武魂_
+name = 22900
+explain = 22901
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_月刃烈煌,1
+
+[officer]
+code = off_呂蒙技能武魂_
+name = 22902
+explain = 22903
+level = 0
+limit_level = 10000
+honor = 10000000
+gold = 5000000000
+add_skill = magic_火銃班陣,1
+
+[officer]
+code = off_祝融技能武魂_
+name = 22904
+explain = 22905
+limit_level = 10000
+
+[officer]
+code = off_卑彌呼技能武魂_
+name = 22906
+explain = 22907
+limit_level = 10000
+
+[officer]
+code = off_孫堅技能武魂_
+name = 22908
+explain = 22909
+limit_level = 10000
+
+[officer]
+code = off_張遼技能武魂_
+name = 22910
+explain = 22911
+limit_level = 10000
+
+//[officer]
+//code = off_曹丕技能武魂_
+//name = 22912
+//explain = 22913
+//limit_level = 10000
+//add_skill = magic_冰雹蓋天,1
+
+//[officer]
+//code = off_甄宓技能武魂_
+//name = 22914
+//explain = 22915
+//limit_level = 10000
+//add_skill = magic_普渡眾生,1
+
+[officer]
+code = off_張苞技能武魂_
+name = 22916
+explain = 22917
+limit_level = 10000
+add_skill = magic_龍捲風行,1
+
+[officer]
+code = off_法正技能武魂_
+name = 22918
+explain = 22919
+limit_level = 10000
+
+[officer]
+code = off_關興技能武魂_
+name = 22920
+explain = 22921
+limit_level = 10000
+add_skill = magic_破嶽,1

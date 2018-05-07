@@ -1,0 +1,968 @@
+
+#include GAMERESOURCE.H
+#include TYPE.H
+#include ITEM.H
+#include SCRIPTFUNC.H
+#include NPC_TALK.H
+#include PLAYERS.H
+#include ShipSchedule.H
+// Script Table ³]©wÀÉ
+
+[ini]
+max = 500
+
+
+[script_tbl]
+code = 1
+script = scMIS_CheckMoney,def_000037,100
+script = scMIS_TakeMoney,100
+
+[script_tbl]
+code = 2
+script = scMIS_CheckMoney,def_000043,50
+script = scMIS_TakeMoney,100
+
+[script_tbl]
+code = 3
+script = scMIS_ChangSavePoint,19296,1312,1
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 4
+script = scMIS_ChangSavePoint,19296,1312,11
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 5
+script = scMIS_ChangSavePoint,19296,1312,21
+script = scMIS_MovePos,11200,1312,593
+
+[script_tbl]
+code = 6
+script = scMIS_CheckItem,def_001009,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_TakeItem,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_GiveItem,def_001008,item_°®©[³U,1,item_¬ÂÄn½c,1,item_¨¾±Ù¤ß±o,1
+script = scMIS_GiveItem,def_001008,item_¨¾±Ù¤ß±o,1,item_¨¾¨ë¤ß±o,1,item_¨¾¨ë¤ß±o,1
+script = scMIS_GiveItem,def_001008,item_¨¾¸H¤ß±o,1,item_¨¾¸H¤ß±o,1,item_¨¾®g¤ß±o,1
+script = scMIS_GiveItem,def_001008,item_¨¾®g¤ß±o,1,item_¤»Ãü,1,item_¤»Ãü,1
+script = scMIS_GiveItem,def_001008,item_¼úÀy¦aÂI¼Ð°OºX,30,item_¼úÀy¼Ð°O¶Ç°e±²¶b,30,item_¬Ó´Â·s¤âºj,1
+script = scMIS_GiveItem,def_001008,item_¬Ó´Â·s¤â¾s,1,item_¬Ó´Â·s¤â§ú,1,item_¬Ó´Â·s¤â´Ò,1
+script = scMIS_GiveItem,def_001008,item_¬Ó´Â·s¤âªA,1,item_¬Ó´Â·s¤â´U,1,item_¬Ó´Â·s¤â¤M,1
+script = scMIS_GiveItem,def_001008,item_¬Ó´Â·s¤â°é,1,item_¬Ó´Â·s¤â¤},1,item_¬Ó´Â·s¤â¹u,1
+script = scMIS_GiveItem,def_001008,item_¯S¯Å¥R­ÈÃÒ©ú,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,,,,
+script = scMIS_GiveItem,def_001219,Item_money,50000,,,,
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,291
+script = scMIS_GiveSkill,292
+script = scMIS_GiveSkill,501
+
+[script_tbl]
+code = 7
+script = scMIS_CheckLevel,def_001211,5
+script = scMIS_TakeItem,Item_²b¤ô¥Û,1,,,,
+
+[script_tbl]
+code = 8
+script = scMIS_CheckItem,def_001218,Item_²b¤ô¥Û,1,,,,
+script = scMIS_GiveItem,def_001219,Item_money,800,Item_SkillExp,160,,
+
+[script_tbl]
+code = 9
+script = scMIS_GiveItem,def_001231,Item_²b¤ô¥Û,1,,,,
+script = scMIS_TakeItem,Item_¥Û¯],50,,,,
+
+[script_tbl]
+code = 10
+script = scMIS_GiveItem,def_002015,Item_¤P­º,12,,,,
+script = scMIS_SetQuestComplete,002,1
+
+[script_tbl]
+code = 11
+script = scMIS_CheckLevel,def_002007,2
+script = scMIS_SetQuest,002,def_001111
+
+[script_tbl]
+code = 12
+script = scMIS_CheckItem,def_002013,Item_²¨ÃPÃ~°©,2,,,,
+script = scMIS_GiveItem,def_002015,Item_¤P­º,12,,,,
+
+[script_tbl]
+code = 13
+script = scMIS_CheckItem,def_002109,Item_Âø¥¬,1,,,,
+script = scMIS_TakeItem,Item_Âø¥¬,1,,,,
+
+[script_tbl]
+code = 14
+script = scMIS_CheckItem,def_002109,Item_¯}Ã~¥Ö,10,,,,
+script = scMIS_TakeItem,Item_¯}Ã~¥Ö,10,,,,
+
+[script_tbl]
+code = 15
+script = scMIS_CheckItem,def_002109,Item_²Ê³Â,10,,,,
+script = scMIS_TakeItem,Item_²Ê³Â,10,,,,
+
+[script_tbl]
+code = 16
+script = scMIS_CheckQuestComplete,007,def_002217,def_002215
+script = scMIS_CheckQuest,007,def_002202
+
+[script_tbl]
+code = 17
+script = scMIS_CheckQuestComplete,007,def_002234,def_002233
+script = scMIS_CheckQuest,007,def_002221
+
+[script_tbl]
+code = 18
+script = scMIS_CheckQuestComplete,007,def_002258,def_002255
+script = scMIS_CheckQuest,007,def_002241
+
+[script_tbl]
+code = 19
+script = scMIS_CheckQuestComplete,007,def_002277,def_002274
+script = scMIS_CheckQuest,007,def_002262
+
+[script_tbl]
+code = 20
+script = scMIS_SetQuest,007,def_001111
+script = scMIS_SetQuestNextStep,007
+
+[script_tbl]
+code = 21
+script = scMIS_GiveItem,def_002282,item_SkillExp,32,Item_¥Ö¥Ò,1,,
+script = scMIS_SetQuestComplete,007,1
+
+[script_tbl]
+code = 22
+script = scMIS_CheckQuestComplete,015,def_002359,def_002332
+script = scMIS_CheckQuest,015,def_002331
+
+[script_tbl]
+code = 23
+script = scMIS_SetQuestComplete,015,1
+script = scMIS_GiveItem,def_002358,Item_¥]¤l,2,item_SkillExp,25,,
+
+[script_tbl]
+code = 24
+script = scMIS_GiveItem,def_003110,item_Money,50,item_Exp,50,item_SkillExp,50
+script = scMIS_SetQuestComplete,004,1
+
+[script_tbl]
+code = 25
+script = scMIS_GiveItem,def_004014,Item_money,500,Item_SkillExp,300,Item_¾i¥Í¸`¿ý,1
+script = scMIS_TakeItem,Item_ÃÄ§÷¥]µö,1,,,,
+
+[script_tbl]
+code = 26
+script = scMIS_SetQuestComplete,008,2
+script = scMIS_SetQuest,008,def_001111
+
+[script_tbl]
+code = 27
+script = scMIS_GiveItem,def_004116,Item_money,1500,Item_SkillExp,100,,
+script = scMIS_TakeItem,Item_¬r²G,5,Item_³À¯ñ,3,Item_¦Ï¨¤,1
+
+[script_tbl]
+code = 28
+script = scMIS_GiveItem,def_001300,Item_money,500,,,,
+script = scMIS_TakeItem,Item_¦w¹ç¤¦,1,,,,
+
+[script_tbl]
+code = 29
+
+[script_tbl]
+code = 30
+
+[script_tbl]
+code = 31
+script = scMIS_CheckItem,def_005010,item_¸ë»X,1,,,,
+script = scMIS_GiveItem,def_001300,item_Money,1500,item_Exp,500,item_SkillExp,250
+script = scMIS_TakeItem,ITEM_¸ë»X,1,,,,
+script = scMIS_SetQuestComplete,009,1
+
+[script_tbl]
+code = 32
+
+[script_tbl]
+code = 33
+
+[script_tbl]
+code = 34
+script = scMIS_CheckItem,def_005064,item_¶û¥Ç,1,item_Åì¤ù,1,,
+script = scMIS_GiveItem,def_005067,item_¸ë»X,1,,,,
+script = scMIS_CheckItem,def_005061,item_¶û¥Ç,1,,,,
+script = scMIS_TakeItem,item_¶û¥Ç,1,,,,
+
+[script_tbl]
+code = 35
+script = scMIS_CheckItem,def_005112,item_¨â¤b¤e,1,,,,
+script = scMIS_TakeItem,item_¨â¤b¤e,1,,,,
+script = scMIS_SetQuestNextStep,010
+
+[script_tbl]
+code = 36
+script = scMIS_CheckItem,def_005115,item_¤j¤M,3,,,,
+script = scMIS_TakeItem,item_¤j¤M,3,,,,
+script = scMIS_SetQuestNextStep,010
+
+[script_tbl]
+code = 37
+script = scMIS_CheckItem,def_005118,item_¤P­º,100,,,,
+script = scMIS_TakeItem,item_¤P­º,100,,,,
+script = scMIS_GiveItem,def_005119,item_Money,3000,item_Exp,1000,item_SkillExp,1000
+script = scMIS_GiveMeritPoint,1
+script = scMIS_SetQuestComplete,010,1
+
+[script_tbl]
+code = 38
+script = scMIS_CheckItem,def_005210,item_»ë¤l,30,,,,
+script = scMIS_TakeItem,item_»ë¤l,30,,,,
+script = scMIS_SetQuestNextStep,013
+
+[script_tbl]
+code = 39
+script = scMIS_GiveItem,def_005218,item_ªê¯¾¸Ë,1,,,,
+script = scMIS_TakeItem,item_²Ê³Â,3,,,,
+
+[script_tbl]
+code = 40
+script = scMIS_GiveItem,def_005218,item_°\¯¾ªA,1,,,,
+script = scMIS_TakeItem,item_²Ê³Â,3,,,,
+
+[script_tbl]
+code = 41
+script = scMIS_CheckItem,def_008016,Item_°¨¾b,1,,,,
+script = scMIS_TakeItem,item_°¨¾b,1,,,,
+
+[script_tbl]
+code = 42
+script = scMIS_CheckQuestComplete,020,def_008020,def_008019
+script = scMIS_CheckQuest,020,def_008008
+
+[script_tbl]
+code = 43
+script = scMIS_CheckItem,def_008016,Item_°¨¾b,1,,,,
+script = scMIS_CheckMoney,def_008016,1500
+script = scMIS_GiveSkill,253
+script = scMIS_TakeItem,item_°¨¾b,1,,,,
+script = scMIS_TakeMoney,1500
+script = scMIS_SetQuestComplete,020,1
+
+[script_tbl]
+code = 44
+script = scMIS_CheckItem,def_008614,Item_Âø¥¬,35,,,,
+script = scMIS_GiveSkill,266
+script = scMIS_TakeItem,Item_Âø¥¬,35,,,,
+script = scMIS_SetQuestComplete,026,1
+
+[script_tbl]
+code = 45
+script = scMIS_CheckItem,def_008714,Item_µuÃ~¤ú,5,Item_¤û¥Ö,1,Item_²¨ÃPÃ~°©,10
+script = scMIS_GiveSkill,266
+script = scMIS_TakeItem,Item_µuÃ~¤ú,5,Item_¤û¥Ö,1,Item_²¨ÃPÃ~°©,10
+script = scMIS_SetQuestComplete,027,1
+
+[script_tbl]
+code = 46
+script = scMIS_CheckItem,def_008814,Item_¬r²G,2,,,,
+script = scMIS_GiveSkill,266
+
+[script_tbl]
+code = 47
+script = scMIS_SetQuestComplete,030,2
+script = scMIS_SetQuest,030,def_001111
+
+[script_tbl]
+code = 48
+script = scMIS_GiveSkill,265
+script = scMIS_SetQuestComplete,030,1
+
+[script_tbl]
+code = 49
+script = scMIS_CheckItem,def_009319,Item_¥Õª°¸Ê,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,500,,,,
+script = scMIS_TakeItem,Item_¥Õª°¸Ê,1,,,,
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 50
+script = scMIS_CheckItem,def_009320,Item_¤­±m¯[¼þªM,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,500,,,,
+script = scMIS_TakeItem,Item_¤­±m¯[¼þªM,1,,,,
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 51
+script = scMIS_CheckItem,def_009321,Item_Às¯¾¥É¾À,1,,,,
+script = scMIS_GiveItem,def_009342,Item_money,1000,,,,
+script = scMIS_TakeItem,Item_Às¯¾¥É¾À,1,,,,
+script = scMIS_GiveSkill,264
+script = scMIS_SetQuestComplete,033,1
+
+[script_tbl]
+code = 52
+script = scMIS_CheckItem,def_009357,Item_Ã~¥Ö,5,,,,
+script = scMIS_CheckMoney,def_009358,3000
+script = scMIS_GiveItem,def_009359,Item_¥Õª°¸Ê,1,,,,
+script = scMIS_TakeItem,Item_Ã~¥Ö,5,,,,
+script = scMIS_TakeMoney,3000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 53
+script = scMIS_CheckItem,def_009374,Item_»É°¨,1,,,,
+script = scMIS_CheckMoney,def_009375,3000
+script = scMIS_GiveItem,def_009376,Item_¤­±m¯[¼þªM,1,,,,
+script = scMIS_TakeItem,Item_»É°¨,1,,,,
+script = scMIS_TakeMoney,3000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 54
+script = scMIS_CheckMoney,def_009390,4000
+script = scMIS_GiveItem,def_009391,Item_Às¯¾¥É¾À,1,,,,
+script = scMIS_TakeMoney,4000
+script = scMIS_SetQuestNextStep,033
+
+[script_tbl]
+code = 55
+script = scMIS_CheckItem,def_005512,item_·sÂA¦×¶ô,3,item_ÆQ¤Ú,4,,
+script = scMIS_GiveItem,def_005520,item_¤pÅ¢¥],1,,,,
+script = scMIS_TakeItem,item_·sÂA¦×¶ô,3,item_ÆQ¤Ú,4,,
+script = scMIS_SetQuestNextStep,041
+
+[script_tbl]
+code = 56
+script = scMIS_CheckItem,def_005521,item_·sÂA¦×¶ô,1,item_ÆQ¤Ú,2,,
+script = scMIS_GiveItem,def_005520,item_¤pÅ¢¥],1,,,,
+script = scMIS_TakeItem,item_·sÂA¦×¶ô,1,item_ÆQ¤Ú,2,,
+
+[script_tbl]
+code = 57
+script = scMIS_CheckItem,def_005546,item_¤pÅ¢¥],1,,,,
+script = scMIS_TakeItem,item_¤pÅ¢¥],1,,,,
+script = scMIS_SetQuestNextStep,041
+
+[script_tbl]
+code = 58
+script = scMIS_GiveItem,def_004804,Item_SkillExp,1500,item_Exp,2000,item_¤»Ãü,1
+script = scMIS_TakeItem,Item_¤â¥¾¯Ê­¶¤T,1,,,,
+
+[script_tbl]
+code = 59
+script = scMIS_CheckForce,def_000615,ID_COUNTRY_WEI
+script = scMIS_MovePos,1856,996,1
+
+[script_tbl]
+code = 60
+script = scMIS_CheckForce,def_000616,ID_COUNTRY_SHU
+script = scMIS_MovePos,1856,886,11
+
+[script_tbl]
+code = 61
+script = scMIS_CheckForce,def_000621,ID_COUNTRY_WU
+script = scMIS_MovePos,36224,1056,21
+
+[script_tbl]
+code = 62
+script = scMIS_GiveItem,def_011117,Item_³D¥Ù,1,item_Exp,3000,,
+script = scMIS_TakeItem,Item_ªüºÖªº°©¦Ç,1,,,,
+
+[script_tbl]
+code = 63
+
+[script_tbl]
+code = 64
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,1280,1280,1
+
+[script_tbl]
+code = 65
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,1280,1280,11
+
+[script_tbl]
+code = 66
+script = scMIS_CheckMoney,def_010000,20
+script = scMIS_TakeMoney,20
+script = scMIS_MovePos,37120,1952,21
+
+[script_tbl]
+code = 67
+script = scMIS_CheckItem,def_001125,Item_«Õ¦{­x®Ñ,1,,,,
+script = scMIS_TakeItem,Item_«Õ¦{­x®Ñ,1,,,,
+
+[script_tbl]
+code = 68
+script = scMIS_CheckItem,def_001173,Item_¦¶ñrªº¯µ¥O,1,,,,
+script = scMIS_TakeItem,Item_¦¶ñrªº¯µ¥O,1,,,,
+
+[script_tbl]
+code = 69
+script = scMIS_CheckLevel,def_001183,15
+script = scMIS_CheckQuestComplete,042,def_001185,def_001184
+script = scMIS_CheckQuest,042,def_001186
+script = scMIS_RunQuestStep,042,def_001189,def_001193,def_001197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+
+[script_tbl]
+code = 70
+script = scMIS_CheckItem,def_001192,Item_¤s¸é»É¿ú,50,,,,
+script = scMIS_GiveItem,def_001119,Item_¥]¤l,30,,,,
+script = scMIS_TakeItem,Item_¤s¸é»É¿ú,50,,,,
+script = scMIS_SetQuestNextStep,042
+
+[script_tbl]
+code = 71
+script = scMIS_CheckItem,def_001196,Item_¬Ó¨j·Cªº­x®Ñ,1,,,,
+script = scMIS_TakeItem,Item_¬Ó¨j·Cªº­x®Ñ,1,,,,
+
+[script_tbl]
+code = 72
+script = scMIS_CheckItem,def_001479,Item_¯T¤ú,10,,,,
+script = scMIS_TakeItem,Item_¯T¤ú,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 73
+script = scMIS_CheckItem,def_001482,Item_¤s½Þ¤ú,10,,,,
+script = scMIS_TakeItem,Item_¤s½Þ¤ú,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 74
+script = scMIS_CheckItem,def_001485,Item_»¨½Þ¥Ö,10,,,,
+script = scMIS_TakeItem,Item_»¨½Þ¥Ö,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 75
+script = scMIS_CheckItem,def_001488,Item_Æs³½¥Ö,10,,,,
+script = scMIS_TakeItem,Item_Æs³½¥Ö,10,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 76
+script = scMIS_CheckItem,def_001491,Item_¬Ã¯],50,,,,
+script = scMIS_TakeItem,Item_¬Ã¯],50,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 77
+script = scMIS_CheckItem,def_001494,Item_¬À·ä,250,,,,
+script = scMIS_TakeItem,Item_¬À·ä,250,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 78
+script = scMIS_CheckItem,def_001497,Item_¥É¯],250,,,,
+script = scMIS_TakeItem,Item_¥É¯],250,,,,
+script = scMIS_SetQuestNextStep,043
+
+[script_tbl]
+code = 79
+script = scMIS_GiveMeritPoint,15
+script = scMIS_GiveItem,def_003001,item_Exp,1500,item_SkillExp,1500,,
+script = scMIS_SetQuestComplete,043,1
+
+[script_tbl]
+code = 80
+script = scMIS_CheckItem,def_002405,Item_µs¸é»É¿ú,50,Item_¯T¤ú,3,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_µs¸é»É¿ú,50,Item_¯T¤ú,3,,
+script = scMIS_TakeItem,Item_µs¸é»É¿ú,50,Item_¯T¤ú,3,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 81
+script = scMIS_CheckItem,def_002405,Item_¤s¸é»É¿ú,50,Item_¬â¿},20,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_¤s¸é»É¿ú,50,Item_¬â¿},20,,
+script = scMIS_TakeItem,Item_¤s¸é»É¿ú,50,Item_¬â¿},20,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 82
+script = scMIS_CheckItem,def_002405,Item_®ü¸é»É¿ú,50,Item_¬À·ä,20,,
+script = scMIS_SetQuest,004,def_002406
+script = scMIS_CheckItem,def_002405,Item_®ü¸é»É¿ú,50,Item_¬À·ä,20,,
+script = scMIS_TakeItem,Item_®ü¸é»É¿ú,50,Item_¬À·ä,20,,
+script = scMIS_SetQuestComplete,004,1
+script = scMIS_GiveMeritPoint,1
+
+[script_tbl]
+code = 83
+script = scMIS_CheckItem,def_008105,item_²Ê³Â,5,,,,
+script = scMIS_GiveItem,def_001300,item_¥]¤l,5,,,,
+script = scMIS_TakeItem,item_²Ê³Â,5,,,,
+
+[script_tbl]
+code = 84
+script = scMIS_CheckItem,def_008105,item_²Ê³Â,50,,,,
+script = scMIS_GiveItem,def_001300,item_¥]¤l,50,,,,
+script = scMIS_TakeItem,item_²Ê³Â,50,,,,
+
+[script_tbl]
+code = 85
+script = scMIS_CheckItem,def_008105,item_¥Û¯],50,,,,
+script = scMIS_GiveItem,def_001300,item_§N¬u,5,,,,
+script = scMIS_TakeItem,item_¥Û¯],50,,,,
+
+[script_tbl]
+code = 86
+script = scMIS_CheckItem,def_008105,item_¥Û¯],250,,,,
+script = scMIS_GiveItem,def_001300,item_§N¬u,25,,,,
+script = scMIS_TakeItem,item_¥Û¯],250,,,,
+
+[script_tbl]
+code = 87
+script = scMIS_CheckItem,def_008105,item_¿\¥É,50,item_ÅK®h,50,item_¯}Ã~¥Ö,20
+script = scMIS_GiveItem,def_001300,item_°¨¾b,1,,,,
+script = scMIS_TakeItem,item_¿\¥É,50,item_ÅK®h,50,item_¯}Ã~¥Ö,20
+
+[script_tbl]
+code = 88
+script = scMIS_CheckItem,def_008105,item_¾ð¥Ö,1000,,,,
+script = scMIS_GiveItem,def_001300,item_Money,100,,,,
+script = scMIS_TakeItem,item_¾ð¥Ö,1000,,,,
+
+[script_tbl]
+code = 89
+script = scMIS_CheckItem,def_008120,item_¯T°©,25,,,,
+script = scMIS_GiveItem,def_001300,item_ªê°©»I,5,,,,
+script = scMIS_TakeItem,item_¯T°©,25,,,,
+
+[script_tbl]
+code = 90
+script = scMIS_CheckItem,def_008120,item_¯T°©,250,,,,
+script = scMIS_GiveItem,def_001300,item_ªê°©»I,50,,,,
+script = scMIS_TakeItem,item_¯T°©,250,,,,
+
+[script_tbl]
+code = 91
+script = scMIS_CheckItem,def_008120,item_¯È,25,,,,
+script = scMIS_GiveItem,def_001300,item_ÅX´H´ö,1,,,,
+script = scMIS_TakeItem,item_¯È,25,,,,
+
+[script_tbl]
+code = 92
+script = scMIS_CheckItem,def_008120,item_¯È,250,,,,
+script = scMIS_GiveItem,def_001300,item_ÅX´H´ö,10,,,,
+script = scMIS_TakeItem,item_¯È,250,,,,
+
+[script_tbl]
+code = 93
+script = scMIS_CheckItem,def_008120,item_¬r²G,25,,,,
+script = scMIS_GiveItem,def_001300,item_ÅÛ¬r,1,,,,
+script = scMIS_TakeItem,item_¬r²G,25,,,,
+
+[script_tbl]
+code = 94
+script = scMIS_CheckItem,def_008120,item_¬r²G,250,,,,
+script = scMIS_GiveItem,def_001300,item_ÅÛ¬r,10,,,,
+script = scMIS_TakeItem,item_¬r²G,250,,,,
+
+[script_tbl]
+code = 95
+script = scMIS_CheckItem,def_008120,item_¥]¤l,50,,,,
+script = scMIS_GiveItem,def_001300,item_¶ºÄ{,5,,,,
+script = scMIS_TakeItem,item_¥]¤l,50,,,,
+
+[script_tbl]
+code = 96
+script = scMIS_CheckItem,def_008120,item_¥]¤l,250,,,,
+script = scMIS_GiveItem,def_001300,item_¶ºÄ{,25,,,,
+script = scMIS_TakeItem,item_¥]¤l,250,,,,
+
+[script_tbl]
+code = 97
+script = scMIS_SetQuestNextStep,058
+script = scMIS_TakeItem,item_¤C±mÅb¦Ð,1,,,,
+
+[script_tbl]
+code = 98
+script = scMIS_CheckItem,def_002514,item_SkillExp,20000,,,,
+script = scMIS_GiveSkill,287
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+script = scMIS_SetQuestComplete,058,1
+
+[script_tbl]
+code = 99
+script = scMIS_SetQuestComplete,059,2
+script = scMIS_SetQuest,059,def_001111
+script = scMIS_SetQuestNextStep,059
+
+[script_tbl]
+code = 100
+script = scMIS_SetQuestComplete,067,2
+script = scMIS_SetQuestComplete,068,2
+script = scMIS_SetQuestComplete,069,2
+script = scMIS_SetQuestComplete,070,2
+script = scMIS_SetQuestNextStep,059
+
+[script_tbl]
+code = 101
+script = scMIS_GiveItem,def_001300,Item_ªZ¥K²Å¦L,2,,,,
+script = scMIS_SetQuestNextStep,056
+
+[script_tbl]
+code = 102
+script = scMIS_GiveItem,def_001300,Item_³Nªk²Å¦L,2,,,,
+script = scMIS_SetQuestNextStep,056
+
+[script_tbl]
+code = 103
+script = scMIS_CheckItem,def_000098,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_¤å©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 104
+script = scMIS_CheckItem,def_000098,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_ªZ©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 105
+script = scMIS_CheckItem,def_000098,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_±s¥Î¤å©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 106
+script = scMIS_CheckItem,def_000098,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_±s¥ÎªZ©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 107
+script = scMIS_CheckItem,def_000093,item_±s¥Î¤å©x°^«~,2,,,,
+script = scMIS_GiveItem,def_001300,item_´Ü½ç¤å©x°^«~,1,,,,
+script = scMIS_TakeItem,item_±s¥Î¤å©x°^«~,2,,,,
+
+[script_tbl]
+code = 108
+script = scMIS_CheckItem,def_000093,item_±s¥ÎªZ©x°^«~,2,,,,
+script = scMIS_GiveItem,def_001300,item_´Ü½çªZ©x°^«~,1,,,,
+script = scMIS_TakeItem,item_±s¥ÎªZ©x°^«~,2,,,,
+
+[script_tbl]
+code = 109
+script = scMIS_CheckItem,def_004192,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_¤å©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 110
+script = scMIS_CheckItem,def_004192,Item_SkillExp,20000,,,,
+script = scMIS_GiveItem,def_001300,item_ªZ©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,20000,,,,
+
+[script_tbl]
+code = 111
+script = scMIS_CheckItem,def_004192,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_±s¥Î¤å©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+[script_tbl]
+code = 112
+script = scMIS_CheckItem,def_004192,Item_SkillExp,50000,,,,
+script = scMIS_GiveItem,def_001300,item_±s¥ÎªZ©x°^«~,1,,,,
+script = scMIS_TakeItem,item_SkillExp,50000,,,,
+
+//²r±N
+[script_tbl]
+code = 113
+script = scMIS_CheckItem,def_001009,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_TakeItem,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_GiveItem,def_001008,item_°®©[³U,1,item_¬ÂÄn½c,1,,
+script = scMIS_GiveItem,def_001008,item_¼úÀy¦aÂI¼Ð°OºX,30,item_¼úÀy¼Ð°O¶Ç°e±²¶b,30,,
+script = scMIS_GiveItem,def_001008,item_¯QÀ@°¨,1,item_¨ë«ÈÀY¤y,1,item_Ã~­±§]ÀYñZ,1
+script = scMIS_GiveItem,def_001008,item_ÃM§L¾Ô¹u,1,item_¦Ê¨½¼C,1,item_ª@Àsàµ´u,1
+script = scMIS_GiveItem,def_001008,item_ÂùÅK´u,1,item_¥Ò¬Þ,1,item_ªø¥ß¬Þ,1
+script = scMIS_GiveItem,def_001008,item_¬õÀA©Ü­·,1,item_ÄðµÃ,1,item_ÅK¥¬­m,1
+script = scMIS_GiveItem,def_001008,item_ªZ¾¹¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001008,item_¨¾¨ã¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_70¯Å·s¤âÃÒ©ú,1,item_¯S¯Å¥R­ÈÃÒ©ú,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_¯«ÅK,1,item_¬L§i¤Ñ¤U,3
+
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+
+script = scMIS_GiveSkill,30
+script = scMIS_GiveSkill,123
+script = scMIS_GiveSkill,128
+script = scMIS_GiveSkill,133
+script = scMIS_GiveSkill,138
+
+//»¨ªN
+[script_tbl]
+code = 114
+script = scMIS_CheckItem,def_001009,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_TakeItem,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_GiveItem,def_001008,item_°®©[³U,1,item_¬ÂÄn½c,1,,
+script = scMIS_GiveItem,def_001008,item_¼úÀy¦aÂI¼Ð°OºX,30,item_¼úÀy¼Ð°O¶Ç°e±²¶b,30,,
+script = scMIS_GiveItem,def_001008,item_¯QÀ@°¨,1,item_¨ë«ÈÀY¤y,1,item_Ã~­±§]ÀYñZ,1
+script = scMIS_GiveItem,def_001008,item_ÃM§L¾Ô¹u,1,item_¦Ê¨½¼C,1,item_ª@Àsàµ´u,1
+script = scMIS_GiveItem,def_001008,item_ÂùÅK´u,1,item_¥Ò¬Þ,1,item_ªø¥ß¬Þ,1
+script = scMIS_GiveItem,def_001008,item_¬õÀA©Ü­·,1,item_ÄðµÃ,1,item_ÅK¥¬­m,1
+script = scMIS_GiveItem,def_001008,item_ªZ¾¹¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001008,item_¨¾¨ã¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_70¯Å·s¤âÃÒ©ú,1,item_¯S¯Å¥R­ÈÃÒ©ú,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_¯«ÅK,1,item_¬L§i¤Ñ¤U,3
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+
+script = scMIS_GiveSkill,2
+script = scMIS_GiveSkill,123
+script = scMIS_GiveSkill,128
+script = scMIS_GiveSkill,133
+script = scMIS_GiveSkill,138
+
+//­x®v
+[script_tbl]
+code = 115
+script = scMIS_CheckItem,def_001009,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_TakeItem,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_GiveItem,def_001008,item_°®©[³U,1,item_¬ÂÄn½c,1,,
+script = scMIS_GiveItem,def_001008,item_¼úÀy¦aÂI¼Ð°OºX,30,item_¼úÀy¼Ð°O¶Ç°e±²¶b,30,,
+script = scMIS_GiveItem,def_001008,item_¯QÀ@°¨,1,item_¨ë«ÈÀY¤y,1,item_¤@«~´ÂªA,1
+script = scMIS_GiveItem,def_001008,item_ÃM§L¾Ô¹u,1,item_Àsªê¤K¨ö´Ò,1,item_¦Ê¨½¼C,1
+script = scMIS_GiveItem,def_001008,item_¥Ò¬Þ,1,item_ªø¥ß¬Þ,1,,
+script = scMIS_GiveItem,def_001008,item_¬õÀA©Ü­·,1,item_ÄðµÃ,1,item_ÅK¥¬­m,1
+script = scMIS_GiveItem,def_001008,item_ªZ¾¹¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001008,item_¨¾¨ã¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_70¯Å·s¤âÃÒ©ú,1,item_¯S¯Å¥R­ÈÃÒ©ú,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_¯«ÅK,1,item_¬L§i¤Ñ¤U,10
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+
+script = scMIS_GiveSkill,2
+script = scMIS_GiveSkill,123
+
+//¤è¤h
+[script_tbl]
+code = 116
+script = scMIS_CheckItem,def_001009,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_TakeItem,Item_¾ð¥Ö,5,item_³Â¥¬ÀAÅn,1,,
+script = scMIS_GiveItem,def_001008,item_°®©[³U,1,item_¬ÂÄn½c,1,,
+script = scMIS_GiveItem,def_001008,item_¼úÀy¦aÂI¼Ð°OºX,30,item_¼úÀy¼Ð°O¶Ç°e±²¶b,30,,
+script = scMIS_GiveItem,def_001008,item_¯QÀ@°¨,1,item_¨ë«ÈÀY¤y,1,item_¤Ñ©x³T,1
+script = scMIS_GiveItem,def_001008,item_ÃM§L¾Ô¹u,1,item_®õ¤s©²§g§ú,1,item_¦Ê¨½¼C,1
+script = scMIS_GiveItem,def_001008,item_¥Ò¬Þ,1,item_ªø¥ß¬Þ,1,,
+script = scMIS_GiveItem,def_001008,item_¬õÀA©Ü­·,1,item_ÄðµÃ,1,item_ÅK¥¬­m,1
+script = scMIS_GiveItem,def_001008,item_ªZ¾¹¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001008,item_¨¾¨ã¥[«ùªk,1,,,,
+script = scMIS_GiveItem,def_001219,Item_SkillExp,30000,item_70¯Å·s¤âÃÒ©ú,1,item_¯S¯Å¥R­ÈÃÒ©ú,1
+script = scMIS_GiveItem,def_001219,Item_money,100000,item_¯«ÅK,1,item_¬L§i¤Ñ¤U,10
+script = scMIS_GiveSkill,1
+script = scMIS_GiveSkill,12
+script = scMIS_GiveSkill,18
+script = scMIS_GiveSkill,19
+script = scMIS_GiveSkill,121
+script = scMIS_GiveSkill,122
+script = scMIS_GiveSkill,126
+script = scMIS_GiveSkill,127
+script = scMIS_GiveSkill,131
+script = scMIS_GiveSkill,132
+script = scMIS_GiveSkill,136
+script = scMIS_GiveSkill,137
+script = scMIS_GiveSkill,253
+script = scMIS_GiveSkill,254
+script = scMIS_GiveSkill,255
+script = scMIS_GiveSkill,257
+script = scMIS_GiveSkill,258
+script = scMIS_GiveSkill,259
+script = scMIS_GiveSkill,260
+script = scMIS_GiveSkill,261
+script = scMIS_GiveSkill,264
+script = scMIS_GiveSkill,265
+script = scMIS_GiveSkill,270
+script = scMIS_GiveSkill,271
+script = scMIS_GiveSkill,272
+script = scMIS_GiveSkill,274
+script = scMIS_GiveSkill,275
+script = scMIS_GiveSkill,276
+script = scMIS_GiveSkill,277
+script = scMIS_GiveSkill,278
+script = scMIS_GiveSkill,279
+script = scMIS_GiveSkill,280
+script = scMIS_GiveSkill,281
+script = scMIS_GiveSkill,283
+script = scMIS_GiveSkill,284
+script = scMIS_GiveSkill,285
+script = scMIS_GiveSkill,286
+script = scMIS_GiveSkill,287
+script = scMIS_GiveSkill,288
+script = scMIS_GiveSkill,289
+script = scMIS_GiveSkill,290
+script = scMIS_GiveSkill,210
+script = scMIS_GiveSkill,211
+script = scMIS_GiveSkill,46

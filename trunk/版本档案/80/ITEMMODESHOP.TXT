@@ -1,0 +1,1136 @@
+#include TYPE.H
+#include DEFINETXT.H
+#include ITEM.H
+
+
+[ini]
+shop_max = 1000
+
+
+[item_shop]
+code = 101
+type = ishopType_General
+item_id = item_三國銀票
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 102
+type = ishopType_General
+item_id = item_三國銀票
+item_number = 10
+cost = 10000
+item_attr = 
+
+[item_shop]
+code = 103
+type = ishopType_General
+item_id = item_百萬金幣
+item_number = 10
+cost = 1500
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 104
+type = ishopType_General
+item_id = item_五倍功勳令(1小時)
+item_number = 1
+cost = 2000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 105
+type = ishopType_General
+item_id = item_地點標記旗
+item_number = 250
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 106
+type = ishopType_General
+item_id = item_標記傳送捲軸
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 107
+type = ishopType_General
+item_id = item_集氣符
+item_number = 250
+cost = 250
+item_attr = 
+
+[item_shop]
+code = 108
+type = ishopType_General
+item_id = item_特效神速丹
+item_number = 250
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 109
+type = ishopType_General
+item_id = item_金元寶
+item_number = 25
+cost = 250
+item_attr = 
+
+[item_shop]
+code = 110
+type = ishopType_General
+item_id = item_金元寶
+item_number = 250
+cost = 2500
+item_attr = 
+
+[item_shop]
+code = 111
+type = ishopType_General
+item_id = item_軍魂之符
+item_number = 25
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 112
+type = ishopType_General
+item_id = item_軍魂之符
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 113
+type = ishopType_General
+item_id = item_行軍強化之符
+item_number = 25
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 114
+type = ishopType_General
+item_id = item_行軍強化之符
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 115
+type = ishopType_General
+item_id = item_血染沙場之符
+item_number = 25
+cost = 500
+item_attr = 
+
+[item_shop]
+code = 116
+type = ishopType_General
+item_id = item_血染沙場之符
+item_number = 250
+cost = 5000
+item_attr = 
+
+[item_shop]
+code = 117
+type = ishopType_General
+item_id = item_特效復活捲軸
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 118
+type = ishopType_General
+item_id = item_士兵宣誓效忠符
+item_number = 1
+cost = 200
+item_attr = 
+
+[item_shop]
+code = 119
+type = ishopType_General
+item_id = item_士兵復活捲軸
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 120
+type = ishopType_General
+item_id = item_華陀散
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 121
+type = ishopType_General
+item_id = item_召喚寶石
+item_number = 250
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 122
+type = ishopType_General
+item_id = item_結界符
+item_number = 100
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 123
+type = ishopType_General
+item_id = item_心眼符
+item_number = 250
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 124
+type = ishopType_General
+item_id = item_剛體符
+item_number = 250
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 125
+type = ishopType_General
+item_id = item_7日轉運護符
+item_number = 1
+cost = 3000
+item_attr = 
+
+[item_shop]
+code = 201
+type = ishopType_Special
+item_id = item_士兵鍊骨令
+item_number = 1
+cost = 1200
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 202
+type = ishopType_Special
+item_id = item_士兵鍊骨令
+item_number = 10
+cost = 12000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 203
+type = ishopType_Special
+item_id = item_士兵鍛筋令
+item_number = 1
+cost = 1200
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 204
+type = ishopType_Special
+item_id = item_士兵鍛筋令
+item_number = 10
+cost = 12000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 205
+type = ishopType_Special
+item_id = item_禁地通行證
+item_number = 1
+cost = 2000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 206
+type = ishopType_Special
+item_id = item_禁地通行證
+item_number = 5
+cost = 10000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 207
+type = ishopType_Special
+item_id = item_妖靈洞通行證
+item_number = 1
+cost = 2000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 208
+type = ishopType_Special
+item_id = item_妖靈洞通行證
+item_number = 5
+cost = 10000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 209
+type = ishopType_Special
+item_id = item_命療提昇之書
+item_number = 1
+cost = 100
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 210
+type = ishopType_Special
+item_id = item_基本武器重鑄法
+item_number = 1
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 211
+type = ishopType_Special
+item_id = item_基本防具重鑄法
+item_number = 1
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 212
+type = ishopType_Special
+item_id = item_基本座騎調教法
+item_number = 1
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 213
+type = ishopType_Special
+item_id = item_隕鐵
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 214
+type = ishopType_Special
+item_id = item_烏鋼
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 215
+type = ishopType_Special
+item_id = item_伸筋草
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 216
+type = ishopType_Special
+item_id = item_初級武器重鑄法
+item_number = 1
+cost = 200
+item_attr = 
+
+[item_shop]
+code = 217
+type = ishopType_Special
+item_id = item_初級防具重鑄法
+item_number = 1
+cost = 200
+item_attr = 
+
+[item_shop]
+code = 218
+type = ishopType_Special
+item_id = item_初級座騎調教法
+item_number = 1
+cost = 200
+item_attr = 
+
+[item_shop]
+code = 219
+type = ishopType_Special
+item_id = item_優質隕鐵
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 220
+type = ishopType_Special
+item_id = item_優質烏鋼
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 221
+type = ishopType_Special
+item_id = item_伸筋藥丸
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 222
+type = ishopType_Special
+item_id = item_高級武器重鑄法
+item_number = 1
+cost = 300
+item_attr = 
+
+[item_shop]
+code = 223
+type = ishopType_Special
+item_id = item_高級防具重鑄法
+item_number = 1
+cost = 300
+item_attr = 
+
+[item_shop]
+code = 224
+type = ishopType_Special
+item_id = item_高級座騎調教法
+item_number = 1
+cost = 300
+item_attr = 
+
+[item_shop]
+code = 225
+type = ishopType_Special
+item_id = item_精煉隕鐵
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 226
+type = ishopType_Special
+item_id = item_精煉烏鋼
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 227
+type = ishopType_Special
+item_id = item_伸筋活骨散
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 228
+type = ishopType_Special
+item_id = item_裝備修復法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 229
+type = ishopType_Special
+item_id = item_座騎修復法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 230
+type = ishopType_Special
+item_id = item_高祖龍袍
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 231
+type = ishopType_Special
+item_id = item_漢室玉璽
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 232
+type = ishopType_Special
+item_id = item_昭告天下
+item_number = 20
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 233
+type = ishopType_Special
+item_id = item_易名印鑑
+item_number = 1
+cost = 10000
+item_attr = 
+
+[item_shop]
+code = 234
+type = ishopType_Special
+item_id = item_裝備次數再生法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 235
+type = ishopType_Special
+item_id = item_座騎再生法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 236
+type = ishopType_Special
+item_id = item_轉生石
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 237
+type = ishopType_Special
+item_id = item_護腕重鑄法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 238
+type = ishopType_Special
+item_id = item_內衣重鑄法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 239
+type = ishopType_Special
+item_id = item_披風重鑄法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 240
+type = ishopType_Special
+item_id = item_小盾重鑄法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 241
+type = ishopType_Special
+item_id = item_大盾重鑄法
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 242
+type = ishopType_Special
+item_id = item_忘魂丹
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 243
+type = ishopType_Special
+item_id = item_青瓷瓶
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 244
+type = ishopType_Special
+item_id = item_陶製品
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 245
+type = ishopType_Special
+item_id = item_絳株草
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 246
+type = ishopType_Special
+item_id = item_內丹
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 247
+type = ishopType_Special
+item_id = item_玉墜
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 248
+type = ishopType_Special
+item_id = item_素錦
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 249
+type = ishopType_Special
+item_id = item_刀鞘碎片
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 250
+type = ishopType_Special
+item_id = item_機關鉚釘
+item_number = 4
+cost = 100
+item_attr = 
+
+[item_shop]
+code = 301
+type = ishopType_Funcion
+item_id = item_火神的祝福
+item_number = 1
+cost = 100
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 302
+type = ishopType_Funcion
+item_id = item_火神的祝福
+item_number = 10
+cost = 1000
+item_attr = ITEMMALL_ATTR_NEW
+
+[item_shop]
+code = 303
+type = ishopType_Funcion
+item_id = item_修復石
+item_number = 1
+cost = 3000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 304
+type = ishopType_Funcion
+item_id = item_修復石
+item_number = 10
+cost = 30000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 305
+type = ishopType_Funcion
+item_id = item_衝車
+item_number = 1
+cost = 20000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 306
+type = ishopType_Funcion
+item_id = item_百煉鋼
+item_number = 1
+cost = 200
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 307
+type = ishopType_Funcion
+item_id = item_流星鐵
+item_number = 1
+cost = 200
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 308
+type = ishopType_Funcion
+item_id = item_百煉鋼
+item_number = 10
+cost = 2000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 309
+type = ishopType_Funcion
+item_id = item_流星鐵
+item_number = 10
+cost = 2000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 310
+type = ishopType_Funcion
+item_id = item_三階兵令福袋
+item_number = 2
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 311
+type = ishopType_Funcion
+item_id = item_三階兵令福袋
+item_number = 20
+cost = 10000
+item_attr = 
+
+[item_shop]
+code = 312
+type = ishopType_Funcion
+item_id = item_精銳兵令福袋
+item_number = 2
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 313
+type = ishopType_Funcion
+item_id = item_精銳兵令福袋
+item_number = 20
+cost = 10000
+item_attr = 
+
+[item_shop]
+code = 314
+type = ishopType_Funcion
+item_id = item_四階兵令福袋
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 315
+type = ishopType_Funcion
+item_id = item_四階兵令福袋
+item_number = 10
+cost = 10000
+item_attr = 
+
+[item_shop]
+code = 316
+type = ishopType_Funcion
+item_id = item_烏林傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 317
+type = ishopType_Funcion
+item_id = item_皇城傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 318
+type = ishopType_Funcion
+item_id = item_洛陽傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 319
+type = ishopType_Funcion
+item_id = item_建業傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 320
+type = ishopType_Funcion
+item_id = item_成都傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 321
+type = ishopType_Funcion
+item_id = item_碧水地穴傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 322
+type = ishopType_Funcion
+item_id = item_地下洞窟傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 323
+type = ishopType_Funcion
+item_id = item_靈壁傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 324
+type = ishopType_Funcion
+item_id = item_黃巾山寨_三層傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 325
+type = ishopType_Funcion
+item_id = item_鐵門峽_二層傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 326
+type = ishopType_Funcion
+item_id = item_箕谷傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 327
+type = ishopType_Funcion
+item_id = item_街亭傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 328
+type = ishopType_Funcion
+item_id = item_壺關傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 329
+type = ishopType_Funcion
+item_id = item_雁門關傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 330
+type = ishopType_Funcion
+item_id = item_烏巢傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 331
+type = ishopType_Funcion
+item_id = item_五丈原傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 332
+type = ishopType_Funcion
+item_id = item_祁山傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 333
+type = ishopType_Funcion
+item_id = item_廬陵傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 334
+type = ishopType_Funcion
+item_id = item_鄱陽湖傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 335
+type = ishopType_Funcion
+item_id = item_雲南近郊傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 336
+type = ishopType_Funcion
+item_id = item_九原近郊傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 337
+type = ishopType_Funcion
+item_id = item_邪馬台傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 338
+type = ishopType_Funcion
+item_id = item_白門樓傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 339
+type = ishopType_Funcion
+item_id = item_通天塔傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 340
+type = ishopType_Funcion
+item_id = item_煉獄傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 341
+type = ishopType_Funcion
+item_id = item_愛琴海傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 342
+type = ishopType_Funcion
+item_id = item_酒泉傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 343
+type = ishopType_Funcion
+item_id = item_于闐傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 344
+type = ishopType_Funcion
+item_id = item_白門樓傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 345
+type = ishopType_Funcion
+item_id = item_煉獄十二層傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 346
+type = ishopType_Funcion
+item_id = item_通天十二層傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 347
+type = ishopType_Funcion
+item_id = item_露天傳送捲軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 348
+type = ishopType_Funcion
+item_id = item_情義市場傳送卷軸
+item_number = 250
+cost = 1
+item_attr = 
+
+[item_shop]
+code = 401
+type = ishopType_Cheap
+item_id = item_(武)鐵甲戰靴裝扮(3日)
+item_number = 1
+cost = 1000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 402
+type = ishopType_Cheap
+item_id = item_(反)鐵甲戰靴裝扮(3日)
+item_number = 1
+cost = 1000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 403
+type = ishopType_Cheap
+item_id = item_(智)鐵甲戰靴裝扮(3日)
+item_number = 1
+cost = 1000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 404
+type = ishopType_Cheap
+item_id = item_(統)鐵甲戰靴裝扮(3日)
+item_number = 1
+cost = 1000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 405
+type = ishopType_Cheap
+item_id = item_(體)鐵甲戰靴裝扮(3日)
+item_number = 1
+cost = 1000
+item_attr = ITEMMALL_ATTR_SUGGEST
+
+[item_shop]
+code = 406
+type = ishopType_Cheap
+item_id = item_披風裝扮福袋
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 407
+type = ishopType_Cheap
+item_id = item_披風裝扮福袋
+item_number = 3
+cost = 3000
+item_attr = 
+
+[item_shop]
+code = 408
+type = ishopType_Cheap
+item_id = item_全身裝扮_曹植（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 409
+type = ishopType_Cheap
+item_id = item_全身裝扮_典韋（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 410
+type = ishopType_Cheap
+item_id = item_全身裝扮_程昱（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 411
+type = ishopType_Cheap
+item_id = item_全身裝扮_關羽（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 412
+type = ishopType_Cheap
+item_id = item_全身裝扮_張飛（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 413
+type = ishopType_Cheap
+item_id = item_全身裝扮_關鳳（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 414
+type = ishopType_Cheap
+item_id = item_全身裝扮_孫仁（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 415
+type = ishopType_Cheap
+item_id = item_全身裝扮_小喬（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 416
+type = ishopType_Cheap
+item_id = item_全身裝扮_卑彌呼（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 417
+type = ishopType_Cheap
+item_id = item_全身裝扮_曹丕（3日）
+item_number = 1
+cost = 1000
+item_attr = 
+
+[item_shop]
+code = 418
+type = ishopType_Cheap
+item_id = item_全身裝扮_祝融（3日）
+item_number = 1
+cost = 1000
+item_attr = 

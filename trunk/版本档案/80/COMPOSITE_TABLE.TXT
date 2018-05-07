@@ -1,0 +1,1840 @@
+// 合成表設定檔
+#include TYPE.H
+#include ITEM.H
+#include MAGIC.H
+
+[ini]
+max = 500
+
+[composite]
+code = 1
+name = 24500
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1,item_10萬金幣,2
+bless = 1
+fail_ratio = -10
+
+[composite]
+code = 2
+name = 24501
+result = 0
+type = itemTypeALL_WEAPON
+item = item_流星鐵,1,item_10萬金幣,2
+bless = 1,3
+fail_ratio = 0
+
+[composite]
+code = 3
+name = 24502
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1,item_10萬金幣,2
+bless = 1
+fail_ratio = 10
+
+[composite]
+code = 4
+name = 24503
+result = 0
+type = itemTypeALL_ARMOR
+item = item_百煉鋼,1,item_10萬金幣,2
+bless = 1,3
+fail_ratio = 20
+
+[composite]
+code = 11
+name = 24504
+comp_name = 24505
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_斬合金,5,item_10萬金幣,2
+magic_attack_type = skillAttr_SLASH,3,8
+fail_ratio = 30
+
+[composite]
+code = 12
+name = 24506
+comp_name = 24507
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_刺合金,5,item_10萬金幣,2
+magic_attack_type = skillAttr_STING,3,8
+fail_ratio = 30
+
+[composite]
+code = 13
+name = 24508
+comp_name = 24509
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_碎合金,5,item_10萬金幣,2
+magic_attack_type = skillAttr_BREAK,3,8
+fail_ratio = 30
+
+[composite]
+code = 14
+name = 24510
+comp_name = 24511
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_朱紅石,5,item_10萬金幣,2
+magic_attack_type = skillAttr_FIRE,3,8
+fail_ratio = 30
+
+[composite]
+code = 15
+name = 24512
+comp_name = 24513
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_青玉石,5,item_10萬金幣,2
+magic_attack_type = skillAttr_WATER,3,8
+fail_ratio = 30
+
+[composite]
+code = 16
+name = 24514
+comp_name = 24515
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_黃晶石,5,item_10萬金幣,2
+magic_attack_type = skillAttr_GOD,3,8
+fail_ratio = 30
+
+[composite]
+code = 17
+name = 24516
+comp_name = 24517
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,3,item_紫光石,5,item_10萬金幣,2
+magic_attack_type = skillAttr_EVIL,3,8
+fail_ratio = 30
+
+[composite]
+code = 18
+name = 24518
+comp_name = 24519
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,2,item_反應秘石,1,item_10萬金幣,2
+fail_ratio = 30
+
+[composite]
+code = 19
+name = 24520
+comp_name = 24521
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,2,item_武力秘石,3,item_10萬金幣,2
+add_attackx2_ratio = 3,8
+fail_ratio = 30
+
+[composite]
+code = 20
+name = 24522
+comp_name = 24523
+result = 0
+type = itemTypeALL_WEAPON
+item = item_鐵,2,item_武力秘石,3,item_10萬金幣,2
+add_str = 3,8
+fail_ratio = 30
+
+[composite]
+code = 21
+name = 24761
+comp_name = 24658
+result = 0
+type = itemTypeALL_WEAPON,itemTypeALL_ARMOR,itemTypeOther
+item = item_武力秘石,1,item_10萬金幣,2
+add_str = 8
+fail_ratio = 0
+
+[composite]
+code = 31
+name = 24524
+comp_name = 24525
+result = 0
+type = itemTypeWeapon,itemTypeSword
+item = item_鐵,2,item_智力秘石,3,item_黃晶石,1
+add_int = 2,5
+fail_ratio = 30
+
+[composite]
+code = 32
+name = 24526
+comp_name = 24527
+result = 0
+type = itemTypeWeapon,itemTypeSword
+item = item_鐵,2,item_精神秘石,3,item_10萬金幣,2
+add_mind = 4,10
+fail_ratio = 30
+
+[composite]
+code = 34
+name = 24528
+comp_name = 24529
+result = 0
+type = itemTypeWeapon,itemTypeLance
+item = item_鐵,2,item_智力秘石,3,item_黃晶石,1
+add_int = 2,5
+fail_ratio = 30
+
+[composite]
+code = 37
+name = 24530
+comp_name = 24531
+result = 0
+type = itemTypeWeapon,itemTypeFalchion
+item = item_鐵,2,item_智力秘石,3,item_黃晶石,1
+add_int = 2,5
+fail_ratio = 30
+
+[composite]
+code = 41
+name = 24532
+comp_name = 24533
+result = 0
+type = itemTypeWeapon,itemTypeBow
+item = item_鐵,3,item_射合金,5,item_10萬金幣,2
+magic_attack_type = skillAttr_ARROW,3,8
+fail_ratio = 30
+
+[composite]
+code = 42
+name = 24534
+comp_name = 24535
+result = 0
+type = itemTypeWeapon,itemTypeBow
+item = item_鐵,2,item_反應秘石,3,item_10萬金幣,2
+add_dex = 4,10
+fail_ratio = 30
+
+[composite]
+code = 51
+name = 24536
+comp_name = 24537
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_斬合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_SLASH,2,5
+fail_ratio = 40
+
+[composite]
+code = 52
+name = 24538
+comp_name = 24539
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_刺合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_STING,2,5
+fail_ratio = 40
+
+[composite]
+code = 53
+name = 24540
+comp_name = 24541
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_碎合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_BREAK,2,5
+fail_ratio = 40
+
+[composite]
+code = 54
+name = 24542
+comp_name = 24543
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_射合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_ARROW,2,5
+fail_ratio = 40
+
+[composite]
+code = 55
+name = 24544
+comp_name = 24545
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_朱紅石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_FIRE,2,5
+fail_ratio = 40
+
+[composite]
+code = 56
+name = 24546
+comp_name = 24547
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_青玉石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_WATER,2,5
+fail_ratio = 40
+
+[composite]
+code = 57
+name = 24548
+comp_name = 24549
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_黃晶石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_GOD,2,5
+fail_ratio = 40
+
+[composite]
+code = 58
+name = 24550
+comp_name = 24551
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_紫光石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_EVIL,2,5
+fail_ratio = 40
+
+[composite]
+code = 59
+name = 24552
+comp_name = 24553
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_智力秘石,3,item_黃晶石,1
+add_int = 2,5
+fail_ratio = 40
+
+[composite]
+code = 60
+name = 24554
+comp_name = 24555
+result = 0
+type = itemTypeHead
+item = item_鋼,2,item_精神秘石,3,item_10萬金幣,2
+add_mind = 4,10
+fail_ratio = 40
+
+[composite]
+code = 71
+name = 24556
+comp_name = 24557
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_斬合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_SLASH,2,5
+fail_ratio = 40
+
+[composite]
+code = 72
+name = 24558
+comp_name = 24559
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_刺合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_STING,2,5
+fail_ratio = 40
+
+[composite]
+code = 73
+name = 24560
+comp_name = 24561
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_碎合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_BREAK,2,5
+fail_ratio = 40
+
+[composite]
+code = 74
+name = 24562
+comp_name = 24563
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_射合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_ARROW,2,5
+fail_ratio = 40
+
+[composite]
+code = 75
+name = 24564
+comp_name = 24565
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_朱紅石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_FIRE,2,5
+fail_ratio = 40
+
+[composite]
+code = 76
+name = 24566
+comp_name = 24567
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_青玉石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_WATER,2,5
+fail_ratio = 40
+
+[composite]
+code = 77
+name = 24568
+comp_name = 24569
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_黃晶石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_GOD,2,5
+fail_ratio = 40
+
+[composite]
+code = 78
+name = 24570
+comp_name = 24571
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_紫光石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_EVIL,2,5
+fail_ratio = 40
+
+[composite]
+code = 79
+name = 24572
+comp_name = 24573
+result = 0
+type = itemTypeArmor
+item = item_鋼,2,item_體魄秘石,3,item_10萬金幣,2
+add_con = 4,10
+fail_ratio = 40
+
+[composite]
+code = 91
+name = 24574
+comp_name = 24575
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_朱紅石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_FIRE,2,5
+fail_ratio = 40
+
+[composite]
+code = 92
+name = 24576
+comp_name = 24577
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_青玉石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_WATER,2,5
+fail_ratio = 40
+
+[composite]
+code = 93
+name = 24578
+comp_name = 24579
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_黃晶石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_GOD,2,5
+fail_ratio = 40
+
+[composite]
+code = 94
+name = 24580
+comp_name = 24581
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_紫光石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_EVIL,2,5
+fail_ratio = 40
+
+[composite]
+code = 95
+name = 24582
+comp_name = 24583
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_反應秘石,3,item_10萬金幣,2
+add_miss = 5,10
+fail_ratio = 40
+
+[composite]
+code = 96
+name = 24584
+comp_name = 24585
+result = 0
+type = itemTypeFoot
+item = item_鋼,2,item_反應秘石,3,item_10萬金幣,2
+add_dex = 4,10
+fail_ratio = 40
+
+[composite]
+code = 101
+name = 24586
+comp_name = 24587
+result = 0
+type = itemTypeShield
+item = item_鋼,2,item_斬合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_SLASH,2,5
+fail_ratio = 50
+
+[composite]
+code = 102
+name = 24588
+comp_name = 24589
+result = 0
+type = itemTypeShield
+item = item_鋼,2,item_刺合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_STING,2,5
+fail_ratio = 50
+
+[composite]
+code = 103
+name = 24590
+comp_name = 24591
+result = 0
+type = itemTypeShield
+item = item_鋼,2,item_碎合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_BREAK,2,5
+fail_ratio = 50
+
+[composite]
+code = 104
+name = 24592
+comp_name = 24593
+result = 0
+type = itemTypeShield
+item = item_鋼,2,item_射合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_ARROW,2,5
+fail_ratio = 50
+
+[composite]
+code = 111
+name = 24594
+comp_name = 24595
+result = 0
+type = itemTypeSmallShield
+item = item_鋼,2,item_反應秘石,3,item_10萬金幣,2
+add_miss = 5,10
+fail_ratio = 50
+
+[composite]
+code = 116
+name = 24596
+comp_name = 24597
+result = 0
+type = itemTypeArm
+item = item_鋼,2,item_反應秘石,1,item_10萬金幣,2
+add_hit = 10,20
+fail_ratio = 60
+
+[composite]
+code = 117
+name = 24598
+comp_name = 24599
+result = 0
+type = itemTypeArm
+item = item_鋼,2,item_武力秘石,3,item_10萬金幣,2
+add_str = 3,8
+fail_ratio = 60
+
+[composite]
+code = 121
+name = 24600
+comp_name = 24601
+result = 0
+type = itemTypeUnderwear
+item = item_鋼,2,item_斬合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_SLASH,2,5
+fail_ratio = 60
+
+[composite]
+code = 122
+name = 24602
+comp_name = 24603
+result = 0
+type = itemTypeUnderwear
+item = item_鋼,2,item_刺合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_STING,2,5
+fail_ratio = 60
+
+[composite]
+code = 123
+name = 24604
+comp_name = 24605
+result = 0
+type = itemTypeUnderwear
+item = item_鋼,2,item_碎合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_BREAK,2,5
+fail_ratio = 60
+
+[composite]
+code = 124
+name = 24606
+comp_name = 24607
+result = 0
+type = itemTypeUnderwear
+item = item_鋼,2,item_射合金,3,item_10萬金幣,2
+magic_defense_type = skillAttr_ARROW,2,5
+fail_ratio = 60
+
+[composite]
+code = 131
+name = 24608
+comp_name = 24609
+result = 0
+type = itemTypeP
+item = item_鋼,2,item_朱紅石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_FIRE,2,5
+fail_ratio = 60
+
+[composite]
+code = 132
+name = 24610
+comp_name = 24611
+result = 0
+type = itemTypeP
+item = item_鋼,2,item_青玉石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_WATER,2,5
+fail_ratio = 60
+
+[composite]
+code = 133
+name = 24612
+comp_name = 24613
+result = 0
+type = itemTypeP
+item = item_鋼,2,item_黃晶石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_GOD,2,5
+fail_ratio = 60
+
+[composite]
+code = 134
+name = 24614
+comp_name = 24615
+result = 0
+type = itemTypeP
+item = item_鋼,2,item_紫光石,3,item_10萬金幣,2
+magic_defense_type = skillAttr_EVIL,2,5
+fail_ratio = 60
+
+[composite]
+code = 141
+name = 24616
+comp_name = 24617
+result = 0
+type = itemTypeHorse
+item = item_鋼,2,item_體魄秘石,3,item_10萬金幣,2
+add_con = 4,10
+fail_ratio = 40
+
+[composite]
+code = 151
+name = 24618
+result = item_小籠包
+amount = 10
+type = itemTypeItem
+item = item_新鮮肉塊,10,item_麵粉,3,item_冷泉,3
+fail_ratio = 0
+
+[composite]
+code = 152
+name = 24619
+result = item_朱紅石
+amount = 1
+type = itemTypeItem
+item = item_火珠,25
+fail_ratio = 20
+
+[composite]
+code = 153
+name = 24620
+result = item_青玉石
+amount = 1
+type = itemTypeItem
+item = item_水珠,25
+fail_ratio = 20
+
+[composite]
+code = 154
+name = 24621
+result = item_黃晶石
+amount = 1
+type = itemTypeItem
+item = item_仙珠,25
+fail_ratio = 20
+
+[composite]
+code = 155
+name = 24622
+result = item_紫光石
+amount = 1
+type = itemTypeItem
+item = item_妖珠,25
+fail_ratio = 20
+
+[composite]
+code = 156
+name = 24623
+result = item_斬合金
+amount = 1
+type = itemTypeItem
+item = item_礦石,10,item_未知礦石,1
+fail_ratio = 20
+
+[composite]
+code = 157
+name = 24624
+result = item_刺合金
+amount = 1
+type = itemTypeItem
+item = item_礦石,10,item_未知礦石,1
+fail_ratio = 20
+
+[composite]
+code = 158
+name = 24625
+result = item_碎合金
+amount = 1
+type = itemTypeItem
+item = item_礦石,10,item_未知礦石,1
+fail_ratio = 20
+
+[composite]
+code = 159
+name = 24626
+result = item_射合金
+amount = 1
+type = itemTypeItem
+item = item_礦石,10,item_未知礦石,1
+fail_ratio = 20
+
+[composite]
+code = 160
+name = 24627
+result = item_武力秘石
+amount = 1
+type = itemTypeItem
+item = item_未知礦石,3
+fail_ratio = 20
+
+[composite]
+code = 161
+name = 24628
+result = item_智力秘石
+amount = 1
+type = itemTypeItem
+item = item_未知礦石,3
+fail_ratio = 20
+
+[composite]
+code = 162
+name = 24629
+result = item_體魄秘石
+amount = 1
+type = itemTypeItem
+item = item_未知礦石,3
+fail_ratio = 20
+
+[composite]
+code = 163
+name = 24630
+result = item_精神秘石
+amount = 1
+type = itemTypeItem
+item = item_未知礦石,3
+fail_ratio = 20
+
+[composite]
+code = 164
+name = 24631
+result = item_反應秘石
+amount = 1
+type = itemTypeItem
+item = item_未知礦石,3
+fail_ratio = 20
+
+[composite]
+code = 165
+name = 24632
+result = item_鐵
+amount = 1
+type = itemTypeItem
+item = item_礦粒,5,item_雜礦,1
+fail_ratio = 20
+
+[composite]
+code = 166
+name = 24633
+result = item_鋼
+amount = 1
+type = itemTypeItem
+item = item_礦粒,5,item_雜礦,1
+fail_ratio = 20
+
+[composite]
+code = 181
+name = 24634
+result = item_火炎箭
+amount = 50
+type = itemTypeItem
+item = item_藤條,5,item_火珠,1
+fail_ratio = 20
+
+[composite]
+code = 182
+name = 24635
+result = item_寒水箭
+amount = 50
+type = itemTypeItem
+item = item_藤條,5,item_水珠,1
+fail_ratio = 20
+
+[composite]
+code = 191
+name = 24636
+result = item_高祖龍袍
+amount = 1
+type = itemTypeItem
+item = item_流星鐵,1,item_百煉鋼,1,item_龍鱗,1,item_月光布,2,item_高級棉絮,25
+fail_ratio = 70
+
+[composite]
+code = 200
+name = 24637
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_level = 50
+item = item_隕鐵,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 201
+name = 24638
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_level = 70
+item = item_優質隕鐵,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 202
+name = 24639
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_level = 110
+item = item_精煉隕鐵,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 203
+name = 24640
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_level = 150
+item = item_上古隕鐵,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 204
+name = 24641
+result = 0
+type = itemTypeArmor,itemTypeHead,itemTypeFoot
+equip_item_level = 50
+item = item_烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 205
+name = 24642
+result = 0
+type = itemTypeArmor,itemTypeHead,itemTypeFoot
+equip_item_level = 70
+item = item_優質烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 206
+name = 24643
+result = 0
+type = itemTypeArmor,itemTypeHead,itemTypeFoot
+equip_item_level = 110
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 207
+name = 24644
+result = 0
+type = itemTypeArmor,itemTypeHead,itemTypeFoot
+equip_item_level = 150
+item = item_上古烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 208
+name = 24645
+result = 0
+type = itemTypeHorse
+equip_item_level = 35
+item = item_伸筋草,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 209
+name = 24646
+result = 0
+type = itemTypeHorse
+equip_item_level = 55
+item = item_伸筋藥丸,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 210
+name = 24647
+result = 0
+type = itemTypeHorse
+equip_item_level = 100
+item = item_伸筋活骨散,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 211
+name = 24648
+result = 0
+type = itemTypeHorse
+equip_item_level = 150
+item = item_伸筋換骨藥酒,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 212
+name = 24649
+result = 0
+type = itemTypeShield
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 213
+name = 24650
+result = 0
+type = itemTypeSmallShield
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 214
+name = 24651
+result = 0
+type = itemTypeArm
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 215
+name = 24652
+result = 0
+type = itemTypeP
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 216
+name = 24653
+result = 0
+type = itemTypeUnderwear
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 217
+name = 24654
+result = 0
+type = itemTypeOther
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_百萬金幣,2
+fail_ratio = 70
+random_attr = 1
+
+[composite]
+code = 219
+name = 24655
+result = 0
+type = itemTypeALL_WEAPON,itemTypeALL_ARMOR
+item = item_縛靈石,1
+fail_ratio = 0
+clear_equip_times = 1
+
+[composite]
+code = 220
+name = 24656
+result = 0
+type = itemTypeALL_WEAPON,itemTypeALL_ARMOR
+item = item_轉生石,1,item_百萬金幣,5
+fail_ratio = 0
+add_equip_times = 1
+
+[composite]
+code = 221
+name = 24657
+comp_name = 24658
+result = 0
+type = itemTypeOther
+item = item_朱冠靈血,1,item_武力秘石,3,item_10萬金幣,2
+add_str = 2,7
+fail_ratio = 60
+
+[composite]
+code = 222
+name = 24659
+comp_name = 24660
+result = 0
+type = itemTypeOther
+item = item_朱冠靈血,1,item_反應秘石,3,item_10萬金幣,2
+add_dex = 2,7
+fail_ratio = 60
+
+[composite]
+code = 223
+name = 24661
+comp_name = 24662
+result = 0
+type = itemTypeOther
+item = item_朱冠靈血,1,item_智力秘石,3,item_10萬金幣,2
+add_int = 1,4
+fail_ratio = 60
+
+[composite]
+code = 224
+name = 24663
+comp_name = 24664
+result = 0
+type = itemTypeOther
+item = item_朱冠靈血,1,item_精神秘石,3,item_10萬金幣,2
+add_mind = 3,9
+fail_ratio = 60
+
+[composite]
+code = 225
+name = 24665
+comp_name = 24666
+result = 0
+type = itemTypeOther
+item = item_朱冠靈血,1,item_體魄秘石,3,item_10萬金幣,2
+add_con = 3,9
+fail_ratio = 60
+
+[composite]
+code = 231
+name = 24667
+comp_name = 24668
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_斬合金,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_SLASH,5,15
+
+[composite]
+code = 232
+name = 24669
+comp_name = 24670
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_刺合金,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_STING,5,15
+
+[composite]
+code = 233
+name = 24671
+comp_name = 24672
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_碎合金,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_BREAK,5,15
+
+[composite]
+code = 234
+name = 24673
+comp_name = 24674
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_射合金,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_ARROW,5,15
+
+[composite]
+code = 235
+name = 24675
+comp_name = 24676
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_朱紅石,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_FIRE,5,15
+
+[composite]
+code = 236
+name = 24677
+comp_name = 24678
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_青玉石,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_WATER,5,15
+
+[composite]
+code = 237
+name = 24679
+comp_name = 24680
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_黃晶石,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_GOD,5,15
+
+[composite]
+code = 238
+name = 24681
+comp_name = 24682
+result = 0
+type = itemTypeArm
+item = item_血晶,1,item_紫光石,5,item_10萬金幣,1
+fail_ratio = 60
+skill_attack_type = skillAttr_EVIL,5,15
+
+[composite]
+code = 250
+name = 24683
+comp_name = 24684
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_斬合金,3,item_10萬金幣,1
+magic_defense_type = skillAttr_SLASH,1,4
+fail_ratio = 60
+
+[composite]
+code = 251
+name = 24685
+comp_name = 24686
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_刺合金,3,item_10萬金幣,1
+magic_defense_type = skillAttr_STING,1,4
+fail_ratio = 60
+
+[composite]
+code = 252
+name = 24687
+comp_name = 24688
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_碎合金,3,item_10萬金幣,1
+magic_defense_type = skillAttr_BREAK,1,4
+fail_ratio = 60
+
+[composite]
+code = 253
+name = 24689
+comp_name = 24690
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_射合金,3,item_10萬金幣,1
+magic_defense_type = skillAttr_ARROW,1,4
+fail_ratio = 60
+
+[composite]
+code = 254
+name = 24691
+comp_name = 24692
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_朱紅石,3,item_10萬金幣,1
+magic_defense_type = skillAttr_FIRE,1,4
+fail_ratio = 60
+
+[composite]
+code = 255
+name = 24693
+comp_name = 24694
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_青玉石,3,item_10萬金幣,1
+magic_defense_type = skillAttr_WATER,1,4
+fail_ratio = 60
+
+[composite]
+code = 256
+name = 24695
+comp_name = 24696
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_黃晶石,3,item_10萬金幣,1
+magic_defense_type = skillAttr_GOD,1,4
+fail_ratio = 60
+
+[composite]
+code = 257
+name = 24697
+comp_name = 24698
+result = 0
+type = itemTypeOther
+item = item_安平聖水,1,item_紫光石,3,item_10萬金幣,1
+magic_defense_type = skillAttr_EVIL,1,4
+fail_ratio = 60
+
+[composite]
+code = 258
+name = 24699
+result = 0
+type = itemTypeHorse
+item = item_縛靈石,1
+fail_ratio = 0
+clear_equip_times = 1
+
+[composite]
+code = 259
+name = 24700
+result = 0
+type = itemTypeHorse
+item = item_轉生石,1,item_百萬金幣,5
+fail_ratio = 0
+add_equip_times = 1
+
+[composite]
+code = 260
+name = 24701
+result = 0
+type = itemTypeALL_WEAPON,itemTypeALL_ARMOR
+equip_item_level = 110
+item = item_修復石,1,item_百萬金幣,5
+fail_ratio = 0
+fix_broken = 1
+
+[composite]
+code = 261
+name = 24702
+result = 0
+type = itemTypeHorse
+equip_item_level = 100
+item = item_修復石,1,item_百萬金幣,5
+fail_ratio = 0
+fix_broken = 1
+
+[composite]
+code = 262
+name = 24703
+result = item_流星鐵
+amount = 1
+type = itemTypeItem
+item = item_神鐵,5
+fail_ratio = 70
+
+[composite]
+code = 263
+name = 24704
+result = item_百煉鋼
+amount = 1
+type = itemTypeItem
+item = item_精鋼,5
+fail_ratio = 60
+
+[composite]
+code = 264
+name = 24705
+result = item_五彩水晶
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 60
+equip_item_level = 75
+item = item_藍礦石,5,item_黃礦石,5
+fail_ratio = 0
+dismount = 1
+
+[composite]
+code = 265
+name = 24706
+result = item_金形水晶
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 80
+equip_item_level = 100
+item = item_隕鐵,3
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 266
+name = 24707
+result = item_水形水晶
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 105
+equip_item_level = 130
+item = item_優質隕鐵,2,item_縛靈石,2
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 267
+name = 24708
+result = item_天靈水晶
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 135
+equip_item_level = 150
+item = item_精煉隕鐵,1,item_縛靈石,4
+fail_ratio = 80
+dismount = 1
+
+[composite]
+code = 268
+name = 24709
+result = item_木形水晶
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 80
+equip_item_level = 100
+item = item_烏鋼,3
+fail_ratio = 40
+dismount = 1
+
+[composite]
+code = 269
+name = 24710
+result = item_火形水晶
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 105
+equip_item_level = 130
+item = item_優質烏鋼,2,item_縛靈石,1
+fail_ratio = 50
+dismount = 1
+
+[composite]
+code = 270
+name = 24711
+result = item_地靈水晶
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 135
+equip_item_level = 150
+item = item_精煉烏鋼,1,item_縛靈石,2
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 271
+name = 24712
+result = item_土形水晶
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 80
+equip_item_level = 100
+item = item_伸筋草,3
+fail_ratio = 50
+dismount = 1
+
+[composite]
+code = 272
+name = 24713
+result = item_辟邪水晶
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 105
+equip_item_level = 130
+item = item_伸筋藥丸,2,item_縛靈石,2
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 273
+name = 24714
+result = item_赤血水晶
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 135
+equip_item_level = 150
+item = item_伸筋活骨散,1,item_縛靈石,4
+fail_ratio = 70
+dismount = 1
+
+
+[composite]
+code = 274
+name = 24715
+comp_name = 24773
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_min_level = 90
+item = item_武力秘石,6,item_討王勳章,3,item_龍紋金幣,1
+add_str = 8,14
+fail_ratio = 60
+
+[composite]
+code = 275
+name = 24716
+comp_name = 24774
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_min_level = 90
+item = item_智力秘石,6,item_討王勳章,3,item_龍紋金幣,1
+add_int = 4,10
+fail_ratio = 60
+
+[composite]
+code = 276
+name = 24717
+comp_name = 24775
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_min_level = 90
+item = item_反應秘石,6,item_討王勳章,3,item_龍紋金幣,1
+add_dex = 8,14
+fail_ratio = 60
+
+[composite]
+code = 277
+name = 24718
+result = item_火神的祝福
+amount = 1
+type = itemTypeItem
+equip_item_min_level = 90
+item = item_嘉獎令,1,item_討王勳章,3,item_龍紋金幣,2
+fail_ratio = 20
+
+[composite]
+code = 278
+name = 24719
+result = item_天兵神甲包
+amount = 1
+type = itemTypeItem
+equip_item_min_level = 90
+item = item_討敵勳章,1,item_討王勳章,5,item_龍紋金幣,2
+fail_ratio = 20
+
+[composite]
+code = 279
+name = 24720
+result = item_四靈神裝包
+amount = 1
+type = itemTypeItem
+item = item_四神仙冠,1,item_四神仙袍,1,item_四神秘法靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 280
+name = 24721
+result = item_軒轅神裝包
+amount = 1
+type = itemTypeItem
+item = item_黃龍之盔,1,item_黃龍之鎧,1,item_黃龍煉氣靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 281
+name = 24722
+result = item_公謹神裝包
+amount = 1
+type = itemTypeItem
+item = item_蒼穹之冠,1,item_蒼穹戰袍,1,item_蒼穹飛雲靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 282
+name = 24723
+result = item_龍王神裝包
+amount = 1
+type = itemTypeItem
+item = item_玄龍之盔,1,item_玄龍之鎧,1,item_玄龍鱗甲靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 283
+name = 24724
+result = item_魔王神裝包
+amount = 1
+type = itemTypeItem
+item = item_天霸之盔,1,item_天霸之鎧,1,item_天霸戰甲靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 284
+name = 24725
+result = item_孔明神裝包
+amount = 1
+type = itemTypeItem
+item = item_水鏡之冠,1,item_水鏡之袍,1,item_水鏡護法靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 285
+name = 24726
+result = item_封天神裝包
+amount = 1
+type = itemTypeItem
+item = item_封神法冠,1,item_封神法衣,1,item_封神道法靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 286
+name = 24727
+result = item_神將神裝包
+amount = 1
+type = itemTypeItem
+item = item_神威之盔,1,item_神威之鎧,1,item_神威武鬥靴,1,item_三國銀票,3
+fail_ratio = 20
+
+[composite]
+code = 287
+name = 24728
+result = 0
+type = itemTypeALL_WEAPON
+equip_item_level = 80
+item = item_神鐵,1
+bless = 15
+fail_ratio = 0
+
+[composite]
+code = 288
+name = 24729
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1
+bless = 6,10
+fail_ratio = 0
+
+//test
+[composite]
+code = 289
+name = 24730
+result = 0
+type = itemTypeALL_WEAPON,itemTypeALL_ARMOR
+equip_item_level = 110
+item = item_修復石,1
+fail_ratio = 0
+clear_equip_times = 1
+fix_broken = 1
+
+
+[composite]
+code = 290
+name = 24731
+result = item_攻之魄
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 70
+equip_item_level = 85
+item = item_攻魄召集令,1
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 292
+name = 24733
+result = item_精魄碎片
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 85
+equip_item_level = 110
+item = item_攻魄召集令,3
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 294
+name = 24735
+result = item_精魄
+amount = 1
+type = itemTypeALL_WEAPON
+equip_item_min_level = 110
+equip_item_level = 125
+item = item_攻魄召集令,5
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 291
+name = 24732
+result = item_防之魂
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 70
+equip_item_level = 85
+item = item_防魂召集令,1
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 293
+name = 24734
+result = item_魂玉碎片
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 85
+equip_item_level = 110
+item = item_防魂召集令,3
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 295
+name = 24736
+result = item_魂玉
+amount = 1
+type = itemTypeALL_ARMOR
+equip_item_min_level = 110
+equip_item_level = 125
+item = item_防魂召集令,5
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 296
+name = 24737
+result = item_坐騎種子
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 50
+equip_item_level = 90
+fail_ratio = 60
+dismount = 1
+
+[composite]
+code = 297
+name = 24738
+result = item_高級坐騎種子
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 90
+equip_item_level = 110
+item = item_坐騎種子,1
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 298
+name = 24739
+result = item_頂級坐騎種子
+amount = 1
+type = itemTypeHorse
+equip_item_min_level = 110
+equip_item_level = 125
+item = item_坐騎種子,1
+fail_ratio = 70
+dismount = 1
+
+[composite]
+code = 299
+name = 24740
+result = item_百級神兵包
+amount = 1
+type = itemTypeItem
+item = item_精魄碎片,2,item_三國銀票,2,item_嘉獎令,2,item_討敵勳章,20
+fail_ratio = 20
+
+[composite]
+code = 300
+name = 24741
+result = item_百級神甲包
+amount = 1
+type = itemTypeItem
+item = item_魂玉碎片,2,item_三國銀票,2,item_嘉獎令,1,item_討敵勳章,10
+fail_ratio = 20
+
+[composite]
+code = 301
+name = 24742
+result = item_精魄碎片
+amount = 1
+type = itemTypeItem
+item = item_攻之魄,20,item_攻魄召集令,2
+fail_ratio = 20
+
+[composite]
+code = 302
+name = 24743
+result = item_魂玉碎片
+amount = 1
+type = itemTypeItem
+item = item_防之魂,30,item_防魂召集令,3
+fail_ratio = 20
+
+[composite]
+code = 303
+name = 24744
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1
+bless = 7
+fail_ratio = 0
+
+[composite]
+code = 304
+name = 24745
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1
+bless = 8
+fail_ratio = 0
+
+[composite]
+code = 305
+name = 24746
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1
+bless = 9
+fail_ratio = 0
+
+[composite]
+code = 306
+name = 24747
+result = 0
+type = itemTypeALL_ARMOR
+item = item_精鋼,1
+bless = 10
+fail_ratio = 0
+
+[composite]
+code = 307
+name = 24748
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1
+bless = 14
+fail_ratio = 0
+
+[composite]
+code = 308
+name = 24749
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1
+bless = 15
+fail_ratio = 0
+
+[composite]
+code = 309
+name = 24750
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1
+bless = 16
+fail_ratio = 0
+
+[composite]
+code = 310
+name = 24751
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1
+bless = 17
+fail_ratio = 0
+
+[composite]
+code = 311
+name = 24752
+result = 0
+type = itemTypeALL_WEAPON
+item = item_神鐵,1
+bless = 18
+fail_ratio = 0
+
+[composite]
+code = 312
+name = 24753
+comp_name = 24573
+result = 0
+type = itemTypeALL_ARMOR,itemTypeOther,itemTypeHorse
+item = item_體魄秘石,1
+add_con = 10
+fail_ratio = 0
+
+[composite]
+code = 313
+name = 24754
+comp_name = 24587
+result = 0
+type = itemTypeALL_ARMOR,itemTypeUnderwear,itemTypeShield
+item = item_斬合金,1
+magic_defense_type = skillAttr_SLASH,5
+fail_ratio = 0
+
+[composite]
+code = 314
+name = 24755
+comp_name = 24605
+result = 0
+type = itemTypeALL_ARMOR,itemTypeUnderwear,itemTypeShield
+item = item_碎合金,1
+magic_defense_type = skillAttr_BREAK,5
+fail_ratio = 0
+
+[composite]
+code = 315
+name = 24756
+comp_name = 24607
+result = 0
+type = itemTypeALL_ARMOR,itemTypeUnderwear,itemTypeShield
+item = item_射合金,1
+magic_defense_type = skillAttr_ARROW,5
+fail_ratio = 0
+
+[composite]
+code = 316
+name = 24757
+comp_name = 24609
+result = 0
+type = itemTypeALL_ARMOR
+item = item_朱紅石,1
+magic_defense_type = skillAttr_FIRE,5
+fail_ratio = 0
+
+[composite]
+code = 317
+name = 24758
+comp_name = 24613
+result = 0
+type = itemTypeALL_ARMOR,itemTypeP
+item = item_黃晶石,1
+magic_defense_type = skillAttr_GOD,5
+fail_ratio = 0
+
+[composite]
+code = 318
+name = 24759
+comp_name = 24692
+result = 0
+type = itemTypeArm
+item = item_血晶,1
+fail_ratio = 0
+skill_attack_type = skillAttr_FIRE,15
+
+[composite]
+code = 319
+name = 24760
+comp_name = 24696
+result = 0
+type = itemTypeArm
+item = item_血晶,1
+fail_ratio = 0
+skill_attack_type = skillAttr_GOD,15
+
