@@ -7660,3 +7660,52 @@ map = 038,42000,1000
 map = 036,42000,1000
 map = 104,42000,1000
 map = 032,42000,1000
+
+[army]
+code = 601
+name = 29066
+reborn_delay = 15
+reborn_range = 300
+disappear_time = 240
+list = role_±i¬KµØ,role_­JÜH,role_¸³¿X
+map = 146,22000,1600
+map = 134,12000,1600
+map = 135,32000,1600
+map = 102,22000,1600
+map = 101,12000,1600
+map = 115,32000,1600
+map = 152,22000,1600
+map = 327,22000,1600
+map = 328,38000,1600
+
+[army]
+code = 602
+name = 29067
+reborn_delay = 10
+reborn_range = 300
+disappear_time = 240
+list = role_¶À¤ë­^,role_±ä©Ê
+map = 151,22000,1600
+map = 121,12000,1600
+map = 133,32000,1600
+map = 150,22000,1600
+map = 99,12000,1600
+map = 100,32000,1600
+map = 331,22000,1600
+map = 332,38000,1600
+
+[army]
+code = 603
+name = 29068
+reborn_delay = 29
+reborn_range = 300
+disappear_time = 240
+list = role_§fºö¬Â,role_»NÅQ,role_°qµÞ
+map = 151,22000,1600
+map = 121,12000,1600
+map = 133,32000,1600
+map = 150,22000,1600
+map = 99,12000,1600
+map = 100,32000,1600
+map = 331,22000,1600
+map = 332,38000,1600
