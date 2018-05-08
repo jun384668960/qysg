@@ -3720,9 +3720,36 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                         lvi.SubItems.Add(txt_xbName5.Text);
                         lvi.SubItems.Add(txt_xbCount5.Text);
                         lstv_xblog.Items.Add(lvi);
+                    }else
+                    {
+                        string msg2 = "\n"
+                            + "账户：" + txt_xbAccount.Text + "\n"
+                            + "角色：" + txt_xbName.Text + "\n";
+                        if(txt_xbId1.Text != "" && xbCount1 != 0)
+                        {
+                            msg += "物品：" + txt_xbName1.Text + "\t数量：" + txt_xbCount1.Text + "\t\n";
+                        }
+                        if(txt_xbId2.Text != "" && xbCount2 != 0)
+                        {
+                            msg += "物品：" + txt_xbName2.Text + "\t数量：" + txt_xbCount2.Text + "\t\n";
+                        }
+                        if (txt_xbId3.Text != "" && xbCount3 != 0)
+                        {
+                            msg += "物品：" + txt_xbName3.Text + "\t数量：" + txt_xbCount3.Text + "\t\n";
+                        }
+                        if (txt_xbId4.Text != "" && xbCount4 != 0)
+                        {
+                            msg += "物品：" + txt_xbName4.Text + "\t数量：" + txt_xbCount4.Text + "\t\n";
+                        }
+                        if (txt_xbId5.Text != "" && xbCount5 != 0)
+                        {
+                            msg += "物品：" + txt_xbName5.Text + "\t数量：" + txt_xbCount5.Text + "\t\n";
+                        }
+                        MessageBox.Show("发送失败，\t\n" + msg2);
                     }
                 }
 
+                Thread.Sleep(200);
                 if((txt_xbId6.Text == "" || xbCount6 == 0) && (txt_xbId7.Text == "" || xbCount7 == 0) 
                     && (txt_xbId8.Text == "" || xbCount8 == 0) && (txt_xbId9.Text == "" || xbCount9 == 0) 
                     && (txt_xbId10.Text == "" || xbCount10 == 0) )
@@ -3763,8 +3790,35 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                         lvi.SubItems.Add(txt_xbCount10.Text);
                         lstv_xblog.Items.Add(lvi);
                     }
+                    else
+                    {
+                        string msg2 = "\n"
+                            + "账户：" + txt_xbAccount.Text + "\n"
+                            + "角色：" + txt_xbName.Text + "\n";
+                        if (txt_xbId6.Text != "" && xbCount6 != 0)
+                        {
+                            msg += "物品：" + txt_xbName6.Text + "\t数量：" + txt_xbCount6.Text + "\t\n";
+                        }
+                        if (txt_xbId7.Text != "" && xbCount7 != 0)
+                        {
+                            msg += "物品：" + txt_xbName7.Text + "\t数量：" + txt_xbCount7.Text + "\t\n";
+                        }
+                        if (txt_xbId8.Text != "" && xbCount8 != 0)
+                        {
+                            msg += "物品：" + txt_xbName8.Text + "\t数量：" + txt_xbCount8.Text + "\t\n";
+                        }
+                        if (txt_xbId9.Text != "" && xbCount9 != 0)
+                        {
+                            msg += "物品：" + txt_xbName9.Text + "\t数量：" + txt_xbCount9.Text + "\t\n";
+                        }
+                        if (txt_xbId10.Text != "" && xbCount10 != 0)
+                        {
+                            msg += "物品：" + txt_xbName10.Text + "\t数量：" + txt_xbCount10.Text + "\t\n";
+                        }
+                        MessageBox.Show("发送失败，\t\n" + msg2);
+                    }
                 }
-
+                Thread.Sleep(200);
                 //代币
                 if (!string.IsNullOrEmpty(txt_dbSend.Text) && CFormat.isNumberic(txt_dbSend.Text))
                 {
@@ -3785,6 +3839,10 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                         if (ret == "success")
                         {
                             txt_dbCurr.Text = "" + CSGHelper.SelectAcountPoint(txt_xbAccount.Text);
+                        }
+                        else
+                        {
+                            MessageBox.Show("发送代币失败，代币：" + dbCount);
                         }
                     }
                 }
