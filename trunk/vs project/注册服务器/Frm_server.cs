@@ -3723,7 +3723,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                     }
                 }
 
-                if((txt_xbId6.Text == "" || xbCount6 != 0) && (txt_xbId7.Text == "" || xbCount7 == 0) 
+                if((txt_xbId6.Text == "" || xbCount6 == 0) && (txt_xbId7.Text == "" || xbCount7 == 0) 
                     && (txt_xbId8.Text == "" || xbCount8 == 0) && (txt_xbId9.Text == "" || xbCount9 == 0) 
                     && (txt_xbId10.Text == "" || xbCount10 == 0) )
                 { }
