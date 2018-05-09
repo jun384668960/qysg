@@ -1004,6 +1004,78 @@ int CALLBACK AccMgr_EventBtnClick(BOOL *pbHandled)
 	*pbHandled = TRUE;
 	return 0;
 }
+
+BOOL CALLBACK MyEnumWindowsProc(HWND hwnd, LPARAM lParam)
+{
+	if (hwnd != NULL) 
+	{
+		DWORD dwStyle = GetWindowLong(hwnd, GWL_STYLE);
+		if ((dwStyle & WS_OVERLAPPEDWINDOW) && (dwStyle & WS_VISIBLE))
+		{
+			CString csWinName;
+			CWnd* pWnd = CWnd::FromHandle(hwnd);
+			// 窗口标题
+			pWnd->GetWindowText(csWinName);
+			//if (csWinName.Find("三国") >= 0 || csWinName.Find("online") >= 0 || csWinName.Find("loader") >= 0)
+			if (csWinName.Find(L"三国群英传OnLine") >= 0)
+			{
+				DWORD dwProcId;
+				//获取窗口进程ID
+				::GetWindowThreadProcessId(hwnd, &dwProcId);
+
+				//保存窗口名
+				CString szTest;
+				szTest.Format(_T("三国群英传OnLine - PID:%d"), dwProcId);
+
+				SetWindowText(hwnd, szTest);
+			}
+		}
+	}
+
+	return TRUE;
+}
+
+///< 通过进程ID获取窗口句柄
+HWND GetWindowHwndByPorcessID(DWORD dwProcessID)
+{
+	DWORD dwPID = 0;
+	HWND hwndRet = NULL;
+	// 取得第一个窗口句柄
+	HWND hwndWindow = ::GetTopWindow(0);
+	while (hwndWindow)
+	{
+		dwPID = 0;
+		// 通过窗口句柄取得进程ID
+		DWORD dwTheardID = ::GetWindowThreadProcessId(hwndWindow, &dwPID);
+		if (dwTheardID != 0)
+		{
+			// 判断和参数传入的进程ID是否相等
+			if (dwPID == dwProcessID)
+			{
+				// 进程ID相等，则记录窗口句柄
+				hwndRet = hwndWindow;
+				break;
+			}
+		}
+		// 取得下一个窗口句柄
+		hwndWindow = ::GetNextWindow(hwndWindow, GW_HWNDNEXT);
+	}
+	// 上面取得的窗口，不一定是最上层的窗口，需要通过GetParent获取最顶层窗口
+	HWND hwndWindowParent = NULL;
+	// 循环查找父窗口，以便保证返回的句柄是最顶层的窗口句柄
+	while (hwndRet != NULL)
+	{
+		hwndWindowParent = ::GetParent(hwndRet);
+		if (hwndWindowParent == NULL)
+		{
+			break;
+		}
+		hwndRet = hwndWindowParent;
+	}
+	// 返回窗口句柄
+	return hwndRet;
+}
+
 int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 {
 	CString nerVer = "";
@@ -1056,6 +1128,7 @@ int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 		MessageBox(XWnd_GetHWND(hWindow), L"启动游戏失败！", L"提示", MB_OK);
 		return -1;
 	}
+
 	// remember pid
 	// 查找当前是否有空位
 	for (int i = 0; i < MAX_CLNT_SIZE; i++)
@@ -1243,6 +1316,21 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 				BOOL flag;
 				WinClose_EventBtnClick(&flag);
 			}
+
+			/*for (int i = 0; i < MAX_CLNT_SIZE; i++)
+			{
+				if (g_ClntPidMap[i] != 0)
+				{
+					HWND hwnd = GetWindowHwndByPorcessID(g_ClntPidMap[i]);
+					if (hwnd != NULL)
+					{
+						CString csTitle;
+						csTitle.Format(_T("三国群英传OnLine - %d"), g_ClntPidMap[i]);
+						SetWindowText(hwnd, csTitle);
+					}
+				}
+			}*/
+			EnumWindows(MyEnumWindowsProc, (LPARAM)hWindow);//遍历窗口程序
 		}
 		catch (CException& w)
 		{
