@@ -97,7 +97,7 @@ BOOL CALLBACK MyEnumWindowsProc(HWND hwnd, LPARAM lParam)
 			// 窗口标题
 			pWnd->GetWindowText(csWinName);
 			//if (csWinName.Find("三国") >= 0 || csWinName.Find("online") >= 0 || csWinName.Find("loader") >= 0)
-			if (csWinName.Find("三国群英传") >= 0)
+			if (csWinName.Find("三国群英传OnLine") >= 0)
 			{
 				m_WindowInfo[m_num].hHwnd = hwnd;//record the HWND handle into array
 
@@ -105,9 +105,8 @@ BOOL CALLBACK MyEnumWindowsProc(HWND hwnd, LPARAM lParam)
 				::GetWindowThreadProcessId(hwnd, &m_WindowInfo[m_num].dwProcId);
 
 				//保存窗口名
-				CString csProcId;
-				csProcId.Format(_T(" - PID:%d"), m_WindowInfo[m_num].dwProcId);
-				m_WindowInfo[m_num].csWindowName = csWinName + csProcId;
+				csWinName.Format(_T("三国群英传OnLine - PID:%d"), m_WindowInfo[m_num].dwProcId);
+				m_WindowInfo[m_num].csWindowName = csWinName;
 
 				// 窗口类名
 				::GetClassName(hwnd, m_WindowInfo[m_num].csClassName.GetBuffer(256), 256);
