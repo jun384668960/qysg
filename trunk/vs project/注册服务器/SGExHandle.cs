@@ -178,14 +178,18 @@ namespace 注册网关
                     foreach (var item in logList)
                     {
                         bool send = true;
-                        foreach (var name in m_FilterList)
+                        if (m_FilterList != null)
                         {
-                            if (name == item.from_name)
+                            foreach (var name in m_FilterList)
                             {
-                                send = false;
-                                break;
+                                if (name == item.from_name)
+                                {
+                                    send = false;
+                                    break;
+                                }
                             }
                         }
+                        
                         if (send)
                         {
                             string words = "";

@@ -212,6 +212,7 @@
             this.rTxtB_WorldWords = new System.Windows.Forms.RichTextBox();
             this.label73 = new System.Windows.Forms.Label();
             this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.cbx_AutoStartQues = new System.Windows.Forms.CheckBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.btn_startQues = new System.Windows.Forms.Button();
@@ -236,6 +237,7 @@
             this.label75 = new System.Windows.Forms.Label();
             this.txt_QusbankFile = new System.Windows.Forms.TextBox();
             this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.cbx_AutoStart15Talk = new System.Windows.Forms.CheckBox();
             this.rbx_15NameFilter = new System.Windows.Forms.RichTextBox();
             this.label80 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
@@ -263,7 +265,7 @@
             this.columnHeader120 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lbl_AccountCount = new System.Windows.Forms.Label();
             this.textBox24 = new System.Windows.Forms.TextBox();
-            this.button37 = new System.Windows.Forms.Button();
+            this.btn_AccountReflush = new System.Windows.Forms.Button();
             this.button36 = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
             this.button33 = new System.Windows.Forms.Button();
@@ -722,17 +724,17 @@
             this.columnHeader105 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btn_OrgStageRd = new System.Windows.Forms.Button();
             this.tabPage17 = new System.Windows.Forms.TabPage();
+            this.btn_FreezeFilterSet = new System.Windows.Forms.Button();
+            this.label71 = new System.Windows.Forms.Label();
+            this.rtb_FreezeFilter = new System.Windows.Forms.RichTextBox();
             this.IllCheckNow = new System.Windows.Forms.Button();
             this.btn_FreezeListAcc = new System.Windows.Forms.Button();
             this.cbx_AutoFreeze = new System.Windows.Forms.CheckBox();
-            this.btn_LoginLogGet = new System.Windows.Forms.Button();
             this.lstv_GtList = new System.Windows.Forms.ListView();
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.label71 = new System.Windows.Forms.Label();
-            this.txt_LoginLog = new System.Windows.Forms.TextBox();
             this.label72 = new System.Windows.Forms.Label();
             this.lbl_FreezeCount = new System.Windows.Forms.Label();
             this.lbl_IllCount = new System.Windows.Forms.Label();
@@ -2587,6 +2589,7 @@
             // 
             // tabPage14
             // 
+            this.tabPage14.Controls.Add(this.cbx_AutoStartQues);
             this.tabPage14.Controls.Add(this.radioButton2);
             this.tabPage14.Controls.Add(this.radioButton1);
             this.tabPage14.Controls.Add(this.btn_startQues);
@@ -2616,6 +2619,17 @@
             this.tabPage14.TabIndex = 1;
             this.tabPage14.Text = "在线答题";
             this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // cbx_AutoStartQues
+            // 
+            this.cbx_AutoStartQues.AutoSize = true;
+            this.cbx_AutoStartQues.Location = new System.Drawing.Point(348, 159);
+            this.cbx_AutoStartQues.Name = "cbx_AutoStartQues";
+            this.cbx_AutoStartQues.Size = new System.Drawing.Size(72, 16);
+            this.cbx_AutoStartQues.TabIndex = 4;
+            this.cbx_AutoStartQues.Text = "自动开启";
+            this.cbx_AutoStartQues.UseVisualStyleBackColor = true;
+            this.cbx_AutoStartQues.CheckedChanged += new System.EventHandler(this.cbx_AutoStartQues_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -2825,6 +2839,7 @@
             // 
             // tabPage18
             // 
+            this.tabPage18.Controls.Add(this.cbx_AutoStart15Talk);
             this.tabPage18.Controls.Add(this.rbx_15NameFilter);
             this.tabPage18.Controls.Add(this.label80);
             this.tabPage18.Controls.Add(this.label82);
@@ -2843,6 +2858,17 @@
             this.tabPage18.TabIndex = 2;
             this.tabPage18.Text = "加持与掉落公共";
             this.tabPage18.UseVisualStyleBackColor = true;
+            // 
+            // cbx_AutoStart15Talk
+            // 
+            this.cbx_AutoStart15Talk.AutoSize = true;
+            this.cbx_AutoStart15Talk.Location = new System.Drawing.Point(365, 46);
+            this.cbx_AutoStart15Talk.Name = "cbx_AutoStart15Talk";
+            this.cbx_AutoStart15Talk.Size = new System.Drawing.Size(72, 16);
+            this.cbx_AutoStart15Talk.TabIndex = 3;
+            this.cbx_AutoStart15Talk.Text = "自动启动";
+            this.cbx_AutoStart15Talk.UseVisualStyleBackColor = true;
+            this.cbx_AutoStart15Talk.CheckedChanged += new System.EventHandler(this.cbx_AutoStart15Talk_CheckedChanged);
             // 
             // rbx_15NameFilter
             // 
@@ -2979,7 +3005,7 @@
             this.groupBox40.Controls.Add(this.lstv_Account);
             this.groupBox40.Controls.Add(this.lbl_AccountCount);
             this.groupBox40.Controls.Add(this.textBox24);
-            this.groupBox40.Controls.Add(this.button37);
+            this.groupBox40.Controls.Add(this.btn_AccountReflush);
             this.groupBox40.Controls.Add(this.button36);
             this.groupBox40.Location = new System.Drawing.Point(6, 85);
             this.groupBox40.Name = "groupBox40";
@@ -3070,15 +3096,15 @@
             this.textBox24.Size = new System.Drawing.Size(100, 21);
             this.textBox24.TabIndex = 1;
             // 
-            // button37
+            // btn_AccountReflush
             // 
-            this.button37.Location = new System.Drawing.Point(17, 12);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(75, 23);
-            this.button37.TabIndex = 2;
-            this.button37.Text = "刷新";
-            this.button37.UseVisualStyleBackColor = true;
-            this.button37.Click += new System.EventHandler(this.button37_Click);
+            this.btn_AccountReflush.Location = new System.Drawing.Point(17, 12);
+            this.btn_AccountReflush.Name = "btn_AccountReflush";
+            this.btn_AccountReflush.Size = new System.Drawing.Size(75, 23);
+            this.btn_AccountReflush.TabIndex = 2;
+            this.btn_AccountReflush.Text = "刷新";
+            this.btn_AccountReflush.UseVisualStyleBackColor = true;
+            this.btn_AccountReflush.Click += new System.EventHandler(this.btn_AccountReflush_Click);
             // 
             // button36
             // 
@@ -7305,14 +7331,14 @@
             // 
             // tabPage17
             // 
+            this.tabPage17.Controls.Add(this.btn_FreezeFilterSet);
+            this.tabPage17.Controls.Add(this.label71);
+            this.tabPage17.Controls.Add(this.rtb_FreezeFilter);
             this.tabPage17.Controls.Add(this.IllCheckNow);
             this.tabPage17.Controls.Add(this.btn_FreezeListAcc);
             this.tabPage17.Controls.Add(this.cbx_AutoFreeze);
-            this.tabPage17.Controls.Add(this.btn_LoginLogGet);
             this.tabPage17.Controls.Add(this.lstv_GtList);
             this.tabPage17.Controls.Add(this.btn_startListen);
-            this.tabPage17.Controls.Add(this.label71);
-            this.tabPage17.Controls.Add(this.txt_LoginLog);
             this.tabPage17.Controls.Add(this.label72);
             this.tabPage17.Controls.Add(this.lbl_FreezeCount);
             this.tabPage17.Controls.Add(this.lbl_IllCount);
@@ -7323,6 +7349,33 @@
             this.tabPage17.TabIndex = 4;
             this.tabPage17.Text = "外挂检测";
             this.tabPage17.UseVisualStyleBackColor = true;
+            // 
+            // btn_FreezeFilterSet
+            // 
+            this.btn_FreezeFilterSet.Location = new System.Drawing.Point(411, 230);
+            this.btn_FreezeFilterSet.Name = "btn_FreezeFilterSet";
+            this.btn_FreezeFilterSet.Size = new System.Drawing.Size(75, 23);
+            this.btn_FreezeFilterSet.TabIndex = 8;
+            this.btn_FreezeFilterSet.Text = "设置";
+            this.btn_FreezeFilterSet.UseVisualStyleBackColor = true;
+            this.btn_FreezeFilterSet.Click += new System.EventHandler(this.btn_FreezeFilterSet_Click);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Location = new System.Drawing.Point(411, 20);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(143, 12);
+            this.label71.TabIndex = 7;
+            this.label71.Text = "过滤的账户(以,号分隔)：";
+            // 
+            // rtb_FreezeFilter
+            // 
+            this.rtb_FreezeFilter.Location = new System.Drawing.Point(411, 46);
+            this.rtb_FreezeFilter.Name = "rtb_FreezeFilter";
+            this.rtb_FreezeFilter.Size = new System.Drawing.Size(543, 178);
+            this.rtb_FreezeFilter.TabIndex = 6;
+            this.rtb_FreezeFilter.Text = "";
             // 
             // IllCheckNow
             // 
@@ -7347,22 +7400,13 @@
             // cbx_AutoFreeze
             // 
             this.cbx_AutoFreeze.AutoSize = true;
-            this.cbx_AutoFreeze.Location = new System.Drawing.Point(294, 17);
+            this.cbx_AutoFreeze.Location = new System.Drawing.Point(33, 16);
             this.cbx_AutoFreeze.Name = "cbx_AutoFreeze";
             this.cbx_AutoFreeze.Size = new System.Drawing.Size(72, 16);
             this.cbx_AutoFreeze.TabIndex = 4;
             this.cbx_AutoFreeze.Text = "自动冻结";
             this.cbx_AutoFreeze.UseVisualStyleBackColor = true;
-            // 
-            // btn_LoginLogGet
-            // 
-            this.btn_LoginLogGet.Location = new System.Drawing.Point(218, 16);
-            this.btn_LoginLogGet.Name = "btn_LoginLogGet";
-            this.btn_LoginLogGet.Size = new System.Drawing.Size(48, 23);
-            this.btn_LoginLogGet.TabIndex = 3;
-            this.btn_LoginLogGet.Text = "浏览...";
-            this.btn_LoginLogGet.UseVisualStyleBackColor = true;
-            this.btn_LoginLogGet.Click += new System.EventHandler(this.btn_LoginLogGet_Click);
+            this.cbx_AutoFreeze.CheckedChanged += new System.EventHandler(this.cbx_AutoFreeze_CheckedChanged);
             // 
             // lstv_GtList
             // 
@@ -7398,22 +7442,6 @@
             // 
             this.columnHeader10.Text = "状态";
             this.columnHeader10.Width = 61;
-            // 
-            // label71
-            // 
-            this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(10, 21);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(41, 12);
-            this.label71.TabIndex = 0;
-            this.label71.Text = "目录：";
-            // 
-            // txt_LoginLog
-            // 
-            this.txt_LoginLog.Location = new System.Drawing.Point(57, 16);
-            this.txt_LoginLog.Name = "txt_LoginLog";
-            this.txt_LoginLog.Size = new System.Drawing.Size(155, 21);
-            this.txt_LoginLog.TabIndex = 1;
             // 
             // label72
             // 
@@ -7807,9 +7835,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader8;
         private System.Windows.Forms.ColumnHeader columnHeader9;
         private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.Button btn_LoginLogGet;
-        private System.Windows.Forms.Label label71;
-        private System.Windows.Forms.TextBox txt_LoginLog;
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label lbl_FreezeCount;
@@ -8271,7 +8296,7 @@
         private System.Windows.Forms.ColumnHeader columnHeader120;
         private System.Windows.Forms.Label lbl_AccountCount;
         private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.Button button37;
+        private System.Windows.Forms.Button btn_AccountReflush;
         private System.Windows.Forms.Button button36;
         private System.Windows.Forms.GroupBox groupBox39;
         private System.Windows.Forms.Button button35;
@@ -8298,6 +8323,11 @@
         private System.Windows.Forms.Label label174;
         private System.Windows.Forms.GroupBox groupBox42;
         private System.Windows.Forms.CheckBox cbx_orgStillStageRewardAuto;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.RichTextBox rtb_FreezeFilter;
+        private System.Windows.Forms.Button btn_FreezeFilterSet;
+        private System.Windows.Forms.CheckBox cbx_AutoStart15Talk;
+        private System.Windows.Forms.CheckBox cbx_AutoStartQues;
     }
 }
 

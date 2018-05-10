@@ -48,6 +48,7 @@ namespace register_server
 
     public class CSGHelper
     {
+        public static bool m_SqlConnected = false;
         public static bool SqlConn(string cnn_str) {
             //conn = new SqlConnection("Data Source = 127.0.0.1; Initial Catalog = Account; User Id = sa; Password = 123456;");
            
@@ -55,21 +56,25 @@ namespace register_server
             {
                 conn = new SqlConnection(cnn_str); ;
                 conn.Open();
+                m_SqlConnected = true;
                 return true;
             }
             catch (Exception)
             {
+                m_SqlConnected = false;
                 return false;
             }
         }
         public static bool SqlClose()
         {
             conn.Close();
-
+            m_SqlConnected = false;
             return true;
         }
         public static string CreateAccount(string name, string passwd)
         {
+            if (!m_SqlConnected)
+                return "创建失败";
 
             string accout_name = name;
             string accout_password = passwd;
@@ -104,6 +109,8 @@ namespace register_server
 
         public static string ModifyPwd(string name, string oldpasswd, string newpasswd)
         {
+            if (!m_SqlConnected)
+                return "修改失败";
 
             string accout_name = name;
             string old_EncPasswd = Md5Helper.MD5ToString(oldpasswd);
@@ -141,6 +148,11 @@ namespace register_server
         private static System.Threading.Mutex mutex;
         public static List<string> SearchStrCount(string str, DateTime startTime, DateTime endTime)
         {
+            List<string> namelist = new List<string>();
+
+            if (!m_SqlConnected)
+                return namelist;
+
             string sqlstr = "";
 
             SqlCommand sqlComm = null;
@@ -154,7 +166,7 @@ namespace register_server
             mutex.WaitOne();
 
             SqlDataReader Dr = sqlComm.ExecuteReader();
-            List<string> namelist = new List<string>();
+            
             while (Dr.Read())
             {
                 //count = int.Parse(Dr["name"].ToString());
@@ -215,6 +227,9 @@ namespace register_server
 
         public static string FreezeAccount(string accout_name, int type, string reason, string optor)
         {
+            if (!m_SqlConnected)
+                return "冻结失败";
+
             string ErrInfo = "";
             SqlCommand sqlComm = null;
             //*
@@ -245,6 +260,9 @@ namespace register_server
 
         public static string SqlCommand(string sqlLine)
         {
+            if (!m_SqlConnected)
+                return "false";
+
             string ret = "";
             SqlCommand sqlcmd = new SqlCommand();
             sqlcmd.CommandText = sqlLine;
@@ -263,6 +281,9 @@ namespace register_server
 
         public static int SelectAcountPoint(string account)
         {
+            if (!m_SqlConnected)
+                return 0;
+
             int point = 0;
 
             string sqlstr = "";
@@ -291,6 +312,10 @@ namespace register_server
         }
         public static List<LogSearch> SearchLogMsg(string msg, string t_start, string t_end)
         {
+            List<LogSearch> loglist = new List<LogSearch>();
+            if (!m_SqlConnected)
+                return loglist;
+
             string sqlstr = "";
 
             SqlCommand sqlComm = null;
@@ -309,7 +334,7 @@ namespace register_server
             mutex.WaitOne();
 
             SqlDataReader Dr = sqlComm.ExecuteReader();
-            List<LogSearch> loglist = new List<LogSearch>();
+            
             LogSearch item;
             while (Dr.Read())
             {
@@ -330,7 +355,10 @@ namespace register_server
 
         public static List<LogItemSearch> SearchLogItem(string max, string t_start, string t_end, List<string> items)
         {
-            
+            List<LogItemSearch> logitemlist = new List<LogItemSearch>();
+            if (!m_SqlConnected)
+                return logitemlist;
+
             string sqlstr = "";
 
             SqlCommand sqlComm = null;
@@ -366,7 +394,7 @@ namespace register_server
             mutex.WaitOne();
 
             SqlDataReader Dr = sqlComm.ExecuteReader();
-            List<LogItemSearch> logitemlist = new List<LogItemSearch>();
+            
             LogItemSearch item;
             while (Dr.Read())
             {

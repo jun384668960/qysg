@@ -778,6 +778,7 @@ namespace 注册网关
                         organizeRst.leader = CFormat.GameStrToSimpleCN(it.OrganizeLeaderZh);
 
                         bool find = false;
+                        //检测记录
                         for (int i = 0; i < m_NoticeTmpConstOrganizeRst.Count; i++)
                         {
                             if (m_NoticeTmpConstOrganizeRst[i].stage == organizeRst.stage)//如果已经找到该城池记录
@@ -793,20 +794,6 @@ namespace 注册网关
                                     //判断是否达到条件
                                     if (IsConstStageReward(Convert.ToDateTime(organizeRst.bTime), Convert.ToDateTime(organizeRst.eTime), 2)) //达到
                                     {
-                                        /*
-                                        int index = IsStillConstStage(organizeRst);
-                                        if (index >= 0) //是否存在记录
-                                        {
-                                            //更新eTime
-                                            OrganizeConstRst rst = m_NoticeConstOrganizeRst[index];
-                                            rst.eTime = DateTime.Now.ToString();
-                                            m_NoticeConstOrganizeRst[index] = rst;
-                                        }
-                                        else { //添加记录
-
-                                            m_NoticeConstOrganizeRst.Add(m_NoticeTmpConstOrganizeRst[i]);
-                                        }
-                                        */
                                         m_NoticeConstOrganizeRst.Add(m_NoticeTmpConstOrganizeRst[i]);
 
                                         organizeRst.bTime = DateTime.Now.ToString();
@@ -816,8 +803,8 @@ namespace 注册网关
                                 }
                                 else //如果不是同一个军团，则先判断上一个军团是否达到奖励条件，然后替换
                                 {
-                                    if (IsConstStageReward(Convert.ToDateTime(m_NoticeTmpConstOrganizeRst[i].bTime), DateTime.Now, 2))//达到
-                                    {
+                                    if (IsConstStageReward(Convert.ToDateTime(m_NoticeTmpConstOrganizeRst[i].bTime), DateTime.Now, 2))
+                                    {//达到
                                         OrganizeConstRst _organizeRst = new OrganizeConstRst();
                                         _organizeRst = m_NoticeTmpConstOrganizeRst[i];
                                         _organizeRst.eTime = DateTime.Now.ToString();
@@ -834,7 +821,6 @@ namespace 注册网关
                                         m_NoticeTmpConstOrganizeRst[i] = organizeRst;
                                     }
                                 }
-
                             }
                         }
 
@@ -903,7 +889,7 @@ namespace 注册网关
                         }
 
                         //获取防守情况
-                        GetNoticeConstStage(1);
+                        GetNoticeConstStage(0);
                         if (false) //发送防守奖励
                         {
                             SendStageConstReward();

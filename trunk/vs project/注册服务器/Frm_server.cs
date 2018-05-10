@@ -17,6 +17,7 @@ namespace register_server
 {
     public partial class Frm_server : Form
     {
+        #region //成员变量
         public static bool m_Active = false;
         private string serverIni;
 
@@ -41,12 +42,11 @@ namespace register_server
         SGExHandle m_SGExHandle = new SGExHandle();
         private WarHandle warHandle = new WarHandle();
         private CbHandle cbHandle = new CbHandle();
-
+        #endregion
         public Frm_server()
         {
             InitializeComponent();
         }
-
         private bool CheckActive()
         {
             //激活检测
@@ -197,10 +197,22 @@ namespace register_server
                 txt_svrForder.Text = gameServerFolder;
             }
 
-            string loginLogFolder = CIniCtrl.ReadIniData("Config", "loginLogFolder", "", serverIni);
-            if (loginLogFolder != "")
+            string gameFreezeFilter = CIniCtrl.ReadIniData("Config", "FreezeFilter", "", serverIni);
+            if (gameFreezeFilter != "")
             {
-                txt_LoginLog.Text = loginLogFolder;
+                rtb_FreezeFilter.Text = gameFreezeFilter;
+                m_FreezeFilterList = rtb_FreezeFilter.Text.Split(',');
+            }
+
+            string gameAutoFreeze = CIniCtrl.ReadIniData("Config", "AutoFreeze", "", serverIni);
+            if (gameServerFolder != "" && gameAutoFreeze == "Enable")
+            {
+                cbx_AutoFreeze.Checked = true;
+                btn_startListen_Click(null, null);
+            }
+            else
+            {
+                cbx_AutoFreeze.Checked = false;
             }
 
             string gServerIp = CIniCtrl.ReadIniData("Server", "GServerIP", "", serverIni);
@@ -269,6 +281,17 @@ namespace register_server
             m_AnswerVtName = _AnswerVtName;
             txt_AnswerVtName.Text = _AnswerVtName;
 
+            string gameAutoStartQues = CIniCtrl.ReadIniData("Config", "AutoStartQues", "", serverIni);
+            if (gameAutoStartQues != "" && gameAutoStartQues == "Enable")
+            {
+                cbx_AutoStartQues.Checked = true;
+                button21_Click(null, null);
+            }
+            else
+            {
+                cbx_AutoStartQues.Checked = false;
+            }
+
             string _15SrchInterval = CIniCtrl.ReadIniData("Config", "15SrchInterval", "", serverIni);
             if (_15SrchInterval != string.Empty)
             {
@@ -292,6 +315,17 @@ namespace register_server
             string _15NameFilter = CIniCtrl.ReadIniData("Config", "15NameFilter", "", serverIni);
             g_15NameFilter = _15NameFilter;
             rbx_15NameFilter.Text = _15NameFilter;
+
+            string game15TalkAutoStart = CIniCtrl.ReadIniData("Config", "15TalkAutoStart", "", serverIni);
+            if (game15TalkAutoStart != "" && game15TalkAutoStart == "Enable")
+            {
+                cbx_AutoStart15Talk.Checked = true;
+                button21_Click_1(null, null);
+            }
+            else
+            {
+                cbx_AutoStart15Talk.Checked = false;
+            }
 
             string liststring = CIniCtrl.ReadIniData("Config", "WorldWordsList", "", serverIni);
             if (liststring != string.Empty)
@@ -2201,12 +2235,12 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
                 return;
             }
-            //封号操作需要数据库已经链接
-            if (lbl_sqlStatus.Text != "数据库已连接")
-            {
-                MessageBox.Show("请先连接数据库！");
-                return;
-            }
+            ////封号操作需要数据库已经链接
+            //if (lbl_sqlStatus.Text != "数据库已连接")
+            //{
+            //    MessageBox.Show("请先连接数据库！");
+            //    return;
+            //}
 
             if (btn_startListen.Text == "启动检测")
             {
@@ -2239,6 +2273,23 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             lstv_GtList.Items.Clear();
             foreach (var name in nameList)
             {
+                //过滤
+                if (m_FreezeFilterList != null)
+                {
+                    bool filter = false;
+                    String PureAcount = CFormat.PureString(name.account);
+                    foreach (var item in m_FreezeFilterList)
+                    {
+                        if (PureAcount == item)
+                        {
+                            filter = true;
+                            break;
+                        }
+                    }
+                    if (filter)
+                        continue;
+                }
+
                 ListViewItem lvi = new ListViewItem();
 
                 lvi.Text = CFormat.PureString(name.account);
@@ -2248,8 +2299,8 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
 
                 if (cbx_AutoFreeze.Checked)
                 {
-                    //封号
                     string acc = CFormat.PureString(name.account);
+                    //封号
                     try
                     {
                         string log = CSGHelper.FreezeAccount(acc, 1, "非法登录或者使用外挂！", "GM");
@@ -2273,6 +2324,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             lbl_FreezeCount.Text = FreezeCount.ToString();
         }
 
+        private static string[] m_FreezeFilterList;
         private void tm_strListen_Tick(object sender, EventArgs e)
         {
             FreezeCheck();
@@ -2284,7 +2336,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
 
             //获取当前日期
             string time_str = DateTime.Now.ToString("yyyy-MM-dd");
-            string log_name = txt_LoginLog.Text + "\\" + time_str + "_log_login.txt";
+            string log_name = txt_svrForder.Text +"\\Login\\log"+ "\\" + time_str + "_log_login.txt";
             if (!File.Exists(log_name))
             {
                 return list;
@@ -2387,27 +2439,6 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             return list;
         }
 
-        private void btn_LoginLogGet_Click(object sender, EventArgs e)
-        {
-            FolderBrowserDialog folderDialog = new FolderBrowserDialog();
-            folderDialog.Description = "请选择文件路径";
-            string foldPath = "";
-            if (folderDialog.ShowDialog() == DialogResult.OK)
-            {
-                foldPath = folderDialog.SelectedPath;
-            }
-            else
-            {
-                return;
-            }
-
-            //读取版本号到txt_svrForder
-            txt_LoginLog.Text = foldPath;
-
-            //保存次路径到工具配置文件
-            CIniCtrl.WriteIniData("Config", "loginLogFolder", foldPath, serverIni);
-        }
-
         private void btn_FreezeListAcc_Click(object sender, EventArgs e)
         {
             for (int i = 0; i < lstv_GtList.Items.Count; i++)
@@ -2424,6 +2455,24 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                     LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + ex.Message, new StackTrace(new StackFrame(true)));
                 }
             }
+        }
+
+        private void cbx_AutoFreeze_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbx_AutoFreeze.Checked)
+            {
+                CIniCtrl.WriteIniData("Config", "AutoFreeze", "Enable", serverIni);
+            }
+            else
+            {
+                CIniCtrl.WriteIniData("Config", "AutoFreeze", "Disable", serverIni);
+            }
+        }
+
+        private void btn_FreezeFilterSet_Click(object sender, EventArgs e)
+        {
+            m_FreezeFilterList = rtb_FreezeFilter.Text.Split(',');
+            CIniCtrl.WriteIniData("Config", "FreezeFilter", rtb_FreezeFilter.Text, serverIni);
         }
 
         private void IllCheckNow_Click(object sender, EventArgs e)
@@ -2481,6 +2530,17 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
 
         #region //加持公共
         bool g_Stop15Talk = true;
+        private void cbx_AutoStart15Talk_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbx_AutoStart15Talk.Checked)
+            {
+                CIniCtrl.WriteIniData("Config", "15TalkAutoStart", "Enable", serverIni);
+            }
+            else
+            {
+                CIniCtrl.WriteIniData("Config", "15TalkAutoStart", "Disable", serverIni);
+            }
+        }
         private void button21_Click_1(object sender, EventArgs e)
         {
             if (!m_Active)
@@ -2557,6 +2617,18 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
         private UInt32 m_AskNormalInterval = 60 * 30;
         private UInt32 m_AnswerVtId = 11849;
         private string m_AnswerVtName = "公测奖励福袋";
+
+        private void cbx_AutoStartQues_CheckedChanged(object sender, EventArgs e)
+        {
+            if (cbx_AutoStartQues.Checked)
+            {
+                CIniCtrl.WriteIniData("Config", "AutoStartQues", "Enable", serverIni);
+            }
+            else
+            {
+                CIniCtrl.WriteIniData("Config", "AutoStartQues", "Disable", serverIni);
+            }
+        }
         private void button21_Click(object sender, EventArgs e)
         {
             if (!m_Active)
@@ -2568,6 +2640,13 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             if (txt_QusbankFile.Text == string.Empty)
             {
                 MessageBox.Show("请选择题库!");
+                return;
+            }
+            if (txt_TaskTime.Text == string.Empty || txt_AskNormalInterval.Text == string.Empty
+                 || txt_AnswerVtId.Text == string.Empty || txt_AnswerVtName.Text == string.Empty
+                || txt_QuesInterval.Text == string.Empty || txt_MaxQuesNum.Text == string.Empty)
+            {
+                MessageBox.Show("请确保[开始时间][普通题间隔][奖励id][奖励名称][出题总数][问答间隔]均设置成功!");
                 return;
             }
             if (g_StopQues)
@@ -4574,8 +4653,11 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 {
                     lbl_gzStatus.Text = "国战进行中...";
                     lbl_orgStatus.Text = "国战进行中...";
+                    //更新占城信息
+                    FillWarOrgStageLstv();
 
-                    FillWarOrgConstStageLstv(-1);
+                    //更新防守信息
+                    FillWarOrgConstStageLstv(0);
                 });
             }
             else
@@ -5612,6 +5694,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
         }
         #endregion
 
+        #region //国战攻占奖励
         void FillWarOrgStageLstv()
         {
             List<OrganizeRst> rst = warHandle.GetNoticeStage();
@@ -5931,12 +6014,14 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
         {
             warHandle.OrgAutoSend = cbx_orgStageRewardAuto.Checked;
         }
+        #endregion
 
-        private void button37_Click(object sender, EventArgs e)
+        #region //账户管理
+        private void btn_AccountReflush_Click(object sender, EventArgs e)
         {
             int count = 0;
             CPlayerCtrl.LoadPlayerInfos(txt_svrForder.Text + "\\DataBase\\saves\\players.dat", true);
-            try 
+            try
             {
                 string conn_str = "Data Source = " + sql_srvAddr + "," + sql_srvPort + "; Initial Catalog = " + sqlAccountName + "; User Id = " + sql_srvUser + "; Password = " + sql_srvPwd + ";";
                 SqlConnection con = new SqlConnection(conn_str);
@@ -5949,7 +6034,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 //用cmd的函数执行语句，返回SqlDataReader类型的结果dr,dr就是返回的结果集（也就是数据库中查询到的表数据）
                 SqlDataReader dr = cmd.ExecuteReader();
                 //用dr的read函数，每执行一次，返回一个包含下一行数据的集合dr
-                
+
                 while (dr.Read())
                 {
                     //构建一个ListView的数据，存入数据库数据，以便添加到listView1的行数据中
@@ -5971,13 +6056,13 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 }
 
                 con.Close();
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
-            
+
             }
             lbl_AccountCount.Text = "帐号总数：" + count.ToString();
         }
-
-
+        #endregion
     }
 }
