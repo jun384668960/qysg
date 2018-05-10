@@ -1,6 +1,5 @@
 #include PLAYERS.H
 
-
 [army]
 code = 1
 name = 29000
@@ -7499,129 +7498,6 @@ map = 557,52000,800
 
 [army]
 code = 590
-name = 29183
-reborn_delay = 1
-reborn_range = 1
-disappear_time = 300
-list = role_GM007
-map = 558,22000,800
-
-[army]
-code = 591
-name = 29183
-reborn_delay = 1
-reborn_range = 1
-disappear_time = 300
-list = role_GM007
-map = 558,42000,800
-
-[army]
-code = 592
-name = 29183
-reborn_delay = 1
-reborn_range = 1
-disappear_time = 300
-list = role_GM007
-map = 758,52000,800
-
-[army]
-code = 593
-name = 29190
-reborn_delay = 2
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 299,3200,800
-map = 299,6400,800
-map = 299,9600,800
-map = 299,12800,800
-map = 299,16000,800
-map = 299,19200,800
-map = 299,22400,800
-
-[army]
-code = 594
-name = 29190
-reborn_delay = 5
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 27,3200,800
-map = 27,6400,800
-map = 27,9600,800
-map = 27,12800,800
-map = 27,16000,800
-map = 27,19200,800
-map = 27,22400,800
-map = 27,25600,800
-map = 27,28800,800
-map = 27,32000,800
-
-[army]
-code = 595
-name = 29190
-reborn_delay = 2
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 27,3200,800
-map = 27,6400,800
-map = 27,9600,800
-map = 27,12800,800
-map = 27,16000,800
-map = 27,19200,800
-map = 27,22400,800
-map = 27,25600,800
-map = 27,28800,800
-map = 27,32000,800
-
-[army]
-code = 596
-name = 29190
-reborn_delay = 5
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 299,3200,800
-map = 299,6400,800
-map = 299,9600,800
-map = 299,12800,800
-map = 299,16000,800
-map = 299,19200,800
-map = 299,22400,800
-
-[army]
-code = 597
-name = 29190
-reborn_delay = 5
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 593,3200,800
-map = 593,6400,800
-map = 593,9600,800
-map = 593,12800,800
-map = 593,16000,800
-map = 593,19200,800
-map = 593,22400,800
-
-[army]
-code = 598
-name = 29190
-reborn_delay = 2
-reborn_range = 50
-disappear_time = 240
-list = 
-map = 593,3200,800
-map = 593,6400,800
-map = 593,9600,800
-map = 593,12800,800
-map = 593,16000,800
-map = 593,19200,800
-map = 593,22400,800
-
-[army]
-code = 599
 name = 29190
 reborn_delay = 300
 reborn_range = 300
@@ -7648,7 +7524,7 @@ map = 171,22400,800
 map = 118,22400,800
 
 [army]
-code = 600
+code = 591
 name = 29030
 reborn_delay = 1440
 reborn_range = 300
@@ -7662,7 +7538,7 @@ map = 104,42000,1000
 map = 032,42000,1000
 
 [army]
-code = 601
+code = 592
 name = 29066
 reborn_delay = 15
 reborn_range = 300
@@ -7679,7 +7555,7 @@ map = 327,22000,1600
 map = 328,38000,1600
 
 [army]
-code = 602
+code = 593
 name = 29067
 reborn_delay = 10
 reborn_range = 300
@@ -7695,7 +7571,7 @@ map = 331,22000,1600
 map = 332,38000,1600
 
 [army]
-code = 603
+code = 594
 name = 29068
 reborn_delay = 29
 reborn_range = 300
