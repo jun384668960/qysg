@@ -264,25 +264,25 @@
             this.columnHeader119 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader120 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lbl_AccountCount = new System.Windows.Forms.Label();
-            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.txt_AcountSrch = new System.Windows.Forms.TextBox();
             this.btn_AccountReflush = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
+            this.btn_AcountSrch = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
             this.button33 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button27 = new System.Windows.Forms.Button();
-            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.btn_AcountFreeze = new System.Windows.Forms.Button();
+            this.btn_AcountMdifyPwd = new System.Windows.Forms.Button();
+            this.btn_AcountAdd = new System.Windows.Forms.Button();
+            this.txt_AcountNewPwd = new System.Windows.Forms.TextBox();
             this.label169 = new System.Windows.Forms.Label();
-            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.txt_AcountLoginIp = new System.Windows.Forms.TextBox();
             this.label172 = new System.Windows.Forms.Label();
-            this.textBox19 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.txt_AcountPwd = new System.Windows.Forms.TextBox();
+            this.txt_AcountPoint = new System.Windows.Forms.TextBox();
             this.label165 = new System.Windows.Forms.Label();
             this.label171 = new System.Windows.Forms.Label();
-            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.txt_AcountName = new System.Windows.Forms.TextBox();
             this.label164 = new System.Windows.Forms.Label();
             this.tabPage20 = new System.Windows.Forms.TabPage();
             this.btn_bxSend = new System.Windows.Forms.Button();
@@ -740,6 +740,7 @@
             this.lbl_IllCount = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.btn_AcountDisFreeze = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -3004,9 +3005,9 @@
             // 
             this.groupBox40.Controls.Add(this.lstv_Account);
             this.groupBox40.Controls.Add(this.lbl_AccountCount);
-            this.groupBox40.Controls.Add(this.textBox24);
+            this.groupBox40.Controls.Add(this.txt_AcountSrch);
             this.groupBox40.Controls.Add(this.btn_AccountReflush);
-            this.groupBox40.Controls.Add(this.button36);
+            this.groupBox40.Controls.Add(this.btn_AcountSrch);
             this.groupBox40.Location = new System.Drawing.Point(6, 85);
             this.groupBox40.Name = "groupBox40";
             this.groupBox40.Size = new System.Drawing.Size(954, 369);
@@ -3034,6 +3035,7 @@
             this.lstv_Account.TabIndex = 3;
             this.lstv_Account.UseCompatibleStateImageBehavior = false;
             this.lstv_Account.View = System.Windows.Forms.View.Details;
+            this.lstv_Account.SelectedIndexChanged += new System.EventHandler(this.lstv_Account_SelectedIndexChanged);
             // 
             // columnHeader112
             // 
@@ -3089,12 +3091,12 @@
             this.lbl_AccountCount.TabIndex = 0;
             this.lbl_AccountCount.Text = "帐号总数：0";
             // 
-            // textBox24
+            // txt_AcountSrch
             // 
-            this.textBox24.Location = new System.Drawing.Point(657, 12);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(100, 21);
-            this.textBox24.TabIndex = 1;
+            this.txt_AcountSrch.Location = new System.Drawing.Point(657, 12);
+            this.txt_AcountSrch.Name = "txt_AcountSrch";
+            this.txt_AcountSrch.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountSrch.TabIndex = 1;
             // 
             // btn_AccountReflush
             // 
@@ -3106,32 +3108,34 @@
             this.btn_AccountReflush.UseVisualStyleBackColor = true;
             this.btn_AccountReflush.Click += new System.EventHandler(this.btn_AccountReflush_Click);
             // 
-            // button36
+            // btn_AcountSrch
             // 
-            this.button36.Location = new System.Drawing.Point(770, 10);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(75, 23);
-            this.button36.TabIndex = 2;
-            this.button36.Text = "查找";
-            this.button36.UseVisualStyleBackColor = true;
+            this.btn_AcountSrch.Location = new System.Drawing.Point(770, 10);
+            this.btn_AcountSrch.Name = "btn_AcountSrch";
+            this.btn_AcountSrch.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountSrch.TabIndex = 2;
+            this.btn_AcountSrch.Text = "查找";
+            this.btn_AcountSrch.UseVisualStyleBackColor = true;
+            this.btn_AcountSrch.Click += new System.EventHandler(this.btn_AcountSrch_Click);
             // 
             // groupBox39
             // 
+            this.groupBox39.Controls.Add(this.btn_AcountDisFreeze);
             this.groupBox39.Controls.Add(this.button33);
             this.groupBox39.Controls.Add(this.button35);
             this.groupBox39.Controls.Add(this.button34);
-            this.groupBox39.Controls.Add(this.button32);
-            this.groupBox39.Controls.Add(this.button31);
-            this.groupBox39.Controls.Add(this.button27);
-            this.groupBox39.Controls.Add(this.textBox20);
+            this.groupBox39.Controls.Add(this.btn_AcountFreeze);
+            this.groupBox39.Controls.Add(this.btn_AcountMdifyPwd);
+            this.groupBox39.Controls.Add(this.btn_AcountAdd);
+            this.groupBox39.Controls.Add(this.txt_AcountNewPwd);
             this.groupBox39.Controls.Add(this.label169);
-            this.groupBox39.Controls.Add(this.textBox23);
+            this.groupBox39.Controls.Add(this.txt_AcountLoginIp);
             this.groupBox39.Controls.Add(this.label172);
-            this.groupBox39.Controls.Add(this.textBox19);
-            this.groupBox39.Controls.Add(this.textBox22);
+            this.groupBox39.Controls.Add(this.txt_AcountPwd);
+            this.groupBox39.Controls.Add(this.txt_AcountPoint);
             this.groupBox39.Controls.Add(this.label165);
             this.groupBox39.Controls.Add(this.label171);
-            this.groupBox39.Controls.Add(this.textBox18);
+            this.groupBox39.Controls.Add(this.txt_AcountName);
             this.groupBox39.Controls.Add(this.label164);
             this.groupBox39.Location = new System.Drawing.Point(6, 9);
             this.groupBox39.Name = "groupBox39";
@@ -3160,46 +3164,47 @@
             // 
             // button34
             // 
-            this.button34.Location = new System.Drawing.Point(636, 47);
+            this.button34.Location = new System.Drawing.Point(772, 45);
             this.button34.Name = "button34";
             this.button34.Size = new System.Drawing.Size(75, 23);
             this.button34.TabIndex = 2;
             this.button34.Text = "设置GM";
             this.button34.UseVisualStyleBackColor = true;
             // 
-            // button32
+            // btn_AcountFreeze
             // 
-            this.button32.Location = new System.Drawing.Point(544, 47);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(75, 23);
-            this.button32.TabIndex = 2;
-            this.button32.Text = "封号";
-            this.button32.UseVisualStyleBackColor = true;
+            this.btn_AcountFreeze.Location = new System.Drawing.Point(544, 47);
+            this.btn_AcountFreeze.Name = "btn_AcountFreeze";
+            this.btn_AcountFreeze.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountFreeze.TabIndex = 2;
+            this.btn_AcountFreeze.Text = "封号";
+            this.btn_AcountFreeze.UseVisualStyleBackColor = true;
+            this.btn_AcountFreeze.Click += new System.EventHandler(this.btn_AcountFreeze_Click);
             // 
-            // button31
+            // btn_AcountMdifyPwd
             // 
-            this.button31.Location = new System.Drawing.Point(345, 45);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(75, 23);
-            this.button31.TabIndex = 2;
-            this.button31.Text = "修改密码";
-            this.button31.UseVisualStyleBackColor = true;
+            this.btn_AcountMdifyPwd.Location = new System.Drawing.Point(345, 45);
+            this.btn_AcountMdifyPwd.Name = "btn_AcountMdifyPwd";
+            this.btn_AcountMdifyPwd.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountMdifyPwd.TabIndex = 2;
+            this.btn_AcountMdifyPwd.Text = "修改密码";
+            this.btn_AcountMdifyPwd.UseVisualStyleBackColor = true;
             // 
-            // button27
+            // btn_AcountAdd
             // 
-            this.button27.Location = new System.Drawing.Point(345, 18);
-            this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(75, 23);
-            this.button27.TabIndex = 2;
-            this.button27.Text = "添加账号";
-            this.button27.UseVisualStyleBackColor = true;
+            this.btn_AcountAdd.Location = new System.Drawing.Point(345, 18);
+            this.btn_AcountAdd.Name = "btn_AcountAdd";
+            this.btn_AcountAdd.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountAdd.TabIndex = 2;
+            this.btn_AcountAdd.Text = "添加账号";
+            this.btn_AcountAdd.UseVisualStyleBackColor = true;
             // 
-            // textBox20
+            // txt_AcountNewPwd
             // 
-            this.textBox20.Location = new System.Drawing.Point(237, 47);
-            this.textBox20.Name = "textBox20";
-            this.textBox20.Size = new System.Drawing.Size(100, 21);
-            this.textBox20.TabIndex = 1;
+            this.txt_AcountNewPwd.Location = new System.Drawing.Point(237, 47);
+            this.txt_AcountNewPwd.Name = "txt_AcountNewPwd";
+            this.txt_AcountNewPwd.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountNewPwd.TabIndex = 1;
             // 
             // label169
             // 
@@ -3210,12 +3215,12 @@
             this.label169.TabIndex = 0;
             this.label169.Text = "新密码：";
             // 
-            // textBox23
+            // txt_AcountLoginIp
             // 
-            this.textBox23.Location = new System.Drawing.Point(745, 18);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.Size = new System.Drawing.Size(100, 21);
-            this.textBox23.TabIndex = 1;
+            this.txt_AcountLoginIp.Location = new System.Drawing.Point(745, 18);
+            this.txt_AcountLoginIp.Name = "txt_AcountLoginIp";
+            this.txt_AcountLoginIp.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountLoginIp.TabIndex = 1;
             // 
             // label172
             // 
@@ -3226,19 +3231,19 @@
             this.label172.TabIndex = 0;
             this.label172.Text = "登录IP：";
             // 
-            // textBox19
+            // txt_AcountPwd
             // 
-            this.textBox19.Location = new System.Drawing.Point(237, 20);
-            this.textBox19.Name = "textBox19";
-            this.textBox19.Size = new System.Drawing.Size(100, 21);
-            this.textBox19.TabIndex = 1;
+            this.txt_AcountPwd.Location = new System.Drawing.Point(237, 20);
+            this.txt_AcountPwd.Name = "txt_AcountPwd";
+            this.txt_AcountPwd.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountPwd.TabIndex = 1;
             // 
-            // textBox22
+            // txt_AcountPoint
             // 
-            this.textBox22.Location = new System.Drawing.Point(544, 20);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.Size = new System.Drawing.Size(100, 21);
-            this.textBox22.TabIndex = 1;
+            this.txt_AcountPoint.Location = new System.Drawing.Point(544, 20);
+            this.txt_AcountPoint.Name = "txt_AcountPoint";
+            this.txt_AcountPoint.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountPoint.TabIndex = 1;
             // 
             // label165
             // 
@@ -3258,12 +3263,12 @@
             this.label171.TabIndex = 0;
             this.label171.Text = "代币数：";
             // 
-            // textBox18
+            // txt_AcountName
             // 
-            this.textBox18.Location = new System.Drawing.Point(67, 20);
-            this.textBox18.Name = "textBox18";
-            this.textBox18.Size = new System.Drawing.Size(100, 21);
-            this.textBox18.TabIndex = 1;
+            this.txt_AcountName.Location = new System.Drawing.Point(67, 20);
+            this.txt_AcountName.Name = "txt_AcountName";
+            this.txt_AcountName.Size = new System.Drawing.Size(100, 21);
+            this.txt_AcountName.TabIndex = 1;
             // 
             // label164
             // 
@@ -7479,6 +7484,16 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "今日非法总数：";
             // 
+            // btn_AcountDisFreeze
+            // 
+            this.btn_AcountDisFreeze.Location = new System.Drawing.Point(623, 47);
+            this.btn_AcountDisFreeze.Name = "btn_AcountDisFreeze";
+            this.btn_AcountDisFreeze.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountDisFreeze.TabIndex = 3;
+            this.btn_AcountDisFreeze.Text = "解封";
+            this.btn_AcountDisFreeze.UseVisualStyleBackColor = true;
+            this.btn_AcountDisFreeze.Click += new System.EventHandler(this.btn_AcountDisFreeze_Click);
+            // 
             // Frm_server
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -8295,24 +8310,24 @@
         private System.Windows.Forms.ColumnHeader columnHeader119;
         private System.Windows.Forms.ColumnHeader columnHeader120;
         private System.Windows.Forms.Label lbl_AccountCount;
-        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.TextBox txt_AcountSrch;
         private System.Windows.Forms.Button btn_AccountReflush;
-        private System.Windows.Forms.Button button36;
+        private System.Windows.Forms.Button btn_AcountSrch;
         private System.Windows.Forms.GroupBox groupBox39;
         private System.Windows.Forms.Button button35;
         private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button27;
-        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.Button btn_AcountFreeze;
+        private System.Windows.Forms.Button btn_AcountMdifyPwd;
+        private System.Windows.Forms.Button btn_AcountAdd;
+        private System.Windows.Forms.TextBox txt_AcountNewPwd;
         private System.Windows.Forms.Label label169;
-        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.TextBox txt_AcountLoginIp;
         private System.Windows.Forms.Label label172;
-        private System.Windows.Forms.TextBox textBox19;
-        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.TextBox txt_AcountPwd;
+        private System.Windows.Forms.TextBox txt_AcountPoint;
         private System.Windows.Forms.Label label165;
         private System.Windows.Forms.Label label171;
-        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.TextBox txt_AcountName;
         private System.Windows.Forms.Label label164;
         private System.Windows.Forms.Button button33;
         private System.Windows.Forms.GroupBox groupBox8;
@@ -8328,6 +8343,7 @@
         private System.Windows.Forms.Button btn_FreezeFilterSet;
         private System.Windows.Forms.CheckBox cbx_AutoStart15Talk;
         private System.Windows.Forms.CheckBox cbx_AutoStartQues;
+        private System.Windows.Forms.Button btn_AcountDisFreeze;
     }
 }
 

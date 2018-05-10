@@ -1580,7 +1580,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_itemList.Items[itemDefSltIndex].BackColor = Color.Transparent;
                 itemDefSltIndex = this.lstv_itemList.SelectedItems[0].Index;
-                lstv_itemList.Items[itemDefSltIndex].BackColor = Color.AliceBlue;
+                lstv_itemList.Items[itemDefSltIndex].BackColor = Color.Pink;
             }
         }
 
@@ -1657,7 +1657,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 this.lstv_itemList.TopItem = foundItem;  //定位到该项
                 lstv_itemList.Items[foundItem.Index].Focused = true;
                 lstv_itemList.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 itemDefSltIndex = foundItem.Index;
             }
         }
@@ -1932,7 +1932,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 this.lstv_playersInfo.TopItem = foundItem;  //定位到该项
                 lstv_playersInfo.Items[foundItem.Index].Focused = true;
                 lstv_playersInfo.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 playersInfoSltIndex = foundItem.Index;
             }
         }
@@ -1966,7 +1966,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 this.lsv_skillDef.TopItem = foundItem;  //定位到该项
                 lsv_skillDef.Items[foundItem.Index].Focused = true;
                 lsv_skillDef.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 skillDefSltIndex = foundItem.Index;
             }
         }
@@ -1977,7 +1977,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_playersInfo.Items[playersInfoSltIndex].BackColor = Color.Transparent;
                 playersInfoSltIndex = this.lstv_playersInfo.SelectedItems[0].Index;
-                lstv_playersInfo.Items[playersInfoSltIndex].BackColor = Color.AliceBlue;
+                lstv_playersInfo.Items[playersInfoSltIndex].BackColor = Color.Pink;
             }
         }
 
@@ -1987,7 +1987,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lsv_skillDef.Items[skillDefSltIndex].BackColor = Color.Transparent;
                 skillDefSltIndex = this.lsv_skillDef.SelectedItems[0].Index;
-                lsv_skillDef.Items[skillDefSltIndex].BackColor = Color.AliceBlue;
+                lsv_skillDef.Items[skillDefSltIndex].BackColor = Color.Pink;
             }
         }
 
@@ -3378,7 +3378,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_xbAcc.Items[xbPlayersInfoSltIndex].BackColor = Color.Transparent;
                 xbPlayersInfoSltIndex = this.lstv_xbAcc.SelectedItems[0].Index;
-                lstv_xbAcc.Items[xbPlayersInfoSltIndex].BackColor = Color.AliceBlue;
+                lstv_xbAcc.Items[xbPlayersInfoSltIndex].BackColor = Color.Pink;
 
                 txt_xbAccount.Text = lstv_xbAcc.Items[xbPlayersInfoSltIndex].SubItems[0].Text;
                 txt_xbName.Text = lstv_xbAcc.Items[xbPlayersInfoSltIndex].SubItems[1].Text;
@@ -3416,7 +3416,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 lstv_xbAcc.TopItem = foundItem;  //定位到该项
                 lstv_xbAcc.Items[foundItem.Index].Focused = true;
                 //lstv_xbAcc.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 xbPlayersInfoSltIndex = foundItem.Index;
             }
         }
@@ -3449,7 +3449,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 lstv_xbItems.TopItem = foundItem;  //定位到该项
                 lstv_xbItems.Items[foundItem.Index].Focused = true;
                 //lstv_xbItems.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 xbitemDefSltIndex = foundItem.Index;
             }
         }
@@ -3460,7 +3460,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_xbItems.Items[xbitemDefSltIndex].BackColor = Color.Transparent;
                 xbitemDefSltIndex = this.lstv_xbItems.SelectedItems[0].Index;
-                lstv_xbItems.Items[xbitemDefSltIndex].BackColor = Color.AliceBlue;
+                lstv_xbItems.Items[xbitemDefSltIndex].BackColor = Color.Pink;
 
                 //if 有空位
                 if (txt_xbId1.Text == string.Empty || txt_xbCount1.Text == string.Empty)
@@ -4046,7 +4046,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_xblog.Items[xblogSltIndex].BackColor = Color.Transparent;
                 xblogSltIndex = this.lstv_xblog.SelectedItems[0].Index;
-                lstv_xblog.Items[xblogSltIndex].BackColor = Color.AliceBlue;
+                lstv_xblog.Items[xblogSltIndex].BackColor = Color.Pink;
 
 
                 txt_xbAccount.Text = lstv_xblog.Items[xblogSltIndex].SubItems[0].Text;
@@ -4502,7 +4502,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_gzItems.Items[gzitemDefSltIndex].BackColor = Color.Transparent;
                 gzitemDefSltIndex = this.lstv_gzItems.SelectedItems[0].Index;
-                lstv_gzItems.Items[gzitemDefSltIndex].BackColor = Color.AliceBlue;
+                lstv_gzItems.Items[gzitemDefSltIndex].BackColor = Color.Pink;
 
                 //if 有空位
                 if (txt_gzId1.Text == string.Empty || txt_gzCount1.Text == string.Empty)
@@ -4571,7 +4571,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 lstv_gzItems.TopItem = foundItem;  //定位到该项
                 lstv_gzItems.Items[foundItem.Index].Focused = true;
                 //lstv_xbItems.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 gzitemDefSltIndex = foundItem.Index;
             }
         }
@@ -5043,7 +5043,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_gzConf.Items[gzConfSltIndex].BackColor = Color.Transparent;
                 gzConfSltIndex = lstv_gzConf.SelectedItems[0].Index;
-                lstv_gzConf.Items[gzConfSltIndex].BackColor = Color.AliceBlue;
+                lstv_gzConf.Items[gzConfSltIndex].BackColor = Color.Pink;
                 if (lstv_gzConf.Items[gzConfSltIndex].SubItems[17].Text == "1")
                 {
                     txt_gzGoodLuckNumTail.Text = lstv_gzConf.Items[gzConfSltIndex].SubItems[0].Text;
@@ -5285,7 +5285,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 lstv_zcItems.TopItem = foundItem;  //定位到该项
                 lstv_zcItems.Items[foundItem.Index].Focused = true;
                 //lstv_xbItems.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 zcitemDefSltIndex = foundItem.Index;
             }
         }
@@ -5296,7 +5296,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_zcItems.Items[zcitemDefSltIndex].BackColor = Color.Transparent;
                 zcitemDefSltIndex = this.lstv_zcItems.SelectedItems[0].Index;
-                lstv_zcItems.Items[zcitemDefSltIndex].BackColor = Color.AliceBlue;
+                lstv_zcItems.Items[zcitemDefSltIndex].BackColor = Color.Pink;
 
                 //if 有空位
                 if (txt_cbId1.Text == string.Empty || txt_cbCount1.Text == string.Empty)
@@ -5638,7 +5638,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_zcConf.Items[cbConfSltIndex].BackColor = Color.Transparent;
                 cbConfSltIndex = lstv_zcConf.SelectedItems[0].Index;
-                lstv_zcConf.Items[cbConfSltIndex].BackColor = Color.AliceBlue;
+                lstv_zcConf.Items[cbConfSltIndex].BackColor = Color.Pink;
                 if (lstv_zcConf.Items[cbConfSltIndex].SubItems[17].Text == "1")
                 {
                     txt_zcGoodLuckNumTail.Text = lstv_zcConf.Items[cbConfSltIndex].SubItems[0].Text;
@@ -5853,7 +5853,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_orgConf.Items[warOrgConfSltIndex].BackColor = Color.Transparent;
                 warOrgConfSltIndex = lstv_orgConf.SelectedItems[0].Index;
-                lstv_orgConf.Items[warOrgConfSltIndex].BackColor = Color.AliceBlue;
+                lstv_orgConf.Items[warOrgConfSltIndex].BackColor = Color.Pink;
 
                 cbx_orgStages.Text = lstv_orgConf.Items[warOrgConfSltIndex].SubItems[0].Text;
                 cbx_orgType.Text = lstv_orgConf.Items[warOrgConfSltIndex].SubItems[1].Text;
@@ -5932,7 +5932,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 lstv_warOrgItems.TopItem = foundItem;  //定位到该项
                 lstv_warOrgItems.Items[foundItem.Index].Focused = true;
                 //lstv_xbItems.Items[foundItem.Index].Selected = true;
-                foundItem.BackColor = Color.AliceBlue;
+                foundItem.BackColor = Color.Pink;
                 warOrgitemDefSltIndex = foundItem.Index;
             }
         }
@@ -5944,7 +5944,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             {
                 lstv_warOrgItems.Items[warOrgItemDefSltIndex].BackColor = Color.Transparent;
                 warOrgItemDefSltIndex = this.lstv_warOrgItems.SelectedItems[0].Index;
-                lstv_warOrgItems.Items[warOrgItemDefSltIndex].BackColor = Color.AliceBlue;
+                lstv_warOrgItems.Items[warOrgItemDefSltIndex].BackColor = Color.Pink;
 
                 //if 有空位
                 if (txt_orgId1.Text == string.Empty || txt_orgCount1.Text == string.Empty)
@@ -6064,5 +6064,97 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             lbl_AccountCount.Text = "帐号总数：" + count.ToString();
         }
         #endregion
+
+        private void lstv_Account_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //给各个控件赋值
+            if (lstv_Account.SelectedIndices != null && lstv_Account.SelectedIndices.Count > 0)
+            {
+                lstv_Account.Items[xbAccountInfoSltIndex].BackColor = Color.Transparent;
+                xbAccountInfoSltIndex = this.lstv_Account.SelectedItems[0].Index;
+                lstv_Account.Items[xbAccountInfoSltIndex].BackColor = Color.Pink;
+
+                txt_AcountName.Text = lstv_Account.SelectedItems[0].SubItems[0].Text;
+                txt_AcountPwd.Text = lstv_Account.SelectedItems[0].SubItems[1].Text;
+                txt_AcountPoint.Text = lstv_Account.SelectedItems[0].SubItems[5].Text;
+                txt_AcountLoginIp.Text = lstv_Account.SelectedItems[0].SubItems[6].Text;
+            }
+        }
+
+        private void btn_AcountFreeze_Click(object sender, EventArgs e)
+        {
+            string acc = CFormat.PureString(txt_AcountName.Text);
+            if (acc == "")
+                return;
+            //封号
+            string log = "";
+            try
+            {
+                log = CSGHelper.FreezeAccount(acc, 1, "非法登录或者使用外挂！", "GM");
+                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
+                btn_AccountReflush_Click(null, null);
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + ex.Message, new StackTrace(new StackFrame(true)));
+            }
+            MessageBox.Show("账户：" + acc + log);
+        }
+
+        private void btn_AcountDisFreeze_Click(object sender, EventArgs e)
+        {
+            string acc = CFormat.PureString(txt_AcountName.Text);
+            if (acc == "")
+                return;
+            //封号
+            string log = "";
+            try
+            {
+                log = CSGHelper.FreezeAccount(acc, 0, "非法登录或者使用外挂！", "GM");
+                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
+                btn_AccountReflush_Click(null, null);
+            }
+            catch (Exception ex)
+            {
+                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + ex.Message, new StackTrace(new StackFrame(true)));
+            }
+            MessageBox.Show("账户：" + acc + log);
+        }
+
+        private void btn_AcountSrch_Click(object sender, EventArgs e)
+        {
+            ListViewItem foundItem = null;
+            lstv_Account.Items[xbAccountInfoSltIndex].BackColor = Color.Transparent;
+            int i = xbAccountInfoSltIndex + 1;
+            if (i == lstv_Account.Items.Count)
+            {
+                i = 0;
+            }
+            while (i != xbAccountInfoSltIndex)
+            {
+                if (lstv_Account.Items[i].SubItems[0].Text.Contains(txt_AcountSrch.Text)
+                    || lstv_Account.Items[i].SubItems[2].Text.Contains(txt_AcountSrch.Text)
+                    || lstv_Account.Items[i].SubItems[6].Text.Contains(txt_AcountSrch.Text))
+                {
+                    foundItem = lstv_Account.Items[i];
+                    break;
+                }
+                i++;
+                if (i == lstv_Account.Items.Count)
+                {
+                    i = 0;
+                }
+            }
+
+            if (foundItem != null)
+            {
+                lstv_Account.TopItem = foundItem;  //定位到该项
+                lstv_Account.Items[foundItem.Index].Focused = true;
+                //lstv_Account.Items[foundItem.Index].Selected = true;
+                foundItem.BackColor = Color.Pink;
+                xbAccountInfoSltIndex = foundItem.Index;
+            }
+        }
+        static int xbAccountInfoSltIndex = 0;
     }
 }
