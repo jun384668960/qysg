@@ -212,6 +212,9 @@
             this.rTxtB_WorldWords = new System.Windows.Forms.RichTextBox();
             this.label73 = new System.Windows.Forms.Label();
             this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.btn_QATaskSet = new System.Windows.Forms.TabControl();
+            this.tabPage24 = new System.Windows.Forms.TabPage();
+            this.tabPage25 = new System.Windows.Forms.TabPage();
             this.cbx_AutoStartQues = new System.Windows.Forms.CheckBox();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
@@ -229,6 +232,7 @@
             this.label78 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
             this.label84 = new System.Windows.Forms.Label();
+            this.label170 = new System.Windows.Forms.Label();
             this.label85 = new System.Windows.Forms.Label();
             this.label175 = new System.Windows.Forms.Label();
             this.label83 = new System.Windows.Forms.Label();
@@ -237,10 +241,12 @@
             this.label75 = new System.Windows.Forms.Label();
             this.txt_QusbankFile = new System.Windows.Forms.TextBox();
             this.tabPage18 = new System.Windows.Forms.TabPage();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.cbx_AutoStart15Talk = new System.Windows.Forms.CheckBox();
             this.rbx_15NameFilter = new System.Windows.Forms.RichTextBox();
             this.label80 = new System.Windows.Forms.Label();
             this.label82 = new System.Windows.Forms.Label();
+            this.label173 = new System.Windows.Forms.Label();
             this.label81 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
             this.label158 = new System.Windows.Forms.Label();
@@ -268,6 +274,7 @@
             this.btn_AccountReflush = new System.Windows.Forms.Button();
             this.btn_AcountSrch = new System.Windows.Forms.Button();
             this.groupBox39 = new System.Windows.Forms.GroupBox();
+            this.btn_AcountDisFreeze = new System.Windows.Forms.Button();
             this.button33 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.button34 = new System.Windows.Forms.Button();
@@ -740,7 +747,24 @@
             this.lbl_IllCount = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.colorDialog1 = new System.Windows.Forms.ColorDialog();
-            this.btn_AcountDisFreeze = new System.Windows.Forms.Button();
+            this.label178 = new System.Windows.Forms.Label();
+            this.btn_AQTaskSet = new System.Windows.Forms.Button();
+            this.cbc_QATaskIndex = new System.Windows.Forms.ComboBox();
+            this.rbx_QATaskDetil = new System.Windows.Forms.RichTextBox();
+            this.rbx_QANormalDetil = new System.Windows.Forms.RichTextBox();
+            this.btn_QANormalSet = new System.Windows.Forms.Button();
+            this.btn_QAItemSrch = new System.Windows.Forms.Button();
+            this.btn_QAItemReload = new System.Windows.Forms.Button();
+            this.lstv_QAItems = new System.Windows.Forms.ListView();
+            this.txt_QAItemSrch = new System.Windows.Forms.TextBox();
+            this.label176 = new System.Windows.Forms.Label();
+            this.label177 = new System.Windows.Forms.Label();
+            this.txt_QAItemId = new System.Windows.Forms.TextBox();
+            this.txt_QAItemName = new System.Windows.Forms.TextBox();
+            this.columnHeader106 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader109 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.btn_AQNormalAppend = new System.Windows.Forms.Button();
+            this.btn_AQTaskAppend = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -766,6 +790,9 @@
             this.tabControl4.SuspendLayout();
             this.tabPage13.SuspendLayout();
             this.tabPage14.SuspendLayout();
+            this.btn_QATaskSet.SuspendLayout();
+            this.tabPage24.SuspendLayout();
+            this.tabPage25.SuspendLayout();
             this.tabPage18.SuspendLayout();
             this.tabPage21.SuspendLayout();
             this.groupBox38.SuspendLayout();
@@ -2491,7 +2518,7 @@
             this.tabControl4.Location = new System.Drawing.Point(6, 17);
             this.tabControl4.Name = "tabControl4";
             this.tabControl4.SelectedIndex = 0;
-            this.tabControl4.Size = new System.Drawing.Size(573, 216);
+            this.tabControl4.Size = new System.Drawing.Size(573, 432);
             this.tabControl4.TabIndex = 4;
             // 
             // tabPage13
@@ -2507,7 +2534,7 @@
             this.tabPage13.Location = new System.Drawing.Point(4, 22);
             this.tabPage13.Name = "tabPage13";
             this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage13.Size = new System.Drawing.Size(565, 190);
+            this.tabPage13.Size = new System.Drawing.Size(565, 406);
             this.tabPage13.TabIndex = 0;
             this.tabPage13.Text = "系统公告";
             this.tabPage13.UseVisualStyleBackColor = true;
@@ -2518,7 +2545,7 @@
             this.listBox1.ItemHeight = 12;
             this.listBox1.Location = new System.Drawing.Point(49, 70);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(428, 100);
+            this.listBox1.Size = new System.Drawing.Size(428, 328);
             this.listBox1.TabIndex = 4;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -2590,6 +2617,13 @@
             // 
             // tabPage14
             // 
+            this.tabPage14.Controls.Add(this.txt_QAItemName);
+            this.tabPage14.Controls.Add(this.txt_QAItemId);
+            this.tabPage14.Controls.Add(this.txt_QAItemSrch);
+            this.tabPage14.Controls.Add(this.lstv_QAItems);
+            this.tabPage14.Controls.Add(this.btn_QAItemReload);
+            this.tabPage14.Controls.Add(this.btn_QAItemSrch);
+            this.tabPage14.Controls.Add(this.btn_QATaskSet);
             this.tabPage14.Controls.Add(this.cbx_AutoStartQues);
             this.tabPage14.Controls.Add(this.radioButton2);
             this.tabPage14.Controls.Add(this.radioButton1);
@@ -2607,6 +2641,9 @@
             this.tabPage14.Controls.Add(this.label78);
             this.tabPage14.Controls.Add(this.label77);
             this.tabPage14.Controls.Add(this.label84);
+            this.tabPage14.Controls.Add(this.label177);
+            this.tabPage14.Controls.Add(this.label176);
+            this.tabPage14.Controls.Add(this.label170);
             this.tabPage14.Controls.Add(this.label85);
             this.tabPage14.Controls.Add(this.label175);
             this.tabPage14.Controls.Add(this.label83);
@@ -2616,15 +2653,53 @@
             this.tabPage14.Controls.Add(this.txt_QusbankFile);
             this.tabPage14.Location = new System.Drawing.Point(4, 22);
             this.tabPage14.Name = "tabPage14";
-            this.tabPage14.Size = new System.Drawing.Size(565, 190);
+            this.tabPage14.Size = new System.Drawing.Size(565, 406);
             this.tabPage14.TabIndex = 1;
             this.tabPage14.Text = "在线答题";
             this.tabPage14.UseVisualStyleBackColor = true;
             // 
+            // btn_QATaskSet
+            // 
+            this.btn_QATaskSet.Controls.Add(this.tabPage24);
+            this.btn_QATaskSet.Controls.Add(this.tabPage25);
+            this.btn_QATaskSet.Location = new System.Drawing.Point(8, 189);
+            this.btn_QATaskSet.Name = "btn_QATaskSet";
+            this.btn_QATaskSet.SelectedIndex = 0;
+            this.btn_QATaskSet.Size = new System.Drawing.Size(253, 211);
+            this.btn_QATaskSet.TabIndex = 5;
+            // 
+            // tabPage24
+            // 
+            this.tabPage24.Controls.Add(this.btn_AQNormalAppend);
+            this.tabPage24.Controls.Add(this.btn_QANormalSet);
+            this.tabPage24.Controls.Add(this.rbx_QANormalDetil);
+            this.tabPage24.Location = new System.Drawing.Point(4, 22);
+            this.tabPage24.Name = "tabPage24";
+            this.tabPage24.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage24.Size = new System.Drawing.Size(245, 185);
+            this.tabPage24.TabIndex = 0;
+            this.tabPage24.Text = "普通答题";
+            this.tabPage24.UseVisualStyleBackColor = true;
+            // 
+            // tabPage25
+            // 
+            this.tabPage25.Controls.Add(this.rbx_QATaskDetil);
+            this.tabPage25.Controls.Add(this.cbc_QATaskIndex);
+            this.tabPage25.Controls.Add(this.btn_AQTaskAppend);
+            this.tabPage25.Controls.Add(this.btn_AQTaskSet);
+            this.tabPage25.Controls.Add(this.label178);
+            this.tabPage25.Location = new System.Drawing.Point(4, 22);
+            this.tabPage25.Name = "tabPage25";
+            this.tabPage25.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage25.Size = new System.Drawing.Size(245, 185);
+            this.tabPage25.TabIndex = 1;
+            this.tabPage25.Text = "竞赛答题";
+            this.tabPage25.UseVisualStyleBackColor = true;
+            // 
             // cbx_AutoStartQues
             // 
             this.cbx_AutoStartQues.AutoSize = true;
-            this.cbx_AutoStartQues.Location = new System.Drawing.Point(348, 159);
+            this.cbx_AutoStartQues.Location = new System.Drawing.Point(303, 163);
             this.cbx_AutoStartQues.Name = "cbx_AutoStartQues";
             this.cbx_AutoStartQues.Size = new System.Drawing.Size(72, 16);
             this.cbx_AutoStartQues.TabIndex = 4;
@@ -2635,7 +2710,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(112, 69);
+            this.radioButton2.Location = new System.Drawing.Point(113, 68);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(71, 16);
             this.radioButton2.TabIndex = 3;
@@ -2646,7 +2721,7 @@
             // 
             this.radioButton1.AutoSize = true;
             this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(35, 69);
+            this.radioButton1.Location = new System.Drawing.Point(36, 68);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(71, 16);
             this.radioButton1.TabIndex = 3;
@@ -2656,7 +2731,7 @@
             // 
             // btn_startQues
             // 
-            this.btn_startQues.Location = new System.Drawing.Point(432, 152);
+            this.btn_startQues.Location = new System.Drawing.Point(468, 152);
             this.btn_startQues.Name = "btn_startQues";
             this.btn_startQues.Size = new System.Drawing.Size(75, 27);
             this.btn_startQues.TabIndex = 2;
@@ -2666,7 +2741,7 @@
             // 
             // txt_QuesInterval
             // 
-            this.txt_QuesInterval.Location = new System.Drawing.Point(98, 120);
+            this.txt_QuesInterval.Location = new System.Drawing.Point(445, 67);
             this.txt_QuesInterval.Name = "txt_QuesInterval";
             this.txt_QuesInterval.Size = new System.Drawing.Size(98, 21);
             this.txt_QuesInterval.TabIndex = 1;
@@ -2674,23 +2749,23 @@
             // 
             // txt_AnswerVtName
             // 
-            this.txt_AnswerVtName.Location = new System.Drawing.Point(326, 126);
+            this.txt_AnswerVtName.Location = new System.Drawing.Point(71, 125);
             this.txt_AnswerVtName.Name = "txt_AnswerVtName";
-            this.txt_AnswerVtName.Size = new System.Drawing.Size(96, 21);
+            this.txt_AnswerVtName.Size = new System.Drawing.Size(472, 21);
             this.txt_AnswerVtName.TabIndex = 1;
             this.txt_AnswerVtName.TextChanged += new System.EventHandler(this.txt_AnswerVtName_TextChanged);
             // 
             // txt_AnswerVtId
             // 
-            this.txt_AnswerVtId.Location = new System.Drawing.Point(326, 95);
+            this.txt_AnswerVtId.Location = new System.Drawing.Point(71, 94);
             this.txt_AnswerVtId.Name = "txt_AnswerVtId";
-            this.txt_AnswerVtId.Size = new System.Drawing.Size(96, 21);
+            this.txt_AnswerVtId.Size = new System.Drawing.Size(472, 21);
             this.txt_AnswerVtId.TabIndex = 1;
             this.txt_AnswerVtId.TextChanged += new System.EventHandler(this.txt_AnswerVtId_TextChanged);
             // 
             // txt_AskNormalInterval
             // 
-            this.txt_AskNormalInterval.Location = new System.Drawing.Point(326, 64);
+            this.txt_AskNormalInterval.Location = new System.Drawing.Point(277, 66);
             this.txt_AskNormalInterval.Name = "txt_AskNormalInterval";
             this.txt_AskNormalInterval.Size = new System.Drawing.Size(96, 21);
             this.txt_AskNormalInterval.TabIndex = 1;
@@ -2698,7 +2773,7 @@
             // 
             // txt_TaskTime
             // 
-            this.txt_TaskTime.Location = new System.Drawing.Point(326, 37);
+            this.txt_TaskTime.Location = new System.Drawing.Point(277, 39);
             this.txt_TaskTime.Name = "txt_TaskTime";
             this.txt_TaskTime.Size = new System.Drawing.Size(98, 21);
             this.txt_TaskTime.TabIndex = 1;
@@ -2706,7 +2781,7 @@
             // 
             // txt_TaskDate
             // 
-            this.txt_TaskDate.Location = new System.Drawing.Point(98, 37);
+            this.txt_TaskDate.Location = new System.Drawing.Point(71, 37);
             this.txt_TaskDate.Name = "txt_TaskDate";
             this.txt_TaskDate.Size = new System.Drawing.Size(98, 21);
             this.txt_TaskDate.TabIndex = 1;
@@ -2714,7 +2789,7 @@
             // 
             // txt_MaxQuesNum
             // 
-            this.txt_MaxQuesNum.Location = new System.Drawing.Point(98, 92);
+            this.txt_MaxQuesNum.Location = new System.Drawing.Point(445, 39);
             this.txt_MaxQuesNum.Name = "txt_MaxQuesNum";
             this.txt_MaxQuesNum.Size = new System.Drawing.Size(98, 21);
             this.txt_MaxQuesNum.TabIndex = 1;
@@ -2722,7 +2797,7 @@
             // 
             // button20
             // 
-            this.button20.Location = new System.Drawing.Point(432, 121);
+            this.button20.Location = new System.Drawing.Point(381, 156);
             this.button20.Name = "button20";
             this.button20.Size = new System.Drawing.Size(75, 23);
             this.button20.TabIndex = 2;
@@ -2732,7 +2807,7 @@
             // 
             // button19
             // 
-            this.button19.Location = new System.Drawing.Point(432, 8);
+            this.button19.Location = new System.Drawing.Point(325, 8);
             this.button19.Name = "button19";
             this.button19.Size = new System.Drawing.Size(75, 23);
             this.button19.TabIndex = 2;
@@ -2743,7 +2818,7 @@
             // label86
             // 
             this.label86.AutoSize = true;
-            this.label86.Location = new System.Drawing.Point(396, 71);
+            this.label86.Location = new System.Drawing.Point(347, 73);
             this.label86.Name = "label86";
             this.label86.Size = new System.Drawing.Size(17, 12);
             this.label86.TabIndex = 0;
@@ -2752,7 +2827,7 @@
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(200, 126);
+            this.label78.Location = new System.Drawing.Point(563, 70);
             this.label78.Name = "label78";
             this.label78.Size = new System.Drawing.Size(17, 12);
             this.label78.TabIndex = 0;
@@ -2761,7 +2836,7 @@
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(38, 123);
+            this.label77.Location = new System.Drawing.Point(385, 70);
             this.label77.Name = "label77";
             this.label77.Size = new System.Drawing.Size(65, 12);
             this.label77.TabIndex = 0;
@@ -2770,16 +2845,25 @@
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(246, 68);
+            this.label84.Location = new System.Drawing.Point(197, 70);
             this.label84.Name = "label84";
             this.label84.Size = new System.Drawing.Size(77, 12);
             this.label84.TabIndex = 0;
             this.label84.Text = "普通题间隔：";
             // 
+            // label170
+            // 
+            this.label170.AutoSize = true;
+            this.label170.Location = new System.Drawing.Point(69, 159);
+            this.label170.Name = "label170";
+            this.label170.Size = new System.Drawing.Size(125, 12);
+            this.label170.TabIndex = 0;
+            this.label170.Text = "奖励ID和名称上下对应";
+            // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(258, 126);
+            this.label85.Location = new System.Drawing.Point(6, 125);
             this.label85.Name = "label85";
             this.label85.Size = new System.Drawing.Size(65, 12);
             this.label85.TabIndex = 0;
@@ -2788,7 +2872,7 @@
             // label175
             // 
             this.label175.AutoSize = true;
-            this.label175.Location = new System.Drawing.Point(258, 40);
+            this.label175.Location = new System.Drawing.Point(209, 42);
             this.label175.Name = "label175";
             this.label175.Size = new System.Drawing.Size(65, 12);
             this.label175.TabIndex = 0;
@@ -2797,7 +2881,7 @@
             // label83
             // 
             this.label83.AutoSize = true;
-            this.label83.Location = new System.Drawing.Point(270, 97);
+            this.label83.Location = new System.Drawing.Point(18, 96);
             this.label83.Name = "label83";
             this.label83.Size = new System.Drawing.Size(53, 12);
             this.label83.TabIndex = 0;
@@ -2806,7 +2890,7 @@
             // label174
             // 
             this.label174.AutoSize = true;
-            this.label174.Location = new System.Drawing.Point(38, 40);
+            this.label174.Location = new System.Drawing.Point(6, 40);
             this.label174.Name = "label174";
             this.label174.Size = new System.Drawing.Size(65, 12);
             this.label174.TabIndex = 0;
@@ -2815,7 +2899,7 @@
             // label76
             // 
             this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(38, 98);
+            this.label76.Location = new System.Drawing.Point(385, 45);
             this.label76.Name = "label76";
             this.label76.Size = new System.Drawing.Size(65, 12);
             this.label76.TabIndex = 0;
@@ -2835,15 +2919,17 @@
             this.txt_QusbankFile.Location = new System.Drawing.Point(62, 10);
             this.txt_QusbankFile.Name = "txt_QusbankFile";
             this.txt_QusbankFile.ReadOnly = true;
-            this.txt_QusbankFile.Size = new System.Drawing.Size(351, 21);
+            this.txt_QusbankFile.Size = new System.Drawing.Size(239, 21);
             this.txt_QusbankFile.TabIndex = 1;
             // 
             // tabPage18
             // 
+            this.tabPage18.Controls.Add(this.richTextBox1);
             this.tabPage18.Controls.Add(this.cbx_AutoStart15Talk);
             this.tabPage18.Controls.Add(this.rbx_15NameFilter);
             this.tabPage18.Controls.Add(this.label80);
             this.tabPage18.Controls.Add(this.label82);
+            this.tabPage18.Controls.Add(this.label173);
             this.tabPage18.Controls.Add(this.label81);
             this.tabPage18.Controls.Add(this.label159);
             this.tabPage18.Controls.Add(this.label158);
@@ -2855,10 +2941,18 @@
             this.tabPage18.Controls.Add(this.txt_15srchInterval);
             this.tabPage18.Location = new System.Drawing.Point(4, 22);
             this.tabPage18.Name = "tabPage18";
-            this.tabPage18.Size = new System.Drawing.Size(565, 190);
+            this.tabPage18.Size = new System.Drawing.Size(565, 406);
             this.tabPage18.TabIndex = 2;
             this.tabPage18.Text = "加持与掉落公共";
             this.tabPage18.UseVisualStyleBackColor = true;
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(90, 214);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(453, 146);
+            this.richTextBox1.TabIndex = 4;
+            this.richTextBox1.Text = "";
             // 
             // cbx_AutoStart15Talk
             // 
@@ -2875,7 +2969,7 @@
             // 
             this.rbx_15NameFilter.Location = new System.Drawing.Point(90, 73);
             this.rbx_15NameFilter.Name = "rbx_15NameFilter";
-            this.rbx_15NameFilter.Size = new System.Drawing.Size(453, 96);
+            this.rbx_15NameFilter.Size = new System.Drawing.Size(453, 104);
             this.rbx_15NameFilter.TabIndex = 2;
             this.rbx_15NameFilter.Text = "情义管理员";
             this.rbx_15NameFilter.TextChanged += new System.EventHandler(this.rbx_15Talkfilter_TextChanged);
@@ -2896,6 +2990,15 @@
             this.label82.Size = new System.Drawing.Size(81, 28);
             this.label82.TabIndex = 1;
             this.label82.Text = "（多个名字间用小写,分割)";
+            // 
+            // label173
+            // 
+            this.label173.AutoSize = true;
+            this.label173.Location = new System.Drawing.Point(23, 217);
+            this.label173.Name = "label173";
+            this.label173.Size = new System.Drawing.Size(59, 12);
+            this.label173.TabIndex = 1;
+            this.label173.Text = "公告物品:";
             // 
             // label81
             // 
@@ -3143,6 +3246,16 @@
             this.groupBox39.TabIndex = 0;
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "帐号管理";
+            // 
+            // btn_AcountDisFreeze
+            // 
+            this.btn_AcountDisFreeze.Location = new System.Drawing.Point(623, 47);
+            this.btn_AcountDisFreeze.Name = "btn_AcountDisFreeze";
+            this.btn_AcountDisFreeze.Size = new System.Drawing.Size(75, 23);
+            this.btn_AcountDisFreeze.TabIndex = 3;
+            this.btn_AcountDisFreeze.Text = "解封";
+            this.btn_AcountDisFreeze.UseVisualStyleBackColor = true;
+            this.btn_AcountDisFreeze.Click += new System.EventHandler(this.btn_AcountDisFreeze_Click);
             // 
             // button33
             // 
@@ -7484,15 +7597,174 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "今日非法总数：";
             // 
-            // btn_AcountDisFreeze
+            // label178
             // 
-            this.btn_AcountDisFreeze.Location = new System.Drawing.Point(623, 47);
-            this.btn_AcountDisFreeze.Name = "btn_AcountDisFreeze";
-            this.btn_AcountDisFreeze.Size = new System.Drawing.Size(75, 23);
-            this.btn_AcountDisFreeze.TabIndex = 3;
-            this.btn_AcountDisFreeze.Text = "解封";
-            this.btn_AcountDisFreeze.UseVisualStyleBackColor = true;
-            this.btn_AcountDisFreeze.Click += new System.EventHandler(this.btn_AcountDisFreeze_Click);
+            this.label178.AutoSize = true;
+            this.label178.Location = new System.Drawing.Point(139, 9);
+            this.label178.Name = "label178";
+            this.label178.Size = new System.Drawing.Size(41, 12);
+            this.label178.TabIndex = 0;
+            this.label178.Text = "名次：";
+            // 
+            // btn_AQTaskSet
+            // 
+            this.btn_AQTaskSet.Location = new System.Drawing.Point(141, 156);
+            this.btn_AQTaskSet.Name = "btn_AQTaskSet";
+            this.btn_AQTaskSet.Size = new System.Drawing.Size(72, 23);
+            this.btn_AQTaskSet.TabIndex = 3;
+            this.btn_AQTaskSet.Text = "设置";
+            this.btn_AQTaskSet.UseVisualStyleBackColor = true;
+            this.btn_AQTaskSet.Click += new System.EventHandler(this.btn_AQTaskSet_Click);
+            // 
+            // cbc_QATaskIndex
+            // 
+            this.cbc_QATaskIndex.FormattingEnabled = true;
+            this.cbc_QATaskIndex.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
+            this.cbc_QATaskIndex.Location = new System.Drawing.Point(182, 6);
+            this.cbc_QATaskIndex.Name = "cbc_QATaskIndex";
+            this.cbc_QATaskIndex.Size = new System.Drawing.Size(57, 20);
+            this.cbc_QATaskIndex.TabIndex = 4;
+            this.cbc_QATaskIndex.Text = "1";
+            this.cbc_QATaskIndex.SelectedIndexChanged += new System.EventHandler(this.cbc_QATaskIndex_SelectedIndexChanged);
+            // 
+            // rbx_QATaskDetil
+            // 
+            this.rbx_QATaskDetil.Location = new System.Drawing.Point(6, 3);
+            this.rbx_QATaskDetil.Name = "rbx_QATaskDetil";
+            this.rbx_QATaskDetil.Size = new System.Drawing.Size(129, 176);
+            this.rbx_QATaskDetil.TabIndex = 5;
+            this.rbx_QATaskDetil.Text = "";
+            // 
+            // rbx_QANormalDetil
+            // 
+            this.rbx_QANormalDetil.Location = new System.Drawing.Point(8, 7);
+            this.rbx_QANormalDetil.Name = "rbx_QANormalDetil";
+            this.rbx_QANormalDetil.Size = new System.Drawing.Size(129, 172);
+            this.rbx_QANormalDetil.TabIndex = 4;
+            this.rbx_QANormalDetil.Text = "";
+            // 
+            // btn_QANormalSet
+            // 
+            this.btn_QANormalSet.Location = new System.Drawing.Point(143, 156);
+            this.btn_QANormalSet.Name = "btn_QANormalSet";
+            this.btn_QANormalSet.Size = new System.Drawing.Size(75, 23);
+            this.btn_QANormalSet.TabIndex = 5;
+            this.btn_QANormalSet.Text = "设置";
+            this.btn_QANormalSet.UseVisualStyleBackColor = true;
+            this.btn_QANormalSet.Click += new System.EventHandler(this.btn_QANormalSet_Click);
+            // 
+            // btn_QAItemSrch
+            // 
+            this.btn_QAItemSrch.Location = new System.Drawing.Point(425, 376);
+            this.btn_QAItemSrch.Name = "btn_QAItemSrch";
+            this.btn_QAItemSrch.Size = new System.Drawing.Size(63, 23);
+            this.btn_QAItemSrch.TabIndex = 6;
+            this.btn_QAItemSrch.Text = "查找";
+            this.btn_QAItemSrch.UseVisualStyleBackColor = true;
+            this.btn_QAItemSrch.Click += new System.EventHandler(this.btn_QAItemSrch_Click);
+            // 
+            // btn_QAItemReload
+            // 
+            this.btn_QAItemReload.Location = new System.Drawing.Point(494, 376);
+            this.btn_QAItemReload.Name = "btn_QAItemReload";
+            this.btn_QAItemReload.Size = new System.Drawing.Size(63, 23);
+            this.btn_QAItemReload.TabIndex = 6;
+            this.btn_QAItemReload.Text = "重载";
+            this.btn_QAItemReload.UseVisualStyleBackColor = true;
+            this.btn_QAItemReload.Click += new System.EventHandler(this.btn_QAItemReload_Click);
+            // 
+            // lstv_QAItems
+            // 
+            this.lstv_QAItems.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.columnHeader106,
+            this.columnHeader109});
+            this.lstv_QAItems.FullRowSelect = true;
+            this.lstv_QAItems.GridLines = true;
+            this.lstv_QAItems.Location = new System.Drawing.Point(267, 211);
+            this.lstv_QAItems.Name = "lstv_QAItems";
+            this.lstv_QAItems.Size = new System.Drawing.Size(152, 189);
+            this.lstv_QAItems.TabIndex = 7;
+            this.lstv_QAItems.UseCompatibleStateImageBehavior = false;
+            this.lstv_QAItems.View = System.Windows.Forms.View.Details;
+            this.lstv_QAItems.SelectedIndexChanged += new System.EventHandler(this.lstv_QAItems_SelectedIndexChanged);
+            // 
+            // txt_QAItemSrch
+            // 
+            this.txt_QAItemSrch.Location = new System.Drawing.Point(429, 349);
+            this.txt_QAItemSrch.Name = "txt_QAItemSrch";
+            this.txt_QAItemSrch.Size = new System.Drawing.Size(118, 21);
+            this.txt_QAItemSrch.TabIndex = 8;
+            // 
+            // label176
+            // 
+            this.label176.AutoSize = true;
+            this.label176.Location = new System.Drawing.Point(434, 211);
+            this.label176.Name = "label176";
+            this.label176.Size = new System.Drawing.Size(29, 12);
+            this.label176.TabIndex = 0;
+            this.label176.Text = "ID：";
+            // 
+            // label177
+            // 
+            this.label177.AutoSize = true;
+            this.label177.Location = new System.Drawing.Point(423, 233);
+            this.label177.Name = "label177";
+            this.label177.Size = new System.Drawing.Size(41, 12);
+            this.label177.TabIndex = 0;
+            this.label177.Text = "名称：";
+            // 
+            // txt_QAItemId
+            // 
+            this.txt_QAItemId.Location = new System.Drawing.Point(460, 205);
+            this.txt_QAItemId.Name = "txt_QAItemId";
+            this.txt_QAItemId.Size = new System.Drawing.Size(97, 21);
+            this.txt_QAItemId.TabIndex = 8;
+            // 
+            // txt_QAItemName
+            // 
+            this.txt_QAItemName.Location = new System.Drawing.Point(460, 230);
+            this.txt_QAItemName.Name = "txt_QAItemName";
+            this.txt_QAItemName.Size = new System.Drawing.Size(97, 21);
+            this.txt_QAItemName.TabIndex = 8;
+            // 
+            // columnHeader106
+            // 
+            this.columnHeader106.Text = "ID";
+            // 
+            // columnHeader109
+            // 
+            this.columnHeader109.Text = "名称";
+            this.columnHeader109.Width = 82;
+            // 
+            // btn_AQNormalAppend
+            // 
+            this.btn_AQNormalAppend.Location = new System.Drawing.Point(143, 11);
+            this.btn_AQNormalAppend.Name = "btn_AQNormalAppend";
+            this.btn_AQNormalAppend.Size = new System.Drawing.Size(75, 23);
+            this.btn_AQNormalAppend.TabIndex = 5;
+            this.btn_AQNormalAppend.Text = "追加";
+            this.btn_AQNormalAppend.UseVisualStyleBackColor = true;
+            this.btn_AQNormalAppend.Click += new System.EventHandler(this.btn_AQNormalAppend_Click);
+            // 
+            // btn_AQTaskAppend
+            // 
+            this.btn_AQTaskAppend.Location = new System.Drawing.Point(141, 32);
+            this.btn_AQTaskAppend.Name = "btn_AQTaskAppend";
+            this.btn_AQTaskAppend.Size = new System.Drawing.Size(72, 23);
+            this.btn_AQTaskAppend.TabIndex = 3;
+            this.btn_AQTaskAppend.Text = "追加";
+            this.btn_AQTaskAppend.UseVisualStyleBackColor = true;
+            this.btn_AQTaskAppend.Click += new System.EventHandler(this.btn_AQTaskAppend_Click);
             // 
             // Frm_server
             // 
@@ -7554,6 +7826,10 @@
             this.tabPage13.PerformLayout();
             this.tabPage14.ResumeLayout(false);
             this.tabPage14.PerformLayout();
+            this.btn_QATaskSet.ResumeLayout(false);
+            this.tabPage24.ResumeLayout(false);
+            this.tabPage25.ResumeLayout(false);
+            this.tabPage25.PerformLayout();
             this.tabPage18.ResumeLayout(false);
             this.tabPage18.PerformLayout();
             this.tabPage21.ResumeLayout(false);
@@ -8344,6 +8620,30 @@
         private System.Windows.Forms.CheckBox cbx_AutoStart15Talk;
         private System.Windows.Forms.CheckBox cbx_AutoStartQues;
         private System.Windows.Forms.Button btn_AcountDisFreeze;
+        private System.Windows.Forms.Label label170;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label173;
+        private System.Windows.Forms.TabControl btn_QATaskSet;
+        private System.Windows.Forms.TabPage tabPage24;
+        private System.Windows.Forms.TabPage tabPage25;
+        private System.Windows.Forms.Label label178;
+        private System.Windows.Forms.ComboBox cbc_QATaskIndex;
+        private System.Windows.Forms.Button btn_AQTaskSet;
+        private System.Windows.Forms.RichTextBox rbx_QATaskDetil;
+        private System.Windows.Forms.TextBox txt_QAItemSrch;
+        private System.Windows.Forms.ListView lstv_QAItems;
+        private System.Windows.Forms.Button btn_QAItemReload;
+        private System.Windows.Forms.Button btn_QAItemSrch;
+        private System.Windows.Forms.Button btn_QANormalSet;
+        private System.Windows.Forms.RichTextBox rbx_QANormalDetil;
+        private System.Windows.Forms.Label label177;
+        private System.Windows.Forms.Label label176;
+        private System.Windows.Forms.TextBox txt_QAItemName;
+        private System.Windows.Forms.TextBox txt_QAItemId;
+        private System.Windows.Forms.ColumnHeader columnHeader106;
+        private System.Windows.Forms.ColumnHeader columnHeader109;
+        private System.Windows.Forms.Button btn_AQNormalAppend;
+        private System.Windows.Forms.Button btn_AQTaskAppend;
     }
 }
 

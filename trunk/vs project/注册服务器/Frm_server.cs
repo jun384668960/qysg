@@ -125,6 +125,7 @@ namespace register_server
 
         private void LoadIniConf()
         {
+            #region //sgserver信息
             sql_srvAddr = CIniCtrl.ReadIniData("Server", "ServerIP", "", serverIni);
             if (sql_srvAddr != "")
             {
@@ -164,9 +165,8 @@ namespace register_server
             {
                 txt_sqlAccountName.Text = sqlAccountName;
             }
-
-            //版本管理
-
+            #endregion
+            #region //版本管理
             string gameVersionFile = CIniCtrl.ReadIniData("Config", "gameVersionFile", "", serverIni);
             if (gameVersionFile != "")
             {
@@ -196,6 +196,11 @@ namespace register_server
             {
                 txt_svrForder.Text = gameServerFolder;
             }
+            string gServerIp = CIniCtrl.ReadIniData("Server", "GServerIP", "", serverIni);
+            if (gServerIp != "")
+            {
+                txt_GServerIP.Text = gServerIp;
+            }
 
             string gameFreezeFilter = CIniCtrl.ReadIniData("Config", "FreezeFilter", "", serverIni);
             if (gameFreezeFilter != "")
@@ -203,7 +208,8 @@ namespace register_server
                 rtb_FreezeFilter.Text = gameFreezeFilter;
                 m_FreezeFilterList = rtb_FreezeFilter.Text.Split(',');
             }
-
+            #endregion
+            #region //外挂检测
             string gameAutoFreeze = CIniCtrl.ReadIniData("Config", "AutoFreeze", "", serverIni);
             if (gameServerFolder != "" && gameAutoFreeze == "Enable")
             {
@@ -214,12 +220,11 @@ namespace register_server
             {
                 cbx_AutoFreeze.Checked = false;
             }
-
-            string gServerIp = CIniCtrl.ReadIniData("Server", "GServerIP", "", serverIni);
-            if (gServerIp != "")
-            {
-                txt_GServerIP.Text = gServerIp;
-            }
+            #endregion
+            #region //在线答题
+            FillQAItemsView();
+            rbx_QANormalDetil.Text = CIniCtrl.ReadIniData("Config", "m_NormalRecharge", "", serverIni);
+            rbx_QATaskDetil.Text = CIniCtrl.ReadIniData("Config", "m_TaskRecharge1", "", serverIni);
 
             string sanvtName = CIniCtrl.ReadIniData("Server", "sanvtName", "", serverIni);
             txt_sanvtName.Text = sanvtName;
@@ -291,7 +296,8 @@ namespace register_server
             {
                 cbx_AutoStartQues.Checked = false;
             }
-
+            #endregion
+            #region //加持公告
             string _15SrchInterval = CIniCtrl.ReadIniData("Config", "15SrchInterval", "", serverIni);
             if (_15SrchInterval != string.Empty)
             {
@@ -326,7 +332,8 @@ namespace register_server
             {
                 cbx_AutoStart15Talk.Checked = false;
             }
-
+            #endregion
+            #region //系统公告
             string liststring = CIniCtrl.ReadIniData("Config", "WorldWordsList", "", serverIni);
             if (liststring != string.Empty)
             {
@@ -338,7 +345,7 @@ namespace register_server
                 }
                 listBox1.Update();
             }
-
+            #endregion
         }
 
         private void Frm_server_FormClosed(object sender, FormClosedEventArgs e)
@@ -2727,6 +2734,30 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
         {
             m_AnswerVtId = UInt32.Parse(txt_AnswerVtId.Text);
             CIniCtrl.WriteIniData("Config", "m_AnswerVtId", txt_AnswerVtId.Text, serverIni);
+        }
+
+        void FillQAItemsView()
+        {
+            string allItemDefines = CItemCtrl.load_Item_Defines(System.AppDomain.CurrentDomain.BaseDirectory + "profile");
+            var allItemDefinesArr = allItemDefines.Replace("\t", "").Split(';');
+
+            this.lstv_QAItems.Items.Clear();
+            foreach (var _def in allItemDefinesArr)
+            {
+                var _nameWithIdarr = _def.Split(',');
+                if (_nameWithIdarr.Length > 1)
+                {
+                    string _name = _nameWithIdarr[0];
+                    string _id = _nameWithIdarr[1];
+                    ListViewItem lvi = new ListViewItem();
+                    //lvi.ImageIndex = i;     //通过与imageList绑定，显示imageList中第i项图标 
+                    lvi.Text = _id.Replace("\t", "");
+                    //lvi.SubItems.Add(_id);
+                    lvi.SubItems.Add(_name);
+                    this.lstv_QAItems.Items.Add(lvi);
+                }
+            }
+            this.lstv_QAItems.EndUpdate();  //结束数据处理，UI界面一次性绘制
         }
 
         private void txt_AnswerVtName_TextChanged(object sender, EventArgs e)
@@ -6034,7 +6065,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 //用cmd的函数执行语句，返回SqlDataReader类型的结果dr,dr就是返回的结果集（也就是数据库中查询到的表数据）
                 SqlDataReader dr = cmd.ExecuteReader();
                 //用dr的read函数，每执行一次，返回一个包含下一行数据的集合dr
-
+                lstv_Account.Items.Clear();
                 while (dr.Read())
                 {
                     //构建一个ListView的数据，存入数据库数据，以便添加到listView1的行数据中
@@ -6054,7 +6085,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                     //账户 密码 角色 状态 权限 代币 ip 登入时间 登出时间
                     count++;
                 }
-
+                lstv_Account.EndUpdate();
                 con.Close();
             }
             catch (Exception ex)
@@ -6090,7 +6121,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             string log = "";
             try
             {
-                log = CSGHelper.FreezeAccount(acc, 1, "非法登录或者使用外挂！", "GM");
+                log = CSGHelper.FreezeAccount(acc, 1, "手动封禁！", "GM");
                 LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
                 btn_AccountReflush_Click(null, null);
             }
@@ -6110,7 +6141,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             string log = "";
             try
             {
-                log = CSGHelper.FreezeAccount(acc, 0, "非法登录或者使用外挂！", "GM");
+                log = CSGHelper.FreezeAccount(acc, 0, "手动解封！", "GM");
                 LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
                 btn_AccountReflush_Click(null, null);
             }
@@ -6156,5 +6187,88 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             }
         }
         static int xbAccountInfoSltIndex = 0;
+
+        private void btn_QAItemSrch_Click(object sender, EventArgs e)
+        {
+            ListViewItem foundItem = null;
+            lstv_QAItems.Items[QAitemDefSltIndex].BackColor = Color.Transparent;
+            int i = QAitemDefSltIndex + 1;
+            if (i == lstv_QAItems.Items.Count)
+            {
+                i = 0;
+            }
+            while (i != QAitemDefSltIndex)
+            {
+                if (lstv_QAItems.Items[i].SubItems[1].Text.Contains(txt_QAItemSrch.Text) || lstv_QAItems.Items[i].Text == txt_QAItemSrch.Text)
+                {
+                    foundItem = lstv_QAItems.Items[i];
+                }
+                i++;
+                if (i == lstv_QAItems.Items.Count)
+                {
+                    i = 0;
+                }
+            }
+
+            if (foundItem != null)
+            {
+                lstv_QAItems.TopItem = foundItem;  //定位到该项
+                lstv_QAItems.Items[foundItem.Index].Focused = true;
+                //lstv_QAItems.Items[foundItem.Index].Selected = true;
+                foundItem.BackColor = Color.Pink;
+                QAitemDefSltIndex = foundItem.Index;
+            }
+        }
+
+        private void btn_QAItemReload_Click(object sender, EventArgs e)
+        {
+            FillQAItemsView();
+        }
+
+        private void lstv_QAItems_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (lstv_QAItems.SelectedIndices != null && lstv_QAItems.SelectedIndices.Count > 0)
+            {
+                lstv_QAItems.Items[QAitemDefSltIndex].BackColor = Color.Transparent;
+                QAitemDefSltIndex = this.lstv_QAItems.SelectedItems[0].Index;
+                lstv_QAItems.Items[QAitemDefSltIndex].BackColor = Color.Pink;
+
+                txt_QAItemId.Text = lstv_QAItems.Items[QAitemDefSltIndex].Text;
+                txt_QAItemName.Text = lstv_QAItems.Items[QAitemDefSltIndex].SubItems[1].Text;
+            }
+        }
+        static private int QAitemDefSltIndex = 0;
+
+        private void btn_AQNormalAppend_Click(object sender, EventArgs e)
+        {
+            if (txt_QAItemId.Text != string.Empty && txt_QAItemName.Text != string.Empty)
+            {
+                rbx_QANormalDetil.Text += txt_QAItemId.Text + "," + txt_QAItemName.Text + ";";
+            }
+        }
+        private void btn_QANormalSet_Click(object sender, EventArgs e)
+        {
+            CIniCtrl.WriteIniData("Config", "m_NormalRecharge", rbx_QANormalDetil.Text, serverIni);
+        }
+
+        private void btn_AQTaskAppend_Click(object sender, EventArgs e)
+        {
+            if (txt_QAItemId.Text != string.Empty && txt_QAItemName.Text != string.Empty)
+            {
+                rbx_QATaskDetil.Text += txt_QAItemId.Text + "," + txt_QAItemName.Text + ";";
+            }
+        }
+
+        private void btn_AQTaskSet_Click(object sender, EventArgs e)
+        {
+            string key = "m_TaskRecharge" + cbc_QATaskIndex.Text;
+            CIniCtrl.WriteIniData("Config", key, rbx_QATaskDetil.Text, serverIni);
+        }
+
+        private void cbc_QATaskIndex_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string key = "m_TaskRecharge" + cbc_QATaskIndex.Text;
+            rbx_QATaskDetil.Text = CIniCtrl.ReadIniData("Config", key, "", serverIni);
+        }
     }
 }
