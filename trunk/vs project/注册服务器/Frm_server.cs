@@ -2656,6 +2656,18 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 MessageBox.Show("请确保[开始时间][普通题间隔][奖励id][奖励名称][出题总数][问答间隔]均设置成功!");
                 return;
             }
+            //构建竞赛奖励字符串
+            string normalReward = rbx_QANormalDetil.Text;
+            string taskReward = "";
+            for (int i = 1; i <= 10; i++)
+            {
+                string key = "m_TaskRecharge" + i;
+                string reward = CIniCtrl.ReadIniData("Config", key, "", serverIni);
+                if (reward != string.Empty && reward != "")
+                {
+                    taskReward += reward + "&";
+                }
+            }
             if (g_StopQues)
             {
                 g_StopQues = false;
@@ -2668,6 +2680,8 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
                 m_SGExHandle.LoadAQBank(txt_QusbankFile.Text);
                 m_SGExHandle.SetQADatVt(txt_svrForder.Text + "\\DataBase\\saves\\players.dat", txt_sanvtName.Text);
                 m_SGExHandle.SetQAReward((int)m_AnswerVtId, m_AnswerVtName);
+                m_SGExHandle.SetQANormalReward(normalReward);
+                m_SGExHandle.SetQATaskReward(taskReward);
                 m_SGExHandle.SetMaxQuesNum(g_MaxQuesNum);
                 m_SGExHandle.SetNormalInterval((int)m_AskNormalInterval);
                 m_SGExHandle.SetTaskTime(m_TaskDate,m_TaskTime);
@@ -6255,7 +6269,7 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
         {
             if (txt_QAItemId.Text != string.Empty && txt_QAItemName.Text != string.Empty)
             {
-                rbx_QATaskDetil.Text += txt_QAItemId.Text + "," + txt_QAItemName.Text + ";";
+                rbx_QATaskDetil.Text += txt_QAItemId.Text + "," + txt_QAItemName.Text + "," + txt_QAItemCount.Text + ";";
             }
         }
 

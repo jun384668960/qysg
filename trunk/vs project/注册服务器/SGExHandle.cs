@@ -254,6 +254,10 @@ namespace 注册网关
             public List<int> date;
             public List<string> time;
         };
+        public struct RewardItem {
+            public string id;
+            public string name;
+        };
 
         private BankHandle bankHandle = new BankHandle();
         private TaskTime m_TaskTime = new TaskTime();
@@ -271,6 +275,8 @@ namespace 注册网关
         private static string m_AnswerVtName = "";
         private static string m_PlayerDat = "";
         private static string m_SanVtSql = "";
+        private static List<RewardItem> m_NormalRewardItems = new List<RewardItem>();
+        private static List<string> m_TaskRewardString = new List<string>();
         public bool LoadAQBank(string file)
         {
             return bankHandle.LoadBankItem(file);
@@ -303,6 +309,35 @@ namespace 注册网关
             m_AnswerVtName = name;
         }
 
+        public void SetQANormalReward(string stReward)
+        {
+            m_NormalRewardItems.Clear();
+            var items = stReward.Split(';');
+            foreach(var item in items)
+            {
+                var it = item.Split(',');
+                if(it[0] != string.Empty && it[0] != "")
+                {
+                    RewardItem rewardItem;
+                    rewardItem.id = it[0];
+                    rewardItem.name = it[1];
+                    m_NormalRewardItems.Add(rewardItem);
+                }
+            }
+        }
+        public void SetQATaskReward(string stReward)
+        {
+            m_TaskRewardString.Clear();
+            var items = stReward.Split('&');
+            foreach (var item in items)
+            {
+                if (item != string.Empty && item != "")
+                {
+                    m_TaskRewardString.Add(item);
+                }
+            }
+        }
+        
         public void SetQADatVt(string dat, string sanvt)
         {
             m_PlayerDat = dat;
@@ -323,6 +358,7 @@ namespace 注册网关
             List<BankItem> list = bankHandle.GetBankItemList();
 
             int n = ran.Next(0, bankHandle.GetBankItemCount());
+
             BankItem item;
             bool ret = bankHandle.GetItem(n, out item);
 
@@ -362,13 +398,32 @@ namespace 注册网关
                     CPlayerCtrl.LoadPlayerInfos(player_dat, true);
                     string account = CPlayerCtrl.GetAccByName(firtItem.name);
                     //发放虚宝
-                    bool vtret = CSGHelper.InsertSanvtItem(sanvt, account, (uint)m_AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
-                    if (vtret)
+                    
+                    if (m_NormalRewardItems.Count() > 0)
                     {
-                        answerEx += " 答题奖励 " + m_AnswerVtName + " 已经发放，请注意查收(虚宝)！";
+                        int rewardIdex = ran.Next(0, m_NormalRewardItems.Count());
+                        int AnswerVtId = int.Parse(m_NormalRewardItems[rewardIdex].id);
+                        string AnswerVtName = m_NormalRewardItems[rewardIdex].name;
+                        bool vtret = CSGHelper.InsertSanvtItem(sanvt, account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                        if (vtret)
+                        {
+                            answerEx += " 答题奖励 " + AnswerVtName + " 已经发放，请注意查收(虚宝)！";
+                        }
+                        //日志
+                        LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
                     }
-                    //日志
-                    LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
+                    else
+                    {
+                        int AnswerVtId = m_AnswerVtId;
+                        string AnswerVtName = m_AnswerVtName;
+                        bool vtret = CSGHelper.InsertSanvtItem(sanvt, account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                        if (vtret)
+                        {
+                            answerEx += " 答题奖励 " + AnswerVtName + " 已经发放，请注意查收(虚宝)！";
+                        }
+                        //日志
+                        LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
+                    }
                 }
                 else
                 {
@@ -510,14 +565,71 @@ namespace 注册网关
                                     if (!string.IsNullOrEmpty(player))
                                     {
                                         string account = CPlayerCtrl.GetAccByName(player);
-                                        //发放虚宝
-                                        bool vtret = CSGHelper.InsertSanvtItem(m_SanVtSql, account, (uint)m_AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
-                                        if (vtret)
+                                        if (m_TaskRewardString.Count > 0)
                                         {
-                                            string answerEx = "角色：" + player + " 答题奖励已经发放，请注意查收(虚宝)！";
-                                            //日志
-                                            LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
-                                            
+                                            int vtid1 = 0;
+                                            int vtid2 = 0;
+                                            int vtid3 = 0;
+                                            int vtid4 = 0;
+                                            int vtid5 = 0;
+                                            int vtcount1 = 0;
+                                            int vtcount2 = 0;
+                                            int vtcount3 = 0;
+                                            int vtcount4 = 0;
+                                            int vtcount5 = 0;
+                                            string[] rewards = m_TaskRewardString[i].Split(';'); //1,木剑,1
+                                            for(int ii=0; ii<=rewards.Length; ii++)
+                                            {
+                                                var detials = rewards[ii].Split(',');
+                                                if (ii == 0) {
+                                                    vtid1 = int.Parse(detials[0]);
+                                                    vtcount1 = int.Parse(detials[2]);
+                                                }
+                                                else if (ii == 1)
+                                                {
+                                                    vtid2 = int.Parse(detials[0]);
+                                                    vtcount2 = int.Parse(detials[2]);
+                                                }
+                                                else if (ii == 2)
+                                                {
+                                                    vtid3 = int.Parse(detials[0]);
+                                                    vtcount3 = int.Parse(detials[2]);
+                                                }
+                                                else if (ii == 3)
+                                                {
+                                                    vtid4 = int.Parse(detials[0]);
+                                                    vtcount4 = int.Parse(detials[2]);
+                                                }
+                                                else if (ii == 4)
+                                                {
+                                                    vtid5 = int.Parse(detials[0]);
+                                                    vtcount5 = int.Parse(detials[2]);
+                                                }
+                                            }
+
+                                            if (vtid1 != 0 || vtid2 != 0 || vtid3 != 0 || vtid4 != 0 || vtid5 != 0)
+                                            {
+                                                bool vtret = CSGHelper.InsertSanvtItem(m_SanVtSql, account
+                                                , (uint)vtid1, (uint)vtcount1, (uint)vtid2, (uint)vtcount2, (uint)vtid3, (uint)vtcount3, (uint)vtid4, (uint)vtcount4, (uint)vtid5, (uint)vtcount5);
+                                                if (vtret)
+                                                {
+                                                    string answerEx = "角色：" + player + " 答题奖励已经发放，请注意查收(虚宝)！";
+                                                    //日志
+                                                    LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
+                                                }
+                                            }
+                                        }
+                                        else 
+                                        {
+                                            //发放虚宝
+                                            bool vtret = CSGHelper.InsertSanvtItem(m_SanVtSql, account, (uint)m_AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                                            if (vtret)
+                                            {
+                                                string answerEx = "角色：" + player + " 答题奖励已经发放，请注意查收(虚宝)！";
+                                                //日志
+                                                LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", answerEx);
+
+                                            }
                                         }
                                     }
                                 }
