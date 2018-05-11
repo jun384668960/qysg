@@ -259,7 +259,7 @@
             this.label75 = new System.Windows.Forms.Label();
             this.txt_QusbankFile = new System.Windows.Forms.TextBox();
             this.tabPage18 = new System.Windows.Forms.TabPage();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.rbx_DorpTalkItems = new System.Windows.Forms.RichTextBox();
             this.cbx_AutoStart15Talk = new System.Windows.Forms.CheckBox();
             this.rbx_15NameFilter = new System.Windows.Forms.RichTextBox();
             this.label80 = new System.Windows.Forms.Label();
@@ -3097,7 +3097,7 @@
             // 
             // tabPage18
             // 
-            this.tabPage18.Controls.Add(this.richTextBox1);
+            this.tabPage18.Controls.Add(this.rbx_DorpTalkItems);
             this.tabPage18.Controls.Add(this.cbx_AutoStart15Talk);
             this.tabPage18.Controls.Add(this.rbx_15NameFilter);
             this.tabPage18.Controls.Add(this.label80);
@@ -3119,13 +3119,13 @@
             this.tabPage18.Text = "加持与掉落公共";
             this.tabPage18.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // rbx_DorpTalkItems
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(90, 214);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(453, 146);
-            this.richTextBox1.TabIndex = 4;
-            this.richTextBox1.Text = "";
+            this.rbx_DorpTalkItems.Location = new System.Drawing.Point(90, 214);
+            this.rbx_DorpTalkItems.Name = "rbx_DorpTalkItems";
+            this.rbx_DorpTalkItems.Size = new System.Drawing.Size(453, 146);
+            this.rbx_DorpTalkItems.TabIndex = 4;
+            this.rbx_DorpTalkItems.Text = "";
             // 
             // cbx_AutoStart15Talk
             // 
@@ -8642,7 +8642,7 @@
         private System.Windows.Forms.CheckBox cbx_AutoStartQues;
         private System.Windows.Forms.Button btn_AcountDisFreeze;
         private System.Windows.Forms.Label label170;
-        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.RichTextBox rbx_DorpTalkItems;
         private System.Windows.Forms.Label label173;
         private System.Windows.Forms.TabControl btn_QATaskSet;
         private System.Windows.Forms.TabPage tabPage24;

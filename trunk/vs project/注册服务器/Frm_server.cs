@@ -316,6 +316,7 @@ namespace register_server
             if (_AnnItemsFile != string.Empty)
             {
                 txt_AnnItemsFile.Text = _AnnItemsFile;
+                rbx_DorpTalkItems.Text = File.ReadAllText(txt_AnnItemsFile.Text, Encoding.Default);
             }
 
             string _15NameFilter = CIniCtrl.ReadIniData("Config", "15NameFilter", "", serverIni);
@@ -332,6 +333,7 @@ namespace register_server
             {
                 cbx_AutoStart15Talk.Checked = false;
             }
+            
             #endregion
             #region //系统公告
             string liststring = CIniCtrl.ReadIniData("Config", "WorldWordsList", "", serverIni);
@@ -2584,6 +2586,10 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             if (fileDialog.ShowDialog() == DialogResult.OK)
             {
                 txt_AnnItemsFile.Text = fileDialog.FileName;
+                if (txt_AnnItemsFile.Text != "")
+                {
+                    rbx_DorpTalkItems.Text = File.ReadAllText(txt_AnnItemsFile.Text, Encoding.Default);
+                }
             }
             else
             {
