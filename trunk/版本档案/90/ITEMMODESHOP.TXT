@@ -684,7 +684,7 @@ code = 305
 type = ishopType_Funcion
 item_id = item_½Ä¨®
 item_number = 1
-cost = 20000
+cost = 10000
 item_attr = ITEMMALL_ATTR_SUGGEST
 
 [item_shop]
