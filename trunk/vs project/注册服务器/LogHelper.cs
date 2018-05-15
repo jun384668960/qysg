@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using System.Diagnostics;
 
-namespace register_server
+namespace MainServer
 {
     class LogHelper
     {

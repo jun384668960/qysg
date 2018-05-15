@@ -4,14 +4,14 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using Common;
-using register_server;
+using MainServer;
 using System.Threading;
 using System.IO;
 using System.Diagnostics;
 
 namespace 注册网关
 {
-    class SGExHandle
+   class SGExHandle
     {
         public SGExHandle(){
             m_TaskTime.date = new List<int>();

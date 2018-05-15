@@ -5,7 +5,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace register_server
+namespace MainServer
 {
     public struct Magic_JobLimit_Str
     {

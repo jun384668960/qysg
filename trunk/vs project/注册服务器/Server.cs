@@ -10,7 +10,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 
-namespace register_server
+namespace MainServer
 {
     public class CCmdDetail
     {

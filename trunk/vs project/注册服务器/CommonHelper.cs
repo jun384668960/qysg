@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 using System.Threading;
 
 
-namespace register_server
+namespace MainServer
 {
     public struct BankItem
     {

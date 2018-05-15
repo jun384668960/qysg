@@ -4,7 +4,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 
 
-namespace register_server
+namespace MainServer
 {
     public enum CMD_E
     {

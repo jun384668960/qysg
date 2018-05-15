@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Text;
 
-namespace register_server
+namespace MainServer
 {
     public struct LogSearch
     {
