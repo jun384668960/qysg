@@ -189,7 +189,7 @@ namespace 注册网关
                                 }
                             }
                         }
-                        
+
                         if (send)
                         {
                             string words = "";
@@ -210,7 +210,8 @@ namespace 注册网关
                             }
                         }
                     }
-
+                    
+                    
                     Thread.Sleep(m_AnnSrchInterVal * 1000);
                 }
                 else

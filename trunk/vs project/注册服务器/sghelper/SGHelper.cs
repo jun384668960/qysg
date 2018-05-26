@@ -76,6 +76,10 @@ namespace MainServer
             if (!m_SqlConnected)
                 return "创建失败";
 
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
+
             string accout_name = name;
             string accout_password = passwd;
             string accout_password2 = Md5Helper.MD5ToString(passwd);
@@ -103,6 +107,7 @@ namespace MainServer
             sqlComm.ExecuteNonQuery();
             //得到输出参数的值,把赋值给name,注意,这里得到的是object类型的,要进行相应的类型轮换
             ErrInfo = sqlComm.Parameters["@strErrInfo"].Value.ToString();
+            mutex.ReleaseMutex();
 
             return ErrInfo;
         }
@@ -111,6 +116,10 @@ namespace MainServer
         {
             if (!m_SqlConnected)
                 return "修改失败";
+
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
 
             string accout_name = name;
             string old_EncPasswd = Md5Helper.MD5ToString(oldpasswd);
@@ -141,6 +150,7 @@ namespace MainServer
             sqlComm.ExecuteNonQuery();
             //得到输出参数的值,把赋值给name,注意,这里得到的是object类型的,要进行相应的类型轮换
             ErrInfo = sqlComm.Parameters["@strErrInfo"].Value.ToString();
+            mutex.ReleaseMutex();
 
             return ErrInfo;
         }
@@ -230,6 +240,10 @@ namespace MainServer
             if (!m_SqlConnected)
                 return "冻结失败";
 
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
+
             string ErrInfo = "";
             SqlCommand sqlComm = null;
             //*
@@ -254,6 +268,7 @@ namespace MainServer
             sqlComm.ExecuteNonQuery();
             //得到输出参数的值,把赋值给name,注意,这里得到的是object类型的,要进行相应的类型轮换
             ErrInfo = sqlComm.Parameters["@strErrInfo"].Value.ToString();
+            mutex.ReleaseMutex();
 
             return ErrInfo;
         }
@@ -262,6 +277,10 @@ namespace MainServer
         {
             if (!m_SqlConnected)
                 return "false";
+
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
 
             string ret = "";
             SqlCommand sqlcmd = new SqlCommand();
@@ -276,6 +295,7 @@ namespace MainServer
             {
                 ret = "false";
             }
+            mutex.ReleaseMutex();
             return ret;
         }
 
@@ -356,6 +376,7 @@ namespace MainServer
         public static List<LogItemSearch> SearchLogItem(string max, string t_start, string t_end, List<string> items)
         {
             List<LogItemSearch> logitemlist = new List<LogItemSearch>();
+
             if (!m_SqlConnected)
                 return logitemlist;
 
@@ -437,7 +458,11 @@ namespace MainServer
             + "values ('" + account + "',0,'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff") + "',getdate(),getdate(),0,0,0,"
             + "" + DataID1 + "," + Number1 + "," + DataID2 + "," + Number2 + "," + DataID3 + "," + Number3 + "," + DataID4 + "," + Number4 + "," + DataID5 + "," + Number5 + ")";
 
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
             string ret = CSGHelper.SqlCommand(cmd);
+            mutex.ReleaseMutex();
             if (ret != "success")
             {
                 return false;
