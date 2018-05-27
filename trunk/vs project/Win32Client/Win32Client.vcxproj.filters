@@ -18,14 +18,6 @@
     <Text Include="ReadMe.txt" />
     <Text Include="Update.log" />
     <Text Include="UpdateLog.txt" />
-    <Text Include="NewPlayerLead.txt" />
-    <Text Include="更新记录.txt" />
-    <Text Include="新手指导.txt" />
-    <Text Include="充值设置.txt" />
-    <Text Include="宣传语.txt" />
-    <Text Include="宣传摆摊奖励.txt" />
-    <Text Include="战场国战设置.txt" />
-    <Text Include="副本设置.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stdafx.h">
@@ -49,6 +41,9 @@
     <ClInclude Include="Utils.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -61,6 +56,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,11 +1,11 @@
 #pragma once
 
 //定义日志等级
-#define Fatal	1
-#define Error	2
-#define Warn	3
-#define Info	4
-#define Debug	5
+#define LOG_Fatal	1
+#define LOG_Error	2
+#define LOG_Warn	3
+#define LOG_Info	4
+#define LOG_Debug	5
 
 class Common
 {

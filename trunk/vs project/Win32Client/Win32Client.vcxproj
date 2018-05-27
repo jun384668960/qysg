@@ -90,23 +90,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="NewPlayerLead.txt" />
     <Text Include="ReadMe.txt" />
     <Text Include="Update.log" />
     <Text Include="UpdateLog.txt" />
-    <Text Include="充值设置.txt" />
-    <Text Include="副本设置.txt" />
-    <Text Include="宣传摆摊奖励.txt" />
-    <Text Include="宣传语.txt" />
-    <Text Include="战场国战设置.txt" />
-    <Text Include="新手指导.txt" />
-    <Text Include="更新记录.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinyxml2.h" />
     <ClInclude Include="Utils.h" />
     <ClInclude Include="Win32Client.h" />
     <ClInclude Include="xcgui.h" />
@@ -117,6 +110,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="tinyxml2.cpp" />
     <ClCompile Include="Utils.cpp" />
     <ClCompile Include="Win32Client.cpp" />
   </ItemGroup>
