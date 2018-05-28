@@ -260,7 +260,7 @@ namespace MainServer
             sqlComm.Parameters["@strErrInfo"].Direction = ParameterDirection.Output;
             //为参数赋值
             sqlComm.Parameters["@strGameAccount"].Value = accout_name;
-            sqlComm.Parameters["@iFreezeType"].Value = type;
+            sqlComm.Parameters["@iUnFreezeType"].Value = type;
             sqlComm.Parameters["@FreezeReason"].Value = reason;
             sqlComm.Parameters["@Operator"].Value = optor;
             //执行
