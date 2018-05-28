@@ -82,6 +82,7 @@ namespace MainServer
 
             m_Active = true;
             serverIni = System.AppDomain.CurrentDomain.BaseDirectory + "配置文件.ini";
+            
             LoadIniConf();
             LoadSgserverConf();
             LoadAutoRchConf();
@@ -92,8 +93,6 @@ namespace MainServer
             LoadGZMrgInfos();
             //赤壁奖励
             LoadCbMrgInfos();
-
-            m_SGExHandle.LoadLoginServerPtr("");
 
             sql_srvAddr = txt_sqlsvr.Text;
             sql_srvUser = txt_sqlAcc.Text;

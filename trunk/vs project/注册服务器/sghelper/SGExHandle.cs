@@ -23,7 +23,7 @@ namespace 注册网关
         IntPtr g_bReload = IntPtr.Zero;
         IntPtr g_bWorldSend = IntPtr.Zero;
         const int BM_CLICK = 0xF5;
-
+        private string m_LoginServerPtrwName = "";
         public bool SetConfigPath(string config)
         {
             m_config = config;
@@ -32,9 +32,14 @@ namespace 注册网关
 
         public bool LoadLoginServerPtr(string wName)
         {
+            if (wName != "")
+            {
+                m_LoginServerPtrwName = wName;
+            }
+            
             try
             {
-                g_wLoginWindow = ProxyWndHandle.FindMainWindowHandle("Login Server(qyws)(ItemMall)(Apr 28 2009 15:28:02)", 100, 25);
+                g_wLoginWindow = ProxyWndHandle.FindMainWindowHandle("Login Server(" + m_LoginServerPtrwName + ")(ItemMall)(Apr 28 2009 15:28:02)", 100, 25);
                 if (g_wLoginWindow == IntPtr.Zero)
                 {
                     LogHelper.WriteLog(DateTime.Now.ToString("yyyy-MM-dd") + "答题日志.txt", "FindMainWindowHandle error!");

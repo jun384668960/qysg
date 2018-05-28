@@ -206,6 +206,10 @@ namespace MainServer
             {
                 return;
             }
+
+            string set_name = CIniCtrl.ReadIniData("LoginServer", "server_set_name", "", ServerFile);
+            m_SGExHandle.LoadLoginServerPtr(set_name.Split(';')[0].Split('/')[0].Replace(" ",""));
+
             string loginPort = CIniCtrl.ReadIniData("LoginServer", "port", "", ServerFile);
             txt_loginPort.Text = loginPort;
 

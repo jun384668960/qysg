@@ -95,7 +95,7 @@ namespace MainServer
             }
             catch (Exception ex)
             {
-                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + ex.Message, new StackTrace(new StackFrame(true)));
+                LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + "-Exception:" + ex.Message, new StackTrace(new StackFrame(true)));
             }
             MessageBox.Show("账户：" + acc + log);
         }
