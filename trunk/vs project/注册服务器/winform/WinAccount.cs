@@ -89,7 +89,7 @@ namespace MainServer
             string log = "";
             try
             {
-                log = CSGHelper.FreezeAccount(acc, 1, "手动封禁！", "GM");
+                log = CSGHelper.FreezeAccount(acc, 1, "手动冻结", "GM");
                 LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
                 btn_AccountReflush_Click(null, null);
             }
@@ -109,7 +109,7 @@ namespace MainServer
             string log = "";
             try
             {
-                log = CSGHelper.FreezeAccount(acc, 0, "手动解封！", "GM");
+                log = CSGHelper.UnFreezeAccount(acc, 1, "手动解封！", "GM");
                 LogHelper.WriteLog(System.AppDomain.CurrentDomain.BaseDirectory, acc + ":" + log, new StackTrace(new StackFrame(true)));
                 btn_AccountReflush_Click(null, null);
             }

@@ -234,7 +234,43 @@ namespace MainServer
 
             return false;
         }
+        public static string UnFreezeAccount(string accout_name, int type, string reason, string optor)
+        {
+            if (!m_SqlConnected)
+                return "解封失败";
 
+            if (mutex == null)
+                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
+
+            string ErrInfo = "";
+            SqlCommand sqlComm = null;
+            //*
+            sqlComm = new SqlCommand("AC_sp_UnFreezeAccount", conn);
+            //设置命令的类型为存储过程
+            sqlComm.CommandType = CommandType.StoredProcedure;
+            //设置参数
+            sqlComm.Parameters.Add("@strGameAccount", SqlDbType.VarChar, 32);
+            sqlComm.Parameters.Add("@iUnFreezeType", SqlDbType.TinyInt);
+            sqlComm.Parameters.Add("@FreezeReason", SqlDbType.VarChar, 50);
+            sqlComm.Parameters.Add("@Operator", SqlDbType.VarChar, 20);
+            //注意输出参数要设置大小,否则size默认为0,
+            sqlComm.Parameters.Add("@strErrInfo", SqlDbType.VarChar, 512);
+            //设置参数的类型为输出参数,默认情况下是输入,
+            sqlComm.Parameters["@strErrInfo"].Direction = ParameterDirection.Output;
+            //为参数赋值
+            sqlComm.Parameters["@strGameAccount"].Value = accout_name;
+            sqlComm.Parameters["@iFreezeType"].Value = type;
+            sqlComm.Parameters["@FreezeReason"].Value = reason;
+            sqlComm.Parameters["@Operator"].Value = optor;
+            //执行
+            sqlComm.ExecuteNonQuery();
+            //得到输出参数的值,把赋值给name,注意,这里得到的是object类型的,要进行相应的类型轮换
+            ErrInfo = sqlComm.Parameters["@strErrInfo"].Value.ToString();
+            mutex.ReleaseMutex();
+
+            return ErrInfo;
+        }
         public static string FreezeAccount(string accout_name, int type, string reason, string optor)
         {
             if (!m_SqlConnected)
@@ -251,10 +287,10 @@ namespace MainServer
             //设置命令的类型为存储过程
             sqlComm.CommandType = CommandType.StoredProcedure;
             //设置参数
-            sqlComm.Parameters.Add("@strGameAccount", SqlDbType.VarChar);
-            sqlComm.Parameters.Add("@iFreezeType", SqlDbType.VarChar);
-            sqlComm.Parameters.Add("@FreezeReason", SqlDbType.VarChar);
-            sqlComm.Parameters.Add("@Operator", SqlDbType.VarChar);
+            sqlComm.Parameters.Add("@strGameAccount", SqlDbType.VarChar, 32);
+            sqlComm.Parameters.Add("@iFreezeType", SqlDbType.TinyInt);
+            sqlComm.Parameters.Add("@FreezeReason", SqlDbType.VarChar, 50);
+            sqlComm.Parameters.Add("@Operator", SqlDbType.VarChar, 20);
             //注意输出参数要设置大小,否则size默认为0,
             sqlComm.Parameters.Add("@strErrInfo", SqlDbType.VarChar, 512);
             //设置参数的类型为输出参数,默认情况下是输入,
