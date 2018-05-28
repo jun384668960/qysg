@@ -3,11 +3,17 @@
 
 #include "stdafx.h"
 #include <stdlib.h>    
+#include <string>  
+#include <iostream>
 
 #include "Win32Client.h"
 #include "Common.h"
 #include "Utils.h"
 #include "tlhelp32.h"
+#include "tinyxml2.h"
+
+using namespace std;
+using namespace tinyxml2;
 
 //包含界面库
 #include "xcgui.h"
@@ -24,6 +30,34 @@ HWINDOW hWindowFz = NULL;
 static int g_ClntPidMap[MAX_CLNT_SIZE] = { 0, 0, 0, 0, 0, 0, 0 };
 static int g_CurClntCount = 0;
 
+//////////////////////////////////////////////////////////////////////////////
+static CString ServerAddr;
+static char pServerAddr[64] = {0};
+static CString ServerPort;
+static int iServerPort = 0;
+static CString GameVersion;
+static CString GameStartFile;
+static CString ClientUpdateTitile;
+static CString ClientProtectTitile;
+static CString ClientUpdateFile;
+static CString ClientProtectFile;
+static CString ClientCopyRight;
+static CString ClientTitle;
+static CString ClientFile;
+static CString KeyHelpFile;
+static CString Exprision;
+static CString ServerUrl;
+static CString RechargeUrl;
+static CString MainWebUrl;
+static CString DownLoadUrl;
+static CString RechargeText;
+static CString CarbonText;
+static CString LeaderText;
+static CString PropagateText;
+static CString PropagatePayText;
+static CString WarText;
+static CString UpdateLogText;
+//////////////////////////////////////////////////////////////////////////////
 #include <WinSock2.h>
 SOCKET sClient;
 HELE hRichEditRegitAccount;
@@ -159,7 +193,7 @@ void DoRegister(CString name, CString pwd)
 	int err;
 
 	char serverip[64] = { 0 };
-	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	if (Utils::DemainToIp(pServerAddr, serverip) != 0)
 	{
 		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
 		return;
@@ -183,7 +217,7 @@ void DoRegister(CString name, CString pwd)
 	SOCKADDR_IN addrSrv;
 	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
-	addrSrv.sin_port = htons(atoi(SERVER_PORT));
+	addrSrv.sin_port = htons(iServerPort);
 
 	sClient = socket(AF_INET, SOCK_STREAM, 0);
 	if (sClient == INVALID_SOCKET)
@@ -283,7 +317,7 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 	int err;
 
 	char serverip[64] = { 0 };
-	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	if (Utils::DemainToIp(pServerAddr, serverip) != 0)
 	{
 		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
 		return;
@@ -307,7 +341,7 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 	SOCKADDR_IN addrSrv;
 	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
-	addrSrv.sin_port = htons(atoi(SERVER_PORT));
+	addrSrv.sin_port = htons(iServerPort);
 
 	sClient = socket(AF_INET, SOCK_STREAM, 0);
 	if (sClient == INVALID_SOCKET)
@@ -386,7 +420,7 @@ void DoAccMgr(CString name, CString pwd, CString pwd2)
 BOOL DoCheckVersion(CString curVer, CString &newVer)
 {
 	char serverip[64] = { 0 };
-	if (Utils::DemainToIp(SERVER_IP, serverip) != 0)
+	if (Utils::DemainToIp(pServerAddr, serverip) != 0)
 	{
 		MessageBox(XWnd_GetHWND(hWindow), L"无法连接到远程服务器", L"提示", MB_OK);
 		return FALSE;
@@ -414,7 +448,7 @@ BOOL DoCheckVersion(CString curVer, CString &newVer)
 	SOCKADDR_IN addrSrv;
 	addrSrv.sin_addr.S_un.S_addr = inet_addr(serverip);
 	addrSrv.sin_family = AF_INET;
-	addrSrv.sin_port = htons(atoi(SERVER_PORT));
+	addrSrv.sin_port = htons(iServerPort);
 
 	sClient = socket(AF_INET, SOCK_STREAM, 0);
 	if (sClient == INVALID_SOCKET)
@@ -1079,11 +1113,11 @@ HWND GetWindowHwndByPorcessID(DWORD dwProcessID)
 int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 {
 	CString nerVer = "";
-	if (DoCheckVersion(GAME_VER, nerVer))
+	if (DoCheckVersion(GameVersion, nerVer))
 	{//启用更新
 		if (MessageBox(NULL, L"检测到更新版本，是否立即升级?", L"升级", MB_YESNO) == IDYES)
 		{
-			CString StartUpdate = CLNT_UPDATE_FILE;
+			CString StartUpdate = ClientUpdateFile;
 			STARTUPINFO si = { sizeof(si) };
 			PROCESS_INFORMATION pi;
 			// TODO:  在此添加控件通知处理程序代码
@@ -1118,8 +1152,8 @@ int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 		MessageBox(XWnd_GetHWND(hWindow), L"超过上限，无法启动游戏！", L"提示", MB_OK);
 		return -1;
 	}
-	CString StartFile = _T(GAME_START_FILE);
-	CString g_CmdLine = _T(GAME_START_LINE);
+	CString StartFile = GameStartFile;
+	CString g_CmdLine = Exprision;
 	STARTUPINFO si = { sizeof(si) };
 	PROCESS_INFORMATION pi;
 	// TODO:  在此添加控件通知处理程序代码
@@ -1144,44 +1178,43 @@ int CALLBACK StartGame_EventBtnClick(BOOL *pbHandled)
 }
 int CALLBACK UpLog_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT1);
-
+	XRichEdit_SetText(hRichEdit, UpdateLogText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK NewLead_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT2);
+	XRichEdit_SetText(hRichEdit, LeaderText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK BtnRecharge_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT3);
+	XRichEdit_SetText(hRichEdit, RechargeText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK PropWd_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT4);
+	XRichEdit_SetText(hRichEdit, PropagateText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK PropPay_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT5);
+	XRichEdit_SetText(hRichEdit, PropagatePayText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK WarHis_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT6);
+	XRichEdit_SetText(hRichEdit, WarText);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK PlayHis_EventBtnClick(BOOL *pbHandled)
 {
-	LoadSrcToEdit(IDR_TXT7);
+	XRichEdit_SetText(hRichEdit, CarbonText);
 	*pbHandled = TRUE;
 	return 0;
 }
@@ -1200,7 +1233,7 @@ int CALLBACK KeyHelp_EventBtnClick(BOOL *pbHandled)
 	
 	for (int i = 0; i<20; i++)
 	{
-		wsprintfW(buf, _T("%s三国 - %d"), CLNT_COPY_RIGHT, i);
+		wsprintfW(buf, _T("%s三国 - %d"), ClientCopyRight, i);
 		XAdapterTable_AddItemText(hAdapter, buf);
 	}
 	XRichEdit_SetText(hComboBoxWin, L"请选择窗口");
@@ -1240,25 +1273,22 @@ int CALLBACK KeyHelp_EventBtnClick(BOOL *pbHandled)
 }
 int CALLBACK KeyMainWeb_EventBtnClick(BOOL *pbHandled)
 {
-	CString url = MAIN_WEB_URL;
-	ShellExecute(0, NULL, _T(MAIN_WEB_URL), NULL, NULL, SW_NORMAL);
+	ShellExecute(0, NULL, MainWebUrl, NULL, NULL, SW_NORMAL);
 	//Utils::OpenURL(url);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK KeyService_EventBtnClick(BOOL *pbHandled)
 {
-	CString url = SERVICE_URL;
-	ShellExecute(0, NULL, _T(SERVICE_URL), NULL, NULL, SW_NORMAL);
-	//Utils::OpenURL(url);
+	ShellExecute(0, NULL, ServerUrl, NULL, NULL, SW_NORMAL);
 	*pbHandled = TRUE;
 	return 0;
 }
 int CALLBACK KeyNeedRecharge_EventBtnClick(BOOL *pbHandled)
 {
-	//CString url = RECHARGE_URL;
+	//CString url = RechargeUrl;
 	//Utils::OpenURL(url);
-	//ShellExecute(0, NULL, _T(RECHARGE_URL), NULL, NULL, SW_NORMAL);
+	//ShellExecute(0, NULL, RechargeUrl, NULL, NULL, SW_NORMAL);
 	MessageBox(NULL, L"自动充值正在完善中，若需充值请联系客服！", L"提示", MB_OK);
 	*pbHandled = TRUE;
 	return 0;
@@ -1288,10 +1318,10 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 	Utils::DeleteDirectory(L"Script\\");
 
 	//start protect
-	CString StartFile = CLNT_PROTECT_FILE;
+	CString StartFile = ClientProtectFile;
 	//获取当前进程pid
 	int t_pid = _getpid();
-	CString g_CmdLine = GAME_START_FILE;
+	CString g_CmdLine = GameStartFile;
 	g_CmdLine.Format(TEXT(" %s %d"), StartFile, t_pid);
 
 	STARTUPINFO si = { sizeof(si) };
@@ -1341,15 +1371,103 @@ DWORD WINAPI ThreadProc(LPVOID lpParam)
 	return 0;
 }
 
+void LoadXmlInfos()
+{
+	try{
+		tinyxml2::XMLDocument doc;
+		XMLError ret = doc.LoadFile("main.xml");
+
+		if (ret != XML_SUCCESS)
+		{
+			MessageBox(NULL, L"配置文件错误，请查实", L"提示", NULL);
+			exit(1);
+		}
+		XMLElement* element;
+		XMLElement* document = doc.RootElement();
+		element = document->FirstChildElement("ServerAddr");
+		ServerAddr = W(element->GetText());
+		element = document->FirstChildElement("ServerPort");
+		ServerPort = W(element->GetText());
+		element = document->FirstChildElement("GameVersion");
+		GameVersion = W(element->GetText());
+		element = document->FirstChildElement("GameStartFile");
+		GameStartFile = W(element->GetText());
+		element = document->FirstChildElement("ClientUpdateTitile");
+		ClientUpdateTitile = W(element->GetText());
+		element = document->FirstChildElement("ClientProtectTitile");
+		ClientProtectTitile = W(element->GetText());
+		element = document->FirstChildElement("ClientUpdateFile");
+		ClientUpdateFile = W(element->GetText());
+		element = document->FirstChildElement("ClientProtectFile");
+		ClientProtectFile = W(element->GetText());
+		element = document->FirstChildElement("ClientCopyRight");
+		ClientCopyRight = W(element->GetText());
+		element = document->FirstChildElement("ClientTitle");
+		ClientTitle = W(element->GetText());
+		element = document->FirstChildElement("ClientFile");
+		ClientFile = W(element->GetText());
+		element = document->FirstChildElement("KeyHelpFile");
+		KeyHelpFile = W(element->GetText());
+		element = document->FirstChildElement("Exprision");
+		Exprision = W(element->GetText());
+		element = document->FirstChildElement("ServerUrl");
+		ServerUrl = W(element->GetText());
+		element = document->FirstChildElement("RechargeUrl");
+		RechargeUrl = W(element->GetText());
+		element = document->FirstChildElement("MainWebUrl");
+		MainWebUrl = W(element->GetText());
+		element = document->FirstChildElement("DownLoadUrl");
+		DownLoadUrl = W(element->GetText());
+		element = document->FirstChildElement("RechargeText");
+		RechargeText = W(element->GetText());
+		element = document->FirstChildElement("CarbonText");
+		CarbonText = W(element->GetText());
+		element = document->FirstChildElement("LeaderText");
+		LeaderText = W(element->GetText());
+		element = document->FirstChildElement("PropagateText");
+		PropagateText = W(element->GetText());
+		element = document->FirstChildElement("PropagatePayText");
+		PropagatePayText = W(element->GetText());
+		element = document->FirstChildElement("WarText");
+		WarText = W(element->GetText());
+		element = document->FirstChildElement("UpdateLogText");
+		UpdateLogText = W(element->GetText());
+
+		wchar_t *pWChar = ServerAddr.GetBuffer(); //获取str的宽字符用数组保存  
+		ServerAddr.ReleaseBuffer();
+		int nLen = ServerAddr.GetLength(); //获取str的字符数  
+		char *addr = new char[nLen * 2 + 1];
+		memset(addr, 0, nLen * 2 + 1);
+		wcstombs(addr, pWChar, nLen * 2 + 1); //宽字符转换为多字节字符 
+		strcpy(pServerAddr, addr);
+		delete[] addr;
+
+		pWChar = ServerPort.GetBuffer(); //获取str的宽字符用数组保存  
+		ServerPort.ReleaseBuffer();
+		nLen = ServerPort.GetLength(); //获取str的字符数  
+		char *port = new char[nLen * 2 + 1];
+		memset(port, 0, nLen * 2 + 1);
+		wcstombs(port, pWChar, nLen * 2 + 1); //宽字符转换为多字节字符 
+		iServerPort = atoi(port);
+		delete[] port;
+	}
+	catch (exception ex){
+		MessageBox(NULL, L"配置文件错误，请查实", L"提示", NULL);
+		exit(1);
+	}
+}
+
 int InitializeComponent()
 {
-	CString str = CLNT_TITLE;
+	LoadXmlInfos();
+
+	CString str = ClientTitle;
 	LPCWSTR title = (LPCWSTR)str;
 
 	hWindow = XWnd_Create(20, 20, 640, 333, title, NULL, xc_window_style_modal);//创建窗口
 	if (hWindow)
 	{
-		CString curVer = ""CLNT_COPY_RIGHT"三国 V"GAME_VER;
+		CString curVer = ClientCopyRight + "三国 V" + GameVersion;
 		XShapeText_Create(12, 6, 0, 0, curVer, hWindow);
 
 		HELE hBtnWinClose = XBtn_Create(610, 7, 15, 15, L"X", hWindow);
@@ -1405,7 +1523,7 @@ int InitializeComponent()
 		XRichEdit_EnableAutoWrap(hRichEdit,TRUE);
 		XRichEdit_EnableReadOnly(hRichEdit, TRUE);
 
-		LoadSrcToEdit(IDR_TXT1);
+		XRichEdit_SetText(hRichEdit, UpdateLogText);
 
 		InitTray(NULL, XWnd_GetHWND(hWindow));
 
@@ -1428,12 +1546,12 @@ int InitializeComponent()
 
 	HXCGUI UInerVer = NULL;
 	CString newVer = "";
-	BOOL updateVer = DoCheckVersion(GAME_VER, newVer);
+	BOOL updateVer = DoCheckVersion(GameVersion, newVer);
 	if (updateVer)
 	{
 #if 0
 		//启用更新
-		CString StartUpdate = CLNT_UPDATE_FILE;
+		CString StartUpdate = ClientUpdateFile;
 		STARTUPINFO si = { sizeof(si) };
 		PROCESS_INFORMATION pi;
 		// TODO:  在此添加控件通知处理程序代码
@@ -1455,11 +1573,11 @@ int InitializeComponent()
 		newVer = "->  V" + newVer;
 		UInerVer = XShapeText_Create(132, 7, 0, 0, newVer, hWindow);
 		XShapeText_SetTextColor(UInerVer, RGB(255, 0, 0), 128);
-		if (newVer != GAME_VER)
+		if (newVer != GameVersion)
 		{
 			if (MessageBox(NULL, L"检测到更新版本，是否立即升级?", L"升级", MB_YESNO) == IDYES)
 			{
-				CString StartUpdate = CLNT_UPDATE_FILE;
+				CString StartUpdate = ClientUpdateFile;
 				STARTUPINFO si = { sizeof(si) };
 				PROCESS_INFORMATION pi;
 				// TODO:  在此添加控件通知处理程序代码
@@ -1554,7 +1672,7 @@ int APIENTRY _tWinMain(_In_ HINSTANCE hInstance,
 	//}
 
 	// 创建互斥量
-	CString str = CLNT_COPY_RIGHT"登录器";
+	CString str = ClientCopyRight + "登录器";
 	LPCWSTR title = (LPCWSTR)str;
 	HANDLE hMutex = CreateMutex(NULL, FALSE, title);
 	// 检查错误代码

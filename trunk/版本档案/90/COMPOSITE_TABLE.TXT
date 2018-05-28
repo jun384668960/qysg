@@ -799,7 +799,7 @@ result = 0
 type = itemTypeALL_WEAPON
 equip_item_level = 50
 item = item_隕鐵,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -809,7 +809,7 @@ result = 0
 type = itemTypeALL_WEAPON
 equip_item_level = 70
 item = item_優質隕鐵,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -819,7 +819,7 @@ result = 0
 type = itemTypeALL_WEAPON
 equip_item_level = 110
 item = item_精煉隕鐵,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -829,7 +829,7 @@ result = 0
 type = itemTypeALL_WEAPON
 equip_item_level = 150
 item = item_上古隕鐵,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -839,7 +839,7 @@ result = 0
 type = itemTypeArmor,itemTypeHead,itemTypeFoot
 equip_item_level = 50
 item = item_烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -849,7 +849,7 @@ result = 0
 type = itemTypeArmor,itemTypeHead,itemTypeFoot
 equip_item_level = 70
 item = item_優質烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -859,7 +859,7 @@ result = 0
 type = itemTypeArmor,itemTypeHead,itemTypeFoot
 equip_item_level = 110
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -869,7 +869,7 @@ result = 0
 type = itemTypeArmor,itemTypeHead,itemTypeFoot
 equip_item_level = 150
 item = item_上古烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -879,7 +879,7 @@ result = 0
 type = itemTypeHorse
 equip_item_level = 35
 item = item_伸筋草,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -889,7 +889,7 @@ result = 0
 type = itemTypeHorse
 equip_item_level = 55
 item = item_伸筋藥丸,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -899,7 +899,7 @@ result = 0
 type = itemTypeHorse
 equip_item_level = 100
 item = item_伸筋活骨散,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -909,7 +909,7 @@ result = 0
 type = itemTypeHorse
 equip_item_level = 150
 item = item_伸筋換骨藥酒,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -919,7 +919,7 @@ result = 0
 type = itemTypeShield
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -929,7 +929,7 @@ result = 0
 type = itemTypeSmallShield
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -939,7 +939,7 @@ result = 0
 type = itemTypeArm
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -949,7 +949,7 @@ result = 0
 type = itemTypeP
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -959,7 +959,7 @@ result = 0
 type = itemTypeUnderwear
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]
@@ -969,7 +969,7 @@ result = 0
 type = itemTypeOther
 equip_item_level = 150
 item = item_精煉烏鋼,1,item_百萬金幣,2
-fail_ratio = 70
+fail_ratio = 40
 random_attr = 1
 
 [composite]

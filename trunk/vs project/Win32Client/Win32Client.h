@@ -4,7 +4,7 @@
 
 #define SERVER_IP				"qysg.52hcby.top"//"192.168.1.100"//"111.67.195.101"//
 #define SERVER_PORT				"22119"
-#define GAME_VER				"1.0.1.4"
+#define GAME_VER				"1.0.1.6"
 #define GAME_START_FILE			"qysg.dat"
 #define CLNT_UPDATE_TITLE		"Win32Update"
 #define CLNT_PROTECT_TITLE		"Win32Protect"

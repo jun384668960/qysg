@@ -13,7 +13,7 @@ Common* Common::GetInstance()
 
 Common::Common()
 {
-	m_LogLevel = Debug;
+	m_LogLevel = LOG_Debug;
 	m_LogDirPath = ".";
 }
 
