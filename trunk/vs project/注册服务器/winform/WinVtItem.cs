@@ -529,14 +529,11 @@ namespace MainServer
                 { }
                 else
                 {
-                    string cmd = "INSERT INTO " + txt_sanvtName.Text + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,"
-                        + "DataID1,Number1,DataID2,Number2,DataID3,Number3,DataID4,Number4,DataID5,Number5)"
-                        + "values ('" + txt_xbAccount.Text + "',0,CONVERT(varchar(100), GETDATE(), 21),getdate(),getdate(),0,0,0,"
-                        + xbId1 + "," + xbCount1 + "," + xbId2 + "," + xbCount2 + "," + xbId3 + "," + xbCount3 + "," + xbId4 + "," + xbCount4 + "," + xbId5 + "," + xbCount5 + ")";
-                    string ret = CSGHelper.SqlCommand(cmd);
-                    if (ret == "success")
+                    bool result = CSGHelper.InsertSanvtItem(txt_xbAccount.Text
+                        , (uint)xbId1, (uint)xbCount1, (uint)xbId2, (uint)xbCount2, (uint)xbId3, (uint)xbCount3
+                        , (uint)xbId4, (uint)xbCount4, (uint)xbId5, (uint)xbCount5);
+                    if (result)
                     {
-
                         SGExHandle.WriteXbLog(txt_xbAccount.Text + "\t" + txt_xbName.Text + "\t"
                             + txt_xbId1.Text + "\t" + txt_xbName1.Text + "\t" + txt_xbCount1.Text + "\t"
                             + txt_xbId2.Text + "\t" + txt_xbName2.Text + "\t" + txt_xbCount2.Text + "\t"
@@ -600,12 +597,10 @@ namespace MainServer
                 { }
                 else
                 {
-                    string cmd = "INSERT INTO " + txt_sanvtName.Text + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,"
-                    + "DataID1,Number1,DataID2,Number2,DataID3,Number3,DataID4,Number4,DataID5,Number5)"
-                    + "values ('" + txt_xbAccount.Text + "',0,CONVERT(varchar(100), GETDATE(), 21),getdate(),getdate(),0,0,0,"
-                    + xbId6 + "," + xbCount6 + "," + xbId7 + "," + xbCount7 + "," + xbId8 + "," + xbCount8 + "," + xbId9 + "," + xbCount9 + "," + xbId10 + "," + xbCount10 + ")";
-                    string ret = CSGHelper.SqlCommand(cmd);
-                    if (ret == "success")
+                    bool result = CSGHelper.InsertSanvtItem(txt_xbAccount.Text
+                       , (uint)xbId6, (uint)xbCount6, (uint)xbId7, (uint)xbCount7, (uint)xbId8, (uint)xbCount8
+                       , (uint)xbId9, (uint)xbCount9, (uint)xbId10, (uint)xbCount10);
+                    if (result)
                     {
                         SGExHandle.WriteXbLog(txt_xbAccount.Text + "\t" + txt_xbName.Text + "\t"
                         + txt_xbId6.Text + "\t" + txt_xbName6.Text + "\t" + txt_xbCount6.Text + "\t"
@@ -670,17 +665,8 @@ namespace MainServer
                     if (dbCount > 0)
                     {
                         //虚宝增加
-                        string cmd = "DECLARE @account varchar(21) \n"
-                                + "DECLARE @point int \n"
-                                + "DECLARE @old_point int \n"
-                                + "DECLARE @new_point int \n"
-                                + "set @account = '" + txt_xbAccount.Text + "' \n"
-                                + "set @point = " + dbCount + " \n"
-                                + "Select @old_point=point from dbo.game_acc where account = @account \n"
-                                + "SET @new_point = @point + @old_point \n"
-                                + "Update dbo.game_acc set point = @new_point where account = @account";
-                        string ret = CSGHelper.SqlCommand(cmd);
-                        if (ret == "success")
+                        bool result = CSGHelper.AddAcountPoint(txt_xbAccount.Text, dbCount);
+                        if (result)
                         {
                             txt_dbCurr.Text = "" + CSGHelper.SelectAcountPoint(txt_xbAccount.Text);
                         }

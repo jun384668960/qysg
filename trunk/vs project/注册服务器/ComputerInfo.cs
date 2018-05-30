@@ -61,7 +61,7 @@ namespace Common
 
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //这里写异常的处理  
             }
@@ -100,7 +100,7 @@ namespace Common
                     }
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //这里写异常的处理  
             }

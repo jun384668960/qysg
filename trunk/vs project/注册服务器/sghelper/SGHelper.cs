@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Text;
+using System.Windows.Forms;
 
 namespace MainServer
 {
@@ -21,14 +22,13 @@ namespace MainServer
         public string from_name;
         public string item_name;
     };
-
     public struct Account
     {
         public string account;
         public string password;
         public string password2;
         public string duedate;
-        public bool enable;
+        public string enable;
         public string lock_duedate;
         public string logout_time;
         public string ip;
@@ -37,7 +37,7 @@ namespace MainServer
         public string status;
         public string sec_pwd;
         public string first_ip;
-        public int point;
+        public string point;
         public string trade_psw;
         public string IsAdult;
         public string OnlineTime;
@@ -48,20 +48,31 @@ namespace MainServer
 
     public class CSGHelper
     {
+        public static string m_sqlLog = "";
+        public static string m_sqlSanvt = "";
+        public static string m_sqlAccount = "";
         public static bool m_SqlConnected = false;
+        private static System.Threading.Mutex mutex = new System.Threading.Mutex(false, "MutexLog");
+        private static SqlConnection conn;
         public static bool SqlConn(string cnn_str) {
             //conn = new SqlConnection("Data Source = 127.0.0.1; Initial Catalog = Account; User Id = sa; Password = 123456;");
-           
+            if (m_sqlLog == "" || m_sqlSanvt == "" || m_sqlAccount == "")
+            {
+                MessageBox.Show("请先设置游戏数据库名称！");
+                return false;
+            }
             try
             {
                 conn = new SqlConnection(cnn_str); ;
                 conn.Open();
                 m_SqlConnected = true;
+                mutex.ReleaseMutex();
                 return true;
             }
             catch (Exception)
             {
                 m_SqlConnected = false;
+                mutex.ReleaseMutex();
                 return false;
             }
         }
@@ -71,15 +82,22 @@ namespace MainServer
             m_SqlConnected = false;
             return true;
         }
+        public static void SetSQLNames(string account, string sanvt, string log)
+        {
+            if (m_sqlLog == string.Empty || m_sqlSanvt == string.Empty || m_sqlAccount == string.Empty)
+            {
+                return;
+            }
+            m_sqlLog = log;
+            m_sqlSanvt = sanvt;
+            m_sqlAccount = account;
+        }
         public static string CreateAccount(string name, string passwd)
         {
             if (!m_SqlConnected)
                 return "创建失败";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
-
             string accout_name = name;
             string accout_password = passwd;
             string accout_password2 = Md5Helper.MD5ToString(passwd);
@@ -117,8 +135,6 @@ namespace MainServer
             if (!m_SqlConnected)
                 return "修改失败";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
 
             string accout_name = name;
@@ -155,92 +171,13 @@ namespace MainServer
             return ErrInfo;
         }
 
-        private static System.Threading.Mutex mutex;
-        public static List<string> SearchStrCount(string str, DateTime startTime, DateTime endTime)
-        {
-            List<string> namelist = new List<string>();
+        
 
-            if (!m_SqlConnected)
-                return namelist;
-
-            string sqlstr = "";
-
-            SqlCommand sqlComm = null;
-            //*
-            //sqlstr = "SELECT name FROM [sanollog].[dbo].[Log_Talk_01] where name_dest = '" + str + "' and (log_time > '" + startTime.ToString("yyyy-MM-dd HH:mm:ss") + "' and log_time < '" + endTime.ToString("yyyy-MM-dd HH:mm:ss") + "')";
-            sqlstr = str + " and (log_time > '" + startTime.ToString("yyyy-MM-dd HH:mm:ss") + "' and log_time < '" + endTime.ToString("yyyy-MM-dd HH:mm:ss") + "')";
-            sqlComm = new SqlCommand(sqlstr, conn);
-            //执行msg
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
-            mutex.WaitOne();
-
-            SqlDataReader Dr = sqlComm.ExecuteReader();
-            
-            while (Dr.Read())
-            {
-                //count = int.Parse(Dr["name"].ToString());
-                //读出内容列
-                string str1 = Dr["name"].ToString();
-                if (!namelist.Contains(str1))
-                {
-                    namelist.Add(str1);
-                }
-                
-            }
-            Dr.Close();
-            mutex.ReleaseMutex();
-
-            return namelist;
-            /*
-            foreach(var item in namelist)
-            {
-                sqlstr = "SELECT count(*) as number FROM [sanollog].[dbo].[Log_Talk_01] where name_dest = '" + str + "' and name='" + item + "'  and (log_time > '" + startTime.ToString("yyyy-MM-dd HH:mm:ss") + "' and log_time < '" + endTime.ToString("yyyy-MM-dd HH:mm:ss") + "')";
-                sqlComm = new SqlCommand(sqlstr, conn);
-                Dr = sqlComm.ExecuteReader();
-                if (Dr.Read())
-                {
-                    //读出内容列
-                    count = int.Parse(Dr["number"].ToString());
-                }
-                Dr.Close();
-
-                if (count > 5)
-                {
-                    //根据游戏名获取账户名
-                    SGDataCtrl.GetPlayAttr();
-                    string acc = SGDataCtrl.GameStrToSimpleCN(item);
-                    //冻结账户
-                    FreezeAccount(acc, 1, "异常登录！或使用贝贝登录。","GM");
-                    //ret = "账户：" + item + " 冻结操作："+ FreezeAccount(item, 1, "异常登录！或使用贝贝登录。", "GM") + "\r\n";
-                }
-            }
-            namelist.Clear();
-
-            return ret;
-             * */
-        }
-
-        public static bool IsIllegal(List<string> listenString)
-        {
-            foreach (var item in listenString)
-            {
-                int count = 0;// SearchStrCount(item, DateTime.Now.AddHours(-24), DateTime.Now);
-                if (count>=5)
-                {
-                    return true;
-                }
-            }
-
-            return false;
-        }
         public static string UnFreezeAccount(string accout_name, int type, string reason, string optor)
         {
             if (!m_SqlConnected)
                 return "解封失败";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
 
             string ErrInfo = "";
@@ -276,8 +213,6 @@ namespace MainServer
             if (!m_SqlConnected)
                 return "冻结失败";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
 
             string ErrInfo = "";
@@ -314,8 +249,6 @@ namespace MainServer
             if (!m_SqlConnected)
                 return "false";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
 
             string ret = "";
@@ -341,17 +274,14 @@ namespace MainServer
                 return 0;
 
             int point = 0;
-
             string sqlstr = "";
 
             SqlCommand sqlComm = null;
             sqlstr = "SELECT [point]"
-            + "FROM [Account_hcsg].[dbo].[game_acc] "
+            + "FROM " + m_sqlAccount + ".dbo.game_acc "
             + "where [account] = '" + account + "' ";
             sqlComm = new SqlCommand(sqlstr, conn);
-            //执行msg
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
+
             mutex.WaitOne();
 
             SqlDataReader Dr = sqlComm.ExecuteReader();
@@ -380,15 +310,12 @@ namespace MainServer
             + ",[name]"
             + ",[ip]"
             + ",[msg] "
-            + "FROM [sanollog_hcsg].[dbo].[Log_Talk_01] "
+            + "FROM " + m_sqlLog + ".dbo.Log_Talk_01 "
             + "where (log_time > '" + t_start + "' and log_time < '" + t_end + "') and (type = '组织公会通频' or type = '组织公会') and msg = upper('" + msg + "') "
             + " order by [log_time] asc";
             sqlComm = new SqlCommand(sqlstr, conn);
-            //执行msg
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
-            mutex.WaitOne();
 
+            mutex.WaitOne();
             SqlDataReader Dr = sqlComm.ExecuteReader();
             
             LogSearch item;
@@ -424,7 +351,7 @@ namespace MainServer
                     + ",[from_name]"
                     + ",[item_name]"
                     + ",[item_code]"
-                    + " FROM [sanollog_hcsg].[dbo].[Log_Item_01]"
+                    + " FROM " + m_sqlLog + ".dbo.Log_Item_01"
                     + " where log_time >= '" + t_start + "' and log_time <'" + t_end + "' and "
                     + " ((type = '合成强化物品' and item_name like '+" + max + "%')";
 
@@ -445,9 +372,6 @@ namespace MainServer
             sqlstr += ") order by [log_time] asc";
 
             sqlComm = new SqlCommand(sqlstr, conn);
-            //执行msg
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
             mutex.WaitOne();
 
             SqlDataReader Dr = sqlComm.ExecuteReader();
@@ -469,14 +393,17 @@ namespace MainServer
             return logitemlist;
         }
 
-        public static bool InsertSanvtItem(string sanvtName, string account
+        public static bool InsertSanvtItem(string account
             , UInt32 DataID1, UInt32 Number1
             , UInt32 DataID2, UInt32 Number2
             , UInt32 DataID3, UInt32 Number3
             , UInt32 DataID4, UInt32 Number4
             , UInt32 DataID5, UInt32 Number5)
         {
-            if (sanvtName == string.Empty || account == string.Empty)
+            if (!m_SqlConnected)
+                return false;
+
+            if (account == string.Empty)
             {
                 return false;
             }
@@ -489,13 +416,35 @@ namespace MainServer
                 return false;
             }
 
-            string cmd = "INSERT INTO " + sanvtName + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,"
+            string cmd = "INSERT INTO " + m_sqlSanvt + ".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,"
             + "DataID1,Number1,DataID2,Number2,DataID3,Number3,DataID4,Number4,DataID5,Number5)"
             + "values ('" + account + "',0,'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff") + "',getdate(),getdate(),0,0,0,"
             + "" + DataID1 + "," + Number1 + "," + DataID2 + "," + Number2 + "," + DataID3 + "," + Number3 + "," + DataID4 + "," + Number4 + "," + DataID5 + "," + Number5 + ")";
 
-            if (mutex == null)
-                mutex = new System.Threading.Mutex(false, "MutexLog");
+            mutex.WaitOne();
+            string ret = CSGHelper.SqlCommand(cmd);
+            mutex.ReleaseMutex();
+            if (ret != "success")
+            {
+                return false;
+            }
+            return true;
+        }
+        public static bool AddAcountPoint(string account, int dbCount)
+        {
+            if (!m_SqlConnected)
+                return false;
+
+            string cmd = "DECLARE @account varchar(21) \n"
+                                + "DECLARE @point int \n"
+                                + "DECLARE @old_point int \n"
+                                + "DECLARE @new_point int \n"
+                                + "set @account = '" + account + "' \n"
+                                + "set @point = " + dbCount + " \n"
+                                + "Select @old_point=point from " + m_sqlAccount + ".dbo.game_acc where account = @account \n"
+                                + "SET @new_point = @point + @old_point \n"
+                                + "Update " + m_sqlAccount + ".dbo.game_acc set point = @new_point where account = @account";
+
             mutex.WaitOne();
             string ret = CSGHelper.SqlCommand(cmd);
             mutex.ReleaseMutex();
@@ -506,6 +455,52 @@ namespace MainServer
             return true;
         }
 
-        private static SqlConnection conn;
+        public static List<Account> SelectAcountInfo()
+        {
+            List<Account> accountInfo = new List<Account>();
+            if (!m_SqlConnected)
+                return accountInfo;
+
+            string sqlstr = "SELECT * FROM " + m_sqlAccount + ".dbo.game_acc";
+
+            SqlCommand sqlComm = new SqlCommand(sqlstr, conn);
+            mutex.WaitOne();
+
+            SqlDataReader Dr = sqlComm.ExecuteReader();
+
+            Account info;
+            while (Dr.Read())
+            {
+                //读出内容列
+                info.account = Dr["account"].ToString();
+                info.create_time = Dr["create_time"].ToString();
+                info.duedate = Dr["duedate"].ToString();
+                info.enable = Dr["enable"].ToString();
+                info.first_ip = Dr["first_ip"].ToString();
+                info.ip = Dr["ip"].ToString();
+                info.IsAdult = Dr["IsAdult"].ToString();
+                info.LastLoginTime = Dr["LastLoginTime"].ToString();
+                info.LastLogoutTime = Dr["LastLogoutTime"].ToString();
+                info.lock_duedate = Dr["lock_duedate"].ToString();
+                info.logout_time = Dr["logout_time"].ToString();
+                info.Offline_Time = Dr["Offline_Time"].ToString();
+                info.OnlineTime = Dr["OnlineTime"].ToString();
+                info.password = Dr["password"].ToString();
+                info.password2 = Dr["password2"].ToString();
+                info.point = Dr["point"].ToString();
+                info.privilege = Dr["privilege"].ToString();
+                info.sec_pwd = Dr["sec_pwd"].ToString();
+                info.status = Dr["status"].ToString();
+                info.trade_psw = Dr["trade_psw"].ToString();
+
+                accountInfo.Add(info);
+            }
+            Dr.Close();
+            mutex.ReleaseMutex();
+
+            return accountInfo;
+        }
     }
+
+    
 }

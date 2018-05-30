@@ -41,7 +41,7 @@ namespace Common
                     sw.Close();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
         }
@@ -56,7 +56,7 @@ namespace Common
                     sr.Close();
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
             }
             return info;

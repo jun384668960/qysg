@@ -59,6 +59,7 @@ namespace MainServer
             List<Illegal> nameList = GetIllegalList();
 
             int FreezeCount = 0;
+            int IllCount = 0;
             //更新列表
             lstv_GtList.Items.Clear();
             foreach (var name in nameList)
@@ -79,7 +80,7 @@ namespace MainServer
                     if (filter)
                         continue;
                 }
-
+                IllCount++;
                 ListViewItem lvi = new ListViewItem();
 
                 lvi.Text = CFormat.PureString(name.account);
@@ -110,7 +111,7 @@ namespace MainServer
             }
             lstv_GtList.EndUpdate();
 
-            lbl_IllCount.Text = nameList.Count.ToString();
+            lbl_IllCount.Text = IllCount.ToString();
             lbl_FreezeCount.Text = FreezeCount.ToString();
         }
 

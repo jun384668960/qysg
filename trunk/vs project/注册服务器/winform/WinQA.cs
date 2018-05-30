@@ -38,7 +38,7 @@ namespace MainServer
                 CIniCtrl.WriteIniData("Config", "AutoStartQues", "Disable", serverIni);
             }
         }
-        private void button21_Click(object sender, EventArgs e)
+        private void btn_startQues_Click(object sender, EventArgs e)
         {
             if (!m_Active)
             {
@@ -80,7 +80,7 @@ namespace MainServer
 
                 m_SGExHandle.SetConfigPath(txt_gameVerFile.Text);
                 m_SGExHandle.LoadAQBank(txt_QusbankFile.Text);
-                m_SGExHandle.SetQADatVt(txt_svrForder.Text + "\\DataBase\\saves\\players.dat", txt_sanvtName.Text);
+                m_SGExHandle.SetQADatVt(txt_svrForder.Text + "\\DataBase\\saves\\players.dat");
                 m_SGExHandle.SetQAReward((int)m_AnswerVtId, m_AnswerVtName);
                 m_SGExHandle.SetQANormalReward(normalReward);
                 m_SGExHandle.SetQATaskReward(taskReward);

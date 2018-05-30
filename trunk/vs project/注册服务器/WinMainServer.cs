@@ -28,6 +28,8 @@ namespace MainServer
         private string sql_srvPwd;
         private string accMrgPort;
         private string sqlAccountName;
+        private string sqlSanvtName;
+        private string sqlLogName;
 
         IntPtr g_wLoginWindow = IntPtr.Zero;
         IntPtr g_bReload = IntPtr.Zero;
@@ -164,6 +166,16 @@ namespace MainServer
             {
                 txt_sqlAccountName.Text = sqlAccountName;
             }
+            sqlSanvtName = CIniCtrl.ReadIniData("Server", "SanvtName", "", serverIni);
+            if (sqlSanvtName != "")
+            {
+                txt_sqlSanvtName.Text = sqlSanvtName;
+            }
+            sqlLogName = CIniCtrl.ReadIniData("Server", "LogName", "", serverIni);
+            if (sqlLogName != "")
+            {
+                txt_sqlLogName.Text = sqlLogName;
+            }
             #endregion
             #region //版本管理
             string gameVersionFile = CIniCtrl.ReadIniData("Config", "gameVersionFile", "", serverIni);
@@ -224,9 +236,6 @@ namespace MainServer
             FillQAItemsView();
             rbx_QANormalDetil.Text = CIniCtrl.ReadIniData("Config", "m_NormalRecharge", "", serverIni);
             rbx_QATaskDetil.Text = CIniCtrl.ReadIniData("Config", "m_TaskRecharge1", "", serverIni);
-
-            string sanvtName = CIniCtrl.ReadIniData("Server", "sanvtName", "", serverIni);
-            txt_sanvtName.Text = sanvtName;
 
             string quesBankFile = CIniCtrl.ReadIniData("Config", "QuesBankFile", "", serverIni);
             txt_QusbankFile.Text = quesBankFile;
@@ -289,7 +298,7 @@ namespace MainServer
             if (gameAutoStartQues != "" && gameAutoStartQues == "Enable")
             {
                 cbx_AutoStartQues.Checked = true;
-                button21_Click(null, null);
+                btn_startQues_Click(null, null);
             }
             else
             {
@@ -326,7 +335,7 @@ namespace MainServer
             if (game15TalkAutoStart != "" && game15TalkAutoStart == "Enable")
             {
                 cbx_AutoStart15Talk.Checked = true;
-                button21_Click_1(null, null);
+                btn_15Talk_Click(null, null);
             }
             else
             {
@@ -364,6 +373,7 @@ namespace MainServer
 
         private void btn_sql_Click(object sender, EventArgs e)
         {
+            CSGHelper.SetSQLNames(sqlAccountName, sqlSanvtName, sqlLogName);
             if (btn_sql.Text == "连接数据库")
             {
                 //连接数据库
@@ -439,6 +449,20 @@ namespace MainServer
             //写入
             CIniCtrl.WriteIniData("Server", "AccountName", txt_sqlAccountName.Text, serverIni);
             sqlAccountName = txt_sqlAccountName.Text;
+        }
+
+        private void txt_sqlSanvtName_TextChanged(object sender, EventArgs e)
+        {
+            //写入
+            CIniCtrl.WriteIniData("Server", "SanvtName", txt_sqlSanvtName.Text, serverIni);
+            sqlSanvtName = txt_sqlSanvtName.Text;
+        }
+
+        private void txt_sqlLogName_TextChanged(object sender, EventArgs e)
+        {
+            //写入
+            CIniCtrl.WriteIniData("Server", "LogName", txt_sqlLogName.Text, serverIni);
+            sqlLogName = txt_sqlLogName.Text;
         }
 
         private void Frm_server_Deactivate(object sender, EventArgs e)
@@ -1028,5 +1052,6 @@ namespace MainServer
             }
         }
         #endregion
+
     }
 }

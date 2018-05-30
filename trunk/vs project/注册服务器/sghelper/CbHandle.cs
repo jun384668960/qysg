@@ -29,7 +29,6 @@ namespace 注册网关
         public WarStatusCallFunc m_WarStatusCallFunc = null;
 
         private ZcTime m_WarTime;
-        private DateTime m_LastWriteTime;
         private List<HeroScore> m_HeroScores = new List<HeroScore>();
         private List<WarRewordConf> m_WarRewordConf = new List<WarRewordConf>();
 
@@ -555,11 +554,10 @@ namespace 注册网关
                 xbId5 = 1;
                 xbCount5 = 0;
             }
-            string cmd = "INSERT INTO " + "sanvt_hcsg" + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,"
-                       + "DataID1,Number1,DataID2,Number2,DataID3,Number3,DataID4,Number4,DataID5,Number5)"
-                       + "values ('" + CPlayerCtrl.GetAccByName(name) + "',0,CONVERT(varchar(100), GETDATE(), 21),getdate(),getdate(),0,0,0,"
-                       + xbId1 + "," + xbCount1 + "," + xbId2 + "," + xbCount2 + "," + xbId3 + "," + xbCount3 + "," + xbId4 + "," + xbCount4 + "," + xbId5 + "," + xbCount5 + ")";
-            string ret = CSGHelper.SqlCommand(cmd);
+
+            CSGHelper.InsertSanvtItem(CPlayerCtrl.GetAccByName(name)
+                        , (uint)xbId1, (uint)xbCount1, (uint)xbId2, (uint)xbCount2, (uint)xbId3, (uint)xbCount3
+                        , (uint)xbId4, (uint)xbCount4, (uint)xbId5, (uint)xbCount5);
         }
         public void SendWarReward()
         {

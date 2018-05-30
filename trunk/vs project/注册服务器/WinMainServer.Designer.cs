@@ -46,9 +46,13 @@
             this.txt_accMrgPort = new System.Windows.Forms.TextBox();
             this.btn_accPortModify = new System.Windows.Forms.Button();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label14 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
+            this.label181 = new System.Windows.Forms.Label();
+            this.label180 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.lbl_sqlStatus = new System.Windows.Forms.Label();
+            this.txt_sqlLogName = new System.Windows.Forms.TextBox();
+            this.txt_sqlSanvtName = new System.Windows.Forms.TextBox();
             this.txt_sqlAccountName = new System.Windows.Forms.TextBox();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -588,8 +592,6 @@
             this.btn_zcheroRd = new System.Windows.Forms.Button();
             this.tabPage12 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.label69 = new System.Windows.Forms.Label();
-            this.txt_sanvtName = new System.Windows.Forms.TextBox();
             this.btn_reLoadList = new System.Windows.Forms.Button();
             this.btn_rcgInit = new System.Windows.Forms.Button();
             this.groupBox41 = new System.Windows.Forms.GroupBox();
@@ -862,7 +864,7 @@
             // 
             // txt_sqlAcc
             // 
-            this.txt_sqlAcc.Location = new System.Drawing.Point(283, 14);
+            this.txt_sqlAcc.Location = new System.Drawing.Point(244, 15);
             this.txt_sqlAcc.Name = "txt_sqlAcc";
             this.txt_sqlAcc.Size = new System.Drawing.Size(91, 21);
             this.txt_sqlAcc.TabIndex = 2;
@@ -871,7 +873,7 @@
             // 
             // txt_sqlPwd
             // 
-            this.txt_sqlPwd.Location = new System.Drawing.Point(435, 14);
+            this.txt_sqlPwd.Location = new System.Drawing.Point(375, 15);
             this.txt_sqlPwd.Name = "txt_sqlPwd";
             this.txt_sqlPwd.PasswordChar = '#';
             this.txt_sqlPwd.Size = new System.Drawing.Size(91, 21);
@@ -883,7 +885,7 @@
             // 
             this.txt_sqlsvr.Location = new System.Drawing.Point(49, 15);
             this.txt_sqlsvr.Name = "txt_sqlsvr";
-            this.txt_sqlsvr.Size = new System.Drawing.Size(91, 21);
+            this.txt_sqlsvr.Size = new System.Drawing.Size(75, 21);
             this.txt_sqlsvr.TabIndex = 2;
             this.txt_sqlsvr.Text = "127.0.0.1";
             this.txt_sqlsvr.TextChanged += new System.EventHandler(this.txt_sqlsvr_TextChanged);
@@ -900,7 +902,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(236, 18);
+            this.label3.Location = new System.Drawing.Point(207, 19);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(41, 12);
             this.label3.TabIndex = 3;
@@ -909,7 +911,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(388, 18);
+            this.label4.Location = new System.Drawing.Point(341, 19);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(41, 12);
             this.label4.TabIndex = 3;
@@ -917,7 +919,7 @@
             // 
             // btn_sql
             // 
-            this.btn_sql.Location = new System.Drawing.Point(545, 14);
+            this.btn_sql.Location = new System.Drawing.Point(839, 15);
             this.btn_sql.Name = "btn_sql";
             this.btn_sql.Size = new System.Drawing.Size(69, 21);
             this.btn_sql.TabIndex = 0;
@@ -927,7 +929,7 @@
             // 
             // txt_sqlPort
             // 
-            this.txt_sqlPort.Location = new System.Drawing.Point(196, 15);
+            this.txt_sqlPort.Location = new System.Drawing.Point(167, 15);
             this.txt_sqlPort.Name = "txt_sqlPort";
             this.txt_sqlPort.Size = new System.Drawing.Size(37, 21);
             this.txt_sqlPort.TabIndex = 2;
@@ -937,7 +939,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(153, 19);
+            this.label5.Location = new System.Drawing.Point(130, 19);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(41, 12);
             this.label5.TabIndex = 3;
@@ -986,14 +988,18 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label181);
+            this.groupBox2.Controls.Add(this.label180);
+            this.groupBox2.Controls.Add(this.label14);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.lbl_sqlStatus);
             this.groupBox2.Controls.Add(this.txt_sqlPwd);
+            this.groupBox2.Controls.Add(this.txt_sqlLogName);
+            this.groupBox2.Controls.Add(this.txt_sqlSanvtName);
             this.groupBox2.Controls.Add(this.txt_sqlAccountName);
             this.groupBox2.Controls.Add(this.txt_sqlPort);
             this.groupBox2.Controls.Add(this.txt_sqlsvr);
@@ -1006,18 +1012,9 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "数据库";
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(635, 19);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 12);
-            this.label14.TabIndex = 3;
-            this.label14.Text = "数据库：";
-            // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(889, 15);
+            this.button4.Location = new System.Drawing.Point(764, 15);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(69, 21);
             this.button4.TabIndex = 3;
@@ -1025,21 +1022,67 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label181
+            // 
+            this.label181.AutoSize = true;
+            this.label181.Location = new System.Drawing.Point(674, 19);
+            this.label181.Name = "label181";
+            this.label181.Size = new System.Drawing.Size(29, 12);
+            this.label181.TabIndex = 3;
+            this.label181.Text = "log:";
+            // 
+            // label180
+            // 
+            this.label180.AutoSize = true;
+            this.label180.Location = new System.Drawing.Point(577, 19);
+            this.label180.Name = "label180";
+            this.label180.Size = new System.Drawing.Size(41, 12);
+            this.label180.TabIndex = 3;
+            this.label180.Text = "sanvt:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(470, 19);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(53, 12);
+            this.label14.TabIndex = 3;
+            this.label14.Text = "Account:";
+            // 
             // lbl_sqlStatus
             // 
             this.lbl_sqlStatus.AutoSize = true;
-            this.lbl_sqlStatus.Location = new System.Drawing.Point(688, 19);
+            this.lbl_sqlStatus.Location = new System.Drawing.Point(914, 19);
             this.lbl_sqlStatus.Name = "lbl_sqlStatus";
             this.lbl_sqlStatus.Size = new System.Drawing.Size(53, 12);
             this.lbl_sqlStatus.TabIndex = 1;
             this.lbl_sqlStatus.Text = "未初始化";
             // 
+            // txt_sqlLogName
+            // 
+            this.txt_sqlLogName.Location = new System.Drawing.Point(709, 15);
+            this.txt_sqlLogName.Name = "txt_sqlLogName";
+            this.txt_sqlLogName.Size = new System.Drawing.Size(49, 21);
+            this.txt_sqlLogName.TabIndex = 2;
+            this.txt_sqlLogName.Text = "sanollog";
+            this.txt_sqlLogName.TextChanged += new System.EventHandler(this.txt_sqlLogName_TextChanged);
+            // 
+            // txt_sqlSanvtName
+            // 
+            this.txt_sqlSanvtName.Location = new System.Drawing.Point(619, 15);
+            this.txt_sqlSanvtName.Name = "txt_sqlSanvtName";
+            this.txt_sqlSanvtName.Size = new System.Drawing.Size(49, 21);
+            this.txt_sqlSanvtName.TabIndex = 2;
+            this.txt_sqlSanvtName.Text = "sanvt";
+            this.txt_sqlSanvtName.TextChanged += new System.EventHandler(this.txt_sqlSanvtName_TextChanged);
+            // 
             // txt_sqlAccountName
             // 
-            this.txt_sqlAccountName.Location = new System.Drawing.Point(785, 15);
+            this.txt_sqlAccountName.Location = new System.Drawing.Point(523, 15);
             this.txt_sqlAccountName.Name = "txt_sqlAccountName";
-            this.txt_sqlAccountName.Size = new System.Drawing.Size(91, 21);
+            this.txt_sqlAccountName.Size = new System.Drawing.Size(49, 21);
             this.txt_sqlAccountName.TabIndex = 2;
+            this.txt_sqlAccountName.Text = "Account";
             this.txt_sqlAccountName.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // notifyIcon1
@@ -2578,7 +2621,7 @@
             this.button21.TabIndex = 2;
             this.button21.Text = "清空";
             this.button21.UseVisualStyleBackColor = true;
-            this.button21.Click += new System.EventHandler(this.button21_Click_2);
+            this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
             // button18
             // 
@@ -2900,7 +2943,7 @@
             this.btn_startQues.TabIndex = 2;
             this.btn_startQues.Text = "开始";
             this.btn_startQues.UseVisualStyleBackColor = true;
-            this.btn_startQues.Click += new System.EventHandler(this.button21_Click);
+            this.btn_startQues.Click += new System.EventHandler(this.btn_startQues_Click);
             // 
             // txt_QuesInterval
             // 
@@ -3244,7 +3287,7 @@
             this.btn_15Talk.TabIndex = 0;
             this.btn_15Talk.Text = "开始";
             this.btn_15Talk.UseVisualStyleBackColor = true;
-            this.btn_15Talk.Click += new System.EventHandler(this.button21_Click_1);
+            this.btn_15Talk.Click += new System.EventHandler(this.btn_15Talk_Click);
             // 
             // txt_15MaxAnn
             // 
@@ -6065,8 +6108,6 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.label69);
-            this.groupBox8.Controls.Add(this.txt_sanvtName);
             this.groupBox8.Controls.Add(this.btn_reLoadList);
             this.groupBox8.Controls.Add(this.btn_rcgInit);
             this.groupBox8.Location = new System.Drawing.Point(339, 211);
@@ -6076,27 +6117,9 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "配置管理";
             // 
-            // label69
-            // 
-            this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(16, 27);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(77, 12);
-            this.label69.TabIndex = 3;
-            this.label69.Text = "虚宝数据库：";
-            // 
-            // txt_sanvtName
-            // 
-            this.txt_sanvtName.Location = new System.Drawing.Point(92, 23);
-            this.txt_sanvtName.Name = "txt_sanvtName";
-            this.txt_sanvtName.Size = new System.Drawing.Size(67, 21);
-            this.txt_sanvtName.TabIndex = 2;
-            this.txt_sanvtName.Text = "sanvt_hcsg";
-            this.txt_sanvtName.TextChanged += new System.EventHandler(this.txt_sanvtName_TextChanged);
-            // 
             // btn_reLoadList
             // 
-            this.btn_reLoadList.Location = new System.Drawing.Point(273, 69);
+            this.btn_reLoadList.Location = new System.Drawing.Point(276, 30);
             this.btn_reLoadList.Name = "btn_reLoadList";
             this.btn_reLoadList.Size = new System.Drawing.Size(78, 45);
             this.btn_reLoadList.TabIndex = 3;
@@ -6106,7 +6129,7 @@
             // 
             // btn_rcgInit
             // 
-            this.btn_rcgInit.Location = new System.Drawing.Point(273, 20);
+            this.btn_rcgInit.Location = new System.Drawing.Point(180, 31);
             this.btn_rcgInit.Name = "btn_rcgInit";
             this.btn_rcgInit.Size = new System.Drawing.Size(78, 43);
             this.btn_rcgInit.TabIndex = 3;
@@ -6144,7 +6167,6 @@
             this.txt_srchItemName.Name = "txt_srchItemName";
             this.txt_srchItemName.Size = new System.Drawing.Size(141, 21);
             this.txt_srchItemName.TabIndex = 2;
-            this.txt_srchItemName.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // lstv_itemList
             // 
@@ -6223,7 +6245,6 @@
             this.txt_betmRight.Name = "txt_betmRight";
             this.txt_betmRight.Size = new System.Drawing.Size(104, 21);
             this.txt_betmRight.TabIndex = 2;
-            this.txt_betmRight.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_betmLeft
             // 
@@ -6231,7 +6252,6 @@
             this.txt_betmLeft.Name = "txt_betmLeft";
             this.txt_betmLeft.Size = new System.Drawing.Size(104, 21);
             this.txt_betmLeft.TabIndex = 2;
-            this.txt_betmLeft.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // btn_rcgLevelSave
             // 
@@ -6394,7 +6414,6 @@
             this.txt_confName5.Name = "txt_confName5";
             this.txt_confName5.Size = new System.Drawing.Size(92, 21);
             this.txt_confName5.TabIndex = 2;
-            this.txt_confName5.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confName4
             // 
@@ -6402,7 +6421,6 @@
             this.txt_confName4.Name = "txt_confName4";
             this.txt_confName4.Size = new System.Drawing.Size(92, 21);
             this.txt_confName4.TabIndex = 2;
-            this.txt_confName4.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confName3
             // 
@@ -6410,7 +6428,6 @@
             this.txt_confName3.Name = "txt_confName3";
             this.txt_confName3.Size = new System.Drawing.Size(92, 21);
             this.txt_confName3.TabIndex = 2;
-            this.txt_confName3.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confName2
             // 
@@ -6418,7 +6435,6 @@
             this.txt_confName2.Name = "txt_confName2";
             this.txt_confName2.Size = new System.Drawing.Size(92, 21);
             this.txt_confName2.TabIndex = 2;
-            this.txt_confName2.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // cbx_rcgConfNum
             // 
@@ -6467,7 +6483,6 @@
             this.txt_confName1.Name = "txt_confName1";
             this.txt_confName1.Size = new System.Drawing.Size(92, 21);
             this.txt_confName1.TabIndex = 2;
-            this.txt_confName1.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confNum5
             // 
@@ -6475,7 +6490,6 @@
             this.txt_confNum5.Name = "txt_confNum5";
             this.txt_confNum5.Size = new System.Drawing.Size(36, 21);
             this.txt_confNum5.TabIndex = 2;
-            this.txt_confNum5.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confId5
             // 
@@ -6483,7 +6497,6 @@
             this.txt_confId5.Name = "txt_confId5";
             this.txt_confId5.Size = new System.Drawing.Size(54, 21);
             this.txt_confId5.TabIndex = 2;
-            this.txt_confId5.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confNum4
             // 
@@ -6491,7 +6504,6 @@
             this.txt_confNum4.Name = "txt_confNum4";
             this.txt_confNum4.Size = new System.Drawing.Size(36, 21);
             this.txt_confNum4.TabIndex = 2;
-            this.txt_confNum4.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confId4
             // 
@@ -6499,7 +6511,6 @@
             this.txt_confId4.Name = "txt_confId4";
             this.txt_confId4.Size = new System.Drawing.Size(54, 21);
             this.txt_confId4.TabIndex = 2;
-            this.txt_confId4.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confNum3
             // 
@@ -6507,7 +6518,6 @@
             this.txt_confNum3.Name = "txt_confNum3";
             this.txt_confNum3.Size = new System.Drawing.Size(36, 21);
             this.txt_confNum3.TabIndex = 2;
-            this.txt_confNum3.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confId3
             // 
@@ -6515,7 +6525,6 @@
             this.txt_confId3.Name = "txt_confId3";
             this.txt_confId3.Size = new System.Drawing.Size(54, 21);
             this.txt_confId3.TabIndex = 2;
-            this.txt_confId3.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // txt_confNum2
             // 
@@ -6523,7 +6532,6 @@
             this.txt_confNum2.Name = "txt_confNum2";
             this.txt_confNum2.Size = new System.Drawing.Size(36, 21);
             this.txt_confNum2.TabIndex = 2;
-            this.txt_confNum2.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // label63
             // 
@@ -6540,7 +6548,6 @@
             this.txt_confId2.Name = "txt_confId2";
             this.txt_confId2.Size = new System.Drawing.Size(54, 21);
             this.txt_confId2.TabIndex = 2;
-            this.txt_confId2.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // label60
             // 
@@ -6557,7 +6564,6 @@
             this.txt_confNum1.Name = "txt_confNum1";
             this.txt_confNum1.Size = new System.Drawing.Size(36, 21);
             this.txt_confNum1.TabIndex = 2;
-            this.txt_confNum1.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // label57
             // 
@@ -6583,7 +6589,6 @@
             this.txt_confId1.Name = "txt_confId1";
             this.txt_confId1.Size = new System.Drawing.Size(54, 21);
             this.txt_confId1.TabIndex = 2;
-            this.txt_confId1.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // label59
             // 
@@ -6627,7 +6632,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(34, 21);
             this.textBox2.TabIndex = 2;
-            this.textBox2.TextChanged += new System.EventHandler(this.txt_sqlAccountName_TextChanged);
             // 
             // label58
             // 
@@ -7787,7 +7791,7 @@
             this.label13.TabIndex = 0;
             this.label13.Text = "今日非法总数：";
             // 
-            // Frm_server
+            // WinMainServer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -7799,7 +7803,7 @@
             this.Controls.Add(this.groupBox2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Frm_server";
+            this.Name = "WinMainServer";
             this.Text = "网关 Ver 1.0.0.2";
             this.Deactivate += new System.EventHandler(this.Frm_server_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_server_FormClosing);
@@ -7897,7 +7901,6 @@
             this.groupBox30.ResumeLayout(false);
             this.tabPage12.ResumeLayout(false);
             this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.groupBox41.ResumeLayout(false);
             this.groupBox41.PerformLayout();
             this.groupBox10.ResumeLayout(false);
@@ -7963,7 +7966,6 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button btn_startListen;
         private System.Windows.Forms.Timer tm_strListen;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txt_sqlAccountName;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Button button2;
@@ -8105,8 +8107,6 @@
         private System.Windows.Forms.Label label64;
         private System.Windows.Forms.ComboBox cbx_rcgConf;
         private System.Windows.Forms.ComboBox cbx_rcgLevel;
-        private System.Windows.Forms.Label label69;
-        private System.Windows.Forms.TextBox txt_sanvtName;
         private System.Windows.Forms.Label label70;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
@@ -8667,6 +8667,11 @@
         private System.Windows.Forms.Button btn_AQTaskAppend;
         private System.Windows.Forms.TextBox txt_QAItemCount;
         private System.Windows.Forms.Label label179;
+        private System.Windows.Forms.Label label181;
+        private System.Windows.Forms.Label label180;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox txt_sqlLogName;
+        private System.Windows.Forms.TextBox txt_sqlSanvtName;
     }
 }
 

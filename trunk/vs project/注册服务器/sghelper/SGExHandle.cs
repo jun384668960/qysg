@@ -267,7 +267,6 @@ namespace 注册网关
 
         private BankHandle bankHandle = new BankHandle();
         private TaskTime m_TaskTime = new TaskTime();
-        private bool m_IsTaskTime = false;
         private Thread m_ThreadQA = null;
         private static bool m_QAStop = false;
         private static AutoResetEvent m_QAARE = new AutoResetEvent(false);
@@ -280,7 +279,6 @@ namespace 注册网关
         private static int m_AnswerVtId = 1;
         private static string m_AnswerVtName = "";
         private static string m_PlayerDat = "";
-        private static string m_SanVtSql = "";
         private static List<RewardItem> m_NormalRewardItems = new List<RewardItem>();
         private static List<string> m_TaskRewardString = new List<string>();
         public bool LoadAQBank(string file)
@@ -344,10 +342,9 @@ namespace 注册网关
             }
         }
         
-        public void SetQADatVt(string dat, string sanvt)
+        public void SetQADatVt(string dat)
         {
             m_PlayerDat = dat;
-            m_SanVtSql = sanvt;
         }
 
         public struct AnswerResult_S
@@ -357,7 +354,7 @@ namespace 注册网关
         };
         List<AnswerResult_S> answerResult = new List<AnswerResult_S>();
 
-        private bool SingleAQHandle(int flag, string player_dat, string sanvt)
+        private bool SingleAQHandle(int flag, string player_dat)
         {
             long tick = DateTime.Now.Ticks;
             Random ran = new Random((int)(tick & 0xffffffffL) | (int)(tick >> 32));
@@ -410,7 +407,7 @@ namespace 注册网关
                         int rewardIdex = ran.Next(0, m_NormalRewardItems.Count());
                         int AnswerVtId = int.Parse(m_NormalRewardItems[rewardIdex].id);
                         string AnswerVtName = m_NormalRewardItems[rewardIdex].name;
-                        bool vtret = CSGHelper.InsertSanvtItem(sanvt, account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                        bool vtret = CSGHelper.InsertSanvtItem(account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
                         if (vtret)
                         {
                             answerEx += " 答题奖励 " + AnswerVtName + " 已经发放，请注意查收(虚宝)！";
@@ -422,7 +419,7 @@ namespace 注册网关
                     {
                         int AnswerVtId = m_AnswerVtId;
                         string AnswerVtName = m_AnswerVtName;
-                        bool vtret = CSGHelper.InsertSanvtItem(sanvt, account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                        bool vtret = CSGHelper.InsertSanvtItem(account, (uint)AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
                         if (vtret)
                         {
                             answerEx += " 答题奖励 " + AnswerVtName + " 已经发放，请注意查收(虚宝)！";
@@ -519,9 +516,9 @@ namespace 注册网关
                                 Thread.Sleep(2 * 1000);
                                 
                             }
-                            SingleAQHandle(1, m_PlayerDat, m_SanVtSql);
+                            SingleAQHandle(1, m_PlayerDat);
                         }
-                        m_IsTaskTime = false;
+
                         //遍历参与者列表排名
                         answerResult.Sort(new Comparison<AnswerResult_S>(AnswerResultCompare));
                         if (answerResult.Count <= 0)
@@ -615,7 +612,7 @@ namespace 注册网关
 
                                             if (vtid1 != 0 || vtid2 != 0 || vtid3 != 0 || vtid4 != 0 || vtid5 != 0)
                                             {
-                                                bool vtret = CSGHelper.InsertSanvtItem(m_SanVtSql, account
+                                                bool vtret = CSGHelper.InsertSanvtItem(account
                                                 , (uint)vtid1, (uint)vtcount1, (uint)vtid2, (uint)vtcount2, (uint)vtid3, (uint)vtcount3, (uint)vtid4, (uint)vtcount4, (uint)vtid5, (uint)vtcount5);
                                                 if (vtret)
                                                 {
@@ -628,7 +625,7 @@ namespace 注册网关
                                         else 
                                         {
                                             //发放虚宝
-                                            bool vtret = CSGHelper.InsertSanvtItem(m_SanVtSql, account, (uint)m_AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
+                                            bool vtret = CSGHelper.InsertSanvtItem(account, (uint)m_AnswerVtId, 1, 0, 0, 0, 0, 0, 0, 0, 0);
                                             if (vtret)
                                             {
                                                 string answerEx = "角色：" + player + " 答题奖励已经发放，请注意查收(虚宝)！";
@@ -652,7 +649,7 @@ namespace 注册网关
                         if (m_SleepCount >= m_AskNormalInterval)//60 * 
                         {
                             m_SleepCount = 0;
-                            SingleAQHandle(0, m_PlayerDat, m_SanVtSql);
+                            SingleAQHandle(0, m_PlayerDat);
                         }
                         Thread.Sleep(1000);
                         m_SleepCount++;

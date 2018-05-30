@@ -347,7 +347,7 @@ else if (@add_point >= " + conf[6].leftNum + " AND @add_point < " + conf[6].righ
 	set @Number5 = " + conf[6].num5 + @"
 	end
 
-INSERT INTO " + txt_sanvtName.Text + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,
+INSERT INTO " + txt_sqlSanvtName.Text + @".dbo.vitem (Account,Disable,Card,Login_time,Get_time,SName,CharName,Type,
 DataID1,Number1,DataID2,Number2,DataID3,Number3,DataID4,Number4,DataID5,Number5)
 values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
 @DataID1,@Number1,@DataID2,@Number2,@DataID3,@Number3,@DataID4,@Number4,@DataID5,@Number5)";
@@ -632,12 +632,6 @@ values (@account,0,@cardid,@dtDate,@dtDate,0,0,0,
             string rcgConf = cbx_rcgConf.Text;
             cbx_rcgConfNum.SelectedIndex = cbx_rcgConf.SelectedIndex;
             OnHandleRcgConfNum_SelectedIndexChanged(rcgConf);
-        }
-
-        private void txt_sanvtName_TextChanged(object sender, EventArgs e)
-        {
-            //写入
-            CIniCtrl.WriteIniData("Server", "sanvtName", txt_sanvtName.Text, serverIni);
         }
 
         #endregion

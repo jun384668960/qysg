@@ -147,7 +147,6 @@ namespace MainServer
 
             List<string> itemAttr3 = new List<string> { "type", "wait_type", "eq_magic_attack_type", "super_type", "sfx_hit", "sfx_attack", "limit_job", "sp_effect", "type2"
                 , "function", "kill", "eq_magic_resist","limit_sex","anti_status_ratio","sfx_run","sfx_walk","use_magic_id","tp_map_code" };
-            string itemAttr3Line = "";
 
             int l = itemAttr3.Count();
             string[] itemType3 = new string[l];
@@ -169,9 +168,7 @@ namespace MainServer
             }
 
             List<string> itemType = new List<string>();
-            string typeLine = "";
             List<string> itemType2 = new List<string>();
-            string type2Line = "";
 
             string strLine = "";
             strLine = "";

@@ -29,7 +29,7 @@ namespace MainServer
                 CIniCtrl.WriteIniData("Config", "15TalkAutoStart", "Disable", serverIni);
             }
         }
-        private void button21_Click_1(object sender, EventArgs e)
+        private void btn_15Talk_Click(object sender, EventArgs e)
         {
             if (!m_Active)
             {

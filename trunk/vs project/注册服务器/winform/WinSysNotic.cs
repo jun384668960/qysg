@@ -22,7 +22,7 @@ namespace MainServer
             listBox1.Items.Add(rTxtB_WorldWords.Text);
             UpdateWorldWordsList();
         }
-        private void button21_Click_2(object sender, EventArgs e)
+        private void button21_Click(object sender, EventArgs e)
         {
             rTxtB_WorldWords.Text = "";
         }

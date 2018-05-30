@@ -19,49 +19,28 @@ namespace MainServer
         #region //账户管理
         private void btn_AccountReflush_Click(object sender, EventArgs e)
         {
-            int count = 0;
             CPlayerCtrl.LoadPlayerInfos(txt_svrForder.Text + "\\DataBase\\saves\\players.dat", true);
-            try
+            List<Account> infos = CSGHelper.SelectAcountInfo();
+            lstv_Account.Items.Clear();
+            foreach(var info in infos)
             {
-                string conn_str = "Data Source = " + sql_srvAddr + "," + sql_srvPort + "; Initial Catalog = " + sqlAccountName + "; User Id = " + sql_srvUser + "; Password = " + sql_srvPwd + ";";
-                SqlConnection con = new SqlConnection(conn_str);
-                con.Open();
-                //执行con对象的函数，返回一个SqlCommand类型的对象
-                SqlCommand cmd = con.CreateCommand();
-                //把输入的数据拼接成sql语句，并交给cmd对象
-                cmd.CommandText = "SELECT * FROM [Account_hcsg].[dbo].[game_acc]";
-
-                //用cmd的函数执行语句，返回SqlDataReader类型的结果dr,dr就是返回的结果集（也就是数据库中查询到的表数据）
-                SqlDataReader dr = cmd.ExecuteReader();
-                //用dr的read函数，每执行一次，返回一个包含下一行数据的集合dr
-                lstv_Account.Items.Clear();
-                while (dr.Read())
-                {
-                    //构建一个ListView的数据，存入数据库数据，以便添加到listView1的行数据中
-                    ListViewItem lt = new ListViewItem();
-                    //将数据库数据转变成ListView类型的一行数据
-                    lt.Text = dr["account"].ToString();
-                    lt.SubItems.Add(dr["password"].ToString());
-                    lt.SubItems.Add(CPlayerCtrl.GetNameByAcc(lt.Text));
-                    lt.SubItems.Add(dr["enable"].ToString());
-                    lt.SubItems.Add(dr["privilege"].ToString());
-                    lt.SubItems.Add(dr["point"].ToString());
-                    lt.SubItems.Add(dr["ip"].ToString());
-                    lt.SubItems.Add(dr["LastLoginTime"].ToString());
-                    lt.SubItems.Add(dr["LastLogoutTime"].ToString());
-                    //将lt数据添加到listView1控件中
-                    lstv_Account.Items.Add(lt);
-                    //账户 密码 角色 状态 权限 代币 ip 登入时间 登出时间
-                    count++;
-                }
-                lstv_Account.EndUpdate();
-                con.Close();
+                //构建一个ListView的数据，存入数据库数据，以便添加到listView1的行数据中
+                ListViewItem lt = new ListViewItem();
+                //将数据库数据转变成ListView类型的一行数据
+                lt.Text = info.account;
+                lt.SubItems.Add(info.password);
+                lt.SubItems.Add(CPlayerCtrl.GetNameByAcc(lt.Text));
+                lt.SubItems.Add(info.enable);
+                lt.SubItems.Add(info.privilege);
+                lt.SubItems.Add(info.point);
+                lt.SubItems.Add(info.ip);
+                lt.SubItems.Add(info.LastLoginTime);
+                lt.SubItems.Add(info.LastLogoutTime);
+                //将lt数据添加到listView1控件中
+                lstv_Account.Items.Add(lt);
             }
-            catch (Exception ex)
-            {
-
-            }
-            lbl_AccountCount.Text = "帐号总数：" + count.ToString();
+            lstv_Account.EndUpdate();
+            lbl_AccountCount.Text = "帐号总数：" + infos.Count;
         }
 
         private void lstv_Account_SelectedIndexChanged(object sender, EventArgs e)
