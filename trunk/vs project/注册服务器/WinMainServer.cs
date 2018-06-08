@@ -377,7 +377,6 @@ namespace MainServer
             if (btn_sql.Text == "连接数据库")
             {
                 //连接数据库
-                //*
                 string conn_str = "Data Source = " + sql_srvAddr + "," + sql_srvPort + "; Initial Catalog = " + sqlAccountName + "; User Id = " + sql_srvUser + "; Password = " + sql_srvPwd + ";";
                 if (!CSGHelper.SqlConn(conn_str))
                 {
@@ -399,7 +398,6 @@ namespace MainServer
             }
             else
             {
-                //*
                 if (!CSGHelper.SqlClose())
                 {
                     MessageBox.Show("断开数据库连接失败！");

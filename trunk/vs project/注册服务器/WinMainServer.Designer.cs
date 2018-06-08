@@ -919,9 +919,9 @@
             // 
             // btn_sql
             // 
-            this.btn_sql.Location = new System.Drawing.Point(839, 15);
+            this.btn_sql.Location = new System.Drawing.Point(837, 15);
             this.btn_sql.Name = "btn_sql";
-            this.btn_sql.Size = new System.Drawing.Size(69, 21);
+            this.btn_sql.Size = new System.Drawing.Size(81, 21);
             this.btn_sql.TabIndex = 0;
             this.btn_sql.Text = "连接数据库";
             this.btn_sql.UseVisualStyleBackColor = true;
@@ -1052,7 +1052,7 @@
             // lbl_sqlStatus
             // 
             this.lbl_sqlStatus.AutoSize = true;
-            this.lbl_sqlStatus.Location = new System.Drawing.Point(914, 19);
+            this.lbl_sqlStatus.Location = new System.Drawing.Point(918, 19);
             this.lbl_sqlStatus.Name = "lbl_sqlStatus";
             this.lbl_sqlStatus.Size = new System.Drawing.Size(53, 12);
             this.lbl_sqlStatus.TabIndex = 1;

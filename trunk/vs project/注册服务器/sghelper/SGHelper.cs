@@ -84,7 +84,7 @@ namespace MainServer
         }
         public static void SetSQLNames(string account, string sanvt, string log)
         {
-            if (m_sqlLog == string.Empty || m_sqlSanvt == string.Empty || m_sqlAccount == string.Empty)
+            if (account == string.Empty || sanvt == string.Empty || log == string.Empty)
             {
                 return;
             }
@@ -345,6 +345,8 @@ namespace MainServer
 
             string sqlstr = "";
 
+            int maxLv = int.Parse(max);
+
             SqlCommand sqlComm = null;
             sqlstr = "SELECT [log_time]"
                     + ",[type]"
@@ -353,7 +355,7 @@ namespace MainServer
                     + ",[item_code]"
                     + " FROM " + m_sqlLog + ".dbo.Log_Item_01"
                     + " where log_time >= '" + t_start + "' and log_time <'" + t_end + "' and "
-                    + " ((type = '合成强化物品' and item_name like '+" + max + "%')";
+                    + " ((type = '合成强化物品' and (item_name like '+" + maxLv + "%' or item_name like '+" + (maxLv-1) + "%')";
 
             string item_str = " or (type = '怪物掉落' and (";
             if (items.Count > 0)
