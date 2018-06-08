@@ -63,6 +63,7 @@ namespace MainServer
             }
             try
             {
+                mutex.WaitOne();
                 conn = new SqlConnection(cnn_str); ;
                 conn.Open();
                 m_SqlConnected = true;
@@ -355,7 +356,7 @@ namespace MainServer
                     + ",[item_code]"
                     + " FROM " + m_sqlLog + ".dbo.Log_Item_01"
                     + " where log_time >= '" + t_start + "' and log_time <'" + t_end + "' and "
-                    + " ((type = '合成强化物品' and (item_name like '+" + maxLv + "%' or item_name like '+" + (maxLv-1) + "%')";
+                    + " ((type = '合成强化物品' and (item_name like '+" + maxLv + "%' or item_name like '+" + (maxLv-1) + "%'))";
 
             string item_str = " or (type = '怪物掉落' and (";
             if (items.Count > 0)

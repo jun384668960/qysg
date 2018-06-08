@@ -394,6 +394,8 @@ namespace MainServer
                     txt_sqlAcc.ReadOnly = true;
                     txt_sqlPwd.ReadOnly = true;
                     txt_sqlAccountName.ReadOnly = true;
+                    txt_sqlSanvtName.ReadOnly = true;
+                    txt_sqlLogName.ReadOnly = true;
                 }
             }
             else
@@ -412,6 +414,8 @@ namespace MainServer
                     txt_sqlAcc.ReadOnly = false;
                     txt_sqlPwd.ReadOnly = false;
                     txt_sqlAccountName.ReadOnly = false;
+                    txt_sqlSanvtName.ReadOnly = false;
+                    txt_sqlLogName.ReadOnly = false;
                 }
             }
         }
