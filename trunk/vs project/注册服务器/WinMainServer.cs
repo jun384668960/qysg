@@ -64,23 +64,23 @@ namespace MainServer
                 else
                 {
                     MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
-                    this.Text = this.Text + "  - 未激活";
+                    this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
                 }
                 return false;
             }
             else
             {
-                this.Text = this.Text + "  - 已激活 到期时间:" + endTime;
+                this.Text = this.Text + "  - 已激活,技术支持(QQ:384668960 到期时间:" + endTime;
                 return true;
             }
         }
         private void Frm_server_Load(object sender, EventArgs e)
         {
-            //if (!CheckActive())
-            //{
-            //    m_Active = false;
-            //    return;
-            //}
+            if (!CheckActive())
+            {
+                m_Active = false;
+                return;
+            }
 
             m_Active = true;
             serverIni = System.AppDomain.CurrentDomain.BaseDirectory + "配置文件.ini";
@@ -373,6 +373,11 @@ namespace MainServer
 
         private void btn_sql_Click(object sender, EventArgs e)
         {
+            if (!m_Active)
+            {
+                MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
+                return;
+            }
             CSGHelper.SetSQLNames(sqlAccountName, sqlSanvtName, sqlLogName);
             if (btn_sql.Text == "连接数据库")
             {

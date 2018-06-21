@@ -7804,7 +7804,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "WinMainServer";
-            this.Text = "网关 Ver 1.0.0.2";
+            this.Text = "网关 Ver 2.0.1.2";
             this.Deactivate += new System.EventHandler(this.Frm_server_Deactivate);
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Frm_server_FormClosing);
             this.Load += new System.EventHandler(this.Frm_server_Load);

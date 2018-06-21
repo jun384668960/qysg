@@ -47,6 +47,11 @@ namespace MainServer
         }
         private void button15_Click(object sender, EventArgs e)
         {
+            if (!m_Active)
+            {
+                MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
+                return;
+            }
             string words = rTxtB_WorldWords.Text;
             if (words != "" && words != string.Empty)
             {

@@ -210,6 +210,11 @@ namespace MainServer
 
         private void button14_Click(object sender, EventArgs e)
         {
+            if (!m_Active)
+            {
+                MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
+                return;
+            }
             try
             {
                 DialogResult dr = MessageBox.Show("请确保游戏不处于运行状态！", "", MessageBoxButtons.OKCancel);

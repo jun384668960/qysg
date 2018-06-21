@@ -25,12 +25,6 @@ namespace MainServer
                 MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
                 return;
             }
-            ////封号操作需要数据库已经链接
-            //if (lbl_sqlStatus.Text != "数据库已连接")
-            //{
-            //    MessageBox.Show("请先连接数据库！");
-            //    return;
-            //}
 
             if (btn_startListen.Text == "启动检测")
             {
@@ -182,6 +176,7 @@ namespace MainServer
                                 list.Add(ill_player);
                             }
                         }
+                        /*
                         //<2016-05-08 00:01:36> Account info(tt8873351,online.dat,0x88671f25,2567829)
                         else if (strLine.Contains("Account info") && !strLine.Contains("qysg.dat") && strLine.Contains("(") && strLine.Contains(")"))
                         {
@@ -213,7 +208,7 @@ namespace MainServer
                                 list.Add(ill_player);
                             }
                         }
-
+                        */
                         strLine = null;
                         strLine = reader.ReadLine();
                     }
