@@ -3498,6 +3498,7 @@
             this.button33.TabIndex = 2;
             this.button33.Text = "解封IP";
             this.button33.UseVisualStyleBackColor = true;
+            this.button33.Visible = false;
             // 
             // button35
             // 
@@ -3507,6 +3508,7 @@
             this.button35.TabIndex = 2;
             this.button35.Text = "封IP";
             this.button35.UseVisualStyleBackColor = true;
+            this.button35.Visible = false;
             // 
             // button34
             // 
@@ -3516,6 +3518,7 @@
             this.button34.TabIndex = 2;
             this.button34.Text = "设置GM";
             this.button34.UseVisualStyleBackColor = true;
+            this.button34.Visible = false;
             // 
             // btn_AcountFreeze
             // 
@@ -3535,6 +3538,7 @@
             this.btn_AcountMdifyPwd.TabIndex = 2;
             this.btn_AcountMdifyPwd.Text = "修改密码";
             this.btn_AcountMdifyPwd.UseVisualStyleBackColor = true;
+            this.btn_AcountMdifyPwd.Click += new System.EventHandler(this.btn_AcountMdifyPwd_Click);
             // 
             // btn_AcountAdd
             // 
@@ -3544,6 +3548,7 @@
             this.btn_AcountAdd.TabIndex = 2;
             this.btn_AcountAdd.Text = "添加账号";
             this.btn_AcountAdd.UseVisualStyleBackColor = true;
+            this.btn_AcountAdd.Click += new System.EventHandler(this.btn_AcountAdd_Click);
             // 
             // txt_AcountNewPwd
             // 

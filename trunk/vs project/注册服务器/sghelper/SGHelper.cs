@@ -487,7 +487,7 @@ namespace MainServer
                 info.LastLogoutTime = Dr["LastLogoutTime"].ToString();
                 info.lock_duedate = Dr["lock_duedate"].ToString();
                 info.logout_time = Dr["logout_time"].ToString();
-                info.Offline_Time = Dr["Offline_Time"].ToString();
+                info.Offline_Time = Dr["OfflineTime"].ToString();
                 info.OnlineTime = Dr["OnlineTime"].ToString();
                 info.password = Dr["password"].ToString();
                 info.password2 = Dr["password2"].ToString();

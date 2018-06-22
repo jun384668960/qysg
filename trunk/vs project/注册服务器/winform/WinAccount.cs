@@ -134,6 +134,23 @@ namespace MainServer
             }
         }
         static int xbAccountInfoSltIndex = 0;
+
+        private void btn_AcountAdd_Click(object sender, EventArgs e)
+        {
+            string account = txt_AcountName.Text;
+            string pwd = txt_AcountPwd.Text;
+            string result = CSGHelper.CreateAccount(account, pwd);
+            MessageBox.Show(result);
+        }
+
+        private void btn_AcountMdifyPwd_Click(object sender, EventArgs e)
+        {
+            string account = txt_AcountName.Text;
+            string pwd = txt_AcountPwd.Text;
+            string pwdnew = txt_AcountNewPwd.Text;
+            string result = CSGHelper.ModifyPwd(account, pwd, pwdnew);
+            MessageBox.Show(result);
+        }
         #endregion
     }
 }
