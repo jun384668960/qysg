@@ -127,53 +127,62 @@ namespace MainServer
         private void LoadIniConf()
         {
             #region //sgserver信息
-            sql_srvAddr = CIniCtrl.ReadIniData("Server", "ServerIP", "", serverIni);
-            if (sql_srvAddr != "")
+            string srvAddr = CIniCtrl.ReadIniData("Server", "ServerIP", "", serverIni);
+            if (srvAddr != "")
             {
+                sql_srvAddr = srvAddr;
                 txt_sqlsvr.Text = sql_srvAddr;
             }
 
-            sql_srvPort = CIniCtrl.ReadIniData("Server", "SqlPort", "", serverIni);
-            if (sql_srvPort == "")
+            string srvPort = CIniCtrl.ReadIniData("Server", "SqlPort", "", serverIni);
+            if (srvPort == "")
             {
+
                 CIniCtrl.WriteIniData("Server", "SqlPort", "1433", serverIni);
             }
             else
             {
+                sql_srvPort = srvPort;
                 txt_sqlPort.Text = sql_srvPort;
             }
 
-            sql_srvUser = CIniCtrl.ReadIniData("Server", "SqlAccount", "", serverIni);
-            if (sql_srvUser != "")
+            string srvUser = CIniCtrl.ReadIniData("Server", "SqlAccount", "", serverIni);
+            if (srvUser != "")
             {
+                sql_srvUser = srvUser;
                 txt_sqlAcc.Text = sql_srvUser;
             }
 
-            sql_srvPwd = CIniCtrl.ReadIniData("Server", "SqlPasswd", "", serverIni);
-            if (sql_srvPwd != "")
+            string srvPwd = CIniCtrl.ReadIniData("Server", "SqlPasswd", "", serverIni);
+            if (srvPwd != "")
             {
+                sql_srvPwd = srvPwd;
                 txt_sqlPwd.Text = sql_srvPwd;
             }
 
-            accMrgPort = CIniCtrl.ReadIniData("Server", "ListenPort", "", serverIni);
-            if (accMrgPort != "")
+            string mrgPort = CIniCtrl.ReadIniData("Server", "ListenPort", "", serverIni);
+            if (mrgPort != "")
             {
+                accMrgPort = mrgPort;
                 txt_accMrgPort.Text = accMrgPort;
             }
 
-            sqlAccountName = CIniCtrl.ReadIniData("Server", "AccountName", "", serverIni);
-            if (sqlAccountName != "")
+            string sqlAccount = CIniCtrl.ReadIniData("Server", "AccountName", "", serverIni);
+            if (sqlAccount != "")
             {
+                sqlAccountName = sqlAccount;
                 txt_sqlAccountName.Text = sqlAccountName;
             }
-            sqlSanvtName = CIniCtrl.ReadIniData("Server", "SanvtName", "", serverIni);
-            if (sqlSanvtName != "")
+            string sqlSanvt = CIniCtrl.ReadIniData("Server", "SanvtName", "", serverIni);
+            if (sqlSanvt != "")
             {
+                sqlSanvtName = sqlSanvt;
                 txt_sqlSanvtName.Text = sqlSanvtName;
             }
-            sqlLogName = CIniCtrl.ReadIniData("Server", "LogName", "", serverIni);
-            if (sqlLogName != "")
+            string sqlLog = CIniCtrl.ReadIniData("Server", "LogName", "", serverIni);
+            if (sqlLog != "")
             {
+                sqlLogName = sqlLog;
                 txt_sqlLogName.Text = sqlLogName;
             }
             #endregion
@@ -324,7 +333,10 @@ namespace MainServer
             if (_AnnItemsFile != string.Empty)
             {
                 txt_AnnItemsFile.Text = _AnnItemsFile;
-                rbx_DorpTalkItems.Text = File.ReadAllText(txt_AnnItemsFile.Text, Encoding.Default);
+                if (File.Exists(txt_AnnItemsFile.Text))
+                {
+                    rbx_DorpTalkItems.Text = File.ReadAllText(txt_AnnItemsFile.Text, Encoding.Default);
+                } 
             }
 
             string _15NameFilter = CIniCtrl.ReadIniData("Config", "15NameFilter", "", serverIni);
@@ -378,11 +390,12 @@ namespace MainServer
                 MessageBox.Show("软件尚未激活！ 请联系软件发布人给予激活！");
                 return;
             }
-            CSGHelper.SetSQLNames(sqlAccountName, sqlSanvtName, sqlLogName);
+            CSGHelper.SetSQLNames(txt_sqlAccountName.Text, txt_sqlSanvtName.Text, txt_sqlLogName.Text);
             if (btn_sql.Text == "连接数据库")
             {
                 //连接数据库
-                string conn_str = "Data Source = " + sql_srvAddr + "," + sql_srvPort + "; Initial Catalog = " + sqlAccountName + "; User Id = " + sql_srvUser + "; Password = " + sql_srvPwd + ";";
+                string conn_str = "Data Source = " + sql_srvAddr + "," + sql_srvPort + "; Initial Catalog = " + txt_sqlAccountName.Text + "; User Id = " + sql_srvUser + "; Password = " + sql_srvPwd + ";";
+                //string conn_str = "server = " + sql_srvAddr + "," + sql_srvPort + "; database = " + txt_sqlAccountName.Text + "; uid = " + sql_srvUser + "; pwd = " + sql_srvPwd + ";";
                 if (!CSGHelper.SqlConn(conn_str))
                 {
                     MessageBox.Show("数据库连接失败！");

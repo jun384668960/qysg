@@ -70,8 +70,9 @@ namespace MainServer
                 mutex.ReleaseMutex();
                 return true;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
+                MessageBox.Show(ex.Message);
                 m_SqlConnected = false;
                 mutex.ReleaseMutex();
                 return false;
