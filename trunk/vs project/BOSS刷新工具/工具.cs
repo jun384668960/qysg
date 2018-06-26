@@ -2051,6 +2051,12 @@ namespace BOSS刷新工具
                 lstv_ShopItemList.Items[lstv_ShopItemList_SltIndex].BackColor = Color.AliceBlue;
 
                 txt_ShopItemName.Text = lstv_ShopItemList.Items[lstv_ShopItemList_SltIndex].SubItems[1].Text;
+                Item_Str item;
+                if (m_ItemCtrl.GetAttrById("item_" + txt_ShopItemName.Text, out item))
+                {
+                    txt_ShopItemCost.Text = item.cost;
+                    txt_ShopItemSell.Text = item.sell;
+                }
             }
         }
 
@@ -2129,7 +2135,7 @@ namespace BOSS刷新工具
             lstv_ShopDetilList.Items.Clear();
             foreach (var item in data.list)
             {
-                string name = CFormat.ToSimplified(CFormat.PureString(item));
+                string name = CFormat.ToSimplified(CFormat.PureString(item)).ToLower();
                 //获取物品的价格
                 string cost = "";
                 string sell = "";
@@ -2283,6 +2289,7 @@ namespace BOSS刷新工具
                     lstv_ShopDetilList_SltIndex = 0;
                     lstv_ShopDetilList.Items.Clear();
                     lstv_ShopDetilList.EndUpdate();
+                    txt_ShopName.Text = "";
                 }
             }
         }
@@ -2298,7 +2305,19 @@ namespace BOSS刷新工具
             string shopCode = txt_ShopCode.Text;
             string shopName = txt_ShopName.Text;
             string itemName = "item_" + m_ItemCtrl.NameSimpToTrad(txt_ShopItemName.Text);
-
+            int index;
+            if (lstv_ShopDetilList.SelectedIndices == null || lstv_ShopDetilList.SelectedIndices.Count <= 0)
+            {
+                index = 0;
+            }
+            else
+            {
+                index = lstv_ShopDetilList.SelectedItems[0].Index;
+            }
+            if (index >= lstv_ShopDetilList.Items.Count || index < 0)
+            {
+                index = 0;
+            }
             //先修改价格
             string itemCost = txt_ShopItemCost.Text;
             string itemSell = txt_ShopItemSell.Text;
@@ -2322,7 +2341,7 @@ namespace BOSS刷新工具
                 }
             }
 
-            ret = ShopCtrl.AddShopItem(shopCode, CityLevel, itemName);
+            ret = ShopCtrl.AddShopItem(shopCode, index, CityLevel, itemName);
             if (!ret)
             {
                 MessageBox.Show("物品加入失败！");
@@ -2347,10 +2366,16 @@ namespace BOSS刷新工具
                 return;
             }
 
+            if (lstv_ShopDetilList.Items.Count <= 0)
+            {
+                return;
+            }
+
             //当前的商店
             string shopCode = txt_ShopCode.Text;
             string shopName = txt_ShopName.Text;
-            string itemName = "item_" + lstv_ShopDetilList.Items[lstv_ShopDetilList_SltIndex].SubItems[0].Text;
+            string itemName = lstv_ShopDetilList.Items[lstv_ShopDetilList_SltIndex].SubItems[0].Text;
+            itemName = "item_" + m_ItemCtrl.NameSimpToTrad(itemName);
 
             bool ret = ShopCtrl.DelShopItem(shopCode, CityLevel, itemName);
             if (!ret)
@@ -2373,7 +2398,12 @@ namespace BOSS刷新工具
         {
             if (txt_ShopCode.Text == "" || txt_ShopName.Text == "")
             {
-                MessageBox.Show("请选择加入的商店！");
+                MessageBox.Show("请选择需要修改的物品！");
+                return;
+            }
+            if (lstv_ShopDetilList.SelectedIndices == null || lstv_ShopDetilList.SelectedIndices.Count <= 0)
+            {
+                MessageBox.Show("请选择需要修改的物品！");
                 return;
             }
             //当前的商店
@@ -2561,7 +2591,7 @@ namespace BOSS刷新工具
                 CityLevel = 0;
                 //get Shop
                 ShopData_Str data;
-                string shopName = lstv_ShopList.Items[lstv_ShopList_SltIndex].SubItems[1].Text;
+                string shopName = txt_ShopName.Text;
                 bool ret = ShopCtrl.GetAttrByName(shopName, CityLevel, out data);
                 if (ret)
                 {
@@ -2585,7 +2615,7 @@ namespace BOSS刷新工具
                 CityLevel = 1;
                 //get Shop
                 ShopData_Str data;
-                string shopName = lstv_ShopList.Items[lstv_ShopList_SltIndex].SubItems[1].Text;
+                string shopName = txt_ShopName.Text;
                 bool ret = ShopCtrl.GetAttrByName(shopName, CityLevel, out data);
                 if (ret)
                 {
@@ -2609,7 +2639,7 @@ namespace BOSS刷新工具
                 CityLevel = 2;
                 //get Shop
                 ShopData_Str data;
-                string shopName = lstv_ShopList.Items[lstv_ShopList_SltIndex].SubItems[1].Text;
+                string shopName = txt_ShopName.Text;
                 bool ret = ShopCtrl.GetAttrByName(shopName, CityLevel, out data);
                 if (ret)
                 {
@@ -2633,7 +2663,7 @@ namespace BOSS刷新工具
                 CityLevel = 3;
                 //get Shop
                 ShopData_Str data;
-                string shopName = lstv_ShopList.Items[lstv_ShopList_SltIndex].SubItems[1].Text;
+                string shopName = txt_ShopName.Text;
                 bool ret = ShopCtrl.GetAttrByName(shopName, CityLevel, out data);
                 if (ret)
                 {

@@ -133,13 +133,13 @@ namespace BOSS刷新工具
                     {
                         if (item != "")
                         {
-                            shopData.list.Add(item);
+                            shopData.list.Add(item.ToLower());
                         }
                     }
                 }
                 else if (strLine.Contains("="))
                 {
-                    shopData.more.Add(strLine);
+                    shopData.more.Add(strLine.ToLower());
                 }
 
                 strLine = null;
@@ -212,8 +212,8 @@ namespace BOSS刷新工具
                     string name = tmp.Split(' ')[0].Split('\t')[0];
                     string id = tmp.Replace(" ", "").Replace("\\t", "").Replace(name, "");
 
-                    shopDef.id = CFormat.PureString(id);
-                    shopDef.name = CFormat.PureString(name);
+                    shopDef.id = CFormat.PureString(id).ToLower();
+                    shopDef.name = CFormat.PureString(name).ToLower();
                     m_ShopDefList.Add(shopDef);
                 }
                 strLine = null;
@@ -255,8 +255,8 @@ namespace BOSS刷新工具
                     string id = tmp.Split(',')[0];
                     string name = tmp.Split(',')[1];
 
-                    shopName.id = CFormat.PureString(id);
-                    shopName.name = CFormat.PureString(name);
+                    shopName.id = CFormat.PureString(id).ToLower();
+                    shopName.name = CFormat.PureString(name).ToLower();
                     m_ShopNameList.Add(shopName);
                 }
                 strLine = null;
@@ -453,7 +453,7 @@ namespace BOSS刷新工具
             return name;
         }
 
-        public static bool AddShopItem(string id, int level,string item)
+        public static bool AddShopItem(string id, int index, int level,string item)
         {
             List<ShopData_Str> shopDataList = new List<ShopData_Str>();
             if (level >= 0 && level < 4)
@@ -469,8 +469,8 @@ namespace BOSS刷新工具
             {
                 if (CFormat.ToSimplified(it.code) == id)
                 {
-                    //it.list.Add(CFormat.ToTraditional(item));
-                    it.list.Add(item);
+                    //it.list.Add(item);
+                    it.list.Insert(index, item);
                     return true;
                 }
             }
@@ -494,13 +494,13 @@ namespace BOSS刷新工具
 
             foreach (var it in shopDataList)
             {
-                if (CFormat.ToSimplified(it.code) == id)
+                if (CFormat.ToSimplified(it.code).ToLower() == id)
                 {
-                    it.list.Remove(CFormat.ToTraditional(item));
+                    it.list.Remove(item);
+                    m_ShopDataList[level] = shopDataList;
                     return true;
                 }
             }
-            m_ShopDataList[level] = shopDataList;
 
             return false;
         }
