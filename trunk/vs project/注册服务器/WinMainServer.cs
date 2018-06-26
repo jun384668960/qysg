@@ -51,28 +51,36 @@ namespace MainServer
         }
         private bool CheckActive()
         {
-            //激活检测
-            string endTime = "";
-            bool ret = RegistHelper.CheckRegist(out endTime);
-            if (!ret)
-            {
-                if (endTime != "")
+            try {
+                //激活检测
+                string endTime = "";
+                bool ret = RegistHelper.CheckRegist(out endTime);
+                if (!ret)
                 {
-                    MessageBox.Show("软件已经过期，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
-                    this.Text = this.Text + "  - 已到期 到期时间:" + endTime;
+                    if (endTime != "")
+                    {
+                        MessageBox.Show("软件已经过期，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                        this.Text = this.Text + "  - 已到期 到期时间:" + endTime;
+                    }
+                    else
+                    {
+                        MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                        this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
+                    }
+                    return false;
                 }
                 else
                 {
-                    MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
-                    this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
+                    this.Text = this.Text + "  - 已激活,技术支持(QQ:384668960 到期时间:" + endTime;
+                    return true;
                 }
-                return false;
             }
-            else
+            catch(Exception)
             {
-                this.Text = this.Text + "  - 已激活,技术支持(QQ:384668960 到期时间:" + endTime;
-                return true;
+                MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
             }
+            return false;
         }
         private void Frm_server_Load(object sender, EventArgs e)
         {

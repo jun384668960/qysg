@@ -16,7 +16,7 @@ namespace Common
         string encryptionKeyB = "WorkHard";
         string md5Begin = "Hello";
         string md5End = "World";
-        string md5Key = "WorkHard";//固定key 要求8位
+        string md5Key = "ToolComm";//固定key 要求8位
         string encryptionKey = string.Empty;
         public EncryptionHelper()
         {

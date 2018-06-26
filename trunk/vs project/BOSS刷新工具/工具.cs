@@ -13,6 +13,7 @@ namespace BOSS刷新工具
 {
     public partial class 工具 : Form
     {
+        public static bool m_Active = false;
         private string m_ConfIni;
         ListViewColumnSorter lvwColumnSorter = new ListViewColumnSorter();
         
@@ -31,30 +32,52 @@ namespace BOSS刷新工具
         public PlayerCtrl m_PlayerCtrl = new PlayerCtrl();
         public ArmyCtrl m_ArmyCtrl = new ArmyCtrl();
 
+        private bool CheckActive()
+        {
+            try
+            {
+                //激活检测
+                string endTime = "";
+                bool ret = RegistHelper.CheckRegist(out endTime);
+                if (!ret)
+                {
+                    if (endTime != "")
+                    {
+                        MessageBox.Show("软件已经过期，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                        this.Text = this.Text + "  - 已到期 到期时间:" + endTime;
+                    }
+                    else
+                    {
+                        MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                        this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
+                    }
+                    return false;
+                }
+                else
+                {
+                    this.Text = this.Text + "  - 已激活,技术支持(QQ:384668960 到期时间:" + endTime;
+                    return true;
+                }
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
+                this.Text = this.Text + "  - 未激活,请联系管理员(QQ:384668960)";
+            }
+            return false;
+        }
+
         private void 工具_Load(object sender, EventArgs e)
         {
             bool ret = false;
-            //激活检测
-            string endTime = "";
-            ret = RegistHelper.CheckRegist(out endTime);
-            if (!ret)
+            if (!CheckActive())
             {
-                if (endTime != "")
-                {
-                    MessageBox.Show("软件已经过期，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
-                    this.Text = this.Text + "  - 已到期 到期时间:" + endTime + " (联系QQ：384668960)";
-                }
-                else 
-                {
-                    MessageBox.Show("软件尚未激活，请将目录下的ComputerInfo.key文件发给软件提供者，以获取使用权限！");
-                    this.Text = this.Text + "  - 未激活" + " (联系QQ：384668960)";
-                }
+                m_Active = false;
                 return;
             }
-            else 
-            {
-                this.Text = this.Text + "  - 已激活 到期时间:" + endTime + " (联系QQ：384668960)";
-            }
+
+            m_Active = true;
+            
 
             //生成new backup 文件夹
             if (!Directory.Exists("backup"))//如果不存在就创建文件夹
@@ -1540,6 +1563,7 @@ namespace BOSS刷新工具
         
         private void OnLoadItemModePanels(int tabNum,int page)
         {
+            if (!m_Active) return;
             List<Item_Mode_Str> modeList = ItemModeCtrl.GetItemModeList();
 
             for (int num = 0; num < 10; num++ )
