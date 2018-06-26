@@ -12,7 +12,8 @@ namespace Common
     }
     public class EncryptionHelper
     {
-        string encryptionKeyA = "pfe_Nova";
+        //string encryptionKeyA = "pfe_Nova";//网关
+        string encryptionKeyA = "pfe_Tool";//工具
         string encryptionKeyB = "WorkHard";
         string md5Begin = "Hello";
         string md5End = "World";
